@@ -1,0 +1,42 @@
+name: Daily snapshot
+
+on:
+  schedule:
+    - cron: "15 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Singapore
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Fetch latest snapshot
+        run: node scripts/fetch_locations.mjs
+
+      - name: Generate latest GeoJSON
+        run: node scripts/generate_geojson.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data latest.geojson README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update snapshot for $(date +%F)"
+          git push
