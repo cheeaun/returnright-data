@@ -9,6 +9,7 @@ const API_URL =
 const CHANGELOG_START = "<!-- CHANGELOG:START -->";
 const CHANGELOG_END = "<!-- CHANGELOG:END -->";
 const MAX_CHANGES_PER_SECTION = 20;
+const IGNORED_CHANGE_FIELDS = new Set(["rvm_last_conn", "status", "updatedAt"]);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -101,6 +102,10 @@ function diffSnapshots(previous, current) {
       const changes = {};
 
       for (const key of keys) {
+        if (IGNORED_CHANGE_FIELDS.has(key)) {
+          continue;
+        }
+
         if (oldItem[key] !== newItem[key]) {
           changes[key] = { from: oldItem[key], to: newItem[key] };
         }
@@ -195,14 +200,6 @@ function buildChangelogEntry(date, current, { added, removed, changed }) {
     .trim();
 }
 
-function splitSections(existing) {
-  return existing
-    .split("\n### ")
-    .map((part, index) => (index === 0 ? part : `### ${part}`))
-    .map((part) => part.trim())
-    .filter(Boolean);
-}
-
 async function updateReadme(entry) {
   const content = await readFile(README_PATH, "utf8");
 
@@ -212,23 +209,36 @@ async function updateReadme(entry) {
     throw new Error("README.md is missing changelog markers");
   }
 
-  const existing = content.slice(start + CHANGELOG_START.length, end).trim();
-  let sections =
-    !existing || existing === "_No changes recorded yet._" ? [] : splitSections(existing);
-
-  if (entry) {
-    const entryHeading = entry.split("\n")[0].trim();
-    sections = sections.filter((section) => !section.startsWith(entryHeading));
-    sections.unshift(entry);
-  }
-
-  const replacementBody = sections.length === 0 ? "_No changes recorded yet._" : sections.join("\n\n");
+  const replacementBody = entry || "_No changes recorded yet._";
   const replacement = `${CHANGELOG_START}\n${replacementBody}\n${CHANGELOG_END}`;
   const newContent = content.slice(0, start) + replacement + content.slice(end + CHANGELOG_END.length);
   await writeFile(README_PATH, newContent);
 }
 
+function buildChangelog(snapshots) {
+  if (snapshots.length < 2) {
+    return null;
+  }
+
+  const entries = [];
+  for (let index = snapshots.length - 1; index >= 1; index -= 1) {
+    const current = snapshots[index];
+    const previous = snapshots[index - 1];
+    entries.push(buildChangelogEntry(current.date, current, diffSnapshots(previous, current)));
+  }
+  return entries.join("\n\n");
+}
+
 async function main() {
+  const rebuildOnly = process.argv.includes("--rebuild-readme");
+  const snapshotsBeforeFetch = await latestSnapshots();
+
+  if (rebuildOnly) {
+    await updateReadme(buildChangelog(snapshotsBeforeFetch));
+    console.log(JSON.stringify({ rebuilt: true, snapshots: snapshotsBeforeFetch.length }));
+    return;
+  }
+
   await mkdir(DATA_DIR, { recursive: true });
 
   const date = snapshotDate();
@@ -242,8 +252,7 @@ async function main() {
   const previous = previousCandidates.at(-1) || null;
   const diff = diffSnapshots(previous, current);
 
-  const hasChanges = diff.added.length > 0 || diff.removed.length > 0 || diff.changed.length > 0;
-  await updateReadme(previous && hasChanges ? buildChangelogEntry(date, current, diff) : null);
+  await updateReadme(buildChangelog(snapshots));
 
   console.log(
     JSON.stringify({
