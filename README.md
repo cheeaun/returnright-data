@@ -22,6 +22,20 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-04-12
+
+- Snapshot size: **1069** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **1**
+
+Changed
+- `2566` AJMAL TRADING GROUP - Jalan Papan Aspri Westlite
+  - address: NO.5D JALAN PAPAN, #01-31 WESTLITE DORMITORY, 619421 -> 5 JALAN PAPAN #01-32, ASPRI-WESTLITE PAPAN, 619396
+  - locationName: AJMAL TRADING GROUP - Jalan Papan Westlite Dormitory -> AJMAL TRADING GROUP - Jalan Papan Aspri Westlite
+  - postalCode: 619421 -> 619396
+  - zipcode: 619421 -> 619396
+
 ### 2026-04-11
 
 No changes.
