@@ -22,6 +22,25 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-04-14
+
+- Snapshot size: **1069** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **2**
+
+Changed
+- `2342` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
+  - distance: 12915.057712132177 -> 13346.432905941527
+  - latitude: 1.37215500 -> 1.36125300
+  - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - longitude: 103.93198200 -> 103.93758600
+  - postalCode: 528765 -> 521602
+  - zipcode: 528765 -> 521602
+- `2345` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9  -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
+
 ### 2026-04-13
 
 - Snapshot size: **1069** locations
