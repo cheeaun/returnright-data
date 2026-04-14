@@ -22,6 +22,33 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-04-15
+
+- Snapshot size: **1069** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **3**
+
+Changed
+- `2342` Giant Hypermarket Tampines
+  - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> 21 Tampines North Drive 2 #03-01, 528765
+  - distance: 13346.432905941527 -> 12915.057712132177
+  - latitude: 1.36125300 -> 1.37215500
+  - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
+  - longitude: 103.93758600 -> 103.93198200
+  - postalCode: 521602 -> 528765
+  - zipcode: 521602 -> 528765
+- `2345` Giant Hypermarket Tampines
+  - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> 21 Tampines North Drive 2 #03-01, 528765
+  - distance: 13346.432905941527 -> 12915.057712132177
+  - latitude: 1.36125300 -> 1.37215500
+  - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
+  - longitude: 103.93758600 -> 103.93198200
+  - postalCode: 521602 -> 528765
+  - zipcode: 521602 -> 528765
+- `2540` Changi Airport Terminal 4
+  - address: 30 Airport Boulevard, Singapore 819662, Level 2M Outside Kopitiam, 819662 -> 10 Airport Boulevard, Singapore 819665, Level 2M Outside Kopitiam, 819662
+
 ### 2026-04-14
 
 - Snapshot size: **1069** locations
