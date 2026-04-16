@@ -22,6 +22,27 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-04-17
+
+- Snapshot size: **1069** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **3**
+
+Changed
+- `2186` Prime Supermarket 687A Woodlands Avenue 6
+  - locationName: Prime Supermarket Woodlands Avenue 6 -> Prime Supermarket 687A Woodlands Avenue 6
+- `2284` Prime Supermarket 322 Sumang Walk
+  - locationName: Prime Supermarket Sumang Walk -> Prime Supermarket 322 Sumang Walk
+- `795` Blk 348, Ubi Avenue 1
+  - address: Blk 346, Ubi Avenue 1, 400346 -> Blk 348, Ubi Avenue 1, 400348
+  - distance: 9403.796988847904 -> 9466.125672428245
+  - latitude: 1.32601400 -> 1.32615800
+  - locationName: Blk 346, Ubi Avenue 1 -> Blk 348, Ubi Avenue 1
+  - longitude: 103.89963300 -> 103.90025500
+  - postalCode: 400346 -> 400348
+  - zipcode: 400346 -> 400348
+
 ### 2026-04-16
 
 - Snapshot size: **1069** locations
