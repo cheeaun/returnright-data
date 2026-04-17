@@ -22,6 +22,29 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-04-18
+
+- Snapshot size: **1069** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **2**
+
+Changed
+- `1023` Block 272 Punggol Walk
+  - address: Block 272A Punggol Walk, 820272 -> Block 272 Punggol Walk, 820272
+  - distance: 10975.237872317544 -> 10973.722656518014
+  - latitude: 1.40299700 -> 1.40287000
+  - locationName: Block 272A Punggol Walk -> Block 272 Punggol Walk
+  - longitude: 103.90069600 -> 103.90076300
+- `1027` Block 170 Ang Mo Kio Avenue 4
+  - address: 171 Ang Mo Kio Ave 4, 560171 -> 170 Ang Mo Kio Ave 4, 560170
+  - distance: 3480.7153277680222 -> 3491.721503653183
+  - latitude: 1.37478800 -> 1.37394300
+  - locationName: Block 171 Ang Mo Kio Avenue 4 -> Block 170 Ang Mo Kio Avenue 4
+  - longitude: 103.83564600 -> 103.83700700
+  - postalCode: 560171 -> 560170
+  - zipcode: 560171 -> 560170
+
 ### 2026-04-17
 
 - Snapshot size: **1069** locations
