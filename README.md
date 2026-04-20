@@ -22,6 +22,37 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-04-21
+
+- Snapshot size: **1069** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **5**
+
+Changed
+- `194` 771 Choa Chu Kang Street 54
+  - address: 771 Choa Chu Kang Dr, 680771 -> 771 Choa Chu Kang Street 54, 680771
+  - distance: 9267.860579369799 -> 9192.773421626374
+  - latitude: 1.39549000 -> 1.39447000
+  - locationName: 771 Choa Chu Kang Dr -> 771 Choa Chu Kang Street 54
+  - longitude: 103.74910000 -> 103.74923000
+- `202` 657 Choa Chu Kang Cres
+  - distance: 9038.75455034437 -> 9531.628339568624
+  - latitude: 1.38847600 -> 1.40046200
+  - longitude: 103.74719700 -> 103.74973900
+- `441` 550 Choa Chu Kang Street 52
+  - distance: 11665.739909205853 -> 9780.793960433057
+  - latitude: 1.44416800 -> 1.39406500
+  - longitude: 103.77440800 -> 103.74272200
+- `929` Blk 2, Chai Chee Road
+  - distance: 11675.336049433368 -> 11873.618281919036
+  - latitude: 1.32259100 -> 1.32695500
+  - longitude: 103.91987100 -> 103.92272100
+- `943` Blk 50, Chai Chee Street
+  - distance: 11764.59836803133 -> 11791.705105536106
+  - latitude: 1.32891200 -> 1.32938200
+  - longitude: 103.92211300 -> 103.92245000
+
 ### 2026-04-20
 
 - Snapshot size: **1069** locations
