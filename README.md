@@ -22,6 +22,19 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-04-28
+
+- Snapshot size: **1069** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **1**
+
+Changed
+- `281` 160 Woodlands Street 13
+  - distance: 11361.440199953757 -> 10569.804920530301
+  - latitude: 1.44201000 -> 1.43332900
+  - longitude: 103.77627500 -> 103.77465200
+
 ### 2026-04-27
 
 No changes.
