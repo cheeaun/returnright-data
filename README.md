@@ -22,6 +22,27 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-04-29
+
+- Snapshot size: **1069** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **3**
+
+Changed
+- `186` 260 Boon Lay Dr
+  - distance: 12406.472251217458 -> 12251.775520502195
+  - latitude: 1.34570500 -> 1.34515700
+  - longitude: 103.70661000 -> 103.70801900
+- `211` 190 Boon Lay Dr
+  - distance: 11799.248868438399 -> 11822.608618506398
+  - latitude: 1.34533900 -> 1.34515300
+  - longitude: 103.71208600 -> 103.71188200
+- `252` 515 Jurong West Street 52
+  - distance: 11140.80988892924 -> 10871.660412984003
+  - latitude: 1.35007000 -> 1.34625000
+  - longitude: 103.71796000 -> 103.72040700
+
 ### 2026-04-28
 
 - Snapshot size: **1069** locations
