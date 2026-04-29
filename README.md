@@ -22,6 +22,20 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-04-30
+
+- Snapshot size: **1069** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **1**
+
+Changed
+- `1147` SHENG SIONG 19 SERANGOON NORTH AVE 5
+  - distance: 6664.232186103713 -> 6670.658710367321
+  - latitude: 1.37580000 -> 1.37557000
+  - locationName: SHENG SIONG 19 SERANGOON NORTH AVE 5  -> SHENG SIONG 19 SERANGOON NORTH AVE 5
+  - longitude: 103.87170000 -> 103.87188000
+
 ### 2026-04-29
 
 - Snapshot size: **1069** locations
