@@ -22,6 +22,22 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-05-03
+
+- Snapshot size: **1070** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **1**
+
+Changed
+- `929` Blk 2, Chai Chee Road
+  - address: Blk 2, Chai Chee Road, 469044 -> Blk 2, Chai Chee Road, 461002
+  - distance: 11873.618281919036 -> 11848.77444871653
+  - latitude: 1.32695500 -> 1.32699000
+  - longitude: 103.92272100 -> 103.92250000
+  - postalCode: 469044 -> 461002
+  - zipcode: 469044 -> 461002
+
 ### 2026-05-02
 
 No changes.
