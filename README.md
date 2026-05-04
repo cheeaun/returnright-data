@@ -22,6 +22,37 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-05-05
+
+- Snapshot size: **1070** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **3**
+
+Changed
+- `1158` Cold Storage Sentosa Cove
+  - distance: 11569.021929180419 -> 11547.124706719322
+  - latitude: 1.24700000 -> 1.24730900
+  - longitude: 103.83960000 -> 103.84010500
+- `2579` FairPrice Tampines Blk 138 Tampines Street 11
+  - model: null -> ""
+  - rvm_remarks: null -> ""
+  - rvm_type: null -> ""
+  - rvm_val1: null -> ""
+  - rvm_val2: null -> ""
+  - rvm_val3: null -> ""
+  - rvm_val4: null -> ""
+  - rvmOpeningHours: null -> ""
+- `2655` Prime Supermarket Blk 761 Yishun
+  - model: null -> ""
+  - rvm_remarks: null -> ""
+  - rvm_type: null -> ""
+  - rvm_val1: null -> ""
+  - rvm_val2: null -> ""
+  - rvm_val3: null -> ""
+  - rvm_val4: null -> ""
+  - rvmOpeningHours: null -> ""
+
 ### 2026-05-04
 
 No changes.
