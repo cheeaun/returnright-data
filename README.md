@@ -22,6 +22,22 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-05-10
+
+- Snapshot size: **1070** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **1**
+
+Changed
+- `2288` 417 Canberra Rd
+  - address: 417 Canberra Rd, 750417 -> 418 Canberra Rd, 750418
+  - distance: 11472.88266984599 -> 11522.865675032668
+  - latitude: 1.45198300 -> 1.45243500
+  - longitude: 103.81948900 -> 103.81927900
+  - postalCode: 750417 -> 750418
+  - zipcode: 750417 -> 750418
+
 ### 2026-05-09
 
 No changes.
