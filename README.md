@@ -22,6 +22,31 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-05-13
+
+- Snapshot size: **1070** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **2**
+
+Changed
+- `1210` FairPrice Rivervale Plaza
+  - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
+  - distance: 8810.039786921378 -> 10750.873630499158
+  - latitude: 1.37250000 -> 1.39196000
+  - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
+  - longitude: 103.89380000 -> 103.90472000
+  - postalCode: 538766 -> 540118
+  - zipcode: 538766 -> 540118
+- `850` Blk 187, Pasir Ris Street 11
+  - address: Blk 198, Pasir Ris Street 12, 510198 -> Blk 187, Pasir Ris Street 11, 510187
+  - distance: 15923.487092965383 -> 15800.480957281465
+  - latitude: 1.36689300 -> 1.36464200
+  - locationName: Blk 198, Pasir Ris Street 12 -> Blk 187, Pasir Ris Street 11
+  - longitude: 103.96026900 -> 103.95942400
+  - postalCode: 510198 -> 510187
+  - zipcode: 510198 -> 510187
+
 ### 2026-05-12
 
 No changes.
