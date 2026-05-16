@@ -22,6 +22,20 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-05-17
+
+- Snapshot size: **1071** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `2658` FairPrice Bedok Reservoir  (postal: 470745, status: MAINTENANCE)
+
+Changed
+- `960` Blk 226, Simei Street 4
+  - address: Blk 233, Simei Street 4, 520226 -> Blk 266, Simei Street 4, 520226
+
 ### 2026-05-16
 
 No changes.
