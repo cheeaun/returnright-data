@@ -22,6 +22,53 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-05-18
+
+- Snapshot size: **1071** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **9**
+
+Changed
+- `1083` SHENG SIONG BLK 52 CHIN SWEE ROAD
+  - locationName: SHENG SIONG BLK 52 CHIN SWEE ROAD  -> SHENG SIONG BLK 52 CHIN SWEE ROAD
+- `1091` SHENG SIONG BLK 410A SIN MING AVENUE
+  - locationName: SHENG SIONG BLK 410A SIN MING AVENUE  -> SHENG SIONG BLK 410A SIN MING AVENUE
+- `1178` Don Don Donki (Suntec City Mall)
+  - distance: 7463.573887841275 -> 7541.344463165305
+  - latitude: 1.29500000 -> 1.29320000
+  - longitude: 103.85830000 -> 103.85700000
+- `1321` Cold Storage Marina Bay Sands
+  - distance: 8566.775229653362 -> 8355.305789322956
+  - latitude: 1.28366000 -> 1.28622600
+  - longitude: 103.85930000 -> 103.85976400
+- `2241` SHENG SIONG BLK 675 YISHUN AVENUE 4
+  - locationName: SHENG SIONG BLK 675 YISHUN AVENUE 4  -> SHENG SIONG BLK 675 YISHUN AVENUE 4
+- `225` 201 Marsiling Dr
+  - distance: 10147.067008772485 -> 11470.26688981575
+  - latitude: 1.43573000 -> 1.44269800
+  - longitude: 103.79036200 -> 103.77542100
+- `2271` TUAS SOUTH MINIMART
+  - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
+  - distance: 7413.418910446766 -> 22118.990573825253
+  - latitude: 1.41085000 -> 1.27231800
+  - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
+  - longitude: 103.84260000 -> 103.63449900
+  - postalCode: 769162 -> 636906
+  - zipcode: 769162 -> 636906
+- `839` Blk 257, Pasir Ris Street 21
+  - distance: 16383.202394002794 -> 16305.291043589052
+  - latitude: 1.36430200 -> 1.36714600
+  - longitude: 103.96473400 -> 103.96369900
+- `846` Blk 160, Pasir Ris Street 13
+  - address: Blk 158, Pasir Ris Street 11, 510158 -> Blk 160, Pasir Ris Street 13, 510160
+  - distance: 16101.782760858221 -> 16137.252042151013
+  - latitude: 1.36457900 -> 1.36408600
+  - locationName: Blk 158, Pasir Ris Street 11 -> Blk 160, Pasir Ris Street 13
+  - longitude: 103.96215800 -> 103.96253200
+  - postalCode: 510158 -> 510160
+  - zipcode: 510158 -> 510160
+
 ### 2026-05-17
 
 - Snapshot size: **1071** locations
