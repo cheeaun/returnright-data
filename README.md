@@ -22,6 +22,16 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-05-19
+
+- Snapshot size: **1072** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `2659` TRIPLE N SUPERMART PTE LTD (postal: 415814, status: MAINTENANCE)
+
 ### 2026-05-18
 
 - Snapshot size: **1071** locations
