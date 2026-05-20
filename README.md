@@ -22,6 +22,17 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-05-21
+
+- Snapshot size: **1074** locations
+- Added: **2**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `2660` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
+- `2661` BISMILLAH MINIMART 32 MANDAI (postal: 729939, status: offline)
+
 ### 2026-05-20
 
 No changes.
