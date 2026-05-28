@@ -22,6 +22,22 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-05-29
+
+- Snapshot size: **1081** locations
+- Added: **7**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `2662` Lion City Bai Hui 349 Geylang Road (postal: 389370, status: ERROR)
+- `2668` Serangoon Garden Market (postal: 555945, status: MAINTENANCE)
+- `2669` Chomp Chomp Food Centre (postal: 557269, status: OFFLINE)
+- `2670` Fernvale Hawker Centre & Market (postal: 797650, status: MAINTENANCE)
+- `2671` Phan 66 8 Seletar North Link (postal: 797455, status: MAINTENANCE)
+- `2672` SHENG SIONG 200 UPPER THOMSON RD, THOMSON IMPERIAL COURT (postal: 574424, status: MAINTENANCE)
+- `2673` SCARLETT@AMK 710A (postal: 561710, status: MAINTENANCE)
+
 ### 2026-05-28
 
 No changes.
