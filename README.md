@@ -22,6 +22,24 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-05-30
+
+- Snapshot size: **1090** locations
+- Added: **9**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `2675` Zion Riverside Food Centre (postal: 247792, status: MAINTENANCE)
+- `2681` Beo Crescent Market (postal: 169982, status: MAINTENANCE)
+- `2682` Tiong Bahru Market (postal: 168898, status: MAINTENANCE)
+- `2683` Pasir Panjang Food Centre (postal: 118543, status: MAINTENANCE)
+- `2684` Margaret Drive Hawker Centre (postal: 142038, status: MAINTENANCE)
+- `2685` Tanglin Halt Market (postal: 148813, status: MAINTENANCE)
+- `2686` Holland Village Market and Food Centre (postal: 277700, status: MAINTENANCE)
+- `2687` Commonwealth Crescent Market (postal: 149644, status: RUNNING)
+- `2688` Adam Road Food Centre (postal: 289876, status: MAINTENANCE)
+
 ### 2026-05-29
 
 - Snapshot size: **1081** locations
