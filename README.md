@@ -22,6 +22,56 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-02
+
+- Snapshot size: **1100** locations
+- Added: **11**
+- Removed: **1**
+- Changed: **9**
+
+Added
+- `2663` 361 SEMBWANG CRESCENT (postal: 750361, status: OFFLINE)
+- `2664` YISHUN PARK HAWKER (postal: 768867, status: RUNNING)
+- `2665` SHENG SIONG BLK 120 CANBERRA CRESCENT (postal: 750120, status: RUNNING)
+- `2666` BUKIT CANBERRA HAWKER CENTRE (postal: 756973, status: RUNNING)
+- `2667` SEMBAWANG RECREATION CENTRE (postal: 759774, status: RUNNING)
+- `2674` Pasir Ris Central Hawker Centre (postal: 519641, status: RUNNING)
+- `2676` TAMAN JURONG MARKET & FOOD CENTRE (postal: 618499, status: RUNNING)
+- `2677` Senja Hawker Centre (postal: 677632, status: RUNNING)
+- `2679` BUKIT BATOK WEST HAWKER CENTRE (postal: 650469, status: RUNNING)
+- `2680` Bukit Panjang Hawker Centre (postal: 679947, status: RUNNING)
+- `2689` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
+
+Removed
+- `2660` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
+
+Changed
+- `1096` SHENG SIONG BLK 231 SUMANG LANE
+  - address: BLK 231 SUMANG LANE #01-02 , 820231 -> BLK 231 SUMANG LANE #01-02, 820231
+  - locationName: SHENG SIONG BLK 231 SUMANG LANE  -> SHENG SIONG BLK 231 SUMANG LANE
+- `1100` SHENG SIONG BLK 473 FERNVALE STREET
+  - locationName: SHENG SIONG BLK 473 FERNVALE STREET  -> SHENG SIONG BLK 473 FERNVALE STREET
+- `1117` FairPrice 682 Hougang Avenue 4
+  - address: Block 682 Hougang Avenue 4 #01-310 , 530682 -> Block 682 Hougang Avenue 4 #01-310, 530682
+  - locationName: FairPrice Hougang 682 -> FairPrice 682 Hougang Avenue 4
+- `254` 618 Choa Chu Kang North 7
+  - distance: 10282.605759321848 -> 9747.099555948653
+  - latitude: 1.40074500 -> 1.39868100
+  - longitude: 103.74163500 -> 103.74606000
+- `2661` BISMILLAH MINIMART 32 MANDAI
+  - supplierId: null -> SGRECYCLE001
+- `2662` Lion City Supermarket Geylang Road
+  - locationName: Lion City Bai Hui 349 Geylang Road -> Lion City Supermarket Geylang Road
+- `2671` Phan 66 PPT Lodge 1A Dormitory
+  - address: 8 Seletar North Link #01-03, 797455 -> 8 Seletar North Link #01-03, PPT Lodge 1A, 797455
+  - locationName: Phan 66 8 Seletar North Link -> Phan 66 PPT Lodge 1A Dormitory
+- `2672` SHENG SIONG THOMSON IMPERIAL COURT
+  - locationName: SHENG SIONG 200 UPPER THOMSON RD, THOMSON IMPERIAL COURT -> SHENG SIONG THOMSON IMPERIAL COURT
+- `458` 330 Clementi Ave 2
+  - distance: 6855.361676726628 -> 6821.097333120161
+  - latitude: 1.31417000 -> 1.31374300
+  - longitude: 103.76716000 -> 103.76782800
+
 ### 2026-06-01
 
 No changes.
