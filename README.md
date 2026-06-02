@@ -22,6 +22,23 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-03
+
+- Snapshot size: **1101** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `2678` SACHI MINIMART PTE LTD (postal: 608537, status: RUNNING)
+
+Changed
+- `2663` 361 Sembawang Crescent
+  - distance: 10893.183682445024 -> 10861.487359509132
+  - latitude: 1.44657900 -> 1.44640100
+  - locationName: 361 SEMBWANG CRESCENT -> 361 Sembawang Crescent
+  - longitude: 103.81192800 -> 103.81393200
+
 ### 2026-06-02
 
 - Snapshot size: **1100** locations
