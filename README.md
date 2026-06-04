@@ -22,6 +22,20 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-05
+
+- Snapshot size: **1103** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `2620` Bazaar Westlite Toh Guan Dormitory (postal: 608596, status: RUNNING)
+
+Changed
+- `2226` SHENG SIONG BLK 547 SEGAR RD
+  - locationName: SHENG SIONG BLK 547 SEGAR RD  -> SHENG SIONG BLK 547 SEGAR RD
+
 ### 2026-06-04
 
 - Snapshot size: **1102** locations
