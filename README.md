@@ -22,6 +22,20 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-09
+
+- Snapshot size: **1107** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **2**
+
+Changed
+- `2656` All India Supermart Pte Ltd
+  - address: 41 NORRIS RD, 208282 -> 41 Norris Road, 208282
+  - locationName: ALL INDIA SUPERMART PTE LTD -> All India Supermart Pte Ltd
+- `2728` 628 Ang Mo Kio Food Centre
+  - locationName: Ang Mo Kio 628 Market -> 628 Ang Mo Kio Food Centre
+
 ### 2026-06-08
 
 - Snapshot size: **1107** locations
