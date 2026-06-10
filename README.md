@@ -22,6 +22,20 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-11
+
+- Snapshot size: **1108** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `2725` 724 AMK Market & Food Centre (postal: 560724, status: RUNNING)
+
+Changed
+- `2186` Prime Supermarket 678A Woodlands Avenue 6
+  - locationName: Prime Supermarket 687A Woodlands Avenue 6 -> Prime Supermarket 678A Woodlands Avenue 6
+
 ### 2026-06-10
 
 No changes.
