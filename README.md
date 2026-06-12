@@ -22,6 +22,31 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-13
+
+- Snapshot size: **1116** locations
+- Added: **8**
+- Removed: **0**
+- Changed: **3**
+
+Added
+- `2734` Cold Storage Orchard Hotel (postal: 238879, status: MAINTENANCE)
+- `2735` SHENG SIONG NEW BRIDGE CENTRE (postal: 050336, status: UNKNOWN)
+- `2736` Redhill Food Centre (postal: 150085, status: UNKNOWN)
+- `2737` Alexandra Village Food Centre (postal: 150120, status: MAINTENANCE)
+- `2738` Mei Chin Road Market (postal: 140159, status: MAINTENANCE)
+- `2739` National University of Singapore (NUS) Frontier Canteen (postal: 117543, status: MAINTENANCE)
+- `2740` Toa Payoh Vista Market (postal: 310074, status: MAINTENANCE)
+- `2741` Mayflower Market (postal: 560162, status: MAINTENANCE)
+
+Changed
+- `2177` SHENG SIONG BLK 643 SENJA CLOSE
+  - locationName: SHENG SIONG BLK 643 SENJA CLOSE  -> SHENG SIONG BLK 643 SENJA CLOSE
+- `2725` Ang Mo Kio Market & Food Centre Blk 724
+  - locationName: 724 AMK Market & Food Centre -> Ang Mo Kio Market & Food Centre Blk 724
+- `2727` Kebun Baru Food Centre Block 226H
+  - locationName: Kebun Baru Food Centre -> Kebun Baru Food Centre Block 226H
+
 ### 2026-06-12
 
 No changes.
