@@ -22,6 +22,16 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-15
+
+- Snapshot size: **1117** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `2722` Dunman Food Centre (postal: 424768, status: RUNNING)
+
 ### 2026-06-14
 
 No changes.
