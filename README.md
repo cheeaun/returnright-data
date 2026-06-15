@@ -22,6 +22,46 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-16
+
+- Snapshot size: **1122** locations
+- Added: **5**
+- Removed: **0**
+- Changed: **3**
+
+Added
+- `2733` Fairprice Joo Chiat Complex (postal: 420002, status: OFFLINE)
+- `2743` Phan 99 2 SELETAR NORTH LINK (postal: 797601, status: offline)
+- `2744` Food Joy Buona Vista (postal: 118157, status: offline)
+- `2745` Supernature Dempsey Road (postal: 249686, status: offline)
+- `2746` Culina 15 Dempsey (postal: 249675, status: offline)
+
+Changed
+- `1117` FairPrice Rivervale Mall
+  - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
+  - distance: 8024.594921604226 -> 10755.841199964072
+  - latitude: 1.37453000 -> 1.39210000
+  - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
+  - longitude: 103.88562000 -> 103.90470000
+  - postalCode: 530682 -> 545082
+  - zipcode: 530682 -> 545082
+- `2353` FairPrice Tampines Mall
+  - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
+  - distance: 13507.901205668355 -> 14067.905591355227
+  - latitude: 1.35278200 -> 1.35245700
+  - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
+  - longitude: 103.93962000 -> 103.94467000
+  - postalCode: 528523 -> 529510
+  - zipcode: 528523 -> 529510
+- `2513` FairPrice Tampines Mall
+  - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
+  - distance: 13507.901205668355 -> 14067.905591355227
+  - latitude: 1.35278200 -> 1.35245700
+  - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
+  - longitude: 103.93962000 -> 103.94467000
+  - postalCode: 528523 -> 529510
+  - zipcode: 528523 -> 529510
+
 ### 2026-06-15
 
 - Snapshot size: **1117** locations
