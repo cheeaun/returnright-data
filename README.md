@@ -22,6 +22,20 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-17
+
+- Snapshot size: **1127** locations
+- Added: **5**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `2732` ITE College East (postal: 486047, status: ERROR)
+- `2747` Little India - Klang - 672 Klang Lane (postal: 211672, status: MAINTENANCE)
+- `2748` Pek Kio Market & Food Centre (postal: 211041, status: MAINTENANCE)
+- `2749` Bukit Merah Central Food Centre (postal: 150163, status: MAINTENANCE)
+- `2750` Blk 115 Bukit Merah View Market and Food Centre (postal: 151115, status: MAINTENANCE)
+
 ### 2026-06-16
 
 - Snapshot size: **1122** locations
