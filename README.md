@@ -22,6 +22,31 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-19
+
+- Snapshot size: **1128** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **2**
+
+Changed
+- `2353` FairPrice Tampines Mall
+  - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
+  - distance: 13507.901205668355 -> 14067.905591355227
+  - latitude: 1.35278200 -> 1.35245700
+  - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
+  - longitude: 103.93962000 -> 103.94467000
+  - postalCode: 528523 -> 529510
+  - zipcode: 528523 -> 529510
+- `2513` FairPrice Tampines Mall
+  - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
+  - distance: 13507.901205668355 -> 14067.905591355227
+  - latitude: 1.35278200 -> 1.35245700
+  - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
+  - longitude: 103.93962000 -> 103.94467000
+  - postalCode: 528523 -> 529510
+  - zipcode: 528523 -> 529510
+
 ### 2026-06-18
 
 - Snapshot size: **1128** locations
