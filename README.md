@@ -22,6 +22,42 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-20
+
+- Snapshot size: **1135** locations
+- Added: **7**
+- Removed: **0**
+- Changed: **3**
+
+Added
+- `2754` Tekka Centre / Zhu Jiao Market (postal: 210665, status: UNKNOWN)
+- `2755` Blk 6 Tanjong Pagar Plaza Market and Food Centre (postal: 081006, status: UNKNOWN)
+- `2756` Blk 112 Jalan Bukit Merah Market and Food Centre (postal: 160112, status: UNKNOWN)
+- `2757` Toa Payoh Lorong 8 Blk 210 Hawker Centre (postal: 310210, status: MAINTENANCE)
+- `2758` Holland Drive Market and Food Centre (postal: 270044, status: UNKNOWN)
+- `2759` Toa Payoh Lorong 4 Blk 94 Hawker Centre (postal: 310094, status: UNKNOWN)
+- `2760` MSE Family Go Green Week’s Sustainability Fair (postal: 228231, status: offline)
+
+Changed
+- `2353` FairPrice Our Tampines Hub
+  - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
+  - distance: 14067.905591355227 -> 13507.901205668355
+  - latitude: 1.35245700 -> 1.35278200
+  - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
+  - longitude: 103.94467000 -> 103.93962000
+  - postalCode: 529510 -> 528523
+  - zipcode: 529510 -> 528523
+- `2513` FairPrice Our Tampines Hub
+  - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
+  - distance: 14067.905591355227 -> 13507.901205668355
+  - latitude: 1.35245700 -> 1.35278200
+  - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
+  - longitude: 103.94467000 -> 103.93962000
+  - postalCode: 529510 -> 528523
+  - zipcode: 529510 -> 528523
+- `2747` 672 Klang Lane- Little India
+  - locationName: Little India - Klang - 672 Klang Lane -> 672 Klang Lane- Little India
+
 ### 2026-06-19
 
 - Snapshot size: **1128** locations
