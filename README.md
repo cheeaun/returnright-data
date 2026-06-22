@@ -22,6 +22,28 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-23
+
+- Snapshot size: **1138** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **2**
+
+Added
+- `2753` Haig Road Hawker Centre (postal: 430014, status: ERROR)
+
+Changed
+- `1117` FairPrice Rivervale Mall
+  - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
+  - distance: 8024.594921604226 -> 10755.841199964072
+  - latitude: 1.37453000 -> 1.39210000
+  - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
+  - longitude: 103.88562000 -> 103.90470000
+  - postalCode: 530682 -> 545082
+  - zipcode: 530682 -> 545082
+- `2752` Eunos Crescent Blk 4A Hawker Centre
+  - locationName: Eunos Crescent Blk 4A -> Eunos Crescent Blk 4A Hawker Centre
+
 ### 2026-06-22
 
 - Snapshot size: **1137** locations
