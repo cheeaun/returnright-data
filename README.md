@@ -22,6 +22,28 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-27
+
+- Snapshot size: **1143** locations
+- Added: **3**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `2769` Telok Blangah Rise Market (postal: 090036, status: UNKNOWN)
+- `2770` Toa Payoh West Market and Food Court (postal: 310127, status: UNKNOWN)
+- `2771` Li Li Cheng Punggol (postal: 823273, status: MAINTENANCE)
+
+Changed
+- `1117` FairPrice 682 Hougang Avenue 4
+  - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
+  - distance: 10755.841199964072 -> 8024.594921604226
+  - latitude: 1.39210000 -> 1.37453000
+  - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
+  - longitude: 103.90470000 -> 103.88562000
+  - postalCode: 545082 -> 530682
+  - zipcode: 545082 -> 530682
+
 ### 2026-06-26
 
 No changes.
