@@ -22,6 +22,44 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-28
+
+- Snapshot size: **1143** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **7**
+
+Changed
+- `1210` FairPrice Hougang Mall
+  - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
+  - distance: 10750.873630499158 -> 8810.039786921378
+  - latitude: 1.39196000 -> 1.37250000
+  - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
+  - longitude: 103.90472000 -> 103.89380000
+  - postalCode: 540118 -> 538766
+  - zipcode: 540118 -> 538766
+- `1964` Thai Supermarket Pte Ltd
+  - address: 12 KALLANG AVENUE #01-09/15,#01-17/19, APERIA, 339511 -> 12 Kallang Avenue, #01-20, 339511
+  - distance: 6725.4116193552145 -> 6726.937470865263
+  - locationName: Thai Supermarket Aperia Mall -> Thai Supermarket Pte Ltd
+  - longitude: 103.86430200 -> 103.86432000
+- `2271` FairPrice Orchid Country Club
+  - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
+  - distance: 22118.990573825253 -> 7413.418910446766
+  - latitude: 1.27231800 -> 1.41085000
+  - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
+  - longitude: 103.63449900 -> 103.84260000
+  - postalCode: 636906 -> 769162
+  - zipcode: 636906 -> 769162
+- `2760` MSE Family Go Green Week’s Sustainability Fair
+  - supplierId: null -> TOMRA001
+- `2769` Telok Blangah Rise Market
+  - supplierId: null -> TOMRA001
+- `2770` Toa Payoh West Market and Food Court
+  - supplierId: null -> TOMRA001
+- `2771` Li Li Cheng Punggol
+  - supplierId: null -> TOMRA001
+
 ### 2026-06-27
 
 - Snapshot size: **1143** locations
