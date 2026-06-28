@@ -22,6 +22,20 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-29
+
+- Snapshot size: **1148** locations
+- Added: **5**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `2761` 4A Jln Batu (postal: 432004, status: MAINTENANCE)
+- `2762` 50A Marine Ter (postal: 441050, status: MAINTENANCE)
+- `2763` 84 Marine Parade Central (postal: 440084, status: MAINTENANCE)
+- `2764` 511 Bedok North Street 3 (postal: 460511, status: MAINTENANCE)
+- `2765` 538 Bedok North Street 3 (postal: 460538, status: MAINTENANCE)
+
 ### 2026-06-28
 
 - Snapshot size: **1143** locations
