@@ -22,6 +22,72 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-06-30
+
+- Snapshot size: **1152** locations
+- Added: **4**
+- Removed: **0**
+- Changed: **12**
+
+Added
+- `2657` Blk 72, Marine Drive (postal: 440072, status: RUNNING)
+- `2723` Kovan Hougang Market and Food Centre (postal: 530209, status: UNKNOWN)
+- `2724` Hougang 105 Hainanese Village Centre (postal: 530105, status: UNKNOWN)
+- `2781` Marks & Spencer Raffles City (postal: 179103, status: offline)
+
+Changed
+- `1117` FairPrice Rivervale Mall
+  - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
+  - distance: 8024.594921604226 -> 10755.841199964072
+  - latitude: 1.37453000 -> 1.39210000
+  - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
+  - longitude: 103.88562000 -> 103.90470000
+  - postalCode: 530682 -> 545082
+  - zipcode: 530682 -> 545082
+- `1210` FairPrice Rivervale Plaza
+  - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
+  - distance: 8810.039786921378 -> 10750.873630499158
+  - latitude: 1.37250000 -> 1.39196000
+  - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
+  - longitude: 103.89380000 -> 103.90472000
+  - postalCode: 538766 -> 540118
+  - zipcode: 538766 -> 540118
+- `2353` FairPrice Our Tampines Hub
+  - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
+  - distance: 14067.905591355227 -> 13507.901205668355
+  - latitude: 1.35245700 -> 1.35278200
+  - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
+  - longitude: 103.94467000 -> 103.93962000
+  - postalCode: 529510 -> 528523
+  - zipcode: 529510 -> 528523
+- `2513` FairPrice Our Tampines Hub
+  - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
+  - distance: 14067.905591355227 -> 13507.901205668355
+  - latitude: 1.35245700 -> 1.35278200
+  - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
+  - longitude: 103.94467000 -> 103.93962000
+  - postalCode: 529510 -> 528523
+  - zipcode: 529510 -> 528523
+- `2731` Fairprice Jewel
+  - address: 78 Airport Boulevard #B2-205 to 208 Jewel Changi Airport (819666), 819666 -> 78 Airport Boulevard #B2-205 to 206 Jewel Changi Airport (819666), 819666
+- `2733` Fairprice Joo Chiat Complex
+  - address: Blk 2 Joo Chiat Road #01-1139 / #02-1139 Joo Chiat Complex (420002), 420002 -> Blk 2 Joo Chiat Road #01-1139 Joo Chiat Complex (420002), 420002
+- `2753` Haig Road Market & Cooked Food Centre
+  - address: Haig Road Blk 13/14, 430014 -> 14 Haig Road, 430014
+  - locationName: Haig Road Hawker Centre -> Haig Road Market & Cooked Food Centre
+- `2761` Blk 4A Jalan Batu Hawker Centre
+  - address: 4A Jln Batu, 432004 -> 4A Jalan Batu, 432004
+  - locationName: 4A Jln Batu -> Blk 4A Jalan Batu Hawker Centre
+- `2762` 50A Marine Terrace Hawker Centre
+  - address: 50A Marine Ter, 441050 -> 50A Marine Terrace, 441050
+  - locationName: 50A Marine Ter -> 50A Marine Terrace Hawker Centre
+- `2763` 84 Marine Parade Central Market and Food Centre
+  - locationName: 84 Marine Parade Central -> 84 Marine Parade Central Market and Food Centre
+- `2764` Kaki Bukit 511 Market and Food Centre
+  - locationName: 511 Bedok North Street 3 -> Kaki Bukit 511 Market and Food Centre
+- `2765` Bedok North Street 3 Blk 538 Hawker Centre
+  - locationName: 538 Bedok North Street 3 -> Bedok North Street 3 Blk 538 Hawker Centre
+
 ### 2026-06-29
 
 - Snapshot size: **1148** locations
