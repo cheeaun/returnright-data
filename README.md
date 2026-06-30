@@ -22,6 +22,30 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-01
+
+- Snapshot size: **1163** locations
+- Added: **11**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `2726` Teck Ghee Court Market & Food Centre (postal: 560341, status: RUNNING)
+- `2772` 20 Marsiling Lane Food Centre (postal: 730020, status: RUNNING)
+- `2773` 353 Clementi Food Center (postal: 120353, status: MAINTENANCE)
+- `2774` 445 Clementi Avenue 3 (postal: 121445, status: OFFLINE)
+- `2775` 726 Clementi West Market (postal: 120726, status: RUNNING)
+- `2776` 252 Jurong East Street 24 (postal: 600252, status: RUNNING)
+- `2777` Teban Market Place (postal: 601037, status: MAINTENANCE)
+- `2778` 505 Jurong West Market (postal: 640505, status: MAINTENANCE)
+- `2779` 221A Boon Lay Market (postal: 641221, status: MAINTENANCE)
+- `2782` 573B Woodlands Drive 16 (postal: 732573, status: RUNNING)
+- `2783` Republic Polytechnic (postal: 738964, status: RUNNING)
+
+Changed
+- `2450` Sparrows 206 Bedok North Street 1
+  - address: 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE , 460206 -> 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206
+
 ### 2026-06-30
 
 - Snapshot size: **1152** locations
