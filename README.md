@@ -22,6 +22,41 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-02
+
+- Snapshot size: **1163** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **6**
+
+Changed
+- `2772` 20 Marsiling Lane Food Centre
+  - address: 20 Marsiling Ln, Singapore 730020, 730020 -> 20 Marsiling Lane, Singapore 730020, 730020
+  - distance: 11555.520686688702 -> 11480.412262250695
+  - latitude: 1.44380900 -> 1.44349800
+  - longitude: 103.77602300 -> 103.77699500
+- `2775` West Coast Market Square
+  - distance: 8059.465694272298 -> 7815.926037360959
+  - latitude: 1.30307000 -> 1.30374700
+  - locationName: 726 Clementi West Market -> West Coast Market Square
+  - longitude: 103.76193400 -> 103.76421500
+- `2776` 252 Jurong East Street 24
+  - distance: 9234.986622565879 -> 8910.49374157762
+  - latitude: 1.34323600 -> 1.34307900
+  - longitude: 103.73528400 -> 103.73822100
+- `2778` 505 Jurong West Market & Food Centre
+  - distance: 11366.699833828243 -> 11076.798190458816
+  - locationName: 505 Jurong West Market -> 505 Jurong West Market & Food Centre
+  - longitude: 103.71592500 -> 103.71853300
+- `2779` 221A Boon Lay Market
+  - distance: 11919.689763057619 -> 11685.314320757858
+  - latitude: 1.34524700 -> 1.34584300
+  - longitude: 103.71100500 -> 103.71309600
+- `2782` 573B Woodlands Drive 16
+  - distance: 9473.088969163866 -> 9406.177333585385
+  - latitude: 1.43085800 -> 1.43091100
+  - longitude: 103.79521700 -> 103.79777600
+
 ### 2026-07-01
 
 - Snapshot size: **1163** locations
