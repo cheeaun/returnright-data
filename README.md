@@ -22,6 +22,84 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-03
+
+- Snapshot size: **1163** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **10**
+
+Changed
+- `1210` FairPrice Hougang Mall
+  - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
+  - distance: 10750.873630499158 -> 8810.039786921378
+  - latitude: 1.39196000 -> 1.37250000
+  - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
+  - longitude: 103.90472000 -> 103.89380000
+  - postalCode: 540118 -> 538766
+  - zipcode: 540118 -> 538766
+- `1964` Thai Supermarket Aperia Mall
+  - address: 12 Kallang Avenue, #01-20, 339511 -> 12 KALLANG AVENUE #01-09/15,#01-17/19, APERIA, 339511
+  - distance: 6726.937470865263 -> 6725.4116193552145
+  - locationName: Thai Supermarket Pte Ltd -> Thai Supermarket Aperia Mall
+  - longitude: 103.86432000 -> 103.86430200
+- `2271` TUAS SOUTH MINIMART
+  - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
+  - distance: 7413.418910446766 -> 22118.990573825253
+  - latitude: 1.41085000 -> 1.27231800
+  - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
+  - longitude: 103.84260000 -> 103.63449900
+  - postalCode: 769162 -> 636906
+  - zipcode: 769162 -> 636906
+- `2342` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
+  - distance: 12915.057712132177 -> 13346.432905941527
+  - latitude: 1.37215500 -> 1.36125300
+  - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - longitude: 103.93198200 -> 103.93758600
+  - postalCode: 528765 -> 521602
+  - zipcode: 528765 -> 521602
+- `2345` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
+  - distance: 12915.057712132177 -> 13346.432905941527
+  - latitude: 1.37215500 -> 1.36125300
+  - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - longitude: 103.93198200 -> 103.93758600
+  - postalCode: 528765 -> 521602
+  - zipcode: 528765 -> 521602
+- `2353` FairPrice Tampines Mall
+  - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
+  - distance: 13507.901205668355 -> 14067.905591355227
+  - latitude: 1.35278200 -> 1.35245700
+  - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
+  - longitude: 103.93962000 -> 103.94467000
+  - postalCode: 528523 -> 529510
+  - zipcode: 528523 -> 529510
+- `2513` FairPrice Tampines Mall
+  - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
+  - distance: 13507.901205668355 -> 14067.905591355227
+  - latitude: 1.35278200 -> 1.35245700
+  - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
+  - longitude: 103.93962000 -> 103.94467000
+  - postalCode: 528523 -> 529510
+  - zipcode: 528523 -> 529510
+- `2515` Kampung Admiralty Hawker Centre
+  - distance: 10449.133645430153 -> 10336.300534131246
+  - latitude: 1.44122000 -> 1.44010900
+  - longitude: 103.80109000 -> 103.80067300
+- `2760` 20 Ghim Moh Road Market & Food Centre
+  - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
+  - distance: 4699.31852172609 -> 5352.190166724526
+  - latitude: 1.31063600 -> 1.31113400
+  - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
+  - longitude: 103.83630300 -> 103.78821200
+  - postalCode: 228231 -> 270020
+  - zipcode: 228231 -> 270020
+- `282` 310 Woodlands Street 31
+  - distance: 10280.708764880477 -> 10187.026826427751
+  - latitude: 1.42991800 -> 1.43013500
+  - longitude: 103.77377100 -> 103.77597000
+
 ### 2026-07-02
 
 - Snapshot size: **1163** locations
