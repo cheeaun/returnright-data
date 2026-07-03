@@ -22,6 +22,22 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-04
+
+- Snapshot size: **1164** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `2784` SCARLETT@PASIR RIS MALL (postal: 519612, status: RUNNING)
+
+Changed
+- `2735` SHENG SIONG NEW BRIDGE CENTRE
+  - distance: 4750.859525445587 -> 7818.577831132404
+  - latitude: 1.30743500 -> 1.28286400
+  - longitude: 103.82881900 -> 103.84256600
+
 ### 2026-07-03
 
 - Snapshot size: **1163** locations
