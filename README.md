@@ -22,6 +22,26 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-05
+
+- Snapshot size: **1165** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `2786` Empress Road Market and Food Centre (postal: 260007, status: RUNNING)
+
+Changed
+- `1210` FairPrice Rivervale Plaza
+  - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
+  - distance: 8810.039786921378 -> 10750.873630499158
+  - latitude: 1.37250000 -> 1.39196000
+  - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
+  - longitude: 103.89380000 -> 103.90472000
+  - postalCode: 538766 -> 540118
+  - zipcode: 538766 -> 540118
+
 ### 2026-07-04
 
 - Snapshot size: **1164** locations
