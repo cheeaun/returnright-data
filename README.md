@@ -22,6 +22,28 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-06
+
+- Snapshot size: **1165** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **2**
+
+Changed
+- `1210` FairPrice Hougang Mall
+  - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
+  - distance: 10750.873630499158 -> 8810.039786921378
+  - latitude: 1.39196000 -> 1.37250000
+  - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
+  - longitude: 103.90472000 -> 103.89380000
+  - postalCode: 540118 -> 538766
+  - zipcode: 540118 -> 538766
+- `2450` Sparrows 206 Bedok North Street 1
+  - address: 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206 -> 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206
+  - distance: 12784.337487471297 -> 12781.77135348191
+  - latitude: 1.32642100 -> 1.32646400
+  - longitude: 103.93097300 -> 103.93095800
+
 ### 2026-07-05
 
 - Snapshot size: **1165** locations
