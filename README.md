@@ -22,6 +22,73 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-07
+
+- Snapshot size: **1174** locations
+- Added: **15**
+- Removed: **6**
+- Changed: **5**
+
+Added
+- `2780` Bedok Reservoir Food Centre (postal: 470630, status: RUNNING)
+- `2785` Cold Storage Pasir Ris Mall (postal: 519612, status: RUNNING)
+- `2789` Lau Pa Sat Hawker Centre (postal: 048582, status: UNKNOWN)
+- `2790` Telok Blangah Food Centre (postal: 100079, status: MAINTENANCE)
+- `2791` Block 44 Telok Blangah Drive (postal: 100044, status: MAINTENANCE)
+- `2792` MacPherson Market & Food Centre (postal: 370089, status: MAINTENANCE)
+- `2793` 79/79A Circuit Road Hawker Centre (postal: 370079, status: ERROR)
+- `2794` 80 Circuit Road Market and Food Centre (postal: 370080, status: UNKNOWN)
+- `2795` 225 Ang Mo Kio Ave 1 (postal: 560225, status: UNKNOWN)
+- `2796` Blk 72, Marine Drive (postal: 440072, status: offline)
+- `2797` Food Joy Buona Vista (postal: 118157, status: offline)
+- `2798` Phan 99 2 SELETAR NORTH LINK (postal: 797601, status: offline)
+- `2799` Supernature Dempsey Road (postal: 249686, status: offline)
+- `2800` Culina 15 Dempsey (postal: 249675, status: offline)
+- `2801` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
+
+Removed
+- `2689` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
+- `2743` Phan 99 2 SELETAR NORTH LINK (postal: 797601, status: offline)
+- `2744` Food Joy Buona Vista (postal: 118157, status: offline)
+- `2745` Supernature Dempsey Road (postal: 249686, status: offline)
+- `2746` Culina 15 Dempsey (postal: 249675, status: offline)
+- `773` Blk 72, Marine Drive (postal: 440072, status: OFFLINE)
+
+Changed
+- `2342` Giant Hypermarket Tampines
+  - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> 21 Tampines North Drive 2 #03-01, 528765
+  - distance: 13346.432905941527 -> 12915.057712132177
+  - latitude: 1.36125300 -> 1.37215500
+  - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
+  - longitude: 103.93758600 -> 103.93198200
+  - postalCode: 521602 -> 528765
+  - zipcode: 521602 -> 528765
+- `2345` Giant Hypermarket Tampines
+  - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> 21 Tampines North Drive 2 #03-01, 528765
+  - distance: 13346.432905941527 -> 12915.057712132177
+  - latitude: 1.36125300 -> 1.37215500
+  - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
+  - longitude: 103.93758600 -> 103.93198200
+  - postalCode: 521602 -> 528765
+  - zipcode: 521602 -> 528765
+- `2358` ONE Supermarket Pte. Ltd.
+  - address: Blk 201B Tampines Street 21, 522201 -> Blk 201B Tampines St 21, #01-1091, 522201
+  - distance: 14992.565058597489 -> 15005.351469190593
+  - latitude: 1.35344200 -> 1.35338600
+  - locationName: One Supermarket Blk 201B Tampines Street 21 -> ONE Supermarket Pte. Ltd.
+  - longitude: 103.95296100 -> 103.95307800
+- `2553` FORTUNE SUPERMARKET 780
+  - address: Block 780 Woodlands Crescent #01-01, 730780 -> BLK 780 WOODLANDS CRESCENT #01-01 SINGAPORE, 730780
+  - locationName: Fortune blk 780 Woodlands Cresent -> FORTUNE SUPERMARKET 780
+- `2760` MSE Family Go Green Week’s Sustainability Fair
+  - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
+  - distance: 5352.190166724526 -> 4699.31852172609
+  - latitude: 1.31113400 -> 1.31063600
+  - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
+  - longitude: 103.78821200 -> 103.83630300
+  - postalCode: 270020 -> 228231
+  - zipcode: 270020 -> 228231
+
 ### 2026-07-06
 
 - Snapshot size: **1165** locations
