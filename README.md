@@ -22,6 +22,33 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-09
+
+- Snapshot size: **1174** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **4**
+
+Changed
+- `1097` SHENG SIONG BLK 622D PUNGGOL CENTRAL
+  - locationName: SHENG SIONG BLK 622D PUNGGOL CENTRAL  -> SHENG SIONG BLK 622D PUNGGOL CENTRAL
+- `2217` SHENG SIONG BLK 471B YISHUN STREET 42
+  - locationName: SHENG SIONG BLK 471B YISHUN STREET 42  -> SHENG SIONG BLK 471B YISHUN STREET 42
+- `2358` One Supermarket Blk 201B Tampines Street 21
+  - address: Blk 201B Tampines St 21, #01-1091, 522201 -> Blk 201B Tampines Street 21, 522201
+  - distance: 15005.351469190593 -> 14992.565058597489
+  - latitude: 1.35338600 -> 1.35344200
+  - locationName: ONE Supermarket Pte. Ltd. -> One Supermarket Blk 201B Tampines Street 21
+  - longitude: 103.95307800 -> 103.95296100
+- `2760` 20 Ghim Moh Road Market & Food Centre
+  - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
+  - distance: 4699.31852172609 -> 5352.190166724526
+  - latitude: 1.31063600 -> 1.31113400
+  - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
+  - longitude: 103.83630300 -> 103.78821200
+  - postalCode: 228231 -> 270020
+  - zipcode: 228231 -> 270020
+
 ### 2026-07-08
 
 - Snapshot size: **1174** locations
