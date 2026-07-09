@@ -22,6 +22,61 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-10
+
+- Snapshot size: **1175** locations
+- Added: **3**
+- Removed: **2**
+- Changed: **12**
+
+Added
+- `2802` People's Park Food Centre (postal: 050032, status: MAINTENANCE)
+- `2803` Cold Storage Pasir Ris Mall (postal: 519612, status: offline)
+- `2804` SCARLETT@PASIR RIS MALL (postal: 519612, status: offline)
+
+Removed
+- `2412` Cold Storage Pasir Ris Mall (postal: 519612, status: OFFLINE)
+- `2784` SCARLETT@PASIR RIS MALL (postal: 519612, status: OFFLINE)
+
+Changed
+- `1301` National University of Singapore 36 College Avenue East
+  - locationName: NUS 36 College Avenue East -> National University of Singapore 36 College Avenue East
+- `1319` FairPrice Alexandra Retail Centre ARC (PSA Branch)
+  - locationName: FairPrice PSA -> FairPrice Alexandra Retail Centre ARC (PSA Branch)
+- `2353` FairPrice Our Tampines Hub
+  - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
+  - distance: 14067.905591355227 -> 13507.901205668355
+  - latitude: 1.35245700 -> 1.35278200
+  - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
+  - longitude: 103.94467000 -> 103.93962000
+  - postalCode: 529510 -> 528523
+  - zipcode: 529510 -> 528523
+- `2410` Food-Joy Buona Vista
+  - locationName: Foodjoy Buona Vista -> Food-Joy Buona Vista
+- `2513` FairPrice Our Tampines Hub
+  - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
+  - distance: 14067.905591355227 -> 13507.901205668355
+  - latitude: 1.35245700 -> 1.35278200
+  - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
+  - longitude: 103.94467000 -> 103.93962000
+  - postalCode: 529510 -> 528523
+  - zipcode: 529510 -> 528523
+- `2553` Fortune blk 780 Woodlands Cresent
+  - address: BLK 780 WOODLANDS CRESCENT #01-01 SINGAPORE, 730780 -> Block 780 Woodlands Crescent #01-01, 730780
+  - locationName: FORTUNE SUPERMARKET 780 -> Fortune blk 780 Woodlands Cresent
+- `2664` Yishun Park Hawker
+  - locationName: YISHUN PARK HAWKER -> Yishun Park Hawker
+- `2666` Bukit Canberra Hawker Centre
+  - locationName: BUKIT CANBERRA HAWKER CENTRE -> Bukit Canberra Hawker Centre
+- `2667` Sembawang Recreation Centre
+  - locationName: SEMBAWANG RECREATION CENTRE -> Sembawang Recreation Centre
+- `2676` Taman Jurong Market & Food Centre
+  - locationName: TAMAN JURONG MARKET & FOOD CENTRE -> Taman Jurong Market & Food Centre
+- `2679` Bukit Batok West Hawker Centre
+  - locationName: BUKIT BATOK WEST HAWKER CENTRE -> Bukit Batok West Hawker Centre
+- `2747` 672 Klang Lane - Little India
+  - locationName: 672 Klang Lane- Little India -> 672 Klang Lane - Little India
+
 ### 2026-07-09
 
 - Snapshot size: **1174** locations
