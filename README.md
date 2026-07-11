@@ -22,6 +22,47 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-12
+
+- Snapshot size: **1176** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **5**
+
+Added
+- `2766` Shunfu-Mart (postal: 570320, status: RUNNING)
+
+Changed
+- `1117` FairPrice 682 Hougang Avenue 4
+  - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
+  - distance: 10755.841199964072 -> 8024.594921604226
+  - latitude: 1.39210000 -> 1.37453000
+  - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
+  - longitude: 103.90470000 -> 103.88562000
+  - postalCode: 545082 -> 530682
+  - zipcode: 545082 -> 530682
+- `2358` ONE Supermarket Pte. Ltd.
+  - address: Blk 201B Tampines Street 21, 522201 -> Blk 201B Tampines St 21, #01-1091, 522201
+  - distance: 14992.565058597489 -> 15005.351469190593
+  - latitude: 1.35344200 -> 1.35338600
+  - locationName: One Supermarket Blk 201B Tampines Street 21 -> ONE Supermarket Pte. Ltd.
+  - longitude: 103.95296100 -> 103.95307800
+- `2553` FORTUNE SUPERMARKET 780
+  - address: Block 780 Woodlands Crescent #01-01, 730780 -> BLK 780 WOODLANDS CRESCENT #01-01 SINGAPORE, 730780
+  - locationName: Fortune blk 780 Woodlands Cresent -> FORTUNE SUPERMARKET 780
+- `2671` Phan 66 PPT Lodge 1A Dormitory
+  - distance: 11735.239507614366 -> 11729.514107747777
+  - latitude: 1.41979000 -> 1.41965500
+  - longitude: 103.89630000 -> 103.89635300
+- `2760` MSE Family Go Green Week’s Sustainability Fair
+  - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
+  - distance: 5352.190166724526 -> 4699.31852172609
+  - latitude: 1.31113400 -> 1.31063600
+  - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
+  - longitude: 103.78821200 -> 103.83630300
+  - postalCode: 270020 -> 228231
+  - zipcode: 270020 -> 228231
+
 ### 2026-07-11
 
 No changes.
