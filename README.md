@@ -22,6 +22,55 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-14
+
+- Snapshot size: **1176** locations
+- Added: **2**
+- Removed: **2**
+- Changed: **6**
+
+Added
+- `2787` 85 Fengshan Centre (postal: 460085, status: ERROR)
+- `2788` Temasek Polytechnic (postal: 529757, status: RUNNING)
+
+Removed
+- `2342` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
+- `2513` FairPrice Our Tampines Hub (postal: 528523, status: RUNNING)
+
+Changed
+- `1117` FairPrice Rivervale Mall
+  - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
+  - distance: 8024.594921604226 -> 10755.841199964072
+  - latitude: 1.37453000 -> 1.39210000
+  - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
+  - longitude: 103.88562000 -> 103.90470000
+  - postalCode: 530682 -> 545082
+  - zipcode: 530682 -> 545082
+- `218` 671A Choa Chu Kang Cres
+  - distance: 10896.277023453651 -> 9807.25148923331
+  - latitude: 1.43851900 -> 1.40213100
+  - longitude: 103.77872100 -> 103.74789300
+- `254` 618 Choa Chu Kang North 7
+  - distance: 9747.099555948653 -> 9772.471411349168
+  - latitude: 1.39868100 -> 1.40037500
+  - longitude: 103.74606000 -> 103.74698000
+- `2553` Fortune blk 780 Woodlands Cresent
+  - address: BLK 780 WOODLANDS CRESCENT #01-01 SINGAPORE, 730780 -> Block 780 Woodlands Crescent #01-01, 730780
+  - locationName: FORTUNE SUPERMARKET 780 -> Fortune blk 780 Woodlands Cresent
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - address: #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924 -> #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924
+  - distance: 11454.091583041134 -> 11453.769944024594
+  - locationName: Phan Nee #01-21 Sungei Tengah Lodge -> Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - longitude: 103.71879500 -> 103.71879800
+- `2760` MSE Family Go Green Week’s Sustainability Fair
+  - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
+  - distance: 5352.190166724526 -> 4699.31852172609
+  - latitude: 1.31113400 -> 1.31063600
+  - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
+  - longitude: 103.78821200 -> 103.83630300
+  - postalCode: 270020 -> 228231
+  - zipcode: 270020 -> 228231
+
 ### 2026-07-13
 
 - Snapshot size: **1176** locations
