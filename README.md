@@ -22,6 +22,17 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-15
+
+- Snapshot size: **1178** locations
+- Added: **2**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `2806` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
+- `2807` FairPrice Our Tampines Hub (postal: 528523, status: RUNNING)
+
 ### 2026-07-14
 
 - Snapshot size: **1176** locations
