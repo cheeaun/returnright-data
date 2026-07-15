@@ -22,6 +22,25 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-16
+
+- Snapshot size: **1179** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **3**
+
+Added
+- `2805` Masjid Sultan Mosque (postal: 198833, status: RUNNING)
+
+Changed
+- `2553` FORTUNE SUPERMARKET 780
+  - address: Block 780 Woodlands Crescent #01-01, 730780 -> BLK 780 WOODLANDS CRESCENT #01-01 SINGAPORE, 730780
+  - locationName: Fortune blk 780 Woodlands Cresent -> FORTUNE SUPERMARKET 780
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE
+  - address: #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924
+
 ### 2026-07-15
 
 - Snapshot size: **1178** locations
