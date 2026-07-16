@@ -22,6 +22,53 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-17
+
+- Snapshot size: **1181** locations
+- Added: **2**
+- Removed: **0**
+- Changed: **6**
+
+Added
+- `2810` Blk 608, Bedok Reservoir Road (postal: 470608, status: RUNNING)
+- `2811` Singapore University of Technology and Design (SUTD) (postal: 485995, status: RUNNING)
+
+Changed
+- `1117` FairPrice 682 Hougang Avenue 4
+  - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
+  - distance: 10755.841199964072 -> 8024.594921604226
+  - latitude: 1.39210000 -> 1.37453000
+  - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
+  - longitude: 103.90470000 -> 103.88562000
+  - postalCode: 545082 -> 530682
+  - zipcode: 545082 -> 530682
+- `2271` FairPrice Orchid Country Club
+  - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
+  - distance: 22118.990573825253 -> 7413.418910446766
+  - latitude: 1.27231800 -> 1.41085000
+  - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
+  - longitude: 103.63449900 -> 103.84260000
+  - postalCode: 636906 -> 769162
+  - zipcode: 636906 -> 769162
+- `2557` AJMAL SUPER MART PTE LTD
+  - locationName: AJMAL SUPERMART - Tuas View Dormitory -> AJMAL SUPER MART PTE LTD
+- `2562` Phan Nee #01-21 Sungei Tengah Lodge
+  - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924 -> #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924
+  - distance: 11453.769944024594 -> 11454.091583041134
+  - locationName: Phan Nee #01-21 SUNGEI TENGAH LODGE -> Phan Nee #01-21 Sungei Tengah Lodge
+  - longitude: 103.71879800 -> 103.71879500
+- `2565` Phan Nee #01-02 Sungei Tengah Lodge
+  - address: #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924 -> #01-02 Sungei Tengah Lodge 500 Old Cho Chu Kang Road, 698924
+  - locationName: Phan Nee #01-02 SUNGEI TENGAH LODGE -> Phan Nee #01-02 Sungei Tengah Lodge
+- `2760` 20 Ghim Moh Road Market & Food Centre
+  - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
+  - distance: 4699.31852172609 -> 5352.190166724526
+  - latitude: 1.31063600 -> 1.31113400
+  - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
+  - longitude: 103.83630300 -> 103.78821200
+  - postalCode: 228231 -> 270020
+  - zipcode: 228231 -> 270020
+
 ### 2026-07-16
 
 - Snapshot size: **1179** locations
