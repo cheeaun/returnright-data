@@ -22,6 +22,81 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-19
+
+- Snapshot size: **1186** locations
+- Added: **5**
+- Removed: **0**
+- Changed: **10**
+
+Added
+- `2815` Blk 69 Geylang Bahru Market and Food Centre (postal: 330069, status: RUNNING)
+- `2817` Block 108B Bidadari Park Drive (postal: 342108, status: RUNNING)
+- `2818` Block 118A Bidadari Park Drive (postal: 341118, status: RUNNING)
+- `2819` Block 112A Bidadari Park Drive (postal: 341112, status: RUNNING)
+- `2820` Block 101 Bidadari Park Drive (postal: 340101, status: RUNNING)
+
+Changed
+- `2256` FORTUNE SUPERMARKET 463
+  - address: Block 463 Sembawang Drive #01-02, 750463 -> BLK 463 SEMBAWANG DRIVE #01-02 SINGAPORE, 750463
+  - locationName: Fortune Blk 463 Sembawang Drive -> FORTUNE SUPERMARKET 463
+- `2271` TUAS SOUTH MINIMART
+  - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
+  - distance: 7413.418910446766 -> 22118.990573825253
+  - latitude: 1.41085000 -> 1.27231800
+  - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
+  - longitude: 103.84260000 -> 103.63449900
+  - postalCode: 769162 -> 636906
+  - zipcode: 769162 -> 636906
+- `2345` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
+  - distance: 12915.057712132177 -> 13346.432905941527
+  - latitude: 1.37215500 -> 1.36125300
+  - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - longitude: 103.93198200 -> 103.93758600
+  - postalCode: 528765 -> 521602
+  - zipcode: 528765 -> 521602
+- `2353` FairPrice Tampines Mall
+  - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
+  - distance: 13507.901205668355 -> 14067.905591355227
+  - latitude: 1.35278200 -> 1.35245700
+  - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
+  - longitude: 103.93962000 -> 103.94467000
+  - postalCode: 528523 -> 529510
+  - zipcode: 528523 -> 529510
+- `2553` Fortune blk 780 Woodlands Cresent
+  - address: BLK 780 WOODLANDS CRESCENT #01-01 SINGAPORE, 730780 -> Block 780 Woodlands Crescent #01-01, 730780
+  - locationName: FORTUNE SUPERMARKET 780 -> Fortune blk 780 Woodlands Cresent
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE
+  - address: #01-02 Sungei Tengah Lodge 500 Old Cho Chu Kang Road, 698924 -> #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924
+  - locationName: Phan Nee #01-02 Sungei Tengah Lodge -> Phan Nee #01-02 SUNGEI TENGAH LODGE
+- `2760` 20 Ghim Moh Road Market & Food Centre
+  - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
+  - distance: 4699.31852172609 -> 5352.190166724526
+  - latitude: 1.31063600 -> 1.31113400
+  - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
+  - longitude: 103.83630300 -> 103.78821200
+  - postalCode: 228231 -> 270020
+  - zipcode: 228231 -> 270020
+- `2806` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
+  - distance: 12915.057712132177 -> 13346.432905941527
+  - latitude: 1.37215500 -> 1.36125300
+  - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - longitude: 103.93198200 -> 103.93758600
+  - postalCode: 528765 -> 521602
+  - zipcode: 528765 -> 521602
+- `2807` FairPrice Tampines Mall
+  - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
+  - distance: 13507.901205668355 -> 14067.905591355227
+  - latitude: 1.35278200 -> 1.35245700
+  - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
+  - longitude: 103.93962000 -> 103.94467000
+  - postalCode: 528523 -> 529510
+  - zipcode: 528523 -> 529510
+
 ### 2026-07-18
 
 - Snapshot size: **1181** locations
