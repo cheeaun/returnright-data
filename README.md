@@ -22,6 +22,42 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-20
+
+- Snapshot size: **1195** locations
+- Added: **11**
+- Removed: **2**
+- Changed: **3**
+
+Added
+- `2816` NESST Tukang Dormitory (postal: 619599, status: ERROR)
+- `2821` Astri-D Wall Papan Dormitory (postal: 619834, status: RUNNING)
+- `2822` Singapore Zoo (postal: 729826, status: RUNNING)
+- `2823` Mandai Bird Paradise (postal: 729825, status: RUNNING)
+- `2824` Penjuru Recreation Centre (postal: 608538, status: RUNNING)
+- `2825` Chong Pang Food Centre (postal: 760105, status: RUNNING)
+- `2826` BCRS Office (postal: 577180, status: RUNNING)
+- `2827` 138 Yishun Ring Road, Singapore 760138 (postal: 760138, status: RUNNING)
+- `2828` West 1800 Dormitory (postal: 609853, status: RUNNING)
+- `2829` 204 Clementi Ave 6, Singapore 120204 (postal: 120204, status: RUNNING)
+- `2862` Blk 701, Bedok Reservoir Road (postal: 470701, status: offline)
+
+Removed
+- `2606` 138 Yishun Ring Road (postal: 760138, status: OFFLINE)
+- `276` 204 Clementi Ave 6 (postal: 120204, status: OFFLINE)
+
+Changed
+- `2450` Sparrows 206 Bedok North Street 1
+  - address: 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206 -> 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206
+  - distance: 12781.77135348191 -> 12784.337487471297
+  - latitude: 1.32646400 -> 1.32642100
+  - longitude: 103.93095800 -> 103.93097300
+- `2557` AJMAL SUPER MART PTE LTD
+  - locationName: AJMAL SUPERMART - Tuas View Dormitory -> AJMAL SUPER MART PTE LTD
+- `2559` AJMAL TRADING GROUP-RC
+  - address: 11 KRANJI CLOSE ,#01-02/03, KRANJI RECREATION CENTER, 737673 -> 11 KRANJI CLOSE, #01-02/03 KRANJI RECREATION CENTER, 737673
+  - locationName: AJMAL TRADING - Kranji Recreation Centre -> AJMAL TRADING GROUP-RC
+
 ### 2026-07-19
 
 - Snapshot size: **1186** locations
