@@ -22,6 +22,52 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-21
+
+- Snapshot size: **1192** locations
+- Added: **3**
+- Removed: **6**
+- Changed: **5**
+
+Added
+- `2813` Blk 701, Bedok Reservoir Road (postal: 470701, status: RUNNING)
+- `2863` 204 Clementi Ave 6 (postal: 120204, status: offline)
+- `2864` 138 Yishun Ring Road (postal: 760138, status: offline)
+
+Removed
+- `2768` Shunfu Mart (postal: 570320, status: offline)
+- `2801` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
+- `2803` Cold Storage Pasir Ris Mall (postal: 519612, status: offline)
+- `2804` SCARLETT@PASIR RIS MALL (postal: 519612, status: offline)
+- `2826` BCRS Office (postal: 577180, status: RUNNING)
+- `2862` Blk 701, Bedok Reservoir Road (postal: 470701, status: offline)
+
+Changed
+- `1117` FairPrice 682 Hougang Avenue 4
+  - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
+  - distance: 10755.841199964072 -> 8024.594921604226
+  - latitude: 1.39210000 -> 1.37453000
+  - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
+  - longitude: 103.90470000 -> 103.88562000
+  - postalCode: 545082 -> 530682
+  - zipcode: 545082 -> 530682
+- `2760` MSE Family Go Green Week’s Sustainability Fair
+  - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
+  - distance: 5352.190166724526 -> 4699.31852172609
+  - latitude: 1.31113400 -> 1.31063600
+  - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
+  - longitude: 103.78821200 -> 103.83630300
+  - postalCode: 270020 -> 228231
+  - zipcode: 270020 -> 228231
+- `2821` ASPRI-D Wall Papan Dormitory
+  - address: 2G Jalan Papan, 619834 -> 2G Jalan Papan, D Wall Papan Dormitory, 619834
+  - locationName: Astri-D Wall Papan Dormitory -> ASPRI-D Wall Papan Dormitory
+- `2823` Bird Paradise
+  - address: 20 Mandai Lake Rd, 729825 -> 20 Mandai Lake Rd, Mandai Wildlife WEST, 729825
+  - locationName: Mandai Bird Paradise -> Bird Paradise
+- `2828` West 1800 Dormitory
+  - address: 2A Penjuru Road, 609853 -> (Former Prime Lodge) 609853 Singapore, 609853
+
 ### 2026-07-20
 
 - Snapshot size: **1195** locations
