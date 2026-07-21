@@ -22,6 +22,43 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-22
+
+- Snapshot size: **1199** locations
+- Added: **7**
+- Removed: **0**
+- Changed: **5**
+
+Added
+- `2808` 216 Bedok North Street 1 (postal: 460216, status: RUNNING)
+- `2809` 208B New Upper Changi Rd (postal: 462208, status: RUNNING)
+- `2865` BCRS Office (postal: 577180, status: RUNNING)
+- `2866` SCARLETT@PASIR RIS MALL (postal: 519612, status: MAINTENANCE)
+- `2867` Shunfu Mart (postal: 570320, status: offline)
+- `2868` Cold Storage Pasir Ris Mall (postal: 519612, status: MAINTENANCE)
+- `2869` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
+
+Changed
+- `1117` FairPrice Rivervale Mall
+  - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
+  - distance: 8024.594921604226 -> 10755.841199964072
+  - latitude: 1.37453000 -> 1.39210000
+  - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
+  - longitude: 103.88562000 -> 103.90470000
+  - postalCode: 530682 -> 545082
+  - zipcode: 530682 -> 545082
+- `2556` NAWAS GLOBAL PTE LTD-TUAS
+  - address: NO 3. TUAS SOUTH STREET 12, #01-16 TUAS SOUTH DORMITORY, 636947 -> NO.3 TUAS SOUTH STREET 12, #01-16 TUAS SOUTH DORMITORY, 636947
+  - locationName: NAWAS GLOBAL - Tuas South Dormitory -> NAWAS GLOBAL PTE LTD-TUAS
+- `2557` AJMAL SUPERMART - Tuas View Dormitory
+  - locationName: AJMAL SUPER MART PTE LTD -> AJMAL SUPERMART - Tuas View Dormitory
+- `2560` AJMAL TRADING GROUP -WOODLANDS
+  - locationName: AJMAL TRADING GROUP - Woodlands Westlite Dormitory -> AJMAL TRADING GROUP -WOODLANDS
+- `2671` Phan 66 PPT Lodge 1A Dormitory
+  - distance: 11729.514107747777 -> 11735.239507614366
+  - latitude: 1.41965500 -> 1.41979000
+  - longitude: 103.89635300 -> 103.89630000
+
 ### 2026-07-21
 
 - Snapshot size: **1192** locations
