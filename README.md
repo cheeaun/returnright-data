@@ -22,6 +22,45 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-23
+
+- Snapshot size: **1200** locations
+- Added: **2**
+- Removed: **1**
+- Changed: **5**
+
+Added
+- `2872` FORTUNE SUPERMARKET 780 (postal: 730780, status: RUNNING)
+- `2873` Westlite Jalan Tukang Dormitory (postal: 619267, status: RUNNING)
+
+Removed
+- `2865` BCRS Office (postal: 577180, status: RUNNING)
+
+Changed
+- `1117` FairPrice 682 Hougang Avenue 4
+  - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
+  - distance: 10755.841199964072 -> 8024.594921604226
+  - latitude: 1.39210000 -> 1.37453000
+  - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
+  - longitude: 103.90470000 -> 103.88562000
+  - postalCode: 545082 -> 530682
+  - zipcode: 545082 -> 530682
+- `2450` Sparrows 206 Bedok North Street 1
+  - address: 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206 -> 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206
+  - distance: 12784.337487471297 -> 12781.77135348191
+  - latitude: 1.32642100 -> 1.32646400
+  - longitude: 103.93097300 -> 103.93095800
+- `2559` AJMAL TRADING - Kranji Recreation Centre
+  - address: 11 KRANJI CLOSE, #01-02/03 KRANJI RECREATION CENTER, 737673 -> 11 KRANJI CLOSE ,#01-02/03, KRANJI RECREATION CENTER, 737673
+  - locationName: AJMAL TRADING GROUP-RC -> AJMAL TRADING - Kranji Recreation Centre
+- `2560` AJMAL TRADING GROUP - Woodlands Westlite Dormitory
+  - locationName: AJMAL TRADING GROUP -WOODLANDS -> AJMAL TRADING GROUP - Woodlands Westlite Dormitory
+- `2566` AJMAL TRADING GROUP PTE LTD - Jalan Papan Aspri Westlite
+  - address: 5 JALAN PAPAN #01-32, ASPRI-WESTLITE PAPAN, 619396 -> NO.5D JALAN PAPAN, #01-31 WEST LITE DORMITORY, 619421
+  - locationName: AJMAL TRADING GROUP - Jalan Papan Aspri Westlite -> AJMAL TRADING GROUP PTE LTD - Jalan Papan Aspri Westlite
+  - postalCode: 619396 -> 619421
+  - zipcode: 619396 -> 619421
+
 ### 2026-07-22
 
 - Snapshot size: **1199** locations
