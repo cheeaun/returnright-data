@@ -22,6 +22,28 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-25
+
+- Snapshot size: **1200** locations
+- Added: **13**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `1964` Thai Supermarket Aperia Mall (postal: 339511, status: RUNNING)
+- `2358` One Supermarket Blk 201B Tampines Street 21 (postal: 522201, status: RUNNING)
+- `2552` AJMAL TRADE MART - Kranji Lodge One (postal: 739522, status: RUNNING)
+- `2553` Fortune blk 780 Woodlands Cresent (postal: 730780, status: OFFLINE)
+- `2557` AJMAL SUPER MART PTE LTD (postal: 637285, status: RUNNING)
+- `2559` AJMAL TRADING - Kranji Recreation Centre (postal: 737673, status: RUNNING)
+- `2560` AJMAL TRADING GROUP -WOODLANDS (postal: 737723, status: RUNNING)
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE (postal: 698924, status: OFFLINE)
+- `2566` AJMAL TRADING GROUP - Jalan Papan Aspri Westlite (postal: 619396, status: OFFLINE)
+- `2568` Redman 1 Jelebu Rd (postal: 677743, status: RUNNING)
+- `2671` Phan 66 PPT Lodge 1A Dormitory (postal: 797455, status: RUNNING)
+- `2760` MSE Family Go Green Week’s Sustainability Fair (postal: 228231, status: ERROR)
+- `2867` Shunfu Mart (postal: 570320, status: offline)
+
 ### 2026-07-24
 
 - Snapshot size: **1187** locations
