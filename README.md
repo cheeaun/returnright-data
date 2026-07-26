@@ -22,6 +22,38 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-27
+
+- Snapshot size: **1201** locations
+- Added: **13**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `1964` Thai Supermarket Aperia Mall (postal: 339511, status: RUNNING)
+- `2256` Fortune Blk 463 Sembawang Drive (postal: 750463, status: RUNNING)
+- `2358` One Supermarket Blk 201B Tampines Street 21 (postal: 522201, status: RUNNING)
+- `2553` Fortune blk 780 Woodlands Cresent (postal: 730780, status: OFFLINE)
+- `2556` NAWAS GLOBAL - Tuas South Dormitory (postal: 636947, status: ERROR)
+- `2557` AJMAL SUPERMART - Tuas View Dormitory (postal: 637285, status: RUNNING)
+- `2559` AJMAL TRADING - Kranji Recreation Centre (postal: 737673, status: RUNNING)
+- `2560` AJMAL TRADING GROUP - Woodlands Westlite Dormitory (postal: 737723, status: FULL)
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE (postal: 698924, status: OFFLINE)
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE (postal: 698924, status: OFFLINE)
+- `2566` AJMAL TRADING GROUP - Jalan Papan Aspri Westlite (postal: 619396, status: OFFLINE)
+- `2568` Redman 1 Jelebu Rd (postal: 677743, status: RUNNING)
+- `2867` Shunfu Mart (postal: 570320, status: offline)
+
+Changed
+- `1210` FairPrice Hougang Mall
+  - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
+  - distance: 10750.873630499158 -> 8810.039786921378
+  - latitude: 1.39196000 -> 1.37250000
+  - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
+  - longitude: 103.90472000 -> 103.89380000
+  - postalCode: 540118 -> 538766
+  - zipcode: 540118 -> 538766
+
 ### 2026-07-26
 
 - Snapshot size: **1188** locations
