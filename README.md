@@ -22,6 +22,29 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-29
+
+- Snapshot size: **1201** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **4**
+
+Changed
+- `2396` Isetan Scotts Supermarket
+  - address: 350 ORCHARD ROAD #B1-00, SHAW HOUSE, 238868 -> 350 ORCHARD ROAD #B1-00, 238868
+  - locationName: Isetan Orchard Shaw House -> Isetan Scotts Supermarket
+- `2552` AJMAL TRADE MART - Kranji Lodge One
+  - address: NO.12 KRANJI ROAD, KRANJI LODGE ONE, 739522 -> 12 KRANJI ROAD,, KRANJI LODGE ONE, 739522
+  - locationName: AJMAL TRADE MART PTE LTD -> AJMAL TRADE MART - Kranji Lodge One
+- `2562` Phan Nee #01-21 Sungei Tengah Lodge
+  - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924
+  - distance: 11453.769944024594 -> 11454.091583041134
+  - locationName: Phan Nee #01-21 SUNGEI TENGAH LODGE -> Phan Nee #01-21 Sungei Tengah Lodge
+  - longitude: 103.71879800 -> 103.71879500
+- `2568` Redman by Phoon Huat
+  - address: 1 Jelebu Rd, #01-33/34, 677743 -> 1 Jelebu Road, #01-33/34, Singapore 677743, 677743
+  - locationName: Redman 1 Jelebu Rd -> Redman by Phoon Huat
+
 ### 2026-07-28
 
 - Snapshot size: **1201** locations
