@@ -22,6 +22,20 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-30
+
+- Snapshot size: **1201** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **1**
+
+Changed
+- `2450` Sparrows 206 Bedok North Street 1
+  - address: 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206 -> 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206
+  - distance: 12784.337487471297 -> 12781.77135348191
+  - latitude: 1.32642100 -> 1.32646400
+  - longitude: 103.93097300 -> 103.93095800
+
 ### 2026-07-29
 
 - Snapshot size: **1201** locations
