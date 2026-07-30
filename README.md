@@ -22,6 +22,37 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-07-31
+
+- Snapshot size: **1206** locations
+- Added: **5**
+- Removed: **0**
+- Changed: **3**
+
+Added
+- `2886` Blk 17 Upper Boon Keng Market and Food Centre (postal: 380017, status: RUNNING)
+- `2887` Little India Rowell Rd (postal: 200641, status: RUNNING)
+- `2888` Whampoa Market (postal: 320090, status: RUNNING)
+- `2889` Kukoh 21 Food Centre (postal: 161001, status: RUNNING)
+- `2891` Gardens by the Bay (postal: 018953, status: offline)
+
+Changed
+- `1210` FairPrice Rivervale Plaza
+  - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
+  - distance: 8810.039786921378 -> 10750.873630499158
+  - latitude: 1.37250000 -> 1.39196000
+  - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
+  - longitude: 103.89380000 -> 103.90472000
+  - postalCode: 538766 -> 540118
+  - zipcode: 538766 -> 540118
+- `2450` Sparrows 206 Bedok North Street 1
+  - address: 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206 -> 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206
+  - distance: 12781.77135348191 -> 12784.337487471297
+  - latitude: 1.32646400 -> 1.32642100
+  - longitude: 103.93095800 -> 103.93097300
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE
+  - address: #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924
+
 ### 2026-07-30
 
 - Snapshot size: **1201** locations
