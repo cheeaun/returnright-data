@@ -22,6 +22,73 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-01
+
+- Snapshot size: **1208** locations
+- Added: **2**
+- Removed: **0**
+- Changed: **11**
+
+Added
+- `2884` SHENG SIONG BLK 845 YISHUN ST 81 (postal: 760845, status: FULL)
+- `2885` 510 Jurong West Street 51 (postal: 640510, status: RUNNING)
+
+Changed
+- `1210` FairPrice Hougang Mall
+  - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
+  - distance: 10750.873630499158 -> 8810.039786921378
+  - latitude: 1.39196000 -> 1.37250000
+  - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
+  - longitude: 103.90472000 -> 103.89380000
+  - postalCode: 540118 -> 538766
+  - zipcode: 540118 -> 538766
+- `2218` SHENG SIONG BLK 845 YISHUN ST 81
+  - locationName: SHENG SIONG BLK 845 YISHUN ST 81  -> SHENG SIONG BLK 845 YISHUN ST 81
+- `2271` TUAS SOUTH MINIMART
+  - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
+  - distance: 7413.418910446766 -> 22118.990573825253
+  - latitude: 1.41085000 -> 1.27231800
+  - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
+  - longitude: 103.84260000 -> 103.63449900
+  - postalCode: 769162 -> 636906
+  - zipcode: 769162 -> 636906
+- `2345` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
+  - distance: 12915.057712132177 -> 13346.432905941527
+  - latitude: 1.37215500 -> 1.36125300
+  - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - longitude: 103.93198200 -> 103.93758600
+  - postalCode: 528765 -> 521602
+  - zipcode: 528765 -> 521602
+- `2396` Isetan Orchard Shaw House
+  - address: 350 ORCHARD ROAD #B1-00, 238868 -> 350 ORCHARD ROAD #B1-00, SHAW HOUSE, 238868
+  - locationName: Isetan Scotts Supermarket -> Isetan Orchard Shaw House
+- `2450` Sparrows 206 Bedok North Street 1
+  - address: 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206 -> 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206
+  - distance: 12784.337487471297 -> 12781.77135348191
+  - latitude: 1.32642100 -> 1.32646400
+  - longitude: 103.93097300 -> 103.93095800
+- `2557` AJMAL SUPERMART - Tuas View Dormitory
+  - locationName: AJMAL SUPER MART PTE LTD -> AJMAL SUPERMART - Tuas View Dormitory
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - address: #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924 -> #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924
+  - distance: 11454.091583041134 -> 11453.769944024594
+  - locationName: Phan Nee #01-21 Sungei Tengah Lodge -> Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - longitude: 103.71879500 -> 103.71879800
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE
+  - address: #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924 -> #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924
+- `2568` Redman 1 Jelebu Rd
+  - address: 1 Jelebu Road, #01-33/34, Singapore 677743, 677743 -> 1 Jelebu Rd, #01-33/34, 677743
+  - locationName: Redman by Phoon Huat -> Redman 1 Jelebu Rd
+- `2806` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
+  - distance: 12915.057712132177 -> 13346.432905941527
+  - latitude: 1.37215500 -> 1.36125300
+  - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - longitude: 103.93198200 -> 103.93758600
+  - postalCode: 528765 -> 521602
+  - zipcode: 528765 -> 521602
+
 ### 2026-07-31
 
 - Snapshot size: **1206** locations
