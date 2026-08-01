@@ -22,6 +22,23 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-02
+
+- Snapshot size: **1216** locations
+- Added: **8**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `2892` Bendemeer Market and Food Centre (postal: 330029, status: RUNNING)
+- `2893` Cheng Yan Court (postal: 180269, status: RUNNING)
+- `2894` Blk 5036 Ang Mo Kio Ind Park 2 (postal: 569539, status: RUNNING)
+- `2895` Hong Lim Food Centre and Market (postal: 051531, status: RUNNING)
+- `2896` Ngee Ann Polytechnic (NP) (postal: 599489, status: RUNNING)
+- `2897` Blk 10 AMK Autopoint (postal: 568047, status: RUNNING)
+- `2898` Fair Price Hougang Mall (postal: 538766, status: RUNNING)
+- `2899` Nanyang Polytechnic (NYP) (postal: 569830, status: RUNNING)
+
 ### 2026-08-01
 
 - Snapshot size: **1208** locations
