@@ -22,6 +22,30 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-03
+
+- Snapshot size: **1216** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **3**
+
+Changed
+- `2271` FairPrice Orchid Country Club
+  - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
+  - distance: 22118.990573825253 -> 7413.418910446766
+  - latitude: 1.27231800 -> 1.41085000
+  - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
+  - longitude: 103.63449900 -> 103.84260000
+  - postalCode: 636906 -> 769162
+  - zipcode: 636906 -> 769162
+- `2557` AJMAL SUPER MART PTE LTD
+  - locationName: AJMAL SUPERMART - Tuas View Dormitory -> AJMAL SUPER MART PTE LTD
+- `2562` Phan Nee #01-21 Sungei Tengah Lodge
+  - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924
+  - distance: 11453.769944024594 -> 11454.091583041134
+  - locationName: Phan Nee #01-21 SUNGEI TENGAH LODGE -> Phan Nee #01-21 Sungei Tengah Lodge
+  - longitude: 103.71879800 -> 103.71879500
+
 ### 2026-08-02
 
 - Snapshot size: **1216** locations
