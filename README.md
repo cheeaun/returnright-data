@@ -22,6 +22,31 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-04
+
+- Snapshot size: **1217** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **4**
+
+Added
+- `2877` BCRS Office (postal: 577180, status: RUNNING)
+
+Changed
+- `2557` AJMAL SUPERMART - Tuas View Dormitory
+  - locationName: AJMAL SUPER MART PTE LTD -> AJMAL SUPERMART - Tuas View Dormitory
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - address: #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924 -> #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924
+  - distance: 11454.091583041134 -> 11453.769944024594
+  - locationName: Phan Nee #01-21 Sungei Tengah Lodge -> Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - longitude: 103.71879500 -> 103.71879800
+- `2893` Cheng Yan Court - 269 Queen Street
+  - locationName: Cheng Yan Court -> Cheng Yan Court - 269 Queen Street
+- `805` Blk 55, Marine Ter
+  - distance: 11836.551566970622 -> 11690.21072430063
+  - latitude: 1.30642300 -> 1.30542700
+  - longitude: 103.91584200 -> 103.91396000
+
 ### 2026-08-03
 
 - Snapshot size: **1216** locations
