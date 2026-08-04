@@ -22,6 +22,106 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-05
+
+- Snapshot size: **1205** locations
+- Added: **5**
+- Removed: **17**
+- Changed: **17**
+
+Added
+- `2870` 117 Aljunied Ave 2 Market & Food Centre (postal: 380117, status: RUNNING)
+- `2901` Block 118 Bukit Merah View (postal: 150118, status: RUNNING)
+- `2902` Block 19 Jalan Membina (postal: 164019, status: RUNNING)
+- `2903` Block 118B Jalan Membina (postal: 161118, status: RUNNING)
+- `2904` Block 102 Bukit Purmei Road (postal: 090102, status: RUNNING)
+
+Removed
+- `2218` SHENG SIONG BLK 845 YISHUN ST 81 (postal: 760845, status: ERROR)
+- `2480` SCARLETT@PASIR RIS MALL (postal: 519612, status: RUNNING)
+- `2553` Fortune blk 780 Woodlands Cresent (postal: 730780, status: OFFLINE)
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE (postal: 698924, status: OFFLINE)
+- `2796` Blk 72, Marine Drive (postal: 440072, status: offline)
+- `2797` Food Joy Buona Vista (postal: 118157, status: offline)
+- `2798` Phan 99 2 SELETAR NORTH LINK (postal: 797601, status: offline)
+- `2799` Supernature Dempsey Road (postal: 249686, status: offline)
+- `2800` Culina 15 Dempsey (postal: 249675, status: offline)
+- `2806` SHENG SIONG BLK 602A TAMPINES AVENUE 9 (postal: 521602, status: RUNNING)
+- `2807` FairPrice Our Tampines Hub (postal: 528523, status: RUNNING)
+- `2863` 204 Clementi Ave 6 (postal: 120204, status: offline)
+- `2864` 138 Yishun Ring Road (postal: 760138, status: offline)
+- `2867` Shunfu Mart (postal: 570320, status: offline)
+- `2869` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
+- `2877` BCRS Office (postal: 577180, status: RUNNING)
+- `2885` 510 Jurong West Street 51 (postal: 640510, status: RUNNING)
+
+Changed
+- `2256` FORTUNE SUPERMARKET 463
+  - address: Block 463 Sembawang Drive #01-02, 750463 -> BLK 463 SEMBAWANG DRIVE #01-02 SINGAPORE
+  - locationName: Fortune Blk 463 Sembawang Drive -> FORTUNE SUPERMARKET 463
+- `2345` Giant Hypermarket Tampines
+  - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> null
+  - distance: 13346.432905941527 -> 12915.057712132177
+  - latitude: 1.36125300 -> 1.37215500
+  - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
+  - longitude: 103.93758600 -> 103.93198200
+  - postalCode: 521602 -> null
+  - zipcode: 521602 -> null
+- `2353` FairPrice Our Tampines Hub
+  - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> null
+  - postalCode: 528523 -> null
+  - zipcode: 528523 -> null
+- `2358` ONE Supermarket Pte. Ltd.
+  - address: Blk 201B Tampines Street 21, 522201 -> null
+  - distance: 14992.565058597489 -> 15005.351469190593
+  - latitude: 1.35344200 -> 1.35338600
+  - locationName: One Supermarket Blk 201B Tampines Street 21 -> ONE Supermarket Pte. Ltd.
+  - longitude: 103.95296100 -> 103.95307800
+  - postalCode: 522201 -> null
+  - zipcode: 522201 -> null
+- `2389` Grindelwald Supermarket
+  - address: 108 CLEMENTI STREET 11 #01-K1, 120108 -> Blk 108 Clementi Street 11 #01-K1
+  - locationName: Grindewald Supermarket 108 Clementi -> Grindelwald Supermarket
+- `2396` Isetan Scotts Supermarket
+  - address: 350 ORCHARD ROAD #B1-00, SHAW HOUSE, 238868 -> 350 ORCHARD ROAD #B1-00
+  - locationName: Isetan Orchard Shaw House -> Isetan Scotts Supermarket
+- `2552` Ajmal Trade Mart - Kranji Lodge One
+  - address: 12 KRANJI ROAD,, KRANJI LODGE ONE, 739522 -> No.12 Kranji Road
+  - locationName: AJMAL TRADE MART - Kranji Lodge One -> Ajmal Trade Mart - Kranji Lodge One
+- `2556` Nawas Global - Tuas South Dormitory
+  - address: NO 3. TUAS SOUTH STREET 12, #01-16 TUAS SOUTH DORMITORY, 636947 -> NO.3 TUAS SOUTH STREET 12
+  - locationName: NAWAS GLOBAL - Tuas South Dormitory -> Nawas Global - Tuas South Dormitory
+- `2557` Ajmal Super Market - Tuas View Dormitory
+  - address: NO.70 TUAS SOUTH AVENUE 1, #01-40 TUAS VIEW DORMITORY, 637285 -> NO.70 TUAS SOUTH AVENUE 1
+  - locationName: AJMAL SUPERMART - Tuas View Dormitory -> Ajmal Super Market - Tuas View Dormitory
+- `2558` 7seven Pte. Ltd.
+  - address: 51 NORTH COAST AVENUE #01-03, NORTH COAST LODGE, 756992 -> 51 North Coast Avenue
+  - locationName: 7 Seven 51 North South Ave -> 7seven Pte. Ltd.
+- `2559` Ajmal Trading Group - Kranji Recreation Centre
+  - address: 11 KRANJI CLOSE ,#01-02/03, KRANJI RECREATION CENTER, 737673 -> 11 Kranji Close
+  - locationName: AJMAL TRADING - Kranji Recreation Centre -> Ajmal Trading Group - Kranji Recreation Centre
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory
+  - address: NO.2 WOODLANDS SECTOR 2, #01-05 WESTLITE DORMITORY, 737723 -> 2 Woodlands Sector 2
+  - locationName: AJMAL TRADING GROUP - Woodlands Westlite Dormitory -> Ajmal Trading Group - Woodlands Westlite Dormitory
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-21 SUNGEI TENGAH LODGE
+- `2566` Ajmal Trading Group - Jalan Papan Aspri Westlite
+  - address: 5 JALAN PAPAN #01-32, ASPRI-WESTLITE PAPAN, 619396 -> NO.5D JALAN PAPAN
+  - locationName: AJMAL TRADING GROUP - Jalan Papan Aspri Westlite -> Ajmal Trading Group - Jalan Papan Aspri Westlite
+  - postalCode: 619396 -> 619421
+  - zipcode: 619396 -> 619421
+- `2568` 1 Jelebu Road, #01-33/34, Singapore 677743
+  - address: 1 Jelebu Rd, #01-33/34, 677743 -> 1 Jelebu Road, #01-33/34, Singapore 677743
+  - locationName: Redman 1 Jelebu Rd -> 1 Jelebu Road, #01-33/34, Singapore 677743
+- `2868` Cold Storage Pasir Ris Mall
+  - address: Pasir Ris Mall 7 Pasir Ris Central B1-11, 519612 -> null
+  - postalCode: 519612 -> null
+  - zipcode: 519612 -> null
+- `940` Blk 44, Chai Chee Street
+  - distance: 12217.554633543756 -> 12142.088843102083
+  - latitude: 1.32868600 -> 1.32903900
+  - longitude: 103.92621700 -> 103.92559200
+
 ### 2026-08-04
 
 - Snapshot size: **1217** locations
