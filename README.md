@@ -22,6 +22,52 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-06
+
+- Snapshot size: **1195** locations
+- Added: **7**
+- Removed: **17**
+- Changed: **1**
+
+Added
+- `2883` Blk 514, Bedok North Ave 2 (postal: 460513, status: RUNNING)
+- `2885` 510 Jurong West Street 51 (postal: 640510, status: RUNNING)
+- `2890` Blk 501, Bedok North Street 3 (postal: 460503, status: MAINTENANCE)
+- `2905` Block 150 Mei Ling St (postal: 141150, status: RUNNING)
+- `2906` Block 49 Lengkok Bahru (postal: 150049, status: RUNNING)
+- `2907` Block 52 Lengkok Bahru (postal: 150052, status: RUNNING)
+- `2908` Block 22 Dover Crescent (postal: 133022, status: RUNNING)
+
+Removed
+- `2256` FORTUNE SUPERMARKET 463 (postal: 750463, status: RUNNING)
+- `2345` Giant Hypermarket Tampines (postal: n/a, status: RUNNING)
+- `2353` FairPrice Our Tampines Hub (postal: n/a, status: RUNNING)
+- `2358` ONE Supermarket Pte. Ltd. (postal: n/a, status: RUNNING)
+- `238` 510 Jurong West Street 51 (postal: 640510, status: MAINTENANCE)
+- `2389` Grindelwald Supermarket (postal: 120108, status: OFFLINE)
+- `2396` Isetan Scotts Supermarket (postal: 238868, status: RUNNING)
+- `2552` Ajmal Trade Mart - Kranji Lodge One (postal: 739522, status: RUNNING)
+- `2556` Nawas Global - Tuas South Dormitory (postal: 636947, status: ERROR)
+- `2557` Ajmal Super Market - Tuas View Dormitory (postal: 637285, status: ERROR)
+- `2558` 7seven Pte. Ltd. (postal: 756992, status: RUNNING)
+- `2559` Ajmal Trading Group - Kranji Recreation Centre (postal: 737673, status: RUNNING)
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory (postal: 737723, status: RUNNING)
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE (postal: 698924, status: ERROR)
+- `2566` Ajmal Trading Group - Jalan Papan Aspri Westlite (postal: 619421, status: ERROR)
+- `2568` 1 Jelebu Road, #01-33/34, Singapore 677743 (postal: 677743, status: RUNNING)
+- `2868` Cold Storage Pasir Ris Mall (postal: n/a, status: RUNNING)
+
+Changed
+- `2271` TUAS SOUTH MINIMART
+  - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102
+  - distance: 7413.418910446766 -> 22118.990573825253
+  - latitude: 1.41085000 -> 1.27231800
+  - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
+  - longitude: 103.84260000 -> 103.63449900
+  - postalCode: 769162 -> 636906
+  - rvmOpeningHours: Mon - Sun:  08:00 AM - 10:00 PM -> Mon - Sun:  1:00 PM - 11:30 PM
+  - zipcode: 769162 -> 636906
+
 ### 2026-08-05
 
 - Snapshot size: **1205** locations
