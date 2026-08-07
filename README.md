@@ -5,10 +5,10 @@ Daily snapshots of the BCRS locations API in Singapore.
 ## What this repo does
 
 - Fetches `https://bts.bcrs.sg/api/v1/locations/nearby` once per day.
-- Saves the raw JSON response to [`data/`](./data) using `YYYY-MM-DD.json`.
+- Saves the raw JSON response to [`data/latest.json`](./data/latest.json), overwriting the previous day's file — the full history lives in the git history of that file.
 - Generates [`latest.geojson`](./latest.geojson) from the newest snapshot.
 - Compares the latest snapshot with the previous one.
-- Appends a daily changelog to this README.
+- Prepends a daily changelog entry to this README.
 
 ## Local usage
 
@@ -19,7 +19,7 @@ node scripts/generate_geojson.mjs
 
 ## Daily changes
 
-Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
+Each run prepends that day's entry below. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
 ### 2026-08-07
