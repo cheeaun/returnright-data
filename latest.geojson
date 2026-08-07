@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "source": "data/2026-08-07.json",
-  "generatedAt": "2026-08-07T01:13:24.377Z",
+  "source": "data/latest.json",
+  "generatedAt": "2026-08-07T05:46:26.137Z",
   "featureCount": 1201,
   "features": [
     {
