@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
-const OUTPUT_PATH = path.join(ROOT, "latest.geojson");
+const OUTPUT_PATH = path.join(DATA_DIR, "latest.geojson");
 
 async function latestSnapshotPath() {
   const names = await readdir(DATA_DIR);

@@ -6,7 +6,7 @@ Daily snapshots of the BCRS locations API in Singapore.
 
 - Fetches `https://bts.bcrs.sg/api/v1/locations/nearby` once per day.
 - Saves the raw JSON response to [`data/latest.json`](./data/latest.json), overwriting the previous day's file — the full history lives in the git history of that file.
-- Generates [`latest.geojson`](./latest.geojson) from the newest snapshot.
+- Generates [`data/latest.geojson`](./data/latest.geojson) from the newest snapshot.
 - Compares the latest snapshot with the previous one.
 - Prepends a daily changelog entry to this README.
 
