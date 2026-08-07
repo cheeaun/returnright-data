@@ -22,6 +22,39 @@ node scripts/generate_geojson.mjs
 Each run rebuilds the dated entries below from the saved snapshots. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-07
+
+- Snapshot size: **1201** locations
+- Added: **6**
+- Removed: **0**
+- Changed: **2**
+
+Added
+- `2353` FairPrice Our Tampines Hub (postal: 528523, status: RUNNING)
+- `2807` FairPrice Our Tampines Hub (postal: 528523, status: RUNNING)
+- `2909` Block 22 Dover Crescent (postal: 133022, status: RUNNING)
+- `2910` Block 94 Dawson Road (postal: 142094, status: RUNNING)
+- `2911` Block 69 Telok Blangah Heights (postal: 100069, status: RUNNING)
+- `2912` FairPrice 289A Toh Guan (postal: 601289, status: RUNNING)
+
+Changed
+- `2271` FairPrice Orchid Country Club
+  - address: 6 TUAS SOUTH STREET 15 #01-102 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
+  - distance: 22118.990573825253 -> 7413.418910446766
+  - latitude: 1.27231800 -> 1.41085000
+  - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
+  - longitude: 103.63449900 -> 103.84260000
+  - postalCode: 636906 -> 769162
+  - zipcode: 636906 -> 769162
+- `2908` Block 1 Dover Rd
+  - address: Block 22 Dover Crescent, 133022 -> Block 1 Dover Rd, 130001
+  - distance: 6011.104322912895 -> 6450.455935151259
+  - latitude: 1.30707400 -> 1.30252700
+  - locationName: Block 22 Dover Crescent -> Block 1 Dover Rd
+  - longitude: 103.78380800 -> 103.78319400
+  - postalCode: 133022 -> 130001
+  - zipcode: 133022 -> 130001
+
 ### 2026-08-06
 
 - Snapshot size: **1195** locations
