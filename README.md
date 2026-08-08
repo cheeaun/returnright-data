@@ -22,6 +22,34 @@ node scripts/generate_geojson.mjs
 Each run prepends that day's entry below. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-09
+
+- Snapshot size: **1202** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **2**
+
+Added
+- `2945` Market & Hawker Centre (Blk 409 Ang Mo Kio Ave 10) (postal: 560409, status: RUNNING)
+
+Changed
+- `1210` FairPrice Rivervale Plaza
+  - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
+  - distance: 8810.039786921378 -> 10227.183063854118
+  - latitude: 1.37250000 -> 1.38557900
+  - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
+  - longitude: 103.89380000 -> 103.90250300
+  - postalCode: 538766 -> 540118
+  - zipcode: 538766 -> 540118
+- `2760` MSE Family Go Green Week’s Sustainability Fair
+  - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
+  - distance: 5352.190166724526 -> 4699.31852172609
+  - latitude: 1.31113400 -> 1.31063600
+  - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
+  - longitude: 103.78821200 -> 103.83630300
+  - postalCode: 270020 -> 228231
+  - zipcode: 270020 -> 228231
+
 ### 2026-08-08
 
 No changes.
