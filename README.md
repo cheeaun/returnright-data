@@ -22,6 +22,51 @@ node scripts/generate_geojson.mjs
 Each run prepends that day's entry below. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-11
+
+- Snapshot size: **1208** locations
+- Added: **3**
+- Removed: **5**
+- Changed: **3**
+
+Added
+- `2556` Nawas Global - Tuas South Dormitory (postal: 636947, status: FULL)
+- `2875` 16 Bedok S Rd (postal: 460016, status: RUNNING)
+- `2946` Blk 518, Bedok North Ave 2 (postal: 460518, status: MAINTENANCE)
+
+Removed
+- `2557` Ajmal Super Market - Tuas View Dormitory (postal: 637285, status: ERROR)
+- `2559` Ajmal Trading Group - Kranji Recreation Centre (postal: 737673, status: RUNNING)
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory (postal: 737723, status: RUNNING)
+- `2566` Ajmal Trading Group - Jalan Papan Aspri Westlite (postal: 619421, status: ERROR)
+- `2671` Phan 66 PPT Lodge 1A Dormitory (postal: 797455, status: FULL)
+
+Changed
+- `1117` FairPrice Rivervale Mall
+  - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
+  - distance: 8024.594921604226 -> 10755.841199964072
+  - latitude: 1.37453000 -> 1.39210000
+  - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
+  - longitude: 103.88562000 -> 103.90470000
+  - postalCode: 530682 -> 545082
+  - zipcode: 530682 -> 545082
+- `1176` Singapore Polytechnic (SP) T11A Building
+  - address: 1 Maritime Square, #03-23 / 38 HarbourFront Centre, 099253 -> 500 Dover Rd, 139651
+  - distance: 9411.543423874089 -> 6092.4784879561075
+  - latitude: 1.26420000 -> 1.31033000
+  - locationName: Don Don Donki (HarbourFront Centre) -> Singapore Polytechnic (SP) T11A Building
+  - longitude: 103.82030000 -> 103.77916000
+  - postalCode: 099253 -> 139651
+  - zipcode: 099253 -> 139651
+- `2271` FairPrice Orchid Country Club
+  - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
+  - distance: 22118.990573825253 -> 7413.418910446766
+  - latitude: 1.27231800 -> 1.41085000
+  - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
+  - longitude: 103.63449900 -> 103.84260000
+  - postalCode: 636906 -> 769162
+  - zipcode: 636906 -> 769162
+
 ### 2026-08-10
 
 - Snapshot size: **1210** locations
