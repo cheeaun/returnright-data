@@ -22,6 +22,53 @@ node scripts/generate_geojson.mjs
 Each run prepends that day's entry below. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-12
+
+- Snapshot size: **1208** locations
+- Added: **1**
+- Removed: **1**
+- Changed: **4**
+
+Added
+- `2671` Phan 66 PPT Lodge 1A Dormitory (postal: 797455, status: FULL)
+
+Removed
+- `2556` Nawas Global - Tuas South Dormitory (postal: 636947, status: FULL)
+
+Changed
+- `1176` Don Don Donki (HarbourFront Centre)
+  - address: 500 Dover Rd, 139651 -> 1 Maritime Square, #03-23 / 38 HarbourFront Centre, 099253
+  - distance: 6092.4784879561075 -> 9411.543423874089
+  - latitude: 1.31033000 -> 1.26420000
+  - locationName: Singapore Polytechnic (SP) T11A Building -> Don Don Donki (HarbourFront Centre)
+  - longitude: 103.77916000 -> 103.82030000
+  - postalCode: 139651 -> 099253
+  - zipcode: 139651 -> 099253
+- `1210` FairPrice Rivervale Plaza
+  - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
+  - distance: 8810.039786921378 -> 10227.183063854118
+  - latitude: 1.37250000 -> 1.38557900
+  - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
+  - longitude: 103.89380000 -> 103.90250300
+  - postalCode: 538766 -> 540118
+  - zipcode: 538766 -> 540118
+- `2271` TUAS SOUTH MINIMART
+  - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
+  - distance: 7413.418910446766 -> 22118.990573825253
+  - latitude: 1.41085000 -> 1.27231800
+  - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
+  - longitude: 103.84260000 -> 103.63449900
+  - postalCode: 769162 -> 636906
+  - zipcode: 769162 -> 636906
+- `2760` MSE Family Go Green Week’s Sustainability Fair
+  - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
+  - distance: 5352.190166724526 -> 4699.31852172609
+  - latitude: 1.31113400 -> 1.31063600
+  - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
+  - longitude: 103.78821200 -> 103.83630300
+  - postalCode: 270020 -> 228231
+  - zipcode: 270020 -> 228231
+
 ### 2026-08-11
 
 - Snapshot size: **1208** locations
