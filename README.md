@@ -22,6 +22,39 @@ node scripts/generate_geojson.mjs
 Each run prepends that day's entry below. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-13
+
+- Snapshot size: **1214** locations
+- Added: **6**
+- Removed: **0**
+- Changed: **2**
+
+Added
+- `2950` Singapore Management University (SMU) (postal: 178902, status: RUNNING)
+- `2951` Blk 36 Sin Ming Industrial Estate (postal: 575710, status: RUNNING)
+- `2952` Singapore University of Social Sciences (SUSS) (postal: 599494, status: RUNNING)
+- `2953` Punggol Way Dorm, Sharbesuwary Pte Ltd (postal: 828646, status: ERROR)
+- `2954` Blk 1 AMK Tech I (postal: 568049, status: RUNNING)
+- `2955` Blk 5058 Ang Mo Kio Ind Park 2 (postal: 569561, status: RUNNING)
+
+Changed
+- `1210` FairPrice Hougang Mall
+  - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
+  - distance: 10227.183063854118 -> 8810.039786921378
+  - latitude: 1.38557900 -> 1.37250000
+  - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
+  - longitude: 103.90250300 -> 103.89380000
+  - postalCode: 540118 -> 538766
+  - zipcode: 540118 -> 538766
+- `2760` 20 Ghim Moh Road Market & Food Centre
+  - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
+  - distance: 4699.31852172609 -> 5352.190166724526
+  - latitude: 1.31063600 -> 1.31113400
+  - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
+  - longitude: 103.83630300 -> 103.78821200
+  - postalCode: 228231 -> 270020
+  - zipcode: 228231 -> 270020
+
 ### 2026-08-12
 
 - Snapshot size: **1208** locations
