@@ -22,6 +22,56 @@ node scripts/generate_geojson.mjs
 Each run prepends that day's entry below. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-14
+
+- Snapshot size: **1246** locations
+- Added: **32**
+- Removed: **0**
+- Changed: **4**
+
+Added
+- `2218` SHENG SIONG BLK 845 YISHUN ST 81 (postal: 760845, status: ERROR)
+- `2256` Fortune Blk 463 Sembawang Drive (postal: 750463, status: RUNNING)
+- `2345` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
+- `2358` One Supermarket Blk 201B Tampines Street 21 (postal: 522201, status: RUNNING)
+- `238` 510 Jurong West Street 51 (postal: 640510, status: MAINTENANCE)
+- `2389` Grindewald Supermarket 108 Clementi (postal: 120108, status: OFFLINE)
+- `2396` Isetan Orchard Shaw House (postal: 238868, status: RUNNING)
+- `2480` SCARLETT@PASIR RIS MALL (postal: 519612, status: RUNNING)
+- `2552` AJMAL TRADE MART - Kranji Lodge One (postal: 739522, status: RUNNING)
+- `2553` Fortune blk 780 Woodlands Cresent (postal: 730780, status: OFFLINE)
+- `2556` NAWAS GLOBAL - Tuas South Dormitory (postal: 636947, status: FULL)
+- `2557` Ajmal Super Market - Tuas View Dormitory (postal: 637285, status: RUNNING)
+- `2558` 7 Seven 51 North South Ave (postal: 756992, status: ERROR)
+- `2559` AJMAL TRADING - Kranji Recreation Centre (postal: 737673, status: RUNNING)
+- `2560` AJMAL TRADING GROUP - Woodlands Westlite Dormitory (postal: 737723, status: RUNNING)
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE (postal: 698924, status: OFFLINE)
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE (postal: 698924, status: OFFLINE)
+- `2566` AJMAL TRADING GROUP - Jalan Papan Aspri Westlite (postal: 619396, status: OFFLINE)
+- `2568` Redman 1 Jelebu Rd (postal: 677743, status: RUNNING)
+- `2796` Blk 72, Marine Drive (postal: 440072, status: offline)
+- ... and 12 more
+
+Changed
+- `2271` FairPrice Orchid Country Club
+  - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
+  - distance: 22118.990573825253 -> 7413.418910446766
+  - latitude: 1.27231800 -> 1.41085000
+  - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
+  - longitude: 103.63449900 -> 103.84260000
+  - postalCode: 636906 -> 769162
+  - zipcode: 636906 -> 769162
+- `2450` Sparrows 206 Bedok North Street 1
+  - address: 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206 -> 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206
+  - distance: 12781.77135348191 -> 12784.337487471297
+  - latitude: 1.32646400 -> 1.32642100
+  - longitude: 103.93095800 -> 103.93097300
+- `2875` 16 Bedok South Rd Hawker Centre
+  - address: 16 Bedok S Rd, 460016 -> 16 Bedok South Rd, 460016
+  - locationName: 16 Bedok S Rd -> 16 Bedok South Rd Hawker Centre
+- `2945` Blk 409 Ang Mo Kio Ave 10 Market & Hawker Centre
+  - locationName: Market & Hawker Centre (Blk 409 Ang Mo Kio Ave 10) -> Blk 409 Ang Mo Kio Ave 10 Market & Hawker Centre
+
 ### 2026-08-13
 
 - Snapshot size: **1214** locations
