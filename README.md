@@ -22,6 +22,84 @@ node scripts/generate_geojson.mjs
 Each run prepends that day's entry below. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-15
+
+- Snapshot size: **1221** locations
+- Added: **0**
+- Removed: **25**
+- Changed: **8**
+
+Removed
+- `1137` FairPrice Punggol Waterway Point (postal: 828761, status: OFFLINE)
+- `2218` SHENG SIONG BLK 845 YISHUN ST 81 (postal: 760845, status: ERROR)
+- `2345` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
+- `2358` One Supermarket Blk 201B Tampines Street 21 (postal: 522201, status: RUNNING)
+- `238` 510 Jurong West Street 51 (postal: 640510, status: MAINTENANCE)
+- `2389` Grindewald Supermarket 108 Clementi (postal: 120108, status: OFFLINE)
+- `2396` Isetan Orchard Shaw House (postal: 238868, status: RUNNING)
+- `2450` Sparrows 206 Bedok North Street 1 (postal: 460206, status: RUNNING)
+- `2480` SCARLETT@PASIR RIS MALL (postal: 519612, status: RUNNING)
+- `2552` AJMAL TRADE MART - Kranji Lodge One (postal: 739522, status: RUNNING)
+- `2553` Fortune blk 780 Woodlands Cresent (postal: 730780, status: OFFLINE)
+- `2558` 7 Seven 51 North South Ave (postal: 756992, status: ERROR)
+- `2560` AJMAL TRADING GROUP - Woodlands Westlite Dormitory (postal: 737723, status: RUNNING)
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE (postal: 698924, status: OFFLINE)
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE (postal: 698924, status: OFFLINE)
+- `2568` Redman 1 Jelebu Rd (postal: 677743, status: RUNNING)
+- `2671` Phan 66 PPT Lodge 1A Dormitory (postal: 797455, status: FULL)
+- `2796` Blk 72, Marine Drive (postal: 440072, status: offline)
+- `2806` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
+- `2863` 204 Clementi Ave 6 (postal: 120204, status: offline)
+- ... and 5 more
+
+Changed
+- `1117` FairPrice 682 Hougang Avenue 4
+  - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
+  - distance: 10755.841199964072 -> 8024.594921604226
+  - latitude: 1.39210000 -> 1.37453000
+  - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
+  - longitude: 103.90470000 -> 103.88562000
+  - postalCode: 545082 -> 530682
+  - zipcode: 545082 -> 530682
+- `1176` Singapore Polytechnic (SP) T11A Building
+  - address: 1 Maritime Square, #03-23 / 38 HarbourFront Centre, 099253 -> 500 Dover Rd, 139651
+  - distance: 9411.543423874089 -> 6092.4784879561075
+  - latitude: 1.26420000 -> 1.31033000
+  - locationName: Don Don Donki (HarbourFront Centre) -> Singapore Polytechnic (SP) T11A Building
+  - longitude: 103.82030000 -> 103.77916000
+  - postalCode: 099253 -> 139651
+  - zipcode: 099253 -> 139651
+- `1210` FairPrice Rivervale Plaza
+  - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
+  - distance: 8810.039786921378 -> 10227.183063854118
+  - latitude: 1.37250000 -> 1.38557900
+  - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
+  - longitude: 103.89380000 -> 103.90250300
+  - postalCode: 538766 -> 540118
+  - zipcode: 538766 -> 540118
+- `2256` FORTUNE SUPERMARKET 463
+  - address: Block 463 Sembawang Drive #01-02, 750463 -> BLK 463 SEMBAWANG DRIVE #01-02 SINGAPORE, 750463
+  - locationName: Fortune Blk 463 Sembawang Drive -> FORTUNE SUPERMARKET 463
+- `2271` TUAS SOUTH MINIMART
+  - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
+  - distance: 7413.418910446766 -> 22118.990573825253
+  - latitude: 1.41085000 -> 1.27231800
+  - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
+  - longitude: 103.84260000 -> 103.63449900
+  - postalCode: 769162 -> 636906
+  - zipcode: 769162 -> 636906
+- `2556` Nawas Global - Tuas South Dormitory
+  - address: NO 3. TUAS SOUTH STREET 12, #01-16 TUAS SOUTH DORMITORY, 636947 -> NO.3 TUAS SOUTH STREET 12, #01-16 TUAS SOUTH DORMITORY, 636947
+  - locationName: NAWAS GLOBAL - Tuas South Dormitory -> Nawas Global - Tuas South Dormitory
+- `2559` Ajmal Trading Group - Kranji Recreation Centre
+  - address: 11 KRANJI CLOSE ,#01-02/03, KRANJI RECREATION CENTER, 737673 -> 11 Kranji Close, #01-02/03 Kranji Recreation Centre, 737673
+  - locationName: AJMAL TRADING - Kranji Recreation Centre -> Ajmal Trading Group - Kranji Recreation Centre
+- `2566` Ajmal Trading Group - Jalan Papan Aspri Westlite
+  - address: 5 JALAN PAPAN #01-32, ASPRI-WESTLITE PAPAN, 619396 -> NO.5D JALAN PAPAN, #01-31 WEST LITE DORMITORY, 619421
+  - locationName: AJMAL TRADING GROUP - Jalan Papan Aspri Westlite -> Ajmal Trading Group - Jalan Papan Aspri Westlite
+  - postalCode: 619396 -> 619421
+  - zipcode: 619396 -> 619421
+
 ### 2026-08-14
 
 - Snapshot size: **1246** locations
