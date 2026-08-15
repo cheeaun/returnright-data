@@ -22,6 +22,53 @@ node scripts/generate_geojson.mjs
 Each run prepends that day's entry below. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
+### 2026-08-16
+
+- Snapshot size: **1237** locations
+- Added: **21**
+- Removed: **5**
+- Changed: **1**
+
+Added
+- `2552` Ajmal Trade Mart -  Kranji Lodge One (postal: 739522, status: RUNNING)
+- `2565` Phan Nee #01-02 Sungei Tengah Lodge (postal: 698924, status: OFFLINE)
+- `2962` SHENG SIONG BLK 440 BUKI BATOK WEST AVE 8 (postal: 650440, status: RUNNING)
+- `2963` SHENG SIONG BLK 61 TEBAN GARDENS ROAD (postal: 600061, status: RUNNING)
+- `2968` Block 294 Punggol Central (postal: 820294, status: RUNNING)
+- `2969` Block 668B Edgefield Plains (postal: 822668, status: RUNNING)
+- `2970` Block 165A Punggol Central (postal: 821165, status: RUNNING)
+- `2971` Block 655A Punggol East (postal: 821655, status: RUNNING)
+- `2972` Block 677A Punggol Drive (postal: 821677, status: RUNNING)
+- `2973` Block 684A Edgedale Plains (postal: 820684, status: RUNNING)
+- `2974` Block 624B Punggol Central (postal: 822624, status: RUNNING)
+- `2975` Block 632A Punggol Drive (postal: 821632, status: RUNNING)
+- `2976` Block 168A Punggol East (postal: 821168, status: RUNNING)
+- `2977` Block 647 Punggol Central (postal: 820647, status: RUNNING)
+- `2981` 444 Jurong West Ave 1, Singapore 640444 (postal: 640444, status: RUNNING)
+- `2982` 555 Jurong West Street 42 (postal: 640555, status: RUNNING)
+- `2983` 518 Jurong West Street 52 (postal: 640518, status: RUNNING)
+- `2985` 689 Jurong West Central 1 (postal: 640689, status: RUNNING)
+- `2986` 640 Jurong West Street 61 (postal: 640640, status: RUNNING)
+- `2987` 601 Jurong West Street 62 (postal: 640601, status: RUNNING)
+- ... and 1 more
+
+Removed
+- `1121` FairPrice Tai Seng Mapletree 18 (postal: 539775, status: OFFLINE)
+- `2256` FORTUNE SUPERMARKET 463 (postal: 750463, status: RUNNING)
+- `2379` SHENG SIONG BLK 440 BUKI BATOK WEST AVE 8  (postal: 650440, status: OFFLINE)
+- `2411` SHENG SIONG BLK 61 TEBAN GARDENS ROAD  (postal: 600061, status: OFFLINE)
+- `2556` Nawas Global - Tuas South Dormitory (postal: 636947, status: FULL)
+
+Changed
+- `1117` FairPrice Rivervale Mall
+  - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
+  - distance: 8024.594921604226 -> 10755.841199964072
+  - latitude: 1.37453000 -> 1.39210000
+  - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
+  - longitude: 103.88562000 -> 103.90470000
+  - postalCode: 530682 -> 545082
+  - zipcode: 530682 -> 545082
+
 ### 2026-08-15
 
 - Snapshot size: **1221** locations
