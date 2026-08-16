@@ -34,11 +34,14 @@ jobs:
       - name: Generate latest GeoJSON
         run: node scripts/generate_geojson.mjs
 
+      - name: Generate analysis report
+        run: node scripts/analyze_data.mjs --md
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data README.md
+          git add data README.md ANALYSIS.md
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0

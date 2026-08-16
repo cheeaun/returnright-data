@@ -7,6 +7,7 @@ Daily snapshots of the BCRS locations API in Singapore.
 - Fetches `https://bts.bcrs.sg/api/v1/locations/nearby` once per day.
 - Saves the raw JSON response to [`data/latest.json`](./data/latest.json), overwriting the previous day's file — the full history lives in the git history of that file.
 - Generates [`data/latest.geojson`](./data/latest.geojson) from the newest snapshot.
+- Generates [`ANALYSIS.md`](./ANALYSIS.md) — a snapshot analysis report with mermaid charts covering status, suppliers, opening hours, postal districts, rollout, and history.
 - Compares each snapshot with the previous one to track added, removed, and changed locations.
 - Rebuilds the changelog in this README from the snapshot history in git.
 
@@ -16,6 +17,7 @@ Daily snapshots of the BCRS locations API in Singapore.
 node scripts/fetch_locations.mjs
 node scripts/regenerate_changelog.mjs --today
 node scripts/generate_geojson.mjs
+node scripts/analyze_data.mjs --md
 ```
 
 ## Daily changes
