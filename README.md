@@ -26,6 +26,43 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-17</b> · 1,239 locations · +4 · −2 · ±3</summary>
+
+- Snapshot size: **1239** locations
+- Added: **4**
+- Removed: **2**
+- Changed: **3**
+
+Added
+- `2256` FORTUNE SUPERMARKET 463 (postal: 750463, status: RUNNING)
+- `2558` 7 Seven_Trichy Supermarket (postal: 756992, status: FULL)
+- `2671` Phan 66 PPT Lodge 1A Dormitory (postal: 797455, status: FULL)
+- `2966` 507 West Coast Drive (postal: 120507, status: MAINTENANCE)
+
+Removed
+- `2552` Ajmal Trade Mart -  Kranji Lodge One (postal: 739522, status: RUNNING)
+- `2565` Phan Nee #01-02 Sungei Tengah Lodge (postal: 698924, status: OFFLINE)
+
+Changed
+- `1117` FairPrice 682 Hougang Avenue 4
+  - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
+  - latitude: 1.39210000 -> 1.37453000
+  - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
+  - longitude: 103.90470000 -> 103.88562000
+  - postalCode: 545082 -> 530682
+  - zipcode: 545082 -> 530682
+- `2760` MSE Family Go Green Week’s Sustainability Fair
+  - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
+  - latitude: 1.31113400 -> 1.31063600
+  - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
+  - longitude: 103.78821200 -> 103.83630300
+  - postalCode: 270020 -> 228231
+  - zipcode: 270020 -> 228231
+- `2962` SHENG SIONG BLK 440 BUKIT BATOK WEST AVE 8
+  - locationName: SHENG SIONG BLK 440 BUKI BATOK WEST AVE 8 -> SHENG SIONG BLK 440 BUKIT BATOK WEST AVE 8
+</details>
+
+<details>
 <summary><b>2026-08-16</b> · 1,237 locations · +21 · −5 · ±1</summary>
 
 - Snapshot size: **1237** locations
