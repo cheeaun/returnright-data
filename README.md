@@ -7,22 +7,24 @@ Daily snapshots of the BCRS locations API in Singapore.
 - Fetches `https://bts.bcrs.sg/api/v1/locations/nearby` once per day.
 - Saves the raw JSON response to [`data/latest.json`](./data/latest.json), overwriting the previous day's file — the full history lives in the git history of that file.
 - Generates [`data/latest.geojson`](./data/latest.geojson) from the newest snapshot.
-- Compares the latest snapshot with the previous one.
-- Prepends a daily changelog entry to this README.
+- Compares each snapshot with the previous one to track added, removed, and changed locations.
+- Rebuilds the changelog in this README from the snapshot history in git.
 
 ## Local usage
 
 ```bash
 node scripts/fetch_locations.mjs
+node scripts/regenerate_changelog.mjs --today
 node scripts/generate_geojson.mjs
 ```
 
 ## Daily changes
 
-Each run prepends that day's entry below. The changelog ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
+Each day's entry below is collapsed by default — click a date to expand it. The changelog is rebuilt from the git history of `data/latest.json` (`node scripts/regenerate_changelog.mjs`), so reformatting it is just editing that script and re-running it. It ignores `rvm_last_conn`, `updatedAt`, and `status`, so it only highlights removals and other meaningful field changes. If a day has no meaningful changes, it shows `No changes.`
 
 <!-- CHANGELOG:START -->
-### 2026-08-16
+<details>
+<summary><b>2026-08-16</b> · 1,237 locations · +21 · −5 · ±1</summary>
 
 - Snapshot size: **1237** locations
 - Added: **21**
@@ -50,7 +52,7 @@ Added
 - `2985` 689 Jurong West Central 1 (postal: 640689, status: RUNNING)
 - `2986` 640 Jurong West Street 61 (postal: 640640, status: RUNNING)
 - `2987` 601 Jurong West Street 62 (postal: 640601, status: RUNNING)
-- ... and 1 more
+- `2988` 988A Jurong West Street 93 (postal: 641988, status: ERROR)
 
 Removed
 - `1121` FairPrice Tai Seng Mapletree 18 (postal: 539775, status: OFFLINE)
@@ -62,14 +64,15 @@ Removed
 Changed
 - `1117` FairPrice Rivervale Mall
   - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
-  - distance: 8024.594921604226 -> 10755.841199964072
   - latitude: 1.37453000 -> 1.39210000
   - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
   - longitude: 103.88562000 -> 103.90470000
   - postalCode: 530682 -> 545082
   - zipcode: 530682 -> 545082
+</details>
 
-### 2026-08-15
+<details>
+<summary><b>2026-08-15</b> · 1,221 locations · −25 · ±8</summary>
 
 - Snapshot size: **1221** locations
 - Added: **0**
@@ -97,12 +100,15 @@ Removed
 - `2796` Blk 72, Marine Drive (postal: 440072, status: offline)
 - `2806` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
 - `2863` 204 Clementi Ave 6 (postal: 120204, status: offline)
-- ... and 5 more
+- `2864` 138 Yishun Ring Road (postal: 760138, status: offline)
+- `2867` Shunfu Mart (postal: 570320, status: offline)
+- `2868` Cold Storage Pasir Ris Mall (postal: 519612, status: OFFLINE)
+- `2869` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
+- `2877` BCRS Office (postal: 577180, status: RUNNING)
 
 Changed
 - `1117` FairPrice 682 Hougang Avenue 4
   - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
-  - distance: 10755.841199964072 -> 8024.594921604226
   - latitude: 1.39210000 -> 1.37453000
   - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
   - longitude: 103.90470000 -> 103.88562000
@@ -110,7 +116,6 @@ Changed
   - zipcode: 545082 -> 530682
 - `1176` Singapore Polytechnic (SP) T11A Building
   - address: 1 Maritime Square, #03-23 / 38 HarbourFront Centre, 099253 -> 500 Dover Rd, 139651
-  - distance: 9411.543423874089 -> 6092.4784879561075
   - latitude: 1.26420000 -> 1.31033000
   - locationName: Don Don Donki (HarbourFront Centre) -> Singapore Polytechnic (SP) T11A Building
   - longitude: 103.82030000 -> 103.77916000
@@ -118,7 +123,6 @@ Changed
   - zipcode: 099253 -> 139651
 - `1210` FairPrice Rivervale Plaza
   - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
-  - distance: 8810.039786921378 -> 10227.183063854118
   - latitude: 1.37250000 -> 1.38557900
   - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
   - longitude: 103.89380000 -> 103.90250300
@@ -129,7 +133,6 @@ Changed
   - locationName: Fortune Blk 463 Sembawang Drive -> FORTUNE SUPERMARKET 463
 - `2271` TUAS SOUTH MINIMART
   - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
-  - distance: 7413.418910446766 -> 22118.990573825253
   - latitude: 1.41085000 -> 1.27231800
   - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
   - longitude: 103.84260000 -> 103.63449900
@@ -146,8 +149,10 @@ Changed
   - locationName: AJMAL TRADING GROUP - Jalan Papan Aspri Westlite -> Ajmal Trading Group - Jalan Papan Aspri Westlite
   - postalCode: 619396 -> 619421
   - zipcode: 619396 -> 619421
+</details>
 
-### 2026-08-14
+<details>
+<summary><b>2026-08-14</b> · 1,246 locations · +32 · ±4</summary>
 
 - Snapshot size: **1246** locations
 - Added: **32**
@@ -175,12 +180,22 @@ Added
 - `2566` AJMAL TRADING GROUP - Jalan Papan Aspri Westlite (postal: 619396, status: OFFLINE)
 - `2568` Redman 1 Jelebu Rd (postal: 677743, status: RUNNING)
 - `2796` Blk 72, Marine Drive (postal: 440072, status: offline)
-- ... and 12 more
+- `2806` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
+- `2863` 204 Clementi Ave 6 (postal: 120204, status: offline)
+- `2864` 138 Yishun Ring Road (postal: 760138, status: offline)
+- `2867` Shunfu Mart (postal: 570320, status: offline)
+- `2868` Cold Storage Pasir Ris Mall (postal: 519612, status: OFFLINE)
+- `2869` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
+- `2877` BCRS Office (postal: 577180, status: RUNNING)
+- `2956` Block 8 Tanjong Pagar Plaza (postal: 080008, status: RUNNING)
+- `2957` Block 8 Cantonment Cl (postal: 081008, status: RUNNING)
+- `2958` Block 3 Jalan Bukit Merah (postal: 150003, status: RUNNING)
+- `2959` Block 166 Stirling Road (postal: 140166, status: RUNNING)
+- `2960` Block 181 Stirling Rd (postal: 141182, status: RUNNING)
 
 Changed
 - `2271` FairPrice Orchid Country Club
   - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
-  - distance: 22118.990573825253 -> 7413.418910446766
   - latitude: 1.27231800 -> 1.41085000
   - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
   - longitude: 103.63449900 -> 103.84260000
@@ -188,7 +203,6 @@ Changed
   - zipcode: 636906 -> 769162
 - `2450` Sparrows 206 Bedok North Street 1
   - address: 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206 -> 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206
-  - distance: 12781.77135348191 -> 12784.337487471297
   - latitude: 1.32646400 -> 1.32642100
   - longitude: 103.93095800 -> 103.93097300
 - `2875` 16 Bedok South Rd Hawker Centre
@@ -196,8 +210,10 @@ Changed
   - locationName: 16 Bedok S Rd -> 16 Bedok South Rd Hawker Centre
 - `2945` Blk 409 Ang Mo Kio Ave 10 Market & Hawker Centre
   - locationName: Market & Hawker Centre (Blk 409 Ang Mo Kio Ave 10) -> Blk 409 Ang Mo Kio Ave 10 Market & Hawker Centre
+</details>
 
-### 2026-08-13
+<details>
+<summary><b>2026-08-13</b> · 1,214 locations · +6 · ±2</summary>
 
 - Snapshot size: **1214** locations
 - Added: **6**
@@ -215,7 +231,6 @@ Added
 Changed
 - `1210` FairPrice Hougang Mall
   - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
-  - distance: 10227.183063854118 -> 8810.039786921378
   - latitude: 1.38557900 -> 1.37250000
   - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
   - longitude: 103.90250300 -> 103.89380000
@@ -223,14 +238,15 @@ Changed
   - zipcode: 540118 -> 538766
 - `2760` 20 Ghim Moh Road Market & Food Centre
   - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
-  - distance: 4699.31852172609 -> 5352.190166724526
   - latitude: 1.31063600 -> 1.31113400
   - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
   - longitude: 103.83630300 -> 103.78821200
   - postalCode: 228231 -> 270020
   - zipcode: 228231 -> 270020
+</details>
 
-### 2026-08-12
+<details>
+<summary><b>2026-08-12</b> · 1,208 locations · +1 · −1 · ±4</summary>
 
 - Snapshot size: **1208** locations
 - Added: **1**
@@ -246,7 +262,6 @@ Removed
 Changed
 - `1176` Don Don Donki (HarbourFront Centre)
   - address: 500 Dover Rd, 139651 -> 1 Maritime Square, #03-23 / 38 HarbourFront Centre, 099253
-  - distance: 6092.4784879561075 -> 9411.543423874089
   - latitude: 1.31033000 -> 1.26420000
   - locationName: Singapore Polytechnic (SP) T11A Building -> Don Don Donki (HarbourFront Centre)
   - longitude: 103.77916000 -> 103.82030000
@@ -254,7 +269,6 @@ Changed
   - zipcode: 139651 -> 099253
 - `1210` FairPrice Rivervale Plaza
   - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
-  - distance: 8810.039786921378 -> 10227.183063854118
   - latitude: 1.37250000 -> 1.38557900
   - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
   - longitude: 103.89380000 -> 103.90250300
@@ -262,7 +276,6 @@ Changed
   - zipcode: 538766 -> 540118
 - `2271` TUAS SOUTH MINIMART
   - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
-  - distance: 7413.418910446766 -> 22118.990573825253
   - latitude: 1.41085000 -> 1.27231800
   - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
   - longitude: 103.84260000 -> 103.63449900
@@ -270,14 +283,15 @@ Changed
   - zipcode: 769162 -> 636906
 - `2760` MSE Family Go Green Week’s Sustainability Fair
   - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
-  - distance: 5352.190166724526 -> 4699.31852172609
   - latitude: 1.31113400 -> 1.31063600
   - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
   - longitude: 103.78821200 -> 103.83630300
   - postalCode: 270020 -> 228231
   - zipcode: 270020 -> 228231
+</details>
 
-### 2026-08-11
+<details>
+<summary><b>2026-08-11</b> · 1,208 locations · +3 · −5 · ±3</summary>
 
 - Snapshot size: **1208** locations
 - Added: **3**
@@ -299,7 +313,6 @@ Removed
 Changed
 - `1117` FairPrice Rivervale Mall
   - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
-  - distance: 8024.594921604226 -> 10755.841199964072
   - latitude: 1.37453000 -> 1.39210000
   - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
   - longitude: 103.88562000 -> 103.90470000
@@ -307,7 +320,6 @@ Changed
   - zipcode: 530682 -> 545082
 - `1176` Singapore Polytechnic (SP) T11A Building
   - address: 1 Maritime Square, #03-23 / 38 HarbourFront Centre, 099253 -> 500 Dover Rd, 139651
-  - distance: 9411.543423874089 -> 6092.4784879561075
   - latitude: 1.26420000 -> 1.31033000
   - locationName: Don Don Donki (HarbourFront Centre) -> Singapore Polytechnic (SP) T11A Building
   - longitude: 103.82030000 -> 103.77916000
@@ -315,14 +327,15 @@ Changed
   - zipcode: 099253 -> 139651
 - `2271` FairPrice Orchid Country Club
   - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
-  - distance: 22118.990573825253 -> 7413.418910446766
   - latitude: 1.27231800 -> 1.41085000
   - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
   - longitude: 103.63449900 -> 103.84260000
   - postalCode: 636906 -> 769162
   - zipcode: 636906 -> 769162
+</details>
 
-### 2026-08-10
+<details>
+<summary><b>2026-08-10</b> · 1,210 locations · +8 · ±4</summary>
 
 - Snapshot size: **1210** locations
 - Added: **8**
@@ -342,7 +355,6 @@ Added
 Changed
 - `1117` FairPrice 682 Hougang Avenue 4
   - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
-  - distance: 10755.841199964072 -> 8024.594921604226
   - latitude: 1.39210000 -> 1.37453000
   - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
   - longitude: 103.90470000 -> 103.88562000
@@ -350,7 +362,6 @@ Changed
   - zipcode: 545082 -> 530682
 - `1210` FairPrice Hougang Mall
   - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
-  - distance: 10227.183063854118 -> 8810.039786921378
   - latitude: 1.38557900 -> 1.37250000
   - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
   - longitude: 103.90250300 -> 103.89380000
@@ -358,7 +369,6 @@ Changed
   - zipcode: 540118 -> 538766
 - `2271` TUAS SOUTH MINIMART
   - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
-  - distance: 7413.418910446766 -> 22118.990573825253
   - latitude: 1.41085000 -> 1.27231800
   - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
   - longitude: 103.84260000 -> 103.63449900
@@ -366,14 +376,15 @@ Changed
   - zipcode: 769162 -> 636906
 - `2760` 20 Ghim Moh Road Market & Food Centre
   - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
-  - distance: 4699.31852172609 -> 5352.190166724526
   - latitude: 1.31063600 -> 1.31113400
   - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
   - longitude: 103.83630300 -> 103.78821200
   - postalCode: 228231 -> 270020
   - zipcode: 228231 -> 270020
+</details>
 
-### 2026-08-09
+<details>
+<summary><b>2026-08-09</b> · 1,202 locations · +1 · ±2</summary>
 
 - Snapshot size: **1202** locations
 - Added: **1**
@@ -386,7 +397,6 @@ Added
 Changed
 - `1210` FairPrice Rivervale Plaza
   - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
-  - distance: 8810.039786921378 -> 10227.183063854118
   - latitude: 1.37250000 -> 1.38557900
   - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
   - longitude: 103.89380000 -> 103.90250300
@@ -394,18 +404,21 @@ Changed
   - zipcode: 538766 -> 540118
 - `2760` MSE Family Go Green Week’s Sustainability Fair
   - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
-  - distance: 5352.190166724526 -> 4699.31852172609
   - latitude: 1.31113400 -> 1.31063600
   - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
   - longitude: 103.78821200 -> 103.83630300
   - postalCode: 270020 -> 228231
   - zipcode: 270020 -> 228231
+</details>
 
-### 2026-08-08
+<details>
+<summary><b>2026-08-08</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-08-07
+<details>
+<summary><b>2026-08-07</b> · 1,201 locations · +6 · ±2</summary>
 
 - Snapshot size: **1201** locations
 - Added: **6**
@@ -423,7 +436,6 @@ Added
 Changed
 - `2271` FairPrice Orchid Country Club
   - address: 6 TUAS SOUTH STREET 15 #01-102 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
-  - distance: 22118.990573825253 -> 7413.418910446766
   - latitude: 1.27231800 -> 1.41085000
   - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
   - longitude: 103.63449900 -> 103.84260000
@@ -431,14 +443,15 @@ Changed
   - zipcode: 636906 -> 769162
 - `2908` Block 1 Dover Rd
   - address: Block 22 Dover Crescent, 133022 -> Block 1 Dover Rd, 130001
-  - distance: 6011.104322912895 -> 6450.455935151259
   - latitude: 1.30707400 -> 1.30252700
   - locationName: Block 22 Dover Crescent -> Block 1 Dover Rd
   - longitude: 103.78380800 -> 103.78319400
   - postalCode: 133022 -> 130001
   - zipcode: 133022 -> 130001
+</details>
 
-### 2026-08-06
+<details>
+<summary><b>2026-08-06</b> · 1,195 locations · +7 · −17 · ±1</summary>
 
 - Snapshot size: **1195** locations
 - Added: **7**
@@ -476,15 +489,16 @@ Removed
 Changed
 - `2271` TUAS SOUTH MINIMART
   - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102
-  - distance: 7413.418910446766 -> 22118.990573825253
   - latitude: 1.41085000 -> 1.27231800
   - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
   - longitude: 103.84260000 -> 103.63449900
   - postalCode: 769162 -> 636906
   - rvmOpeningHours: Mon - Sun:  08:00 AM - 10:00 PM -> Mon - Sun:  1:00 PM - 11:30 PM
   - zipcode: 769162 -> 636906
+</details>
 
-### 2026-08-05
+<details>
+<summary><b>2026-08-05</b> · 1,205 locations · +5 · −17 · ±17</summary>
 
 - Snapshot size: **1205** locations
 - Added: **5**
@@ -523,7 +537,6 @@ Changed
   - locationName: Fortune Blk 463 Sembawang Drive -> FORTUNE SUPERMARKET 463
 - `2345` Giant Hypermarket Tampines
   - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> null
-  - distance: 13346.432905941527 -> 12915.057712132177
   - latitude: 1.36125300 -> 1.37215500
   - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
   - longitude: 103.93758600 -> 103.93198200
@@ -535,7 +548,6 @@ Changed
   - zipcode: 528523 -> null
 - `2358` ONE Supermarket Pte. Ltd.
   - address: Blk 201B Tampines Street 21, 522201 -> null
-  - distance: 14992.565058597489 -> 15005.351469190593
   - latitude: 1.35344200 -> 1.35338600
   - locationName: One Supermarket Blk 201B Tampines Street 21 -> ONE Supermarket Pte. Ltd.
   - longitude: 103.95296100 -> 103.95307800
@@ -580,11 +592,12 @@ Changed
   - postalCode: 519612 -> null
   - zipcode: 519612 -> null
 - `940` Blk 44, Chai Chee Street
-  - distance: 12217.554633543756 -> 12142.088843102083
   - latitude: 1.32868600 -> 1.32903900
   - longitude: 103.92621700 -> 103.92559200
+</details>
 
-### 2026-08-04
+<details>
+<summary><b>2026-08-04</b> · 1,217 locations · +1 · ±4</summary>
 
 - Snapshot size: **1217** locations
 - Added: **1**
@@ -599,17 +612,17 @@ Changed
   - locationName: AJMAL SUPER MART PTE LTD -> AJMAL SUPERMART - Tuas View Dormitory
 - `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
   - address: #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924 -> #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924
-  - distance: 11454.091583041134 -> 11453.769944024594
   - locationName: Phan Nee #01-21 Sungei Tengah Lodge -> Phan Nee #01-21 SUNGEI TENGAH LODGE
   - longitude: 103.71879500 -> 103.71879800
 - `2893` Cheng Yan Court - 269 Queen Street
   - locationName: Cheng Yan Court -> Cheng Yan Court - 269 Queen Street
 - `805` Blk 55, Marine Ter
-  - distance: 11836.551566970622 -> 11690.21072430063
   - latitude: 1.30642300 -> 1.30542700
   - longitude: 103.91584200 -> 103.91396000
+</details>
 
-### 2026-08-03
+<details>
+<summary><b>2026-08-03</b> · 1,216 locations · ±3</summary>
 
 - Snapshot size: **1216** locations
 - Added: **0**
@@ -619,7 +632,6 @@ Changed
 Changed
 - `2271` FairPrice Orchid Country Club
   - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
-  - distance: 22118.990573825253 -> 7413.418910446766
   - latitude: 1.27231800 -> 1.41085000
   - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
   - longitude: 103.63449900 -> 103.84260000
@@ -629,11 +641,12 @@ Changed
   - locationName: AJMAL SUPERMART - Tuas View Dormitory -> AJMAL SUPER MART PTE LTD
 - `2562` Phan Nee #01-21 Sungei Tengah Lodge
   - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924
-  - distance: 11453.769944024594 -> 11454.091583041134
   - locationName: Phan Nee #01-21 SUNGEI TENGAH LODGE -> Phan Nee #01-21 Sungei Tengah Lodge
   - longitude: 103.71879800 -> 103.71879500
+</details>
 
-### 2026-08-02
+<details>
+<summary><b>2026-08-02</b> · 1,216 locations · +8</summary>
 
 - Snapshot size: **1216** locations
 - Added: **8**
@@ -649,8 +662,10 @@ Added
 - `2897` Blk 10 AMK Autopoint (postal: 568047, status: RUNNING)
 - `2898` Fair Price Hougang Mall (postal: 538766, status: RUNNING)
 - `2899` Nanyang Polytechnic (NYP) (postal: 569830, status: RUNNING)
+</details>
 
-### 2026-08-01
+<details>
+<summary><b>2026-08-01</b> · 1,208 locations · +2 · ±11</summary>
 
 - Snapshot size: **1208** locations
 - Added: **2**
@@ -664,7 +679,6 @@ Added
 Changed
 - `1210` FairPrice Hougang Mall
   - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
-  - distance: 10750.873630499158 -> 8810.039786921378
   - latitude: 1.39196000 -> 1.37250000
   - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
   - longitude: 103.90472000 -> 103.89380000
@@ -674,7 +688,6 @@ Changed
   - locationName: SHENG SIONG BLK 845 YISHUN ST 81  -> SHENG SIONG BLK 845 YISHUN ST 81
 - `2271` TUAS SOUTH MINIMART
   - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
-  - distance: 7413.418910446766 -> 22118.990573825253
   - latitude: 1.41085000 -> 1.27231800
   - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
   - longitude: 103.84260000 -> 103.63449900
@@ -682,7 +695,6 @@ Changed
   - zipcode: 769162 -> 636906
 - `2345` SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
-  - distance: 12915.057712132177 -> 13346.432905941527
   - latitude: 1.37215500 -> 1.36125300
   - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - longitude: 103.93198200 -> 103.93758600
@@ -693,14 +705,12 @@ Changed
   - locationName: Isetan Scotts Supermarket -> Isetan Orchard Shaw House
 - `2450` Sparrows 206 Bedok North Street 1
   - address: 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206 -> 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206
-  - distance: 12784.337487471297 -> 12781.77135348191
   - latitude: 1.32642100 -> 1.32646400
   - longitude: 103.93097300 -> 103.93095800
 - `2557` AJMAL SUPERMART - Tuas View Dormitory
   - locationName: AJMAL SUPER MART PTE LTD -> AJMAL SUPERMART - Tuas View Dormitory
 - `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
   - address: #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924 -> #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924
-  - distance: 11454.091583041134 -> 11453.769944024594
   - locationName: Phan Nee #01-21 Sungei Tengah Lodge -> Phan Nee #01-21 SUNGEI TENGAH LODGE
   - longitude: 103.71879500 -> 103.71879800
 - `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE
@@ -710,14 +720,15 @@ Changed
   - locationName: Redman by Phoon Huat -> Redman 1 Jelebu Rd
 - `2806` SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
-  - distance: 12915.057712132177 -> 13346.432905941527
   - latitude: 1.37215500 -> 1.36125300
   - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - longitude: 103.93198200 -> 103.93758600
   - postalCode: 528765 -> 521602
   - zipcode: 528765 -> 521602
+</details>
 
-### 2026-07-31
+<details>
+<summary><b>2026-07-31</b> · 1,206 locations · +5 · ±3</summary>
 
 - Snapshot size: **1206** locations
 - Added: **5**
@@ -734,7 +745,6 @@ Added
 Changed
 - `1210` FairPrice Rivervale Plaza
   - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
-  - distance: 8810.039786921378 -> 10750.873630499158
   - latitude: 1.37250000 -> 1.39196000
   - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
   - longitude: 103.89380000 -> 103.90472000
@@ -742,13 +752,14 @@ Changed
   - zipcode: 538766 -> 540118
 - `2450` Sparrows 206 Bedok North Street 1
   - address: 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206 -> 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206
-  - distance: 12781.77135348191 -> 12784.337487471297
   - latitude: 1.32646400 -> 1.32642100
   - longitude: 103.93095800 -> 103.93097300
 - `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE
   - address: #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924
+</details>
 
-### 2026-07-30
+<details>
+<summary><b>2026-07-30</b> · 1,201 locations · ±1</summary>
 
 - Snapshot size: **1201** locations
 - Added: **0**
@@ -758,11 +769,12 @@ Changed
 Changed
 - `2450` Sparrows 206 Bedok North Street 1
   - address: 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206 -> 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206
-  - distance: 12784.337487471297 -> 12781.77135348191
   - latitude: 1.32642100 -> 1.32646400
   - longitude: 103.93097300 -> 103.93095800
+</details>
 
-### 2026-07-29
+<details>
+<summary><b>2026-07-29</b> · 1,201 locations · ±4</summary>
 
 - Snapshot size: **1201** locations
 - Added: **0**
@@ -778,14 +790,15 @@ Changed
   - locationName: AJMAL TRADE MART PTE LTD -> AJMAL TRADE MART - Kranji Lodge One
 - `2562` Phan Nee #01-21 Sungei Tengah Lodge
   - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924
-  - distance: 11453.769944024594 -> 11454.091583041134
   - locationName: Phan Nee #01-21 SUNGEI TENGAH LODGE -> Phan Nee #01-21 Sungei Tengah Lodge
   - longitude: 103.71879800 -> 103.71879500
 - `2568` Redman by Phoon Huat
   - address: 1 Jelebu Rd, #01-33/34, 677743 -> 1 Jelebu Road, #01-33/34, Singapore 677743, 677743
   - locationName: Redman 1 Jelebu Rd -> Redman by Phoon Huat
+</details>
 
-### 2026-07-28
+<details>
+<summary><b>2026-07-28</b> · 1,201 locations · ±2</summary>
 
 - Snapshot size: **1201** locations
 - Added: **0**
@@ -795,13 +808,14 @@ Changed
 Changed
 - `2450` Sparrows 206 Bedok North Street 1
   - address: 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206 -> 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206
-  - distance: 12781.77135348191 -> 12784.337487471297
   - latitude: 1.32646400 -> 1.32642100
   - longitude: 103.93095800 -> 103.93097300
 - `2557` AJMAL SUPER MART PTE LTD
   - locationName: AJMAL SUPERMART - Tuas View Dormitory -> AJMAL SUPER MART PTE LTD
+</details>
 
-### 2026-07-27
+<details>
+<summary><b>2026-07-27</b> · 1,201 locations · +13 · ±1</summary>
 
 - Snapshot size: **1201** locations
 - Added: **13**
@@ -826,14 +840,15 @@ Added
 Changed
 - `1210` FairPrice Hougang Mall
   - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
-  - distance: 10750.873630499158 -> 8810.039786921378
   - latitude: 1.39196000 -> 1.37250000
   - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
   - longitude: 103.90472000 -> 103.89380000
   - postalCode: 540118 -> 538766
   - zipcode: 540118 -> 538766
+</details>
 
-### 2026-07-26
+<details>
+<summary><b>2026-07-26</b> · 1,188 locations · +1 · −13 · ±10</summary>
 
 - Snapshot size: **1188** locations
 - Added: **1**
@@ -861,7 +876,6 @@ Removed
 Changed
 - `1117` FairPrice Rivervale Mall
   - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
-  - distance: 8024.594921604226 -> 10755.841199964072
   - latitude: 1.37453000 -> 1.39210000
   - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
   - longitude: 103.88562000 -> 103.90470000
@@ -869,7 +883,6 @@ Changed
   - zipcode: 530682 -> 545082
 - `1210` FairPrice Rivervale Plaza
   - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
-  - distance: 8810.039786921378 -> 10750.873630499158
   - latitude: 1.37250000 -> 1.39196000
   - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
   - longitude: 103.89380000 -> 103.90472000
@@ -877,7 +890,6 @@ Changed
   - zipcode: 538766 -> 540118
 - `2271` FairPrice Orchid Country Club
   - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
-  - distance: 22118.990573825253 -> 7413.418910446766
   - latitude: 1.27231800 -> 1.41085000
   - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
   - longitude: 103.63449900 -> 103.84260000
@@ -885,7 +897,6 @@ Changed
   - zipcode: 636906 -> 769162
 - `2345` Giant Hypermarket Tampines
   - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> 21 Tampines North Drive 2 #03-01, 528765
-  - distance: 13346.432905941527 -> 12915.057712132177
   - latitude: 1.36125300 -> 1.37215500
   - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
   - longitude: 103.93758600 -> 103.93198200
@@ -893,7 +904,6 @@ Changed
   - zipcode: 521602 -> 528765
 - `2353` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
@@ -903,12 +913,10 @@ Changed
   - address: 12 KRANJI ROAD,, KRANJI LODGE ONE, 739522 -> NO.12 KRANJI ROAD, KRANJI LODGE ONE, 739522
   - locationName: AJMAL TRADE MART - Kranji Lodge One -> AJMAL TRADE MART PTE LTD
 - `2671` Phan 66 PPT Lodge 1A Dormitory
-  - distance: 11735.239507614366 -> 11729.514107747777
   - latitude: 1.41979000 -> 1.41965500
   - longitude: 103.89630000 -> 103.89635300
 - `2760` 20 Ghim Moh Road Market & Food Centre
   - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
-  - distance: 4699.31852172609 -> 5352.190166724526
   - latitude: 1.31063600 -> 1.31113400
   - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
   - longitude: 103.83630300 -> 103.78821200
@@ -916,7 +924,6 @@ Changed
   - zipcode: 228231 -> 270020
 - `2806` Giant Hypermarket Tampines
   - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> 21 Tampines North Drive 2 #03-01, 528765
-  - distance: 13346.432905941527 -> 12915.057712132177
   - latitude: 1.36125300 -> 1.37215500
   - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
   - longitude: 103.93758600 -> 103.93198200
@@ -924,14 +931,15 @@ Changed
   - zipcode: 521602 -> 528765
 - `2807` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
   - postalCode: 529510 -> 528523
   - zipcode: 529510 -> 528523
+</details>
 
-### 2026-07-25
+<details>
+<summary><b>2026-07-25</b> · 1,200 locations · +13</summary>
 
 - Snapshot size: **1200** locations
 - Added: **13**
@@ -952,8 +960,10 @@ Added
 - `2671` Phan 66 PPT Lodge 1A Dormitory (postal: 797455, status: RUNNING)
 - `2760` MSE Family Go Green Week’s Sustainability Fair (postal: 228231, status: ERROR)
 - `2867` Shunfu Mart (postal: 570320, status: offline)
+</details>
 
-### 2026-07-24
+<details>
+<summary><b>2026-07-24</b> · 1,187 locations · −13 · ±2</summary>
 
 - Snapshot size: **1187** locations
 - Added: **0**
@@ -980,8 +990,10 @@ Changed
   - locationName: 216 Bedok North Street 1 -> Blk 216 Bedok North Street 1 Market & Hawker Centre
 - `2809` 208B New Upper Changi Road Hawker Centre
   - locationName: 208B New Upper Changi Rd -> 208B New Upper Changi Road Hawker Centre
+</details>
 
-### 2026-07-23
+<details>
+<summary><b>2026-07-23</b> · 1,200 locations · +2 · −1 · ±5</summary>
 
 - Snapshot size: **1200** locations
 - Added: **2**
@@ -998,7 +1010,6 @@ Removed
 Changed
 - `1117` FairPrice 682 Hougang Avenue 4
   - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
-  - distance: 10755.841199964072 -> 8024.594921604226
   - latitude: 1.39210000 -> 1.37453000
   - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
   - longitude: 103.90470000 -> 103.88562000
@@ -1006,7 +1017,6 @@ Changed
   - zipcode: 545082 -> 530682
 - `2450` Sparrows 206 Bedok North Street 1
   - address: 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206 -> 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206
-  - distance: 12784.337487471297 -> 12781.77135348191
   - latitude: 1.32642100 -> 1.32646400
   - longitude: 103.93097300 -> 103.93095800
 - `2559` AJMAL TRADING - Kranji Recreation Centre
@@ -1019,8 +1029,10 @@ Changed
   - locationName: AJMAL TRADING GROUP - Jalan Papan Aspri Westlite -> AJMAL TRADING GROUP PTE LTD - Jalan Papan Aspri Westlite
   - postalCode: 619396 -> 619421
   - zipcode: 619396 -> 619421
+</details>
 
-### 2026-07-22
+<details>
+<summary><b>2026-07-22</b> · 1,199 locations · +7 · ±5</summary>
 
 - Snapshot size: **1199** locations
 - Added: **7**
@@ -1039,7 +1051,6 @@ Added
 Changed
 - `1117` FairPrice Rivervale Mall
   - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
-  - distance: 8024.594921604226 -> 10755.841199964072
   - latitude: 1.37453000 -> 1.39210000
   - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
   - longitude: 103.88562000 -> 103.90470000
@@ -1053,11 +1064,12 @@ Changed
 - `2560` AJMAL TRADING GROUP -WOODLANDS
   - locationName: AJMAL TRADING GROUP - Woodlands Westlite Dormitory -> AJMAL TRADING GROUP -WOODLANDS
 - `2671` Phan 66 PPT Lodge 1A Dormitory
-  - distance: 11729.514107747777 -> 11735.239507614366
   - latitude: 1.41965500 -> 1.41979000
   - longitude: 103.89635300 -> 103.89630000
+</details>
 
-### 2026-07-21
+<details>
+<summary><b>2026-07-21</b> · 1,192 locations · +3 · −6 · ±5</summary>
 
 - Snapshot size: **1192** locations
 - Added: **3**
@@ -1080,7 +1092,6 @@ Removed
 Changed
 - `1117` FairPrice 682 Hougang Avenue 4
   - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
-  - distance: 10755.841199964072 -> 8024.594921604226
   - latitude: 1.39210000 -> 1.37453000
   - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
   - longitude: 103.90470000 -> 103.88562000
@@ -1088,7 +1099,6 @@ Changed
   - zipcode: 545082 -> 530682
 - `2760` MSE Family Go Green Week’s Sustainability Fair
   - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
-  - distance: 5352.190166724526 -> 4699.31852172609
   - latitude: 1.31113400 -> 1.31063600
   - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
   - longitude: 103.78821200 -> 103.83630300
@@ -1102,8 +1112,10 @@ Changed
   - locationName: Mandai Bird Paradise -> Bird Paradise
 - `2828` West 1800 Dormitory
   - address: 2A Penjuru Road, 609853 -> (Former Prime Lodge) 609853 Singapore, 609853
+</details>
 
-### 2026-07-20
+<details>
+<summary><b>2026-07-20</b> · 1,195 locations · +11 · −2 · ±3</summary>
 
 - Snapshot size: **1195** locations
 - Added: **11**
@@ -1130,7 +1142,6 @@ Removed
 Changed
 - `2450` Sparrows 206 Bedok North Street 1
   - address: 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206 -> 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206
-  - distance: 12781.77135348191 -> 12784.337487471297
   - latitude: 1.32646400 -> 1.32642100
   - longitude: 103.93095800 -> 103.93097300
 - `2557` AJMAL SUPER MART PTE LTD
@@ -1138,8 +1149,10 @@ Changed
 - `2559` AJMAL TRADING GROUP-RC
   - address: 11 KRANJI CLOSE ,#01-02/03, KRANJI RECREATION CENTER, 737673 -> 11 KRANJI CLOSE, #01-02/03 KRANJI RECREATION CENTER, 737673
   - locationName: AJMAL TRADING - Kranji Recreation Centre -> AJMAL TRADING GROUP-RC
+</details>
 
-### 2026-07-19
+<details>
+<summary><b>2026-07-19</b> · 1,186 locations · +5 · ±10</summary>
 
 - Snapshot size: **1186** locations
 - Added: **5**
@@ -1159,7 +1172,6 @@ Changed
   - locationName: Fortune Blk 463 Sembawang Drive -> FORTUNE SUPERMARKET 463
 - `2271` TUAS SOUTH MINIMART
   - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
-  - distance: 7413.418910446766 -> 22118.990573825253
   - latitude: 1.41085000 -> 1.27231800
   - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
   - longitude: 103.84260000 -> 103.63449900
@@ -1167,7 +1179,6 @@ Changed
   - zipcode: 769162 -> 636906
 - `2345` SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
-  - distance: 12915.057712132177 -> 13346.432905941527
   - latitude: 1.37215500 -> 1.36125300
   - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - longitude: 103.93198200 -> 103.93758600
@@ -1175,7 +1186,6 @@ Changed
   - zipcode: 528765 -> 521602
 - `2353` FairPrice Tampines Mall
   - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
-  - distance: 13507.901205668355 -> 14067.905591355227
   - latitude: 1.35278200 -> 1.35245700
   - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
   - longitude: 103.93962000 -> 103.94467000
@@ -1191,7 +1201,6 @@ Changed
   - locationName: Phan Nee #01-02 Sungei Tengah Lodge -> Phan Nee #01-02 SUNGEI TENGAH LODGE
 - `2760` 20 Ghim Moh Road Market & Food Centre
   - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
-  - distance: 4699.31852172609 -> 5352.190166724526
   - latitude: 1.31063600 -> 1.31113400
   - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
   - longitude: 103.83630300 -> 103.78821200
@@ -1199,7 +1208,6 @@ Changed
   - zipcode: 228231 -> 270020
 - `2806` SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
-  - distance: 12915.057712132177 -> 13346.432905941527
   - latitude: 1.37215500 -> 1.36125300
   - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - longitude: 103.93198200 -> 103.93758600
@@ -1207,14 +1215,15 @@ Changed
   - zipcode: 528765 -> 521602
 - `2807` FairPrice Tampines Mall
   - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
-  - distance: 13507.901205668355 -> 14067.905591355227
   - latitude: 1.35278200 -> 1.35245700
   - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
   - longitude: 103.93962000 -> 103.94467000
   - postalCode: 528523 -> 529510
   - zipcode: 528523 -> 529510
+</details>
 
-### 2026-07-18
+<details>
+<summary><b>2026-07-18</b> · 1,181 locations · ±4</summary>
 
 - Snapshot size: **1181** locations
 - Added: **0**
@@ -1224,7 +1233,6 @@ Changed
 Changed
 - `1117` FairPrice Rivervale Mall
   - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
-  - distance: 8024.594921604226 -> 10755.841199964072
   - latitude: 1.37453000 -> 1.39210000
   - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
   - longitude: 103.88562000 -> 103.90470000
@@ -1234,19 +1242,19 @@ Changed
   - locationName: AJMAL SUPER MART PTE LTD -> AJMAL SUPERMART - Tuas View Dormitory
 - `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
   - address: #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924 -> #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924
-  - distance: 11454.091583041134 -> 11453.769944024594
   - locationName: Phan Nee #01-21 Sungei Tengah Lodge -> Phan Nee #01-21 SUNGEI TENGAH LODGE
   - longitude: 103.71879500 -> 103.71879800
 - `2760` MSE Family Go Green Week’s Sustainability Fair
   - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
-  - distance: 5352.190166724526 -> 4699.31852172609
   - latitude: 1.31113400 -> 1.31063600
   - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
   - longitude: 103.78821200 -> 103.83630300
   - postalCode: 270020 -> 228231
   - zipcode: 270020 -> 228231
+</details>
 
-### 2026-07-17
+<details>
+<summary><b>2026-07-17</b> · 1,181 locations · +2 · ±6</summary>
 
 - Snapshot size: **1181** locations
 - Added: **2**
@@ -1260,7 +1268,6 @@ Added
 Changed
 - `1117` FairPrice 682 Hougang Avenue 4
   - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
-  - distance: 10755.841199964072 -> 8024.594921604226
   - latitude: 1.39210000 -> 1.37453000
   - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
   - longitude: 103.90470000 -> 103.88562000
@@ -1268,7 +1275,6 @@ Changed
   - zipcode: 545082 -> 530682
 - `2271` FairPrice Orchid Country Club
   - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
-  - distance: 22118.990573825253 -> 7413.418910446766
   - latitude: 1.27231800 -> 1.41085000
   - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
   - longitude: 103.63449900 -> 103.84260000
@@ -1278,7 +1284,6 @@ Changed
   - locationName: AJMAL SUPERMART - Tuas View Dormitory -> AJMAL SUPER MART PTE LTD
 - `2562` Phan Nee #01-21 Sungei Tengah Lodge
   - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924 -> #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924
-  - distance: 11453.769944024594 -> 11454.091583041134
   - locationName: Phan Nee #01-21 SUNGEI TENGAH LODGE -> Phan Nee #01-21 Sungei Tengah Lodge
   - longitude: 103.71879800 -> 103.71879500
 - `2565` Phan Nee #01-02 Sungei Tengah Lodge
@@ -1286,14 +1291,15 @@ Changed
   - locationName: Phan Nee #01-02 SUNGEI TENGAH LODGE -> Phan Nee #01-02 Sungei Tengah Lodge
 - `2760` 20 Ghim Moh Road Market & Food Centre
   - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
-  - distance: 4699.31852172609 -> 5352.190166724526
   - latitude: 1.31063600 -> 1.31113400
   - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
   - longitude: 103.83630300 -> 103.78821200
   - postalCode: 228231 -> 270020
   - zipcode: 228231 -> 270020
+</details>
 
-### 2026-07-16
+<details>
+<summary><b>2026-07-16</b> · 1,179 locations · +1 · ±3</summary>
 
 - Snapshot size: **1179** locations
 - Added: **1**
@@ -1311,8 +1317,10 @@ Changed
   - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924
 - `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE
   - address: #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-02 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KANG ROAD, 698924
+</details>
 
-### 2026-07-15
+<details>
+<summary><b>2026-07-15</b> · 1,178 locations · +2</summary>
 
 - Snapshot size: **1178** locations
 - Added: **2**
@@ -1322,8 +1330,10 @@ Changed
 Added
 - `2806` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
 - `2807` FairPrice Our Tampines Hub (postal: 528523, status: RUNNING)
+</details>
 
-### 2026-07-14
+<details>
+<summary><b>2026-07-14</b> · 1,176 locations · +2 · −2 · ±6</summary>
 
 - Snapshot size: **1176** locations
 - Added: **2**
@@ -1341,18 +1351,15 @@ Removed
 Changed
 - `1117` FairPrice Rivervale Mall
   - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
-  - distance: 8024.594921604226 -> 10755.841199964072
   - latitude: 1.37453000 -> 1.39210000
   - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
   - longitude: 103.88562000 -> 103.90470000
   - postalCode: 530682 -> 545082
   - zipcode: 530682 -> 545082
 - `218` 671A Choa Chu Kang Cres
-  - distance: 10896.277023453651 -> 9807.25148923331
   - latitude: 1.43851900 -> 1.40213100
   - longitude: 103.77872100 -> 103.74789300
 - `254` 618 Choa Chu Kang North 7
-  - distance: 9747.099555948653 -> 9772.471411349168
   - latitude: 1.39868100 -> 1.40037500
   - longitude: 103.74606000 -> 103.74698000
 - `2553` Fortune blk 780 Woodlands Cresent
@@ -1360,19 +1367,19 @@ Changed
   - locationName: FORTUNE SUPERMARKET 780 -> Fortune blk 780 Woodlands Cresent
 - `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
   - address: #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924 -> #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924
-  - distance: 11454.091583041134 -> 11453.769944024594
   - locationName: Phan Nee #01-21 Sungei Tengah Lodge -> Phan Nee #01-21 SUNGEI TENGAH LODGE
   - longitude: 103.71879500 -> 103.71879800
 - `2760` MSE Family Go Green Week’s Sustainability Fair
   - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
-  - distance: 5352.190166724526 -> 4699.31852172609
   - latitude: 1.31113400 -> 1.31063600
   - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
   - longitude: 103.78821200 -> 103.83630300
   - postalCode: 270020 -> 228231
   - zipcode: 270020 -> 228231
+</details>
 
-### 2026-07-13
+<details>
+<summary><b>2026-07-13</b> · 1,176 locations · ±3</summary>
 
 - Snapshot size: **1176** locations
 - Added: **0**
@@ -1382,25 +1389,24 @@ Changed
 Changed
 - `2358` One Supermarket Blk 201B Tampines Street 21
   - address: Blk 201B Tampines St 21, #01-1091, 522201 -> Blk 201B Tampines Street 21, 522201
-  - distance: 15005.351469190593 -> 14992.565058597489
   - latitude: 1.35338600 -> 1.35344200
   - locationName: ONE Supermarket Pte. Ltd. -> One Supermarket Blk 201B Tampines Street 21
   - longitude: 103.95307800 -> 103.95296100
 - `2562` Phan Nee #01-21 Sungei Tengah Lodge
   - address: #01-21 SUNGEI TENGAH LODGE, 500 OLD CHOA CHU KAND ROAD, 698924 -> #01-21 Sungei Tengah Lodge, 500 Old Choa Chu Kang Road, 698924
-  - distance: 11453.769944024594 -> 11454.091583041134
   - locationName: Phan Nee #01-21 SUNGEI TENGAH LODGE -> Phan Nee #01-21 Sungei Tengah Lodge
   - longitude: 103.71879800 -> 103.71879500
 - `2760` 20 Ghim Moh Road Market & Food Centre
   - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
-  - distance: 4699.31852172609 -> 5352.190166724526
   - latitude: 1.31063600 -> 1.31113400
   - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
   - longitude: 103.83630300 -> 103.78821200
   - postalCode: 228231 -> 270020
   - zipcode: 228231 -> 270020
+</details>
 
-### 2026-07-12
+<details>
+<summary><b>2026-07-12</b> · 1,176 locations · +1 · ±5</summary>
 
 - Snapshot size: **1176** locations
 - Added: **1**
@@ -1413,7 +1419,6 @@ Added
 Changed
 - `1117` FairPrice 682 Hougang Avenue 4
   - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
-  - distance: 10755.841199964072 -> 8024.594921604226
   - latitude: 1.39210000 -> 1.37453000
   - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
   - longitude: 103.90470000 -> 103.88562000
@@ -1421,7 +1426,6 @@ Changed
   - zipcode: 545082 -> 530682
 - `2358` ONE Supermarket Pte. Ltd.
   - address: Blk 201B Tampines Street 21, 522201 -> Blk 201B Tampines St 21, #01-1091, 522201
-  - distance: 14992.565058597489 -> 15005.351469190593
   - latitude: 1.35344200 -> 1.35338600
   - locationName: One Supermarket Blk 201B Tampines Street 21 -> ONE Supermarket Pte. Ltd.
   - longitude: 103.95296100 -> 103.95307800
@@ -1429,23 +1433,25 @@ Changed
   - address: Block 780 Woodlands Crescent #01-01, 730780 -> BLK 780 WOODLANDS CRESCENT #01-01 SINGAPORE, 730780
   - locationName: Fortune blk 780 Woodlands Cresent -> FORTUNE SUPERMARKET 780
 - `2671` Phan 66 PPT Lodge 1A Dormitory
-  - distance: 11735.239507614366 -> 11729.514107747777
   - latitude: 1.41979000 -> 1.41965500
   - longitude: 103.89630000 -> 103.89635300
 - `2760` MSE Family Go Green Week’s Sustainability Fair
   - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
-  - distance: 5352.190166724526 -> 4699.31852172609
   - latitude: 1.31113400 -> 1.31063600
   - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
   - longitude: 103.78821200 -> 103.83630300
   - postalCode: 270020 -> 228231
   - zipcode: 270020 -> 228231
+</details>
 
-### 2026-07-11
+<details>
+<summary><b>2026-07-11</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-07-10
+<details>
+<summary><b>2026-07-10</b> · 1,175 locations · +3 · −2 · ±12</summary>
 
 - Snapshot size: **1175** locations
 - Added: **3**
@@ -1468,7 +1474,6 @@ Changed
   - locationName: FairPrice PSA -> FairPrice Alexandra Retail Centre ARC (PSA Branch)
 - `2353` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
@@ -1478,7 +1483,6 @@ Changed
   - locationName: Foodjoy Buona Vista -> Food-Joy Buona Vista
 - `2513` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
@@ -1499,8 +1503,10 @@ Changed
   - locationName: BUKIT BATOK WEST HAWKER CENTRE -> Bukit Batok West Hawker Centre
 - `2747` 672 Klang Lane - Little India
   - locationName: 672 Klang Lane- Little India -> 672 Klang Lane - Little India
+</details>
 
-### 2026-07-09
+<details>
+<summary><b>2026-07-09</b> · 1,174 locations · ±4</summary>
 
 - Snapshot size: **1174** locations
 - Added: **0**
@@ -1514,20 +1520,20 @@ Changed
   - locationName: SHENG SIONG BLK 471B YISHUN STREET 42  -> SHENG SIONG BLK 471B YISHUN STREET 42
 - `2358` One Supermarket Blk 201B Tampines Street 21
   - address: Blk 201B Tampines St 21, #01-1091, 522201 -> Blk 201B Tampines Street 21, 522201
-  - distance: 15005.351469190593 -> 14992.565058597489
   - latitude: 1.35338600 -> 1.35344200
   - locationName: ONE Supermarket Pte. Ltd. -> One Supermarket Blk 201B Tampines Street 21
   - longitude: 103.95307800 -> 103.95296100
 - `2760` 20 Ghim Moh Road Market & Food Centre
   - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
-  - distance: 4699.31852172609 -> 5352.190166724526
   - latitude: 1.31063600 -> 1.31113400
   - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
   - longitude: 103.83630300 -> 103.78821200
   - postalCode: 228231 -> 270020
   - zipcode: 228231 -> 270020
+</details>
 
-### 2026-07-08
+<details>
+<summary><b>2026-07-08</b> · 1,174 locations · ±1</summary>
 
 - Snapshot size: **1174** locations
 - Added: **0**
@@ -1537,8 +1543,10 @@ Changed
 Changed
 - `2781` Marks & Spencer Raffles City
   - supplierId: null -> TOMRA001
+</details>
 
-### 2026-07-07
+<details>
+<summary><b>2026-07-07</b> · 1,174 locations · +15 · −6 · ±5</summary>
 
 - Snapshot size: **1174** locations
 - Added: **15**
@@ -1573,7 +1581,6 @@ Removed
 Changed
 - `2342` Giant Hypermarket Tampines
   - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> 21 Tampines North Drive 2 #03-01, 528765
-  - distance: 13346.432905941527 -> 12915.057712132177
   - latitude: 1.36125300 -> 1.37215500
   - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
   - longitude: 103.93758600 -> 103.93198200
@@ -1581,7 +1588,6 @@ Changed
   - zipcode: 521602 -> 528765
 - `2345` Giant Hypermarket Tampines
   - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> 21 Tampines North Drive 2 #03-01, 528765
-  - distance: 13346.432905941527 -> 12915.057712132177
   - latitude: 1.36125300 -> 1.37215500
   - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
   - longitude: 103.93758600 -> 103.93198200
@@ -1589,7 +1595,6 @@ Changed
   - zipcode: 521602 -> 528765
 - `2358` ONE Supermarket Pte. Ltd.
   - address: Blk 201B Tampines Street 21, 522201 -> Blk 201B Tampines St 21, #01-1091, 522201
-  - distance: 14992.565058597489 -> 15005.351469190593
   - latitude: 1.35344200 -> 1.35338600
   - locationName: One Supermarket Blk 201B Tampines Street 21 -> ONE Supermarket Pte. Ltd.
   - longitude: 103.95296100 -> 103.95307800
@@ -1598,14 +1603,15 @@ Changed
   - locationName: Fortune blk 780 Woodlands Cresent -> FORTUNE SUPERMARKET 780
 - `2760` MSE Family Go Green Week’s Sustainability Fair
   - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
-  - distance: 5352.190166724526 -> 4699.31852172609
   - latitude: 1.31113400 -> 1.31063600
   - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
   - longitude: 103.78821200 -> 103.83630300
   - postalCode: 270020 -> 228231
   - zipcode: 270020 -> 228231
+</details>
 
-### 2026-07-06
+<details>
+<summary><b>2026-07-06</b> · 1,165 locations · ±2</summary>
 
 - Snapshot size: **1165** locations
 - Added: **0**
@@ -1615,7 +1621,6 @@ Changed
 Changed
 - `1210` FairPrice Hougang Mall
   - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
-  - distance: 10750.873630499158 -> 8810.039786921378
   - latitude: 1.39196000 -> 1.37250000
   - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
   - longitude: 103.90472000 -> 103.89380000
@@ -1623,11 +1628,12 @@ Changed
   - zipcode: 540118 -> 538766
 - `2450` Sparrows 206 Bedok North Street 1
   - address: 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206 -> 206 BEDOK NORTH STREET 1 #01-355 SINGAPORE 460206, 460206
-  - distance: 12784.337487471297 -> 12781.77135348191
   - latitude: 1.32642100 -> 1.32646400
   - longitude: 103.93097300 -> 103.93095800
+</details>
 
-### 2026-07-05
+<details>
+<summary><b>2026-07-05</b> · 1,165 locations · +1 · ±1</summary>
 
 - Snapshot size: **1165** locations
 - Added: **1**
@@ -1640,14 +1646,15 @@ Added
 Changed
 - `1210` FairPrice Rivervale Plaza
   - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
-  - distance: 8810.039786921378 -> 10750.873630499158
   - latitude: 1.37250000 -> 1.39196000
   - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
   - longitude: 103.89380000 -> 103.90472000
   - postalCode: 538766 -> 540118
   - zipcode: 538766 -> 540118
+</details>
 
-### 2026-07-04
+<details>
+<summary><b>2026-07-04</b> · 1,164 locations · +1 · ±1</summary>
 
 - Snapshot size: **1164** locations
 - Added: **1**
@@ -1659,11 +1666,12 @@ Added
 
 Changed
 - `2735` SHENG SIONG NEW BRIDGE CENTRE
-  - distance: 4750.859525445587 -> 7818.577831132404
   - latitude: 1.30743500 -> 1.28286400
   - longitude: 103.82881900 -> 103.84256600
+</details>
 
-### 2026-07-03
+<details>
+<summary><b>2026-07-03</b> · 1,163 locations · ±10</summary>
 
 - Snapshot size: **1163** locations
 - Added: **0**
@@ -1673,7 +1681,6 @@ Changed
 Changed
 - `1210` FairPrice Hougang Mall
   - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
-  - distance: 10750.873630499158 -> 8810.039786921378
   - latitude: 1.39196000 -> 1.37250000
   - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
   - longitude: 103.90472000 -> 103.89380000
@@ -1681,12 +1688,10 @@ Changed
   - zipcode: 540118 -> 538766
 - `1964` Thai Supermarket Aperia Mall
   - address: 12 Kallang Avenue, #01-20, 339511 -> 12 KALLANG AVENUE #01-09/15,#01-17/19, APERIA, 339511
-  - distance: 6726.937470865263 -> 6725.4116193552145
   - locationName: Thai Supermarket Pte Ltd -> Thai Supermarket Aperia Mall
   - longitude: 103.86432000 -> 103.86430200
 - `2271` TUAS SOUTH MINIMART
   - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
-  - distance: 7413.418910446766 -> 22118.990573825253
   - latitude: 1.41085000 -> 1.27231800
   - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
   - longitude: 103.84260000 -> 103.63449900
@@ -1694,7 +1699,6 @@ Changed
   - zipcode: 769162 -> 636906
 - `2342` SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
-  - distance: 12915.057712132177 -> 13346.432905941527
   - latitude: 1.37215500 -> 1.36125300
   - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - longitude: 103.93198200 -> 103.93758600
@@ -1702,7 +1706,6 @@ Changed
   - zipcode: 528765 -> 521602
 - `2345` SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
-  - distance: 12915.057712132177 -> 13346.432905941527
   - latitude: 1.37215500 -> 1.36125300
   - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - longitude: 103.93198200 -> 103.93758600
@@ -1710,7 +1713,6 @@ Changed
   - zipcode: 528765 -> 521602
 - `2353` FairPrice Tampines Mall
   - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
-  - distance: 13507.901205668355 -> 14067.905591355227
   - latitude: 1.35278200 -> 1.35245700
   - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
   - longitude: 103.93962000 -> 103.94467000
@@ -1718,30 +1720,28 @@ Changed
   - zipcode: 528523 -> 529510
 - `2513` FairPrice Tampines Mall
   - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
-  - distance: 13507.901205668355 -> 14067.905591355227
   - latitude: 1.35278200 -> 1.35245700
   - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
   - longitude: 103.93962000 -> 103.94467000
   - postalCode: 528523 -> 529510
   - zipcode: 528523 -> 529510
 - `2515` Kampung Admiralty Hawker Centre
-  - distance: 10449.133645430153 -> 10336.300534131246
   - latitude: 1.44122000 -> 1.44010900
   - longitude: 103.80109000 -> 103.80067300
 - `2760` 20 Ghim Moh Road Market & Food Centre
   - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
-  - distance: 4699.31852172609 -> 5352.190166724526
   - latitude: 1.31063600 -> 1.31113400
   - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
   - longitude: 103.83630300 -> 103.78821200
   - postalCode: 228231 -> 270020
   - zipcode: 228231 -> 270020
 - `282` 310 Woodlands Street 31
-  - distance: 10280.708764880477 -> 10187.026826427751
   - latitude: 1.42991800 -> 1.43013500
   - longitude: 103.77377100 -> 103.77597000
+</details>
 
-### 2026-07-02
+<details>
+<summary><b>2026-07-02</b> · 1,163 locations · ±6</summary>
 
 - Snapshot size: **1163** locations
 - Added: **0**
@@ -1751,32 +1751,28 @@ Changed
 Changed
 - `2772` 20 Marsiling Lane Food Centre
   - address: 20 Marsiling Ln, Singapore 730020, 730020 -> 20 Marsiling Lane, Singapore 730020, 730020
-  - distance: 11555.520686688702 -> 11480.412262250695
   - latitude: 1.44380900 -> 1.44349800
   - longitude: 103.77602300 -> 103.77699500
 - `2775` West Coast Market Square
-  - distance: 8059.465694272298 -> 7815.926037360959
   - latitude: 1.30307000 -> 1.30374700
   - locationName: 726 Clementi West Market -> West Coast Market Square
   - longitude: 103.76193400 -> 103.76421500
 - `2776` 252 Jurong East Street 24
-  - distance: 9234.986622565879 -> 8910.49374157762
   - latitude: 1.34323600 -> 1.34307900
   - longitude: 103.73528400 -> 103.73822100
 - `2778` 505 Jurong West Market & Food Centre
-  - distance: 11366.699833828243 -> 11076.798190458816
   - locationName: 505 Jurong West Market -> 505 Jurong West Market & Food Centre
   - longitude: 103.71592500 -> 103.71853300
 - `2779` 221A Boon Lay Market
-  - distance: 11919.689763057619 -> 11685.314320757858
   - latitude: 1.34524700 -> 1.34584300
   - longitude: 103.71100500 -> 103.71309600
 - `2782` 573B Woodlands Drive 16
-  - distance: 9473.088969163866 -> 9406.177333585385
   - latitude: 1.43085800 -> 1.43091100
   - longitude: 103.79521700 -> 103.79777600
+</details>
 
-### 2026-07-01
+<details>
+<summary><b>2026-07-01</b> · 1,163 locations · +11 · ±1</summary>
 
 - Snapshot size: **1163** locations
 - Added: **11**
@@ -1799,8 +1795,10 @@ Added
 Changed
 - `2450` Sparrows 206 Bedok North Street 1
   - address: 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE , 460206 -> 206 BEDOK NORTH STREET 1 #01-355, BEDOK CENTRAL AREA OFFICE, 460206
+</details>
 
-### 2026-06-30
+<details>
+<summary><b>2026-06-30</b> · 1,152 locations · +4 · ±12</summary>
 
 - Snapshot size: **1152** locations
 - Added: **4**
@@ -1816,7 +1814,6 @@ Added
 Changed
 - `1117` FairPrice Rivervale Mall
   - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
-  - distance: 8024.594921604226 -> 10755.841199964072
   - latitude: 1.37453000 -> 1.39210000
   - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
   - longitude: 103.88562000 -> 103.90470000
@@ -1824,7 +1821,6 @@ Changed
   - zipcode: 530682 -> 545082
 - `1210` FairPrice Rivervale Plaza
   - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
-  - distance: 8810.039786921378 -> 10750.873630499158
   - latitude: 1.37250000 -> 1.39196000
   - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
   - longitude: 103.89380000 -> 103.90472000
@@ -1832,7 +1828,6 @@ Changed
   - zipcode: 538766 -> 540118
 - `2353` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
@@ -1840,7 +1835,6 @@ Changed
   - zipcode: 529510 -> 528523
 - `2513` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
@@ -1865,8 +1859,10 @@ Changed
   - locationName: 511 Bedok North Street 3 -> Kaki Bukit 511 Market and Food Centre
 - `2765` Bedok North Street 3 Blk 538 Hawker Centre
   - locationName: 538 Bedok North Street 3 -> Bedok North Street 3 Blk 538 Hawker Centre
+</details>
 
-### 2026-06-29
+<details>
+<summary><b>2026-06-29</b> · 1,148 locations · +5</summary>
 
 - Snapshot size: **1148** locations
 - Added: **5**
@@ -1879,8 +1875,10 @@ Added
 - `2763` 84 Marine Parade Central (postal: 440084, status: MAINTENANCE)
 - `2764` 511 Bedok North Street 3 (postal: 460511, status: MAINTENANCE)
 - `2765` 538 Bedok North Street 3 (postal: 460538, status: MAINTENANCE)
+</details>
 
-### 2026-06-28
+<details>
+<summary><b>2026-06-28</b> · 1,143 locations · ±7</summary>
 
 - Snapshot size: **1143** locations
 - Added: **0**
@@ -1890,7 +1888,6 @@ Added
 Changed
 - `1210` FairPrice Hougang Mall
   - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
-  - distance: 10750.873630499158 -> 8810.039786921378
   - latitude: 1.39196000 -> 1.37250000
   - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
   - longitude: 103.90472000 -> 103.89380000
@@ -1898,12 +1895,10 @@ Changed
   - zipcode: 540118 -> 538766
 - `1964` Thai Supermarket Pte Ltd
   - address: 12 KALLANG AVENUE #01-09/15,#01-17/19, APERIA, 339511 -> 12 Kallang Avenue, #01-20, 339511
-  - distance: 6725.4116193552145 -> 6726.937470865263
   - locationName: Thai Supermarket Aperia Mall -> Thai Supermarket Pte Ltd
   - longitude: 103.86430200 -> 103.86432000
 - `2271` FairPrice Orchid Country Club
   - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
-  - distance: 22118.990573825253 -> 7413.418910446766
   - latitude: 1.27231800 -> 1.41085000
   - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
   - longitude: 103.63449900 -> 103.84260000
@@ -1917,8 +1912,10 @@ Changed
   - supplierId: null -> TOMRA001
 - `2771` Li Li Cheng Punggol
   - supplierId: null -> TOMRA001
+</details>
 
-### 2026-06-27
+<details>
+<summary><b>2026-06-27</b> · 1,143 locations · +3 · ±1</summary>
 
 - Snapshot size: **1143** locations
 - Added: **3**
@@ -1933,22 +1930,27 @@ Added
 Changed
 - `1117` FairPrice 682 Hougang Avenue 4
   - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
-  - distance: 10755.841199964072 -> 8024.594921604226
   - latitude: 1.39210000 -> 1.37453000
   - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
   - longitude: 103.90470000 -> 103.88562000
   - postalCode: 545082 -> 530682
   - zipcode: 545082 -> 530682
+</details>
 
-### 2026-06-26
-
-No changes.
-
-### 2026-06-25
+<details>
+<summary><b>2026-06-26</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-06-24
+<details>
+<summary><b>2026-06-25</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-06-24</b> · 1,140 locations · +2</summary>
 
 - Snapshot size: **1140** locations
 - Added: **2**
@@ -1958,8 +1960,10 @@ No changes.
 Added
 - `2767` 11 Telok Blangah Crescent Market and Food Centre (postal: 090011, status: MAINTENANCE)
 - `2768` Shunfu Mart (postal: 570320, status: offline)
+</details>
 
-### 2026-06-23
+<details>
+<summary><b>2026-06-23</b> · 1,138 locations · +1 · ±2</summary>
 
 - Snapshot size: **1138** locations
 - Added: **1**
@@ -1972,7 +1976,6 @@ Added
 Changed
 - `1117` FairPrice Rivervale Mall
   - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
-  - distance: 8024.594921604226 -> 10755.841199964072
   - latitude: 1.37453000 -> 1.39210000
   - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
   - longitude: 103.88562000 -> 103.90470000
@@ -1980,8 +1983,10 @@ Changed
   - zipcode: 530682 -> 545082
 - `2752` Eunos Crescent Blk 4A Hawker Centre
   - locationName: Eunos Crescent Blk 4A -> Eunos Crescent Blk 4A Hawker Centre
+</details>
 
-### 2026-06-22
+<details>
+<summary><b>2026-06-22</b> · 1,137 locations · +2 · ±3</summary>
 
 - Snapshot size: **1137** locations
 - Added: **2**
@@ -1995,7 +2000,6 @@ Added
 Changed
 - `1117` FairPrice 682 Hougang Avenue 4
   - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
-  - distance: 10755.841199964072 -> 8024.594921604226
   - latitude: 1.39210000 -> 1.37453000
   - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
   - longitude: 103.90470000 -> 103.88562000
@@ -2003,7 +2007,6 @@ Changed
   - zipcode: 545082 -> 530682
 - `2353` FairPrice Tampines Mall
   - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
-  - distance: 13507.901205668355 -> 14067.905591355227
   - latitude: 1.35278200 -> 1.35245700
   - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
   - longitude: 103.93962000 -> 103.94467000
@@ -2011,18 +2014,21 @@ Changed
   - zipcode: 528523 -> 529510
 - `2513` FairPrice Tampines Mall
   - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
-  - distance: 13507.901205668355 -> 14067.905591355227
   - latitude: 1.35278200 -> 1.35245700
   - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
   - longitude: 103.93962000 -> 103.94467000
   - postalCode: 528523 -> 529510
   - zipcode: 528523 -> 529510
+</details>
 
-### 2026-06-21
+<details>
+<summary><b>2026-06-21</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-06-20
+<details>
+<summary><b>2026-06-20</b> · 1,135 locations · +7 · ±3</summary>
 
 - Snapshot size: **1135** locations
 - Added: **7**
@@ -2041,7 +2047,6 @@ Added
 Changed
 - `2353` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
@@ -2049,7 +2054,6 @@ Changed
   - zipcode: 529510 -> 528523
 - `2513` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
@@ -2057,8 +2061,10 @@ Changed
   - zipcode: 529510 -> 528523
 - `2747` 672 Klang Lane- Little India
   - locationName: Little India - Klang - 672 Klang Lane -> 672 Klang Lane- Little India
+</details>
 
-### 2026-06-19
+<details>
+<summary><b>2026-06-19</b> · 1,128 locations · ±2</summary>
 
 - Snapshot size: **1128** locations
 - Added: **0**
@@ -2068,7 +2074,6 @@ Changed
 Changed
 - `2353` FairPrice Tampines Mall
   - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
-  - distance: 13507.901205668355 -> 14067.905591355227
   - latitude: 1.35278200 -> 1.35245700
   - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
   - longitude: 103.93962000 -> 103.94467000
@@ -2076,14 +2081,15 @@ Changed
   - zipcode: 528523 -> 529510
 - `2513` FairPrice Tampines Mall
   - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
-  - distance: 13507.901205668355 -> 14067.905591355227
   - latitude: 1.35278200 -> 1.35245700
   - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
   - longitude: 103.93962000 -> 103.94467000
   - postalCode: 528523 -> 529510
   - zipcode: 528523 -> 529510
+</details>
 
-### 2026-06-18
+<details>
+<summary><b>2026-06-18</b> · 1,128 locations · +1 · ±2</summary>
 
 - Snapshot size: **1128** locations
 - Added: **1**
@@ -2096,7 +2102,6 @@ Added
 Changed
 - `2353` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
@@ -2104,14 +2109,15 @@ Changed
   - zipcode: 529510 -> 528523
 - `2513` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
   - postalCode: 529510 -> 528523
   - zipcode: 529510 -> 528523
+</details>
 
-### 2026-06-17
+<details>
+<summary><b>2026-06-17</b> · 1,127 locations · +5</summary>
 
 - Snapshot size: **1127** locations
 - Added: **5**
@@ -2124,8 +2130,10 @@ Added
 - `2748` Pek Kio Market & Food Centre (postal: 211041, status: MAINTENANCE)
 - `2749` Bukit Merah Central Food Centre (postal: 150163, status: MAINTENANCE)
 - `2750` Blk 115 Bukit Merah View Market and Food Centre (postal: 151115, status: MAINTENANCE)
+</details>
 
-### 2026-06-16
+<details>
+<summary><b>2026-06-16</b> · 1,122 locations · +5 · ±3</summary>
 
 - Snapshot size: **1122** locations
 - Added: **5**
@@ -2142,7 +2150,6 @@ Added
 Changed
 - `1117` FairPrice Rivervale Mall
   - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
-  - distance: 8024.594921604226 -> 10755.841199964072
   - latitude: 1.37453000 -> 1.39210000
   - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
   - longitude: 103.88562000 -> 103.90470000
@@ -2150,7 +2157,6 @@ Changed
   - zipcode: 530682 -> 545082
 - `2353` FairPrice Tampines Mall
   - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
-  - distance: 13507.901205668355 -> 14067.905591355227
   - latitude: 1.35278200 -> 1.35245700
   - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
   - longitude: 103.93962000 -> 103.94467000
@@ -2158,14 +2164,15 @@ Changed
   - zipcode: 528523 -> 529510
 - `2513` FairPrice Tampines Mall
   - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
-  - distance: 13507.901205668355 -> 14067.905591355227
   - latitude: 1.35278200 -> 1.35245700
   - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
   - longitude: 103.93962000 -> 103.94467000
   - postalCode: 528523 -> 529510
   - zipcode: 528523 -> 529510
+</details>
 
-### 2026-06-15
+<details>
+<summary><b>2026-06-15</b> · 1,117 locations · +1</summary>
 
 - Snapshot size: **1117** locations
 - Added: **1**
@@ -2174,12 +2181,16 @@ Changed
 
 Added
 - `2722` Dunman Food Centre (postal: 424768, status: RUNNING)
+</details>
 
-### 2026-06-14
+<details>
+<summary><b>2026-06-14</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-06-13
+<details>
+<summary><b>2026-06-13</b> · 1,116 locations · +8 · ±3</summary>
 
 - Snapshot size: **1116** locations
 - Added: **8**
@@ -2203,12 +2214,16 @@ Changed
   - locationName: 724 AMK Market & Food Centre -> Ang Mo Kio Market & Food Centre Blk 724
 - `2727` Kebun Baru Food Centre Block 226H
   - locationName: Kebun Baru Food Centre -> Kebun Baru Food Centre Block 226H
+</details>
 
-### 2026-06-12
+<details>
+<summary><b>2026-06-12</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-06-11
+<details>
+<summary><b>2026-06-11</b> · 1,108 locations · +1 · ±1</summary>
 
 - Snapshot size: **1108** locations
 - Added: **1**
@@ -2221,12 +2236,16 @@ Added
 Changed
 - `2186` Prime Supermarket 678A Woodlands Avenue 6
   - locationName: Prime Supermarket 687A Woodlands Avenue 6 -> Prime Supermarket 678A Woodlands Avenue 6
+</details>
 
-### 2026-06-10
+<details>
+<summary><b>2026-06-10</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-06-09
+<details>
+<summary><b>2026-06-09</b> · 1,107 locations · ±2</summary>
 
 - Snapshot size: **1107** locations
 - Added: **0**
@@ -2239,8 +2258,10 @@ Changed
   - locationName: ALL INDIA SUPERMART PTE LTD -> All India Supermart Pte Ltd
 - `2728` 628 Ang Mo Kio Food Centre
   - locationName: Ang Mo Kio 628 Market -> 628 Ang Mo Kio Food Centre
+</details>
 
-### 2026-06-08
+<details>
+<summary><b>2026-06-08</b> · 1,107 locations · +1</summary>
 
 - Snapshot size: **1107** locations
 - Added: **1**
@@ -2249,8 +2270,10 @@ Changed
 
 Added
 - `2730` Kallang Estate Fresh Market and Food Centre (postal: 397972, status: RUNNING)
+</details>
 
-### 2026-06-07
+<details>
+<summary><b>2026-06-07</b> · 1,106 locations · +3</summary>
 
 - Snapshot size: **1106** locations
 - Added: **3**
@@ -2261,12 +2284,16 @@ Added
 - `2727` Kebun Baru Food Centre (postal: 568226, status: RUNNING)
 - `2728` Ang Mo Kio 628 Market (postal: 560628, status: RUNNING)
 - `2729` Chong Boon Market & Food Centre (postal: 561453, status: RUNNING)
+</details>
 
-### 2026-06-06
+<details>
+<summary><b>2026-06-06</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-06-05
+<details>
+<summary><b>2026-06-05</b> · 1,103 locations · +1 · ±1</summary>
 
 - Snapshot size: **1103** locations
 - Added: **1**
@@ -2279,8 +2306,10 @@ Added
 Changed
 - `2226` SHENG SIONG BLK 547 SEGAR RD
   - locationName: SHENG SIONG BLK 547 SEGAR RD  -> SHENG SIONG BLK 547 SEGAR RD
+</details>
 
-### 2026-06-04
+<details>
+<summary><b>2026-06-04</b> · 1,102 locations · +1</summary>
 
 - Snapshot size: **1102** locations
 - Added: **1**
@@ -2289,8 +2318,10 @@ Changed
 
 Added
 - `2656` ALL INDIA SUPERMART PTE LTD (postal: 208282, status: RUNNING)
+</details>
 
-### 2026-06-03
+<details>
+<summary><b>2026-06-03</b> · 1,101 locations · +1 · ±1</summary>
 
 - Snapshot size: **1101** locations
 - Added: **1**
@@ -2302,12 +2333,13 @@ Added
 
 Changed
 - `2663` 361 Sembawang Crescent
-  - distance: 10893.183682445024 -> 10861.487359509132
   - latitude: 1.44657900 -> 1.44640100
   - locationName: 361 SEMBWANG CRESCENT -> 361 Sembawang Crescent
   - longitude: 103.81192800 -> 103.81393200
+</details>
 
-### 2026-06-02
+<details>
+<summary><b>2026-06-02</b> · 1,100 locations · +11 · −1 · ±9</summary>
 
 - Snapshot size: **1100** locations
 - Added: **11**
@@ -2340,7 +2372,6 @@ Changed
   - address: Block 682 Hougang Avenue 4 #01-310 , 530682 -> Block 682 Hougang Avenue 4 #01-310, 530682
   - locationName: FairPrice Hougang 682 -> FairPrice 682 Hougang Avenue 4
 - `254` 618 Choa Chu Kang North 7
-  - distance: 10282.605759321848 -> 9747.099555948653
   - latitude: 1.40074500 -> 1.39868100
   - longitude: 103.74163500 -> 103.74606000
 - `2661` BISMILLAH MINIMART 32 MANDAI
@@ -2353,19 +2384,24 @@ Changed
 - `2672` SHENG SIONG THOMSON IMPERIAL COURT
   - locationName: SHENG SIONG 200 UPPER THOMSON RD, THOMSON IMPERIAL COURT -> SHENG SIONG THOMSON IMPERIAL COURT
 - `458` 330 Clementi Ave 2
-  - distance: 6855.361676726628 -> 6821.097333120161
   - latitude: 1.31417000 -> 1.31374300
   - longitude: 103.76716000 -> 103.76782800
+</details>
 
-### 2026-06-01
-
-No changes.
-
-### 2026-05-31
+<details>
+<summary><b>2026-06-01</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-30
+<details>
+<summary><b>2026-05-31</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-05-30</b> · 1,090 locations · +9</summary>
 
 - Snapshot size: **1090** locations
 - Added: **9**
@@ -2382,8 +2418,10 @@ Added
 - `2686` Holland Village Market and Food Centre (postal: 277700, status: MAINTENANCE)
 - `2687` Commonwealth Crescent Market (postal: 149644, status: RUNNING)
 - `2688` Adam Road Food Centre (postal: 289876, status: MAINTENANCE)
+</details>
 
-### 2026-05-29
+<details>
+<summary><b>2026-05-29</b> · 1,081 locations · +7</summary>
 
 - Snapshot size: **1081** locations
 - Added: **7**
@@ -2398,12 +2436,16 @@ Added
 - `2671` Phan 66 8 Seletar North Link (postal: 797455, status: MAINTENANCE)
 - `2672` SHENG SIONG 200 UPPER THOMSON RD, THOMSON IMPERIAL COURT (postal: 574424, status: MAINTENANCE)
 - `2673` SCARLETT@AMK 710A (postal: 561710, status: MAINTENANCE)
+</details>
 
-### 2026-05-28
+<details>
+<summary><b>2026-05-28</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-27
+<details>
+<summary><b>2026-05-27</b> · 1,074 locations · ±1</summary>
 
 - Snapshot size: **1074** locations
 - Added: **0**
@@ -2413,34 +2455,45 @@ No changes.
 Changed
 - `1117` FairPrice Hougang 682
   - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310 , 530682
-  - distance: 10755.841199964072 -> 8024.594921604226
   - latitude: 1.39210000 -> 1.37453000
   - locationName: FairPrice Rivervale Mall -> FairPrice Hougang 682
   - longitude: 103.90470000 -> 103.88562000
   - postalCode: 545082 -> 530682
   - zipcode: 545082 -> 530682
+</details>
 
-### 2026-05-26
-
-No changes.
-
-### 2026-05-25
+<details>
+<summary><b>2026-05-26</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-24
-
-No changes.
-
-### 2026-05-23
+<details>
+<summary><b>2026-05-25</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-22
+<details>
+<summary><b>2026-05-24</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-21
+<details>
+<summary><b>2026-05-23</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-05-22</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-05-21</b> · 1,074 locations · +2</summary>
 
 - Snapshot size: **1074** locations
 - Added: **2**
@@ -2450,12 +2503,16 @@ No changes.
 Added
 - `2660` SACHI MINIMART PTE LTD (postal: 608537, status: offline)
 - `2661` BISMILLAH MINIMART 32 MANDAI (postal: 729939, status: offline)
+</details>
 
-### 2026-05-20
+<details>
+<summary><b>2026-05-20</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-19
+<details>
+<summary><b>2026-05-19</b> · 1,072 locations · +1</summary>
 
 - Snapshot size: **1072** locations
 - Added: **1**
@@ -2464,8 +2521,10 @@ No changes.
 
 Added
 - `2659` TRIPLE N SUPERMART PTE LTD (postal: 415814, status: MAINTENANCE)
+</details>
 
-### 2026-05-18
+<details>
+<summary><b>2026-05-18</b> · 1,071 locations · ±9</summary>
 
 - Snapshot size: **1071** locations
 - Added: **0**
@@ -2478,41 +2537,37 @@ Changed
 - `1091` SHENG SIONG BLK 410A SIN MING AVENUE
   - locationName: SHENG SIONG BLK 410A SIN MING AVENUE  -> SHENG SIONG BLK 410A SIN MING AVENUE
 - `1178` Don Don Donki (Suntec City Mall)
-  - distance: 7463.573887841275 -> 7541.344463165305
   - latitude: 1.29500000 -> 1.29320000
   - longitude: 103.85830000 -> 103.85700000
 - `1321` Cold Storage Marina Bay Sands
-  - distance: 8566.775229653362 -> 8355.305789322956
   - latitude: 1.28366000 -> 1.28622600
   - longitude: 103.85930000 -> 103.85976400
 - `2241` SHENG SIONG BLK 675 YISHUN AVENUE 4
   - locationName: SHENG SIONG BLK 675 YISHUN AVENUE 4  -> SHENG SIONG BLK 675 YISHUN AVENUE 4
 - `225` 201 Marsiling Dr
-  - distance: 10147.067008772485 -> 11470.26688981575
   - latitude: 1.43573000 -> 1.44269800
   - longitude: 103.79036200 -> 103.77542100
 - `2271` TUAS SOUTH MINIMART
   - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
-  - distance: 7413.418910446766 -> 22118.990573825253
   - latitude: 1.41085000 -> 1.27231800
   - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
   - longitude: 103.84260000 -> 103.63449900
   - postalCode: 769162 -> 636906
   - zipcode: 769162 -> 636906
 - `839` Blk 257, Pasir Ris Street 21
-  - distance: 16383.202394002794 -> 16305.291043589052
   - latitude: 1.36430200 -> 1.36714600
   - longitude: 103.96473400 -> 103.96369900
 - `846` Blk 160, Pasir Ris Street 13
   - address: Blk 158, Pasir Ris Street 11, 510158 -> Blk 160, Pasir Ris Street 13, 510160
-  - distance: 16101.782760858221 -> 16137.252042151013
   - latitude: 1.36457900 -> 1.36408600
   - locationName: Blk 158, Pasir Ris Street 11 -> Blk 160, Pasir Ris Street 13
   - longitude: 103.96215800 -> 103.96253200
   - postalCode: 510158 -> 510160
   - zipcode: 510158 -> 510160
+</details>
 
-### 2026-05-17
+<details>
+<summary><b>2026-05-17</b> · 1,071 locations · +1 · ±1</summary>
 
 - Snapshot size: **1071** locations
 - Added: **1**
@@ -2525,20 +2580,28 @@ Added
 Changed
 - `960` Blk 226, Simei Street 4
   - address: Blk 233, Simei Street 4, 520226 -> Blk 266, Simei Street 4, 520226
+</details>
 
-### 2026-05-16
-
-No changes.
-
-### 2026-05-15
+<details>
+<summary><b>2026-05-16</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-14
+<details>
+<summary><b>2026-05-15</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-13
+<details>
+<summary><b>2026-05-14</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-05-13</b> · 1,070 locations · ±2</summary>
 
 - Snapshot size: **1070** locations
 - Added: **0**
@@ -2548,7 +2611,6 @@ No changes.
 Changed
 - `1210` FairPrice Rivervale Plaza
   - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
-  - distance: 8810.039786921378 -> 10750.873630499158
   - latitude: 1.37250000 -> 1.39196000
   - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
   - longitude: 103.89380000 -> 103.90472000
@@ -2556,22 +2618,27 @@ Changed
   - zipcode: 538766 -> 540118
 - `850` Blk 187, Pasir Ris Street 11
   - address: Blk 198, Pasir Ris Street 12, 510198 -> Blk 187, Pasir Ris Street 11, 510187
-  - distance: 15923.487092965383 -> 15800.480957281465
   - latitude: 1.36689300 -> 1.36464200
   - locationName: Blk 198, Pasir Ris Street 12 -> Blk 187, Pasir Ris Street 11
   - longitude: 103.96026900 -> 103.95942400
   - postalCode: 510198 -> 510187
   - zipcode: 510198 -> 510187
+</details>
 
-### 2026-05-12
-
-No changes.
-
-### 2026-05-11
+<details>
+<summary><b>2026-05-12</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-10
+<details>
+<summary><b>2026-05-11</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-05-10</b> · 1,070 locations · ±1</summary>
 
 - Snapshot size: **1070** locations
 - Added: **0**
@@ -2581,29 +2648,38 @@ No changes.
 Changed
 - `2288` 417 Canberra Rd
   - address: 417 Canberra Rd, 750417 -> 418 Canberra Rd, 750418
-  - distance: 11472.88266984599 -> 11522.865675032668
   - latitude: 1.45198300 -> 1.45243500
   - longitude: 103.81948900 -> 103.81927900
   - postalCode: 750417 -> 750418
   - zipcode: 750417 -> 750418
+</details>
 
-### 2026-05-09
-
-No changes.
-
-### 2026-05-08
+<details>
+<summary><b>2026-05-09</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-07
-
-No changes.
-
-### 2026-05-06
+<details>
+<summary><b>2026-05-08</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-05
+<details>
+<summary><b>2026-05-07</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-05-06</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-05-05</b> · 1,070 locations · ±3</summary>
 
 - Snapshot size: **1070** locations
 - Added: **0**
@@ -2612,7 +2688,6 @@ No changes.
 
 Changed
 - `1158` Cold Storage Sentosa Cove
-  - distance: 11569.021929180419 -> 11547.124706719322
   - latitude: 1.24700000 -> 1.24730900
   - longitude: 103.83960000 -> 103.84010500
 - `2579` FairPrice Tampines Blk 138 Tampines Street 11
@@ -2633,12 +2708,16 @@ Changed
   - rvm_val3: null -> ""
   - rvm_val4: null -> ""
   - rvmOpeningHours: null -> ""
+</details>
 
-### 2026-05-04
+<details>
+<summary><b>2026-05-04</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-03
+<details>
+<summary><b>2026-05-03</b> · 1,070 locations · ±1</summary>
 
 - Snapshot size: **1070** locations
 - Added: **0**
@@ -2648,17 +2727,20 @@ No changes.
 Changed
 - `929` Blk 2, Chai Chee Road
   - address: Blk 2, Chai Chee Road, 469044 -> Blk 2, Chai Chee Road, 461002
-  - distance: 11873.618281919036 -> 11848.77444871653
   - latitude: 1.32695500 -> 1.32699000
   - longitude: 103.92272100 -> 103.92250000
   - postalCode: 469044 -> 461002
   - zipcode: 469044 -> 461002
+</details>
 
-### 2026-05-02
+<details>
+<summary><b>2026-05-02</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-05-01
+<details>
+<summary><b>2026-05-01</b> · 1,070 locations · +1</summary>
 
 - Snapshot size: **1070** locations
 - Added: **1**
@@ -2667,8 +2749,10 @@ No changes.
 
 Added
 - `2655` Prime Supermarket Blk 761 Yishun (postal: 760761, status: RUNNING)
+</details>
 
-### 2026-04-30
+<details>
+<summary><b>2026-04-30</b> · 1,069 locations · ±1</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2677,12 +2761,13 @@ Added
 
 Changed
 - `1147` SHENG SIONG 19 SERANGOON NORTH AVE 5
-  - distance: 6664.232186103713 -> 6670.658710367321
   - latitude: 1.37580000 -> 1.37557000
   - locationName: SHENG SIONG 19 SERANGOON NORTH AVE 5  -> SHENG SIONG 19 SERANGOON NORTH AVE 5
   - longitude: 103.87170000 -> 103.87188000
+</details>
 
-### 2026-04-29
+<details>
+<summary><b>2026-04-29</b> · 1,069 locations · ±3</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2691,19 +2776,18 @@ Changed
 
 Changed
 - `186` 260 Boon Lay Dr
-  - distance: 12406.472251217458 -> 12251.775520502195
   - latitude: 1.34570500 -> 1.34515700
   - longitude: 103.70661000 -> 103.70801900
 - `211` 190 Boon Lay Dr
-  - distance: 11799.248868438399 -> 11822.608618506398
   - latitude: 1.34533900 -> 1.34515300
   - longitude: 103.71208600 -> 103.71188200
 - `252` 515 Jurong West Street 52
-  - distance: 11140.80988892924 -> 10871.660412984003
   - latitude: 1.35007000 -> 1.34625000
   - longitude: 103.71796000 -> 103.72040700
+</details>
 
-### 2026-04-28
+<details>
+<summary><b>2026-04-28</b> · 1,069 locations · ±1</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2712,35 +2796,48 @@ Changed
 
 Changed
 - `281` 160 Woodlands Street 13
-  - distance: 11361.440199953757 -> 10569.804920530301
   - latitude: 1.44201000 -> 1.43332900
   - longitude: 103.77627500 -> 103.77465200
+</details>
 
-### 2026-04-27
-
-No changes.
-
-### 2026-04-26
+<details>
+<summary><b>2026-04-27</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-04-25
-
-No changes.
-
-### 2026-04-24
+<details>
+<summary><b>2026-04-26</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-04-23
-
-No changes.
-
-### 2026-04-22
+<details>
+<summary><b>2026-04-25</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-04-21
+<details>
+<summary><b>2026-04-24</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-04-23</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-04-22</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-04-21</b> · 1,069 locations · ±5</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2750,28 +2847,25 @@ No changes.
 Changed
 - `194` 771 Choa Chu Kang Street 54
   - address: 771 Choa Chu Kang Dr, 680771 -> 771 Choa Chu Kang Street 54, 680771
-  - distance: 9267.860579369799 -> 9192.773421626374
   - latitude: 1.39549000 -> 1.39447000
   - locationName: 771 Choa Chu Kang Dr -> 771 Choa Chu Kang Street 54
   - longitude: 103.74910000 -> 103.74923000
 - `202` 657 Choa Chu Kang Cres
-  - distance: 9038.75455034437 -> 9531.628339568624
   - latitude: 1.38847600 -> 1.40046200
   - longitude: 103.74719700 -> 103.74973900
 - `441` 550 Choa Chu Kang Street 52
-  - distance: 11665.739909205853 -> 9780.793960433057
   - latitude: 1.44416800 -> 1.39406500
   - longitude: 103.77440800 -> 103.74272200
 - `929` Blk 2, Chai Chee Road
-  - distance: 11675.336049433368 -> 11873.618281919036
   - latitude: 1.32259100 -> 1.32695500
   - longitude: 103.91987100 -> 103.92272100
 - `943` Blk 50, Chai Chee Street
-  - distance: 11764.59836803133 -> 11791.705105536106
   - latitude: 1.32891200 -> 1.32938200
   - longitude: 103.92211300 -> 103.92245000
+</details>
 
-### 2026-04-20
+<details>
+<summary><b>2026-04-20</b> · 1,069 locations · ±2</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2781,7 +2875,6 @@ Changed
 Changed
 - `2353` FairPrice Our Tampines Hub
   - address: 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510 -> 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523
-  - distance: 14067.905591355227 -> 13507.901205668355
   - latitude: 1.35245700 -> 1.35278200
   - locationName: FairPrice Tampines Mall -> FairPrice Our Tampines Hub
   - longitude: 103.94467000 -> 103.93962000
@@ -2789,18 +2882,21 @@ Changed
   - zipcode: 529510 -> 528523
 - `901` Blk 742 Pasir Ris Street 71
   - address: Blk 740 Pasir Ris Street 71, 520740 -> Blk 742 Pasir Ris Street 71, 510742
-  - distance: 12809.71892918906 -> 13476.286894491226
   - latitude: 1.35941900 -> 1.37708700
   - locationName: Blk 740 Pasir Ris Street 71 -> Blk 742 Pasir Ris Street 71
   - longitude: 103.93291500 -> 103.93605600
   - postalCode: 520740 -> 510742
   - zipcode: 520740 -> 510742
+</details>
 
-### 2026-04-19
+<details>
+<summary><b>2026-04-19</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-04-18
+<details>
+<summary><b>2026-04-18</b> · 1,069 locations · ±2</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2810,20 +2906,20 @@ No changes.
 Changed
 - `1023` Block 272 Punggol Walk
   - address: Block 272A Punggol Walk, 820272 -> Block 272 Punggol Walk, 820272
-  - distance: 10975.237872317544 -> 10973.722656518014
   - latitude: 1.40299700 -> 1.40287000
   - locationName: Block 272A Punggol Walk -> Block 272 Punggol Walk
   - longitude: 103.90069600 -> 103.90076300
 - `1027` Block 170 Ang Mo Kio Avenue 4
   - address: 171 Ang Mo Kio Ave 4, 560171 -> 170 Ang Mo Kio Ave 4, 560170
-  - distance: 3480.7153277680222 -> 3491.721503653183
   - latitude: 1.37478800 -> 1.37394300
   - locationName: Block 171 Ang Mo Kio Avenue 4 -> Block 170 Ang Mo Kio Avenue 4
   - longitude: 103.83564600 -> 103.83700700
   - postalCode: 560171 -> 560170
   - zipcode: 560171 -> 560170
+</details>
 
-### 2026-04-17
+<details>
+<summary><b>2026-04-17</b> · 1,069 locations · ±3</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2837,14 +2933,15 @@ Changed
   - locationName: Prime Supermarket Sumang Walk -> Prime Supermarket 322 Sumang Walk
 - `795` Blk 348, Ubi Avenue 1
   - address: Blk 346, Ubi Avenue 1, 400346 -> Blk 348, Ubi Avenue 1, 400348
-  - distance: 9403.796988847904 -> 9466.125672428245
   - latitude: 1.32601400 -> 1.32615800
   - locationName: Blk 346, Ubi Avenue 1 -> Blk 348, Ubi Avenue 1
   - longitude: 103.89963300 -> 103.90025500
   - postalCode: 400346 -> 400348
   - zipcode: 400346 -> 400348
+</details>
 
-### 2026-04-16
+<details>
+<summary><b>2026-04-16</b> · 1,069 locations · ±1</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2854,8 +2951,10 @@ Changed
 Changed
 - `1141` SHENG SIONG BLK 671 EDGEFIELD PLAINS
   - rvmOpeningHours: "" -> Mon - Sun:  07:00 AM - 11:00 PM
+</details>
 
-### 2026-04-15
+<details>
+<summary><b>2026-04-15</b> · 1,069 locations · ±3</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2865,7 +2964,6 @@ Changed
 Changed
 - `2342` Giant Hypermarket Tampines
   - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> 21 Tampines North Drive 2 #03-01, 528765
-  - distance: 13346.432905941527 -> 12915.057712132177
   - latitude: 1.36125300 -> 1.37215500
   - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
   - longitude: 103.93758600 -> 103.93198200
@@ -2873,7 +2971,6 @@ Changed
   - zipcode: 521602 -> 528765
 - `2345` Giant Hypermarket Tampines
   - address: BLK 602A TAMPINES AVENUE 9 #01-01, 521602 -> 21 Tampines North Drive 2 #03-01, 528765
-  - distance: 13346.432905941527 -> 12915.057712132177
   - latitude: 1.36125300 -> 1.37215500
   - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9 -> Giant Hypermarket Tampines
   - longitude: 103.93758600 -> 103.93198200
@@ -2881,8 +2978,10 @@ Changed
   - zipcode: 521602 -> 528765
 - `2540` Changi Airport Terminal 4
   - address: 30 Airport Boulevard, Singapore 819662, Level 2M Outside Kopitiam, 819662 -> 10 Airport Boulevard, Singapore 819665, Level 2M Outside Kopitiam, 819662
+</details>
 
-### 2026-04-14
+<details>
+<summary><b>2026-04-14</b> · 1,069 locations · ±2</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2892,7 +2991,6 @@ Changed
 Changed
 - `2342` SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - address: 21 Tampines North Drive 2 #03-01, 528765 -> BLK 602A TAMPINES AVENUE 9 #01-01, 521602
-  - distance: 12915.057712132177 -> 13346.432905941527
   - latitude: 1.37215500 -> 1.36125300
   - locationName: Giant Hypermarket Tampines -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - longitude: 103.93198200 -> 103.93758600
@@ -2900,8 +2998,10 @@ Changed
   - zipcode: 528765 -> 521602
 - `2345` SHENG SIONG BLK 602A TAMPINES AVENUE 9
   - locationName: SHENG SIONG BLK 602A TAMPINES AVENUE 9  -> SHENG SIONG BLK 602A TAMPINES AVENUE 9
+</details>
 
-### 2026-04-13
+<details>
+<summary><b>2026-04-13</b> · 1,069 locations · ±2</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2913,8 +3013,10 @@ Changed
   - locationName: SHENG SIONG BLK 446 FAJAR ROAD  -> SHENG SIONG BLK 446 FAJAR ROAD
 - `367` Block 126A Edgedale Plains
   - locationName: Blk126A Edgedale Plains -> Block 126A Edgedale Plains
+</details>
 
-### 2026-04-12
+<details>
+<summary><b>2026-04-12</b> · 1,069 locations · ±1</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2927,16 +3029,22 @@ Changed
   - locationName: AJMAL TRADING GROUP - Jalan Papan Westlite Dormitory -> AJMAL TRADING GROUP - Jalan Papan Aspri Westlite
   - postalCode: 619421 -> 619396
   - zipcode: 619421 -> 619396
+</details>
 
-### 2026-04-11
-
-No changes.
-
-### 2026-04-10
+<details>
+<summary><b>2026-04-11</b> · No changes</summary>
 
 No changes.
+</details>
 
-### 2026-04-09
+<details>
+<summary><b>2026-04-10</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
+<summary><b>2026-04-09</b> · 1,069 locations · ±1</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2946,8 +3054,10 @@ No changes.
 Changed
 - `2370` Raj Agro Kranji
   - locationName: Aaj Agro Kranji -> Raj Agro Kranji
+</details>
 
-### 2026-04-08
+<details>
+<summary><b>2026-04-08</b> · 1,069 locations · −5</summary>
 
 - Snapshot size: **1069** locations
 - Added: **0**
@@ -2960,4 +3070,5 @@ Removed
 - `2617` Culina 15 Dempsey (postal: 249675, status: offline)
 - `2618` Supernature Dempsey Road (postal: 249686, status: offline)
 - `2619` Prime Supermarket Blk 761 Yishun (postal: 760761, status: offline)
+</details>
 <!-- CHANGELOG:END -->
