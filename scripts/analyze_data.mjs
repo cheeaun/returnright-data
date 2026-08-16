@@ -714,6 +714,27 @@ function mdTable(headers, rows) {
   return [line(headers), line(headers.map(() => "---")), ...rows.map((row) => line(row.map((cell) => String(cell))))].join("\n");
 }
 
+const OKABE_ITO = [
+  "#E69F00",
+  "#56B4E9",
+  "#009E73",
+  "#F0E442",
+  "#0072B2",
+  "#D55E00",
+  "#CC79A7",
+  "#999999",
+];
+
+function pieTheme() {
+  const themeVariables = {};
+  for (let i = 0; i < OKABE_ITO.length; i++) themeVariables[`pie${i + 1}`] = OKABE_ITO[i];
+  return { themeVariables };
+}
+
+function seriesTheme(color) {
+  return { themeVariables: { xyChart: { plotColorPalette: color } } };
+}
+
 function mermaidFrontmatter(config) {
   if (!config || Object.keys(config).length === 0) return [];
   const yamlLines = (obj, indent) => {
@@ -722,17 +743,19 @@ function mermaidFrontmatter(config) {
       if (value && typeof value === "object" && !Array.isArray(value)) {
         lines.push(`${" ".repeat(indent)}${key}:`);
         lines.push(...yamlLines(value, indent + 2));
+      } else if (typeof value === "string") {
+        lines.push(`${" ".repeat(indent)}${key}: "${value}"`);
       } else {
         lines.push(`${" ".repeat(indent)}${key}: ${value}`);
       }
     }
     return lines;
   };
-  return ["---", "config:", ...yamlLines({ xyChart: config }, 2), "---"];
+  return ["---", "config:", ...yamlLines(config, 2), "---"];
 }
 
-function mermaidPie(title, rows) {
-  const lines = ["```mermaid", "pie showData", `    title "${title}"`];
+function mermaidPie(title, rows, config = {}) {
+  const lines = ["```mermaid", ...mermaidFrontmatter(config), "pie showData", `    title "${title}"`];
   for (const [label, value] of rows) lines.push(`    "${label}": ${value}`);
   lines.push("```");
   return lines.join("\n");
@@ -782,7 +805,7 @@ function renderMarkdown({ snapshot, current, history }) {
   parts.push("");
   parts.push("### Status");
   parts.push("");
-  parts.push(mermaidPie("Machines by status", current.status));
+  parts.push(mermaidPie("Machines by status", current.status, pieTheme()));
   parts.push("");
   parts.push(
     mdTable(["Status", "Count", "%"], current.status.map(([label, n]) => [label, fmt(n), pct(n, current.total)])),
@@ -797,6 +820,7 @@ function renderMarkdown({ snapshot, current, history }) {
       current.suppliers.map(([label]) => label),
       [{ type: "bar", data: current.suppliers.map(([, n]) => n) }],
       "machines",
+      seriesTheme("#0072B2"),
     ),
   );
   parts.push("");
@@ -853,7 +877,7 @@ function renderMarkdown({ snapshot, current, history }) {
       hourlyBuckets.map(({ label }) => label),
       [{ type: "line", data: hourlyBuckets.map(({ average }) => average) }],
       "machines",
-      { width: 900 },
+      { ...seriesTheme("#56B4E9"), xyChart: { width: 900 } },
     ),
   );
   parts.push("");
@@ -890,7 +914,10 @@ function renderMarkdown({ snapshot, current, history }) {
       current.districtAggregate.map(([label]) => label),
       [{ type: "bar", data: current.districtAggregate.map(([, n]) => n) }],
       "machines",
-      { chartOrientation: "horizontal", plotReservedSpacePercent: 40 },
+      {
+        ...seriesTheme("#009E73"),
+        xyChart: { chartOrientation: "horizontal", plotReservedSpacePercent: 40 },
+      },
     ),
   );
   parts.push("");
@@ -920,6 +947,7 @@ function renderMarkdown({ snapshot, current, history }) {
       current.rollout.map(([label]) => label),
       [{ type: "bar", data: current.rollout.map(([, n]) => n) }],
       "machines",
+      seriesTheme("#D55E00"),
     ),
   );
   parts.push("");
@@ -985,6 +1013,7 @@ function renderMarkdown({ snapshot, current, history }) {
       history.monthly.map((m) => m.month),
       [{ type: "line", data: history.monthly.map((m) => m.end) }],
       "machines",
+      seriesTheme("#0072B2"),
     ),
   );
   parts.push("");
@@ -996,6 +1025,7 @@ function renderMarkdown({ snapshot, current, history }) {
       history.monthly.map((m) => m.month),
       [{ type: "bar", data: history.monthly.map((m) => m.end - m.start) }],
       "machines",
+      seriesTheme("#E69F00"),
     ),
   );
   parts.push("");

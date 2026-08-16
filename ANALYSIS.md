@@ -14,6 +14,18 @@ _Snapshot: **2026-08-16** · 1,237 locations · `data/latest.json` · as of 15 A
 ### Status
 
 ```mermaid
+---
+config:
+  themeVariables:
+    pie1: "#E69F00"
+    pie2: "#56B4E9"
+    pie3: "#009E73"
+    pie4: "#F0E442"
+    pie5: "#0072B2"
+    pie6: "#D55E00"
+    pie7: "#CC79A7"
+    pie8: "#999999"
+---
 pie showData
     title "Machines by status"
     "RUNNING": 1171
@@ -34,6 +46,12 @@ pie showData
 ### Supplier
 
 ```mermaid
+---
+config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#0072B2"
+---
 xychart-beta
     title "Machines by supplier"
     x-axis ["TOMRA001", "SGRECYCLE001", "RVMS001", "(none)"]
@@ -68,6 +86,9 @@ xychart-beta
 ```mermaid
 ---
 config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#56B4E9"
   xyChart:
     width: 900
 ---
@@ -98,8 +119,11 @@ xychart-beta
 ```mermaid
 ---
 config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#009E73"
   xyChart:
-    chartOrientation: horizontal
+    chartOrientation: "horizontal"
     plotReservedSpacePercent: 40
 ---
 xychart-beta
@@ -194,6 +218,12 @@ All postal sectors, with the Singapore postal district each belongs to:
 Machines by `createdAt` month:
 
 ```mermaid
+---
+config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#D55E00"
+---
 xychart-beta
     title "Machines created per month"
     x-axis ["2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"]
@@ -254,6 +284,12 @@ xychart-beta
 ### Machines over time
 
 ```mermaid
+---
+config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#0072B2"
+---
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08"]
@@ -264,6 +300,12 @@ xychart-beta
 ### Monthly change
 
 ```mermaid
+---
+config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#E69F00"
+---
 xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08"]
