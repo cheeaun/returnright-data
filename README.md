@@ -26,6 +26,49 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-18</b> · 1,243 locations · +5 · −1 · ±5</summary>
+
+- Snapshot size: **1243** locations
+- Added: **5**
+- Removed: **1**
+- Changed: **5**
+
+Added
+- `2552` Ajmal Trade Mart -  Kranji Lodge One (postal: 739522, status: ERROR)
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory (postal: 737723, status: ERROR)
+- `2568` Redman by Phoon Huat (postal: 677743, status: RUNNING)
+- `2999` 48 Teban Gardens Road (postal: 600048, status: RUNNING)
+- `3001` 414 Pandan Gardens Road (postal: 600414, status: RUNNING)
+
+Removed
+- `2256` FORTUNE SUPERMARKET 463 (postal: 750463, status: RUNNING)
+
+Changed
+- `1176` Don Don Donki (HarbourFront Centre)
+  - address: 500 Dover Rd, 139651 -> 1 Maritime Square, #03-23 / 38 HarbourFront Centre, 099253
+  - latitude: 1.31033000 -> 1.26420000
+  - locationName: Singapore Polytechnic (SP) T11A Building -> Don Don Donki (HarbourFront Centre)
+  - longitude: 103.77916000 -> 103.82030000
+  - postalCode: 139651 -> 099253
+  - zipcode: 139651 -> 099253
+- `1301` National University of Singapore 36 College Avenue East UTown Level 1, Main Walkway
+  - locationName: National University of Singapore 36 College Avenue East -> National University of Singapore 36 College Avenue East UTown Level 1, Main Walkway
+- `1964` Thai Supermarket Pte Ltd
+  - address: 12 KALLANG AVENUE #01-09/15,#01-17/19, APERIA, 339511 -> 12 Kallang Avenue, #01-20, 339511
+  - locationName: Thai Supermarket Aperia Mall -> Thai Supermarket Pte Ltd
+  - longitude: 103.86430200 -> 103.86432000
+- `2558` 7 Seven Trichy Supermarket North Coast Lodge
+  - locationName: 7 Seven_Trichy Supermarket -> 7 Seven Trichy Supermarket North Coast Lodge
+- `2760` 20 Ghim Moh Road Market & Food Centre
+  - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
+  - latitude: 1.31063600 -> 1.31113400
+  - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
+  - longitude: 103.83630300 -> 103.78821200
+  - postalCode: 228231 -> 270020
+  - zipcode: 228231 -> 270020
+</details>
+
+<details>
 <summary><b>2026-08-17</b> · 1,239 locations · +4 · −2 · ±3</summary>
 
 - Snapshot size: **1239** locations
