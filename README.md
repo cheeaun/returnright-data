@@ -26,6 +26,68 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-19</b> · 1,241 locations · +2 · −4 · ±12</summary>
+
+- Snapshot size: **1241** locations
+- Added: **2**
+- Removed: **4**
+- Changed: **12**
+
+Added
+- `2358` ONE Supermarket Pte. Ltd. (postal: 522201, status: RUNNING)
+- `3002` 60 Jurong West Central 3 (postal: 648346, status: RUNNING)
+
+Removed
+- `2552` Ajmal Trade Mart -  Kranji Lodge One (postal: 739522, status: ERROR)
+- `2558` 7 Seven Trichy Supermarket North Coast Lodge (postal: 756992, status: RUNNING)
+- `2559` Ajmal Trading Group - Kranji Recreation Centre (postal: 737673, status: RUNNING)
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory (postal: 737723, status: ERROR)
+
+Changed
+- `1117` FairPrice Rivervale Mall
+  - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
+  - latitude: 1.37453000 -> 1.39210000
+  - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
+  - longitude: 103.88562000 -> 103.90470000
+  - postalCode: 530682 -> 545082
+  - zipcode: 530682 -> 545082
+- `1964` Thai Supermarket Aperia Mall
+  - address: 12 Kallang Avenue, #01-20, 339511 -> 12 KALLANG AVENUE #01-09/15,#01-17/19, APERIA, 339511
+  - locationName: Thai Supermarket Pte Ltd -> Thai Supermarket Aperia Mall
+  - longitude: 103.86432000 -> 103.86430200
+- `2271` FairPrice Orchid Country Club
+  - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
+  - latitude: 1.27231800 -> 1.41085000
+  - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
+  - longitude: 103.63449900 -> 103.84260000
+  - postalCode: 636906 -> 769162
+  - zipcode: 636906 -> 769162
+- `2760` MSE Family Go Green Week’s Sustainability Fair
+  - address: 20 Ghim Moh Rd, 270020 -> 40 Scotts Road, 228231
+  - latitude: 1.31113400 -> 1.31063600
+  - locationName: 20 Ghim Moh Road Market & Food Centre -> MSE Family Go Green Week’s Sustainability Fair
+  - longitude: 103.78821200 -> 103.83630300
+  - postalCode: 270020 -> 228231
+  - zipcode: 270020 -> 228231
+- `2873` Westlite Jalan Tukang Dormitory
+  - supplierId: null -> SGRECYCLE001
+- `2891` Gardens by the Bay
+  - supplierId: null -> TOMRA001
+- `2956` Block 8 Tanjong Pagar Plaza
+  - supplierId: null -> TOMRA001
+- `2957` Block 8 Cantonment Cl
+  - supplierId: null -> TOMRA001
+- `2958` Block 3 Jalan Bukit Merah
+  - supplierId: null -> TOMRA001
+- `2959` Block 166 Stirling Road
+  - supplierId: null -> TOMRA001
+- `2960` Block 181 Stirling Rd
+  - supplierId: null -> TOMRA001
+- `2988` 988A Jurong West Street 93
+  - supplierId: null -> SGRECYCLE001
+</details>
+
+<details>
 <summary><b>2026-08-18</b> · 1,243 locations · +5 · −1 · ±5</summary>
 
 - Snapshot size: **1243** locations
