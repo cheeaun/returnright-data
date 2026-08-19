@@ -26,6 +26,46 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-20</b> · 1,252 locations · +13 · −2 · ±2</summary>
+
+- Snapshot size: **1252** locations
+- Added: **13**
+- Removed: **2**
+- Changed: **2**
+
+Added
+- `2256` FORTUNE SUPERMARKET 463 (postal: 750463, status: RUNNING)
+- `2556` Nawas Global - Tuas South Dormitory (postal: 636947, status: FULL)
+- `2558` 7 Seven Trichy Supermarket North Coast Lodge (postal: 756992, status: RUNNING)
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory (postal: 737723, status: RUNNING)
+- `2565` Phan Nee #01-02 Sungei Tengah Lodge (postal: 698924, status: OFFLINE)
+- `3005` Block 308A Punggol Walk (postal: 821308, status: RUNNING)
+- `3006` Block 134 Edgedale Plains (postal: 820134, status: RUNNING)
+- `3007` Block 224C Sumang Lane (postal: 823224, status: RUNNING)
+- `3008` Block 217C Sumang Walk (postal: 823217, status: RUNNING)
+- `3009` Block 228A Punggol Field (postal: 821228, status: RUNNING)
+- `3010` Block 326B Sumang Walk (postal: 822326, status: RUNNING)
+- `3011` Block 423A Northshore Crescent (postal: 823423, status: RUNNING)
+- `3012` Block 232C Sumang Lane (postal: 823232, status: RUNNING)
+
+Removed
+- `2358` ONE Supermarket Pte. Ltd. (postal: 522201, status: RUNNING)
+- `2671` Phan 66 PPT Lodge 1A Dormitory (postal: 797455, status: RUNNING)
+
+Changed
+- `1117` FairPrice 682 Hougang Avenue 4
+  - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
+  - latitude: 1.39210000 -> 1.37453000
+  - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
+  - longitude: 103.90470000 -> 103.88562000
+  - postalCode: 545082 -> 530682
+  - zipcode: 545082 -> 530682
+- `2810` Blk 608, Bedok Reservoir Road
+  - latitude: 1.33250200 -> 1.33185400
+  - longitude: 103.91310000 -> 103.91319300
+</details>
+
+<details>
 <summary><b>2026-08-19</b> · 1,241 locations · +2 · −4 · ±12</summary>
 
 - Snapshot size: **1241** locations
