@@ -26,6 +26,53 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-21</b> · 1,257 locations · +8 · −3 · ±3</summary>
+
+- Snapshot size: **1257** locations
+- Added: **8**
+- Removed: **3**
+- Changed: **3**
+
+Added
+- `2552` Ajmal Trade Mart -  Kranji Lodge One (postal: 739522, status: ERROR)
+- `2559` Ajmal Trading Group - Kranji Recreation Centre (postal: 737673, status: RUNNING)
+- `2671` Phan 66 PPT Lodge 1A Dormitory (postal: 797455, status: RUNNING)
+- `3022` Block 400C Fernvale Ln (postal: 793400, status: RUNNING)
+- `3023` Block 410A Fernvale Rd (postal: 791410, status: RUNNING)
+- `3024` Block 538 Hougang Ave 8 (postal: 530538, status: RUNNING)
+- `3025` Blk 648 Hougang Ave 8 (postal: 530648, status: RUNNING)
+- `3026` Block 413B Fernvale Link (postal: 792413, status: RUNNING)
+
+Removed
+- `2256` FORTUNE SUPERMARKET 463 (postal: 750463, status: RUNNING)
+- `2556` Nawas Global - Tuas South Dormitory (postal: 636947, status: FULL)
+- `2565` Phan Nee #01-02 Sungei Tengah Lodge (postal: 698924, status: OFFLINE)
+
+Changed
+- `1117` FairPrice Rivervale Mall
+  - address: Block 682 Hougang Avenue 4 #01-310, 530682 -> 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082
+  - latitude: 1.37453000 -> 1.39210000
+  - locationName: FairPrice 682 Hougang Avenue 4 -> FairPrice Rivervale Mall
+  - longitude: 103.88562000 -> 103.90470000
+  - postalCode: 530682 -> 545082
+  - zipcode: 530682 -> 545082
+- `2271` TUAS SOUTH MINIMART
+  - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
+  - latitude: 1.41085000 -> 1.27231800
+  - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
+  - longitude: 103.84260000 -> 103.63449900
+  - postalCode: 769162 -> 636906
+  - zipcode: 769162 -> 636906
+- `2760` 20 Ghim Moh Road Market & Food Centre
+  - address: 40 Scotts Road, 228231 -> 20 Ghim Moh Rd, 270020
+  - latitude: 1.31063600 -> 1.31113400
+  - locationName: MSE Family Go Green Week’s Sustainability Fair -> 20 Ghim Moh Road Market & Food Centre
+  - longitude: 103.83630300 -> 103.78821200
+  - postalCode: 228231 -> 270020
+  - zipcode: 228231 -> 270020
+</details>
+
+<details>
 <summary><b>2026-08-20</b> · 1,252 locations · +13 · −2 · ±2</summary>
 
 - Snapshot size: **1252** locations
