@@ -26,6 +26,28 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-22</b> · 1,255 locations · −2 · ±1</summary>
+
+- Snapshot size: **1255** locations
+- Added: **0**
+- Removed: **2**
+- Changed: **1**
+
+Removed
+- `2558` 7 Seven Trichy Supermarket North Coast Lodge (postal: 756992, status: RUNNING)
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory (postal: 737723, status: FULL)
+
+Changed
+- `2271` FairPrice Orchid Country Club
+  - address: 6 TUAS SOUTH STREET 15 #01-102, 636906 -> 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162
+  - latitude: 1.27231800 -> 1.41085000
+  - locationName: TUAS SOUTH MINIMART -> FairPrice Orchid Country Club
+  - longitude: 103.63449900 -> 103.84260000
+  - postalCode: 636906 -> 769162
+  - zipcode: 636906 -> 769162
+</details>
+
+<details>
 <summary><b>2026-08-21</b> · 1,257 locations · +8 · −3 · ±3</summary>
 
 - Snapshot size: **1257** locations
