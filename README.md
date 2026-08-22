@@ -26,6 +26,26 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-23</b> · 1,260 locations · +6 · −1</summary>
+
+- Snapshot size: **1260** locations
+- Added: **6**
+- Removed: **1**
+- Changed: **0**
+
+Added
+- `3037` 212 Ang Mo Kio Ave 3 (postal: 560212, status: RUNNING)
+- `3038` Block 203 Ang Mo Kio Ave 3 (postal: 560203, status: RUNNING)
+- `3039` Block 536 Ang Mo Kio Ave 10 (postal: 560536, status: RUNNING)
+- `3040` Block 953 Hougang Ave 9 (postal: 530953, status: RUNNING)
+- `3041` Block 920 Hougang Ave 9 (postal: 530920, status: RUNNING)
+- `3042` 442 Ang Mo Kio Avenue 10 (postal: 560442, status: RUNNING)
+
+Removed
+- `2552` Ajmal Trade Mart -  Kranji Lodge One (postal: 739522, status: RUNNING)
+</details>
+
+<details>
 <summary><b>2026-08-22</b> · 1,255 locations · −2 · ±1</summary>
 
 - Snapshot size: **1255** locations
