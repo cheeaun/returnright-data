@@ -26,6 +26,33 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-24</b> · 1,259 locations · +2 · −3 · ±1</summary>
+
+- Snapshot size: **1259** locations
+- Added: **2**
+- Removed: **3**
+- Changed: **1**
+
+Added
+- `2558` 7 Seven Trichy Supermarket North Coast Lodge (postal: 756992, status: FULL)
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory (postal: 737723, status: RUNNING)
+
+Removed
+- `2566` Ajmal Trading Group - Jalan Papan Aspri Westlite (postal: 619421, status: OFFLINE)
+- `2568` Redman by Phoon Huat (postal: 677743, status: RUNNING)
+- `2671` Phan 66 PPT Lodge 1A Dormitory (postal: 797455, status: RUNNING)
+
+Changed
+- `1210` FairPrice Hougang Mall
+  - address: 118 Rivervale Drive #01-08 Rivervale Plaza, 540118 -> #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766
+  - latitude: 1.38557900 -> 1.37250000
+  - locationName: FairPrice Rivervale Plaza -> FairPrice Hougang Mall
+  - longitude: 103.90250300 -> 103.89380000
+  - postalCode: 540118 -> 538766
+  - zipcode: 540118 -> 538766
+</details>
+
+<details>
 <summary><b>2026-08-23</b> · 1,260 locations · +6 · −1</summary>
 
 - Snapshot size: **1260** locations
