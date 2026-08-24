@@ -26,6 +26,24 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-25</b> · 1,258 locations · −1 · ±1</summary>
+
+- Snapshot size: **1258** locations
+- Added: **0**
+- Removed: **1**
+- Changed: **1**
+
+Removed
+- `2559` Ajmal Trading Group - Kranji Recreation Centre (postal: 737673, status: RUNNING)
+
+Changed
+- `2747` 672A Klang Lane - Little India
+  - latitude: 1.30881800 -> 1.30850300
+  - locationName: 672 Klang Lane - Little India -> 672A Klang Lane - Little India
+  - longitude: 103.85268300 -> 103.85243100
+</details>
+
+<details>
 <summary><b>2026-08-24</b> · 1,259 locations · +2 · −3 · ±1</summary>
 
 - Snapshot size: **1259** locations
