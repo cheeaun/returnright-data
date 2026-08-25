@@ -26,6 +26,38 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-26</b> · 1,266 locations · +9 · −1 · ±1</summary>
+
+- Snapshot size: **1266** locations
+- Added: **9**
+- Removed: **1**
+- Changed: **1**
+
+Added
+- `2979` 801 West Coast Crescent (postal: 120801, status: RUNNING)
+- `2990` 238B Boon Lay Drive (postal: 642238, status: RUNNING)
+- `2991` 991B Upper Jurong Rd (postal: 632991, status: RUNNING)
+- `2992` 183C Boon Lay Avenue (postal: 643183, status: RUNNING)
+- `3003` 706 Jurong West Street 71 (postal: 640706, status: RUNNING)
+- `3013` 708 Clementi West Street 2 (postal: 120708, status: offline)
+- `3043` 996C Buangkok Crescent (postal: 536996, status: MAINTENANCE)
+- `3044` 531 Serangoon North Ave 4 (postal: 550531, status: UNKNOWN)
+- `3045` 526 Serangoon North Ave 4 (postal: 550526, status: UNKNOWN)
+
+Removed
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory (postal: 737723, status: RUNNING)
+
+Changed
+- `1176` Singapore Polytechnic (SP) T11A Building
+  - address: 1 Maritime Square, #03-23 / 38 HarbourFront Centre, 099253 -> 500 Dover Rd, 139651
+  - latitude: 1.26420000 -> 1.31033000
+  - locationName: Don Don Donki (HarbourFront Centre) -> Singapore Polytechnic (SP) T11A Building
+  - longitude: 103.82030000 -> 103.77916000
+  - postalCode: 099253 -> 139651
+  - zipcode: 099253 -> 139651
+</details>
+
+<details>
 <summary><b>2026-08-25</b> · 1,258 locations · −1 · ±1</summary>
 
 - Snapshot size: **1258** locations
