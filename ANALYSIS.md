@@ -1,14 +1,14 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-08-25** · 1,266 locations · `data/latest.json` · as of 25 Aug 2026, 16:20 UTC_
+_Snapshot: **2026-08-26** · 1,267 locations · `data/latest.json` · as of 26 Aug 2026, 16:35 UTC_
 
 ## Current snapshot
 
 | Metric | Value |
 | --- | --- |
-| Total locations | 1,266 |
-| Unique serials | 1,266 |
-| Unique postal codes | 1,226 |
+| Total locations | 1,267 |
+| Unique serials | 1,267 |
+| Unique postal codes | 1,227 |
 | Shared postal codes | 37 postcodes host 40 extra machines |
 
 ### Status
@@ -28,23 +28,23 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1194
-    "FULL": 41
-    "OFFLINE": 13
-    "ERROR": 11
-    "MAINTENANCE": 3
-    "UNKNOWN": 3
+    "RUNNING": 1214
+    "FULL": 28
+    "OFFLINE": 12
+    "ERROR": 5
+    "MAINTENANCE": 5
+    "CLEANING": 2
     "offline": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,194 | 94.3% |
-| FULL | 41 | 3.2% |
-| OFFLINE | 13 | 1.0% |
-| ERROR | 11 | 0.9% |
-| MAINTENANCE | 3 | 0.2% |
-| UNKNOWN | 3 | 0.2% |
+| RUNNING | 1,214 | 95.8% |
+| FULL | 28 | 2.2% |
+| OFFLINE | 12 | 0.9% |
+| ERROR | 5 | 0.4% |
+| MAINTENANCE | 5 | 0.4% |
+| CLEANING | 2 | 0.2% |
 | offline | 1 | 0.1% |
 
 ### Supplier
@@ -60,29 +60,30 @@ xychart-beta
     title "Machines by supplier"
     x-axis ["TOMRA001", "SGRECYCLE001", "RVMS001", "(none)"]
     y-axis "machines" 0 --> 551
-    bar [479, 415, 368, 4]
+    bar [479, 416, 368, 4]
 ```
 
 | Supplier | Count | % |
 | --- | --- | --- |
 | TOMRA001 | 479 | 37.8% |
-| SGRECYCLE001 | 415 | 32.8% |
-| RVMS001 | 368 | 29.1% |
+| SGRECYCLE001 | 416 | 32.8% |
+| RVMS001 | 368 | 29.0% |
 | (none) | 4 | 0.3% |
 
 ### Last connected
 
 | Age | Count | % |
 | --- | --- | --- |
-| < 1 day | 1,265 | 99.9% |
+| < 1 day | 1,265 | 99.8% |
+| < 7 days | 1 | 0.1% |
 | unknown | 1 | 0.1% |
 
 ## Operation timing (opening hours)
 
 | Coverage | Machines | % |
 | --- | --- | --- |
-| 24 hours | 798 | 63.0% |
-| Limited hours | 226 | 17.9% |
+| 24 hours | 799 | 63.1% |
+| Limited hours | 226 | 17.8% |
 | Unknown | 242 | 19.1% |
 
 ### Hourly availability
@@ -99,24 +100,24 @@ config:
 xychart-beta
     title "Average machines operating (2-hour buckets)"
     x-axis ["00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00"]
-    y-axis "machines" 0 --> 1178
-    line [798, 798, 799, 841, 982, 1021, 1024, 1024, 1024, 1024, 1022, 979]
+    y-axis "machines" 0 --> 1179
+    line [799, 799, 800, 842, 983, 1022, 1025, 1025, 1025, 1025, 1023, 980]
 ```
 
 - Typical window: **07:00 → 23:00**
 - Earliest open: **05:30**
 - Latest close: **24:00**
-- Peak: **1,024 machines** at **13:00**
+- Peak: **1,025 machines** at **13:00**
 - **226** machines with limited hours open all 7 days
 
 ### Status by supplier
 
-| Supplier | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | UNKNOWN | offline | Total |
+| Supplier | CLEANING | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| (none) | 0 | 0 | 1 | 0 | 0 | 2 | 1 | 4 |
-| RVMS001 | 1 | 15 | 0 | 1 | 351 | 0 | 0 | 368 |
-| SGRECYCLE001 | 7 | 6 | 1 | 3 | 397 | 1 | 0 | 415 |
-| TOMRA001 | 3 | 20 | 1 | 9 | 446 | 0 | 0 | 479 |
+| (none) | 0 | 0 | 0 | 0 | 0 | 3 | 1 | 4 |
+| RVMS001 | 0 | 0 | 4 | 4 | 1 | 359 | 0 | 368 |
+| SGRECYCLE001 | 1 | 3 | 11 | 0 | 3 | 398 | 0 | 416 |
+| TOMRA001 | 1 | 2 | 13 | 1 | 8 | 454 | 0 | 479 |
 
 ## Postal sectors & districts
 
@@ -134,7 +135,7 @@ xychart-beta
     title "Machines by postal district"
     x-axis ["D18", "D19", "D23", "D22", "D16", "D27", "D14", "D25", "D20", "D03", "D05", "D12", "D15", "D13", "D10", "D01", "D09", "D04", "D28", "D08", "D17", "D07", "D02", "D21", "D11", "D06", "D24", "D26"]
     y-axis "machines" 0 --> 195
-    bar [169, 152, 125, 107, 100, 81, 68, 67, 58, 50, 43, 40, 29, 27, 25, 18, 18, 15, 15, 12, 9, 8, 7, 7, 6, 5, 4, 1]
+    bar [169, 152, 125, 107, 100, 82, 68, 67, 58, 50, 43, 40, 29, 27, 25, 18, 18, 15, 15, 12, 9, 8, 7, 7, 6, 5, 4, 1]
 ```
 
 All postal sectors, with the Singapore postal district each belongs to:
@@ -155,7 +156,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S67 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 36 | 2.8% |
 | S54 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 31 | 2.4% |
 | S12 | D05 | Buona Vista, West Coast, Pasir Panjang, Clementi New Town | 30 | 2.4% |
-| S75 | D27 | Yishun, Sembawang | 26 | 2.1% |
+| S75 | D27 | Yishun, Sembawang | 27 | 2.1% |
 | S60 | D22 | Boon Lay, Jurong, Tuas | 25 | 2.0% |
 | S47 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 23 | 1.8% |
 | S40 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 21 | 1.7% |
@@ -231,14 +232,14 @@ config:
 xychart-beta
     title "Machines created per month"
     x-axis ["2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"]
-    y-axis "machines" 0 --> 970
-    bar [198, 843, 3, 30, 56, 56, 80]
+    y-axis "machines" 0 --> 971
+    bar [198, 844, 3, 30, 56, 56, 80]
 ```
 
 | Month | Machines | % |
 | --- | --- | --- |
 | 2026-02 | 198 | 15.6% |
-| 2026-03 | 843 | 66.6% |
+| 2026-03 | 844 | 66.6% |
 | 2026-04 | 3 | 0.2% |
 | 2026-05 | 30 | 2.4% |
 | 2026-06 | 56 | 4.4% |
@@ -249,9 +250,9 @@ xychart-beta
 
 | # | Name | Postal | Status | Created |
 | --- | --- | --- | --- | --- |
-| 1 | 526 Serangoon North Ave 4 | 550526 | UNKNOWN | 24 Aug 2026 |
-| 2 | 531 Serangoon North Ave 4 | 550531 | UNKNOWN | 24 Aug 2026 |
-| 3 | 996C Buangkok Crescent | 536996 | MAINTENANCE | 24 Aug 2026 |
+| 1 | 526 Serangoon North Ave 4 | 550526 | RUNNING | 24 Aug 2026 |
+| 2 | 531 Serangoon North Ave 4 | 550531 | RUNNING | 24 Aug 2026 |
+| 3 | 996C Buangkok Crescent | 536996 | RUNNING | 24 Aug 2026 |
 | 4 | 442 Ang Mo Kio Avenue 10 | 560442 | RUNNING | 21 Aug 2026 |
 | 5 | Block 920 Hougang Ave 9 | 530920 | RUNNING | 21 Aug 2026 |
 
@@ -261,28 +262,28 @@ xychart-beta
 | --- | --- | --- | --- | --- |
 | 1 | Block 54 Geylang Bahru | 330054 | RUNNING | 9 Feb 2026 |
 | 2 | 715 Jurong West Street 71 | 640715 | RUNNING | 21 Feb 2026 |
-| 3 | 745 Yishun Street 72 | 760745 | ERROR | 21 Feb 2026 |
+| 3 | 745 Yishun Street 72 | 760745 | RUNNING | 21 Feb 2026 |
 | 4 | 746 Jurong West Street 73 | 640746 | RUNNING | 21 Feb 2026 |
 | 5 | 153 Yung Ho Rd | 610153 | RUNNING | 21 Feb 2026 |
 
-## History (140 snapshots · 2026-04-08 → 2026-08-25)
+## History (141 snapshots · 2026-04-08 → 2026-08-26)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,258 |
-| Net change | +189 |
+| Current snapshot | 1,266 |
+| Net change | +197 |
 | Minimum | 1,069 (2026-04-08) |
-| Maximum | 1,260 (2026-08-23) |
-| Average | 1,134 |
+| Maximum | 1,266 (2026-08-26) |
+| Average | 1,135 |
 
 ### Totals across all days
 
 | Metric | Total |
 | --- | --- |
-| Added | 324 |
-| Removed | 140 |
-| Changed | 312 |
+| Added | 333 |
+| Removed | 141 |
+| Changed | 313 |
 | No-change days | 38 |
 
 ### Machines over time
@@ -297,8 +298,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08"]
-    y-axis "machines" 0 --> 1447
-    line [1069, 1090, 1152, 1206, 1258]
+    y-axis "machines" 0 --> 1456
+    line [1069, 1090, 1152, 1206, 1266]
 ```
 
 ### Monthly change
@@ -314,7 +315,7 @@ xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08"]
     y-axis "machines" 0 --> 72
-    bar [0, 20, 62, 43, 50]
+    bar [0, 20, 62, 43, 58]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -323,7 +324,7 @@ xychart-beta
 | 2026-05 | 1,070 → 1,090 | 21 | 0 | +20 |
 | 2026-06 | 1,090 → 1,152 | 63 | 1 | +62 |
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
-| 2026-08 | 1,208 → 1,258 | 141 | 89 | +50 |
+| 2026-08 | 1,208 → 1,266 | 150 | 90 | +58 |
 
 ### Most active days
 
@@ -335,7 +336,7 @@ xychart-beta
 | 2026-08-06 | 7 | 17 | 1 | 1,195 |
 | 2026-08-05 | 5 | 17 | 17 | 1,205 |
 
-**Retention:** 97.5% of the first snapshot's machines are still present (1042/1,069).
+**Retention:** 97.4% of the first snapshot's machines are still present (1041/1,069).
 
 ---
 

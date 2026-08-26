@@ -26,6 +26,18 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-27</b> · 1,267 locations · +1</summary>
+
+- Snapshot size: **1267** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `2256` FORTUNE SUPERMARKET 463 (postal: 750463, status: FULL)
+</details>
+
+<details>
 <summary><b>2026-08-26</b> · 1,266 locations · +9 · −1 · ±1</summary>
 
 - Snapshot size: **1266** locations
