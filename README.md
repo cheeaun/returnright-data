@@ -26,6 +26,71 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-28</b> · 1,279 locations · +13 · −1 · ±6</summary>
+
+- Snapshot size: **1279** locations
+- Added: **13**
+- Removed: **1**
+- Changed: **6**
+
+Added
+- `2358` ONE Supermarket Pte. Ltd. (postal: 522201, status: RUNNING)
+- `2389` Grindelwald Supermarket (postal: 120108, status: OFFLINE)
+- `2396` Isetan Scotts Supermarket (postal: 238868, status: RUNNING)
+- `2450` Sparrows 206 Bedok North Street 1 (postal: 460206, status: RUNNING)
+- `2552` Ajmal Trade Mart -  Kranji Lodge One (postal: 739522, status: RUNNING)
+- `2556` Nawas Global - Tuas South Dormitory (postal: 636947, status: FULL)
+- `2559` Ajmal Trading Group - Kranji Recreation Centre (postal: 737673, status: RUNNING)
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory (postal: 737723, status: RUNNING)
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE (postal: 698924, status: OFFLINE)
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE (postal: 698924, status: OFFLINE)
+- `2566` Ajmal Trading Group - Jalan Papan Aspri Westlite (postal: 619421, status: OFFLINE)
+- `2568` Redman by Phoon Huat (postal: 677743, status: RUNNING)
+- `2671` Phan 66 PPT Lodge 1A Dormitory (postal: 797455, status: ERROR)
+
+Removed
+- `2672` SHENG SIONG THOMSON IMPERIAL COURT (postal: 574424, status: RUNNING)
+
+Changed
+- `1117` FairPrice 682 Hougang Avenue 4
+  - address: 11 Rivervale Crescent #03-01 Rivervale Mall (545082), 545082 -> Block 682 Hougang Avenue 4 #01-310, 530682
+  - latitude: 1.39210000 -> 1.37453000
+  - locationName: FairPrice Rivervale Mall -> FairPrice 682 Hougang Avenue 4
+  - longitude: 103.90470000 -> 103.88562000
+  - postalCode: 545082 -> 530682
+  - zipcode: 545082 -> 530682
+- `1210` FairPrice Rivervale Plaza
+  - address: #B1-07 Hougang Mall 90 Hougang Ave 10 (538766), 538766 -> 118 Rivervale Drive #01-08 Rivervale Plaza, 540118
+  - latitude: 1.37250000 -> 1.38557900
+  - locationName: FairPrice Hougang Mall -> FairPrice Rivervale Plaza
+  - longitude: 103.89380000 -> 103.90250300
+  - postalCode: 538766 -> 540118
+  - zipcode: 538766 -> 540118
+- `1964` Thai Supermarket Pte Ltd
+  - address: 12 KALLANG AVENUE #01-09/15,#01-17/19, APERIA, 339511 -> 12 Kallang Avenue, #01-20, 339511
+  - locationName: Thai Supermarket Aperia Mall -> Thai Supermarket Pte Ltd
+  - longitude: 103.86430200 -> 103.86432000
+- `2271` TUAS SOUTH MINIMART
+  - address: 1 Orchid Club Road #01-34 Orchid Country Club Singapore 769162, 769162 -> 6 TUAS SOUTH STREET 15 #01-102, 636906
+  - latitude: 1.41085000 -> 1.27231800
+  - locationName: FairPrice Orchid Country Club -> TUAS SOUTH MINIMART
+  - longitude: 103.84260000 -> 103.63449900
+  - postalCode: 769162 -> 636906
+  - zipcode: 769162 -> 636906
+- `2496` ACE MARKETPLACE (86RC)
+  - address: 86 Redhill Cl, #01-610 Redhill Mall, Singapore 150086, 150086 -> 86 Redhill Close, #01-610, 150086
+  - locationName: Sheng Ho Redhill Mall -> ACE MARKETPLACE (86RC)
+  - longitude: 103.81867000 -> 103.81867800
+- `2807` FairPrice Tampines Mall
+  - address: 1 Tampines Walk, Our Tampines Hub #B1-01 (528523), 528523 -> 4 Tampines Central 5 #B1-12 Tampines Mall (529510), 529510
+  - latitude: 1.35278200 -> 1.35245700
+  - locationName: FairPrice Our Tampines Hub -> FairPrice Tampines Mall
+  - longitude: 103.93962000 -> 103.94467000
+  - postalCode: 528523 -> 529510
+  - zipcode: 528523 -> 529510
+</details>
+
+<details>
 <summary><b>2026-08-27</b> · 1,267 locations · +1</summary>
 
 - Snapshot size: **1267** locations
