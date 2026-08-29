@@ -1,6 +1,6 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-08-28** · 1,279 locations · `data/latest.json` · as of 28 Aug 2026, 20:10 UTC_
+_Snapshot: **2026-08-29** · 1,279 locations · `data/latest.json` · as of 29 Aug 2026, 16:19 UTC_
 
 ## Current snapshot
 
@@ -28,21 +28,21 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1193
-    "FULL": 53
-    "ERROR": 17
-    "OFFLINE": 14
-    "MAINTENANCE": 1
+    "RUNNING": 1187
+    "FULL": 67
+    "OFFLINE": 13
+    "ERROR": 8
+    "MAINTENANCE": 3
     "offline": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,193 | 93.3% |
-| FULL | 53 | 4.1% |
-| ERROR | 17 | 1.3% |
-| OFFLINE | 14 | 1.1% |
-| MAINTENANCE | 1 | 0.1% |
+| RUNNING | 1,187 | 92.8% |
+| FULL | 67 | 5.2% |
+| OFFLINE | 13 | 1.0% |
+| ERROR | 8 | 0.6% |
+| MAINTENANCE | 3 | 0.2% |
 | offline | 1 | 0.1% |
 
 ### Supplier
@@ -72,7 +72,8 @@ xychart-beta
 
 | Age | Count | % |
 | --- | --- | --- |
-| < 1 day | 1,278 | 99.9% |
+| < 1 day | 1,276 | 99.8% |
+| < 7 days | 2 | 0.2% |
 | unknown | 1 | 0.1% |
 
 ## Operation timing (opening hours)
@@ -112,9 +113,9 @@ xychart-beta
 | Supplier | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | (none) | 0 | 0 | 0 | 0 | 3 | 1 | 4 |
-| RVMS001 | 2 | 11 | 0 | 0 | 357 | 0 | 370 |
-| SGRECYCLE001 | 5 | 23 | 0 | 7 | 390 | 0 | 425 |
-| TOMRA001 | 10 | 19 | 1 | 7 | 443 | 0 | 480 |
+| RVMS001 | 0 | 11 | 1 | 0 | 358 | 0 | 370 |
+| SGRECYCLE001 | 3 | 16 | 1 | 5 | 400 | 0 | 425 |
+| TOMRA001 | 5 | 40 | 1 | 8 | 426 | 0 | 480 |
 
 ## Postal sectors & districts
 
@@ -247,10 +248,10 @@ xychart-beta
 
 | # | Name | Postal | Status | Created |
 | --- | --- | --- | --- | --- |
-| 1 | 526 Serangoon North Ave 4 | 550526 | RUNNING | 24 Aug 2026 |
-| 2 | 531 Serangoon North Ave 4 | 550531 | RUNNING | 24 Aug 2026 |
+| 1 | 531 Serangoon North Ave 4 | 550531 | RUNNING | 24 Aug 2026 |
+| 2 | 526 Serangoon North Ave 4 | 550526 | RUNNING | 24 Aug 2026 |
 | 3 | 996C Buangkok Crescent | 536996 | RUNNING | 24 Aug 2026 |
-| 4 | 442 Ang Mo Kio Avenue 10 | 560442 | RUNNING | 21 Aug 2026 |
+| 4 | 442 Ang Mo Kio Avenue 10 | 560442 | FULL | 21 Aug 2026 |
 | 5 | Block 920 Hougang Ave 9 | 530920 | RUNNING | 21 Aug 2026 |
 
 ## Longest standing
@@ -263,7 +264,7 @@ xychart-beta
 | 4 | 746 Jurong West Street 73 | 640746 | RUNNING | 21 Feb 2026 |
 | 5 | 153 Yung Ho Rd | 610153 | RUNNING | 21 Feb 2026 |
 
-## History (143 snapshots · 2026-04-08 → 2026-08-28)
+## History (144 snapshots · 2026-04-08 → 2026-08-29)
 
 | Metric | Value |
 | --- | --- |
@@ -272,7 +273,7 @@ xychart-beta
 | Net change | +210 |
 | Minimum | 1,069 (2026-04-08) |
 | Maximum | 1,279 (2026-08-28) |
-| Average | 1,137 |
+| Average | 1,138 |
 
 ### Totals across all days
 
@@ -281,7 +282,7 @@ xychart-beta
 | Added | 347 |
 | Removed | 142 |
 | Changed | 319 |
-| No-change days | 38 |
+| No-change days | 39 |
 
 ### Machines over time
 
