@@ -26,6 +26,21 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-08-31</b> · 1,283 locations · +4</summary>
+
+- Snapshot size: **1283** locations
+- Added: **4**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `3056` 868 Yishun Street 81, Singapore 760868 (postal: 760868, status: RUNNING)
+- `3057` 627 Yishun Street 61, Singapore 760627 (postal: 760627, status: RUNNING)
+- `3058` 259 Yishun Street 22, Singapore 760259 (postal: 760259, status: RUNNING)
+- `3059` 383A Yishun Ave 6, Singapore 761383 (postal: 761383, status: RUNNING)
+</details>
+
+<details>
 <summary><b>2026-08-30</b> · No changes</summary>
 
 No changes.
