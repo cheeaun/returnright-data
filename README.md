@@ -26,6 +26,21 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-02</b> · 1,287 locations · +4</summary>
+
+- Snapshot size: **1287** locations
+- Added: **4**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `3060` Blk 145, Bedok Reservoir Road (postal: 470145, status: RUNNING)
+- `3067` Nanyang Academy of Fine Arts (postal: 189655, status: RUNNING)
+- `3069` Lasalle College of the Arts (postal: 187940, status: RUNNING)
+- `3070` Block 104B Ang Mo Kio St 11 (postal: 560104, status: RUNNING)
+</details>
+
+<details>
 <summary><b>2026-09-01</b> · No changes</summary>
 
 No changes.
