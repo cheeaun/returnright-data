@@ -1,6 +1,6 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-01** · 1,287 locations · `data/latest.json` · as of 1 Sept 2026, 16:40 UTC_
+_Snapshot: **2026-09-02** · 1,287 locations · `data/latest.json` · as of 2 Sept 2026, 16:25 UTC_
 
 ## Current snapshot
 
@@ -28,23 +28,21 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1204
-    "FULL": 47
-    "OFFLINE": 19
-    "ERROR": 10
-    "MAINTENANCE": 5
-    "CLEANING": 1
+    "RUNNING": 1206
+    "FULL": 44
+    "OFFLINE": 21
+    "ERROR": 12
+    "MAINTENANCE": 3
     "offline": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,204 | 93.6% |
-| FULL | 47 | 3.7% |
-| OFFLINE | 19 | 1.5% |
-| ERROR | 10 | 0.8% |
-| MAINTENANCE | 5 | 0.4% |
-| CLEANING | 1 | 0.1% |
+| RUNNING | 1,206 | 93.7% |
+| FULL | 44 | 3.4% |
+| OFFLINE | 21 | 1.6% |
+| ERROR | 12 | 0.9% |
+| MAINTENANCE | 3 | 0.2% |
 | offline | 1 | 0.1% |
 
 ### Supplier
@@ -74,8 +72,8 @@ xychart-beta
 
 | Age | Count | % |
 | --- | --- | --- |
-| < 1 day | 1,284 | 99.8% |
-| < 7 days | 2 | 0.2% |
+| < 1 day | 1,285 | 99.8% |
+| < 7 days | 1 | 0.1% |
 | unknown | 1 | 0.1% |
 
 ## Operation timing (opening hours)
@@ -112,12 +110,12 @@ xychart-beta
 
 ### Status by supplier
 
-| Supplier | CLEANING | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| (none) | 0 | 0 | 0 | 0 | 0 | 3 | 1 | 4 |
-| RVMS001 | 0 | 2 | 6 | 3 | 2 | 358 | 0 | 371 |
-| SGRECYCLE001 | 1 | 4 | 11 | 1 | 9 | 403 | 0 | 429 |
-| TOMRA001 | 0 | 4 | 30 | 1 | 8 | 440 | 0 | 483 |
+| Supplier | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| (none) | 0 | 0 | 0 | 0 | 3 | 1 | 4 |
+| RVMS001 | 3 | 8 | 1 | 3 | 356 | 0 | 371 |
+| SGRECYCLE001 | 4 | 13 | 1 | 11 | 400 | 0 | 429 |
+| TOMRA001 | 5 | 23 | 1 | 7 | 447 | 0 | 483 |
 
 ## Postal sectors & districts
 
@@ -266,22 +264,22 @@ xychart-beta
 | 4 | 746 Jurong West Street 73 | 640746 | RUNNING | 21 Feb 2026 |
 | 5 | 153 Yung Ho Rd | 610153 | RUNNING | 21 Feb 2026 |
 
-## History (147 snapshots · 2026-04-08 → 2026-09-01)
+## History (148 snapshots · 2026-04-08 → 2026-09-02)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,283 |
-| Net change | +214 |
+| Current snapshot | 1,287 |
+| Net change | +218 |
 | Minimum | 1,069 (2026-04-08) |
-| Maximum | 1,283 (2026-08-31) |
-| Average | 1,141 |
+| Maximum | 1,287 (2026-09-02) |
+| Average | 1,142 |
 
 ### Totals across all days
 
 | Metric | Total |
 | --- | --- |
-| Added | 351 |
+| Added | 355 |
 | Removed | 142 |
 | Changed | 319 |
 | No-change days | 41 |
@@ -298,8 +296,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
-    y-axis "machines" 0 --> 1476
-    line [1069, 1090, 1152, 1206, 1283, 1283]
+    y-axis "machines" 0 --> 1481
+    line [1069, 1090, 1152, 1206, 1283, 1287]
 ```
 
 ### Monthly change
@@ -315,7 +313,7 @@ xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
     y-axis "machines" 0 --> 87
-    bar [0, 20, 62, 43, 75, 0]
+    bar [0, 20, 62, 43, 75, 4]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -325,7 +323,7 @@ xychart-beta
 | 2026-06 | 1,090 → 1,152 | 63 | 1 | +62 |
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
 | 2026-08 | 1,208 → 1,283 | 168 | 91 | +75 |
-| 2026-09 | 1,283 → 1,283 | 0 | 0 | 0 |
+| 2026-09 | 1,283 → 1,287 | 4 | 0 | +4 |
 
 ### Most active days
 

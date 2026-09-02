@@ -26,6 +26,29 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-03</b> · 1,287 locations · ±4</summary>
+
+- Snapshot size: **1287** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **4**
+
+Changed
+- `2348` SHENG SIONG BLK 872C TAMPINES STREET 86
+  - locationName: SHENG SIONG BLK 872C TAMPINES STREET 86  -> SHENG SIONG BLK 872C TAMPINES STREET 86
+- `2738` Mei Chin Road Market
+  - latitude: 1.29327800 -> 1.29343800
+  - longitude: 103.81741600 -> 103.80291400
+- `2759` Toa Payoh Lorong 4 Blk 94
+  - latitude: 1.33892600 -> 1.33945900
+  - locationName: Toa Payoh Lorong 4 Blk 94 Hawker Centre -> Toa Payoh Lorong 4 Blk 94
+  - longitude: 103.84992600 -> 103.84933900
+- `2774` 445 Clementi Avenue 3
+  - latitude: 1.31290600 -> 1.31295400
+  - longitude: 103.76158700 -> 103.76417500
+</details>
+
+<details>
 <summary><b>2026-09-02</b> · 1,287 locations · +4</summary>
 
 - Snapshot size: **1287** locations
