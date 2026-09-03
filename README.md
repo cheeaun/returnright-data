@@ -26,6 +26,40 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-04</b> · 1,299 locations · +12 · ±4</summary>
+
+- Snapshot size: **1299** locations
+- Added: **12**
+- Removed: **0**
+- Changed: **4**
+
+Added
+- `1137` FairPrice Punggol Waterway Point (postal: 828761, status: OFFLINE)
+- `2345` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
+- `2806` SHENG SIONG BLK 602A TAMPINES AVENUE 9 (postal: 521602, status: RUNNING)
+- `2871` FairPrice Finest Sceneca Square (postal: 468456, status: RUNNING)
+- `3016` 509 Serangoon North Ave 4 (postal: 550509, status: RUNNING)
+- `3030` 467C Yishun Ave 6 (postal: 763467, status: RUNNING)
+- `3031` 504 Yishun St 51, Singapore 760504 (postal: 760504, status: RUNNING)
+- `3034` 406 Yishun Ave 6, Singapore 760406 (postal: 760406, status: FULL)
+- `3035` 431A Yishun Ave 1, Singapore 761431 (postal: 761431, status: RUNNING)
+- `3036` 439 Yishun Ave 11, Singapore 760439 (postal: 760439, status: RUNNING)
+- `3068` Resorts World Sentosa (postal: 098269, status: RUNNING)
+- `3071` Block 511 Ang Mo Kio Ave 8 (postal: 560511, status: RUNNING)
+
+Changed
+- `2903` Block 118B Jalan Membina
+  - latitude: 1.28143700 -> 1.28179700
+  - longitude: 103.82615400 -> 103.82602500
+- `3043` 996C Buangkok Crescent
+  - supplierId: null -> TOMRA001
+- `3044` 531 Serangoon North Ave 4
+  - supplierId: null -> TOMRA001
+- `3045` 526 Serangoon North Ave 4
+  - supplierId: null -> TOMRA001
+</details>
+
+<details>
 <summary><b>2026-09-03</b> · 1,287 locations · ±4</summary>
 
 - Snapshot size: **1287** locations
