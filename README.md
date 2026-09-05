@@ -26,6 +26,21 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-05</b> · 1,299 locations · +1 · −1</summary>
+
+- Snapshot size: **1299** locations
+- Added: **1**
+- Removed: **1**
+- Changed: **0**
+
+Added
+- `3061` FairPrice Punggol Waterway Point (postal: 828761, status: RUNNING)
+
+Removed
+- `1137` FairPrice Punggol Waterway Point (postal: 828761, status: OFFLINE)
+</details>
+
+<details>
 <summary><b>2026-09-04</b> · 1,299 locations · +12 · ±4</summary>
 
 - Snapshot size: **1299** locations

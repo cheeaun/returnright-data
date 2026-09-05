@@ -1,6 +1,6 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-03** · 1,299 locations · `data/latest.json` · as of 3 Sept 2026, 16:25 UTC_
+_Snapshot: **2026-09-04** · 1,299 locations · `data/latest.json` · as of 5 Sept 2026, 04:00 UTC_
 
 ## Current snapshot
 
@@ -28,21 +28,23 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1211
-    "FULL": 52
-    "OFFLINE": 18
+    "RUNNING": 1251
+    "FULL": 19
     "ERROR": 15
-    "MAINTENANCE": 2
+    "OFFLINE": 8
+    "MAINTENANCE": 4
+    "CLEANING": 1
     "offline": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,211 | 93.2% |
-| FULL | 52 | 4.0% |
-| OFFLINE | 18 | 1.4% |
+| RUNNING | 1,251 | 96.3% |
+| FULL | 19 | 1.5% |
 | ERROR | 15 | 1.2% |
-| MAINTENANCE | 2 | 0.2% |
+| OFFLINE | 8 | 0.6% |
+| MAINTENANCE | 4 | 0.3% |
+| CLEANING | 1 | 0.1% |
 | offline | 1 | 0.1% |
 
 ### Supplier
@@ -72,18 +74,17 @@ xychart-beta
 
 | Age | Count | % |
 | --- | --- | --- |
-| < 1 day | 1,279 | 98.5% |
-| < 7 days | 18 | 1.4% |
-| < 30 days | 1 | 0.1% |
+| < 1 day | 1,296 | 99.8% |
+| < 7 days | 2 | 0.2% |
 | unknown | 1 | 0.1% |
 
 ## Operation timing (opening hours)
 
 | Coverage | Machines | % |
 | --- | --- | --- |
-| 24 hours | 801 | 61.7% |
+| 24 hours | 800 | 61.6% |
 | Limited hours | 238 | 18.3% |
-| Unknown | 260 | 20.0% |
+| Unknown | 261 | 20.1% |
 
 ### Hourly availability
 
@@ -99,24 +100,24 @@ config:
 xychart-beta
     title "Average machines operating (2-hour buckets)"
     x-axis ["00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00"]
-    y-axis "machines" 0 --> 1195
-    line [801, 801, 804, 852, 994, 1036, 1039, 1039, 1039, 1039, 1037, 991]
+    y-axis "machines" 0 --> 1194
+    line [800, 800, 803, 851, 993, 1035, 1038, 1038, 1038, 1038, 1036, 990]
 ```
 
 - Typical window: **07:00 → 23:00**
 - Earliest open: **05:30**
 - Latest close: **24:00**
-- Peak: **1,039 machines** at **13:00**
+- Peak: **1,038 machines** at **13:00**
 - **238** machines with limited hours open all 7 days
 
 ### Status by supplier
 
-| Supplier | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| (none) | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
-| RVMS001 | 2 | 12 | 0 | 3 | 357 | 0 | 374 |
-| SGRECYCLE001 | 4 | 24 | 2 | 7 | 397 | 0 | 434 |
-| TOMRA001 | 9 | 16 | 0 | 8 | 457 | 0 | 490 |
+| Supplier | CLEANING | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| (none) | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
+| RVMS001 | 0 | 1 | 1 | 1 | 4 | 367 | 0 | 374 |
+| SGRECYCLE001 | 1 | 9 | 11 | 2 | 2 | 409 | 0 | 434 |
+| TOMRA001 | 0 | 5 | 7 | 1 | 2 | 475 | 0 | 490 |
 
 ## Postal sectors & districts
 
@@ -231,19 +232,19 @@ config:
 xychart-beta
     title "Machines created per month"
     x-axis ["2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
-    y-axis "machines" 0 --> 987
-    bar [198, 858, 3, 30, 56, 58, 95, 1]
+    y-axis "machines" 0 --> 986
+    bar [198, 857, 3, 30, 56, 58, 96, 1]
 ```
 
 | Month | Machines | % |
 | --- | --- | --- |
 | 2026-02 | 198 | 15.2% |
-| 2026-03 | 858 | 66.1% |
+| 2026-03 | 857 | 66.0% |
 | 2026-04 | 3 | 0.2% |
 | 2026-05 | 30 | 2.3% |
 | 2026-06 | 56 | 4.3% |
 | 2026-07 | 58 | 4.5% |
-| 2026-08 | 95 | 7.3% |
+| 2026-08 | 96 | 7.4% |
 | 2026-09 | 1 | 0.1% |
 
 ## Newest machines
@@ -261,29 +262,29 @@ xychart-beta
 | # | Name | Postal | Status | Created |
 | --- | --- | --- | --- | --- |
 | 1 | Block 54 Geylang Bahru | 330054 | RUNNING | 9 Feb 2026 |
-| 2 | 715 Jurong West Street 71 | 640715 | RUNNING | 21 Feb 2026 |
+| 2 | 715 Jurong West Street 71 | 640715 | ERROR | 21 Feb 2026 |
 | 3 | 745 Yishun Street 72 | 760745 | RUNNING | 21 Feb 2026 |
-| 4 | 746 Jurong West Street 73 | 640746 | RUNNING | 21 Feb 2026 |
+| 4 | 746 Jurong West Street 73 | 640746 | FULL | 21 Feb 2026 |
 | 5 | 153 Yung Ho Rd | 610153 | RUNNING | 21 Feb 2026 |
 
-## History (149 snapshots · 2026-04-08 → 2026-09-03)
+## History (150 snapshots · 2026-04-08 → 2026-09-04)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,287 |
-| Net change | +218 |
+| Current snapshot | 1,299 |
+| Net change | +230 |
 | Minimum | 1,069 (2026-04-08) |
-| Maximum | 1,287 (2026-09-02) |
-| Average | 1,143 |
+| Maximum | 1,299 (2026-09-04) |
+| Average | 1,144 |
 
 ### Totals across all days
 
 | Metric | Total |
 | --- | --- |
-| Added | 355 |
+| Added | 367 |
 | Removed | 142 |
-| Changed | 323 |
+| Changed | 327 |
 | No-change days | 41 |
 
 ### Machines over time
@@ -298,8 +299,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
-    y-axis "machines" 0 --> 1481
-    line [1069, 1090, 1152, 1206, 1283, 1287]
+    y-axis "machines" 0 --> 1494
+    line [1069, 1090, 1152, 1206, 1283, 1299]
 ```
 
 ### Monthly change
@@ -315,7 +316,7 @@ xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
     y-axis "machines" 0 --> 87
-    bar [0, 20, 62, 43, 75, 4]
+    bar [0, 20, 62, 43, 75, 16]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -325,7 +326,7 @@ xychart-beta
 | 2026-06 | 1,090 → 1,152 | 63 | 1 | +62 |
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
 | 2026-08 | 1,208 → 1,283 | 168 | 91 | +75 |
-| 2026-09 | 1,283 → 1,287 | 4 | 0 | +4 |
+| 2026-09 | 1,283 → 1,299 | 16 | 0 | +16 |
 
 ### Most active days
 
@@ -337,7 +338,7 @@ xychart-beta
 | 2026-08-06 | 7 | 17 | 1 | 1,195 |
 | 2026-08-05 | 5 | 17 | 17 | 1,205 |
 
-**Retention:** 98.6% of the first snapshot's machines are still present (1054/1,069).
+**Retention:** 98.8% of the first snapshot's machines are still present (1056/1,069).
 
 ---
 
