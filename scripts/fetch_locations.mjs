@@ -18,6 +18,7 @@ async function fetchPayload(url) {
     headers: {
       "user-agent": "returnright-data/1.0 (+https://github.com/)",
       accept: "application/json",
+      referer: "https://bts.bcrs.sg/",
     },
   });
   if (!response.ok) {
