@@ -26,6 +26,19 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-07</b> · 1,300 locations · ±1</summary>
+
+- Snapshot size: **1300** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **1**
+
+Changed
+- `2550` Bazaar Terusan Recreation Centre
+  - address: #33/34, TERUSAN RECREATION CENTRE, 1 JALAN PAPPAN ROAD, 619392 -> #33/34, TERUSAN RECREATION CENTRE, 1 JALAN PAPAN ROAD, 619392
+</details>
+
+<details>
 <summary><b>2026-09-06</b> · 1,300 locations · +1 · ±1299</summary>
 
 - Snapshot size: **1300** locations

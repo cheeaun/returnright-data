@@ -1,6 +1,6 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-05** · 1,300 locations · `data/latest.json` · as of 6 Sept 2026, 02:05 UTC_
+_Snapshot: **2026-09-06** · 1,300 locations · `data/latest.json` · as of 6 Sept 2026, 16:19 UTC_
 
 ## Current snapshot
 
@@ -28,22 +28,24 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1248
-    "FULL": 32
-    "ERROR": 10
-    "OFFLINE": 5
-    "MAINTENANCE": 4
+    "RUNNING": 1106
+    "FULL": 154
+    "OFFLINE": 18
+    "ERROR": 13
+    "MAINTENANCE": 7
     "offline": 1
+    "UNKNOWN": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,248 | 96.0% |
-| FULL | 32 | 2.5% |
-| ERROR | 10 | 0.8% |
-| OFFLINE | 5 | 0.4% |
-| MAINTENANCE | 4 | 0.3% |
+| RUNNING | 1,106 | 85.1% |
+| FULL | 154 | 11.8% |
+| OFFLINE | 18 | 1.4% |
+| ERROR | 13 | 1.0% |
+| MAINTENANCE | 7 | 0.5% |
 | offline | 1 | 0.1% |
+| UNKNOWN | 1 | 0.1% |
 
 ### Supplier
 
@@ -110,12 +112,12 @@ xychart-beta
 
 ### Status by supplier
 
-| Supplier | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| (none) | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
-| RVMS001 | 0 | 0 | 1 | 2 | 372 | 0 | 375 |
-| SGRECYCLE001 | 8 | 18 | 1 | 1 | 406 | 0 | 434 |
-| TOMRA001 | 2 | 14 | 2 | 2 | 470 | 0 | 490 |
+| Supplier | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | UNKNOWN | offline | Total |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| (none) | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
+| RVMS001 | 2 | 26 | 5 | 3 | 339 | 0 | 0 | 375 |
+| SGRECYCLE001 | 8 | 73 | 0 | 8 | 344 | 1 | 0 | 434 |
+| TOMRA001 | 3 | 55 | 2 | 7 | 423 | 0 | 0 | 490 |
 
 ## Postal sectors & districts
 
@@ -261,28 +263,28 @@ xychart-beta
 | --- | --- | --- | --- | --- |
 | 1 | Block 54 Geylang Bahru | 330054 | RUNNING | 9 Feb 2026 |
 | 2 | 715 Jurong West Street 71 | 640715 | RUNNING | 21 Feb 2026 |
-| 3 | 745 Yishun Street 72 | 760745 | RUNNING | 21 Feb 2026 |
+| 3 | 745 Yishun Street 72 | 760745 | FULL | 21 Feb 2026 |
 | 4 | 746 Jurong West Street 73 | 640746 | RUNNING | 21 Feb 2026 |
 | 5 | 153 Yung Ho Rd | 610153 | RUNNING | 21 Feb 2026 |
 
-## History (151 snapshots · 2026-04-08 → 2026-09-05)
+## History (152 snapshots · 2026-04-08 → 2026-09-06)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,299 |
-| Net change | +230 |
+| Current snapshot | 1,300 |
+| Net change | +231 |
 | Minimum | 1,069 (2026-04-08) |
-| Maximum | 1,299 (2026-09-04) |
-| Average | 1,145 |
+| Maximum | 1,300 (2026-09-06) |
+| Average | 1,146 |
 
 ### Totals across all days
 
 | Metric | Total |
 | --- | --- |
-| Added | 368 |
+| Added | 369 |
 | Removed | 143 |
-| Changed | 327 |
+| Changed | 1,626 |
 | No-change days | 41 |
 
 ### Machines over time
@@ -297,8 +299,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
-    y-axis "machines" 0 --> 1494
-    line [1069, 1090, 1152, 1206, 1283, 1299]
+    y-axis "machines" 0 --> 1495
+    line [1069, 1090, 1152, 1206, 1283, 1300]
 ```
 
 ### Monthly change
@@ -314,7 +316,7 @@ xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
     y-axis "machines" 0 --> 87
-    bar [0, 20, 62, 43, 75, 16]
+    bar [0, 20, 62, 43, 75, 17]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -324,7 +326,7 @@ xychart-beta
 | 2026-06 | 1,090 → 1,152 | 63 | 1 | +62 |
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
 | 2026-08 | 1,208 → 1,283 | 168 | 91 | +75 |
-| 2026-09 | 1,283 → 1,299 | 17 | 1 | +16 |
+| 2026-09 | 1,283 → 1,300 | 18 | 1 | +17 |
 
 ### Most active days
 
