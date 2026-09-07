@@ -26,6 +26,33 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-08</b> · 1,306 locations · +7 · −1 · ±2</summary>
+
+- Snapshot size: **1306** locations
+- Added: **7**
+- Removed: **1**
+- Changed: **2**
+
+Added
+- `3072` ST Food Court, #01-09 Sungei Tengah Lodge (postal: 698924, status: RUNNING)
+- `3073` ST Beer Garden, #01-10 Sungei Tengah Lodge (postal: 698924, status: RUNNING)
+- `3074` 783 Yishun Ring Road, Singapore 760783 (postal: 760783, status: FULL)
+- `3075` 858 Yishun Ave 4, Singapore 760858 (postal: 760858, status: RUNNING)
+- `3076` 821 Yishun Street 81, Singapore 760821 (postal: 760821, status: RUNNING)
+- `3077` 799 Yishun Ring Rd, Singapore 760799 (postal: 760799, status: FULL)
+- `3078` 512B Yishun St 51, Singapore 762512 (postal: 762512, status: RUNNING)
+
+Removed
+- `2753` Haig Road Market & Cooked Food Centre (postal: 430014, status: OFFLINE)
+
+Changed
+- `2213` FairPrice Kampung Admiralty
+  - locationName: FairPrice Kampung Admiratly -> FairPrice Kampung Admiralty
+- `2371` Giant Express 509 Bedok North St 3
+  - locationName: Giant Bedok North Street 3 -> Giant Express 509 Bedok North St 3
+</details>
+
+<details>
 <summary><b>2026-09-07</b> · 1,300 locations · ±1</summary>
 
 - Snapshot size: **1300** locations
