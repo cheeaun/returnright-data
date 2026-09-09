@@ -28,7 +28,19 @@ function snapshotDate() {
 }
 
 function git(args) {
-  return execFileSync("git", args, { encoding: "utf8" });
+  return execFileSync("git", args, { encoding: "utf8", maxBuffer: 64 * 1024 * 1024 });
+}
+
+function hasFiniteCoord(value) {
+  if (value === null || value === undefined) return false;
+  if (typeof value === "string" && value.trim() === "") return false;
+  return Number.isFinite(Number(value));
+}
+
+function isUsableLocation(item) {
+  const hasName =
+    typeof item?.locationName === "string" && item.locationName.trim() !== "";
+  return hasName || (hasFiniteCoord(item?.latitude) && hasFiniteCoord(item?.longitude));
 }
 
 function buildLocationsById(raw) {
@@ -36,6 +48,7 @@ function buildLocationsById(raw) {
   return Object.fromEntries(
     data
       .filter((item) => item && typeof item === "object" && "id" in item)
+      .filter(isUsableLocation)
       .map((item) => [String(item.id), { ...item }]),
   );
 }

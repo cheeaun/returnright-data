@@ -26,49 +26,15 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
-<summary><b>2026-09-09</b> · 1,341 locations · +35 · ±1306</summary>
+<summary><b>2026-09-09</b> · 1,307 locations · +1 · ±1306</summary>
 
-- Snapshot size: **1341** locations
-- Added: **35**
+- Snapshot size: **1307** locations
+- Added: **1**
 - Removed: **0**
 - Changed: **1306**
 
 Added
-- `1137` Unnamed location (postal: n/a, status: OFFLINE)
-- `2480` Unnamed location (postal: n/a, status: RUNNING)
-- `2607` Unnamed location (postal: n/a, status: RUNNING)
 - `2672` SHENG SIONG THOMSON IMPERIAL COURT (postal: 574424, status: RUNNING)
-- `2812` Unnamed location (postal: n/a, status: MAINTENANCE)
-- `2814` Unnamed location (postal: n/a, status: RUNNING)
-- `2877` Unnamed location (postal: n/a, status: OFFLINE)
-- `2878` Unnamed location (postal: n/a, status: RUNNING)
-- `2880` Unnamed location (postal: n/a, status: RUNNING)
-- `2882` Unnamed location (postal: n/a, status: OFFLINE)
-- `2967` Unnamed location (postal: n/a, status: RUNNING)
-- `3004` Unnamed location (postal: n/a, status: OFFLINE)
-- `3014` Unnamed location (postal: n/a, status: offline)
-- `3019` Unnamed location (postal: n/a, status: offline)
-- `3021` Unnamed location (postal: n/a, status: offline)
-- `3027` Unnamed location (postal: n/a, status: RUNNING)
-- `3029` Unnamed location (postal: n/a, status: OFFLINE)
-- `3032` Unnamed location (postal: n/a, status: offline)
-- `3033` Unnamed location (postal: n/a, status: offline)
-- `3046` Unnamed location (postal: n/a, status: RUNNING)
-- `3047` Unnamed location (postal: n/a, status: RUNNING)
-- `3048` Unnamed location (postal: n/a, status: RUNNING)
-- `3049` Unnamed location (postal: n/a, status: RUNNING)
-- `3050` Unnamed location (postal: n/a, status: RUNNING)
-- `3051` Unnamed location (postal: n/a, status: RUNNING)
-- `3052` Unnamed location (postal: n/a, status: RUNNING)
-- `3053` Unnamed location (postal: n/a, status: RUNNING)
-- `3054` Unnamed location (postal: n/a, status: RUNNING)
-- `3055` Unnamed location (postal: n/a, status: RUNNING)
-- `3062` Unnamed location (postal: n/a, status: RUNNING)
-- `3063` Unnamed location (postal: n/a, status: RUNNING)
-- `3064` Unnamed location (postal: n/a, status: RUNNING)
-- `3065` Unnamed location (postal: n/a, status: RUNNING)
-- `3066` Unnamed location (postal: n/a, status: OFFLINE)
-- `3079` Unnamed location (postal: n/a, status: OFFLINE)
 
 Changed
 - `10` Block 54 Geylang Bahru

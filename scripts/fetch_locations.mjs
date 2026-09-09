@@ -48,6 +48,20 @@ const DATA_DIR = path.join(ROOT, "data");
 const SNAPSHOT_PATH = path.join(DATA_DIR, "latest.json");
 const GRID_PATH = path.join(__dirname, "nearby_grid.json");
 
+function hasFiniteCoord(value) {
+  if (value === null || value === undefined) return false;
+  if (typeof value === "string" && value.trim() === "") return false;
+  return Number.isFinite(Number(value));
+}
+
+// Records with neither a name nor coordinates are unprovisioned backend
+// entries (no site metadata, unmappable) — pure noise, drop them.
+function isUsableLocation(item) {
+  const hasName =
+    typeof item?.locationName === "string" && item.locationName.trim() !== "";
+  return hasName || (hasFiniteCoord(item?.latitude) && hasFiniteCoord(item?.longitude));
+}
+
 const tokenState = { current: null };
 
 async function fetchDataArray(url) {
@@ -111,7 +125,9 @@ async function main() {
   );
   await Promise.all(workers);
 
-  const data = [...byId.values()].sort((a, b) => a.id - b.id);
+  const data = [...byId.values()]
+    .filter(isUsableLocation)
+    .sort((a, b) => a.id - b.id);
   await writeFile(SNAPSHOT_PATH, `${JSON.stringify({ status: "ok", data }, null, 2)}\n`);
 
   console.log(
@@ -120,6 +136,7 @@ async function main() {
       full_total: full.length,
       nearby_queries: coords.length,
       nearby_unique: nearbyUnique,
+      filtered_out: byId.size - data.length,
       total_locations: data.length,
     }),
   );

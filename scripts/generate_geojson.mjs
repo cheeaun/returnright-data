@@ -20,6 +20,14 @@ async function latestSnapshotPath() {
 }
 
 function toFeature(item) {
+  // NB: Number(null)/Number("") is 0, so reject missing coords explicitly
+  // instead of mapping them to Null Island (0, 0).
+  if (item.latitude === null || item.latitude === undefined || item.latitude === "") {
+    return null;
+  }
+  if (item.longitude === null || item.longitude === undefined || item.longitude === "") {
+    return null;
+  }
   const latitude = Number(item.latitude);
   const longitude = Number(item.longitude);
   if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
