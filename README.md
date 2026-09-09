@@ -26,6 +26,5278 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-09</b> · 1,341 locations · +35 · ±1306</summary>
+
+- Snapshot size: **1341** locations
+- Added: **35**
+- Removed: **0**
+- Changed: **1306**
+
+Added
+- `1137` Unnamed location (postal: n/a, status: OFFLINE)
+- `2480` Unnamed location (postal: n/a, status: RUNNING)
+- `2607` Unnamed location (postal: n/a, status: RUNNING)
+- `2672` SHENG SIONG THOMSON IMPERIAL COURT (postal: 574424, status: RUNNING)
+- `2812` Unnamed location (postal: n/a, status: MAINTENANCE)
+- `2814` Unnamed location (postal: n/a, status: RUNNING)
+- `2877` Unnamed location (postal: n/a, status: OFFLINE)
+- `2878` Unnamed location (postal: n/a, status: RUNNING)
+- `2880` Unnamed location (postal: n/a, status: RUNNING)
+- `2882` Unnamed location (postal: n/a, status: OFFLINE)
+- `2967` Unnamed location (postal: n/a, status: RUNNING)
+- `3004` Unnamed location (postal: n/a, status: OFFLINE)
+- `3014` Unnamed location (postal: n/a, status: offline)
+- `3019` Unnamed location (postal: n/a, status: offline)
+- `3021` Unnamed location (postal: n/a, status: offline)
+- `3027` Unnamed location (postal: n/a, status: RUNNING)
+- `3029` Unnamed location (postal: n/a, status: OFFLINE)
+- `3032` Unnamed location (postal: n/a, status: offline)
+- `3033` Unnamed location (postal: n/a, status: offline)
+- `3046` Unnamed location (postal: n/a, status: RUNNING)
+- `3047` Unnamed location (postal: n/a, status: RUNNING)
+- `3048` Unnamed location (postal: n/a, status: RUNNING)
+- `3049` Unnamed location (postal: n/a, status: RUNNING)
+- `3050` Unnamed location (postal: n/a, status: RUNNING)
+- `3051` Unnamed location (postal: n/a, status: RUNNING)
+- `3052` Unnamed location (postal: n/a, status: RUNNING)
+- `3053` Unnamed location (postal: n/a, status: RUNNING)
+- `3054` Unnamed location (postal: n/a, status: RUNNING)
+- `3055` Unnamed location (postal: n/a, status: RUNNING)
+- `3062` Unnamed location (postal: n/a, status: RUNNING)
+- `3063` Unnamed location (postal: n/a, status: RUNNING)
+- `3064` Unnamed location (postal: n/a, status: RUNNING)
+- `3065` Unnamed location (postal: n/a, status: RUNNING)
+- `3066` Unnamed location (postal: n/a, status: OFFLINE)
+- `3079` Unnamed location (postal: n/a, status: OFFLINE)
+
+Changed
+- `10` Block 54 Geylang Bahru
+  - groupId: undefined -> []
+  - latitude: 1.324 -> 1.323937
+  - longitude: 103.868 -> 103.867800
+- `1015` One Punggol Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.408 -> 1.408404
+  - longitude: 103.905 -> 103.905441
+- `1016` SHENG SIONG BLK 31A MARGARET DRIVE 
+  - groupId: undefined -> [35]
+  - latitude: 1.298 -> 1.298500
+  - longitude: 103.804 -> 103.803900
+- `1017` SHENG SIONG BLK 88 TANGLIN HALT ROAD  
+  - groupId: undefined -> [35]
+  - latitude: 1.301 -> 1.301400
+  - longitude: 103.798 -> 103.798300
+- `1018` SHENG SIONG BLK 301 PUNGGOL CENTRAL 
+  - groupId: undefined -> [35]
+  - latitude: 1.404 -> 1.403700
+  - longitude: 103.906 -> 103.906100
+- `1019` SHENG SIONG 377 HOUGANG STREET 32,  HOUGANG RIVERCOURT
+  - groupId: undefined -> [37]
+  - latitude: 1.363 -> 1.363000
+  - longitude: 103.895 -> 103.895200
+- `1020` SHENG SIONG BLK 351 ANCHORVALE ROAD 
+  - groupId: undefined -> [35]
+  - latitude: 1.393 -> 1.393200
+  - longitude: 103.887 -> 103.887100
+- `1021` SHENG SIONG BLK 218 SUMANG WALK 
+  - groupId: undefined -> [35]
+  - latitude: 1.403 -> 1.403300
+  - longitude: 103.895 -> 103.895000
+- `1022` Block 402 Northshore Drive
+  - groupId: undefined -> []
+  - latitude: 1.415 -> 1.414550
+  - longitude: 103.900 -> 103.900248
+- `1023` Block 272 Punggol Walk
+  - groupId: undefined -> []
+  - latitude: 1.403 -> 1.402870
+  - longitude: 103.901 -> 103.900763
+- `1024` Block 109 Ang Mo Kio Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.370 -> 1.370236
+  - longitude: 103.838 -> 103.837761
+- `1025` Block 610 Ang Mo Kio Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.379568
+  - longitude: 103.839 -> 103.839405
+- `1026` Block 651B Ang Mo Kio Avenue 9
+  - groupId: undefined -> []
+  - latitude: 1.384 -> 1.383633
+  - longitude: 103.842 -> 103.842165
+- `1027` Block 170 Ang Mo Kio Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.374 -> 1.373943
+  - longitude: 103.837 -> 103.837007
+- `1028` Block 319A Anchorvale Drive
+  - groupId: undefined -> []
+  - latitude: 1.391 -> 1.390687
+  - longitude: 103.890 -> 103.889898
+- `1029` Block 311D Anchorvale Lane
+  - groupId: undefined -> []
+  - latitude: 1.392 -> 1.391598
+  - longitude: 103.884 -> 103.884449
+- `1030` Block 124C Rivervale Drive
+  - groupId: undefined -> []
+  - latitude: 1.388 -> 1.388129
+  - longitude: 103.903 -> 103.902805
+- `1031` Block 225C Compassvale Walk
+  - groupId: undefined -> []
+  - latitude: 1.389 -> 1.388583
+  - longitude: 103.899 -> 103.898926
+- `1032` Block 461A Sengkang West Way
+  - groupId: undefined -> []
+  - latitude: 1.395 -> 1.394606
+  - longitude: 103.871 -> 103.870690
+- `1033` Block 433B Sengkang West Way
+  - groupId: undefined -> []
+  - latitude: 1.394 -> 1.393831
+  - longitude: 103.878 -> 103.877764
+- `1034` Block 452B Sengkang West Way
+  - groupId: undefined -> []
+  - latitude: 1.394 -> 1.393781
+  - longitude: 103.874 -> 103.874031
+- `1035` Block 974 Hougang Street 91
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377736
+  - longitude: 103.879 -> 103.879352
+- `1036` Block 658 Hougang Avenue 8
+  - groupId: undefined -> []
+  - latitude: 1.373 -> 1.373277
+  - longitude: 103.883 -> 103.882850
+- `1037` Block 988A Buangkok Green
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.379507
+  - longitude: 103.877 -> 103.877334
+- `1038` Block 943 Hougang Street 92
+  - groupId: undefined -> []
+  - latitude: 1.374 -> 1.373845
+  - longitude: 103.881 -> 103.880658
+- `1039` Block 12 Cantonment Close
+  - groupId: undefined -> []
+  - latitude: 1.274 -> 1.274482
+  - longitude: 103.840 -> 103.840100
+- `1040` Block 20 Telok Blangah Crescent
+  - groupId: undefined -> []
+  - latitude: 1.277 -> 1.277034
+  - longitude: 103.822 -> 103.821827
+- `1041` Block 112 Bukit Purmei
+  - groupId: undefined -> []
+  - latitude: 1.275 -> 1.274530
+  - longitude: 103.826 -> 103.825900
+- `1042` Block 37 Jalan Rumah Tinggi
+  - groupId: undefined -> []
+  - latitude: 1.289 -> 1.289225
+  - longitude: 103.809 -> 103.809171
+- `1043` Block 106 Henderson Crescent
+  - groupId: undefined -> []
+  - latitude: 1.290 -> 1.289680
+  - longitude: 103.822 -> 103.822300
+- `1044` Block 128 Kim Tian Road
+  - groupId: undefined -> []
+  - latitude: 1.282 -> 1.281535
+  - longitude: 103.829 -> 103.829100
+- `1045` Block 144 Jalan Bukit Merah
+  - groupId: undefined -> []
+  - latitude: 1.277 -> 1.277371
+  - longitude: 103.830 -> 103.829892
+- `1046` Block 3 Queen's Road
+  - groupId: undefined -> []
+  - latitude: 1.318 -> 1.318418
+  - longitude: 103.808 -> 103.808124
+- `1047` Block 131 Ang Mo Kio Avenue 3
+  - groupId: undefined -> []
+  - latitude: 1.371 -> 1.371082
+  - longitude: 103.842 -> 103.841645
+- `1048` Block 649 Ang Mo Kio Avenue 5
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377807
+  - longitude: 103.844 -> 103.843752
+- `1049` Block 9 Toh Yi Drive
+  - groupId: undefined -> []
+  - latitude: 1.338 -> 1.338297
+  - longitude: 103.774 -> 103.773589
+- `1050` Block 12 Farrer Park Road
+  - groupId: undefined -> []
+  - latitude: 1.312 -> 1.312127
+  - longitude: 103.852 -> 103.851800
+- `1051` Block 120 McNair Road
+  - groupId: undefined -> []
+  - latitude: 1.319 -> 1.319359
+  - longitude: 103.857 -> 103.856844
+- `1052` Block 102 Jalan Rajah
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.328325
+  - longitude: 103.851 -> 103.851414
+- `1053` Block 13 Dover Close East
+  - groupId: undefined -> []
+  - latitude: 1.305 -> 1.305429
+  - longitude: 103.786 -> 103.786000
+- `1054` Block 156 Rivervale Crescent
+  - groupId: undefined -> []
+  - latitude: 1.391 -> 1.391289
+  - longitude: 103.907 -> 103.907379
+- `1055` Block 246 Compassvale Road
+  - groupId: undefined -> []
+  - latitude: 1.393 -> 1.392619
+  - longitude: 103.899 -> 103.899073
+- `1056` Block 105 Rivervale Walk
+  - groupId: undefined -> []
+  - latitude: 1.382 -> 1.382197
+  - longitude: 103.901 -> 103.900712
+- `1057` Block 203A Compassvale Road
+  - groupId: undefined -> []
+  - latitude: 1.387 -> 1.386708
+  - longitude: 103.895 -> 103.895444
+- `1058` Block 132 Rivervale Street
+  - groupId: undefined -> []
+  - latitude: 1.390 -> 1.389992
+  - longitude: 103.904 -> 103.903523
+- `1059` Block 122E RIVERVALE DRIVE
+  - groupId: undefined -> []
+  - latitude: 1.388 -> 1.387822
+  - longitude: 103.906 -> 103.905800
+- `1060` Block 207D Compassvale Lane
+  - groupId: undefined -> []
+  - latitude: 1.385 -> 1.384594
+  - longitude: 103.897 -> 103.897402
+- `1061` Block 291B Compassvale Street
+  - groupId: undefined -> []
+  - latitude: 1.396 -> 1.396022
+  - longitude: 103.898 -> 103.898359
+- `1062` Block 325C Sengkang East Way
+  - groupId: undefined -> []
+  - latitude: 1.393 -> 1.393298
+  - longitude: 103.891 -> 103.891349
+- `1063` Block 303B Anchorvale Link
+  - groupId: undefined -> []
+  - latitude: 1.388 -> 1.387531
+  - longitude: 103.890 -> 103.889771
+- `1064` Block 288B Compassvale Crescent
+  - groupId: undefined -> []
+  - latitude: 1.398 -> 1.398484
+  - longitude: 103.898 -> 103.897704
+- `1065` Block 297B Compassvale Street
+  - groupId: undefined -> []
+  - latitude: 1.395 -> 1.394898
+  - longitude: 103.901 -> 103.901103
+- `1066` Block 188D Rivervale Drive
+  - groupId: undefined -> []
+  - latitude: 1.395 -> 1.395011
+  - longitude: 103.904 -> 103.903837
+- `1067` Block 624 Hougang Avenue 8
+  - groupId: undefined -> []
+  - latitude: 1.370 -> 1.370237
+  - longitude: 103.882 -> 103.882281
+- `1068` Block 563 Ang Mo Kio Avenue 3
+  - groupId: undefined -> []
+  - latitude: 1.370 -> 1.369934
+  - longitude: 103.858 -> 103.858108
+- `1069` Block 456 Hougang Avenue 10
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.377178
+  - longitude: 103.895 -> 103.895440
+- `1070` Block 337 Ang Mo Kio Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.363 -> 1.363225
+  - longitude: 103.852 -> 103.851722
+- `1071` Block 406C Fernvale Road
+  - groupId: undefined -> []
+  - latitude: 1.389 -> 1.388849
+  - longitude: 103.875 -> 103.874627
+- `1072` Block 463 Ang Mo Kio Avenue 10
+  - groupId: undefined -> []
+  - latitude: 1.367 -> 1.366958
+  - longitude: 103.857 -> 103.857469
+- `1073` Block 634 Hougang Avenue 8
+  - groupId: undefined -> []
+  - latitude: 1.370 -> 1.370056
+  - longitude: 103.878 -> 103.878424
+- `1074` Block 911 Hougang Street 91
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.378881
+  - longitude: 103.884 -> 103.883751
+- `1075` Block 568 Hougang Street 51
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.378645
+  - longitude: 103.889 -> 103.889063
+- `1076` Block 444 Hougang Avenue 8
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.379501
+  - longitude: 103.894 -> 103.893865
+- `1077` Block 984A Buangkok Link
+  - groupId: undefined -> []
+  - latitude: 1.382 -> 1.382037
+  - longitude: 103.881 -> 103.881143
+- `1078` Block 607 Hougang Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.370 -> 1.370229
+  - longitude: 103.886 -> 103.886200
+- `1079` Block 48 Strathmore Avenue
+  - groupId: undefined -> []
+  - latitude: 1.294 -> 1.293800
+  - longitude: 103.808 -> 103.807801
+- `1080` Block 114 Potong Pasir
+  - groupId: undefined -> []
+  - latitude: 1.337 -> 1.336758
+  - longitude: 103.863 -> 103.863212
+- `1081` Block 211C Punggol Walk
+  - groupId: undefined -> []
+  - latitude: 1.401 -> 1.401059
+  - longitude: 103.899 -> 103.899155
+- `1082` SHENG SIONG BLK 108 MCNAIR ROAD 
+  - groupId: undefined -> [35]
+  - latitude: 1.322 -> 1.321800
+  - longitude: 103.859 -> 103.859500
+- `1083` SHENG SIONG BLK 52 CHIN SWEE ROAD
+  - groupId: undefined -> [35]
+  - latitude: 1.287 -> 1.287000
+  - longitude: 103.842 -> 103.841700
+- `1086` Block 217 Ang Mo Kio Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.366 -> 1.365587
+  - longitude: 103.842 -> 103.841647
+- `1087` Block 432 Ang Mo Kio Avenue 10
+  - groupId: undefined -> []
+  - latitude: 1.368 -> 1.368344
+  - longitude: 103.854 -> 103.853590
+- `1088` Block 108 Potong Pasir Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.334998
+  - longitude: 103.868 -> 103.867966
+- `1089` Block 121 Potong Pasir Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.335744
+  - longitude: 103.866 -> 103.865544
+- `1090` Block 143 Potong Pasir Avenue 2
+  - groupId: undefined -> []
+  - latitude: 1.333 -> 1.332880
+  - longitude: 103.866 -> 103.866109
+- `1091` SHENG SIONG BLK 410A SIN MING AVENUE
+  - groupId: undefined -> [37]
+  - latitude: 1.363 -> 1.363200
+  - longitude: 103.835 -> 103.835400
+- `1092` SHENG SIONG BLK 122 ANG MO KIO AVE 3 
+  - groupId: undefined -> [35]
+  - latitude: 1.370 -> 1.370200
+  - longitude: 103.843 -> 103.843200
+- `1093` SHENG SIONG BLK 233 ANG MO KIO AVE 3
+  - groupId: undefined -> [35]
+  - latitude: 1.368 -> 1.367700
+  - longitude: 103.836 -> 103.836300
+- `1094` SHENG SIONG BLK 2 ANG MO KIO DRIVE, ITE COLLEGE CENTRAL
+  - groupId: undefined -> [36]
+  - latitude: 1.378 -> 1.377800
+  - longitude: 103.856 -> 103.856300
+- `1095` SHENG SIONG BLK 18B CIRCUIT ROAD 
+  - groupId: undefined -> [35]
+  - latitude: 1.329 -> 1.329200
+  - longitude: 103.888 -> 103.888200
+- `1096` SHENG SIONG BLK 231 SUMANG LANE
+  - groupId: undefined -> [35]
+  - latitude: 1.402 -> 1.402000
+  - longitude: 103.892 -> 103.892100
+- `1097` SHENG SIONG BLK 622D PUNGGOL CENTRAL
+  - groupId: undefined -> [35]
+  - latitude: 1.401 -> 1.400500
+  - longitude: 103.910 -> 103.910400
+- `1098` SHENG SIONG BLK 338 ANCHORVALE CRESCENT 
+  - groupId: undefined -> [37]
+  - latitude: 1.399 -> 1.399200
+  - longitude: 103.890 -> 103.889600
+- `1099` SHENG SIONG BLK 465 FERNVALE ROAD 
+  - groupId: undefined -> [35]
+  - latitude: 1.398 -> 1.398200
+  - longitude: 103.877 -> 103.876600
+- `1100` SHENG SIONG BLK 473 FERNVALE STREET
+  - groupId: undefined -> [35]
+  - latitude: 1.398 -> 1.397900
+  - longitude: 103.882 -> 103.881500
+- `1101` SHENG SIONG BLK 6 POTONG PASIR AVE 2,  POTONG PASIR CC 
+  - groupId: undefined -> [37]
+  - latitude: 1.333 -> 1.332700
+  - longitude: 103.867 -> 103.867100
+- `1102` SHENG SIONG BLK 212 BIDADARI PARK DRIVE
+  - groupId: undefined -> [37]
+  - latitude: 1.342 -> 1.342400
+  - longitude: 103.876 -> 103.875700
+- `1103` SHENG SIONG BLK 221 MOUNT VERNON RD 
+  - groupId: undefined -> [37]
+  - latitude: 1.342 -> 1.341600
+  - longitude: 103.880 -> 103.880500
+- `1104` FairPrice North Shore
+  - groupId: undefined -> [41]
+  - latitude: 1.417 -> 1.417419
+  - longitude: 103.911 -> 103.911336
+- `1111` ANG MO SUPERMARKET-260 ANG MO KIO ST21
+  - groupId: undefined -> [92]
+  - latitude: 1.369 -> 1.368900
+  - longitude: 103.835 -> 103.834700
+- `1112` FairPrice Blk 712 Ang Mo Kio Avenue 6
+  - groupId: undefined -> [47]
+  - latitude: 1.371 -> 1.371400
+  - longitude: 103.847 -> 103.847100
+- `1113` FairPrice Serangoon Garden myVillage
+  - groupId: undefined -> [41]
+  - latitude: 1.365 -> 1.365100
+  - longitude: 103.865 -> 103.865100
+- `1114` FairPrice 612 Punggol Drive
+  - groupId: undefined -> [39]
+  - latitude: 1.405 -> 1.404800
+  - longitude: 103.909 -> 103.908500
+- `1115` FairPrice ZhongShan Park
+  - groupId: undefined -> [47]
+  - latitude: 1.327 -> 1.327000
+  - longitude: 103.846 -> 103.846400
+- `1116` FairPrice Thomson Plaza
+  - groupId: undefined -> [47]
+  - latitude: 1.355 -> 1.354900
+  - longitude: 103.831 -> 103.830800
+- `1117` FairPrice 682 Hougang Avenue 4
+  - groupId: undefined -> [45]
+  - latitude: 1.375 -> 1.374530
+  - longitude: 103.886 -> 103.885620
+- `1118` FairPrice SengKang East
+  - groupId: undefined -> [39]
+  - latitude: 1.386 -> 1.386400
+  - longitude: 103.893 -> 103.893300
+- `1119` FairPrice Blk 635B Punggol Drive
+  - groupId: undefined -> [39]
+  - latitude: 1.398 -> 1.397600
+  - longitude: 103.920 -> 103.919800
+- `1120` FairPrice Nex Mall
+  - groupId: undefined -> [39]
+  - latitude: 1.351 -> 1.350700
+  - longitude: 103.872 -> 103.871900
+- `1122` FairPrice Blk 279 Bishan Street 24
+  - groupId: undefined -> [39]
+  - latitude: 1.357 -> 1.357200
+  - longitude: 103.844 -> 103.843900
+- `1123` FairPrice Serangoon North Ave 1
+  - groupId: undefined -> [39]
+  - latitude: 1.370 -> 1.369800
+  - longitude: 103.873 -> 103.873000
+- `1124` FairPrice Lorong Limau
+  - groupId: undefined -> [39]
+  - latitude: 1.324 -> 1.323800
+  - longitude: 103.856 -> 103.855700
+- `1125` FairPrice Punggol Oasis
+  - groupId: undefined -> [41]
+  - latitude: 1.403 -> 1.403100
+  - longitude: 103.913 -> 103.913200
+- `1126` FairPrice MacPherson Blossom
+  - groupId: undefined -> [45]
+  - latitude: 1.325 -> 1.325200
+  - longitude: 103.890 -> 103.890100
+- `1127` FairPrice Punggol Plaza
+  - groupId: undefined -> [41]
+  - latitude: 1.394 -> 1.394200
+  - longitude: 103.913 -> 103.913000
+- `1128` FairPrice Punggol Coast Mall
+  - groupId: undefined -> [47]
+  - latitude: 1.415 -> 1.414900
+  - longitude: 103.913 -> 103.912700
+- `1129` FairPrice AMK Hub
+  - groupId: undefined -> [39]
+  - latitude: 1.369 -> 1.369000
+  - longitude: 103.848 -> 103.848100
+- `1130` FairPrice Serangoon Central
+  - groupId: undefined -> [39]
+  - latitude: 1.354 -> 1.353900
+  - longitude: 103.871 -> 103.870700
+- `1131` FairPrice Hougang 202
+  - groupId: undefined -> [39]
+  - latitude: 1.358 -> 1.357700
+  - longitude: 103.884 -> 103.883800
+- `1132` FairPrice Rivervale Shores
+  - groupId: undefined -> [41]
+  - latitude: 1.386 -> 1.386400
+  - longitude: 103.909 -> 103.909300
+- `1133` FairPrice Poiz Centre
+  - groupId: undefined -> [39]
+  - latitude: 1.331 -> 1.331200
+  - longitude: 103.868 -> 103.868100
+- `1134` FairPrice Blk 510 Bishan Street 13
+  - groupId: undefined -> [41]
+  - latitude: 1.349 -> 1.348700
+  - longitude: 103.850 -> 103.849800
+- `1135` FairPrice Finest Junction 8
+  - groupId: undefined -> [41]
+  - latitude: 1.351 -> 1.351084
+  - longitude: 103.849 -> 103.848945
+- `1136` FairPrice Blk 192 Toa Payoh Lorong 4
+  - groupId: undefined -> [39]
+  - latitude: 1.332 -> 1.331840
+  - longitude: 103.851 -> 103.850600
+- `1138` FairPrice Woodleigh Mall
+  - groupId: undefined -> [39]
+  - latitude: 1.339 -> 1.339000
+  - longitude: 103.871 -> 103.871500
+- `1139` SHENG SIONG BLK 658 PUNGGOL EAST 
+  - groupId: undefined -> [35]
+  - latitude: 1.400 -> 1.399800
+  - longitude: 103.919 -> 103.919500
+- `1140` SHENG SIONG BLK 660A EDGEDALE PLAINS 
+  - groupId: undefined -> [35]
+  - latitude: 1.403 -> 1.402500
+  - longitude: 103.916 -> 103.916300
+- `1141` SHENG SIONG BLK 671 EDGEFIELD PLAINS
+  - groupId: undefined -> [37]
+  - latitude: 1.406 -> 1.405600
+  - longitude: 103.912 -> 103.911900
+- `1142` SHENG SIONG BLK 512 BISHAN STREET 13 
+  - groupId: undefined -> [35]
+  - latitude: 1.350 -> 1.349600
+  - longitude: 103.850 -> 103.850000
+- `1143` SHENG SIONG BLK 161 ANG MO KIO AVE  4
+  - groupId: undefined -> [35]
+  - latitude: 1.374 -> 1.374200
+  - longitude: 103.840 -> 103.839500
+- `1144` SHENG SIONG BLK 181 TOA PAYOH LORONG 4
+  - groupId: undefined -> [35]
+  - latitude: 1.334 -> 1.333600
+  - longitude: 103.851 -> 103.851000
+- `1145` SHENG SIONG BLK 312A SUMANG LINK 
+  - groupId: undefined -> [35]
+  - latitude: 1.411 -> 1.411400
+  - longitude: 103.900 -> 103.900400
+- `1146` SHENG SIONG BLK 417 FERNVALE LINK
+  - groupId: undefined -> [35]
+  - latitude: 1.392 -> 1.391600
+  - longitude: 103.879 -> 103.879500
+- `1147` SHENG SIONG 19 SERANGOON NORTH AVE 5
+  - groupId: undefined -> [35]
+  - latitude: 1.376 -> 1.375570
+  - longitude: 103.872 -> 103.871880
+- `1148` SHENG SIONG BLK 4 TOA PAYOH LORONG 7 
+  - groupId: undefined -> [35]
+  - latitude: 1.339 -> 1.339100
+  - longitude: 103.856 -> 103.855800
+- `1149` SHENG SIONG BLK 455 SENGKANG WEST AVE 5 
+  - groupId: undefined -> [35]
+  - latitude: 1.391 -> 1.391400
+  - longitude: 103.871 -> 103.871100
+- `1154` ANG MO SUPERMARKET-639 PUNGGOL DRIVE
+  - groupId: undefined -> [92]
+  - latitude: 1.399 -> 1.399400
+  - longitude: 103.916 -> 103.916000
+- `1155` Block 113B Alkaff Crescent
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.336080
+  - longitude: 103.873 -> 103.872600
+- `1156` ACE SIGNATURE @ NTP
+  - groupId: undefined -> [99]
+  - latitude: 1.352 -> 1.352100
+  - longitude: 103.861 -> 103.860800
+- `1157` Block 1 Lorong Lew Lian
+  - groupId: undefined -> []
+  - latitude: 1.351 -> 1.350923
+  - longitude: 103.875 -> 103.875386
+- `1158` Cold Storage Sentosa Cove
+  - groupId: undefined -> [57]
+  - latitude: 1.247 -> 1.247309
+  - longitude: 103.840 -> 103.840105
+- `1159` Don Don Donki (City Square Mall)
+  - groupId: undefined -> [75]
+  - latitude: 1.311 -> 1.311400
+  - longitude: 103.856 -> 103.856500
+- `1160` FairPrice Xtra VivoCity
+  - groupId: undefined -> [47]
+  - latitude: 1.265 -> 1.264800
+  - longitude: 103.823 -> 103.822800
+- `1161` FairPrice 150 Towner Road
+  - groupId: undefined -> [41]
+  - latitude: 1.318 -> 1.318000
+  - longitude: 103.860 -> 103.859700
+- `1162` FairPrice City Square Mall
+  - groupId: undefined -> [47]
+  - latitude: 1.312 -> 1.311800
+  - longitude: 103.857 -> 103.856600
+- `1164` Marks & Spencer Vivo City
+  - groupId: undefined -> [97]
+  - latitude: 1.265 -> 1.264700
+  - longitude: 103.823 -> 103.823100
+- `1165` SCARLETT@BUGIS+
+  - groupId: undefined -> [87]
+  - latitude: 1.300 -> 1.299600
+  - longitude: 103.855 -> 103.854600
+- `1166` Block 113 Whampoa Road
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.325816
+  - longitude: 103.857 -> 103.857193
+- `1167` Cold Storage Plaza Singapura
+  - groupId: undefined -> [62]
+  - latitude: 1.301 -> 1.300711
+  - longitude: 103.845 -> 103.844900
+- `1168` Cold Storage Raffles City
+  - groupId: undefined -> [60]
+  - latitude: 1.294 -> 1.294000
+  - longitude: 103.853 -> 103.853100
+- `1169` Cold Storage Suntec City
+  - groupId: undefined -> [62]
+  - latitude: 1.295 -> 1.295000
+  - longitude: 103.858 -> 103.858300
+- `1170` Cold Storage New Bahru
+  - groupId: undefined -> [60]
+  - latitude: 1.293 -> 1.292800
+  - longitude: 103.839 -> 103.838600
+- `1171` Jasons Deli by Cold Storage ION Orchard
+  - groupId: undefined -> [64]
+  - latitude: 1.304 -> 1.303800
+  - longitude: 103.832 -> 103.831700
+- `1172` Cold Storage Aperia
+  - groupId: undefined -> [57]
+  - latitude: 1.310 -> 1.309700
+  - longitude: 103.864 -> 103.864300
+- `1173` Don Don Donki (Orchard Central)
+  - groupId: undefined -> [72]
+  - latitude: 1.301 -> 1.300800
+  - longitude: 103.840 -> 103.839700
+- `1174` Cold Storage Holland Village
+  - groupId: undefined -> [68]
+  - latitude: 1.310 -> 1.310200
+  - longitude: 103.795 -> 103.795300
+- `1175` Don Don Donki (100AM)
+  - groupId: undefined -> [74]
+  - latitude: 1.275 -> 1.274900
+  - longitude: 103.843 -> 103.843400
+- `1176` Singapore Polytechnic (SP) T11A Building
+  - groupId: undefined -> [73]
+  - latitude: 1.310 -> 1.310330
+  - longitude: 103.779 -> 103.779160
+- `1177` Don Don Donki (Clarke Quay Central)
+  - groupId: undefined -> [75]
+  - latitude: 1.289 -> 1.289100
+  - longitude: 103.847 -> 103.846700
+- `1178` Don Don Donki (Suntec City Mall)
+  - groupId: undefined -> [74]
+  - latitude: 1.293 -> 1.293200
+  - longitude: 103.857 -> 103.857000
+- `1179` FairPrice Havelock Road
+  - groupId: undefined -> [39]
+  - latitude: 1.290 -> 1.289800
+  - longitude: 103.827 -> 103.826700
+- `1180` FairPrice Shaw Plaza
+  - groupId: undefined -> [45]
+  - latitude: 1.325 -> 1.325279
+  - longitude: 103.851 -> 103.851048
+- `1181` FairPrice Blk 476 Upper Serangoon View
+  - groupId: undefined -> [41]
+  - latitude: 1.377 -> 1.377100
+  - longitude: 103.903 -> 103.903500
+- `1182` FairPrice Kallang Bahru
+  - groupId: undefined -> [41]
+  - latitude: 1.321 -> 1.321000
+  - longitude: 103.871 -> 103.870700
+- `1183` FairPrice Chinatown Point
+  - groupId: undefined -> [47]
+  - latitude: 1.285 -> 1.285400
+  - longitude: 103.845 -> 103.845000
+- `1184` FairPrice Tanjong Pagar
+  - groupId: undefined -> [39]
+  - latitude: 1.276 -> 1.275900
+  - longitude: 103.843 -> 103.843000
+- `1185` FairPrice Finest Clarke Quay
+  - groupId: undefined -> [121]
+  - latitude: 1.290 -> 1.290500
+  - longitude: 103.846 -> 103.845900
+- `1186` FairPrice Finest Coronation Plaza
+  - groupId: undefined -> [47]
+  - latitude: 1.324 -> 1.323900
+  - longitude: 103.810 -> 103.809900
+- `1187` FairPrice Dover Crescent
+  - groupId: undefined -> [47]
+  - latitude: 1.305 -> 1.305100
+  - longitude: 103.781 -> 103.781400
+- `1188` FairPrice Dawson Place
+  - groupId: undefined -> [39]
+  - latitude: 1.293 -> 1.292600
+  - longitude: 103.811 -> 103.811400
+- `1189` FairPrice Hougang One
+  - groupId: undefined -> [41]
+  - latitude: 1.375 -> 1.375500
+  - longitude: 103.879 -> 103.879200
+- `1190` FairPrice Blk 78A Telok Blangah Street 32
+  - groupId: undefined -> [39]
+  - latitude: 1.273 -> 1.273200
+  - longitude: 103.809 -> 103.809100
+- `1191` FairPrice 5 Upper Boon Keng Road
+  - groupId: undefined -> [39]
+  - latitude: 1.313 -> 1.312500
+  - longitude: 103.873 -> 103.872700
+- `1192` FairPrice Finest 100AM
+  - groupId: undefined -> [46]
+  - latitude: 1.275 -> 1.274600
+  - longitude: 103.843 -> 103.843400
+- `1193` FairPrice French Road
+  - groupId: undefined -> [41]
+  - latitude: 1.309 -> 1.308900
+  - longitude: 103.862 -> 103.861900
+- `1194` Giant Ang Mo Kio Avenue 10
+  - groupId: undefined -> [51]
+  - latitude: 1.373 -> 1.372700
+  - longitude: 103.854 -> 103.854000
+- `1195` Giant Ang Mo Kio Street 31
+  - groupId: undefined -> [54]
+  - latitude: 1.365 -> 1.364800
+  - longitude: 103.848 -> 103.847900
+- `1196` Giant Telok Blangah Crescent
+  - groupId: undefined -> [53]
+  - latitude: 1.278 -> 1.277800
+  - longitude: 103.819 -> 103.819400
+- `1197` SHENG SIONG BLK 85 DAWSON ROAD 
+  - groupId: undefined -> [35]
+  - latitude: 1.296 -> 1.295500
+  - longitude: 103.810 -> 103.810000
+- `1198` SHENG SIONG BLK 11 UPPER BOON KENG ROAD 
+  - groupId: undefined -> [35]
+  - latitude: 1.314 -> 1.314200
+  - longitude: 103.871 -> 103.870600
+- `1199` Meidi-Ya Millenia Walk
+  - groupId: undefined -> [109]
+  - latitude: 1.292 -> 1.292100
+  - longitude: 103.860 -> 103.859800
+- `1202` Cold Storage UE Square
+  - groupId: undefined -> [60]
+  - latitude: 1.292 -> 1.292100
+  - longitude: 103.843 -> 103.842500
+- `1203` Cold Storage Serangoon Nex
+  - groupId: undefined -> [64]
+  - latitude: 1.351 -> 1.350819
+  - longitude: 103.873 -> 103.872500
+- `1204` Cold Storage Anchorpoint
+  - groupId: undefined -> [57]
+  - latitude: 1.289 -> 1.288628
+  - longitude: 103.805 -> 103.804992
+- `1205` Cold Storage Novena Square
+  - groupId: undefined -> [62]
+  - latitude: 1.320 -> 1.319957
+  - longitude: 103.844 -> 103.843900
+- `1206` Cold Storage Heartland Mall
+  - groupId: undefined -> [57]
+  - latitude: 1.359 -> 1.359500
+  - longitude: 103.885 -> 103.885100
+- `1207` Don Don Donki (Square2)
+  - groupId: undefined -> [74]
+  - latitude: 1.321 -> 1.320700
+  - longitude: 103.844 -> 103.844300
+- `1208` FairPrice Holland Drive
+  - groupId: undefined -> [39]
+  - latitude: 1.309 -> 1.309300
+  - longitude: 103.793 -> 103.792600
+- `1209` FairPrice Finest Scotts Square
+  - groupId: undefined -> [47]
+  - latitude: 1.306 -> 1.305800
+  - longitude: 103.833 -> 103.832900
+- `1210` FairPrice Rivervale Plaza
+  - groupId: undefined -> [45]
+  - latitude: 1.386 -> 1.385579
+  - longitude: 103.903 -> 103.902503
+- `1211` FairPrice Toa Payoh Hub
+  - groupId: undefined -> [43]
+  - latitude: 1.333 -> 1.333000
+  - longitude: 103.847 -> 103.847000
+- `1212` FairPrice 29A Ghim Moh Link
+  - groupId: undefined -> [39]
+  - latitude: 1.309 -> 1.308600
+  - longitude: 103.785 -> 103.784700
+- `1213` FairPrice Blk 227 Compassvale Link
+  - groupId: undefined -> [39]
+  - latitude: 1.382 -> 1.382400
+  - longitude: 103.894 -> 103.894000
+- `1214` FairPrice Kang Kar Mall
+  - groupId: undefined -> [39]
+  - latitude: 1.372 -> 1.371800
+  - longitude: 103.894 -> 103.894100
+- `1215` FairPrice Seletar Mall
+  - groupId: undefined -> [39]
+  - latitude: 1.391 -> 1.391200
+  - longitude: 103.876 -> 103.876000
+- `1216` Giant Northshore 2
+  - groupId: undefined -> [51]
+  - latitude: 1.417 -> 1.417125
+  - longitude: 103.902 -> 103.901700
+- `1217` Block 171 Lorong 1 Toa Payoh
+  - groupId: undefined -> []
+  - latitude: 1.331 -> 1.330980
+  - longitude: 103.843 -> 103.842655
+- `1218` Block 205 Toa Payoh North
+  - groupId: undefined -> []
+  - latitude: 1.342 -> 1.342022
+  - longitude: 103.848 -> 103.848213
+- `1219` Block 143 Lorong 2 Toa Payoh
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.335653
+  - longitude: 103.844 -> 103.843900
+- `1220` Block 99C Lorong 2 Toa Payoh
+  - groupId: undefined -> []
+  - latitude: 1.339 -> 1.339046
+  - longitude: 103.847 -> 103.847473
+- `1221` Block 128 Lorong 1 Toa Payoh
+  - groupId: undefined -> []
+  - latitude: 1.338 -> 1.337807
+  - longitude: 103.844 -> 103.844093
+- `1222` Block 228 Bishan Street 23
+  - groupId: undefined -> []
+  - latitude: 1.358 -> 1.358090
+  - longitude: 103.846 -> 103.846475
+- `1223` Block 138 Bishan Street 12
+  - groupId: undefined -> []
+  - latitude: 1.344 -> 1.344371
+  - longitude: 103.852 -> 103.852490
+- `1224` Block 9 Selegie Road
+  - groupId: undefined -> []
+  - latitude: 1.303 -> 1.303366
+  - longitude: 103.851 -> 103.850901
+- `1225` Block 125 Aljunied Road
+  - groupId: undefined -> []
+  - latitude: 1.323 -> 1.323210
+  - longitude: 103.882 -> 103.881800
+- `1226` Block 46 Circuit Road
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.326097
+  - longitude: 103.886 -> 103.886200
+- `1229` SCARLETT@DJITSUN AMK
+  - groupId: undefined -> [87]
+  - latitude: 1.373 -> 1.372900
+  - longitude: 103.848 -> 103.847600
+- `1230` SCARLETT@HEARTLAND MALL
+  - groupId: undefined -> [88]
+  - latitude: 1.359 -> 1.359500
+  - longitude: 103.885 -> 103.885100
+- `1231` Block 12 Holland Avenue
+  - groupId: undefined -> []
+  - latitude: 1.309 -> 1.309380
+  - longitude: 103.795 -> 103.794880
+- `1232` Block 212 Serangoon Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.357 -> 1.356786
+  - longitude: 103.873 -> 103.873000
+- `1233` Block 25 Sin Ming Road
+  - groupId: undefined -> []
+  - latitude: 1.355 -> 1.354920
+  - longitude: 103.838 -> 103.837758
+- `1234` Block 473B Upper Serangoon Crescent
+  - groupId: undefined -> []
+  - latitude: 1.376 -> 1.375954
+  - longitude: 103.901 -> 103.901052
+- `1235` Block 114 Lorong 1 Toa Payoh
+  - groupId: undefined -> []
+  - latitude: 1.341 -> 1.340847
+  - longitude: 103.844 -> 103.844300
+- `1236` Block 832 Hougang Central
+  - groupId: undefined -> []
+  - latitude: 1.371 -> 1.370650
+  - longitude: 103.890 -> 103.889700
+- `1237` Block 236 Hougang Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.358 -> 1.357830
+  - longitude: 103.889 -> 103.888900
+- `1238` Block 313 Shunfu Road
+  - groupId: undefined -> []
+  - latitude: 1.351 -> 1.351493
+  - longitude: 103.838 -> 103.837522
+- `1239` Block 129 Lorong Ah Soo
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.351523
+  - longitude: 103.888 -> 103.887500
+- `1240` Block 23B Queen's Close
+  - groupId: undefined -> []
+  - latitude: 1.294 -> 1.293681
+  - longitude: 103.800 -> 103.800400
+- `1241` Block 466 Hougang Avenue 8
+  - groupId: undefined -> []
+  - latitude: 1.373 -> 1.372861
+  - longitude: 103.897 -> 103.897000
+- `1242` Block 93 Whampoa Drive
+  - groupId: undefined -> []
+  - latitude: 1.322 -> 1.322233
+  - longitude: 103.855 -> 103.854838
+- `1243` Block 318 Serangoon Avenue 2
+  - groupId: undefined -> []
+  - latitude: 1.353 -> 1.352863
+  - longitude: 103.867 -> 103.867100
+- `1244` Block 336 Hougang Avenue 7
+  - groupId: undefined -> []
+  - latitude: 1.369 -> 1.369362
+  - longitude: 103.898 -> 103.898200
+- `1245` Block 195D Punggol Road
+  - groupId: undefined -> []
+  - latitude: 1.402 -> 1.401572
+  - longitude: 103.907 -> 103.906937
+- `1246` Huber's Butchery @ Dempsey
+  - groupId: undefined -> [107]
+  - latitude: 1.307 -> 1.306889
+  - longitude: 103.810 -> 103.810118
+- `1247` Block 174B Hougang Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.349563
+  - longitude: 103.889 -> 103.889200
+- `1248` Block 204 Bishan Street 23
+  - groupId: undefined -> []
+  - latitude: 1.355 -> 1.354988
+  - longitude: 103.847 -> 103.847400
+- `1249` FairPrice Finest 111 Somerset
+  - groupId: undefined -> [47]
+  - latitude: 1.300 -> 1.300400
+  - longitude: 103.838 -> 103.837600
+- `1250` FairPrice 43 Cambridge Road
+  - groupId: undefined -> [41]
+  - latitude: 1.315 -> 1.315400
+  - longitude: 103.849 -> 103.849400
+- `1251` Block 470B Upper Serangoon Crescent
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.379047
+  - longitude: 103.901 -> 103.900800
+- `1252` FairPrice Finest The Centrepoint
+  - groupId: undefined -> [45]
+  - latitude: 1.302 -> 1.301700
+  - longitude: 103.840 -> 103.839500
+- `1253` Block 134 Jalan Bukit Merah
+  - groupId: undefined -> []
+  - latitude: 1.279 -> 1.279130
+  - longitude: 103.828 -> 103.827600
+- `1254` Block 206A Woodleigh Link
+  - groupId: undefined -> []
+  - latitude: 1.341 -> 1.341440
+  - longitude: 103.873 -> 103.872600
+- `1255` FairPrice Depot Heights Shopping Centre
+  - groupId: undefined -> [47]
+  - latitude: 1.281 -> 1.281300
+  - longitude: 103.810 -> 103.809900
+- `1256` Block 302 Hougang Avenue 5
+  - groupId: undefined -> []
+  - latitude: 1.368 -> 1.368499
+  - longitude: 103.894 -> 103.894358
+- `1257` FairPrice Finest Artra
+  - groupId: undefined -> [47]
+  - latitude: 1.290 -> 1.290100
+  - longitude: 103.817 -> 103.816900
+- `1258` FairPrice Holland V
+  - groupId: undefined -> [47]
+  - latitude: 1.310 -> 1.310400
+  - longitude: 103.796 -> 103.795900
+- `1259` Block 232 Lorong 8 Toa Payoh
+  - groupId: undefined -> []
+  - latitude: 1.338 -> 1.337591
+  - longitude: 103.859 -> 103.859100
+- `1260` FairPrice Anchorvale Village
+  - groupId: undefined -> [45]
+  - latitude: 1.397 -> 1.396700
+  - longitude: 103.888 -> 103.888200
+- `1261` Block 201 Toa Payoh North
+  - groupId: undefined -> []
+  - latitude: 1.342 -> 1.341542
+  - longitude: 103.850 -> 103.850000
+- `1262` Block 22 Hougang Avenue 3
+  - groupId: undefined -> []
+  - latitude: 1.364 -> 1.364270
+  - longitude: 103.890 -> 103.890400
+- `1263` Block 112 Bishan Street 12
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.346887
+  - longitude: 103.849 -> 103.848814
+- `1264` Block 177 Bishan Street 13
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.347867
+  - longitude: 103.853 -> 103.853500
+- `1265` FairPrice Dunearn Village
+  - groupId: undefined -> [47]
+  - latitude: 1.337 -> 1.336700
+  - longitude: 103.784 -> 103.783600
+- `1266` Block 524 Hougang Avenue 6
+  - groupId: undefined -> []
+  - latitude: 1.374 -> 1.374125
+  - longitude: 103.890 -> 103.890393
+- `1267` Block 38B Bendemeer Road
+  - groupId: undefined -> []
+  - latitude: 1.321 -> 1.320651
+  - longitude: 103.867 -> 103.866811
+- `1268` Block 243 Bishan Street 22
+  - groupId: undefined -> []
+  - latitude: 1.361 -> 1.360876
+  - longitude: 103.845 -> 103.844700
+- `1269` Block 222 Lorong 8 Toa Payoh
+  - groupId: undefined -> []
+  - latitude: 1.342 -> 1.341791
+  - longitude: 103.856 -> 103.855900
+- `1270` Block 15 Joo Seng Road
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.335598
+  - longitude: 103.880 -> 103.880233
+- `1271` Block 95B Henderson Road
+  - groupId: undefined -> []
+  - latitude: 1.287 -> 1.286993
+  - longitude: 103.822 -> 103.821579
+- `1272` Block 534 Hougang Street 52
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.377160
+  - longitude: 103.890 -> 103.890313
+- `1273` Block 160 Lorong 1 Toa Payoh
+  - groupId: undefined -> []
+  - latitude: 1.331 -> 1.330985
+  - longitude: 103.845 -> 103.844700
+- `1274` FairPrice Stirling
+  - groupId: undefined -> [47]
+  - latitude: 1.291 -> 1.291000
+  - longitude: 103.803 -> 103.803100
+- `1275` Block 707 Hougang Avenue 2
+  - groupId: undefined -> []
+  - latitude: 1.366 -> 1.366319
+  - longitude: 103.889 -> 103.888700
+- `1276` Cold Storage One North
+  - groupId: undefined -> [66]
+  - latitude: 1.299 -> 1.298900
+  - longitude: 103.787 -> 103.787400
+- `1277` FairPrice Finest Funan Mall
+  - groupId: undefined -> [50]
+  - latitude: 1.291 -> 1.291300
+  - longitude: 103.850 -> 103.850100
+- `1278` FairPrice Square 2
+  - groupId: undefined -> [48]
+  - latitude: 1.321 -> 1.320600
+  - longitude: 103.844 -> 103.844000
+- `1279` FairPrice NUH Medical Centre
+  - groupId: undefined -> [48]
+  - latitude: 1.293 -> 1.293300
+  - longitude: 103.784 -> 103.784400
+- `1280` FairPrice Finest Tiong Bahru Plaza
+  - groupId: undefined -> [47]
+  - latitude: 1.287 -> 1.286600
+  - longitude: 103.827 -> 103.826700
+- `1281` SCARLETT@PLAZA SINGAPURA
+  - groupId: undefined -> [87]
+  - latitude: 1.301 -> 1.300700
+  - longitude: 103.845 -> 103.844900
+- `1282` FairPrice Finest Valley Point
+  - groupId: undefined -> [44]
+  - latitude: 1.293 -> 1.292900
+  - longitude: 103.827 -> 103.827000
+- `1283` FairPrice 1 Jalan Bukit Merah
+  - groupId: undefined -> [47]
+  - latitude: 1.286 -> 1.286500
+  - longitude: 103.808 -> 103.808300
+- `1284` FairPrice Orchard Grand Court
+  - groupId: undefined -> [39]
+  - latitude: 1.297 -> 1.297300
+  - longitude: 103.838 -> 103.838300
+- `1285` Block 316B Punggol Way
+  - groupId: undefined -> []
+  - latitude: 1.409 -> 1.409101
+  - longitude: 103.898 -> 103.897753
+- `1286` SHENG SIONG BLK 25 GHIM MOH LINK 
+  - groupId: undefined -> [35]
+  - latitude: 1.308 -> 1.308100
+  - longitude: 103.786 -> 103.785900
+- `1287` FairPrice Finest Sengkang Grand
+  - groupId: undefined -> [47]
+  - latitude: 1.383 -> 1.382600
+  - longitude: 103.892 -> 103.892100
+- `1288` Block 261 Waterloo Street
+  - groupId: undefined -> []
+  - latitude: 1.299 -> 1.298916
+  - longitude: 103.852 -> 103.851900
+- `1289` SHENG SIONG BLK 266 COMPASSVALE BOW 
+  - groupId: undefined -> [35]
+  - latitude: 1.382 -> 1.382000
+  - longitude: 103.897 -> 103.897000
+- `1290` SHENG SIONG 5 STADIUM WALK,  LEISURE PARK KALLANG 
+  - groupId: undefined -> [37]
+  - latitude: 1.302 -> 1.302300
+  - longitude: 103.876 -> 103.876500
+- `1292` Blk 123, Geylang East Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.318 -> 1.318132
+  - longitude: 103.885 -> 103.885363
+- `1294` Cold Storage Tanglin Mall
+  - groupId: undefined -> [62]
+  - latitude: 1.305 -> 1.304900
+  - longitude: 103.824 -> 103.823800
+- `1295` Cold Storage United Square
+  - groupId: undefined -> [62]
+  - latitude: 1.317 -> 1.317300
+  - longitude: 103.844 -> 103.843500
+- `1296` Cold Storage One Holland Village
+  - groupId: undefined -> [62]
+  - latitude: 1.312 -> 1.311500
+  - longitude: 103.794 -> 103.793700
+- `1298` Giant Beauty World
+  - groupId: undefined -> [51]
+  - latitude: 1.342 -> 1.342300
+  - longitude: 103.776 -> 103.776100
+- `1299` Giant Hougang Green
+  - groupId: undefined -> [51]
+  - latitude: 1.379 -> 1.378900
+  - longitude: 103.887 -> 103.887300
+- `1300` Cold Storage Chancery Court
+  - groupId: undefined -> [51]
+  - latitude: 1.317 -> 1.317300
+  - longitude: 103.836 -> 103.836000
+- `1301` National University of Singapore 36 College Avenue East UTown Level 1, Main Walkway
+  - groupId: undefined -> []
+  - latitude: 1.305 -> 1.304942
+  - longitude: 103.774 -> 103.773700
+- `1302` Market Street Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.285 -> 1.284815
+  - longitude: 103.850 -> 103.850225
+- `1303` Maxwell Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.280 -> 1.280367
+  - longitude: 103.845 -> 103.844800
+- `1304` SCARLETT@PEOPLE'S PARK COMPLEX
+  - groupId: undefined -> [86]
+  - latitude: 1.284 -> 1.284166
+  - longitude: 103.842 -> 103.842450
+- `1305` Giant Buangkok Crescent
+  - groupId: undefined -> [51]
+  - latitude: 1.381 -> 1.380900
+  - longitude: 103.879 -> 103.879300
+- `1306` Don Don Donki (Tiong Bahru Plaza)
+  - groupId: undefined -> [76]
+  - latitude: 1.286 -> 1.286300
+  - longitude: 103.827 -> 103.827300
+- `1307` Block 445 Sin Ming Avenue
+  - groupId: undefined -> []
+  - latitude: 1.359 -> 1.358713
+  - longitude: 103.832 -> 103.831600
+- `1308` Ci Yuan Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.375146
+  - longitude: 103.883 -> 103.882900
+- `1309` Block 8 Jalan Bukit Ho Swee
+  - groupId: undefined -> []
+  - latitude: 1.288 -> 1.287529
+  - longitude: 103.832 -> 103.832000
+- `1310` SCARLETT@GRANTRAL MACPHERSON
+  - groupId: undefined -> [87]
+  - latitude: 1.334 -> 1.333600
+  - longitude: 103.888 -> 103.888000
+- `1311` Amoy Street Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.279 -> 1.279366
+  - longitude: 103.847 -> 103.846722
+- `1312` Marks & Spencer Wheelock Place
+  - groupId: undefined -> [97]
+  - latitude: 1.305 -> 1.304700
+  - longitude: 103.831 -> 103.830600
+- `1313` Cold Storage Cluny Court
+  - groupId: undefined -> [51]
+  - latitude: 1.323 -> 1.322700
+  - longitude: 103.814 -> 103.814400
+- `1314` Don Don Donki (Waterway Point)
+  - groupId: undefined -> [75]
+  - latitude: 1.407 -> 1.406800
+  - longitude: 103.902 -> 103.902400
+- `1315` Cold Storage Compass One
+  - groupId: undefined -> [57]
+  - latitude: 1.392 -> 1.391800
+  - longitude: 103.895 -> 103.894900
+- `1316` SCARLETT@SUNTEC CITY
+  - groupId: undefined -> [87]
+  - latitude: 1.295 -> 1.294600
+  - longitude: 103.860 -> 103.860300
+- `1317` FairPrice Bukit Timah Plaza
+  - groupId: undefined -> [39]
+  - latitude: 1.339 -> 1.338700
+  - longitude: 103.779 -> 103.778800
+- `1318` Punggol Coast Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.415 -> 1.414528
+  - longitude: 103.908 -> 103.908466
+- `1319` FairPrice Alexandra Retail Centre ARC (PSA Branch)
+  - groupId: undefined -> [48]
+  - latitude: 1.274 -> 1.273700
+  - longitude: 103.802 -> 103.801500
+- `1320` SCARLETT@NEX
+  - groupId: undefined -> [87]
+  - latitude: 1.351 -> 1.350700
+  - longitude: 103.872 -> 103.871900
+- `1321` Cold Storage Marina Bay Sands
+  - groupId: undefined -> [69]
+  - latitude: 1.286 -> 1.286226
+  - longitude: 103.860 -> 103.859764
+- `1322` Cold Storage Bugis Junction
+  - groupId: undefined -> [62]
+  - latitude: 1.300 -> 1.299548
+  - longitude: 103.856 -> 103.855700
+- `1323` Giant Ghim Moh Road
+  - groupId: undefined -> [51]
+  - latitude: 1.310 -> 1.310185
+  - longitude: 103.788 -> 103.788100
+- `1326` Cold Storage Great World City
+  - groupId: undefined -> [62]
+  - latitude: 1.294 -> 1.294201
+  - longitude: 103.832 -> 103.832000
+- `1327` Cold Storage Marina One
+  - groupId: undefined -> [61]
+  - latitude: 1.277 -> 1.277341
+  - longitude: 103.853 -> 103.852500
+- `1328` Block 11 York Hill
+  - groupId: undefined -> []
+  - latitude: 1.287 -> 1.287127
+  - longitude: 103.838 -> 103.837978
+- `1330` Newton Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.312 -> 1.311947
+  - longitude: 103.840 -> 103.839512
+- `1332` Cold Storage Takashimaya
+  - groupId: undefined -> [63]
+  - latitude: 1.303 -> 1.302672
+  - longitude: 103.834 -> 103.834400
+- `1333` Block 289D Punggol Place
+  - groupId: undefined -> []
+  - latitude: 1.402 -> 1.401996
+  - longitude: 103.904 -> 103.903579
+- `1334` SHENG SIONG 2 HANDY ROAD,  THE CATHAY
+  - groupId: undefined -> [37]
+  - latitude: 1.299 -> 1.299470
+  - longitude: 103.848 -> 103.847700
+- `1336` Giant Serangoon Central Drive
+  - groupId: undefined -> [51]
+  - latitude: 1.353 -> 1.353219
+  - longitude: 103.872 -> 103.871600
+- `1337` Cold Storage Paragon
+  - groupId: undefined -> [57]
+  - latitude: 1.304 -> 1.303905
+  - longitude: 103.836 -> 103.835600
+- `1338` Golden Mile Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.303 -> 1.303135
+  - longitude: 103.864 -> 103.863900
+- `1339` Woodleigh Village Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.339834
+  - longitude: 103.872 -> 103.872428
+- `1343` Cold Storage Star Vista
+  - groupId: undefined -> [59]
+  - latitude: 1.307 -> 1.306890
+  - longitude: 103.788 -> 103.787900
+- `1344` Cold Storage Guthrie House
+  - groupId: undefined -> [57]
+  - latitude: 1.331 -> 1.330753
+  - longitude: 103.796 -> 103.795600
+- `1345` Giant Kim Keat Avenue
+  - groupId: undefined -> [55]
+  - latitude: 1.332 -> 1.332148
+  - longitude: 103.857 -> 103.857400
+- `1346` Cold Storage Greenwich
+  - groupId: undefined -> [62]
+  - latitude: 1.388 -> 1.387584
+  - longitude: 103.869 -> 103.869400
+- `1347` Buangkok Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.382 -> 1.382427
+  - longitude: 103.892 -> 103.892190
+- `1348` Cold Storage Jelita
+  - groupId: undefined -> [51]
+  - latitude: 1.318 -> 1.317578
+  - longitude: 103.786 -> 103.785900
+- `1349` North Bridge Road Market & Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.306 -> 1.305872
+  - longitude: 103.864 -> 103.864000
+- `1351` Block 103B Edgefield Plains
+  - groupId: undefined -> []
+  - latitude: 1.398 -> 1.397823
+  - longitude: 103.905 -> 103.904700
+- `1352` Block 3D Upper Boon Keng Road
+  - groupId: undefined -> []
+  - latitude: 1.313 -> 1.313427
+  - longitude: 103.873 -> 103.872900
+- `1353` Block 22 Saint George's Road
+  - groupId: undefined -> []
+  - latitude: 1.325 -> 1.325236
+  - longitude: 103.862 -> 103.862439
+- `1354` Block 93 Paya Lebar Way
+  - groupId: undefined -> []
+  - latitude: 1.323 -> 1.322737
+  - longitude: 103.888 -> 103.888296
+- `1355` Sembawang Hills Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.372 -> 1.372328
+  - longitude: 103.829 -> 103.829035
+- `1356` Cold Storage Alocassia
+  - groupId: undefined -> [57]
+  - latitude: 1.320 -> 1.319538
+  - longitude: 103.827 -> 103.827332
+- `1357` Cold Storage Marina Bay Link Mall
+  - groupId: undefined -> [67]
+  - latitude: 1.281 -> 1.280644
+  - longitude: 103.854 -> 103.853894
+- `139` 715 Jurong West Street 71
+  - groupId: undefined -> []
+  - latitude: 1.344 -> 1.343890
+  - longitude: 103.696 -> 103.696390
+- `140` 745 Yishun Street 72
+  - groupId: undefined -> []
+  - latitude: 1.429 -> 1.429350
+  - longitude: 103.833 -> 103.833170
+- `146` 746 Jurong West Street 73
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.347477
+  - longitude: 103.698 -> 103.697933
+- `147` 153 Yung Ho Rd
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.327560
+  - longitude: 103.721 -> 103.721050
+- `148` 678D Jurong West Street 64
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.344892
+  - longitude: 103.703 -> 103.703310
+- `150` 931 Jurong West Street 92
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.340302
+  - longitude: 103.689 -> 103.689337
+- `151` 678A Jurong West Street 64 
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.345070
+  - longitude: 103.704 -> 103.704219
+- `153` 255 Yishun Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.434 -> 1.434300
+  - longitude: 103.841 -> 103.840620
+- `154` 277 Yishun Street 22
+  - groupId: undefined -> []
+  - latitude: 1.438 -> 1.438003
+  - longitude: 103.837 -> 103.836907
+- `159` 907 Jurong West Street 91
+  - groupId: undefined -> []
+  - latitude: 1.341 -> 1.341070
+  - longitude: 103.686 -> 103.685960
+- `161` 353 Kang Ching Rd
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.339710
+  - longitude: 103.721 -> 103.720790
+- `162` 735 Jurong West Street 75
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.345932
+  - longitude: 103.701 -> 103.700761
+- `165` 359 Yung An Rd
+  - groupId: undefined -> []
+  - latitude: 1.338 -> 1.338220
+  - longitude: 103.720 -> 103.719610
+- `166` 736 Yishun Street 72
+  - groupId: undefined -> []
+  - latitude: 1.429 -> 1.428844
+  - longitude: 103.832 -> 103.831634
+- `167` 140 Corporation Drive
+  - groupId: undefined -> []
+  - latitude: 1.327 -> 1.326860
+  - longitude: 103.723 -> 103.723390
+- `168` 236 Yishun Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.434 -> 1.433970
+  - longitude: 103.839 -> 103.839200
+- `171` 291 Yishun Street 22
+  - groupId: undefined -> []
+  - latitude: 1.436 -> 1.436260
+  - longitude: 103.837 -> 103.836730
+- `172` 610 Yishun Street 61
+  - groupId: undefined -> []
+  - latitude: 1.420 -> 1.420497
+  - longitude: 103.837 -> 103.836510
+- `174` 101 Yishun Ave 5
+  - groupId: undefined -> []
+  - latitude: 1.430 -> 1.430470
+  - longitude: 103.827 -> 103.827360
+- `176` 668A Jurong West Street 64
+  - groupId: undefined -> []
+  - latitude: 1.342 -> 1.341981
+  - longitude: 103.703 -> 103.702755
+- `178` 309 Yishun Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.432 -> 1.432090
+  - longitude: 103.840 -> 103.840350
+- `1781` Blk 659, Jln Tenaga
+  - groupId: undefined -> []
+  - latitude: 1.334 -> 1.334290
+  - longitude: 103.906 -> 103.906112
+- `1783` Blk 670, Jln Damai
+  - groupId: undefined -> []
+  - latitude: 1.333 -> 1.332888
+  - longitude: 103.908 -> 103.908280
+- `1784` Blk 529, Bedok North Street 3
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.334628
+  - longitude: 103.927 -> 103.926893
+- `1789` Blk 548, Bedok North Ave 1
+  - groupId: undefined -> []
+  - latitude: 1.331 -> 1.331271
+  - longitude: 103.927 -> 103.926803
+- `179` 762 Yishun Street 72
+  - groupId: undefined -> []
+  - latitude: 1.426 -> 1.425680
+  - longitude: 103.834 -> 103.834260
+- `1803` Blk 721, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.336347
+  - longitude: 103.926 -> 103.926014
+- `1805` Blk 722, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.337 -> 1.336659
+  - longitude: 103.928 -> 103.928243
+- `181` 120 Yishun Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.435 -> 1.434900
+  - longitude: 103.829 -> 103.829400
+- `1819` Blk 249, Pasir Ris Street 21
+  - groupId: undefined -> []
+  - latitude: 1.370 -> 1.370193
+  - longitude: 103.963 -> 103.963326
+- `183` 604 Yishun Street 61
+  - groupId: undefined -> []
+  - latitude: 1.422 -> 1.421677
+  - longitude: 103.836 -> 103.835504
+- `186` 260 Boon Lay Dr
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.345157
+  - longitude: 103.708 -> 103.708019
+- `1863` Blk 413, Bedok North Avenue 2
+  - groupId: undefined -> []
+  - latitude: 1.330 -> 1.330281
+  - longitude: 103.931 -> 103.931081
+- `187` 104 Bukit Batok Central, Block 104
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.349020
+  - longitude: 103.747 -> 103.747300
+- `188` 150 Yishun Street 11
+  - groupId: undefined -> []
+  - latitude: 1.431 -> 1.430840
+  - longitude: 103.834 -> 103.833620
+- `1882` Blk 628, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.334941
+  - longitude: 103.915 -> 103.914948
+- `1884` Blk 617, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.333 -> 1.333217
+  - longitude: 103.916 -> 103.916500
+- `1893` Blk 601, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.330 -> 1.329992
+  - longitude: 103.912 -> 103.911502
+- `191` 115A Ho Ching Rd
+  - groupId: undefined -> []
+  - latitude: 1.334 -> 1.334350
+  - longitude: 103.725 -> 103.724510
+- `193` 653A Jurong West Street 61
+  - groupId: undefined -> []
+  - latitude: 1.337 -> 1.336960
+  - longitude: 103.697 -> 103.696710
+- `1933` Blk 707, Bedok North Road
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.335454
+  - longitude: 103.919 -> 103.919253
+- `1935` Blk 612, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.331665
+  - longitude: 103.916 -> 103.915743
+- `1938` Blk 130, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.334 -> 1.333520
+  - longitude: 103.912 -> 103.912328
+- `194` 771 Choa Chu Kang Street 54
+  - groupId: undefined -> []
+  - latitude: 1.394 -> 1.394470
+  - longitude: 103.749 -> 103.749230
+- `1940` Blk 123, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.332419
+  - longitude: 103.910 -> 103.910456
+- `1941` Blk 648, Jln Tenaga
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.332425
+  - longitude: 103.905 -> 103.905431
+- `1942` Blk 640, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.332168
+  - longitude: 103.905 -> 103.904957
+- `1956` Don Don Donki (Tampines One)
+  - groupId: undefined -> [74]
+  - latitude: 1.355 -> 1.354567
+  - longitude: 103.945 -> 103.944957
+- `1964` Thai Supermarket Pte Ltd
+  - groupId: undefined -> [119]
+  - latitude: 1.310 -> 1.309681
+  - longitude: 103.864 -> 103.864320
+- `197` 228 Yishun Street 21
+  - groupId: undefined -> []
+  - latitude: 1.435 -> 1.435412
+  - longitude: 103.838 -> 103.837582
+- `1978` Don Don Donki (Paya Lebar Quarter)
+  - groupId: undefined -> [77]
+  - latitude: 1.318 -> 1.317669
+  - longitude: 103.893 -> 103.893160
+- `1986` Phan99 Supermarket PPT Lodge 1B
+  - groupId: undefined -> [113]
+  - latitude: 1.416 -> 1.416480
+  - longitude: 103.895 -> 103.895354
+- `199` 165 Yishun Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.436 -> 1.435670
+  - longitude: 103.832 -> 103.831610
+- `1990` Don Don Donki (Jewel Changi)
+  - groupId: undefined -> [76]
+  - latitude: 1.360 -> 1.360319
+  - longitude: 103.990 -> 103.989668
+- `200` 528 Jurong West Street 52
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.348370
+  - longitude: 103.717 -> 103.717010
+- `2002` Blk 453, Pasir Ris Drive 6
+  - groupId: undefined -> []
+  - latitude: 1.372 -> 1.371868
+  - longitude: 103.957 -> 103.957291
+- `202` 657 Choa Chu Kang Cres
+  - groupId: undefined -> []
+  - latitude: 1.400 -> 1.400462
+  - longitude: 103.750 -> 103.749739
+- `2023` Blk 665, Jln Damai
+  - groupId: undefined -> []
+  - latitude: 1.334 -> 1.334191
+  - longitude: 103.908 -> 103.907993
+- `2024` SCARLETT@SHAW PLAZA
+  - groupId: undefined -> [89]
+  - latitude: 1.325 -> 1.325306
+  - longitude: 103.851 -> 103.851142
+- `2026` Blk 542, Bedok North Street 3
+  - groupId: undefined -> []
+  - latitude: 1.331 -> 1.330673
+  - longitude: 103.923 -> 103.922796
+- `203` 115 Yishun Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.435 -> 1.434502
+  - longitude: 103.828 -> 103.828037
+- `2042` Blk 711, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.335975
+  - longitude: 103.924 -> 103.924172
+- `2044` Blk 620, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.334 -> 1.334289
+  - longitude: 103.918 -> 103.917532
+- `2045` Blk 716, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.338 -> 1.337862
+  - longitude: 103.925 -> 103.924917
+- `2046` Blk 720, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.335985
+  - longitude: 103.925 -> 103.924985
+- `2047` Blk 704, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.337 -> 1.336508
+  - longitude: 103.920 -> 103.920279
+- `205` 216 Boon Lay Ave
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.350470
+  - longitude: 103.712 -> 103.712210
+- `206` 551 Jurong West Street 42
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.352400
+  - longitude: 103.717 -> 103.716960
+- `209` 126 Yishun Street 11
+  - groupId: undefined -> []
+  - latitude: 1.434 -> 1.433530
+  - longitude: 103.830 -> 103.830090
+- `210` 625 Jurong West Street 61
+  - groupId: undefined -> []
+  - latitude: 1.342 -> 1.341587
+  - longitude: 103.699 -> 103.698643
+- `211` 190 Boon Lay Dr
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.345153
+  - longitude: 103.712 -> 103.711882
+- `212` 690A Choa Chu Kang Cres
+  - groupId: undefined -> []
+  - latitude: 1.403 -> 1.402915
+  - longitude: 103.752 -> 103.751555
+- `213` 2 Marsiling Dr
+  - groupId: undefined -> []
+  - latitude: 1.440 -> 1.439926
+  - longitude: 103.776 -> 103.776121
+- `214` 272B Jurong West Street 24
+  - groupId: undefined -> []
+  - latitude: 1.351 -> 1.350644
+  - longitude: 103.705 -> 103.704978
+- `216` 8 Marsiling Drive
+  - groupId: undefined -> []
+  - latitude: 1.441 -> 1.441352
+  - longitude: 103.777 -> 103.777211
+- `2164` Geylang Serai Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.317 -> 1.316774
+  - longitude: 103.898 -> 103.898278
+- `2166` Giant Khatib MRT
+  - groupId: undefined -> [56]
+  - latitude: 1.417 -> 1.416950
+  - longitude: 103.833 -> 103.832800
+- `2167` FairPrice Wisteria Mall
+  - groupId: undefined -> [47]
+  - latitude: 1.418 -> 1.418350
+  - longitude: 103.841 -> 103.841100
+- `2168` Cold Storage West Mall
+  - groupId: undefined -> [58]
+  - latitude: 1.350 -> 1.350050
+  - longitude: 103.749 -> 103.749200
+- `2169` SCARLETT@WESTGATE
+  - groupId: undefined -> [87]
+  - latitude: 1.335 -> 1.334500
+  - longitude: 103.743 -> 103.742600
+- `2171` FairPrice Blk 166 Bukit Batok West Avenue 8
+  - groupId: undefined -> [39]
+  - latitude: 1.347 -> 1.347330
+  - longitude: 103.743 -> 103.743100
+- `2172` Cold Storage Rail Mall
+  - groupId: undefined -> [51]
+  - latitude: 1.360 -> 1.360195
+  - longitude: 103.768 -> 103.767634
+- `2173` SHENG SIONG BLK 292 BUKIT BATOK EAST AVE 6 
+  - groupId: undefined -> [35]
+  - latitude: 1.344 -> 1.344400
+  - longitude: 103.755 -> 103.755000
+- `2174` U STARS @507 Yishun Ave 4
+  - groupId: undefined -> [85]
+  - latitude: 1.416 -> 1.415550
+  - longitude: 103.840 -> 103.839700
+- `2175` FairPrice Sembawang Shopping Centre
+  - groupId: undefined -> [47]
+  - latitude: 1.442 -> 1.441610
+  - longitude: 103.825 -> 103.824600
+- `2176` FairPrice Blk 849 Yishun Ring Road
+  - groupId: undefined -> [39]
+  - latitude: 1.417 -> 1.416980
+  - longitude: 103.835 -> 103.835400
+- `2177` SHENG SIONG BLK 643 SENJA CLOSE
+  - groupId: undefined -> [37]
+  - latitude: 1.388 -> 1.387880
+  - longitude: 103.763 -> 103.763100
+- `2178` 120A Canberra Crescent
+  - groupId: undefined -> []
+  - latitude: 1.446 -> 1.446007
+  - longitude: 103.832 -> 103.832256
+- `218` 671A Choa Chu Kang Cres
+  - groupId: undefined -> []
+  - latitude: 1.402 -> 1.402131
+  - longitude: 103.748 -> 103.747893
+- `2181` Giant Woodlands North
+  - groupId: undefined -> [51]
+  - latitude: 1.443 -> 1.442660
+  - longitude: 103.791 -> 103.790700
+- `2182` FairPrice Causeway Point
+  - groupId: undefined -> [49]
+  - latitude: 1.436 -> 1.436090
+  - longitude: 103.786 -> 103.785900
+- `2183` Cold Storage Hill View
+  - groupId: undefined -> [71]
+  - latitude: 1.363 -> 1.362940
+  - longitude: 103.764 -> 103.764200
+- `2185` 950 Jurong West Street 91
+  - groupId: undefined -> []
+  - latitude: 1.343 -> 1.342990
+  - longitude: 103.691 -> 103.691330
+- `2186` Prime Supermarket 678A Woodlands Avenue 6
+  - groupId: undefined -> [78]
+  - latitude: 1.440 -> 1.440410
+  - longitude: 103.802 -> 103.801600
+- `2187` FairPrice Northpoint City
+  - groupId: undefined -> [47]
+  - latitude: 1.428 -> 1.428320
+  - longitude: 103.836 -> 103.836100
+- `2189` FairPrice 612 Geylang Lorong 38
+  - groupId: undefined -> [39]
+  - latitude: 1.314 -> 1.314081
+  - longitude: 103.889 -> 103.888840
+- `2190` FairPrice 498 Jurong West St 41
+  - groupId: undefined -> [39]
+  - latitude: 1.349 -> 1.348650
+  - longitude: 103.724 -> 103.724300
+- `2191` FairPrice Lot 1
+  - groupId: undefined -> [41]
+  - latitude: 1.385 -> 1.385110
+  - longitude: 103.745 -> 103.744900
+- `2193` FairPrice Woodlands Ave 1
+  - groupId: undefined -> [45]
+  - latitude: 1.431 -> 1.430810
+  - longitude: 103.791 -> 103.790900
+- `2197` SHENG SIONG BLK 420A CLEMENTI AVE 1 
+  - groupId: undefined -> [35]
+  - latitude: 1.310 -> 1.309510
+  - longitude: 103.768 -> 103.768400
+- `2198` FairPrice Jurong Point
+  - groupId: undefined -> [39]
+  - latitude: 1.340 -> 1.339620
+  - longitude: 103.705 -> 103.705200
+- `2200` FairPrice Hillion Mall
+  - groupId: undefined -> [39]
+  - latitude: 1.379 -> 1.378510
+  - longitude: 103.763 -> 103.763000
+- `2201` Cold Storage Joo Chiat JK Centre
+  - groupId: undefined -> [65]
+  - latitude: 1.310 -> 1.309859
+  - longitude: 103.902 -> 103.902300
+- `2202` Giant 256 Bangkit Road
+  - groupId: undefined -> [51]
+  - latitude: 1.379 -> 1.379170
+  - longitude: 103.773 -> 103.772900
+- `2203` Little Farms Market, Katong Point
+  - groupId: undefined -> [94]
+  - latitude: 1.307 -> 1.306800
+  - longitude: 103.904 -> 103.904454
+- `2204` Giant Admiralty MRT
+  - groupId: undefined -> [51]
+  - latitude: 1.441 -> 1.440590
+  - longitude: 103.801 -> 103.801000
+- `2205` Cold Storage i12 Katong
+  - groupId: undefined -> [62]
+  - latitude: 1.305 -> 1.305200
+  - longitude: 103.905 -> 103.905060
+- `2206` Don Don Donki (Jurong Point)
+  - groupId: undefined -> [74]
+  - latitude: 1.340 -> 1.339710
+  - longitude: 103.707 -> 103.706900
+- `2207` Prime Supermarket Chai Chee Road
+  - groupId: undefined -> [78]
+  - latitude: 1.323 -> 1.323302
+  - longitude: 103.924 -> 103.924030
+- `2208` FairPrice Bukit Batok MRT
+  - groupId: undefined -> [42]
+  - latitude: 1.349 -> 1.348730
+  - longitude: 103.749 -> 103.749300
+- `2210` FairPrice Lengkong Tiga
+  - groupId: undefined -> [39]
+  - latitude: 1.324 -> 1.323772
+  - longitude: 103.911 -> 103.910790
+- `2211` SHENG SIONG BLK 182 WOODLANDS ST 13 
+  - groupId: undefined -> [35]
+  - latitude: 1.435 -> 1.435310
+  - longitude: 103.776 -> 103.775800
+- `2213` FairPrice Kampung Admiralty
+  - groupId: undefined -> [39]
+  - latitude: 1.440 -> 1.439880
+  - longitude: 103.801 -> 103.800700
+- `2214` Giant Bukit Batok Street 31
+  - groupId: undefined -> [51]
+  - latitude: 1.359 -> 1.358650
+  - longitude: 103.749 -> 103.749300
+- `2215` Giant Kranji MRT
+  - groupId: undefined -> [55]
+  - latitude: 1.425 -> 1.425240
+  - longitude: 103.762 -> 103.762000
+- `2216` Cold Storage Siglap V
+  - groupId: undefined -> [51]
+  - latitude: 1.313 -> 1.312846
+  - longitude: 103.924 -> 103.923730
+- `2217` SHENG SIONG BLK 471B YISHUN STREET 42
+  - groupId: undefined -> [35]
+  - latitude: 1.426 -> 1.426250
+  - longitude: 103.853 -> 103.852500
+- `2219` FairPrice Le Quest
+  - groupId: undefined -> [47]
+  - latitude: 1.356 -> 1.355740
+  - longitude: 103.741 -> 103.740900
+- `2220` SHENG SIONG BLK 202 MARSILING DRIVE 
+  - groupId: undefined -> [35]
+  - latitude: 1.443 -> 1.443190
+  - longitude: 103.775 -> 103.775200
+- `2221` FairPrice Siglap
+  - groupId: undefined -> [39]
+  - latitude: 1.312 -> 1.312409
+  - longitude: 103.925 -> 103.925211
+- `2222` SHENG SIONG BLK 785E WOODLANDS RISE 
+  - groupId: undefined -> [35]
+  - latitude: 1.447 -> 1.446860
+  - longitude: 103.806 -> 103.805600
+- `2223` SHENG SIONG BLK 4 WOODLANDS ST 12 
+  - groupId: undefined -> [38]
+  - latitude: 1.433 -> 1.433380
+  - longitude: 103.780 -> 103.779800
+- `2224` FairPrice Bukit Batok Home TeamNS
+  - groupId: undefined -> [47]
+  - latitude: 1.366 -> 1.365810
+  - longitude: 103.750 -> 103.750200
+- `2225` FairPrice Blk 345 Jurong East Street 31
+  - groupId: undefined -> [39]
+  - latitude: 1.346 -> 1.345530
+  - longitude: 103.731 -> 103.731200
+- `2226` SHENG SIONG BLK 547 SEGAR RD
+  - groupId: undefined -> [35]
+  - latitude: 1.388 -> 1.388020
+  - longitude: 103.770 -> 103.769800
+- `2228` SHENG SIONG 7 JURONG WEST AVE 5 
+  - groupId: undefined -> [38]
+  - latitude: 1.349 -> 1.348780
+  - longitude: 103.703 -> 103.703300
+- `2229` SHENG SIONG 3 YUAN CHING ROAD 
+  - groupId: undefined -> [35]
+  - latitude: 1.326 -> 1.325630
+  - longitude: 103.725 -> 103.725100
+- `223` 286 Yishun Ave 6
+  - groupId: undefined -> []
+  - latitude: 1.440 -> 1.439850
+  - longitude: 103.838 -> 103.838300
+- `2230` FairPrice Marsiling MRT
+  - groupId: undefined -> [42]
+  - latitude: 1.433 -> 1.432520
+  - longitude: 103.774 -> 103.774400
+- `2231` FairPrice Hub
+  - groupId: undefined -> [48]
+  - latitude: 1.326 -> 1.325880
+  - longitude: 103.678 -> 103.678400
+- `2232` FairPrice Blk 414 Yishun Ring Road
+  - groupId: undefined -> [39]
+  - latitude: 1.425 -> 1.424540
+  - longitude: 103.847 -> 103.846600
+- `2233` FairPrice Woodgrove
+  - groupId: undefined -> [39]
+  - latitude: 1.429 -> 1.428950
+  - longitude: 103.781 -> 103.781100
+- `2234` Prime Supermarket Sembawang Crescent
+  - groupId: undefined -> [78]
+  - latitude: 1.445 -> 1.444680
+  - longitude: 103.816 -> 103.815900
+- `2236` 477 Sembawang Drive
+  - groupId: undefined -> []
+  - latitude: 1.452 -> 1.452097
+  - longitude: 103.817 -> 103.816673
+- `2238` Prime Supermarket NTU Students Walk
+  - groupId: undefined -> [83]
+  - latitude: 1.348 -> 1.348130
+  - longitude: 103.685 -> 103.685400
+- `2241` SHENG SIONG BLK 675 YISHUN AVENUE 4
+  - groupId: undefined -> [35]
+  - latitude: 1.420 -> 1.420360
+  - longitude: 103.844 -> 103.843600
+- `2242` FairPrice Clementi Ave 2 Shopping Centre
+  - groupId: undefined -> [39]
+  - latitude: 1.314 -> 1.314480
+  - longitude: 103.771 -> 103.771300
+- `2243` FairPrice Woodlands Civic Centre
+  - groupId: undefined -> [41]
+  - latitude: 1.435 -> 1.434900
+  - longitude: 103.787 -> 103.786800
+- `2244` FairPrice Senja Grand
+  - groupId: undefined -> [39]
+  - latitude: 1.385 -> 1.385050
+  - longitude: 103.760 -> 103.760400
+- `2245` SHENG SIONG BLK 154A BUKIT BATOK WEST AVE 8 
+  - groupId: undefined -> [35]
+  - latitude: 1.347 -> 1.347260
+  - longitude: 103.744 -> 103.743900
+- `2246` U STARS @691 Woodlands Drive
+  - groupId: undefined -> [84]
+  - latitude: 1.440 -> 1.440490
+  - longitude: 103.806 -> 103.806300
+- `2247` FairPrice Parkway Parade
+  - groupId: undefined -> [47]
+  - latitude: 1.301 -> 1.301470
+  - longitude: 103.905 -> 103.905150
+- `2248` FairPrice Finest Clementi Mall
+  - groupId: undefined -> [41]
+  - latitude: 1.315 -> 1.315170
+  - longitude: 103.764 -> 103.764200
+- `2249` SHENG SIONG BLK 451 BUKIT BATOK WEST AVENUE 6 
+  - groupId: undefined -> [37]
+  - latitude: 1.353 -> 1.353000
+  - longitude: 103.743 -> 103.743500
+- `225` 201 Marsiling Dr
+  - groupId: undefined -> []
+  - latitude: 1.443 -> 1.442698
+  - longitude: 103.775 -> 103.775421
+- `2250` SHENG SIONG BLK 159 BUKIT BATOK STREET 11 
+  - groupId: undefined -> [35]
+  - latitude: 1.348 -> 1.348490
+  - longitude: 103.743 -> 103.742700
+- `2251` SHENG SIONG BLK 573 WOODLANDS DRIVE 16 
+  - groupId: undefined -> [35]
+  - latitude: 1.431 -> 1.430940
+  - longitude: 103.799 -> 103.798500
+- `2252` FairPrice Marine Parade
+  - groupId: undefined -> [47]
+  - latitude: 1.301 -> 1.301385
+  - longitude: 103.907 -> 103.907230
+- `2253` 423 Canberra Rd
+  - groupId: undefined -> []
+  - latitude: 1.454 -> 1.453714
+  - longitude: 103.818 -> 103.818205
+- `2254` Giant Admiralty Drive
+  - groupId: undefined -> [51]
+  - latitude: 1.450 -> 1.449940
+  - longitude: 103.814 -> 103.814300
+- `2255` FairPrice Dairy Farm Residences
+  - groupId: undefined -> [45]
+  - latitude: 1.365 -> 1.365460
+  - longitude: 103.775 -> 103.775000
+- `2256` FORTUNE SUPERMARKET 463
+  - groupId: undefined -> [105]
+  - latitude: 1.456 -> 1.455610
+  - longitude: 103.815 -> 103.814700
+- `2257` Giant Vista Point
+  - groupId: undefined -> [51]
+  - latitude: 1.431 -> 1.431380
+  - longitude: 103.794 -> 103.793800
+- `2258` SHENG SIONG BLK 240 TENGAH GARDEN WALK 
+  - groupId: undefined -> [35]
+  - latitude: 1.361 -> 1.360560
+  - longitude: 103.732 -> 103.732000
+- `2259` FairPrice Senja Heights
+  - groupId: undefined -> [41]
+  - latitude: 1.388 -> 1.387760
+  - longitude: 103.761 -> 103.761400
+- `226` 610 Choa Chu Kang Street 62
+  - groupId: undefined -> []
+  - latitude: 1.399 -> 1.399450
+  - longitude: 103.744 -> 103.743545
+- `2260` FairPrice Greenridge
+  - groupId: undefined -> [41]
+  - latitude: 1.385 -> 1.385370
+  - longitude: 103.766 -> 103.766300
+- `2261` SHENG SIONG BLK 105 CANBERRA STREET 
+  - groupId: undefined -> [35]
+  - latitude: 1.449 -> 1.448830
+  - longitude: 103.832 -> 103.832400
+- `2262` FairPrice Blk 355 Sembawang Way
+  - groupId: undefined -> [39]
+  - latitude: 1.450 -> 1.449570
+  - longitude: 103.819 -> 103.819000
+- `2263` Giant Pioneer Mall
+  - groupId: undefined -> [51]
+  - latitude: 1.342 -> 1.341860
+  - longitude: 103.697 -> 103.697400
+- `2264` SHENG SIONG BLK 209A CLEMENTI AVE 6 
+  - groupId: undefined -> [35]
+  - latitude: 1.322 -> 1.322080
+  - longitude: 103.764 -> 103.763800
+- `2265` SHENG SIONG BLK 91 JLN. SATU
+  - groupId: undefined -> [37]
+  - latitude: 1.310 -> 1.309538
+  - longitude: 103.888 -> 103.888020
+- `2266` Prime Supermarket Yishun Avenue 6
+  - groupId: undefined -> [78]
+  - latitude: 1.429 -> 1.428850
+  - longitude: 103.850 -> 103.850500
+- `2267` Prime Supermarket NTU Spine Hub
+  - groupId: undefined -> [82]
+  - latitude: 1.345 -> 1.345220
+  - longitude: 103.681 -> 103.681200
+- `2269` 462 Sembawang Drive 
+  - groupId: undefined -> []
+  - latitude: 1.455 -> 1.454775
+  - longitude: 103.814 -> 103.813978
+- `2270` FairPrice Sun Plaza
+  - groupId: undefined -> [47]
+  - latitude: 1.448 -> 1.448260
+  - longitude: 103.820 -> 103.819700
+- `2271` TUAS SOUTH MINIMART
+  - groupId: undefined -> [120]
+  - latitude: 1.272 -> 1.272318
+  - longitude: 103.634 -> 103.634499
+- `2272` 483 Admiralty Link
+  - groupId: undefined -> []
+  - latitude: 1.456 -> 1.456091
+  - longitude: 103.815 -> 103.815423
+- `2273` 106A Canberra Street
+  - groupId: undefined -> []
+  - latitude: 1.448 -> 1.448461
+  - longitude: 103.833 -> 103.833124
+- `2274` 589 Woodlands Drive 16
+  - groupId: undefined -> []
+  - latitude: 1.428 -> 1.428090
+  - longitude: 103.796 -> 103.795523
+- `2275` 718 Woodlands Ave 6
+  - groupId: undefined -> []
+  - latitude: 1.442 -> 1.441680
+  - longitude: 103.801 -> 103.801068
+- `2278` SHENG SIONG BLK 503 JURONG WEST AVE 1
+  - groupId: undefined -> [35]
+  - latitude: 1.350 -> 1.350070
+  - longitude: 103.718 -> 103.718000
+- `2279` 831 Jurong West Street 81
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.345100
+  - longitude: 103.695 -> 103.694590
+- `228` 674A Jurong West Street 65
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.344782
+  - longitude: 103.702 -> 103.702184
+- `2282` Prime Supermarket Punggol Field
+  - groupId: undefined -> [78]
+  - latitude: 1.397 -> 1.396599
+  - longitude: 103.909 -> 103.908600
+- `2284` Prime Supermarket 322 Sumang Walk
+  - groupId: undefined -> [78]
+  - latitude: 1.411 -> 1.410945
+  - longitude: 103.897 -> 103.897300
+- `2285` Prime Supermarket Jurong West Street 91
+  - groupId: undefined -> [78]
+  - latitude: 1.342 -> 1.341980
+  - longitude: 103.692 -> 103.691700
+- `2286` FairPrice 888 Plaza
+  - groupId: undefined -> [39]
+  - latitude: 1.439 -> 1.438640
+  - longitude: 103.795 -> 103.795300
+- `2288` 417 Canberra Rd
+  - groupId: undefined -> []
+  - latitude: 1.452 -> 1.452435
+  - longitude: 103.819 -> 103.819279
+- `2289` SCARLETT @ CLEMENTI
+  - groupId: undefined -> [87]
+  - latitude: 1.314 -> 1.314460
+  - longitude: 103.765 -> 103.765100
+- `229` 682A Jurong West Central 1
+  - groupId: undefined -> []
+  - latitude: 1.344 -> 1.344026
+  - longitude: 103.705 -> 103.705435
+- `2290` 108 Yishun Ring Rd 
+  - groupId: undefined -> []
+  - latitude: 1.432 -> 1.432362
+  - longitude: 103.829 -> 103.829035
+- `2291` FairPrice Taman Jurong Shopping Centre
+  - groupId: undefined -> [39]
+  - latitude: 1.335 -> 1.334660
+  - longitude: 103.720 -> 103.720100
+- `2292` 876 Woodlands Ave 9
+  - groupId: undefined -> []
+  - latitude: 1.445 -> 1.444808
+  - longitude: 103.791 -> 103.790541
+- `2293` 708 Woodlands Drive 70
+  - groupId: undefined -> []
+  - latitude: 1.440 -> 1.440050
+  - longitude: 103.797 -> 103.797312
+- `2294` Prime Supermarket Bidadari Park Drive
+  - groupId: undefined -> [80]
+  - latitude: 1.334 -> 1.334101
+  - longitude: 103.871 -> 103.870800
+- `2295` 334 Sembawang Close
+  - groupId: undefined -> []
+  - latitude: 1.447 -> 1.447396
+  - longitude: 103.816 -> 103.816047
+- `2296` Prime Supermarket Upper Aljunied Lane
+  - groupId: undefined -> [78]
+  - latitude: 1.334 -> 1.334300
+  - longitude: 103.879 -> 103.878790
+- `2298` Prime Supermarket Hougang Avenue 1
+  - groupId: undefined -> [78]
+  - latitude: 1.354 -> 1.353998
+  - longitude: 103.891 -> 103.890924
+- `2299` Prime Supermarket 159A Hougang Street 11
+  - groupId: undefined -> [78]
+  - latitude: 1.352 -> 1.351909
+  - longitude: 103.879 -> 103.879500
+- `230` 134 Marsiling Rd
+  - groupId: undefined -> []
+  - latitude: 1.437 -> 1.436800
+  - longitude: 103.777 -> 103.777360
+- `2300` U STARS @261 Punggol Way
+  - groupId: undefined -> [84]
+  - latitude: 1.405 -> 1.405400
+  - longitude: 103.897 -> 103.896900
+- `2301` 682C Woodlands Drive 73
+  - groupId: undefined -> []
+  - latitude: 1.441 -> 1.440660
+  - longitude: 103.804 -> 103.804350
+- `2302` U STARS @330Anchorvale Street
+  - groupId: undefined -> [84]
+  - latitude: 1.397 -> 1.396800
+  - longitude: 103.889 -> 103.889100
+- `2303` 784C Woodlands Rise 
+  - groupId: undefined -> []
+  - latitude: 1.446 -> 1.445931
+  - longitude: 103.805 -> 103.805305
+- `2304` 690F Woodlands Drive 75
+  - groupId: undefined -> []
+  - latitude: 1.443 -> 1.442605
+  - longitude: 103.807 -> 103.807494
+- `2305` 862 Woodlands Street 83
+  - groupId: undefined -> []
+  - latitude: 1.440 -> 1.439992
+  - longitude: 103.795 -> 103.795049
+- `2306` 656 Woodlands Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.437 -> 1.437030
+  - longitude: 103.799 -> 103.799213
+- `2307` 356A Admiralty Drive
+  - groupId: undefined -> []
+  - latitude: 1.449 -> 1.449473
+  - longitude: 103.817 -> 103.816965
+- `2308` 552 Woodlands Drive 44
+  - groupId: undefined -> []
+  - latitude: 1.432 -> 1.432262
+  - longitude: 103.795 -> 103.795349
+- `2309` 351B Canberra Road
+  - groupId: undefined -> []
+  - latitude: 1.451 -> 1.450830
+  - longitude: 103.820 -> 103.820028
+- `231` 184 Yung Sheng Rd
+  - groupId: undefined -> []
+  - latitude: 1.333 -> 1.333360
+  - longitude: 103.722 -> 103.722185
+- `2310` 792 Woodlands Ave 6 
+  - groupId: undefined -> []
+  - latitude: 1.442 -> 1.441970
+  - longitude: 103.802 -> 103.802290
+- `2311` 611 Woodlands Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.435 -> 1.435484
+  - longitude: 103.797 -> 103.796928
+- `2312` 836 Woodlands Street 83
+  - groupId: undefined -> []
+  - latitude: 1.440 -> 1.440290
+  - longitude: 103.792 -> 103.791910
+- `2313` Prime Supermarket Bukit Batok Street 31
+  - groupId: undefined -> [78]
+  - latitude: 1.359 -> 1.358840
+  - longitude: 103.751 -> 103.750500
+- `2314` FairPrice Blk 135 Jurong Gateway Road
+  - groupId: undefined -> [39]
+  - latitude: 1.334 -> 1.334080
+  - longitude: 103.740 -> 103.740400
+- `2316` 311 Canberra Rd
+  - groupId: undefined -> []
+  - latitude: 1.447 -> 1.446620
+  - longitude: 103.823 -> 103.822580
+- `2317` 782B Woodlands Cres
+  - groupId: undefined -> []
+  - latitude: 1.447 -> 1.447310
+  - longitude: 103.803 -> 103.802980
+- `2318` 846 Woodlands Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.444 -> 1.443545
+  - longitude: 103.793 -> 103.793485
+- `2319` 756 Woodlands Ave 4 
+  - groupId: undefined -> []
+  - latitude: 1.446 -> 1.445721
+  - longitude: 103.793 -> 103.793054
+- `2320` Prime Supermarket Toa Payoh Lorong 7
+  - groupId: undefined -> [78]
+  - latitude: 1.336 -> 1.335753
+  - longitude: 103.857 -> 103.856898
+- `2321` 770 Woodlands Drive 60
+  - groupId: undefined -> []
+  - latitude: 1.447 -> 1.446654
+  - longitude: 103.799 -> 103.798562
+- `2322` Prime Supermarket Compassvale Street
+  - groupId: undefined -> [78]
+  - latitude: 1.395 -> 1.394910
+  - longitude: 103.896 -> 103.895900
+- `2323` Prime Supermarket Jalan Tenteram
+  - groupId: undefined -> [78]
+  - latitude: 1.328 -> 1.327754
+  - longitude: 103.861 -> 103.861100
+- `2324` Little Farms Market, Serangoon Garden (Grocery store)
+  - groupId: undefined -> [95]
+  - latitude: 1.365 -> 1.365100
+  - longitude: 103.865 -> 103.865200
+- `2325` 638 Woodlands Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.437 -> 1.436844
+  - longitude: 103.803 -> 103.803206
+- `2326` 622 Woodlands Drive 52
+  - groupId: undefined -> []
+  - latitude: 1.434 -> 1.434202
+  - longitude: 103.799 -> 103.798803
+- `2327` SHENG SIONG BLK 301 WOODLANDS ST 31 
+  - groupId: undefined -> [35]
+  - latitude: 1.431 -> 1.431460
+  - longitude: 103.774 -> 103.773800
+- `2328` Little Farms Market, Sentosa
+  - groupId: undefined -> [94]
+  - latitude: 1.247 -> 1.247000
+  - longitude: 103.840 -> 103.839600
+- `2329` 728 Woodlands Cir
+  - groupId: undefined -> []
+  - latitude: 1.443 -> 1.442851
+  - longitude: 103.799 -> 103.798873
+- `233` 205 Marsiling Dr
+  - groupId: undefined -> []
+  - latitude: 1.445 -> 1.444980
+  - longitude: 103.773 -> 103.773460
+- `2330` Giant IMM
+  - groupId: undefined -> [70]
+  - latitude: 1.336 -> 1.335960
+  - longitude: 103.747 -> 103.747000
+- `2331` Cold Storage Clementi Arcade
+  - groupId: undefined -> [57]
+  - latitude: 1.323 -> 1.323390
+  - longitude: 103.768 -> 103.767600
+- `2332` U STARS 345 Clementi Ave 5
+  - groupId: undefined -> [84]
+  - latitude: 1.318 -> 1.317670
+  - longitude: 103.769 -> 103.769000
+- `2333` Cold Storage West Coast Plaza
+  - groupId: undefined -> [57]
+  - latitude: 1.304 -> 1.303700
+  - longitude: 103.766 -> 103.765900
+- `2334` SHENG SIONG BLK 720 CLEMENTI WEST STREET 2 
+  - groupId: undefined -> [35]
+  - latitude: 1.302 -> 1.302410
+  - longitude: 103.764 -> 103.763700
+- `2335` U STARS @Elias Mall
+  - groupId: undefined -> [84]
+  - latitude: 1.378 -> 1.378100
+  - longitude: 103.942 -> 103.942060
+- `2336` SHENG SIONG BLK 446 FAJAR ROAD
+  - groupId: undefined -> [35]
+  - latitude: 1.384 -> 1.383740
+  - longitude: 103.771 -> 103.770600
+- `2337` SHENG SIONG BLK 527D PASIR RIS STREET 51 
+  - groupId: undefined -> [35]
+  - latitude: 1.370 -> 1.369606
+  - longitude: 103.948 -> 103.947870
+- `2339` 306 Clementi Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.321 -> 1.321496
+  - longitude: 103.766 -> 103.765888
+- `234` 274B Jurong West Street 25
+  - groupId: undefined -> []
+  - latitude: 1.353 -> 1.352818
+  - longitude: 103.703 -> 103.703150
+- `2340` Giant Pasir Ris Drive 4
+  - groupId: undefined -> [51]
+  - latitude: 1.369 -> 1.369054
+  - longitude: 103.959 -> 103.958760
+- `2343` Prime Supermarket Tampines North Drive 1
+  - groupId: undefined -> [78]
+  - latitude: 1.365 -> 1.364553
+  - longitude: 103.937 -> 103.937000
+- `2345` Giant Hypermarket Tampines
+  - groupId: undefined -> [51]
+  - latitude: 1.372 -> 1.372155
+  - longitude: 103.932 -> 103.931982
+- `2346` FairPrice Tampines CC
+  - groupId: undefined -> [41]
+  - latitude: 1.355 -> 1.355372
+  - longitude: 103.934 -> 103.934420
+- `2347` FairPrice Yishun MRT
+  - groupId: undefined -> [42]
+  - latitude: 1.429 -> 1.429380
+  - longitude: 103.835 -> 103.835100
+- `2348` SHENG SIONG BLK 872C TAMPINES STREET 86
+  - groupId: undefined -> [37]
+  - latitude: 1.355 -> 1.355206
+  - longitude: 103.932 -> 103.931570
+- `2349` U STARS @878C Tampines Ave 8
+  - groupId: undefined -> [85]
+  - latitude: 1.351 -> 1.351348
+  - longitude: 103.929 -> 103.929466
+- `235` 337B Tah Ching Rd
+  - groupId: undefined -> []
+  - latitude: 1.337 -> 1.337460
+  - longitude: 103.722 -> 103.722420
+- `2350` Prime Supermarket Tampines Street 81
+  - groupId: undefined -> [78]
+  - latitude: 1.349 -> 1.348930
+  - longitude: 103.934 -> 103.934090
+- `2351` MUSTAFA
+  - groupId: undefined -> [111]
+  - latitude: 1.310 -> 1.309800
+  - longitude: 103.855 -> 103.855472
+- `2352` 429 Clementi Ave 3
+  - groupId: undefined -> []
+  - latitude: 1.313 -> 1.312930
+  - longitude: 103.763 -> 103.762810
+- `2353` FairPrice Our Tampines Hub
+  - groupId: undefined -> [47]
+  - latitude: 1.353 -> 1.352782
+  - longitude: 103.940 -> 103.939620
+- `2355` FairPrice West Coast Wet Market
+  - groupId: undefined -> [41]
+  - latitude: 1.312 -> 1.311910
+  - longitude: 103.759 -> 103.759300
+- `2358` ONE Supermarket Pte. Ltd.
+  - groupId: undefined -> [112]
+  - latitude: 1.353 -> 1.353386
+  - longitude: 103.953 -> 103.953078
+- `2359` SHENG SIONG BLK 18 TECK WHYE LANE 
+  - groupId: undefined -> [35]
+  - latitude: 1.378 -> 1.378240
+  - longitude: 103.754 -> 103.754300
+- `2360` Cold Storage Lentor Modern
+  - groupId: undefined -> [64]
+  - latitude: 1.386 -> 1.385690
+  - longitude: 103.834 -> 103.834200
+- `2361` FairPrice Blk 475 Tampines Street 44
+  - groupId: undefined -> [39]
+  - latitude: 1.360 -> 1.360422
+  - longitude: 103.953 -> 103.953260
+- `2362` SHENG SIONG NO.1 WOODLANDS ROADS 
+  - groupId: undefined -> [37]
+  - latitude: 1.381 -> 1.380750
+  - longitude: 103.760 -> 103.759800
+- `2363` Giant Tampines Mart
+  - groupId: undefined -> [51]
+  - latitude: 1.354 -> 1.353795
+  - longitude: 103.961 -> 103.960570
+- `2364` FairPrice Blk 511 Canberra Road
+  - groupId: undefined -> [41]
+  - latitude: 1.454 -> 1.453830
+  - longitude: 103.820 -> 103.819600
+- `2365` FairPrice East Point
+  - groupId: undefined -> [39]
+  - latitude: 1.343 -> 1.342730
+  - longitude: 103.953 -> 103.953010
+- `2366` SHENG SIONG BLK 467 BUKIT BATOK WEST AVENUE 9 
+  - groupId: undefined -> [37]
+  - latitude: 1.357 -> 1.357150
+  - longitude: 103.743 -> 103.743500
+- `2367` Prime Supermarket Tampines Street 96
+  - groupId: undefined -> [80]
+  - latitude: 1.342 -> 1.342323
+  - longitude: 103.937 -> 103.937000
+- `2369` SHENG SIONG BLK 539A BEDOK NORTH STREET 3 
+  - groupId: undefined -> [35]
+  - latitude: 1.332 -> 1.332298
+  - longitude: 103.926 -> 103.925590
+- `237` 668 Choa Chu Kang Cres
+  - groupId: undefined -> []
+  - latitude: 1.402 -> 1.401872
+  - longitude: 103.749 -> 103.749469
+- `2370` Raj Agro Kranji
+  - groupId: undefined -> [116]
+  - latitude: 1.429 -> 1.429010
+  - longitude: 103.753 -> 103.752700
+- `2371` Giant Express 509 Bedok North St 3
+  - groupId: undefined -> [52]
+  - latitude: 1.333 -> 1.333346
+  - longitude: 103.931 -> 103.931340
+- `2372` U STARS @817 Keat Hong Link
+  - groupId: undefined -> [85]
+  - latitude: 1.377 -> 1.376900
+  - longitude: 103.749 -> 103.749400
+- `2373` FairPrice Yew Tee Mrt
+  - groupId: undefined -> [39]
+  - latitude: 1.397 -> 1.397460
+  - longitude: 103.748 -> 103.747500
+- `2374` Giant Bedok Market Place
+  - groupId: undefined -> [51]
+  - latitude: 1.331 -> 1.330824
+  - longitude: 103.948 -> 103.947510
+- `2375` FairPrice Canberra Plaza
+  - groupId: undefined -> [47]
+  - latitude: 1.443 -> 1.442970
+  - longitude: 103.831 -> 103.830600
+- `2376` FairPrice New Upper Changi Road
+  - groupId: undefined -> [39]
+  - latitude: 1.325 -> 1.324679
+  - longitude: 103.941 -> 103.941460
+- `2377` FairPrice Teck Whye
+  - groupId: undefined -> [39]
+  - latitude: 1.380 -> 1.380050
+  - longitude: 103.753 -> 103.753200
+- `2378` SHENG SIONG 151 BEDOK SOUTH ROAD, SIGLAP CC
+  - groupId: undefined -> [37]
+  - latitude: 1.317 -> 1.317275
+  - longitude: 103.947 -> 103.946576
+- `2380` FairPrice Blk 29B Chai Chee Avenue
+  - groupId: undefined -> [39]
+  - latitude: 1.324 -> 1.324367
+  - longitude: 103.924 -> 103.923770
+- `2381` FairPrice Yew Tee Point
+  - groupId: undefined -> [41]
+  - latitude: 1.397 -> 1.397160
+  - longitude: 103.747 -> 103.746800
+- `2382` FairPrice Limbang Shopping Centre
+  - groupId: undefined -> [41]
+  - latitude: 1.392 -> 1.392050
+  - longitude: 103.743 -> 103.743400
+- `2383` Giant Kampung Ubi Avenue 1
+  - groupId: undefined -> [55]
+  - latitude: 1.330 -> 1.329935
+  - longitude: 103.902 -> 103.901990
+- `2384` FairPrice JEM
+  - groupId: undefined -> [41]
+  - latitude: 1.333 -> 1.332830
+  - longitude: 103.743 -> 103.743100
+- `2385` Prime Supermarket Eunos Road 2
+  - groupId: undefined -> [78]
+  - latitude: 1.322 -> 1.321505
+  - longitude: 103.902 -> 103.901900
+- `2386` Don Don Donki (Jurong East Mall)
+  - groupId: undefined -> [77]
+  - latitude: 1.333 -> 1.332660
+  - longitude: 103.743 -> 103.743200
+- `2387` SHENG SIONG BLK 118 ALJUNIED  AVE 2 
+  - groupId: undefined -> [37]
+  - latitude: 1.320 -> 1.319973
+  - longitude: 103.887 -> 103.887167
+- `2389` Grindelwald Supermarket
+  - groupId: undefined -> [106]
+  - latitude: 1.322 -> 1.322070
+  - longitude: 103.770 -> 103.770400
+- `239` 698C Jurong West Central 3
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.340300
+  - longitude: 103.708 -> 103.707710
+- `2390` FairPrice Blk 114 Aljunied Ave 2
+  - groupId: undefined -> [39]
+  - latitude: 1.322 -> 1.321675
+  - longitude: 103.887 -> 103.886720
+- `2392` SCARLETT@GEYLANG ROAD
+  - groupId: undefined -> [86]
+  - latitude: 1.313 -> 1.312811
+  - longitude: 103.879 -> 103.879180
+- `2394` FairPrice 41 Jalan Tiga
+  - groupId: undefined -> [39]
+  - latitude: 1.308 -> 1.308026
+  - longitude: 103.885 -> 103.884650
+- `2395` Giant Choa Chu Kang Avenue 3
+  - groupId: undefined -> [51]
+  - latitude: 1.378 -> 1.378020
+  - longitude: 103.739 -> 103.739000
+- `2396` Isetan Scotts Supermarket
+  - groupId: undefined -> [108]
+  - latitude: 1.306 -> 1.305906
+  - longitude: 103.831 -> 103.831400
+- `2397` FairPrice Old Airport Hawker Centre
+  - groupId: undefined -> [41]
+  - latitude: 1.308 -> 1.308463
+  - longitude: 103.886 -> 103.886231
+- `2398` SHENG SIONG BLK 352 CLEMENTI AVE 2 
+  - groupId: undefined -> [35]
+  - latitude: 1.315 -> 1.315080
+  - longitude: 103.771 -> 103.771100
+- `240` 32 Marsiling Dr
+  - groupId: undefined -> []
+  - latitude: 1.443 -> 1.443404
+  - longitude: 103.773 -> 103.772794
+- `2400` FairPrice Boon Lay Shopping Complex
+  - groupId: undefined -> [39]
+  - latitude: 1.347 -> 1.346630
+  - longitude: 103.712 -> 103.712000
+- `2401` Blk 141, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.335416
+  - longitude: 103.913 -> 103.913312
+- `2402` Giant Yishun Street 22
+  - groupId: undefined -> [51]
+  - latitude: 1.436 -> 1.436480
+  - longitude: 103.838 -> 103.837800
+- `2403` FairPrice 451 Clementi Avenue 3
+  - groupId: undefined -> [39]
+  - latitude: 1.313 -> 1.312780
+  - longitude: 103.766 -> 103.765900
+- `2404` SHENG SIONG BLK 544 JURONG WEST ST 42 
+  - groupId: undefined -> [35]
+  - latitude: 1.352 -> 1.352410
+  - longitude: 103.716 -> 103.715700
+- `2405` Prime Supermarket Blk 253 Choa Chu Kang
+  - groupId: undefined -> [78]
+  - latitude: 1.377 -> 1.377440
+  - longitude: 103.744 -> 103.744390
+- `2406` FairPrice Bukit Panjang Plaza
+  - groupId: undefined -> [47]
+  - latitude: 1.381 -> 1.381330
+  - longitude: 103.764 -> 103.764300
+- `2407` FairPrice Pasir Ris West Plaza
+  - groupId: undefined -> [39]
+  - latitude: 1.380 -> 1.379885
+  - longitude: 103.936 -> 103.936480
+- `2408` Giant Bukit Batok East Avenue 3
+  - groupId: undefined -> [51]
+  - latitude: 1.347 -> 1.346610
+  - longitude: 103.757 -> 103.757200
+- `2409` FairPrice Whitesands
+  - groupId: undefined -> [47]
+  - latitude: 1.372 -> 1.372416
+  - longitude: 103.947 -> 103.946650
+- `241` 667C Jurong West Street 65
+  - groupId: undefined -> []
+  - latitude: 1.341 -> 1.341330
+  - longitude: 103.702 -> 103.702430
+- `2410` Food-Joy Buona Vista
+  - groupId: undefined -> [104]
+  - latitude: 1.281 -> 1.280567
+  - longitude: 103.787 -> 103.786900
+- `2413` FairPrice Bukit Merah
+  - groupId: undefined -> [40]
+  - latitude: 1.283 -> 1.283092
+  - longitude: 103.818 -> 103.817600
+- `2414` U STARS @810 Cha Chu Kang Ave 7
+  - groupId: undefined -> [84]
+  - latitude: 1.374 -> 1.374020
+  - longitude: 103.746 -> 103.746200
+- `2415` FairPrice Downtown East
+  - groupId: undefined -> [47]
+  - latitude: 1.379 -> 1.378897
+  - longitude: 103.955 -> 103.955070
+- `2416` SCARLETT@PLANTATION PLAZA
+  - groupId: undefined -> [87]
+  - latitude: 1.357 -> 1.357210
+  - longitude: 103.734 -> 103.734000
+- `2417` Giant Loyang Point
+  - groupId: undefined -> [51]
+  - latitude: 1.373 -> 1.372891
+  - longitude: 103.963 -> 103.962990
+- `2418` FairPrice Tengah Parc Point
+  - groupId: undefined -> [47]
+  - latitude: 1.361 -> 1.361000
+  - longitude: 103.739 -> 103.738500
+- `2419` SHENG SIONG BLK 258 PASIR RIS ST 21 
+  - groupId: undefined -> [37]
+  - latitude: 1.367 -> 1.367262
+  - longitude: 103.965 -> 103.965172
+- `2420` Giant Tengah Plantation Plaza
+  - groupId: undefined -> [57]
+  - latitude: 1.357 -> 1.357120
+  - longitude: 103.734 -> 103.733995
+- `2421` FairPrice 280 Bukit Batok East Avenue 3
+  - groupId: undefined -> [39]
+  - latitude: 1.348 -> 1.347730
+  - longitude: 103.757 -> 103.757000
+- `2422` FairPrice Blk 633 Tampines North Drive 2
+  - groupId: undefined -> [39]
+  - latitude: 1.365 -> 1.365258
+  - longitude: 103.941 -> 103.941130
+- `2424` U STARS @Tampines Grove
+  - groupId: undefined -> [84]
+  - latitude: 1.349 -> 1.349257
+  - longitude: 103.935 -> 103.934830
+- `2426` FairPrice Century Square Shopping Mall
+  - groupId: undefined -> [47]
+  - latitude: 1.353 -> 1.352620
+  - longitude: 103.944 -> 103.943683
+- `2428` Cold Storage Tampines One
+  - groupId: undefined -> [59]
+  - latitude: 1.354 -> 1.354212
+  - longitude: 103.945 -> 103.945030
+- `2431` BITES BY SCARLETT@TAMPINES ONE
+  - groupId: undefined -> [87]
+  - latitude: 1.354 -> 1.354495
+  - longitude: 103.945 -> 103.944960
+- `2436` FairPrice Blk 107 Tampines Street 11
+  - groupId: undefined -> [39]
+  - latitude: 1.348 -> 1.348199
+  - longitude: 103.948 -> 103.947830
+- `244` 854 Jurong West Street 81
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.347812
+  - longitude: 103.696 -> 103.695788
+- `2440` FairPrice Finest Komo Shoppes
+  - groupId: undefined -> [47]
+  - latitude: 1.360 -> 1.360361
+  - longitude: 103.970 -> 103.970140
+- `2444` Giant Simei MRT
+  - groupId: undefined -> [56]
+  - latitude: 1.343 -> 1.343147
+  - longitude: 103.953 -> 103.953420
+- `2446` FairPrice Changi Business Park
+  - groupId: undefined -> [47]
+  - latitude: 1.335 -> 1.335169
+  - longitude: 103.963 -> 103.963497
+- `2448` SHENG SIONG BLK 739A BEDOK RESERVOIR ROAD 
+  - groupId: undefined -> [35]
+  - latitude: 1.338 -> 1.338116
+  - longitude: 103.923 -> 103.923287
+- `245` 196B Boon Lay Drive
+  - groupId: undefined -> []
+  - latitude: 1.343 -> 1.342910
+  - longitude: 103.714 -> 103.714241
+- `2450` Sparrows 206 Bedok North Street 1
+  - groupId: undefined -> [118]
+  - latitude: 1.326 -> 1.326464
+  - longitude: 103.931 -> 103.930958
+- `2452` SHENG SIONG BLK 209 NEW UPPER CHANGI ROAD 
+  - groupId: undefined -> [35]
+  - latitude: 1.325 -> 1.324707
+  - longitude: 103.931 -> 103.931068
+- `2454` FairPrice Bedok North 212
+  - groupId: undefined -> [39]
+  - latitude: 1.326 -> 1.325941
+  - longitude: 103.932 -> 103.931596
+- `2455` Meidi-Ya Great World City
+  - groupId: undefined -> [110]
+  - latitude: 1.294 -> 1.293689
+  - longitude: 103.832 -> 103.832000
+- `2457` FairPrice Bedok Mall
+  - groupId: undefined -> [47]
+  - latitude: 1.325 -> 1.324801
+  - longitude: 103.923 -> 103.923310
+- `2459` FairPrice SingPost Centre
+  - groupId: undefined -> [47]
+  - latitude: 1.319 -> 1.318994
+  - longitude: 103.894 -> 103.894460
+- `246` 276D Jurong West Street 25
+  - groupId: undefined -> []
+  - latitude: 1.354 -> 1.353560
+  - longitude: 103.704 -> 103.704410
+- `2461` FairPrice Paya Lebar Quarter
+  - groupId: undefined -> [47]
+  - latitude: 1.318 -> 1.317627
+  - longitude: 103.893 -> 103.893070
+- `2464` SCARLETT@PAYA LEBAR SQUARE
+  - groupId: undefined -> [87]
+  - latitude: 1.319 -> 1.319155
+  - longitude: 103.893 -> 103.892520
+- `2466` SHENG SIONG 301 GEYLANG ROAD BCH BUILDING
+  - groupId: undefined -> [35]
+  - latitude: 1.313 -> 1.312775
+  - longitude: 103.879 -> 103.878656
+- `2468` SHENG SIONG 11 TANJONG KATONG ROAD, KINEX
+  - groupId: undefined -> [37]
+  - latitude: 1.314 -> 1.314445
+  - longitude: 103.894 -> 103.894475
+- `247` 212 Marsiling Cres
+  - groupId: undefined -> []
+  - latitude: 1.446 -> 1.446190
+  - longitude: 103.773 -> 103.773100
+- `2473` FairPrice Katong V
+  - groupId: undefined -> [47]
+  - latitude: 1.304 -> 1.303562
+  - longitude: 103.903 -> 103.903070
+- `2475` Cold Storage Parkway Parade
+  - groupId: undefined -> [58]
+  - latitude: 1.301 -> 1.301470
+  - longitude: 103.905 -> 103.905150
+- `2478` FairPrice Changi Airport T3
+  - groupId: undefined -> [40]
+  - latitude: 1.355 -> 1.355217
+  - longitude: 103.986 -> 103.985920
+- `248` 920 Jurong West Street 92
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.339941
+  - longitude: 103.688 -> 103.688387
+- `249` 123 Marsiling Rise
+  - groupId: undefined -> []
+  - latitude: 1.439 -> 1.439209
+  - longitude: 103.779 -> 103.779111
+- `2492` Little Farms Market, Tanglin Mall
+  - groupId: undefined -> [96]
+  - latitude: 1.305 -> 1.305000
+  - longitude: 103.824 -> 103.823800
+- `2496` ACE MARKETPLACE (86RC)
+  - groupId: undefined -> [117]
+  - latitude: 1.287 -> 1.286924
+  - longitude: 103.819 -> 103.818678
+- `250` 664D Jurong West Street 64
+  - groupId: undefined -> []
+  - latitude: 1.339 -> 1.339197
+  - longitude: 103.703 -> 103.702718
+- `2502` Prime Supermarket Buangkok Square
+  - groupId: undefined -> [81]
+  - latitude: 1.385 -> 1.384521
+  - longitude: 103.882 -> 103.881600
+- `251` 744 Jurong West Street 73
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.346812
+  - longitude: 103.699 -> 103.698958
+- `2515` Kampung Admiralty Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.440 -> 1.440109
+  - longitude: 103.801 -> 103.800673
+- `2516` SCARLETT@DOWNTOWN E!HUB
+  - groupId: undefined -> [88]
+  - latitude: 1.376 -> 1.376477
+  - longitude: 103.955 -> 103.955240
+- `2517` FairPrice Blk 89 Bedok North Street 4
+  - groupId: undefined -> [39]
+  - latitude: 1.333 -> 1.332907
+  - longitude: 103.938 -> 103.937954
+- `2518` SHENG SIONG BLK 115 BEDOK NORTH ROAD 
+  - groupId: undefined -> [35]
+  - latitude: 1.331 -> 1.331389
+  - longitude: 103.937 -> 103.936830
+- `2519` SHENG SIONG Woodlands Recreation Centre
+  - groupId: undefined -> [38]
+  - latitude: 1.451 -> 1.450890
+  - longitude: 103.797 -> 103.796900
+- `252` 515 Jurong West Street 52
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.346250
+  - longitude: 103.720 -> 103.720407
+- `2521` 214 Jurong East Street 21
+  - groupId: undefined -> []
+  - latitude: 1.339 -> 1.339280
+  - longitude: 103.739 -> 103.738940
+- `2522` 129 Pending Rd
+  - groupId: undefined -> []
+  - latitude: 1.376 -> 1.375700
+  - longitude: 103.770 -> 103.770420
+- `2523` SHENG SIONG NO.1 JALAN BERSEH, NEW WORLD CENTRE
+  - groupId: undefined -> [35]
+  - latitude: 1.308 -> 1.307516
+  - longitude: 103.857 -> 103.857405
+- `2525` 423 Choa Chu Kang Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.382 -> 1.382080
+  - longitude: 103.740 -> 103.740370
+- `2526` Giant Yishun Avenue 11
+  - groupId: undefined -> [55]
+  - latitude: 1.425 -> 1.424720
+  - longitude: 103.847 -> 103.847100
+- `2527` Culina at COMO Dempsey
+  - groupId: undefined -> [102]
+  - latitude: 1.305 -> 1.305260
+  - longitude: 103.810 -> 103.810343
+- `2529` Supernature
+  - groupId: undefined -> [103]
+  - latitude: 1.306 -> 1.305843
+  - longitude: 103.811 -> 103.811359
+- `2536` East Coast Lagoon Food Village
+  - groupId: undefined -> []
+  - latitude: 1.307 -> 1.306833
+  - longitude: 103.935 -> 103.935222
+- `2537` Bedok Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.320 -> 1.320339
+  - longitude: 103.955 -> 103.955446
+- `2538` Changi Village Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.389 -> 1.389225
+  - longitude: 103.988 -> 103.988303
+- `2539` Changi Airport Terminal 1
+  - groupId: undefined -> []
+  - latitude: 1.362 -> 1.361759
+  - longitude: 103.991 -> 103.990904
+- `254` 618 Choa Chu Kang North 7
+  - groupId: undefined -> []
+  - latitude: 1.400 -> 1.400375
+  - longitude: 103.747 -> 103.746980
+- `2540` Changi Airport Terminal 4
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.335982
+  - longitude: 103.982 -> 103.982495
+- `2541` Changi Airport Terminal 2
+  - groupId: undefined -> []
+  - latitude: 1.355 -> 1.355059
+  - longitude: 103.989 -> 103.989027
+- `2548` SCARLETT@SUN PLAZA
+  - groupId: undefined -> [87]
+  - latitude: 1.448 -> 1.448270
+  - longitude: 103.820 -> 103.819700
+- `2549` Giant Woodlands Mart
+  - groupId: undefined -> [51]
+  - latitude: 1.446 -> 1.445600
+  - longitude: 103.798 -> 103.798000
+- `255` 17 Marsiling Ln
+  - groupId: undefined -> []
+  - latitude: 1.443 -> 1.442640
+  - longitude: 103.778 -> 103.777740
+- `2550` Bazaar Terusan Recreation Centre
+  - groupId: undefined -> [120]
+  - latitude: 1.321 -> 1.320510
+  - longitude: 103.727 -> 103.727100
+- `2551` ANG MO SUPERMARKET-693 WOODLANDS AVE 6
+  - groupId: undefined -> [93]
+  - latitude: 1.438 -> 1.438070
+  - longitude: 103.804 -> 103.803800
+- `2552` Ajmal Trade Mart -  Kranji Lodge One
+  - groupId: undefined -> [90]
+  - latitude: 1.432 -> 1.431670
+  - longitude: 103.760 -> 103.759900
+- `2554` Chap He Diam Migrant Worker's Recreation Centre
+  - groupId: undefined -> [100]
+  - latitude: 1.332 -> 1.332350
+  - longitude: 103.699 -> 103.698900
+- `2555` Don Don Donki (Northpoint City)
+  - groupId: undefined -> [74]
+  - latitude: 1.429 -> 1.429340
+  - longitude: 103.836 -> 103.835900
+- `2556` Nawas Global - Tuas South Dormitory
+  - groupId: undefined -> [90]
+  - latitude: 1.272 -> 1.271640
+  - longitude: 103.633 -> 103.633500
+- `2557` Ajmal Super Market - Tuas View Dormitory
+  - groupId: undefined -> [90]
+  - latitude: 1.315 -> 1.314760
+  - longitude: 103.627 -> 103.626600
+- `2558` 7 Seven Trichy Supermarket North Coast Lodge
+  - groupId: undefined -> [98]
+  - latitude: 1.456 -> 1.456100
+  - longitude: 103.787 -> 103.787300
+- `2559` Ajmal Trading Group - Kranji Recreation Centre
+  - groupId: undefined -> [91]
+  - latitude: 1.429 -> 1.429000
+  - longitude: 103.753 -> 103.752700
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory
+  - groupId: undefined -> [90]
+  - latitude: 1.461 -> 1.461430
+  - longitude: 103.809 -> 103.809500
+- `2561` Prime Supermarket Blk 142 Teck Whye Lane
+  - groupId: undefined -> [79]
+  - latitude: 1.381 -> 1.380800
+  - longitude: 103.752 -> 103.752000
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - groupId: undefined -> [114]
+  - latitude: 1.376 -> 1.376030
+  - longitude: 103.719 -> 103.718798
+- `2563` Prime Supermarket Blk 768 Woodlands Ave 6
+  - groupId: undefined -> [80]
+  - latitude: 1.446 -> 1.445840
+  - longitude: 103.798 -> 103.797900
+- `2564` SCARLETT@YISHUN 10 CINEMA COMPLEX
+  - groupId: undefined -> [87]
+  - latitude: 1.430 -> 1.429930
+  - longitude: 103.836 -> 103.836400
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE
+  - groupId: undefined -> [114]
+  - latitude: 1.376 -> 1.376030
+  - longitude: 103.719 -> 103.718800
+- `2566` Ajmal Trading Group - Jalan Papan Aspri Westlite
+  - groupId: undefined -> [90]
+  - latitude: 1.323 -> 1.323050
+  - longitude: 103.727 -> 103.727400
+- `2567` Don Don Donki (Bukit Panjang Plaza)
+  - groupId: undefined -> [76]
+  - latitude: 1.380 -> 1.380000
+  - longitude: 103.764 -> 103.764300
+- `2568` Redman by Phoon Huat
+  - groupId: undefined -> [115]
+  - latitude: 1.380 -> 1.379960
+  - longitude: 103.764 -> 103.764300
+- `2569` Chennai Trading & Supermart - 1 Jalan Papan
+  - groupId: undefined -> [101]
+  - latitude: 1.321 -> 1.320510
+  - longitude: 103.727 -> 103.727100
+- `2570` SHENG SIONG 18 YISHUN AVE 9,  JUNCTION NINE
+  - groupId: undefined -> [37]
+  - latitude: 1.433 -> 1.433140
+  - longitude: 103.842 -> 103.841700
+- `2576` Blk 768, Pasir Ris Street 71
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.375164
+  - longitude: 103.935 -> 103.935339
+- `2579` FairPrice Tampines Blk 138 Tampines Street 11
+  - groupId: undefined -> [39]
+  - latitude: 1.345 -> 1.345461
+  - longitude: 103.946 -> 103.945620
+- `2581` ACE SIGNATURE @ LIV CHANGI
+  - groupId: undefined -> [99]
+  - latitude: 1.359 -> 1.358659
+  - longitude: 103.969 -> 103.969439
+- `2584` Blk 12 Kampong Arang Rd
+  - groupId: undefined -> []
+  - latitude: 1.301 -> 1.300841
+  - longitude: 103.884 -> 103.883721
+- `2596` U STARS @215C Compassvale Drive
+  - groupId: undefined -> [84]
+  - latitude: 1.390 -> 1.389900
+  - longitude: 103.893 -> 103.892900
+- `260` 149 Woodlands Street 13
+  - groupId: undefined -> []
+  - latitude: 1.436 -> 1.435762
+  - longitude: 103.773 -> 103.773165
+- `2601` Blk 65, New Upper Changi Road
+  - groupId: undefined -> []
+  - latitude: 1.325 -> 1.324682
+  - longitude: 103.940 -> 103.939735
+- `2604` SHENG SIONG BLK 506 TAMPINES CENTRAL 1
+  - groupId: undefined -> [35]
+  - latitude: 1.356 -> 1.356127
+  - longitude: 103.946 -> 103.945941
+- `2605` 145 Yishun Street 11
+  - groupId: undefined -> []
+  - latitude: 1.431 -> 1.430850
+  - longitude: 103.832 -> 103.831850
+- `261` 153 Gangsa Rd
+  - groupId: undefined -> []
+  - latitude: 1.376 -> 1.375984
+  - longitude: 103.765 -> 103.765288
+- `2620` Bazaar Westlite Toh Guan Dormitory
+  - groupId: undefined -> []
+  - latitude: 1.329 -> 1.328669
+  - longitude: 103.750 -> 103.749862
+- `263` 359 Clementi Ave 2
+  - groupId: undefined -> []
+  - latitude: 1.313 -> 1.313430
+  - longitude: 103.770 -> 103.769883
+- `264` 178 Woodlands Street 13
+  - groupId: undefined -> []
+  - latitude: 1.435 -> 1.434595
+  - longitude: 103.778 -> 103.777658
+- `265` 108 Gangsa Rd
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377690
+  - longitude: 103.767 -> 103.767160
+- `2655` Prime Supermarket Blk 761 Yishun
+  - groupId: undefined -> [122]
+  - latitude: 1.425 -> 1.425120
+  - longitude: 103.833 -> 103.833300
+- `2656` All India Supermart Pte Ltd
+  - groupId: undefined -> []
+  - latitude: 1.308 -> 1.308048
+  - longitude: 103.854 -> 103.854285
+- `2657` Blk 72, Marine Drive
+  - groupId: undefined -> []
+  - latitude: 1.304 -> 1.304247
+  - longitude: 103.908 -> 103.908370
+- `2658` FairPrice Bedok Reservoir 
+  - groupId: undefined -> []
+  - latitude: 1.337 -> 1.337309
+  - longitude: 103.922 -> 103.921704
+- `2659` TRIPLE N SUPERMART PTE LTD
+  - groupId: undefined -> []
+  - latitude: 1.337 -> 1.337294
+  - longitude: 103.906 -> 103.905985
+- `2661` BISMILLAH MINIMART 32 MANDAI
+  - groupId: undefined -> []
+  - latitude: 1.408 -> 1.407665
+  - longitude: 103.756 -> 103.755714
+- `2662` Lion City Supermarket Geylang Road
+  - groupId: undefined -> []
+  - latitude: 1.313 -> 1.312578
+  - longitude: 103.880 -> 103.880025
+- `2663` 361 Sembawang Crescent
+  - groupId: undefined -> []
+  - latitude: 1.446 -> 1.446401
+  - longitude: 103.814 -> 103.813932
+- `2664` Yishun Park Hawker
+  - groupId: undefined -> []
+  - latitude: 1.425 -> 1.425023
+  - longitude: 103.842 -> 103.842145
+- `2665` SHENG SIONG BLK 120 CANBERRA CRESCENT
+  - groupId: undefined -> []
+  - latitude: 1.446 -> 1.445803
+  - longitude: 103.829 -> 103.829193
+- `2666` Bukit Canberra Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.449 -> 1.448995
+  - longitude: 103.823 -> 103.822918
+- `2667` Sembawang Recreation Centre
+  - groupId: undefined -> []
+  - latitude: 1.459 -> 1.458517
+  - longitude: 103.819 -> 103.819277
+- `2668` Serangoon Garden Market
+  - groupId: undefined -> []
+  - latitude: 1.363 -> 1.363185
+  - longitude: 103.867 -> 103.866586
+- `2669` Chomp Chomp Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.364 -> 1.364391
+  - longitude: 103.866 -> 103.866339
+- `267` 454 Clementi Ave 3
+  - groupId: undefined -> []
+  - latitude: 1.312 -> 1.312244
+  - longitude: 103.766 -> 103.766413
+- `2670` Fernvale Hawker Centre & Market
+  - groupId: undefined -> []
+  - latitude: 1.392 -> 1.391640
+  - longitude: 103.877 -> 103.877011
+- `2671` Phan 66 PPT Lodge 1A Dormitory
+  - groupId: undefined -> []
+  - latitude: 1.420 -> 1.419655
+  - longitude: 103.896 -> 103.896353
+- `2673` SCARLETT@AMK 710A
+  - groupId: undefined -> [86]
+  - latitude: 1.371 -> 1.370683
+  - longitude: 103.848 -> 103.847982
+- `2674` Pasir Ris Central Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.373 -> 1.373409
+  - longitude: 103.952 -> 103.951652
+- `2675` Zion Riverside Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.292 -> 1.292431
+  - longitude: 103.831 -> 103.831245
+- `2676` Taman Jurong Market & Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.334853
+  - longitude: 103.722 -> 103.722067
+- `2677` Senja Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.387 -> 1.387105
+  - longitude: 103.761 -> 103.760934
+- `2678` SACHI MINIMART PTE LTD
+  - groupId: undefined -> []
+  - latitude: 1.318 -> 1.317980
+  - longitude: 103.729 -> 103.729137
+- `2679` Bukit Batok West Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.356 -> 1.355543
+  - longitude: 103.742 -> 103.742105
+- `268` 113 Woodlands Street 13
+  - groupId: undefined -> []
+  - latitude: 1.438 -> 1.437990
+  - longitude: 103.781 -> 103.781170
+- `2680` Bukit Panjang Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.377446
+  - longitude: 103.773 -> 103.772572
+- `2681` Beo Crescent Market
+  - groupId: undefined -> []
+  - latitude: 1.289 -> 1.288918
+  - longitude: 103.827 -> 103.827190
+- `2682` Tiong Bahru Market
+  - groupId: undefined -> []
+  - latitude: 1.285 -> 1.285132
+  - longitude: 103.833 -> 103.832726
+- `2683` Pasir Panjang Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.276 -> 1.275896
+  - longitude: 103.792 -> 103.791624
+- `2684` Margaret Drive Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.297 -> 1.297413
+  - longitude: 103.805 -> 103.804750
+- `2685` Tanglin Halt Market
+  - groupId: undefined -> []
+  - latitude: 1.300 -> 1.300427
+  - longitude: 103.798 -> 103.797793
+- `2686` Holland Village Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.311 -> 1.311148
+  - longitude: 103.795 -> 103.795073
+- `2687` Commonwealth Crescent Market
+  - groupId: undefined -> []
+  - latitude: 1.307 -> 1.306916
+  - longitude: 103.800 -> 103.800432
+- `2688` Adam Road Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.324 -> 1.324244
+  - longitude: 103.814 -> 103.814170
+- `269` 113 Clementi Street 13
+  - groupId: undefined -> []
+  - latitude: 1.323 -> 1.323472
+  - longitude: 103.770 -> 103.770353
+- `270` 140 Petir Rd
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.375459
+  - longitude: 103.769 -> 103.768969
+- `271` 101 Gangsa Rd
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.379390
+  - longitude: 103.768 -> 103.767520
+- `272` 326 Clementi Ave 5 
+  - groupId: undefined -> []
+  - latitude: 1.314 -> 1.314475
+  - longitude: 103.766 -> 103.766381
+- `2722` Dunman Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.309 -> 1.309466
+  - longitude: 103.902 -> 103.901827
+- `2723` Kovan Hougang Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.359 -> 1.359307
+  - longitude: 103.886 -> 103.886000
+- `2724` Hougang 105 Hainanese Village Centre
+  - groupId: undefined -> []
+  - latitude: 1.354 -> 1.354115
+  - longitude: 103.890 -> 103.889900
+- `2725` Ang Mo Kio Market & Food Centre Blk 724
+  - groupId: undefined -> []
+  - latitude: 1.372 -> 1.372184
+  - longitude: 103.847 -> 103.846500
+- `2726` Teck Ghee Court Market & Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.364 -> 1.364091
+  - longitude: 103.848 -> 103.848208
+- `2727` Kebun Baru Food Centre Block 226H
+  - groupId: undefined -> []
+  - latitude: 1.367 -> 1.367234
+  - longitude: 103.840 -> 103.840021
+- `2728` 628 Ang Mo Kio Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.381 -> 1.380887
+  - longitude: 103.841 -> 103.840526
+- `2729` Chong Boon Market & Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.368 -> 1.368151
+  - longitude: 103.856 -> 103.856378
+- `273` 311B Clementi Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.319 -> 1.319451
+  - longitude: 103.766 -> 103.765632
+- `2730` Kallang Estate Fresh Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.307 -> 1.307465
+  - longitude: 103.884 -> 103.884136
+- `2731` Fairprice Jewel
+  - groupId: undefined -> []
+  - latitude: 1.360 -> 1.360303
+  - longitude: 103.990 -> 103.990200
+- `2732` ITE College East
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.334728
+  - longitude: 103.954 -> 103.954448
+- `2733` Fairprice Joo Chiat Complex
+  - groupId: undefined -> []
+  - latitude: 1.316 -> 1.315531
+  - longitude: 103.899 -> 103.898509
+- `2734` Cold Storage Orchard Hotel
+  - groupId: undefined -> []
+  - latitude: 1.307 -> 1.307435
+  - longitude: 103.829 -> 103.828820
+- `2735` SHENG SIONG NEW BRIDGE CENTRE
+  - groupId: undefined -> []
+  - latitude: 1.283 -> 1.282864
+  - longitude: 103.843 -> 103.842566
+- `2736` Redhill Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.287 -> 1.287315
+  - longitude: 103.818 -> 103.818183
+- `2737` Alexandra Village Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.287 -> 1.286608
+  - longitude: 103.805 -> 103.804529
+- `2738` Mei Chin Road Market
+  - groupId: undefined -> []
+  - latitude: 1.293 -> 1.293438
+  - longitude: 103.803 -> 103.802914
+- `2739` National University of Singapore (NUS) Frontier Canteen
+  - groupId: undefined -> []
+  - latitude: 1.296 -> 1.296489
+  - longitude: 103.780 -> 103.780364
+- `2740` Toa Payoh Vista Market
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.334532
+  - longitude: 103.852 -> 103.851973
+- `2741` Mayflower Market
+  - groupId: undefined -> []
+  - latitude: 1.374 -> 1.374185
+  - longitude: 103.839 -> 103.838810
+- `2742` Tampines Round Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.345959
+  - longitude: 103.945 -> 103.944640
+- `2747` 672A Klang Lane - Little India
+  - groupId: undefined -> []
+  - latitude: 1.309 -> 1.308503
+  - longitude: 103.852 -> 103.852431
+- `2748` Pek Kio Market & Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.316 -> 1.316230
+  - longitude: 103.850 -> 103.850224
+- `2749` Bukit Merah Central Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.283 -> 1.283464
+  - longitude: 103.817 -> 103.817406
+- `275` 343 Clementi Ave 5
+  - groupId: undefined -> []
+  - latitude: 1.318 -> 1.317813
+  - longitude: 103.771 -> 103.770932
+- `2750` Blk 115 Bukit Merah View Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.285 -> 1.285494
+  - longitude: 103.822 -> 103.822424
+- `2752` Eunos Crescent Blk 4A Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.320 -> 1.320383
+  - longitude: 103.904 -> 103.904100
+- `2754` Tekka Centre / Zhu Jiao Market
+  - groupId: undefined -> []
+  - latitude: 1.306 -> 1.306190
+  - longitude: 103.851 -> 103.850533
+- `2755` Blk 6 Tanjong Pagar Plaza Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.277 -> 1.276553
+  - longitude: 103.843 -> 103.843119
+- `2756` Blk 112 Jalan Bukit Merah Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.280 -> 1.280271
+  - longitude: 103.826 -> 103.826004
+- `2757` Toa Payoh Lorong 8 Blk 210 Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.340327
+  - longitude: 103.855 -> 103.854504
+- `2758` Holland Drive Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.308 -> 1.308199
+  - longitude: 103.793 -> 103.792799
+- `2759` Toa Payoh Lorong 4 Blk 94
+  - groupId: undefined -> []
+  - latitude: 1.339 -> 1.339459
+  - longitude: 103.849 -> 103.849339
+- `2760` 20 Ghim Moh Road Market & Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.311 -> 1.311134
+  - longitude: 103.788 -> 103.788212
+- `2761` Blk 4A Jalan Batu Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.303 -> 1.302627
+  - longitude: 103.884 -> 103.883900
+- `2762` 50A Marine Terrace Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.306 -> 1.306019
+  - longitude: 103.916 -> 103.915700
+- `2763` 84 Marine Parade Central Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.302 -> 1.302495
+  - longitude: 103.906 -> 103.906100
+- `2764` Kaki Bukit 511 Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.333 -> 1.333438
+  - longitude: 103.930 -> 103.930500
+- `2765` Bedok North Street 3 Blk 538 Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.332267
+  - longitude: 103.925 -> 103.924800
+- `2766` Shunfu-Mart
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.352005
+  - longitude: 103.837 -> 103.837119
+- `2767` 11 Telok Blangah Crescent Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.277 -> 1.277303
+  - longitude: 103.819 -> 103.818779
+- `2769` Telok Blangah Rise Market
+  - groupId: undefined -> []
+  - latitude: 1.273 -> 1.272716
+  - longitude: 103.822 -> 103.821944
+- `277` 131 Cashew Rd
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.374604
+  - longitude: 103.771 -> 103.770781
+- `2770` Toa Payoh West Market and Food Court
+  - groupId: undefined -> []
+  - latitude: 1.338 -> 1.338173
+  - longitude: 103.845 -> 103.844728
+- `2771` Li Li Cheng Punggol
+  - groupId: undefined -> []
+  - latitude: 1.402 -> 1.402339
+  - longitude: 103.901 -> 103.901259
+- `2772` 20 Marsiling Lane Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.443 -> 1.443498
+  - longitude: 103.777 -> 103.776995
+- `2773` 353 Clementi Food Center
+  - groupId: undefined -> []
+  - latitude: 1.314 -> 1.314339
+  - longitude: 103.771 -> 103.770811
+- `2774` 445 Clementi Avenue 3
+  - groupId: undefined -> []
+  - latitude: 1.313 -> 1.312954
+  - longitude: 103.764 -> 103.764175
+- `2775` West Coast Market Square
+  - groupId: undefined -> []
+  - latitude: 1.304 -> 1.303747
+  - longitude: 103.764 -> 103.764215
+- `2776` 252 Jurong East Street 24
+  - groupId: undefined -> []
+  - latitude: 1.343 -> 1.343079
+  - longitude: 103.738 -> 103.738221
+- `2777` Teban Market Place
+  - groupId: undefined -> []
+  - latitude: 1.321 -> 1.320833
+  - longitude: 103.743 -> 103.742535
+- `2778` 505 Jurong West Market & Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.349816
+  - longitude: 103.719 -> 103.718533
+- `2779` 221A Boon Lay Market
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.345843
+  - longitude: 103.713 -> 103.713096
+- `2780` Bedok Reservoir Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.333 -> 1.333315
+  - longitude: 103.914 -> 103.913900
+- `2781` Marks & Spencer Raffles City
+  - groupId: undefined -> []
+  - latitude: 1.295 -> 1.294741
+  - longitude: 103.853 -> 103.853170
+- `2782` 573B Woodlands Drive 16
+  - groupId: undefined -> []
+  - latitude: 1.431 -> 1.430911
+  - longitude: 103.798 -> 103.797776
+- `2783` Republic Polytechnic
+  - groupId: undefined -> []
+  - latitude: 1.443 -> 1.442859
+  - longitude: 103.786 -> 103.785560
+- `2785` Cold Storage Pasir Ris Mall
+  - groupId: undefined -> [58]
+  - latitude: 1.374 -> 1.373863
+  - longitude: 103.949 -> 103.948540
+- `2786` Empress Road Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.316 -> 1.316339
+  - longitude: 103.806 -> 103.805642
+- `2787` 85 Fengshan Centre
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.332266
+  - longitude: 103.939 -> 103.938800
+- `2788` Temasek Polytechnic
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.345603
+  - longitude: 103.932 -> 103.931800
+- `2789` Lau Pa Sat Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.281 -> 1.280531
+  - longitude: 103.850 -> 103.850383
+- `279` 288C Jurong East Street 21
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.339725
+  - longitude: 103.744 -> 103.743636
+- `2790` Telok Blangah Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.273 -> 1.273456
+  - longitude: 103.808 -> 103.807639
+- `2791` Block 44 Telok Blangah Drive
+  - groupId: undefined -> []
+  - latitude: 1.271 -> 1.271145
+  - longitude: 103.810 -> 103.809842
+- `2792` MacPherson Market & Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.323 -> 1.323479
+  - longitude: 103.885 -> 103.885413
+- `2793` 79/79A Circuit Road Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.326161
+  - longitude: 103.885 -> 103.885112
+- `2794` 80 Circuit Road Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.327908
+  - longitude: 103.887 -> 103.886946
+- `2795` 225 Ang Mo Kio Ave 1
+  - groupId: undefined -> []
+  - latitude: 1.367 -> 1.367349
+  - longitude: 103.838 -> 103.838479
+- `280` 102 Woodlands Street 13
+  - groupId: undefined -> []
+  - latitude: 1.436 -> 1.436269
+  - longitude: 103.781 -> 103.781002
+- `2802` People's Park Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.285 -> 1.285051
+  - longitude: 103.843 -> 103.842577
+- `2805` Masjid Sultan Mosque
+  - groupId: undefined -> []
+  - latitude: 1.302 -> 1.302145
+  - longitude: 103.859 -> 103.859360
+- `2806` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - groupId: undefined -> []
+  - latitude: 1.361 -> 1.361253
+  - longitude: 103.938 -> 103.937586
+- `2807` FairPrice Tampines Mall
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.352457
+  - longitude: 103.945 -> 103.944670
+- `2808` Blk 216 Bedok North Street 1 Market & Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.327869
+  - longitude: 103.933 -> 103.933200
+- `2809` 208B New Upper Changi Road Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.325 -> 1.324687
+  - longitude: 103.930 -> 103.930300
+- `281` 160 Woodlands Street 13
+  - groupId: undefined -> []
+  - latitude: 1.433 -> 1.433329
+  - longitude: 103.775 -> 103.774652
+- `2810` Blk 608, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.331854
+  - longitude: 103.913 -> 103.913193
+- `2811` Singapore University of Technology and Design (SUTD)
+  - groupId: undefined -> []
+  - latitude: 1.342 -> 1.342291
+  - longitude: 103.963 -> 103.963400
+- `2813` Blk 701, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.338 -> 1.337919
+  - longitude: 103.919 -> 103.918600
+- `2815` Blk 69 Geylang Bahru Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.322 -> 1.321556
+  - longitude: 103.870 -> 103.870089
+- `2816` NESST Tukang Dormitory
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.325986
+  - longitude: 103.715 -> 103.715167
+- `2817` Block 108B Bidadari Park Drive
+  - groupId: undefined -> []
+  - latitude: 1.333 -> 1.333470
+  - longitude: 103.872 -> 103.871813
+- `2818` Block 118A Bidadari Park Drive
+  - groupId: undefined -> []
+  - latitude: 1.337 -> 1.336620
+  - longitude: 103.873 -> 103.873417
+- `2819` Block 112A Bidadari Park Drive
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.335356
+  - longitude: 103.873 -> 103.873274
+- `282` 310 Woodlands Street 31
+  - groupId: undefined -> []
+  - latitude: 1.430 -> 1.430135
+  - longitude: 103.776 -> 103.775970
+- `2820` Block 101 Bidadari Park Drive
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.336149
+  - longitude: 103.871 -> 103.871464
+- `2821` ASPRI-D Wall Papan Dormitory
+  - groupId: undefined -> []
+  - latitude: 1.322 -> 1.322238
+  - longitude: 103.731 -> 103.731053
+- `2822` Singapore Zoo
+  - groupId: undefined -> []
+  - latitude: 1.404 -> 1.404353
+  - longitude: 103.790 -> 103.790448
+- `2823` Bird Paradise
+  - groupId: undefined -> []
+  - latitude: 1.407 -> 1.406532
+  - longitude: 103.781 -> 103.781264
+- `2824` Penjuru Recreation Centre
+  - groupId: undefined -> []
+  - latitude: 1.319 -> 1.318843
+  - longitude: 103.733 -> 103.732684
+- `2825` Chong Pang Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.432 -> 1.431997
+  - longitude: 103.828 -> 103.828148
+- `2827` 138 Yishun Ring Road, Singapore 760138
+  - groupId: undefined -> []
+  - latitude: 1.432 -> 1.431860
+  - longitude: 103.831 -> 103.830624
+- `2828` West 1800 Dormitory
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.326100
+  - longitude: 103.735 -> 103.734863
+- `2829` 204 Clementi Ave 6, Singapore 120204
+  - groupId: undefined -> []
+  - latitude: 1.321 -> 1.321146
+  - longitude: 103.763 -> 103.763441
+- `284` 103 Clementi Street 14
+  - groupId: undefined -> []
+  - latitude: 1.323 -> 1.322680
+  - longitude: 103.769 -> 103.768880
+- `2866` SCARLETT@PASIR RIS MALL
+  - groupId: undefined -> []
+  - latitude: 1.374 -> 1.373863
+  - longitude: 103.949 -> 103.948540
+- `2870` 117 Aljunied Ave 2 Market & Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.321 -> 1.320963
+  - longitude: 103.887 -> 103.886900
+- `2871` FairPrice Finest Sceneca Square
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.328028
+  - longitude: 103.945 -> 103.945200
+- `2872` FORTUNE SUPERMARKET 780
+  - groupId: undefined -> []
+  - latitude: 1.448 -> 1.448090
+  - longitude: 103.801 -> 103.800900
+- `2873` Westlite Jalan Tukang Dormitory
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.326253
+  - longitude: 103.717 -> 103.716924
+- `2875` 16 Bedok South Rd Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.321 -> 1.320793
+  - longitude: 103.935 -> 103.935400
+- `2879` Sims Vista Market & Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.317 -> 1.317098
+  - longitude: 103.879 -> 103.879373
+- `2883` Blk 514, Bedok North Ave 2
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.332236
+  - longitude: 103.929 -> 103.928900
+- `2884` SHENG SIONG BLK 845 YISHUN ST 81
+  - groupId: undefined -> []
+  - latitude: 1.416 -> 1.416050
+  - longitude: 103.835 -> 103.834900
+- `2885` 510 Jurong West Street 51
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.348380
+  - longitude: 103.719 -> 103.719460
+- `2886` Blk 17 Upper Boon Keng Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.315 -> 1.314861
+  - longitude: 103.872 -> 103.871653
+- `2887` Little India Rowell Rd
+  - groupId: undefined -> []
+  - latitude: 1.308 -> 1.308205
+  - longitude: 103.855 -> 103.855088
+- `2888` Whampoa Market
+  - groupId: undefined -> []
+  - latitude: 1.323 -> 1.323021
+  - longitude: 103.855 -> 103.855402
+- `2889` Kukoh 21 Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.288 -> 1.288286
+  - longitude: 103.840 -> 103.839885
+- `2890` Blk 501, Bedok North Street 3
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.331915
+  - longitude: 103.931 -> 103.930900
+- `2891` Gardens by the Bay
+  - groupId: undefined -> []
+  - latitude: 1.282 -> 1.281803
+  - longitude: 103.866 -> 103.865821
+- `2892` Bendemeer Market and Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.319 -> 1.319110
+  - longitude: 103.863 -> 103.863132
+- `2893` Cheng Yan Court - 269 Queen Street
+  - groupId: undefined -> []
+  - latitude: 1.301 -> 1.300995
+  - longitude: 103.854 -> 103.854098
+- `2894` Blk 5036 Ang Mo Kio Ind Park 2
+  - groupId: undefined -> []
+  - latitude: 1.372 -> 1.372337
+  - longitude: 103.862 -> 103.861782
+- `2895` Hong Lim Food Centre and Market
+  - groupId: undefined -> []
+  - latitude: 1.285 -> 1.285402
+  - longitude: 103.846 -> 103.845829
+- `2896` Ngee Ann Polytechnic (NP)
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.332445
+  - longitude: 103.776 -> 103.775728
+- `2897` Blk 10 AMK Autopoint
+  - groupId: undefined -> []
+  - latitude: 1.376 -> 1.376406
+  - longitude: 103.869 -> 103.868963
+- `2898` Fair Price Hougang Mall
+  - groupId: undefined -> [45]
+  - latitude: 1.373 -> 1.372723
+  - longitude: 103.894 -> 103.893806
+- `2899` Nanyang Polytechnic (NYP)
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.380104
+  - longitude: 103.849 -> 103.848796
+- `2900` Block 75B Redhill Rd
+  - groupId: undefined -> []
+  - latitude: 1.288 -> 1.288500
+  - longitude: 103.816 -> 103.816065
+- `2901` Block 118 Bukit Merah View
+  - groupId: undefined -> []
+  - latitude: 1.284 -> 1.284208
+  - longitude: 103.821 -> 103.820983
+- `2902` Block 19 Jalan Membina
+  - groupId: undefined -> []
+  - latitude: 1.286 -> 1.285671
+  - longitude: 103.826 -> 103.826387
+- `2903` Block 118B Jalan Membina
+  - groupId: undefined -> []
+  - latitude: 1.282 -> 1.281797
+  - longitude: 103.826 -> 103.826025
+- `2904` Block 102 Bukit Purmei Road
+  - groupId: undefined -> []
+  - latitude: 1.272 -> 1.271908
+  - longitude: 103.827 -> 103.826735
+- `2905` Block 150 Mei Ling St
+  - groupId: undefined -> []
+  - latitude: 1.295 -> 1.294974
+  - longitude: 103.804 -> 103.804150
+- `2906` Block 49 Lengkok Bahru
+  - groupId: undefined -> []
+  - latitude: 1.288 -> 1.287609
+  - longitude: 103.812 -> 103.811998
+- `2907` Block 52 Lengkok Bahru
+  - groupId: undefined -> []
+  - latitude: 1.289 -> 1.288689
+  - longitude: 103.813 -> 103.813038
+- `2908` Block 1 Dover Rd
+  - groupId: undefined -> []
+  - latitude: 1.303 -> 1.302527
+  - longitude: 103.783 -> 103.783194
+- `2909` Block 22 Dover Crescent
+  - groupId: undefined -> []
+  - latitude: 1.307 -> 1.307074
+  - longitude: 103.784 -> 103.783808
+- `2910` Block 94 Dawson Road
+  - groupId: undefined -> []
+  - latitude: 1.296 -> 1.295970
+  - longitude: 103.812 -> 103.811560
+- `2911` Block 69 Telok Blangah Heights
+  - groupId: undefined -> []
+  - latitude: 1.276 -> 1.275572
+  - longitude: 103.811 -> 103.810617
+- `2912` FairPrice 289A Toh Guan
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.340151
+  - longitude: 103.745 -> 103.745248
+- `2945` Blk 409 Ang Mo Kio Ave 10 Market & Hawker Centre
+  - groupId: undefined -> []
+  - latitude: 1.363 -> 1.362706
+  - longitude: 103.855 -> 103.855339
+- `2946` Blk 518, Bedok North Ave 2
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.331881
+  - longitude: 103.929 -> 103.928900
+- `2947` Block 52A Commonwealth Dr
+  - groupId: undefined -> []
+  - latitude: 1.302 -> 1.301941
+  - longitude: 103.797 -> 103.796956
+- `2948` Block 81 Redhill Ln
+  - groupId: undefined -> []
+  - latitude: 1.288 -> 1.287878
+  - longitude: 103.819 -> 103.819432
+- `2949` Block 69 Redhill Cl
+  - groupId: undefined -> []
+  - latitude: 1.287 -> 1.286724
+  - longitude: 103.816 -> 103.816431
+- `2950` Singapore Management University (SMU)
+  - groupId: undefined -> []
+  - latitude: 1.296 -> 1.296440
+  - longitude: 103.850 -> 103.849770
+- `2951` Blk 36 Sin Ming Industrial Estate
+  - groupId: undefined -> []
+  - latitude: 1.359 -> 1.358835
+  - longitude: 103.839 -> 103.838853
+- `2952` Singapore University of Social Sciences (SUSS)
+  - groupId: undefined -> []
+  - latitude: 1.329 -> 1.328704
+  - longitude: 103.776 -> 103.775820
+- `2953` Punggol Way Dorm, Sharbesuwary Pte Ltd
+  - groupId: undefined -> []
+  - latitude: 1.418 -> 1.417671
+  - longitude: 103.907 -> 103.907279
+- `2954` Blk 1 AMK Tech I
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.378322
+  - longitude: 103.868 -> 103.868337
+- `2955` Blk 5058 Ang Mo Kio Ind Park 2
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.374977
+  - longitude: 103.860 -> 103.860302
+- `2956` Block 8 Tanjong Pagar Plaza
+  - groupId: undefined -> []
+  - latitude: 1.277 -> 1.277220
+  - longitude: 103.843 -> 103.842990
+- `2957` Block 8 Cantonment Cl
+  - groupId: undefined -> []
+  - latitude: 1.276 -> 1.275782
+  - longitude: 103.839 -> 103.838973
+- `2958` Block 3 Jalan Bukit Merah
+  - groupId: undefined -> []
+  - latitude: 1.287 -> 1.287053
+  - longitude: 103.807 -> 103.807486
+- `2959` Block 166 Stirling Road
+  - groupId: undefined -> []
+  - latitude: 1.291 -> 1.290950
+  - longitude: 103.802 -> 103.802210
+- `2960` Block 181 Stirling Rd
+  - groupId: undefined -> []
+  - latitude: 1.294 -> 1.294165
+  - longitude: 103.806 -> 103.805820
+- `2962` SHENG SIONG BLK 440 BUKIT BATOK WEST AVE 8
+  - groupId: undefined -> [35]
+  - latitude: 1.356 -> 1.355660
+  - longitude: 103.739 -> 103.739300
+- `2963` SHENG SIONG BLK 61 TEBAN GARDENS ROAD
+  - groupId: undefined -> []
+  - latitude: 1.322 -> 1.322120
+  - longitude: 103.738 -> 103.738400
+- `2966` 507 West Coast Drive
+  - groupId: undefined -> []
+  - latitude: 1.312 -> 1.312054
+  - longitude: 103.761 -> 103.760789
+- `2968` Block 294 Punggol Central
+  - groupId: undefined -> []
+  - latitude: 1.403 -> 1.403105
+  - longitude: 103.905 -> 103.904570
+- `2969` Block 668B Edgefield Plains
+  - groupId: undefined -> []
+  - latitude: 1.405 -> 1.404826
+  - longitude: 103.913 -> 103.912935
+- `2970` Block 165A Punggol Central
+  - groupId: undefined -> []
+  - latitude: 1.395 -> 1.394877
+  - longitude: 103.915 -> 103.914607
+- `2971` Block 655A Punggol East
+  - groupId: undefined -> []
+  - latitude: 1.400 -> 1.399616
+  - longitude: 103.920 -> 103.920499
+- `2972` Block 677A Punggol Drive
+  - groupId: undefined -> []
+  - latitude: 1.405 -> 1.405059
+  - longitude: 103.909 -> 103.909460
+- `2973` Block 684A Edgedale Plains
+  - groupId: undefined -> []
+  - latitude: 1.403 -> 1.402850
+  - longitude: 103.916 -> 103.915960
+- `2974` Block 624B Punggol Central
+  - groupId: undefined -> []
+  - latitude: 1.401 -> 1.400758
+  - longitude: 103.912 -> 103.911673
+- `2975` Block 632A Punggol Drive
+  - groupId: undefined -> []
+  - latitude: 1.401 -> 1.400598
+  - longitude: 103.913 -> 103.913451
+- `2976` Block 168A Punggol East
+  - groupId: undefined -> []
+  - latitude: 1.395 -> 1.394747
+  - longitude: 103.914 -> 103.914325
+- `2977` Block 647 Punggol Central
+  - groupId: undefined -> []
+  - latitude: 1.398 -> 1.398113
+  - longitude: 103.916 -> 103.915591
+- `2979` 801 West Coast Crescent
+  - groupId: undefined -> []
+  - latitude: 1.301 -> 1.300862
+  - longitude: 103.763 -> 103.763396
+- `2981` 444 Jurong West Ave 1, Singapore 640444
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.351944
+  - longitude: 103.719 -> 103.719070
+- `2982` 555 Jurong West Street 42
+  - groupId: undefined -> []
+  - latitude: 1.354 -> 1.353644
+  - longitude: 103.719 -> 103.718635
+- `2983` 518 Jurong West Street 52
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.345090
+  - longitude: 103.718 -> 103.718094
+- `2985` 689 Jurong West Central 1
+  - groupId: undefined -> []
+  - latitude: 1.341 -> 1.340977
+  - longitude: 103.706 -> 103.706335
+- `2986` 640 Jurong West Street 61
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.340108
+  - longitude: 103.696 -> 103.696496
+- `2987` 601 Jurong West Street 62
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.339834
+  - longitude: 103.700 -> 103.700294
+- `2988` 988A Jurong West Street 93
+  - groupId: undefined -> []
+  - latitude: 1.337 -> 1.336515
+  - longitude: 103.696 -> 103.695863
+- `2990` 238B Boon Lay Drive
+  - groupId: undefined -> []
+  - latitude: 1.342 -> 1.342022
+  - longitude: 103.710 -> 103.709918
+- `2991` 991B Upper Jurong Rd
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.335335
+  - longitude: 103.693 -> 103.693369
+- `2992` 183C Boon Lay Avenue
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.348694
+  - longitude: 103.709 -> 103.709210
+- `2999` 48 Teban Gardens Road
+  - groupId: undefined -> []
+  - latitude: 1.320 -> 1.320479
+  - longitude: 103.740 -> 103.739954
+- `3001` 414 Pandan Gardens Road
+  - groupId: undefined -> []
+  - latitude: 1.320 -> 1.320040
+  - longitude: 103.747 -> 103.747324
+- `3002` 60 Jurong West Central 3
+  - groupId: undefined -> []
+  - latitude: 1.340 -> 1.340462
+  - longitude: 103.704 -> 103.704359
+- `3003` 706 Jurong West Street 71
+  - groupId: undefined -> []
+  - latitude: 1.341 -> 1.341454
+  - longitude: 103.695 -> 103.694560
+- `3005` Block 308A Punggol Walk
+  - groupId: undefined -> []
+  - latitude: 1.406 -> 1.406444
+  - longitude: 103.901 -> 103.900817
+- `3006` Block 134 Edgedale Plains
+  - groupId: undefined -> []
+  - latitude: 1.393 -> 1.392853
+  - longitude: 103.910 -> 103.910117
+- `3007` Block 224C Sumang Lane
+  - groupId: undefined -> []
+  - latitude: 1.402 -> 1.401695
+  - longitude: 103.894 -> 103.894070
+- `3008` Block 217C Sumang Walk
+  - groupId: undefined -> []
+  - latitude: 1.402 -> 1.402206
+  - longitude: 103.896 -> 103.895884
+- `3009` Block 228A Punggol Field
+  - groupId: undefined -> []
+  - latitude: 1.404 -> 1.403636
+  - longitude: 103.892 -> 103.892022
+- `3010` Block 326B Sumang Walk
+  - groupId: undefined -> []
+  - latitude: 1.413 -> 1.412755
+  - longitude: 103.900 -> 103.899691
+- `3011` Block 423A Northshore Crescent
+  - groupId: undefined -> []
+  - latitude: 1.419 -> 1.419190
+  - longitude: 103.906 -> 103.905851
+- `3012` Block 232C Sumang Lane
+  - groupId: undefined -> []
+  - latitude: 1.402 -> 1.401888
+  - longitude: 103.890 -> 103.890179
+- `3013` 708 Clementi West Street 2
+  - groupId: undefined -> []
+  - latitude: 1.306 -> 1.305726
+  - longitude: 103.762 -> 103.761857
+- `3016` 509 Serangoon North Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.372 -> 1.372216
+  - longitude: 103.876 -> 103.876255
+- `3022` Block 400C Fernvale Ln
+  - groupId: undefined -> []
+  - latitude: 1.389 -> 1.389365
+  - longitude: 103.870 -> 103.869808
+- `3023` Block 410A Fernvale Rd
+  - groupId: undefined -> []
+  - latitude: 1.390 -> 1.390246
+  - longitude: 103.876 -> 103.875881
+- `3024` Block 538 Hougang Ave 8
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377722
+  - longitude: 103.890 -> 103.890303
+- `3025` Blk 648 Hougang Ave 8
+  - groupId: undefined -> []
+  - latitude: 1.372 -> 1.372214
+  - longitude: 103.880 -> 103.879874
+- `3026` Block 413B Fernvale Link
+  - groupId: undefined -> []
+  - latitude: 1.390 -> 1.389841
+  - longitude: 103.879 -> 103.879042
+- `3028` Haig Road Market & Cooked Food Centre
+  - groupId: undefined -> []
+  - latitude: 1.316 -> 1.315768
+  - longitude: 103.895 -> 103.895400
+- `3030` 467C Yishun Ave 6
+  - groupId: undefined -> []
+  - latitude: 1.427 -> 1.426831
+  - longitude: 103.851 -> 103.851389
+- `3031` 504 Yishun St 51, Singapore 760504
+  - groupId: undefined -> []
+  - latitude: 1.418 -> 1.418336
+  - longitude: 103.844 -> 103.844393
+- `3034` 406 Yishun Ave 6, Singapore 760406
+  - groupId: undefined -> []
+  - latitude: 1.426 -> 1.426080
+  - longitude: 103.849 -> 103.849286
+- `3035` 431A Yishun Ave 1, Singapore 761431
+  - groupId: undefined -> []
+  - latitude: 1.420 -> 1.419650
+  - longitude: 103.847 -> 103.847280
+- `3036` 439 Yishun Ave 11, Singapore 760439
+  - groupId: undefined -> []
+  - latitude: 1.422 -> 1.422091
+  - longitude: 103.846 -> 103.846445
+- `3037` 212 Ang Mo Kio Ave 3
+  - groupId: undefined -> []
+  - latitude: 1.369 -> 1.368933
+  - longitude: 103.842 -> 103.841594
+- `3038` Block 203 Ang Mo Kio Ave 3
+  - groupId: undefined -> []
+  - latitude: 1.368 -> 1.367978
+  - longitude: 103.844 -> 103.844373
+- `3039` Block 536 Ang Mo Kio Ave 10
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.374871
+  - longitude: 103.854 -> 103.854076
+- `3040` Block 953 Hougang Ave 9
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.376861
+  - longitude: 103.877 -> 103.877478
+- `3041` Block 920 Hougang Ave 9
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.376747
+  - longitude: 103.884 -> 103.883584
+- `3042` 442 Ang Mo Kio Avenue 10
+  - groupId: undefined -> []
+  - latitude: 1.366 -> 1.365732
+  - longitude: 103.855 -> 103.854708
+- `3043` 996C Buangkok Crescent
+  - groupId: undefined -> []
+  - latitude: 1.385 -> 1.385365
+  - longitude: 103.885 -> 103.885251
+- `3044` 531 Serangoon North Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.374 -> 1.374487
+  - longitude: 103.875 -> 103.875357
+- `3045` 526 Serangoon North Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.372 -> 1.371714
+  - longitude: 103.873 -> 103.873037
+- `3056` 868 Yishun Street 81, Singapore 760868
+  - groupId: undefined -> []
+  - latitude: 1.414 -> 1.413703
+  - longitude: 103.838 -> 103.837613
+- `3057` 627 Yishun Street 61, Singapore 760627
+  - groupId: undefined -> []
+  - latitude: 1.418 -> 1.417628
+  - longitude: 103.837 -> 103.836733
+- `3058` 259 Yishun Street 22, Singapore 760259
+  - groupId: undefined -> []
+  - latitude: 1.435 -> 1.434918
+  - longitude: 103.839 -> 103.839136
+- `3059` 383A Yishun Ave 6, Singapore 761383
+  - groupId: undefined -> []
+  - latitude: 1.431 -> 1.430837
+  - longitude: 103.848 -> 103.847854
+- `3060` Blk 145, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.335 -> 1.334534
+  - longitude: 103.912 -> 103.912000
+- `3061` FairPrice Punggol Waterway Point
+  - groupId: undefined -> []
+  - latitude: 1.407 -> 1.407000
+  - longitude: 103.902 -> 103.901600
+- `3067` Nanyang Academy of Fine Arts
+  - groupId: undefined -> []
+  - latitude: 1.300 -> 1.299899
+  - longitude: 103.851 -> 103.851210
+- `3068` Resorts World Sentosa
+  - groupId: undefined -> []
+  - latitude: 1.256 -> 1.255910
+  - longitude: 103.820 -> 103.820140
+- `3069` Lasalle College of the Arts
+  - groupId: undefined -> []
+  - latitude: 1.303 -> 1.302876
+  - longitude: 103.851 -> 103.851410
+- `3070` Block 104B Ang Mo Kio St 11
+  - groupId: undefined -> []
+  - latitude: 1.371 -> 1.371446
+  - longitude: 103.839 -> 103.838509
+- `3071` Block 511 Ang Mo Kio Ave 8
+  - groupId: undefined -> []
+  - latitude: 1.374 -> 1.373670
+  - longitude: 103.850 -> 103.850319
+- `3072` ST Food Court, #01-09 Sungei Tengah Lodge
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377643
+  - longitude: 103.718 -> 103.718008
+- `3073` ST Beer Garden, #01-10 Sungei Tengah Lodge
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377568
+  - longitude: 103.718 -> 103.717691
+- `3074` 783 Yishun Ring Road, Singapore 760783
+  - groupId: undefined -> []
+  - latitude: 1.422 -> 1.421833
+  - longitude: 103.832 -> 103.832388
+- `3075` 858 Yishun Ave 4, Singapore 760858
+  - groupId: undefined -> []
+  - latitude: 1.418 -> 1.417671
+  - longitude: 103.838 -> 103.838460
+- `3076` 821 Yishun Street 81, Singapore 760821
+  - groupId: undefined -> []
+  - latitude: 1.413 -> 1.413370
+  - longitude: 103.834 -> 103.834094
+- `3077` 799 Yishun Ring Rd, Singapore 760799
+  - groupId: undefined -> []
+  - latitude: 1.419 -> 1.419226
+  - longitude: 103.833 -> 103.832506
+- `3078` 512B Yishun St 51, Singapore 762512
+  - groupId: undefined -> []
+  - latitude: 1.415 -> 1.414528
+  - longitude: 103.842 -> 103.841851
+- `363` Block 114 Edgefield Plains
+  - groupId: undefined -> []
+  - latitude: 1.396 -> 1.395677
+  - longitude: 103.907 -> 103.907358
+- `367` Block 126A Edgedale Plains
+  - groupId: undefined -> []
+  - latitude: 1.394 -> 1.394238
+  - longitude: 103.912 -> 103.911723
+- `368` Block 185 Edgefield Plains
+  - groupId: undefined -> []
+  - latitude: 1.398 -> 1.398223
+  - longitude: 103.910 -> 103.910406
+- `369` Block 204A Punggol Field
+  - groupId: undefined -> []
+  - latitude: 1.399 -> 1.398894
+  - longitude: 103.903 -> 103.902914
+- `371` 168 Woodlands Street 11
+  - groupId: undefined -> []
+  - latitude: 1.433 -> 1.432979
+  - longitude: 103.776 -> 103.776415
+- `372` 297C Choa Chu Kang Ave 2
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377770
+  - longitude: 103.743 -> 103.743170
+- `373` 219 Choa Chu Kang Central
+  - groupId: undefined -> []
+  - latitude: 1.383 -> 1.382740
+  - longitude: 103.746 -> 103.745520
+- `374` 454 Fajar Rd
+  - groupId: undefined -> []
+  - latitude: 1.385 -> 1.384600
+  - longitude: 103.771 -> 103.771310
+- `375` 418 Fajar Rd
+  - groupId: undefined -> []
+  - latitude: 1.384 -> 1.384290
+  - longitude: 103.769 -> 103.768880
+- `376` 319 Clementi Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.318 -> 1.317501
+  - longitude: 103.765 -> 103.764808
+- `377` 233 Pending Rd, #08-11
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.376580
+  - longitude: 103.772 -> 103.771770
+- `379` 213 Petir Rd
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.374581
+  - longitude: 103.775 -> 103.775406
+- `380` 708 Choa Chu Kang Street 53
+  - groupId: undefined -> []
+  - latitude: 1.392 -> 1.391600
+  - longitude: 103.747 -> 103.746970
+- `381` 685C Choa Chu Kang Cres
+  - groupId: undefined -> []
+  - latitude: 1.403 -> 1.403421
+  - longitude: 103.749 -> 103.748610
+- `382` 461 Segar Rd
+  - groupId: undefined -> []
+  - latitude: 1.387 -> 1.387050
+  - longitude: 103.771 -> 103.771000
+- `383` 406 Fajar Rd
+  - groupId: undefined -> []
+  - latitude: 1.382 -> 1.381840
+  - longitude: 103.767 -> 103.767490
+- `384` 175 Lompang Rd
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.379810
+  - longitude: 103.766 -> 103.765960
+- `385` 188 Bukit Batok West Ave 6
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.346373
+  - longitude: 103.746 -> 103.745765
+- `386` 234 Choa Chu Kang Central
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.380196
+  - longitude: 103.748 -> 103.748357
+- `387` 372 Jurong East Street 32
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.348650
+  - longitude: 103.732 -> 103.731810
+- `389` 671 Yishun Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.419 -> 1.419108
+  - longitude: 103.841 -> 103.841397
+- `390` 272 Bangkit Rd
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.377453
+  - longitude: 103.775 -> 103.774742
+- `391` 808B Choa Chu Kang Ave 1
+  - groupId: undefined -> []
+  - latitude: 1.376 -> 1.375630
+  - longitude: 103.746 -> 103.745790
+- `392` 536 Choa Chu Kang Street 51
+  - groupId: undefined -> []
+  - latitude: 1.392 -> 1.391850
+  - longitude: 103.744 -> 103.744040
+- `393` 677 Choa Chu Kang Cres
+  - groupId: undefined -> []
+  - latitude: 1.437 -> 1.436993
+  - longitude: 103.777 -> 103.777357
+- `394` 527 Choa Chu Kang Street 51
+  - groupId: undefined -> []
+  - latitude: 1.392 -> 1.391880
+  - longitude: 103.741 -> 103.741450
+- `395` 625 Choa Chu Kang Street 62
+  - groupId: undefined -> []
+  - latitude: 1.398 -> 1.398201
+  - longitude: 103.747 -> 103.747114
+- `397` 167 Petir Rd
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377630
+  - longitude: 103.765 -> 103.764760
+- `398` 601 Choa Chu Kang Street 62
+  - groupId: undefined -> []
+  - latitude: 1.397 -> 1.396950
+  - longitude: 103.745 -> 103.744890
+- `399` 486 Choa Chu Kang Ave 5
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.375462
+  - longitude: 103.738 -> 103.738362
+- `400` 760 Choa Chu Kang North 5
+  - groupId: undefined -> []
+  - latitude: 1.393 -> 1.393090
+  - longitude: 103.747 -> 103.747300
+- `401` 162 Bukit Batok Street 11
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.348282
+  - longitude: 103.748 -> 103.748058
+- `403` 210 Bukit Batok Street 21
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.345456
+  - longitude: 103.750 -> 103.749873
+- `406` 505 Choa Chu Kang Street 51
+  - groupId: undefined -> []
+  - latitude: 1.389 -> 1.389010
+  - longitude: 103.742 -> 103.742063
+- `407` 437 Fajar Rd, Block 437
+  - groupId: undefined -> []
+  - latitude: 1.383 -> 1.382590
+  - longitude: 103.770 -> 103.769520
+- `408` 493 Jurong West Street 41
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.349010
+  - longitude: 103.725 -> 103.724890
+- `409` 432 Choa Chu Kang Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.385 -> 1.384650
+  - longitude: 103.742 -> 103.741793
+- `410` 290 Choa Chu Kang Ave 3
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.378830
+  - longitude: 103.740 -> 103.740390
+- `411` 238 Bukit Batok East Ave 5
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.349897
+  - longitude: 103.755 -> 103.754764
+- `412` 296B Bukit Batok Street 22
+  - groupId: undefined -> []
+  - latitude: 1.344 -> 1.343844
+  - longitude: 103.747 -> 103.747477
+- `413` 137 Teck Whye Ln
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.379964
+  - longitude: 103.753 -> 103.752869
+- `414` 473 Choa Chu Kang Ave 3
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.379451
+  - longitude: 103.738 -> 103.737833
+- `416` 164 Jln Teck Whye
+  - groupId: undefined -> []
+  - latitude: 1.381 -> 1.381310
+  - longitude: 103.756 -> 103.756400
+- `417` 230 Choa Chu Kang Central
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.380357
+  - longitude: 103.746 -> 103.746310
+- `418` 290B Bukit Batok Street 24
+  - groupId: undefined -> []
+  - latitude: 1.344 -> 1.343736
+  - longitude: 103.757 -> 103.756650
+- `420` 498 Jurong West Street 41
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.348820
+  - longitude: 103.724 -> 103.724430
+- `421` 639 Choa Chu Kang Street 64
+  - groupId: undefined -> []
+  - latitude: 1.398 -> 1.397740
+  - longitude: 103.749 -> 103.749048
+- `422` 488B Choa Chu Kang Ave 5
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.377060
+  - longitude: 103.739 -> 103.739330
+- `423` 125 Bukit Batok Central
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.351541
+  - longitude: 103.747 -> 103.746952
+- `425` 334D Yishun Street 31
+  - groupId: undefined -> []
+  - latitude: 1.432 -> 1.432400
+  - longitude: 103.847 -> 103.846680
+- `426` 454 Choa Chu Kang Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.379170
+  - longitude: 103.735 -> 103.734764
+- `427` 818B Choa Chu Kang Ave 1
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.377290
+  - longitude: 103.748 -> 103.748330
+- `428` 426 Choa Chu Kang Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.381 -> 1.380616
+  - longitude: 103.739 -> 103.739191
+- `429` 562 Choa Chu Kang Street 52
+  - groupId: undefined -> []
+  - latitude: 1.396 -> 1.396220
+  - longitude: 103.746 -> 103.745790
+- `430` 434 Bukit Panjang Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.385 -> 1.385396
+  - longitude: 103.770 -> 103.770494
+- `431` 228 Bukit Batok Central,
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.348700
+  - longitude: 103.754 -> 103.753760
+- `432` 442 Choa Chu Kang Ave 4
+  - groupId: undefined -> []
+  - latitude: 1.381 -> 1.380940
+  - longitude: 103.738 -> 103.737680
+- `433` 103 Bukit Batok Central
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.350119
+  - longitude: 103.745 -> 103.745366
+- `434` 517 Choa Chu Kang Street 51
+  - groupId: undefined -> []
+  - latitude: 1.391 -> 1.390720
+  - longitude: 103.743 -> 103.742960
+- `436` 340 Choa Chu Kang Loop
+  - groupId: undefined -> []
+  - latitude: 1.384 -> 1.384192
+  - longitude: 103.745 -> 103.745490
+- `437` 464 Jurong West Street 41
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.350350
+  - longitude: 103.722 -> 103.722340
+- `438` 413 Saujana Rd
+  - groupId: undefined -> []
+  - latitude: 1.382 -> 1.382334
+  - longitude: 103.769 -> 103.768549
+- `439` 169 Bukit Batok West Ave 8
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.346742
+  - longitude: 103.741 -> 103.740833
+- `440` 764 Jurong West Street 74
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.349460
+  - longitude: 103.698 -> 103.698420
+- `441` 550 Choa Chu Kang Street 52
+  - groupId: undefined -> []
+  - latitude: 1.394 -> 1.394065
+  - longitude: 103.743 -> 103.742722
+- `442` 251 Bangkit Rd,
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.380160
+  - longitude: 103.774 -> 103.773680
+- `443` 308 Jurong East Street 32
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.347320
+  - longitude: 103.734 -> 103.734449
+- `444` 308 Bukit Batok Street 31
+  - groupId: undefined -> []
+  - latitude: 1.357 -> 1.357472
+  - longitude: 103.748 -> 103.747972
+- `445` 242 Bukit Panjang Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.380229
+  - longitude: 103.772 -> 103.772150
+- `447` Block 447A Punggol Way
+  - groupId: undefined -> []
+  - latitude: 1.418 -> 1.417658
+  - longitude: 103.912 -> 103.912187
+- `448` Block 310C Punggol Walk
+  - groupId: undefined -> []
+  - latitude: 1.410 -> 1.409698
+  - longitude: 103.900 -> 103.900196
+- `449` Block 435 Northshore Drive
+  - groupId: undefined -> []
+  - latitude: 1.419 -> 1.418507
+  - longitude: 103.910 -> 103.910157
+- `450` Block 411A Northshore Drive
+  - groupId: undefined -> []
+  - latitude: 1.418 -> 1.418358
+  - longitude: 103.906 -> 103.905768
+- `451` 316 Jurong East Street 32
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.347050
+  - longitude: 103.732 -> 103.732160
+- `452` 320 Jurong East Street 31
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.348439
+  - longitude: 103.731 -> 103.731003
+- `453` 340 Jurong East Ave 1
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.350279
+  - longitude: 103.731 -> 103.730665
+- `455` 475 Jurong West Street 41
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.346831
+  - longitude: 103.724 -> 103.724433
+- `456` 458 Jurong West Street 41
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.350219
+  - longitude: 103.720 -> 103.719861
+- `457` 461A Bukit Batok West Ave 8
+  - groupId: undefined -> []
+  - latitude: 1.355 -> 1.355350
+  - longitude: 103.740 -> 103.740090
+- `458` 330 Clementi Ave 2
+  - groupId: undefined -> []
+  - latitude: 1.314 -> 1.313743
+  - longitude: 103.768 -> 103.767828
+- `459` 435C Bukit Batok West Ave. 5
+  - groupId: undefined -> []
+  - latitude: 1.358 -> 1.358376
+  - longitude: 103.740 -> 103.740093
+- `460` 317 Jurong East Street 31
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.346870
+  - longitude: 103.731 -> 103.731240
+- `461` 248 Bukit Batok East Avenue 5
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.350328
+  - longitude: 103.756 -> 103.756482
+- `462` 369 Bukit Batok Street 31
+  - groupId: undefined -> []
+  - latitude: 1.360 -> 1.360010
+  - longitude: 103.750 -> 103.750393
+- `463` 325 Jurong East Street 31
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.348810
+  - longitude: 103.729 -> 103.728940
+- `464` 288D Bukit Batok Street 25
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.345810
+  - longitude: 103.759 -> 103.759100
+- `465` 350 Bukit Batok Street 34
+  - groupId: undefined -> []
+  - latitude: 1.362 -> 1.361718
+  - longitude: 103.749 -> 103.749146
+- `466` 480 Jurong West Street 41
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.347320
+  - longitude: 103.724 -> 103.724000
+- `467` 15 Teck Whye Ln
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.379105
+  - longitude: 103.754 -> 103.754402
+- `468` 138 Bukit Batok West Ave 6
+  - groupId: undefined -> []
+  - latitude: 1.351 -> 1.350551
+  - longitude: 103.744 -> 103.744416
+- `469` 181 Jelebu Rd
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.379310
+  - longitude: 103.763 -> 103.762910
+- `470` 164 Bukit Batok Street 11
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.347740
+  - longitude: 103.743 -> 103.742810
+- `477` 757 Yishun Street 72 
+  - groupId: undefined -> []
+  - latitude: 1.427 -> 1.426585
+  - longitude: 103.834 -> 103.834060
+- `479` 636 Yishun Street 61
+  - groupId: undefined -> []
+  - latitude: 1.420 -> 1.419655
+  - longitude: 103.839 -> 103.839067
+- `483` 274 Choa Chu Kang Ave 2
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.379370
+  - longitude: 103.743 -> 103.742820
+- `487` 654 Yishun Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.423 -> 1.422984
+  - longitude: 103.840 -> 103.840497
+- `492` 112 Teck Whye Ln
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377645
+  - longitude: 103.752 -> 103.752334
+- `506` 213 Yishun Street 21
+  - groupId: undefined -> []
+  - latitude: 1.432 -> 1.431849
+  - longitude: 103.836 -> 103.836330
+- `511` 676C Yishun Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.422 -> 1.421540
+  - longitude: 103.842 -> 103.842280
+- `512` 365 Yishun Ring Rd
+  - groupId: undefined -> []
+  - latitude: 1.429 -> 1.429250
+  - longitude: 103.845 -> 103.845190
+- `514` 771 Yishun Ave 3
+  - groupId: undefined -> []
+  - latitude: 1.424 -> 1.423960
+  - longitude: 103.833 -> 103.832600
+- `524` 379 Clementi Ave 5
+  - groupId: undefined -> []
+  - latitude: 1.318 -> 1.317909
+  - longitude: 103.768 -> 103.767796
+- `532` 935 Yishun Central 1
+  - groupId: undefined -> []
+  - latitude: 1.425 -> 1.425173
+  - longitude: 103.837 -> 103.836800
+- `545` 701 Yishun Ave 5
+  - groupId: undefined -> []
+  - latitude: 1.430 -> 1.429999
+  - longitude: 103.829 -> 103.828719
+- `546` 726 Yishun Street 71
+  - groupId: undefined -> []
+  - latitude: 1.427 -> 1.426660
+  - longitude: 103.831 -> 103.830850
+- `547` 641 Yishun Street 61
+  - groupId: undefined -> []
+  - latitude: 1.421 -> 1.420830
+  - longitude: 103.838 -> 103.838311
+- `565` 721 Yishun Street 71
+  - groupId: undefined -> []
+  - latitude: 1.426 -> 1.426106
+  - longitude: 103.829 -> 103.828910
+- `569` 207 Boon Lay Place
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.346683
+  - longitude: 103.714 -> 103.713592
+- `580` Blk 886,Tampines Street 83
+  - groupId: undefined -> []
+  - latitude: 1.351 -> 1.351229
+  - longitude: 103.932 -> 103.932022
+- `581` Blk 637, Bedok Reservoir Road
+  - groupId: undefined -> []
+  - latitude: 1.331 -> 1.331076
+  - longitude: 103.904 -> 103.904034
+- `582` Blk 406,Tampines Street 41
+  - groupId: undefined -> []
+  - latitude: 1.358 -> 1.358141
+  - longitude: 103.946 -> 103.945919
+- `583` Blk 426 Tampines Street 41
+  - groupId: undefined -> []
+  - latitude: 1.360 -> 1.359568
+  - longitude: 103.948 -> 103.947962
+- `584` Blk 485A, Tampines Avenue 9
+  - groupId: undefined -> []
+  - latitude: 1.360 -> 1.360022
+  - longitude: 103.956 -> 103.955737
+- `585` Blk 911,Tampines Street 91
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.349904
+  - longitude: 103.940 -> 103.939856
+- `586` Blk 954C,Tampines Street 96
+  - groupId: undefined -> []
+  - latitude: 1.342 -> 1.342494
+  - longitude: 103.937 -> 103.937082
+- `587` Blk 874,Tampines Street 84
+  - groupId: undefined -> []
+  - latitude: 1.353 -> 1.353430
+  - longitude: 103.933 -> 103.932596
+- `588` Blk 872,Tampines Street 84
+  - groupId: undefined -> []
+  - latitude: 1.354 -> 1.354250
+  - longitude: 103.932 -> 103.932323
+- `595` ANG MO SUPERMARKET-622B TAMPINES AVE 12
+  - groupId: undefined -> [92]
+  - latitude: 1.361 -> 1.360888
+  - longitude: 103.941 -> 103.941200
+- `731` Blk 106, Bedok North Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.334 -> 1.334419
+  - longitude: 103.937 -> 103.937075
+- `732` Blk 113, Bedok North Street 2
+  - groupId: undefined -> []
+  - latitude: 1.330 -> 1.330436
+  - longitude: 103.935 -> 103.935189
+- `764` Blk 42, Cassia Crescent
+  - groupId: undefined -> []
+  - latitude: 1.310 -> 1.310410
+  - longitude: 103.886 -> 103.886295
+- `768` Blk 356D, Ubi Road 3
+  - groupId: undefined -> []
+  - latitude: 1.327 -> 1.326912
+  - longitude: 103.900 -> 103.900082
+- `769` Blk 108, Lengkong Tiga
+  - groupId: undefined -> []
+  - latitude: 1.325 -> 1.324655
+  - longitude: 103.910 -> 103.910244
+- `770` Blk 74, Marine Drive
+  - groupId: undefined -> []
+  - latitude: 1.304 -> 1.303615
+  - longitude: 103.907 -> 103.907214
+- `771` Blk 47, Marine Crescent
+  - groupId: undefined -> []
+  - latitude: 1.306 -> 1.305716
+  - longitude: 103.912 -> 103.912368
+- `772` Blk 47, Jln Tiga
+  - groupId: undefined -> []
+  - latitude: 1.309 -> 1.308835
+  - longitude: 103.885 -> 103.884949
+- `774` Blk 64, Marine Drive
+  - groupId: undefined -> []
+  - latitude: 1.302 -> 1.301955
+  - longitude: 103.909 -> 103.909174
+- `775` Blk 55, Chai Chee Drive
+  - groupId: undefined -> []
+  - latitude: 1.327 -> 1.327172
+  - longitude: 103.919 -> 103.919338
+- `776` Blk 55, New Upper Changi Road
+  - groupId: undefined -> []
+  - latitude: 1.325 -> 1.325114
+  - longitude: 103.942 -> 103.942076
+- `777` Blk 319, Ubi Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.328208
+  - longitude: 103.903 -> 103.903477
+- `778` Blk 115, Lengkong Tiga
+  - groupId: undefined -> []
+  - latitude: 1.323 -> 1.323104
+  - longitude: 103.911 -> 103.911347
+- `779` Blk 61, Chai Chee Road
+  - groupId: undefined -> []
+  - latitude: 1.325 -> 1.325090
+  - longitude: 103.921 -> 103.920749
+- `780` Blk 61, New Upper Changi Road
+  - groupId: undefined -> []
+  - latitude: 1.323 -> 1.322779
+  - longitude: 103.941 -> 103.940762
+- `781` Blk 330, Ubi Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.327 -> 1.326548
+  - longitude: 103.904 -> 103.904139
+- `782` Blk 104, Lengkong Tiga
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.325839
+  - longitude: 103.910 -> 103.909919
+- `783` Blk 9, Eunos Crescent
+  - groupId: undefined -> []
+  - latitude: 1.322 -> 1.321871
+  - longitude: 103.903 -> 103.902751
+- `784` Blk 10, Pine Close
+  - groupId: undefined -> []
+  - latitude: 1.309 -> 1.309170
+  - longitude: 103.882 -> 103.882149
+- `785` Blk 846, Sims Avenue
+  - groupId: undefined -> []
+  - latitude: 1.318 -> 1.317591
+  - longitude: 103.902 -> 103.901699
+- `786` Blk 1, Bedok South Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.321 -> 1.320956
+  - longitude: 103.934 -> 103.933824
+- `787` Blk 417, Eunos Road 5
+  - groupId: undefined -> []
+  - latitude: 1.318 -> 1.318172
+  - longitude: 103.897 -> 103.897099
+- `788` Blk 22, Eunos Crescent
+  - groupId: undefined -> []
+  - latitude: 1.325 -> 1.324813
+  - longitude: 103.902 -> 103.902022
+- `789` Blk 2, Haig Road
+  - groupId: undefined -> []
+  - latitude: 1.313 -> 1.312510
+  - longitude: 103.898 -> 103.897617
+- `790` Blk 16, Eunos Crescent
+  - groupId: undefined -> []
+  - latitude: 1.323 -> 1.323072
+  - longitude: 103.904 -> 103.904452
+- `791` Blk 358D, Ubi Road 3
+  - groupId: undefined -> []
+  - latitude: 1.329 -> 1.329452
+  - longitude: 103.900 -> 103.899994
+- `792` Blk 358B, Ubi Road 3
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.328444
+  - longitude: 103.900 -> 103.900145
+- `793` Blk 3, Pine Close
+  - groupId: undefined -> []
+  - latitude: 1.307 -> 1.307050
+  - longitude: 103.883 -> 103.883244
+- `794` Blk 351, Ubi Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.325 -> 1.325495
+  - longitude: 103.901 -> 103.900544
+- `795` Blk 348, Ubi Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.326158
+  - longitude: 103.900 -> 103.900255
+- `796` Blk 105, Aljunied Crescent
+  - groupId: undefined -> []
+  - latitude: 1.319 -> 1.319470
+  - longitude: 103.883 -> 103.882743
+- `797` Blk 60, Dakota Crescent
+  - groupId: undefined -> []
+  - latitude: 1.308 -> 1.307678
+  - longitude: 103.889 -> 103.888577
+- `798` Blk 28, Cassia Crescent
+  - groupId: undefined -> []
+  - latitude: 1.309 -> 1.308976
+  - longitude: 103.884 -> 103.883513
+- `799` Blk 126, Geylang East Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.318 -> 1.317859
+  - longitude: 103.887 -> 103.887015
+- `800` Blk 156, Bedok South Avenue 3
+  - groupId: undefined -> []
+  - latitude: 1.318 -> 1.318277
+  - longitude: 103.946 -> 103.945501
+- `801` Blk 1, Pine Close
+  - groupId: undefined -> []
+  - latitude: 1.308 -> 1.308194
+  - longitude: 103.884 -> 103.884076
+- `802` Blk 1, Kampong Kayu Rd
+  - groupId: undefined -> []
+  - latitude: 1.304 -> 1.303625
+  - longitude: 103.884 -> 103.883806
+- `803` Blk 4, Marine Ter
+  - groupId: undefined -> []
+  - latitude: 1.305 -> 1.305155
+  - longitude: 103.918 -> 103.917638
+- `804` Blk 36, Cassia Crescent
+  - groupId: undefined -> []
+  - latitude: 1.310 -> 1.309862
+  - longitude: 103.885 -> 103.885199
+- `805` Blk 55, Marine Ter
+  - groupId: undefined -> []
+  - latitude: 1.305 -> 1.305427
+  - longitude: 103.914 -> 103.913960
+- `806` Blk 14, Bedok South Ave 2
+  - groupId: undefined -> []
+  - latitude: 1.321 -> 1.321040
+  - longitude: 103.936 -> 103.936297
+- `807` Blk 30, Marine Crescent
+  - groupId: undefined -> []
+  - latitude: 1.304 -> 1.304170
+  - longitude: 103.911 -> 103.911178
+- `808` Blk 11, Haig Road
+  - groupId: undefined -> []
+  - latitude: 1.315 -> 1.314847
+  - longitude: 103.897 -> 103.896627
+- `809` Blk 8, Haig Road
+  - groupId: undefined -> []
+  - latitude: 1.314 -> 1.313668
+  - longitude: 103.896 -> 103.896069
+- `810` Blk 164, Bedok South Road
+  - groupId: undefined -> []
+  - latitude: 1.320 -> 1.320101
+  - longitude: 103.947 -> 103.946598
+- `811` Blk 29 New Upper Changi Road
+  - groupId: undefined -> []
+  - latitude: 1.324 -> 1.324267
+  - longitude: 103.937 -> 103.936926
+- `812` Blk 12, Pine Close
+  - groupId: undefined -> []
+  - latitude: 1.309 -> 1.308549
+  - longitude: 103.882 -> 103.882240
+- `813` Blk 22, Bedok South Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.323 -> 1.322814
+  - longitude: 103.933 -> 103.932759
+- `814` Blk 63, Chai Chee Road
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.326125
+  - longitude: 103.921 -> 103.921439
+- `815` Blk 169, Bedok South Avenue 3
+  - groupId: undefined -> []
+  - latitude: 1.320 -> 1.320389
+  - longitude: 103.945 -> 103.945078
+- `816` Blk 35, Chai Chee Avenue
+  - groupId: undefined -> []
+  - latitude: 1.325 -> 1.324824
+  - longitude: 103.926 -> 103.925856
+- `817` Blk 72, Bedok South Avenue 3
+  - groupId: undefined -> []
+  - latitude: 1.320 -> 1.320463
+  - longitude: 103.944 -> 103.943658
+- `818` Blk 99, Old Airport Road
+  - groupId: undefined -> []
+  - latitude: 1.309 -> 1.308716
+  - longitude: 103.889 -> 103.888567
+- `819` Blk 58, Dakota Crescent
+  - groupId: undefined -> []
+  - latitude: 1.307 -> 1.307400
+  - longitude: 103.889 -> 103.889457
+- `820` Blk 708, Pasir Ris Drive 10
+  - groupId: undefined -> []
+  - latitude: 1.381 -> 1.380955
+  - longitude: 103.939 -> 103.938592
+- `821` Blk 626, Pasir Ris Drive 3
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.379828
+  - longitude: 103.941 -> 103.940950
+- `822` Blk 473, Pasir Ris Drive 6
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.374509
+  - longitude: 103.957 -> 103.957351
+- `823` Blk 643, Pasir Ris Drive 10
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377722
+  - longitude: 103.938 -> 103.938100
+- `824` Blk 701, Pasir Ris Drive 10
+  - groupId: undefined -> []
+  - latitude: 1.380 -> 1.379991
+  - longitude: 103.938 -> 103.937891
+- `825` Blk 717, Pasir Ris Street 72
+  - groupId: undefined -> []
+  - latitude: 1.383 -> 1.382775
+  - longitude: 103.937 -> 103.936540
+- `826` Blk 638, Pasir Ris Drive 1
+  - groupId: undefined -> []
+  - latitude: 1.376 -> 1.376289
+  - longitude: 103.941 -> 103.940948
+- `827` Blk 641, Pasir Ris Drive 1
+  - groupId: undefined -> []
+  - latitude: 1.376 -> 1.376464
+  - longitude: 103.940 -> 103.939561
+- `828` Blk 516, Pasir Ris Street 52
+  - groupId: undefined -> []
+  - latitude: 1.374 -> 1.374103
+  - longitude: 103.943 -> 103.943086
+- `829` Blk 520, Pasir Ris Street 52
+  - groupId: undefined -> []
+  - latitude: 1.373 -> 1.373485
+  - longitude: 103.945 -> 103.944809
+- `830` Blk 602, Elias Road
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.377398
+  - longitude: 103.944 -> 103.943991
+- `831` Blk 159,Tampines Street 12
+  - groupId: undefined -> []
+  - latitude: 1.351 -> 1.351234
+  - longitude: 103.947 -> 103.946566
+- `832` Blk 585, Pasir Ris Street 53
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.375379
+  - longitude: 103.947 -> 103.947415
+- `833` Blk 534, Pasir Ris Drive 1
+  - groupId: undefined -> []
+  - latitude: 1.370 -> 1.370436
+  - longitude: 103.951 -> 103.950653
+- `834` Blk 408, Pasir Ris Drive 6
+  - groupId: undefined -> []
+  - latitude: 1.373 -> 1.373352
+  - longitude: 103.953 -> 103.953407
+- `835` Blk 423, Pasir Ris Drive 6
+  - groupId: undefined -> []
+  - latitude: 1.370 -> 1.370134
+  - longitude: 103.955 -> 103.954623
+- `836` Blk 725, Pasir Ris Street 72
+  - groupId: undefined -> []
+  - latitude: 1.381 -> 1.381415
+  - longitude: 103.936 -> 103.935717
+- `837` Blk 429, Pasir Ris Drive 6
+  - groupId: undefined -> []
+  - latitude: 1.370 -> 1.370086
+  - longitude: 103.957 -> 103.956706
+- `838` Blk 458, Pasir Ris Drive 4
+  - groupId: undefined -> []
+  - latitude: 1.371 -> 1.371461
+  - longitude: 103.960 -> 103.959558
+- `839` Blk 257, Pasir Ris Street 21
+  - groupId: undefined -> []
+  - latitude: 1.367 -> 1.367146
+  - longitude: 103.964 -> 103.963699
+- `840` Blk 232, Pasir Ris Drive 4
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.374647
+  - longitude: 103.962 -> 103.961678
+- `841` Blk 479, Pasir Ris Drive 4
+  - groupId: undefined -> []
+  - latitude: 1.375 -> 1.375174
+  - longitude: 103.959 -> 103.959131
+- `842` Blk 225, Pasir Ris Street 21
+  - groupId: undefined -> []
+  - latitude: 1.371 -> 1.371205
+  - longitude: 103.961 -> 103.961206
+- `843` Blk 756, Pasir Ris Street 71
+  - groupId: undefined -> []
+  - latitude: 1.378 -> 1.377878
+  - longitude: 103.933 -> 103.933500
+- `844` Blk 275, Pasir Ris Street 21
+  - groupId: undefined -> []
+  - latitude: 1.364 -> 1.364302
+  - longitude: 103.965 -> 103.964734
+- `845` Blk 209, Pasir Ris Street 21
+  - groupId: undefined -> []
+  - latitude: 1.366 -> 1.366227
+  - longitude: 103.962 -> 103.961897
+- `846` Blk 160, Pasir Ris Street 13
+  - groupId: undefined -> []
+  - latitude: 1.364 -> 1.364086
+  - longitude: 103.963 -> 103.962532
+- `847` Blk 496D,Tampines Avenue 9
+  - groupId: undefined -> []
+  - latitude: 1.362 -> 1.361588
+  - longitude: 103.950 -> 103.950069
+- `848` Blk 148, Pasir Ris Street 13
+  - groupId: undefined -> []
+  - latitude: 1.362 -> 1.362083
+  - longitude: 103.962 -> 103.962021
+- `849` Blk 298, Tampines Street 22
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.351725
+  - longitude: 103.955 -> 103.954740
+- `850` Blk 187, Pasir Ris Street 11
+  - groupId: undefined -> []
+  - latitude: 1.365 -> 1.364642
+  - longitude: 103.959 -> 103.959424
+- `851` Blk 555, Pasir Ris Street 51
+  - groupId: undefined -> []
+  - latitude: 1.368 -> 1.368100
+  - longitude: 103.952 -> 103.951947
+- `852` Blk 120, Pasir Ris Street 11
+  - groupId: undefined -> []
+  - latitude: 1.367 -> 1.367294
+  - longitude: 103.954 -> 103.954306
+- `853` Blk 132, Pasir Ris Street 11
+  - groupId: undefined -> []
+  - latitude: 1.366 -> 1.366157
+  - longitude: 103.956 -> 103.956082
+- `854` Blk 283, Tampines Street 22
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.348414
+  - longitude: 103.953 -> 103.952711
+- `855` Blk 564, Pasir Ris Street 51
+  - groupId: undefined -> []
+  - latitude: 1.368 -> 1.368401
+  - longitude: 103.950 -> 103.949848
+- `856` Blk 560, Pasir Ris Street 51
+  - groupId: undefined -> []
+  - latitude: 1.367 -> 1.366733
+  - longitude: 103.950 -> 103.950438
+- `857` Blk 105, Pasir Ris Street 12
+  - groupId: undefined -> []
+  - latitude: 1.369 -> 1.368540
+  - longitude: 103.957 -> 103.957228
+- `858` Blk 345, Tampines Street 33
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.351830
+  - longitude: 103.962 -> 103.962289
+- `859` Blk 526A, Pasir Ris Street 51
+  - groupId: undefined -> []
+  - latitude: 1.368 -> 1.367526
+  - longitude: 103.947 -> 103.947319
+- `860` Blk 191, Pasir Ris Street 12
+  - groupId: undefined -> []
+  - latitude: 1.366 -> 1.365943
+  - longitude: 103.959 -> 103.958702
+- `861` Blk 108, Tampines Street 11
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.347877
+  - longitude: 103.949 -> 103.948573
+- `862` Blk 289, Tampines Street 22
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.349608
+  - longitude: 103.955 -> 103.955359
+- `864` Blk 323, Tampines Street 33
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.351801
+  - longitude: 103.958 -> 103.958282
+- `865` Blk 165,Tampines Street 12
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.349292
+  - longitude: 103.946 -> 103.946122
+- `866` Blk 761, Pasir Ris Street 71
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.376560
+  - longitude: 103.933 -> 103.933397
+- `867` Blk 141, Pasir Ris Street 11
+  - groupId: undefined -> []
+  - latitude: 1.364 -> 1.364175
+  - longitude: 103.959 -> 103.958933
+- `868` Blk 524A, Pasir Ris Street 51
+  - groupId: undefined -> []
+  - latitude: 1.371 -> 1.371383
+  - longitude: 103.948 -> 103.947668
+- `869` Blk 103, Tampines Street 11
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.347656
+  - longitude: 103.946 -> 103.946448
+- `870` Blk 303, Tampines Street 32
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.351973
+  - longitude: 103.956 -> 103.955855
+- `871` Blk 782, Pasir Ris Street 71
+  - groupId: undefined -> []
+  - latitude: 1.373 -> 1.373377
+  - longitude: 103.939 -> 103.938893
+- `872` Blk 207, Tampines Street 21
+  - groupId: undefined -> []
+  - latitude: 1.351 -> 1.351321
+  - longitude: 103.952 -> 103.952108
+- `873` Blk 765, Bedok Reservoir View
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.336001
+  - longitude: 103.936 -> 103.935669
+- `874` Blk 490B, Tampines Street 45
+  - groupId: undefined -> []
+  - latitude: 1.363 -> 1.362560
+  - longitude: 103.956 -> 103.956210
+- `875` Blk 449,Tampines Street 42
+  - groupId: undefined -> []
+  - latitude: 1.357 -> 1.357065
+  - longitude: 103.951 -> 103.951055
+- `876` Blk 770, Bedok Reservoir View
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.336041
+  - longitude: 103.938 -> 103.938327
+- `877` Blk 78, Bedok North Road
+  - groupId: undefined -> []
+  - latitude: 1.327 -> 1.327268
+  - longitude: 103.941 -> 103.940910
+- `878` Blk 124, Simei Street 1
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.346276
+  - longitude: 103.953 -> 103.953278
+- `879` Blk 498A, Tampines Street 45
+  - groupId: undefined -> []
+  - latitude: 1.362 -> 1.361540
+  - longitude: 103.958 -> 103.958161
+- `880` Blk 130, Bedok North Street 2
+  - groupId: undefined -> []
+  - latitude: 1.327 -> 1.327106
+  - longitude: 103.937 -> 103.936654
+- `881` Blk 135, Simei Street 1
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.347932
+  - longitude: 103.957 -> 103.957136
+- `882` Blk 229, Tampines Street 23
+  - groupId: undefined -> []
+  - latitude: 1.356 -> 1.355900
+  - longitude: 103.954 -> 103.953963
+- `883` Blk 240, Tampines Street 21
+  - groupId: undefined -> []
+  - latitude: 1.355 -> 1.355006
+  - longitude: 103.947 -> 103.947127
+- `884` Blk 421, Bedok North Road
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.328365
+  - longitude: 103.929 -> 103.929006
+- `885` Blk 216, Tampines Street 23
+  - groupId: undefined -> []
+  - latitude: 1.354 -> 1.354056
+  - longitude: 103.953 -> 103.952876
+- `886` Blk 201, Bedok North Street 1
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.326058
+  - longitude: 103.928 -> 103.928398
+- `887` Blk 807A, Chai Chee Road
+  - groupId: undefined -> []
+  - latitude: 1.327 -> 1.327156
+  - longitude: 103.923 -> 103.923175
+- `888` Blk 409, Bedok North Avenue 2
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.328111
+  - longitude: 103.933 -> 103.932917
+- `889` Blk 94B, Bedok North Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.334 -> 1.334020
+  - longitude: 103.943 -> 103.942895
+- `890` Blk 633,Tampines North Drive 2
+  - groupId: undefined -> []
+  - latitude: 1.366 -> 1.365502
+  - longitude: 103.942 -> 103.941664
+- `891` Blk 747, Pasir Ris Street 71
+  - groupId: undefined -> []
+  - latitude: 1.379 -> 1.379182
+  - longitude: 103.935 -> 103.934695
+- `892` Blk 230D, Tampines Street 24
+  - groupId: undefined -> []
+  - latitude: 1.356 -> 1.356113
+  - longitude: 103.952 -> 103.951516
+- `893` Blk 610C,Tampines North Drive 1
+  - groupId: undefined -> []
+  - latitude: 1.364 -> 1.364489
+  - longitude: 103.935 -> 103.935430
+- `894` Blk 501, Pasir Ris Street 52
+  - groupId: undefined -> []
+  - latitude: 1.376 -> 1.376228
+  - longitude: 103.946 -> 103.945964
+- `895` Blk 862,Tampines Street 83
+  - groupId: undefined -> []
+  - latitude: 1.355 -> 1.354664
+  - longitude: 103.936 -> 103.936469
+- `896` Blk 641B,Tampines Street 62
+  - groupId: undefined -> []
+  - latitude: 1.367 -> 1.367461
+  - longitude: 103.944 -> 103.943686
+- `897` Blk 662C,Tampines Street 64
+  - groupId: undefined -> []
+  - latitude: 1.370 -> 1.369674
+  - longitude: 103.934 -> 103.933825
+- `898` Blk 497A, Tampines Street 45
+  - groupId: undefined -> []
+  - latitude: 1.359 -> 1.359312
+  - longitude: 103.959 -> 103.958616
+- `899` Blk 721,Tampines Street 71
+  - groupId: undefined -> []
+  - latitude: 1.360 -> 1.360078
+  - longitude: 103.936 -> 103.936343
+- `900` Blk 419, Pasir Ris Drive 6
+  - groupId: undefined -> []
+  - latitude: 1.372 -> 1.371633
+  - longitude: 103.955 -> 103.954625
+- `901` Blk 742 Pasir Ris Street 71
+  - groupId: undefined -> []
+  - latitude: 1.377 -> 1.377087
+  - longitude: 103.936 -> 103.936056
+- `902` Blk 771, Pasir Ris Street 71
+  - groupId: undefined -> []
+  - latitude: 1.376 -> 1.375610
+  - longitude: 103.936 -> 103.936483
+- `903` Blk 876C,Tampines Avenue 8
+  - groupId: undefined -> []
+  - latitude: 1.353 -> 1.353337
+  - longitude: 103.930 -> 103.930071
+- `904` Blk 481, Pasir Ris Drive 4
+  - groupId: undefined -> []
+  - latitude: 1.374 -> 1.374080
+  - longitude: 103.959 -> 103.958775
+- `905` Blk 660,Tampines Street 64
+  - groupId: undefined -> []
+  - latitude: 1.368 -> 1.367721
+  - longitude: 103.934 -> 103.933898
+- `906` Blk 871C,Tampines Street 86
+  - groupId: undefined -> []
+  - latitude: 1.357 -> 1.356827
+  - longitude: 103.931 -> 103.931452
+- `907` Blk 631B,Tampines North Drive 2
+  - groupId: undefined -> []
+  - latitude: 1.363 -> 1.362952
+  - longitude: 103.943 -> 103.942545
+- `908` Blk 117, Bedok North Road
+  - groupId: undefined -> []
+  - latitude: 1.331 -> 1.330649
+  - longitude: 103.939 -> 103.938520
+- `909` Blk 603A,Tampines Avenue 9
+  - groupId: undefined -> []
+  - latitude: 1.361 -> 1.360939
+  - longitude: 103.935 -> 103.935292
+- `910` Blk 635B,Tampines North Drive 2
+  - groupId: undefined -> []
+  - latitude: 1.367 -> 1.366929
+  - longitude: 103.940 -> 103.939810
+- `911` Blk 406, Bedok North Avenue 3
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.328199
+  - longitude: 103.934 -> 103.934460
+- `912` Blk 814,Tampines Street 81
+  - groupId: undefined -> []
+  - latitude: 1.347 -> 1.347290
+  - longitude: 103.937 -> 103.936654
+- `913` Blk 648A,Tampines Street 62
+  - groupId: undefined -> []
+  - latitude: 1.368 -> 1.368227
+  - longitude: 103.941 -> 103.940938
+- `914` Blk 899A,Tampines Street 81
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.346232
+  - longitude: 103.935 -> 103.935209
+- `915` Blk 706,Tampines Street 71
+  - groupId: undefined -> []
+  - latitude: 1.358 -> 1.357618
+  - longitude: 103.938 -> 103.937571
+- `916` Blk 806,Tampines Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.345486
+  - longitude: 103.937 -> 103.937151
+- `917` Blk 926,Tampines Street 91
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.345875
+  - longitude: 103.941 -> 103.940637
+- `918` Blk 461,Tampines Street 44
+  - groupId: undefined -> []
+  - latitude: 1.359 -> 1.358879
+  - longitude: 103.954 -> 103.954327
+- `919` Blk 145,Tampines Street 12
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.348792
+  - longitude: 103.944 -> 103.943737
+- `920` Blk 734,Tampines Street 71
+  - groupId: undefined -> []
+  - latitude: 1.358 -> 1.358202
+  - longitude: 103.934 -> 103.934357
+- `921` Blk 638A,Tampines Street 62
+  - groupId: undefined -> []
+  - latitude: 1.364 -> 1.364090
+  - longitude: 103.945 -> 103.944886
+- `922` Blk 740 Tampines Street 72
+  - groupId: undefined -> []
+  - latitude: 1.359 -> 1.359419
+  - longitude: 103.933 -> 103.932915
+- `923` Blk 762, Bedok Reservoir View
+  - groupId: undefined -> []
+  - latitude: 1.336 -> 1.336322
+  - longitude: 103.934 -> 103.934451
+- `924` Blk 491D,Tampines Street 45
+  - groupId: undefined -> []
+  - latitude: 1.363 -> 1.362507
+  - longitude: 103.955 -> 103.954789
+- `925` Blk 249, Tampines Street 21
+  - groupId: undefined -> []
+  - latitude: 1.352 -> 1.351822
+  - longitude: 103.949 -> 103.948692
+- `926` Blk 53, Chai Chee Street
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.328486
+  - longitude: 103.920 -> 103.919882
+- `927` Blk 854,Tampines Street 82
+  - groupId: undefined -> []
+  - latitude: 1.353 -> 1.353032
+  - longitude: 103.937 -> 103.936578
+- `928` Blk 808C, Chai Chee Road
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.327861
+  - longitude: 103.924 -> 103.924032
+- `929` Blk 2, Chai Chee Road
+  - groupId: undefined -> []
+  - latitude: 1.327 -> 1.326990
+  - longitude: 103.922 -> 103.922500
+- `930` Blk 495D,Tampines Street 43
+  - groupId: undefined -> []
+  - latitude: 1.364 -> 1.363704
+  - longitude: 103.952 -> 103.952020
+- `931` Blk 80, Bedok North Road
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.328487
+  - longitude: 103.941 -> 103.940604
+- `932` Blk 183, Bedok North Road
+  - groupId: undefined -> []
+  - latitude: 1.326 -> 1.326441
+  - longitude: 103.942 -> 103.941858
+- `933` Blk 264, Tampines Street 21
+  - groupId: undefined -> []
+  - latitude: 1.353 -> 1.352870
+  - longitude: 103.951 -> 103.951133
+- `934` Blk 451, Tampines Street 42
+  - groupId: undefined -> []
+  - latitude: 1.357 -> 1.356572
+  - longitude: 103.954 -> 103.954107
+- `935` Blk 233, Tampines Street 21
+  - groupId: undefined -> []
+  - latitude: 1.356 -> 1.356372
+  - longitude: 103.948 -> 103.947943
+- `936` Blk 137, Bedok North Avenue 3
+  - groupId: undefined -> []
+  - latitude: 1.329 -> 1.328826
+  - longitude: 103.936 -> 103.935542
+- `937` Blk 384, Tampines Street 32
+  - groupId: undefined -> []
+  - latitude: 1.354 -> 1.354013
+  - longitude: 103.958 -> 103.957941
+- `938` Blk 125, Tampines Street 11
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.346197
+  - longitude: 103.950 -> 103.949922
+- `939` Blk 403, Bedok North Avenue 3
+  - groupId: undefined -> []
+  - latitude: 1.330 -> 1.329796
+  - longitude: 103.934 -> 103.933840
+- `940` Blk 44, Chai Chee Street
+  - groupId: undefined -> []
+  - latitude: 1.329 -> 1.329039
+  - longitude: 103.926 -> 103.925592
+- `941` Blk 43, Chai Chee Street
+  - groupId: undefined -> []
+  - latitude: 1.328 -> 1.328368
+  - longitude: 103.926 -> 103.925546
+- `942` Blk 932,Tampines Street 91
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.345588
+  - longitude: 103.939 -> 103.939455
+- `943` Blk 50, Chai Chee Street
+  - groupId: undefined -> []
+  - latitude: 1.329 -> 1.329382
+  - longitude: 103.922 -> 103.922450
+- `944` Blk 352, Tampines Street 33
+  - groupId: undefined -> []
+  - latitude: 1.354 -> 1.354201
+  - longitude: 103.962 -> 103.962373
+- `945` Blk 366, Tampines Street 34
+  - groupId: undefined -> []
+  - latitude: 1.358 -> 1.357786
+  - longitude: 103.961 -> 103.961394
+- `946` Blk 259, Tampines Street 21
+  - groupId: undefined -> []
+  - latitude: 1.355 -> 1.355056
+  - longitude: 103.950 -> 103.949949
+- `947` Blk 391, Tampines Avenue 7
+  - groupId: undefined -> []
+  - latitude: 1.356 -> 1.355691
+  - longitude: 103.958 -> 103.957849
+- `948` Blk 492G,Tampines Street 45
+  - groupId: undefined -> []
+  - latitude: 1.364 -> 1.364252
+  - longitude: 103.955 -> 103.955132
+- `954` Blk 99, Bedok North Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.334 -> 1.333875
+  - longitude: 103.939 -> 103.939479
+- `955` Blk 42, Bedok South Road
+  - groupId: undefined -> []
+  - latitude: 1.322 -> 1.321531
+  - longitude: 103.941 -> 103.940706
+- `958` Blk 108, Simei Street 1
+  - groupId: undefined -> []
+  - latitude: 1.343 -> 1.343036
+  - longitude: 103.951 -> 103.951029
+- `959` Blk 107, Bedok North Road
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.332383
+  - longitude: 103.936 -> 103.936287
+- `960` Blk 226, Simei Street 4
+  - groupId: undefined -> []
+  - latitude: 1.343 -> 1.342618
+  - longitude: 103.957 -> 103.956982
+- `961` Blk 125, Bedok North Road
+  - groupId: undefined -> []
+  - latitude: 1.329 -> 1.328855
+  - longitude: 103.939 -> 103.939126
+- `962` Blk 233, Simei Street 4
+  - groupId: undefined -> []
+  - latitude: 1.344 -> 1.344079
+  - longitude: 103.956 -> 103.956334
+- `963` Blk 626A,Tampines Street 61
+  - groupId: undefined -> []
+  - latitude: 1.363 -> 1.362522
+  - longitude: 103.940 -> 103.939654
+- `964` Blk 134, Simei Street 1
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.348082
+  - longitude: 103.956 -> 103.955612
+- `965` Blk 167, Simei Lane
+  - groupId: undefined -> []
+  - latitude: 1.343 -> 1.343125
+  - longitude: 103.958 -> 103.958481
+- `966` Blk 142, Simei Street 2
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.345464
+  - longitude: 103.955 -> 103.955191
+- `967` Blk 419, Bedok North Street 1
+  - groupId: undefined -> []
+  - latitude: 1.327 -> 1.327134
+  - longitude: 103.928 -> 103.927932
+- `968` Blk 150, Simei Street 1
+  - groupId: undefined -> []
+  - latitude: 1.346 -> 1.346218
+  - longitude: 103.957 -> 103.957117
+- `969` Blk 622B,Tampines Avenue 12
+  - groupId: undefined -> []
+  - latitude: 1.361 -> 1.360887
+  - longitude: 103.941 -> 103.941196
+- `970` Blk 188A, Bedok North Street 4
+  - groupId: undefined -> []
+  - latitude: 1.332 -> 1.331633
+  - longitude: 103.941 -> 103.941449
+- `971` Blk 842D,Tampines Street 82
+  - groupId: undefined -> []
+  - latitude: 1.351 -> 1.350629
+  - longitude: 103.938 -> 103.937617
+- `972` Blk 272, Tampines Street 22
+  - groupId: undefined -> []
+  - latitude: 1.349 -> 1.349097
+  - longitude: 103.950 -> 103.950173
+- `975` Blk 37, Bedok South Avenue 2
+  - groupId: undefined -> []
+  - latitude: 1.322 -> 1.321972
+  - longitude: 103.940 -> 103.939977
+- `978` Blk 96, Bedok North Avenue 4
+  - groupId: undefined -> []
+  - latitude: 1.333 -> 1.333224
+  - longitude: 103.940 -> 103.940338
+- `979` Blk 155, Simei Road
+  - groupId: undefined -> []
+  - latitude: 1.345 -> 1.344761
+  - longitude: 103.958 -> 103.958488
+- `980` Blk 425, Bedok North Road
+  - groupId: undefined -> []
+  - latitude: 1.329 -> 1.329394
+  - longitude: 103.929 -> 103.929018
+- `981` Blk 52, New Upper Changi Road
+  - groupId: undefined -> []
+  - latitude: 1.324 -> 1.323861
+  - longitude: 103.942 -> 103.942193
+- `985` Blk 82, Bedok North Road
+  - groupId: undefined -> []
+  - latitude: 1.330 -> 1.329501
+  - longitude: 103.940 -> 103.940464
+- `986` Blk 894A,Tampines Street 81
+  - groupId: undefined -> []
+  - latitude: 1.348 -> 1.348121
+  - longitude: 103.932 -> 103.931849
+- `987` Blk 832,Tampines Street 82
+  - groupId: undefined -> []
+  - latitude: 1.350 -> 1.350119
+  - longitude: 103.935 -> 103.935326
+- `988` Blk 52, Cassia Crescent
+  - groupId: undefined -> []
+  - latitude: 1.311 -> 1.310615
+  - longitude: 103.885 -> 103.885297
+- `989` Blk 56, Cassia Crescent
+  - groupId: undefined -> []
+  - latitude: 1.310 -> 1.310293
+  - longitude: 103.883 -> 103.883278
+- `990` Blk 38C, Eunos Road 2
+  - groupId: undefined -> []
+  - latitude: 1.320 -> 1.320179
+  - longitude: 103.900 -> 103.900454
+- `991` Blk 109, Aljunied Crescent
+  - groupId: undefined -> []
+  - latitude: 1.319 -> 1.319491
+  - longitude: 103.884 -> 103.884448
+- `992` Blk 60, Marine Drive
+  - groupId: undefined -> []
+  - latitude: 1.303 -> 1.303423
+  - longitude: 103.909 -> 103.908588
+- `993` Blk 133, Geylang East Avenue 1
+  - groupId: undefined -> []
+  - latitude: 1.316 -> 1.316463
+  - longitude: 103.885 -> 103.885466
+- `994` Blk 113, Simei Street 1
+  - groupId: undefined -> []
+  - latitude: 1.343 -> 1.342808
+  - longitude: 103.950 -> 103.949861
+- `995` Blk 106, Simei Street 1
+  - groupId: undefined -> []
+  - latitude: 1.342 -> 1.341931
+  - longitude: 103.951 -> 103.950881
+</details>
+
+<details>
 <summary><b>2026-09-08</b> · 1,306 locations · +7 · −1 · ±2</summary>
 
 - Snapshot size: **1306** locations

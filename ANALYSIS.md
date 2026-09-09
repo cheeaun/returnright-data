@@ -1,15 +1,15 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-07** · 1,306 locations · `data/latest.json` · as of 7 Sept 2026, 16:20 UTC_
+_Snapshot: **2026-09-08** · 1,341 locations · `data/latest.json` · as of 9 Sept 2026, 01:40 UTC_
 
 ## Current snapshot
 
 | Metric | Value |
 | --- | --- |
-| Total locations | 1,306 |
-| Unique serials | 1,306 |
-| Unique postal codes | 1,262 |
-| Shared postal codes | 38 postcodes host 44 extra machines |
+| Total locations | 1,341 |
+| Unique serials | 1,341 |
+| Unique postal codes | 1,263 |
+| Shared postal codes | 39 postcodes host 77 extra machines |
 
 ### Status
 
@@ -28,22 +28,22 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1167
-    "FULL": 96
-    "OFFLINE": 21
-    "ERROR": 16
-    "MAINTENANCE": 5
-    "offline": 1
+    "RUNNING": 1293
+    "FULL": 19
+    "OFFLINE": 14
+    "ERROR": 7
+    "offline": 6
+    "MAINTENANCE": 2
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,167 | 89.4% |
-| FULL | 96 | 7.4% |
-| OFFLINE | 21 | 1.6% |
-| ERROR | 16 | 1.2% |
-| MAINTENANCE | 5 | 0.4% |
-| offline | 1 | 0.1% |
+| RUNNING | 1,293 | 96.4% |
+| FULL | 19 | 1.4% |
+| OFFLINE | 14 | 1.0% |
+| ERROR | 7 | 0.5% |
+| offline | 6 | 0.4% |
+| MAINTENANCE | 2 | 0.1% |
 
 ### Supplier
 
@@ -57,33 +57,33 @@ config:
 xychart-beta
     title "Machines by supplier"
     x-axis ["TOMRA001", "SGRECYCLE001", "RVMS001", "(none)"]
-    y-axis "machines" 0 --> 564
-    bar [490, 441, 374, 1]
+    y-axis "machines" 0 --> 577
+    bar [501, 447, 387, 6]
 ```
 
 | Supplier | Count | % |
 | --- | --- | --- |
-| TOMRA001 | 490 | 37.5% |
-| SGRECYCLE001 | 441 | 33.8% |
-| RVMS001 | 374 | 28.6% |
-| (none) | 1 | 0.1% |
+| TOMRA001 | 501 | 37.4% |
+| SGRECYCLE001 | 447 | 33.3% |
+| RVMS001 | 387 | 28.9% |
+| (none) | 6 | 0.4% |
 
 ### Last connected
 
 | Age | Count | % |
 | --- | --- | --- |
-| < 1 day | 1,303 | 99.8% |
+| < 1 day | 1,301 | 97.0% |
+| unknown | 36 | 2.7% |
+| < 7 days | 3 | 0.2% |
 | < 30 days | 1 | 0.1% |
-| < 7 days | 1 | 0.1% |
-| unknown | 1 | 0.1% |
 
 ## Operation timing (opening hours)
 
 | Coverage | Machines | % |
 | --- | --- | --- |
-| 24 hours | 800 | 61.3% |
-| Limited hours | 238 | 18.2% |
-| Unknown | 268 | 20.5% |
+| 24 hours | 801 | 59.7% |
+| Limited hours | 239 | 17.8% |
+| Unknown | 301 | 22.4% |
 
 ### Hourly availability
 
@@ -99,24 +99,24 @@ config:
 xychart-beta
     title "Average machines operating (2-hour buckets)"
     x-axis ["00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00"]
-    y-axis "machines" 0 --> 1194
-    line [800, 800, 803, 851, 993, 1035, 1038, 1038, 1038, 1038, 1036, 990]
+    y-axis "machines" 0 --> 1196
+    line [801, 801, 804, 852, 995, 1037, 1040, 1040, 1040, 1040, 1038, 992]
 ```
 
 - Typical window: **07:00 → 23:00**
 - Earliest open: **05:30**
 - Latest close: **24:00**
-- Peak: **1,038 machines** at **13:00**
-- **238** machines with limited hours open all 7 days
+- Peak: **1,040 machines** at **13:00**
+- **239** machines with limited hours open all 7 days
 
 ### Status by supplier
 
 | Supplier | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| (none) | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
-| RVMS001 | 1 | 13 | 2 | 3 | 355 | 0 | 374 |
-| SGRECYCLE001 | 10 | 33 | 0 | 9 | 389 | 0 | 441 |
-| TOMRA001 | 5 | 50 | 3 | 9 | 423 | 0 | 490 |
+| (none) | 0 | 0 | 0 | 0 | 0 | 6 | 6 |
+| RVMS001 | 2 | 3 | 0 | 8 | 374 | 0 | 387 |
+| SGRECYCLE001 | 3 | 7 | 0 | 3 | 434 | 0 | 447 |
+| TOMRA001 | 2 | 9 | 2 | 3 | 485 | 0 | 501 |
 
 ## Postal sectors & districts
 
@@ -132,38 +132,39 @@ config:
 ---
 xychart-beta
     title "Machines by postal district"
-    x-axis ["D18", "D19", "D23", "D22", "D16", "D27", "D25", "D14", "D20", "D03", "D05", "D12", "D15", "D13", "D10", "D09", "D01", "D04", "D28", "D08", "D07", "D17", "D24", "D02", "D21", "D11", "D06", "D26"]
+    x-axis ["D18", "D19", "D23", "D22", "D16", "D27", "D25", "D14", "D20", "D03", "D05", "D12", "?", "D15", "D13", "D10", "D09", "D01", "D04", "D28", "D08", "D07", "D17", "D24", "D02", "D21", "D11", "D06", "D26"]
     y-axis "machines" 0 --> 198
-    bar [172, 154, 126, 110, 103, 95, 70, 68, 59, 50, 44, 40, 29, 27, 25, 19, 18, 16, 16, 12, 10, 9, 8, 7, 7, 6, 5, 1]
+    bar [172, 154, 126, 110, 103, 95, 70, 68, 60, 50, 44, 40, 34, 29, 27, 25, 19, 18, 16, 16, 12, 10, 9, 8, 7, 7, 6, 5, 1]
 ```
 
 All postal sectors, with the Singapore postal district each belongs to:
 
 | Sector | Postal district | Area | Machines | % |
 | --- | --- | --- | --- | --- |
-| S52 | D18 | Pasir Ris, Tampines | 111 | 8.5% |
-| S46 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 76 | 5.8% |
-| S76 | D27 | Yishun, Sembawang | 68 | 5.2% |
-| S73 | D25 | Admiralty, Woodlands, Kranji, Woodgrove | 67 | 5.1% |
-| S51 | D18 | Pasir Ris, Tampines | 61 | 4.7% |
-| S64 | D22 | Boon Lay, Jurong, Tuas | 61 | 4.7% |
-| S82 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 58 | 4.4% |
-| S68 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 52 | 4.0% |
-| S53 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 48 | 3.7% |
+| S52 | D18 | Pasir Ris, Tampines | 111 | 8.3% |
+| S46 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 76 | 5.7% |
+| S76 | D27 | Yishun, Sembawang | 68 | 5.1% |
+| S73 | D25 | Admiralty, Woodlands, Kranji, Woodgrove | 67 | 5.0% |
+| S51 | D18 | Pasir Ris, Tampines | 61 | 4.5% |
+| S64 | D22 | Boon Lay, Jurong, Tuas | 61 | 4.5% |
+| S82 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 58 | 4.3% |
+| S68 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 52 | 3.9% |
+| S53 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 48 | 3.6% |
 | S56 | D20 | Ang Mo Kio, Bishan, Thomson | 41 | 3.1% |
 | S67 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 37 | 2.8% |
-| S65 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 36 | 2.8% |
-| S12 | D05 | Buona Vista, West Coast, Pasir Panjang, Clementi New Town | 31 | 2.4% |
-| S54 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 31 | 2.4% |
-| S75 | D27 | Yishun, Sembawang | 27 | 2.1% |
+| S65 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 36 | 2.7% |
+| (none) | — | — | 34 | 2.5% |
+| S12 | D05 | Buona Vista, West Coast, Pasir Panjang, Clementi New Town | 31 | 2.3% |
+| S54 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 31 | 2.3% |
+| S75 | D27 | Yishun, Sembawang | 27 | 2.0% |
 | S60 | D22 | Boon Lay, Jurong, Tuas | 25 | 1.9% |
 | S47 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 24 | 1.8% |
 | S40 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 21 | 1.6% |
 | S31 | D12 | Balestier, Toa Payoh, Serangoon | 20 | 1.5% |
-| S15 | D03 | Alexandra, Commonwealth, Queenstown, Tiong Bahru | 18 | 1.4% |
-| S38 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 18 | 1.4% |
-| S39 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 18 | 1.4% |
-| S57 | D20 | Ang Mo Kio, Bishan, Thomson | 18 | 1.4% |
+| S57 | D20 | Ang Mo Kio, Bishan, Thomson | 19 | 1.4% |
+| S15 | D03 | Alexandra, Commonwealth, Queenstown, Tiong Bahru | 18 | 1.3% |
+| S38 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 18 | 1.3% |
+| S39 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 18 | 1.3% |
 | S55 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 17 | 1.3% |
 | S14 | D03 | Alexandra, Commonwealth, Queenstown, Tiong Bahru | 16 | 1.2% |
 | S16 | D03 | Alexandra, Commonwealth, Queenstown, Tiong Bahru | 16 | 1.2% |
@@ -185,10 +186,10 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S33 | D12 | Balestier, Toa Payoh, Serangoon | 7 | 0.5% |
 | S34 | D13 | Macpherson, Potong Pasir, Braddell | 7 | 0.5% |
 | S37 | D13 | Macpherson, Potong Pasir, Braddell | 7 | 0.5% |
-| S05 | D01 | Boat Quay, Raffles Place, Marina, Cecil, People's Park | 6 | 0.5% |
-| S42 | D15 | East Coast, Marine Parade, Katong, Joo Chiat, Amber Road | 6 | 0.5% |
-| S63 | D22 | Boon Lay, Jurong, Tuas | 6 | 0.5% |
-| S81 | D17 | Changi Airport, Changi Village, Loyang | 6 | 0.5% |
+| S05 | D01 | Boat Quay, Raffles Place, Marina, Cecil, People's Park | 6 | 0.4% |
+| S42 | D15 | East Coast, Marine Parade, Katong, Joo Chiat, Amber Road | 6 | 0.4% |
+| S63 | D22 | Boon Lay, Jurong, Tuas | 6 | 0.4% |
+| S81 | D17 | Changi Airport, Changi Village, Loyang | 6 | 0.4% |
 | S08 | D02 | Chinatown, Tanjong Pagar, Anson | 5 | 0.4% |
 | S10 | D04 | Harbourfront, Telok Blangah, Sentosa | 5 | 0.4% |
 | S11 | D05 | Buona Vista, West Coast, Pasir Panjang, Clementi New Town | 5 | 0.4% |
@@ -206,12 +207,12 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S50 | D17 | Changi Airport, Changi Village, Loyang | 3 | 0.2% |
 | S58 | D21 | Clementi Park, Upper Bukit Timah, Ulu Pandan | 3 | 0.2% |
 | S72 | D25 | Admiralty, Woodlands, Kranji, Woodgrove | 3 | 0.2% |
-| S04 | D01 | Boat Quay, Raffles Place, Marina, Cecil, People's Park | 2 | 0.2% |
-| S06 | D01 | Boat Quay, Raffles Place, Marina, Cecil, People's Park | 2 | 0.2% |
-| S07 | D02 | Chinatown, Tanjong Pagar, Anson | 2 | 0.2% |
-| S25 | D10 | Tanglin, Ardmore, Holland, Bukit Timah | 2 | 0.2% |
-| S45 | D15 | East Coast, Marine Parade, Katong, Joo Chiat, Amber Road | 2 | 0.2% |
-| S62 | D22 | Boon Lay, Jurong, Tuas | 2 | 0.2% |
+| S04 | D01 | Boat Quay, Raffles Place, Marina, Cecil, People's Park | 2 | 0.1% |
+| S06 | D01 | Boat Quay, Raffles Place, Marina, Cecil, People's Park | 2 | 0.1% |
+| S07 | D02 | Chinatown, Tanjong Pagar, Anson | 2 | 0.1% |
+| S25 | D10 | Tanglin, Ardmore, Holland, Bukit Timah | 2 | 0.1% |
+| S45 | D15 | East Coast, Marine Parade, Katong, Joo Chiat, Amber Road | 2 | 0.1% |
+| S62 | D22 | Boon Lay, Jurong, Tuas | 2 | 0.1% |
 | S28 | D11 | Newton, Novena, Watten Estate, Thomson | 1 | 0.1% |
 | S66 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 1 | 0.1% |
 | S78 | D26 | Mandai, Upper Thomson, Springleaf | 1 | 0.1% |
@@ -237,24 +238,24 @@ xychart-beta
 
 | Month | Machines | % |
 | --- | --- | --- |
-| 2026-02 | 198 | 15.2% |
-| 2026-03 | 857 | 65.6% |
+| 2026-02 | 198 | 14.8% |
+| 2026-03 | 857 | 63.9% |
 | 2026-04 | 3 | 0.2% |
-| 2026-05 | 30 | 2.3% |
-| 2026-06 | 55 | 4.2% |
-| 2026-07 | 58 | 4.4% |
-| 2026-08 | 97 | 7.4% |
+| 2026-05 | 30 | 2.2% |
+| 2026-06 | 55 | 4.1% |
+| 2026-07 | 58 | 4.3% |
+| 2026-08 | 97 | 7.2% |
 | 2026-09 | 8 | 0.6% |
 
 ## Newest machines
 
 | # | Name | Postal | Status | Created |
 | --- | --- | --- | --- | --- |
-| 1 | 512B Yishun St 51, Singapore 762512 | 762512 | RUNNING | 4 Sept 2026 |
-| 2 | 799 Yishun Ring Rd, Singapore 760799 | 760799 | FULL | 4 Sept 2026 |
-| 3 | 821 Yishun Street 81, Singapore 760821 | 760821 | RUNNING | 4 Sept 2026 |
-| 4 | 858 Yishun Ave 4, Singapore 760858 | 760858 | RUNNING | 4 Sept 2026 |
-| 5 | 783 Yishun Ring Road, Singapore 760783 | 760783 | FULL | 4 Sept 2026 |
+| 1 | Block 101 Bidadari Park Drive | 340101 | RUNNING | 17 Jul 2026 |
+| 2 | Block 112A Bidadari Park Drive | 341112 | RUNNING | 17 Jul 2026 |
+| 3 | Block 118A Bidadari Park Drive | 341118 | RUNNING | 17 Jul 2026 |
+| 4 | Block 108B Bidadari Park Drive | 342108 | RUNNING | 17 Jul 2026 |
+| 5 | NESST Tukang Dormitory | 619599 | RUNNING | 17 Jul 2026 |
 
 ## Longest standing
 
@@ -266,24 +267,24 @@ xychart-beta
 | 4 | 746 Jurong West Street 73 | 640746 | RUNNING | 21 Feb 2026 |
 | 5 | 153 Yung Ho Rd | 610153 | RUNNING | 21 Feb 2026 |
 
-## History (153 snapshots · 2026-04-08 → 2026-09-07)
+## History (154 snapshots · 2026-04-08 → 2026-09-08)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,300 |
-| Net change | +231 |
+| Current snapshot | 1,306 |
+| Net change | +237 |
 | Minimum | 1,069 (2026-04-08) |
-| Maximum | 1,300 (2026-09-06) |
-| Average | 1,147 |
+| Maximum | 1,306 (2026-09-08) |
+| Average | 1,148 |
 
 ### Totals across all days
 
 | Metric | Total |
 | --- | --- |
-| Added | 369 |
-| Removed | 143 |
-| Changed | 1,627 |
+| Added | 376 |
+| Removed | 144 |
+| Changed | 1,629 |
 | No-change days | 41 |
 
 ### Machines over time
@@ -298,8 +299,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
-    y-axis "machines" 0 --> 1495
-    line [1069, 1090, 1152, 1206, 1283, 1300]
+    y-axis "machines" 0 --> 1502
+    line [1069, 1090, 1152, 1206, 1283, 1306]
 ```
 
 ### Monthly change
@@ -315,7 +316,7 @@ xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
     y-axis "machines" 0 --> 87
-    bar [0, 20, 62, 43, 75, 17]
+    bar [0, 20, 62, 43, 75, 23]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -325,7 +326,7 @@ xychart-beta
 | 2026-06 | 1,090 → 1,152 | 63 | 1 | +62 |
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
 | 2026-08 | 1,208 → 1,283 | 168 | 91 | +75 |
-| 2026-09 | 1,283 → 1,300 | 18 | 1 | +17 |
+| 2026-09 | 1,283 → 1,306 | 25 | 2 | +23 |
 
 ### Most active days
 
