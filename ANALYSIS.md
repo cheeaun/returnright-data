@@ -1,6 +1,6 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-09** · 1,307 locations · `data/latest.json` · as of 9 Sept 2026, 03:35 UTC_
+_Snapshot: **2026-09-09** · 1,307 locations · `data/latest.json` · as of 9 Sept 2026, 16:25 UTC_
 
 ## Current snapshot
 
@@ -28,24 +28,22 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1273
-    "FULL": 13
-    "OFFLINE": 10
-    "ERROR": 8
-    "CLEANING": 1
-    "MAINTENANCE": 1
-    "offline": 1
+    "RUNNING": 1179
+    "FULL": 95
+    "OFFLINE": 15
+    "ERROR": 13
+    "MAINTENANCE": 3
+    "offline": 2
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,273 | 97.4% |
-| FULL | 13 | 1.0% |
-| OFFLINE | 10 | 0.8% |
-| ERROR | 8 | 0.6% |
-| CLEANING | 1 | 0.1% |
-| MAINTENANCE | 1 | 0.1% |
-| offline | 1 | 0.1% |
+| RUNNING | 1,179 | 90.2% |
+| FULL | 95 | 7.3% |
+| OFFLINE | 15 | 1.1% |
+| ERROR | 13 | 1.0% |
+| MAINTENANCE | 3 | 0.2% |
+| offline | 2 | 0.2% |
 
 ### Supplier
 
@@ -60,32 +58,32 @@ xychart-beta
     title "Machines by supplier"
     x-axis ["TOMRA001", "SGRECYCLE001", "RVMS001", "(none)"]
     y-axis "machines" 0 --> 565
-    bar [491, 441, 374, 1]
+    bar [491, 441, 373, 2]
 ```
 
 | Supplier | Count | % |
 | --- | --- | --- |
 | TOMRA001 | 491 | 37.6% |
 | SGRECYCLE001 | 441 | 33.7% |
-| RVMS001 | 374 | 28.6% |
-| (none) | 1 | 0.1% |
+| RVMS001 | 373 | 28.5% |
+| (none) | 2 | 0.2% |
 
 ### Last connected
 
 | Age | Count | % |
 | --- | --- | --- |
 | < 1 day | 1,301 | 99.5% |
-| < 30 days | 2 | 0.2% |
+| unknown | 3 | 0.2% |
 | < 7 days | 2 | 0.2% |
-| unknown | 2 | 0.2% |
+| < 30 days | 1 | 0.1% |
 
 ## Operation timing (opening hours)
 
 | Coverage | Machines | % |
 | --- | --- | --- |
-| 24 hours | 800 | 61.2% |
-| Limited hours | 238 | 18.2% |
-| Unknown | 269 | 20.6% |
+| 24 hours | 799 | 61.1% |
+| Limited hours | 237 | 18.1% |
+| Unknown | 271 | 20.7% |
 
 ### Hourly availability
 
@@ -101,24 +99,24 @@ config:
 xychart-beta
     title "Average machines operating (2-hour buckets)"
     x-axis ["00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00"]
-    y-axis "machines" 0 --> 1194
-    line [800, 800, 803, 851, 993, 1035, 1038, 1038, 1038, 1038, 1036, 990]
+    y-axis "machines" 0 --> 1192
+    line [799, 799, 802, 850, 991, 1033, 1036, 1036, 1036, 1036, 1034, 988]
 ```
 
 - Typical window: **07:00 → 23:00**
 - Earliest open: **05:30**
 - Latest close: **24:00**
-- Peak: **1,038 machines** at **13:00**
-- **238** machines with limited hours open all 7 days
+- Peak: **1,036 machines** at **13:00**
+- **237** machines with limited hours open all 7 days
 
 ### Status by supplier
 
-| Supplier | CLEANING | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| (none) | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
-| RVMS001 | 0 | 1 | 3 | 1 | 6 | 363 | 0 | 374 |
-| SGRECYCLE001 | 1 | 5 | 5 | 0 | 2 | 428 | 0 | 441 |
-| TOMRA001 | 0 | 2 | 5 | 0 | 2 | 482 | 0 | 491 |
+| Supplier | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| (none) | 0 | 0 | 0 | 0 | 0 | 2 | 2 |
+| RVMS001 | 4 | 12 | 2 | 1 | 354 | 0 | 373 |
+| SGRECYCLE001 | 5 | 37 | 0 | 8 | 391 | 0 | 441 |
+| TOMRA001 | 4 | 46 | 1 | 6 | 434 | 0 | 491 |
 
 ## Postal sectors & districts
 
@@ -233,30 +231,30 @@ config:
 xychart-beta
     title "Machines created per month"
     x-axis ["2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
-    y-axis "machines" 0 --> 986
-    bar [198, 857, 3, 30, 55, 58, 97, 8]
+    y-axis "machines" 0 --> 984
+    bar [198, 855, 3, 30, 55, 58, 97, 10]
 ```
 
 | Month | Machines | % |
 | --- | --- | --- |
 | 2026-02 | 198 | 15.1% |
-| 2026-03 | 857 | 65.6% |
+| 2026-03 | 855 | 65.4% |
 | 2026-04 | 3 | 0.2% |
 | 2026-05 | 30 | 2.3% |
 | 2026-06 | 55 | 4.2% |
 | 2026-07 | 58 | 4.4% |
 | 2026-08 | 97 | 7.4% |
-| 2026-09 | 8 | 0.6% |
+| 2026-09 | 10 | 0.8% |
 
 ## Newest machines
 
 | # | Name | Postal | Status | Created |
 | --- | --- | --- | --- | --- |
-| 1 | 512B Yishun St 51, Singapore 762512 | 762512 | RUNNING | 4 Sept 2026 |
-| 2 | 799 Yishun Ring Rd, Singapore 760799 | 760799 | RUNNING | 4 Sept 2026 |
-| 3 | 821 Yishun Street 81, Singapore 760821 | 760821 | RUNNING | 4 Sept 2026 |
-| 4 | 858 Yishun Ave 4, Singapore 760858 | 760858 | RUNNING | 4 Sept 2026 |
-| 5 | 783 Yishun Ring Road, Singapore 760783 | 760783 | RUNNING | 4 Sept 2026 |
+| 1 | FairPrice 498 Jurong West St 41 | 640498 | OFFLINE | 9 Sept 2026 |
+| 2 | FairPrice SingPost Centre | 408600 | offline | 9 Sept 2026 |
+| 3 | 512B Yishun St 51, Singapore 762512 | 762512 | RUNNING | 4 Sept 2026 |
+| 4 | 799 Yishun Ring Rd, Singapore 760799 | 760799 | RUNNING | 4 Sept 2026 |
+| 5 | 821 Yishun Street 81, Singapore 760821 | 760821 | RUNNING | 4 Sept 2026 |
 
 ## Longest standing
 
@@ -264,8 +262,8 @@ xychart-beta
 | --- | --- | --- | --- | --- |
 | 1 | Block 54 Geylang Bahru | 330054 | RUNNING | 9 Feb 2026 |
 | 2 | 715 Jurong West Street 71 | 640715 | RUNNING | 21 Feb 2026 |
-| 3 | 745 Yishun Street 72 | 760745 | RUNNING | 21 Feb 2026 |
-| 4 | 746 Jurong West Street 73 | 640746 | RUNNING | 21 Feb 2026 |
+| 3 | 745 Yishun Street 72 | 760745 | ERROR | 21 Feb 2026 |
+| 4 | 746 Jurong West Street 73 | 640746 | FULL | 21 Feb 2026 |
 | 5 | 153 Yung Ho Rd | 610153 | RUNNING | 21 Feb 2026 |
 
 ## History (155 snapshots · 2026-04-08 → 2026-09-09)

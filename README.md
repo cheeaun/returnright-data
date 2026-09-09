@@ -26,6 +26,2635 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-10</b> · 1,307 locations · +2 · −2 · ±1305</summary>
+
+- Snapshot size: **1307** locations
+- Added: **2**
+- Removed: **2**
+- Changed: **1305**
+
+Added
+- `3080` FairPrice 498 Jurong West St 41 (postal: 640498, status: OFFLINE)
+- `3081` FairPrice SingPost Centre (postal: 408600, status: offline)
+
+Removed
+- `2190` FairPrice 498 Jurong West St 41 (postal: 640498, status: OFFLINE)
+- `2459` FairPrice SingPost Centre (postal: 408600, status: OFFLINE)
+
+Changed
+- `10` Block 54 Geylang Bahru
+  - groupId: [] -> []
+- `1015` One Punggol Hawker Centre
+  - groupId: [] -> []
+- `1016` SHENG SIONG BLK 31A MARGARET DRIVE 
+  - groupId: [35] -> [35]
+- `1017` SHENG SIONG BLK 88 TANGLIN HALT ROAD  
+  - groupId: [35] -> [35]
+- `1018` SHENG SIONG BLK 301 PUNGGOL CENTRAL 
+  - groupId: [35] -> [35]
+- `1019` SHENG SIONG 377 HOUGANG STREET 32,  HOUGANG RIVERCOURT
+  - groupId: [37] -> [37]
+- `1020` SHENG SIONG BLK 351 ANCHORVALE ROAD 
+  - groupId: [35] -> [35]
+- `1021` SHENG SIONG BLK 218 SUMANG WALK 
+  - groupId: [35] -> [35]
+- `1022` Block 402 Northshore Drive
+  - groupId: [] -> []
+- `1023` Block 272 Punggol Walk
+  - groupId: [] -> []
+- `1024` Block 109 Ang Mo Kio Avenue 4
+  - groupId: [] -> []
+- `1025` Block 610 Ang Mo Kio Avenue 4
+  - groupId: [] -> []
+- `1026` Block 651B Ang Mo Kio Avenue 9
+  - groupId: [] -> []
+- `1027` Block 170 Ang Mo Kio Avenue 4
+  - groupId: [] -> []
+- `1028` Block 319A Anchorvale Drive
+  - groupId: [] -> []
+- `1029` Block 311D Anchorvale Lane
+  - groupId: [] -> []
+- `1030` Block 124C Rivervale Drive
+  - groupId: [] -> []
+- `1031` Block 225C Compassvale Walk
+  - groupId: [] -> []
+- `1032` Block 461A Sengkang West Way
+  - groupId: [] -> []
+- `1033` Block 433B Sengkang West Way
+  - groupId: [] -> []
+- `1034` Block 452B Sengkang West Way
+  - groupId: [] -> []
+- `1035` Block 974 Hougang Street 91
+  - groupId: [] -> []
+- `1036` Block 658 Hougang Avenue 8
+  - groupId: [] -> []
+- `1037` Block 988A Buangkok Green
+  - groupId: [] -> []
+- `1038` Block 943 Hougang Street 92
+  - groupId: [] -> []
+- `1039` Block 12 Cantonment Close
+  - groupId: [] -> []
+- `1040` Block 20 Telok Blangah Crescent
+  - groupId: [] -> []
+- `1041` Block 112 Bukit Purmei
+  - groupId: [] -> []
+- `1042` Block 37 Jalan Rumah Tinggi
+  - groupId: [] -> []
+- `1043` Block 106 Henderson Crescent
+  - groupId: [] -> []
+- `1044` Block 128 Kim Tian Road
+  - groupId: [] -> []
+- `1045` Block 144 Jalan Bukit Merah
+  - groupId: [] -> []
+- `1046` Block 3 Queen's Road
+  - groupId: [] -> []
+- `1047` Block 131 Ang Mo Kio Avenue 3
+  - groupId: [] -> []
+- `1048` Block 649 Ang Mo Kio Avenue 5
+  - groupId: [] -> []
+- `1049` Block 9 Toh Yi Drive
+  - groupId: [] -> []
+- `1050` Block 12 Farrer Park Road
+  - groupId: [] -> []
+- `1051` Block 120 McNair Road
+  - groupId: [] -> []
+- `1052` Block 102 Jalan Rajah
+  - groupId: [] -> []
+- `1053` Block 13 Dover Close East
+  - groupId: [] -> []
+- `1054` Block 156 Rivervale Crescent
+  - groupId: [] -> []
+- `1055` Block 246 Compassvale Road
+  - groupId: [] -> []
+- `1056` Block 105 Rivervale Walk
+  - groupId: [] -> []
+- `1057` Block 203A Compassvale Road
+  - groupId: [] -> []
+- `1058` Block 132 Rivervale Street
+  - groupId: [] -> []
+- `1059` Block 122E RIVERVALE DRIVE
+  - groupId: [] -> []
+- `1060` Block 207D Compassvale Lane
+  - groupId: [] -> []
+- `1061` Block 291B Compassvale Street
+  - groupId: [] -> []
+- `1062` Block 325C Sengkang East Way
+  - groupId: [] -> []
+- `1063` Block 303B Anchorvale Link
+  - groupId: [] -> []
+- `1064` Block 288B Compassvale Crescent
+  - groupId: [] -> []
+- `1065` Block 297B Compassvale Street
+  - groupId: [] -> []
+- `1066` Block 188D Rivervale Drive
+  - groupId: [] -> []
+- `1067` Block 624 Hougang Avenue 8
+  - groupId: [] -> []
+- `1068` Block 563 Ang Mo Kio Avenue 3
+  - groupId: [] -> []
+- `1069` Block 456 Hougang Avenue 10
+  - groupId: [] -> []
+- `1070` Block 337 Ang Mo Kio Avenue 1
+  - groupId: [] -> []
+- `1071` Block 406C Fernvale Road
+  - groupId: [] -> []
+- `1072` Block 463 Ang Mo Kio Avenue 10
+  - groupId: [] -> []
+- `1073` Block 634 Hougang Avenue 8
+  - groupId: [] -> []
+- `1074` Block 911 Hougang Street 91
+  - groupId: [] -> []
+- `1075` Block 568 Hougang Street 51
+  - groupId: [] -> []
+- `1076` Block 444 Hougang Avenue 8
+  - groupId: [] -> []
+- `1077` Block 984A Buangkok Link
+  - groupId: [] -> []
+- `1078` Block 607 Hougang Avenue 4
+  - groupId: [] -> []
+- `1079` Block 48 Strathmore Avenue
+  - groupId: [] -> []
+- `1080` Block 114 Potong Pasir
+  - groupId: [] -> []
+- `1081` Block 211C Punggol Walk
+  - groupId: [] -> []
+- `1082` SHENG SIONG BLK 108 MCNAIR ROAD 
+  - groupId: [35] -> [35]
+- `1083` SHENG SIONG BLK 52 CHIN SWEE ROAD
+  - groupId: [35] -> [35]
+- `1086` Block 217 Ang Mo Kio Avenue 1
+  - groupId: [] -> []
+- `1087` Block 432 Ang Mo Kio Avenue 10
+  - groupId: [] -> []
+- `1088` Block 108 Potong Pasir Avenue 1
+  - groupId: [] -> []
+- `1089` Block 121 Potong Pasir Avenue 1
+  - groupId: [] -> []
+- `1090` Block 143 Potong Pasir Avenue 2
+  - groupId: [] -> []
+- `1091` SHENG SIONG BLK 410A SIN MING AVENUE
+  - groupId: [37] -> [37]
+- `1092` SHENG SIONG BLK 122 ANG MO KIO AVE 3 
+  - groupId: [35] -> [35]
+- `1093` SHENG SIONG BLK 233 ANG MO KIO AVE 3
+  - groupId: [35] -> [35]
+- `1094` SHENG SIONG BLK 2 ANG MO KIO DRIVE, ITE COLLEGE CENTRAL
+  - groupId: [36] -> [36]
+- `1095` SHENG SIONG BLK 18B CIRCUIT ROAD 
+  - groupId: [35] -> [35]
+- `1096` SHENG SIONG BLK 231 SUMANG LANE
+  - groupId: [35] -> [35]
+- `1097` SHENG SIONG BLK 622D PUNGGOL CENTRAL
+  - groupId: [35] -> [35]
+- `1098` SHENG SIONG BLK 338 ANCHORVALE CRESCENT 
+  - groupId: [37] -> [37]
+- `1099` SHENG SIONG BLK 465 FERNVALE ROAD 
+  - groupId: [35] -> [35]
+- `1100` SHENG SIONG BLK 473 FERNVALE STREET
+  - groupId: [35] -> [35]
+- `1101` SHENG SIONG BLK 6 POTONG PASIR AVE 2,  POTONG PASIR CC 
+  - groupId: [37] -> [37]
+- `1102` SHENG SIONG BLK 212 BIDADARI PARK DRIVE
+  - groupId: [37] -> [37]
+- `1103` SHENG SIONG BLK 221 MOUNT VERNON RD 
+  - groupId: [37] -> [37]
+- `1104` FairPrice North Shore
+  - groupId: [41] -> [41]
+- `1111` ANG MO SUPERMARKET-260 ANG MO KIO ST21
+  - groupId: [92] -> [92]
+- `1112` FairPrice Blk 712 Ang Mo Kio Avenue 6
+  - groupId: [47] -> [47]
+- `1113` FairPrice Serangoon Garden myVillage
+  - groupId: [41] -> [41]
+- `1114` FairPrice 612 Punggol Drive
+  - groupId: [39] -> [39]
+- `1115` FairPrice ZhongShan Park
+  - groupId: [47] -> [47]
+- `1116` FairPrice Thomson Plaza
+  - groupId: [47] -> [47]
+- `1117` FairPrice 682 Hougang Avenue 4
+  - groupId: [45] -> [45]
+- `1118` FairPrice SengKang East
+  - groupId: [39] -> [39]
+- `1119` FairPrice Blk 635B Punggol Drive
+  - groupId: [39] -> [39]
+- `1120` FairPrice Nex Mall
+  - groupId: [39] -> [39]
+- `1122` FairPrice Blk 279 Bishan Street 24
+  - groupId: [39] -> [39]
+- `1123` FairPrice Serangoon North Ave 1
+  - groupId: [39] -> [39]
+- `1124` FairPrice Lorong Limau
+  - groupId: [39] -> [39]
+- `1125` FairPrice Punggol Oasis
+  - groupId: [41] -> [41]
+- `1126` FairPrice MacPherson Blossom
+  - groupId: [45] -> [45]
+- `1127` FairPrice Punggol Plaza
+  - groupId: [41] -> [41]
+- `1128` FairPrice Punggol Coast Mall
+  - groupId: [47] -> [47]
+- `1129` FairPrice AMK Hub
+  - groupId: [39] -> [39]
+- `1130` FairPrice Serangoon Central
+  - groupId: [39] -> [39]
+- `1131` FairPrice Hougang 202
+  - groupId: [39] -> [39]
+- `1132` FairPrice Rivervale Shores
+  - groupId: [41] -> [41]
+- `1133` FairPrice Poiz Centre
+  - groupId: [39] -> [39]
+- `1134` FairPrice Blk 510 Bishan Street 13
+  - groupId: [41] -> [41]
+- `1135` FairPrice Finest Junction 8
+  - groupId: [41] -> [41]
+- `1136` FairPrice Blk 192 Toa Payoh Lorong 4
+  - groupId: [39] -> [39]
+- `1138` FairPrice Woodleigh Mall
+  - groupId: [39] -> [39]
+- `1139` SHENG SIONG BLK 658 PUNGGOL EAST 
+  - groupId: [35] -> [35]
+- `1140` SHENG SIONG BLK 660A EDGEDALE PLAINS 
+  - groupId: [35] -> [35]
+- `1141` SHENG SIONG BLK 671 EDGEFIELD PLAINS
+  - groupId: [37] -> [37]
+- `1142` SHENG SIONG BLK 512 BISHAN STREET 13 
+  - groupId: [35] -> [35]
+- `1143` SHENG SIONG BLK 161 ANG MO KIO AVE  4
+  - groupId: [35] -> [35]
+- `1144` SHENG SIONG BLK 181 TOA PAYOH LORONG 4
+  - groupId: [35] -> [35]
+- `1145` SHENG SIONG BLK 312A SUMANG LINK 
+  - groupId: [35] -> [35]
+- `1146` SHENG SIONG BLK 417 FERNVALE LINK
+  - groupId: [35] -> [35]
+- `1147` SHENG SIONG 19 SERANGOON NORTH AVE 5
+  - groupId: [35] -> [35]
+- `1148` SHENG SIONG BLK 4 TOA PAYOH LORONG 7 
+  - groupId: [35] -> [35]
+- `1149` SHENG SIONG BLK 455 SENGKANG WEST AVE 5 
+  - groupId: [35] -> [35]
+- `1154` ANG MO SUPERMARKET-639 PUNGGOL DRIVE
+  - groupId: [92] -> [92]
+- `1155` Block 113B Alkaff Crescent
+  - groupId: [] -> []
+- `1156` ACE SIGNATURE @ NTP
+  - groupId: [99] -> [99]
+- `1157` Block 1 Lorong Lew Lian
+  - groupId: [] -> []
+- `1158` Cold Storage Sentosa Cove
+  - groupId: [57] -> [57]
+- `1159` Don Don Donki (City Square Mall)
+  - groupId: [75] -> [75]
+- `1160` FairPrice Xtra VivoCity
+  - groupId: [47] -> [47]
+- `1161` FairPrice 150 Towner Road
+  - groupId: [41] -> [41]
+- `1162` FairPrice City Square Mall
+  - groupId: [47] -> [47]
+- `1164` Marks & Spencer Vivo City
+  - groupId: [97] -> [97]
+- `1165` SCARLETT@BUGIS+
+  - groupId: [87] -> [87]
+- `1166` Block 113 Whampoa Road
+  - groupId: [] -> []
+- `1167` Cold Storage Plaza Singapura
+  - groupId: [62] -> [62]
+- `1168` Cold Storage Raffles City
+  - groupId: [60] -> [60]
+- `1169` Cold Storage Suntec City
+  - groupId: [62] -> [62]
+- `1170` Cold Storage New Bahru
+  - groupId: [60] -> [60]
+- `1171` Jasons Deli by Cold Storage ION Orchard
+  - groupId: [64] -> [64]
+- `1172` Cold Storage Aperia
+  - groupId: [57] -> [57]
+- `1173` Don Don Donki (Orchard Central)
+  - groupId: [72] -> [72]
+- `1174` Cold Storage Holland Village
+  - groupId: [68] -> [68]
+- `1175` Don Don Donki (100AM)
+  - groupId: [74] -> [74]
+- `1176` Singapore Polytechnic (SP) T11A Building
+  - groupId: [73] -> [73]
+- `1177` Don Don Donki (Clarke Quay Central)
+  - groupId: [75] -> [75]
+- `1178` Don Don Donki (Suntec City Mall)
+  - groupId: [74] -> [74]
+- `1179` FairPrice Havelock Road
+  - groupId: [39] -> [39]
+- `1180` FairPrice Shaw Plaza
+  - groupId: [45] -> [45]
+- `1181` FairPrice Blk 476 Upper Serangoon View
+  - groupId: [41] -> [41]
+- `1182` FairPrice Kallang Bahru
+  - groupId: [41] -> [41]
+- `1183` FairPrice Chinatown Point
+  - groupId: [47] -> [47]
+- `1184` FairPrice Tanjong Pagar
+  - groupId: [39] -> [39]
+- `1185` FairPrice Finest Clarke Quay
+  - groupId: [121] -> [121]
+- `1186` FairPrice Finest Coronation Plaza
+  - groupId: [47] -> [47]
+- `1187` FairPrice Dover Crescent
+  - groupId: [47] -> [47]
+- `1188` FairPrice Dawson Place
+  - groupId: [39] -> [39]
+- `1189` FairPrice Hougang One
+  - groupId: [41] -> [41]
+- `1190` FairPrice Blk 78A Telok Blangah Street 32
+  - groupId: [39] -> [39]
+- `1191` FairPrice 5 Upper Boon Keng Road
+  - groupId: [39] -> [39]
+- `1192` FairPrice Finest 100AM
+  - groupId: [46] -> [46]
+- `1193` FairPrice French Road
+  - groupId: [41] -> [41]
+- `1194` Giant Ang Mo Kio Avenue 10
+  - groupId: [51] -> [51]
+- `1195` Giant Ang Mo Kio Street 31
+  - groupId: [54] -> [54]
+- `1196` Giant Telok Blangah Crescent
+  - groupId: [53] -> [53]
+- `1197` SHENG SIONG BLK 85 DAWSON ROAD 
+  - groupId: [35] -> [35]
+- `1198` SHENG SIONG BLK 11 UPPER BOON KENG ROAD 
+  - groupId: [35] -> [35]
+- `1199` Meidi-Ya Millenia Walk
+  - groupId: [109] -> [109]
+- `1202` Cold Storage UE Square
+  - groupId: [60] -> [60]
+- `1203` Cold Storage Serangoon Nex
+  - groupId: [64] -> [64]
+- `1204` Cold Storage Anchorpoint
+  - groupId: [57] -> [57]
+- `1205` Cold Storage Novena Square
+  - groupId: [62] -> [62]
+- `1206` Cold Storage Heartland Mall
+  - groupId: [57] -> [57]
+- `1207` Don Don Donki (Square2)
+  - groupId: [74] -> [74]
+- `1208` FairPrice Holland Drive
+  - groupId: [39] -> [39]
+- `1209` FairPrice Finest Scotts Square
+  - groupId: [47] -> [47]
+- `1210` FairPrice Rivervale Plaza
+  - groupId: [45] -> [45]
+- `1211` FairPrice Toa Payoh Hub
+  - groupId: [43] -> [43]
+- `1212` FairPrice 29A Ghim Moh Link
+  - groupId: [39] -> [39]
+- `1213` FairPrice Blk 227 Compassvale Link
+  - groupId: [39] -> [39]
+- `1214` FairPrice Kang Kar Mall
+  - groupId: [39] -> [39]
+- `1215` FairPrice Seletar Mall
+  - groupId: [39] -> [39]
+- `1216` Giant Northshore 2
+  - groupId: [51] -> [51]
+- `1217` Block 171 Lorong 1 Toa Payoh
+  - groupId: [] -> []
+- `1218` Block 205 Toa Payoh North
+  - groupId: [] -> []
+- `1219` Block 143 Lorong 2 Toa Payoh
+  - groupId: [] -> []
+- `1220` Block 99C Lorong 2 Toa Payoh
+  - groupId: [] -> []
+- `1221` Block 128 Lorong 1 Toa Payoh
+  - groupId: [] -> []
+- `1222` Block 228 Bishan Street 23
+  - groupId: [] -> []
+- `1223` Block 138 Bishan Street 12
+  - groupId: [] -> []
+- `1224` Block 9 Selegie Road
+  - groupId: [] -> []
+- `1225` Block 125 Aljunied Road
+  - groupId: [] -> []
+- `1226` Block 46 Circuit Road
+  - groupId: [] -> []
+- `1229` SCARLETT@DJITSUN AMK
+  - groupId: [87] -> [87]
+- `1230` SCARLETT@HEARTLAND MALL
+  - groupId: [88] -> [88]
+- `1231` Block 12 Holland Avenue
+  - groupId: [] -> []
+- `1232` Block 212 Serangoon Avenue 4
+  - groupId: [] -> []
+- `1233` Block 25 Sin Ming Road
+  - groupId: [] -> []
+- `1234` Block 473B Upper Serangoon Crescent
+  - groupId: [] -> []
+- `1235` Block 114 Lorong 1 Toa Payoh
+  - groupId: [] -> []
+- `1236` Block 832 Hougang Central
+  - groupId: [] -> []
+- `1237` Block 236 Hougang Avenue 1
+  - groupId: [] -> []
+- `1238` Block 313 Shunfu Road
+  - groupId: [] -> []
+- `1239` Block 129 Lorong Ah Soo
+  - groupId: [] -> []
+- `1240` Block 23B Queen's Close
+  - groupId: [] -> []
+- `1241` Block 466 Hougang Avenue 8
+  - groupId: [] -> []
+- `1242` Block 93 Whampoa Drive
+  - groupId: [] -> []
+- `1243` Block 318 Serangoon Avenue 2
+  - groupId: [] -> []
+- `1244` Block 336 Hougang Avenue 7
+  - groupId: [] -> []
+- `1245` Block 195D Punggol Road
+  - groupId: [] -> []
+- `1246` Huber's Butchery @ Dempsey
+  - groupId: [107] -> [107]
+- `1247` Block 174B Hougang Avenue 1
+  - groupId: [] -> []
+- `1248` Block 204 Bishan Street 23
+  - groupId: [] -> []
+- `1249` FairPrice Finest 111 Somerset
+  - groupId: [47] -> [47]
+- `1250` FairPrice 43 Cambridge Road
+  - groupId: [41] -> [41]
+- `1251` Block 470B Upper Serangoon Crescent
+  - groupId: [] -> []
+- `1252` FairPrice Finest The Centrepoint
+  - groupId: [45] -> [45]
+- `1253` Block 134 Jalan Bukit Merah
+  - groupId: [] -> []
+- `1254` Block 206A Woodleigh Link
+  - groupId: [] -> []
+- `1255` FairPrice Depot Heights Shopping Centre
+  - groupId: [47] -> [47]
+- `1256` Block 302 Hougang Avenue 5
+  - groupId: [] -> []
+- `1257` FairPrice Finest Artra
+  - groupId: [47] -> [47]
+- `1258` FairPrice Holland V
+  - groupId: [47] -> [47]
+- `1259` Block 232 Lorong 8 Toa Payoh
+  - groupId: [] -> []
+- `1260` FairPrice Anchorvale Village
+  - groupId: [45] -> [45]
+- `1261` Block 201 Toa Payoh North
+  - groupId: [] -> []
+- `1262` Block 22 Hougang Avenue 3
+  - groupId: [] -> []
+- `1263` Block 112 Bishan Street 12
+  - groupId: [] -> []
+- `1264` Block 177 Bishan Street 13
+  - groupId: [] -> []
+- `1265` FairPrice Dunearn Village
+  - groupId: [47] -> [47]
+- `1266` Block 524 Hougang Avenue 6
+  - groupId: [] -> []
+- `1267` Block 38B Bendemeer Road
+  - groupId: [] -> []
+- `1268` Block 243 Bishan Street 22
+  - groupId: [] -> []
+- `1269` Block 222 Lorong 8 Toa Payoh
+  - groupId: [] -> []
+- `1270` Block 15 Joo Seng Road
+  - groupId: [] -> []
+- `1271` Block 95B Henderson Road
+  - groupId: [] -> []
+- `1272` Block 534 Hougang Street 52
+  - groupId: [] -> []
+- `1273` Block 160 Lorong 1 Toa Payoh
+  - groupId: [] -> []
+- `1274` FairPrice Stirling
+  - groupId: [47] -> [47]
+- `1275` Block 707 Hougang Avenue 2
+  - groupId: [] -> []
+- `1276` Cold Storage One North
+  - groupId: [66] -> [66]
+- `1277` FairPrice Finest Funan Mall
+  - groupId: [50] -> [50]
+- `1278` FairPrice Square 2
+  - groupId: [48] -> [48]
+- `1279` FairPrice NUH Medical Centre
+  - groupId: [48] -> [48]
+- `1280` FairPrice Finest Tiong Bahru Plaza
+  - groupId: [47] -> [47]
+- `1281` SCARLETT@PLAZA SINGAPURA
+  - groupId: [87] -> [87]
+- `1282` FairPrice Finest Valley Point
+  - groupId: [44] -> [44]
+- `1283` FairPrice 1 Jalan Bukit Merah
+  - groupId: [47] -> [47]
+- `1284` FairPrice Orchard Grand Court
+  - groupId: [39] -> [39]
+- `1285` Block 316B Punggol Way
+  - groupId: [] -> []
+- `1286` SHENG SIONG BLK 25 GHIM MOH LINK 
+  - groupId: [35] -> [35]
+- `1287` FairPrice Finest Sengkang Grand
+  - groupId: [47] -> [47]
+- `1288` Block 261 Waterloo Street
+  - groupId: [] -> []
+- `1289` SHENG SIONG BLK 266 COMPASSVALE BOW 
+  - groupId: [35] -> [35]
+- `1290` SHENG SIONG 5 STADIUM WALK,  LEISURE PARK KALLANG 
+  - groupId: [37] -> [37]
+- `1292` Blk 123, Geylang East Avenue 1
+  - groupId: [] -> []
+- `1294` Cold Storage Tanglin Mall
+  - groupId: [62] -> [62]
+- `1295` Cold Storage United Square
+  - groupId: [62] -> [62]
+- `1296` Cold Storage One Holland Village
+  - groupId: [62] -> [62]
+- `1298` Giant Beauty World
+  - groupId: [51] -> [51]
+- `1299` Giant Hougang Green
+  - groupId: [51] -> [51]
+- `1300` Cold Storage Chancery Court
+  - groupId: [51] -> [51]
+- `1301` National University of Singapore 36 College Avenue East UTown Level 1, Main Walkway
+  - groupId: [] -> []
+- `1302` Market Street Hawker Centre
+  - groupId: [] -> []
+- `1303` Maxwell Food Centre
+  - groupId: [] -> []
+- `1304` SCARLETT@PEOPLE'S PARK COMPLEX
+  - groupId: [86] -> [86]
+- `1305` Giant Buangkok Crescent
+  - groupId: [51] -> [51]
+- `1306` Don Don Donki (Tiong Bahru Plaza)
+  - groupId: [76] -> [76]
+- `1307` Block 445 Sin Ming Avenue
+  - groupId: [] -> []
+- `1308` Ci Yuan Hawker Centre
+  - groupId: [] -> []
+- `1309` Block 8 Jalan Bukit Ho Swee
+  - groupId: [] -> []
+- `1310` SCARLETT@GRANTRAL MACPHERSON
+  - groupId: [87] -> [87]
+- `1311` Amoy Street Food Centre
+  - groupId: [] -> []
+- `1312` Marks & Spencer Wheelock Place
+  - groupId: [97] -> [97]
+- `1313` Cold Storage Cluny Court
+  - groupId: [51] -> [51]
+- `1314` Don Don Donki (Waterway Point)
+  - groupId: [75] -> [75]
+- `1315` Cold Storage Compass One
+  - groupId: [57] -> [57]
+- `1316` SCARLETT@SUNTEC CITY
+  - groupId: [87] -> [87]
+- `1317` FairPrice Bukit Timah Plaza
+  - groupId: [39] -> [39]
+- `1318` Punggol Coast Hawker Centre
+  - groupId: [] -> []
+- `1319` FairPrice Alexandra Retail Centre ARC (PSA Branch)
+  - groupId: [48] -> [48]
+- `1320` SCARLETT@NEX
+  - groupId: [87] -> [87]
+- `1321` Cold Storage Marina Bay Sands
+  - groupId: [69] -> [69]
+- `1322` Cold Storage Bugis Junction
+  - groupId: [62] -> [62]
+- `1323` Giant Ghim Moh Road
+  - groupId: [51] -> [51]
+- `1326` Cold Storage Great World City
+  - groupId: [62] -> [62]
+- `1327` Cold Storage Marina One
+  - groupId: [61] -> [61]
+- `1328` Block 11 York Hill
+  - groupId: [] -> []
+- `1330` Newton Food Centre
+  - groupId: [] -> []
+- `1332` Cold Storage Takashimaya
+  - groupId: [63] -> [63]
+- `1333` Block 289D Punggol Place
+  - groupId: [] -> []
+- `1334` SHENG SIONG 2 HANDY ROAD,  THE CATHAY
+  - groupId: [37] -> [37]
+- `1336` Giant Serangoon Central Drive
+  - groupId: [51] -> [51]
+- `1337` Cold Storage Paragon
+  - groupId: [57] -> [57]
+- `1338` Golden Mile Food Centre
+  - groupId: [] -> []
+- `1339` Woodleigh Village Hawker Centre
+  - groupId: [] -> []
+- `1343` Cold Storage Star Vista
+  - groupId: [59] -> [59]
+- `1344` Cold Storage Guthrie House
+  - groupId: [57] -> [57]
+- `1345` Giant Kim Keat Avenue
+  - groupId: [55] -> [55]
+- `1346` Cold Storage Greenwich
+  - groupId: [62] -> [62]
+- `1347` Buangkok Hawker Centre
+  - groupId: [] -> []
+- `1348` Cold Storage Jelita
+  - groupId: [51] -> [51]
+- `1349` North Bridge Road Market & Food Centre
+  - groupId: [] -> []
+- `1351` Block 103B Edgefield Plains
+  - groupId: [] -> []
+- `1352` Block 3D Upper Boon Keng Road
+  - groupId: [] -> []
+- `1353` Block 22 Saint George's Road
+  - groupId: [] -> []
+- `1354` Block 93 Paya Lebar Way
+  - groupId: [] -> []
+- `1355` Sembawang Hills Food Centre
+  - groupId: [] -> []
+- `1356` Cold Storage Alocassia
+  - groupId: [57] -> [57]
+- `1357` Cold Storage Marina Bay Link Mall
+  - groupId: [67] -> [67]
+- `139` 715 Jurong West Street 71
+  - groupId: [] -> []
+- `140` 745 Yishun Street 72
+  - groupId: [] -> []
+- `146` 746 Jurong West Street 73
+  - groupId: [] -> []
+- `147` 153 Yung Ho Rd
+  - groupId: [] -> []
+- `148` 678D Jurong West Street 64
+  - groupId: [] -> []
+- `150` 931 Jurong West Street 92
+  - groupId: [] -> []
+- `151` 678A Jurong West Street 64 
+  - groupId: [] -> []
+- `153` 255 Yishun Ring Rd
+  - groupId: [] -> []
+- `154` 277 Yishun Street 22
+  - groupId: [] -> []
+- `159` 907 Jurong West Street 91
+  - groupId: [] -> []
+- `161` 353 Kang Ching Rd
+  - groupId: [] -> []
+- `162` 735 Jurong West Street 75
+  - groupId: [] -> []
+- `165` 359 Yung An Rd
+  - groupId: [] -> []
+- `166` 736 Yishun Street 72
+  - groupId: [] -> []
+- `167` 140 Corporation Drive
+  - groupId: [] -> []
+- `168` 236 Yishun Ring Rd
+  - groupId: [] -> []
+- `171` 291 Yishun Street 22
+  - groupId: [] -> []
+- `172` 610 Yishun Street 61
+  - groupId: [] -> []
+- `174` 101 Yishun Ave 5
+  - groupId: [] -> []
+- `176` 668A Jurong West Street 64
+  - groupId: [] -> []
+- `178` 309 Yishun Ring Rd
+  - groupId: [] -> []
+- `1781` Blk 659, Jln Tenaga
+  - groupId: [] -> []
+- `1783` Blk 670, Jln Damai
+  - groupId: [] -> []
+- `1784` Blk 529, Bedok North Street 3
+  - groupId: [] -> []
+- `1789` Blk 548, Bedok North Ave 1
+  - groupId: [] -> []
+- `179` 762 Yishun Street 72
+  - groupId: [] -> []
+- `1803` Blk 721, Bedok Reservoir Road
+  - groupId: [] -> []
+- `1805` Blk 722, Bedok Reservoir Road
+  - groupId: [] -> []
+- `181` 120 Yishun Ring Rd
+  - groupId: [] -> []
+- `1819` Blk 249, Pasir Ris Street 21
+  - groupId: [] -> []
+- `183` 604 Yishun Street 61
+  - groupId: [] -> []
+- `186` 260 Boon Lay Dr
+  - groupId: [] -> []
+- `1863` Blk 413, Bedok North Avenue 2
+  - groupId: [] -> []
+- `187` 104 Bukit Batok Central, Block 104
+  - groupId: [] -> []
+- `188` 150 Yishun Street 11
+  - groupId: [] -> []
+- `1882` Blk 628, Bedok Reservoir Road
+  - groupId: [] -> []
+- `1884` Blk 617, Bedok Reservoir Road
+  - groupId: [] -> []
+- `1893` Blk 601, Bedok Reservoir Road
+  - groupId: [] -> []
+- `191` 115A Ho Ching Rd
+  - groupId: [] -> []
+- `193` 653A Jurong West Street 61
+  - groupId: [] -> []
+- `1933` Blk 707, Bedok North Road
+  - groupId: [] -> []
+- `1935` Blk 612, Bedok Reservoir Road
+  - groupId: [] -> []
+- `1938` Blk 130, Bedok Reservoir Road
+  - groupId: [] -> []
+- `194` 771 Choa Chu Kang Street 54
+  - groupId: [] -> []
+- `1940` Blk 123, Bedok Reservoir Road
+  - groupId: [] -> []
+- `1941` Blk 648, Jln Tenaga
+  - groupId: [] -> []
+- `1942` Blk 640, Bedok Reservoir Road
+  - groupId: [] -> []
+- `1956` Don Don Donki (Tampines One)
+  - groupId: [74] -> [74]
+- `1964` Thai Supermarket Pte Ltd
+  - groupId: [119] -> [119]
+- `197` 228 Yishun Street 21
+  - groupId: [] -> []
+- `1978` Don Don Donki (Paya Lebar Quarter)
+  - groupId: [77] -> [77]
+- `1986` Phan99 Supermarket PPT Lodge 1B
+  - groupId: [113] -> [113]
+- `199` 165 Yishun Ring Rd
+  - groupId: [] -> []
+- `1990` Don Don Donki (Jewel Changi)
+  - groupId: [76] -> [76]
+- `200` 528 Jurong West Street 52
+  - groupId: [] -> []
+- `2002` Blk 453, Pasir Ris Drive 6
+  - groupId: [] -> []
+- `202` 657 Choa Chu Kang Cres
+  - groupId: [] -> []
+- `2023` Blk 665, Jln Damai
+  - groupId: [] -> []
+- `2024` SCARLETT@SHAW PLAZA
+  - groupId: [89] -> [89]
+- `2026` Blk 542, Bedok North Street 3
+  - groupId: [] -> []
+- `203` 115 Yishun Ring Rd
+  - groupId: [] -> []
+- `2042` Blk 711, Bedok Reservoir Road
+  - groupId: [] -> []
+- `2044` Blk 620, Bedok Reservoir Road
+  - groupId: [] -> []
+- `2045` Blk 716, Bedok Reservoir Road
+  - groupId: [] -> []
+- `2046` Blk 720, Bedok Reservoir Road
+  - groupId: [] -> []
+- `2047` Blk 704, Bedok Reservoir Road
+  - groupId: [] -> []
+- `205` 216 Boon Lay Ave
+  - groupId: [] -> []
+- `206` 551 Jurong West Street 42
+  - groupId: [] -> []
+- `209` 126 Yishun Street 11
+  - groupId: [] -> []
+- `210` 625 Jurong West Street 61
+  - groupId: [] -> []
+- `211` 190 Boon Lay Dr
+  - groupId: [] -> []
+- `212` 690A Choa Chu Kang Cres
+  - groupId: [] -> []
+- `213` 2 Marsiling Dr
+  - groupId: [] -> []
+- `214` 272B Jurong West Street 24
+  - groupId: [] -> []
+- `216` 8 Marsiling Drive
+  - groupId: [] -> []
+- `2164` Geylang Serai Market and Food Centre
+  - groupId: [] -> []
+- `2166` Giant Khatib MRT
+  - groupId: [56] -> [56]
+- `2167` FairPrice Wisteria Mall
+  - groupId: [47] -> [47]
+- `2168` Cold Storage West Mall
+  - groupId: [58] -> [58]
+- `2169` SCARLETT@WESTGATE
+  - groupId: [87] -> [87]
+- `2171` FairPrice Blk 166 Bukit Batok West Avenue 8
+  - groupId: [39] -> [39]
+- `2172` Cold Storage Rail Mall
+  - groupId: [51] -> [51]
+- `2173` SHENG SIONG BLK 292 BUKIT BATOK EAST AVE 6 
+  - groupId: [35] -> [35]
+- `2174` U STARS @507 Yishun Ave 4
+  - groupId: [85] -> [85]
+- `2175` FairPrice Sembawang Shopping Centre
+  - groupId: [47] -> [47]
+- `2176` FairPrice Blk 849 Yishun Ring Road
+  - groupId: [39] -> [39]
+- `2177` SHENG SIONG BLK 643 SENJA CLOSE
+  - groupId: [37] -> [37]
+- `2178` 120A Canberra Crescent
+  - groupId: [] -> []
+- `218` 671A Choa Chu Kang Cres
+  - groupId: [] -> []
+- `2181` Giant Woodlands North
+  - groupId: [51] -> [51]
+- `2182` FairPrice Causeway Point
+  - groupId: [49] -> [49]
+- `2183` Cold Storage Hill View
+  - groupId: [71] -> [71]
+- `2185` 950 Jurong West Street 91
+  - groupId: [] -> []
+- `2186` Prime Supermarket 678A Woodlands Avenue 6
+  - groupId: [78] -> [78]
+- `2187` FairPrice Northpoint City
+  - groupId: [47] -> [47]
+- `2189` FairPrice 612 Geylang Lorong 38
+  - groupId: [39] -> [39]
+- `2191` FairPrice Lot 1
+  - groupId: [41] -> [41]
+- `2193` FairPrice Woodlands Ave 1
+  - groupId: [45] -> [45]
+- `2197` SHENG SIONG BLK 420A CLEMENTI AVE 1 
+  - groupId: [35] -> [35]
+- `2198` FairPrice Jurong Point
+  - groupId: [39] -> [39]
+- `2200` FairPrice Hillion Mall
+  - groupId: [39] -> [39]
+- `2201` Cold Storage Joo Chiat JK Centre
+  - groupId: [65] -> [65]
+- `2202` Giant 256 Bangkit Road
+  - groupId: [51] -> [51]
+- `2203` Little Farms Market, Katong Point
+  - groupId: [94] -> [94]
+- `2204` Giant Admiralty MRT
+  - groupId: [51] -> [51]
+- `2205` Cold Storage i12 Katong
+  - groupId: [62] -> [62]
+- `2206` Don Don Donki (Jurong Point)
+  - groupId: [74] -> [74]
+- `2207` Prime Supermarket Chai Chee Road
+  - groupId: [78] -> [78]
+- `2208` FairPrice Bukit Batok MRT
+  - groupId: [42] -> [42]
+- `2210` FairPrice Lengkong Tiga
+  - groupId: [39] -> [39]
+- `2211` SHENG SIONG BLK 182 WOODLANDS ST 13 
+  - groupId: [35] -> [35]
+- `2213` FairPrice Kampung Admiralty
+  - groupId: [39] -> [39]
+- `2214` Giant Bukit Batok Street 31
+  - groupId: [51] -> [51]
+- `2215` Giant Kranji MRT
+  - groupId: [55] -> [55]
+- `2216` Cold Storage Siglap V
+  - groupId: [51] -> [51]
+- `2217` SHENG SIONG BLK 471B YISHUN STREET 42
+  - groupId: [35] -> [35]
+- `2219` FairPrice Le Quest
+  - groupId: [47] -> [47]
+- `2220` SHENG SIONG BLK 202 MARSILING DRIVE 
+  - groupId: [35] -> [35]
+- `2221` FairPrice Siglap
+  - groupId: [39] -> [39]
+- `2222` SHENG SIONG BLK 785E WOODLANDS RISE 
+  - groupId: [35] -> [35]
+- `2223` SHENG SIONG BLK 4 WOODLANDS ST 12 
+  - groupId: [38] -> [38]
+- `2224` FairPrice Bukit Batok Home TeamNS
+  - groupId: [47] -> [47]
+- `2225` FairPrice Blk 345 Jurong East Street 31
+  - groupId: [39] -> [39]
+- `2226` SHENG SIONG BLK 547 SEGAR RD
+  - groupId: [35] -> [35]
+- `2228` SHENG SIONG 7 JURONG WEST AVE 5 
+  - groupId: [38] -> [38]
+- `2229` SHENG SIONG 3 YUAN CHING ROAD 
+  - groupId: [35] -> [35]
+- `223` 286 Yishun Ave 6
+  - groupId: [] -> []
+- `2230` FairPrice Marsiling MRT
+  - groupId: [42] -> [42]
+- `2231` FairPrice Hub
+  - groupId: [48] -> [48]
+- `2232` FairPrice Blk 414 Yishun Ring Road
+  - groupId: [39] -> [39]
+- `2233` FairPrice Woodgrove
+  - groupId: [39] -> [39]
+- `2234` Prime Supermarket Sembawang Crescent
+  - groupId: [78] -> [78]
+- `2236` 477 Sembawang Drive
+  - groupId: [] -> []
+- `2238` Prime Supermarket NTU Students Walk
+  - groupId: [83] -> [83]
+- `2241` SHENG SIONG BLK 675 YISHUN AVENUE 4
+  - groupId: [35] -> [35]
+- `2242` FairPrice Clementi Ave 2 Shopping Centre
+  - groupId: [39] -> [39]
+- `2243` FairPrice Woodlands Civic Centre
+  - groupId: [41] -> [41]
+- `2244` FairPrice Senja Grand
+  - groupId: [39] -> [39]
+- `2245` SHENG SIONG BLK 154A BUKIT BATOK WEST AVE 8 
+  - groupId: [35] -> [35]
+- `2246` U STARS @691 Woodlands Drive
+  - groupId: [84] -> [84]
+- `2247` FairPrice Parkway Parade
+  - groupId: [47] -> [47]
+- `2248` FairPrice Finest Clementi Mall
+  - groupId: [41] -> [41]
+- `2249` SHENG SIONG BLK 451 BUKIT BATOK WEST AVENUE 6 
+  - groupId: [37] -> [37]
+- `225` 201 Marsiling Dr
+  - groupId: [] -> []
+- `2250` SHENG SIONG BLK 159 BUKIT BATOK STREET 11 
+  - groupId: [35] -> [35]
+- `2251` SHENG SIONG BLK 573 WOODLANDS DRIVE 16 
+  - groupId: [35] -> [35]
+- `2252` FairPrice Marine Parade
+  - groupId: [47] -> [47]
+- `2253` 423 Canberra Rd
+  - groupId: [] -> []
+- `2254` Giant Admiralty Drive
+  - groupId: [51] -> [51]
+- `2255` FairPrice Dairy Farm Residences
+  - groupId: [45] -> [45]
+- `2256` FORTUNE SUPERMARKET 463
+  - groupId: [105] -> [105]
+- `2257` Giant Vista Point
+  - groupId: [51] -> [51]
+- `2258` SHENG SIONG BLK 240 TENGAH GARDEN WALK 
+  - groupId: [35] -> [35]
+- `2259` FairPrice Senja Heights
+  - groupId: [41] -> [41]
+- `226` 610 Choa Chu Kang Street 62
+  - groupId: [] -> []
+- `2260` FairPrice Greenridge
+  - groupId: [41] -> [41]
+- `2261` SHENG SIONG BLK 105 CANBERRA STREET 
+  - groupId: [35] -> [35]
+- `2262` FairPrice Blk 355 Sembawang Way
+  - groupId: [39] -> [39]
+- `2263` Giant Pioneer Mall
+  - groupId: [51] -> [51]
+- `2264` SHENG SIONG BLK 209A CLEMENTI AVE 6 
+  - groupId: [35] -> [35]
+- `2265` SHENG SIONG BLK 91 JLN. SATU
+  - groupId: [37] -> [37]
+- `2266` Prime Supermarket Yishun Avenue 6
+  - groupId: [78] -> [78]
+- `2267` Prime Supermarket NTU Spine Hub
+  - groupId: [82] -> [82]
+- `2269` 462 Sembawang Drive 
+  - groupId: [] -> []
+- `2270` FairPrice Sun Plaza
+  - groupId: [47] -> [47]
+- `2271` TUAS SOUTH MINIMART
+  - groupId: [120] -> [120]
+- `2272` 483 Admiralty Link
+  - groupId: [] -> []
+- `2273` 106A Canberra Street
+  - groupId: [] -> []
+- `2274` 589 Woodlands Drive 16
+  - groupId: [] -> []
+- `2275` 718 Woodlands Ave 6
+  - groupId: [] -> []
+- `2278` SHENG SIONG BLK 503 JURONG WEST AVE 1
+  - groupId: [35] -> [35]
+- `2279` 831 Jurong West Street 81
+  - groupId: [] -> []
+- `228` 674A Jurong West Street 65
+  - groupId: [] -> []
+- `2282` Prime Supermarket Punggol Field
+  - groupId: [78] -> [78]
+- `2284` Prime Supermarket 322 Sumang Walk
+  - groupId: [78] -> [78]
+- `2285` Prime Supermarket Jurong West Street 91
+  - groupId: [78] -> [78]
+- `2286` FairPrice 888 Plaza
+  - groupId: [39] -> [39]
+- `2288` 417 Canberra Rd
+  - groupId: [] -> []
+- `2289` SCARLETT @ CLEMENTI
+  - groupId: [87] -> [87]
+- `229` 682A Jurong West Central 1
+  - groupId: [] -> []
+- `2290` 108 Yishun Ring Rd 
+  - groupId: [] -> []
+- `2291` FairPrice Taman Jurong Shopping Centre
+  - groupId: [39] -> [39]
+- `2292` 876 Woodlands Ave 9
+  - groupId: [] -> []
+- `2293` 708 Woodlands Drive 70
+  - groupId: [] -> []
+- `2294` Prime Supermarket Bidadari Park Drive
+  - groupId: [80] -> [80]
+- `2295` 334 Sembawang Close
+  - groupId: [] -> []
+- `2296` Prime Supermarket Upper Aljunied Lane
+  - groupId: [78] -> [78]
+- `2298` Prime Supermarket Hougang Avenue 1
+  - groupId: [78] -> [78]
+- `2299` Prime Supermarket 159A Hougang Street 11
+  - groupId: [78] -> [78]
+- `230` 134 Marsiling Rd
+  - groupId: [] -> []
+- `2300` U STARS @261 Punggol Way
+  - groupId: [84] -> [84]
+- `2301` 682C Woodlands Drive 73
+  - groupId: [] -> []
+- `2302` U STARS @330Anchorvale Street
+  - groupId: [84] -> [84]
+- `2303` 784C Woodlands Rise 
+  - groupId: [] -> []
+- `2304` 690F Woodlands Drive 75
+  - groupId: [] -> []
+- `2305` 862 Woodlands Street 83
+  - groupId: [] -> []
+- `2306` 656 Woodlands Ring Rd
+  - groupId: [] -> []
+- `2307` 356A Admiralty Drive
+  - groupId: [] -> []
+- `2308` 552 Woodlands Drive 44
+  - groupId: [] -> []
+- `2309` 351B Canberra Road
+  - groupId: [] -> []
+- `231` 184 Yung Sheng Rd
+  - groupId: [] -> []
+- `2310` 792 Woodlands Ave 6 
+  - groupId: [] -> []
+- `2311` 611 Woodlands Ring Rd
+  - groupId: [] -> []
+- `2312` 836 Woodlands Street 83
+  - groupId: [] -> []
+- `2313` Prime Supermarket Bukit Batok Street 31
+  - groupId: [78] -> [78]
+- `2314` FairPrice Blk 135 Jurong Gateway Road
+  - groupId: [39] -> [39]
+- `2316` 311 Canberra Rd
+  - groupId: [] -> []
+- `2317` 782B Woodlands Cres
+  - groupId: [] -> []
+- `2318` 846 Woodlands Ave 4
+  - groupId: [] -> []
+- `2319` 756 Woodlands Ave 4 
+  - groupId: [] -> []
+- `2320` Prime Supermarket Toa Payoh Lorong 7
+  - groupId: [78] -> [78]
+- `2321` 770 Woodlands Drive 60
+  - groupId: [] -> []
+- `2322` Prime Supermarket Compassvale Street
+  - groupId: [78] -> [78]
+- `2323` Prime Supermarket Jalan Tenteram
+  - groupId: [78] -> [78]
+- `2324` Little Farms Market, Serangoon Garden (Grocery store)
+  - groupId: [95] -> [95]
+- `2325` 638 Woodlands Ring Rd
+  - groupId: [] -> []
+- `2326` 622 Woodlands Drive 52
+  - groupId: [] -> []
+- `2327` SHENG SIONG BLK 301 WOODLANDS ST 31 
+  - groupId: [35] -> [35]
+- `2328` Little Farms Market, Sentosa
+  - groupId: [94] -> [94]
+- `2329` 728 Woodlands Cir
+  - groupId: [] -> []
+- `233` 205 Marsiling Dr
+  - groupId: [] -> []
+- `2330` Giant IMM
+  - groupId: [70] -> [70]
+- `2331` Cold Storage Clementi Arcade
+  - groupId: [57] -> [57]
+- `2332` U STARS 345 Clementi Ave 5
+  - groupId: [84] -> [84]
+- `2333` Cold Storage West Coast Plaza
+  - groupId: [57] -> [57]
+- `2334` SHENG SIONG BLK 720 CLEMENTI WEST STREET 2 
+  - groupId: [35] -> [35]
+- `2335` U STARS @Elias Mall
+  - groupId: [84] -> [84]
+- `2336` SHENG SIONG BLK 446 FAJAR ROAD
+  - groupId: [35] -> [35]
+- `2337` SHENG SIONG BLK 527D PASIR RIS STREET 51 
+  - groupId: [35] -> [35]
+- `2339` 306 Clementi Ave 4
+  - groupId: [] -> []
+- `234` 274B Jurong West Street 25
+  - groupId: [] -> []
+- `2340` Giant Pasir Ris Drive 4
+  - groupId: [51] -> [51]
+- `2343` Prime Supermarket Tampines North Drive 1
+  - groupId: [78] -> [78]
+- `2345` Giant Hypermarket Tampines
+  - groupId: [51] -> [51]
+- `2346` FairPrice Tampines CC
+  - groupId: [41] -> [41]
+- `2347` FairPrice Yishun MRT
+  - groupId: [42] -> [42]
+- `2348` SHENG SIONG BLK 872C TAMPINES STREET 86
+  - groupId: [37] -> [37]
+- `2349` U STARS @878C Tampines Ave 8
+  - groupId: [85] -> [85]
+- `235` 337B Tah Ching Rd
+  - groupId: [] -> []
+- `2350` Prime Supermarket Tampines Street 81
+  - groupId: [78] -> [78]
+- `2351` MUSTAFA
+  - groupId: [111] -> [111]
+- `2352` 429 Clementi Ave 3
+  - groupId: [] -> []
+- `2353` FairPrice Our Tampines Hub
+  - groupId: [47] -> [47]
+- `2355` FairPrice West Coast Wet Market
+  - groupId: [41] -> [41]
+- `2358` ONE Supermarket Pte. Ltd.
+  - groupId: [112] -> [112]
+- `2359` SHENG SIONG BLK 18 TECK WHYE LANE 
+  - groupId: [35] -> [35]
+- `2360` Cold Storage Lentor Modern
+  - groupId: [64] -> [64]
+- `2361` FairPrice Blk 475 Tampines Street 44
+  - groupId: [39] -> [39]
+- `2362` SHENG SIONG NO.1 WOODLANDS ROADS 
+  - groupId: [37] -> [37]
+- `2363` Giant Tampines Mart
+  - groupId: [51] -> [51]
+- `2364` FairPrice Blk 511 Canberra Road
+  - groupId: [41] -> [41]
+- `2365` FairPrice East Point
+  - groupId: [39] -> [39]
+- `2366` SHENG SIONG BLK 467 BUKIT BATOK WEST AVENUE 9 
+  - groupId: [37] -> [37]
+- `2367` Prime Supermarket Tampines Street 96
+  - groupId: [80] -> [80]
+- `2369` SHENG SIONG BLK 539A BEDOK NORTH STREET 3 
+  - groupId: [35] -> [35]
+- `237` 668 Choa Chu Kang Cres
+  - groupId: [] -> []
+- `2370` Raj Agro Kranji
+  - groupId: [116] -> [116]
+- `2371` Giant Express 509 Bedok North St 3
+  - groupId: [52] -> [52]
+- `2372` U STARS @817 Keat Hong Link
+  - groupId: [85] -> [85]
+- `2373` FairPrice Yew Tee Mrt
+  - groupId: [39] -> [39]
+- `2374` Giant Bedok Market Place
+  - groupId: [51] -> [51]
+- `2375` FairPrice Canberra Plaza
+  - groupId: [47] -> [47]
+- `2376` FairPrice New Upper Changi Road
+  - groupId: [39] -> [39]
+- `2377` FairPrice Teck Whye
+  - groupId: [39] -> [39]
+- `2378` SHENG SIONG 151 BEDOK SOUTH ROAD, SIGLAP CC
+  - groupId: [37] -> [37]
+- `2380` FairPrice Blk 29B Chai Chee Avenue
+  - groupId: [39] -> [39]
+- `2381` FairPrice Yew Tee Point
+  - groupId: [41] -> [41]
+- `2382` FairPrice Limbang Shopping Centre
+  - groupId: [41] -> [41]
+- `2383` Giant Kampung Ubi Avenue 1
+  - groupId: [55] -> [55]
+- `2384` FairPrice JEM
+  - groupId: [41] -> [41]
+- `2385` Prime Supermarket Eunos Road 2
+  - groupId: [78] -> [78]
+- `2386` Don Don Donki (Jurong East Mall)
+  - groupId: [77] -> [77]
+- `2387` SHENG SIONG BLK 118 ALJUNIED  AVE 2 
+  - groupId: [37] -> [37]
+- `2389` Grindelwald Supermarket
+  - groupId: [106] -> [106]
+- `239` 698C Jurong West Central 3
+  - groupId: [] -> []
+- `2390` FairPrice Blk 114 Aljunied Ave 2
+  - groupId: [39] -> [39]
+- `2392` SCARLETT@GEYLANG ROAD
+  - groupId: [86] -> [86]
+- `2394` FairPrice 41 Jalan Tiga
+  - groupId: [39] -> [39]
+- `2395` Giant Choa Chu Kang Avenue 3
+  - groupId: [51] -> [51]
+- `2396` Isetan Scotts Supermarket
+  - groupId: [108] -> [108]
+- `2397` FairPrice Old Airport Hawker Centre
+  - groupId: [41] -> [41]
+- `2398` SHENG SIONG BLK 352 CLEMENTI AVE 2 
+  - groupId: [35] -> [35]
+- `240` 32 Marsiling Dr
+  - groupId: [] -> []
+- `2400` FairPrice Boon Lay Shopping Complex
+  - groupId: [39] -> [39]
+- `2401` Blk 141, Bedok Reservoir Road
+  - groupId: [] -> []
+- `2402` Giant Yishun Street 22
+  - groupId: [51] -> [51]
+- `2403` FairPrice 451 Clementi Avenue 3
+  - groupId: [39] -> [39]
+- `2404` SHENG SIONG BLK 544 JURONG WEST ST 42 
+  - groupId: [35] -> [35]
+- `2405` Prime Supermarket Blk 253 Choa Chu Kang
+  - groupId: [78] -> [78]
+- `2406` FairPrice Bukit Panjang Plaza
+  - groupId: [47] -> [47]
+- `2407` FairPrice Pasir Ris West Plaza
+  - groupId: [39] -> [39]
+- `2408` Giant Bukit Batok East Avenue 3
+  - groupId: [51] -> [51]
+- `2409` FairPrice Whitesands
+  - groupId: [47] -> [47]
+- `241` 667C Jurong West Street 65
+  - groupId: [] -> []
+- `2410` Food-Joy Buona Vista
+  - groupId: [104] -> [104]
+- `2413` FairPrice Bukit Merah
+  - groupId: [40] -> [40]
+- `2414` U STARS @810 Cha Chu Kang Ave 7
+  - groupId: [84] -> [84]
+- `2415` FairPrice Downtown East
+  - groupId: [47] -> [47]
+- `2416` SCARLETT@PLANTATION PLAZA
+  - groupId: [87] -> [87]
+- `2417` Giant Loyang Point
+  - groupId: [51] -> [51]
+- `2418` FairPrice Tengah Parc Point
+  - groupId: [47] -> [47]
+- `2419` SHENG SIONG BLK 258 PASIR RIS ST 21 
+  - groupId: [37] -> [37]
+- `2420` Giant Tengah Plantation Plaza
+  - groupId: [57] -> [57]
+- `2421` FairPrice 280 Bukit Batok East Avenue 3
+  - groupId: [39] -> [39]
+- `2422` FairPrice Blk 633 Tampines North Drive 2
+  - groupId: [39] -> [39]
+- `2424` U STARS @Tampines Grove
+  - groupId: [84] -> [84]
+- `2426` FairPrice Century Square Shopping Mall
+  - groupId: [47] -> [47]
+- `2428` Cold Storage Tampines One
+  - groupId: [59] -> [59]
+- `2431` BITES BY SCARLETT@TAMPINES ONE
+  - groupId: [87] -> [87]
+- `2436` FairPrice Blk 107 Tampines Street 11
+  - groupId: [39] -> [39]
+- `244` 854 Jurong West Street 81
+  - groupId: [] -> []
+- `2440` FairPrice Finest Komo Shoppes
+  - groupId: [47] -> [47]
+- `2444` Giant Simei MRT
+  - groupId: [56] -> [56]
+- `2446` FairPrice Changi Business Park
+  - groupId: [47] -> [47]
+- `2448` SHENG SIONG BLK 739A BEDOK RESERVOIR ROAD 
+  - groupId: [35] -> [35]
+- `245` 196B Boon Lay Drive
+  - groupId: [] -> []
+- `2450` Sparrows 206 Bedok North Street 1
+  - groupId: [118] -> [118]
+- `2452` SHENG SIONG BLK 209 NEW UPPER CHANGI ROAD 
+  - groupId: [35] -> [35]
+- `2454` FairPrice Bedok North 212
+  - groupId: [39] -> [39]
+- `2455` Meidi-Ya Great World City
+  - groupId: [110] -> [110]
+- `2457` FairPrice Bedok Mall
+  - groupId: [47] -> [47]
+- `246` 276D Jurong West Street 25
+  - groupId: [] -> []
+- `2461` FairPrice Paya Lebar Quarter
+  - groupId: [47] -> [47]
+- `2464` SCARLETT@PAYA LEBAR SQUARE
+  - groupId: [87] -> [87]
+- `2466` SHENG SIONG 301 GEYLANG ROAD BCH BUILDING
+  - groupId: [35] -> [35]
+- `2468` SHENG SIONG 11 TANJONG KATONG ROAD, KINEX
+  - groupId: [37] -> [37]
+- `247` 212 Marsiling Cres
+  - groupId: [] -> []
+- `2473` FairPrice Katong V
+  - groupId: [47] -> [47]
+- `2475` Cold Storage Parkway Parade
+  - groupId: [58] -> [58]
+- `2478` FairPrice Changi Airport T3
+  - groupId: [40] -> [40]
+- `248` 920 Jurong West Street 92
+  - groupId: [] -> []
+- `249` 123 Marsiling Rise
+  - groupId: [] -> []
+- `2492` Little Farms Market, Tanglin Mall
+  - groupId: [96] -> [96]
+- `2496` ACE MARKETPLACE (86RC)
+  - groupId: [117] -> [117]
+- `250` 664D Jurong West Street 64
+  - groupId: [] -> []
+- `2502` Prime Supermarket Buangkok Square
+  - groupId: [81] -> [81]
+- `251` 744 Jurong West Street 73
+  - groupId: [] -> []
+- `2515` Kampung Admiralty Hawker Centre
+  - groupId: [] -> []
+- `2516` SCARLETT@DOWNTOWN E!HUB
+  - groupId: [88] -> [88]
+- `2517` FairPrice Blk 89 Bedok North Street 4
+  - groupId: [39] -> [39]
+- `2518` SHENG SIONG BLK 115 BEDOK NORTH ROAD 
+  - groupId: [35] -> [35]
+- `2519` SHENG SIONG Woodlands Recreation Centre
+  - groupId: [38] -> [38]
+- `252` 515 Jurong West Street 52
+  - groupId: [] -> []
+- `2521` 214 Jurong East Street 21
+  - groupId: [] -> []
+- `2522` 129 Pending Rd
+  - groupId: [] -> []
+- `2523` SHENG SIONG NO.1 JALAN BERSEH, NEW WORLD CENTRE
+  - groupId: [35] -> [35]
+- `2525` 423 Choa Chu Kang Ave 4
+  - groupId: [] -> []
+- `2526` Giant Yishun Avenue 11
+  - groupId: [55] -> [55]
+- `2527` Culina at COMO Dempsey
+  - groupId: [102] -> [102]
+- `2529` Supernature
+  - groupId: [103] -> [103]
+- `2536` East Coast Lagoon Food Village
+  - groupId: [] -> []
+- `2537` Bedok Food Centre
+  - groupId: [] -> []
+- `2538` Changi Village Hawker Centre
+  - groupId: [] -> []
+- `2539` Changi Airport Terminal 1
+  - groupId: [] -> []
+- `254` 618 Choa Chu Kang North 7
+  - groupId: [] -> []
+- `2540` Changi Airport Terminal 4
+  - groupId: [] -> []
+- `2541` Changi Airport Terminal 2
+  - groupId: [] -> []
+- `2548` SCARLETT@SUN PLAZA
+  - groupId: [87] -> [87]
+- `2549` Giant Woodlands Mart
+  - groupId: [51] -> [51]
+- `255` 17 Marsiling Ln
+  - groupId: [] -> []
+- `2550` Bazaar Terusan Recreation Centre
+  - groupId: [120] -> [120]
+- `2551` ANG MO SUPERMARKET-693 WOODLANDS AVE 6
+  - groupId: [93] -> [93]
+- `2552` Ajmal Trade Mart -  Kranji Lodge One
+  - groupId: [90] -> [90]
+- `2554` Chap He Diam Migrant Worker's Recreation Centre
+  - groupId: [100] -> [100]
+- `2555` Don Don Donki (Northpoint City)
+  - groupId: [74] -> [74]
+- `2556` Nawas Global - Tuas South Dormitory
+  - groupId: [90] -> [90]
+- `2557` Ajmal Super Market - Tuas View Dormitory
+  - groupId: [90] -> [90]
+- `2558` 7 Seven Trichy Supermarket North Coast Lodge
+  - groupId: [98] -> [98]
+- `2559` Ajmal Trading Group - Kranji Recreation Centre
+  - groupId: [91] -> [91]
+- `2560` Ajmal Trading Group - Woodlands Westlite Dormitory
+  - groupId: [90] -> [90]
+- `2561` Prime Supermarket Blk 142 Teck Whye Lane
+  - groupId: [79] -> [79]
+- `2562` Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - groupId: [114] -> [114]
+- `2563` Prime Supermarket Blk 768 Woodlands Ave 6
+  - groupId: [80] -> [80]
+- `2564` SCARLETT@YISHUN 10 CINEMA COMPLEX
+  - groupId: [87] -> [87]
+- `2565` Phan Nee #01-02 SUNGEI TENGAH LODGE
+  - groupId: [114] -> [114]
+- `2566` Ajmal Trading Group - Jalan Papan Aspri Westlite
+  - groupId: [90] -> [90]
+- `2567` Don Don Donki (Bukit Panjang Plaza)
+  - groupId: [76] -> [76]
+- `2568` Redman by Phoon Huat
+  - groupId: [115] -> [115]
+- `2569` Chennai Trading & Supermart - 1 Jalan Papan
+  - groupId: [101] -> [101]
+- `2570` SHENG SIONG 18 YISHUN AVE 9,  JUNCTION NINE
+  - groupId: [37] -> [37]
+- `2576` Blk 768, Pasir Ris Street 71
+  - groupId: [] -> []
+- `2579` FairPrice Tampines Blk 138 Tampines Street 11
+  - groupId: [39] -> [39]
+- `2581` ACE SIGNATURE @ LIV CHANGI
+  - groupId: [99] -> [99]
+- `2584` Blk 12 Kampong Arang Rd
+  - groupId: [] -> []
+- `2596` U STARS @215C Compassvale Drive
+  - groupId: [84] -> [84]
+- `260` 149 Woodlands Street 13
+  - groupId: [] -> []
+- `2601` Blk 65, New Upper Changi Road
+  - groupId: [] -> []
+- `2604` SHENG SIONG BLK 506 TAMPINES CENTRAL 1
+  - groupId: [35] -> [35]
+- `2605` 145 Yishun Street 11
+  - groupId: [] -> []
+- `261` 153 Gangsa Rd
+  - groupId: [] -> []
+- `2620` Bazaar Westlite Toh Guan Dormitory
+  - groupId: [] -> []
+- `263` 359 Clementi Ave 2
+  - groupId: [] -> []
+- `264` 178 Woodlands Street 13
+  - groupId: [] -> []
+- `265` 108 Gangsa Rd
+  - groupId: [] -> []
+- `2655` Prime Supermarket Blk 761 Yishun
+  - groupId: [122] -> [122]
+- `2656` All India Supermart Pte Ltd
+  - groupId: [] -> []
+- `2657` Blk 72, Marine Drive
+  - groupId: [] -> []
+- `2658` FairPrice Bedok Reservoir 
+  - groupId: [] -> []
+- `2659` TRIPLE N SUPERMART PTE LTD
+  - groupId: [] -> []
+- `2661` BISMILLAH MINIMART 32 MANDAI
+  - groupId: [] -> []
+- `2662` Lion City Supermarket Geylang Road
+  - groupId: [] -> []
+- `2663` 361 Sembawang Crescent
+  - groupId: [] -> []
+- `2664` Yishun Park Hawker
+  - groupId: [] -> []
+- `2665` SHENG SIONG BLK 120 CANBERRA CRESCENT
+  - groupId: [] -> []
+- `2666` Bukit Canberra Hawker Centre
+  - groupId: [] -> []
+- `2667` Sembawang Recreation Centre
+  - groupId: [] -> []
+- `2668` Serangoon Garden Market
+  - groupId: [] -> []
+- `2669` Chomp Chomp Food Centre
+  - groupId: [] -> []
+- `267` 454 Clementi Ave 3
+  - groupId: [] -> []
+- `2670` Fernvale Hawker Centre & Market
+  - groupId: [] -> []
+- `2671` Phan 66 PPT Lodge 1A Dormitory
+  - groupId: [] -> []
+- `2672` SHENG SIONG THOMSON IMPERIAL COURT
+  - groupId: [] -> []
+- `2673` SCARLETT@AMK 710A
+  - groupId: [86] -> [86]
+- `2674` Pasir Ris Central Hawker Centre
+  - groupId: [] -> []
+- `2675` Zion Riverside Food Centre
+  - groupId: [] -> []
+- `2676` Taman Jurong Market & Food Centre
+  - groupId: [] -> []
+- `2677` Senja Hawker Centre
+  - groupId: [] -> []
+- `2678` SACHI MINIMART PTE LTD
+  - groupId: [] -> []
+- `2679` Bukit Batok West Hawker Centre
+  - groupId: [] -> []
+- `268` 113 Woodlands Street 13
+  - groupId: [] -> []
+- `2680` Bukit Panjang Hawker Centre
+  - groupId: [] -> []
+- `2681` Beo Crescent Market
+  - groupId: [] -> []
+- `2682` Tiong Bahru Market
+  - groupId: [] -> []
+- `2683` Pasir Panjang Food Centre
+  - groupId: [] -> []
+- `2684` Margaret Drive Hawker Centre
+  - groupId: [] -> []
+- `2685` Tanglin Halt Market
+  - groupId: [] -> []
+- `2686` Holland Village Market and Food Centre
+  - groupId: [] -> []
+- `2687` Commonwealth Crescent Market
+  - groupId: [] -> []
+- `2688` Adam Road Food Centre
+  - groupId: [] -> []
+- `269` 113 Clementi Street 13
+  - groupId: [] -> []
+- `270` 140 Petir Rd
+  - groupId: [] -> []
+- `271` 101 Gangsa Rd
+  - groupId: [] -> []
+- `272` 326 Clementi Ave 5 
+  - groupId: [] -> []
+- `2722` Dunman Food Centre
+  - groupId: [] -> []
+- `2723` Kovan Hougang Market and Food Centre
+  - groupId: [] -> []
+- `2724` Hougang 105 Hainanese Village Centre
+  - groupId: [] -> []
+- `2725` Ang Mo Kio Market & Food Centre Blk 724
+  - groupId: [] -> []
+- `2726` Teck Ghee Court Market & Food Centre
+  - groupId: [] -> []
+- `2727` Kebun Baru Food Centre Block 226H
+  - groupId: [] -> []
+- `2728` 628 Ang Mo Kio Food Centre
+  - groupId: [] -> []
+- `2729` Chong Boon Market & Food Centre
+  - groupId: [] -> []
+- `273` 311B Clementi Ave 4
+  - groupId: [] -> []
+- `2730` Kallang Estate Fresh Market and Food Centre
+  - groupId: [] -> []
+- `2731` Fairprice Jewel
+  - groupId: [] -> []
+- `2732` ITE College East
+  - groupId: [] -> []
+- `2733` Fairprice Joo Chiat Complex
+  - groupId: [] -> []
+- `2734` Cold Storage Orchard Hotel
+  - groupId: [] -> []
+- `2735` SHENG SIONG NEW BRIDGE CENTRE
+  - groupId: [] -> []
+- `2736` Redhill Food Centre
+  - groupId: [] -> []
+- `2737` Alexandra Village Food Centre
+  - groupId: [] -> []
+- `2738` Mei Chin Road Market
+  - groupId: [] -> []
+- `2739` National University of Singapore (NUS) Frontier Canteen
+  - groupId: [] -> []
+- `2740` Toa Payoh Vista Market
+  - groupId: [] -> []
+- `2741` Mayflower Market
+  - groupId: [] -> []
+- `2742` Tampines Round Market and Food Centre
+  - groupId: [] -> []
+- `2747` 672A Klang Lane - Little India
+  - groupId: [] -> []
+- `2748` Pek Kio Market & Food Centre
+  - groupId: [] -> []
+- `2749` Bukit Merah Central Food Centre
+  - groupId: [] -> []
+- `275` 343 Clementi Ave 5
+  - groupId: [] -> []
+- `2750` Blk 115 Bukit Merah View Market and Food Centre
+  - groupId: [] -> []
+- `2752` Eunos Crescent Blk 4A Hawker Centre
+  - groupId: [] -> []
+- `2754` Tekka Centre / Zhu Jiao Market
+  - groupId: [] -> []
+- `2755` Blk 6 Tanjong Pagar Plaza Market and Food Centre
+  - groupId: [] -> []
+- `2756` Blk 112 Jalan Bukit Merah Market and Food Centre
+  - groupId: [] -> []
+- `2757` Toa Payoh Lorong 8 Blk 210 Hawker Centre
+  - groupId: [] -> []
+- `2758` Holland Drive Market and Food Centre
+  - groupId: [] -> []
+- `2759` Toa Payoh Lorong 4 Blk 94
+  - groupId: [] -> []
+- `2760` 20 Ghim Moh Road Market & Food Centre
+  - groupId: [] -> []
+- `2761` Blk 4A Jalan Batu Hawker Centre
+  - groupId: [] -> []
+- `2762` 50A Marine Terrace Hawker Centre
+  - groupId: [] -> []
+- `2763` 84 Marine Parade Central Market and Food Centre
+  - groupId: [] -> []
+- `2764` Kaki Bukit 511 Market and Food Centre
+  - groupId: [] -> []
+- `2765` Bedok North Street 3 Blk 538 Hawker Centre
+  - groupId: [] -> []
+- `2766` Shunfu-Mart
+  - groupId: [] -> []
+- `2767` 11 Telok Blangah Crescent Market and Food Centre
+  - groupId: [] -> []
+- `2769` Telok Blangah Rise Market
+  - groupId: [] -> []
+- `277` 131 Cashew Rd
+  - groupId: [] -> []
+- `2770` Toa Payoh West Market and Food Court
+  - groupId: [] -> []
+- `2771` Li Li Cheng Punggol
+  - groupId: [] -> []
+- `2772` 20 Marsiling Lane Food Centre
+  - groupId: [] -> []
+- `2773` 353 Clementi Food Center
+  - groupId: [] -> []
+- `2774` 445 Clementi Avenue 3
+  - groupId: [] -> []
+- `2775` West Coast Market Square
+  - groupId: [] -> []
+- `2776` 252 Jurong East Street 24
+  - groupId: [] -> []
+- `2777` Teban Market Place
+  - groupId: [] -> []
+- `2778` 505 Jurong West Market & Food Centre
+  - groupId: [] -> []
+- `2779` 221A Boon Lay Market
+  - groupId: [] -> []
+- `2780` Bedok Reservoir Food Centre
+  - groupId: [] -> []
+- `2781` Marks & Spencer Raffles City
+  - groupId: [] -> []
+- `2782` 573B Woodlands Drive 16
+  - groupId: [] -> []
+- `2783` Republic Polytechnic
+  - groupId: [] -> []
+- `2785` Cold Storage Pasir Ris Mall
+  - groupId: [58] -> [58]
+- `2786` Empress Road Market and Food Centre
+  - groupId: [] -> []
+- `2787` 85 Fengshan Centre
+  - groupId: [] -> []
+- `2788` Temasek Polytechnic
+  - groupId: [] -> []
+- `2789` Lau Pa Sat Hawker Centre
+  - groupId: [] -> []
+- `279` 288C Jurong East Street 21
+  - groupId: [] -> []
+- `2790` Telok Blangah Food Centre
+  - groupId: [] -> []
+- `2791` Block 44 Telok Blangah Drive
+  - groupId: [] -> []
+- `2792` MacPherson Market & Food Centre
+  - groupId: [] -> []
+- `2793` 79/79A Circuit Road Hawker Centre
+  - groupId: [] -> []
+- `2794` 80 Circuit Road Market and Food Centre
+  - groupId: [] -> []
+- `2795` 225 Ang Mo Kio Ave 1
+  - groupId: [] -> []
+- `280` 102 Woodlands Street 13
+  - groupId: [] -> []
+- `2802` People's Park Food Centre
+  - groupId: [] -> []
+- `2805` Masjid Sultan Mosque
+  - groupId: [] -> []
+- `2806` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - groupId: [] -> []
+- `2807` FairPrice Tampines Mall
+  - groupId: [] -> []
+- `2808` Blk 216 Bedok North Street 1 Market & Hawker Centre
+  - groupId: [] -> []
+- `2809` 208B New Upper Changi Road Hawker Centre
+  - groupId: [] -> []
+- `281` 160 Woodlands Street 13
+  - groupId: [] -> []
+- `2810` Blk 608, Bedok Reservoir Road
+  - groupId: [] -> []
+- `2811` Singapore University of Technology and Design (SUTD)
+  - groupId: [] -> []
+- `2813` Blk 701, Bedok Reservoir Road
+  - groupId: [] -> []
+- `2815` Blk 69 Geylang Bahru Market and Food Centre
+  - groupId: [] -> []
+- `2816` NESST Tukang Dormitory
+  - groupId: [] -> []
+- `2817` Block 108B Bidadari Park Drive
+  - groupId: [] -> []
+- `2818` Block 118A Bidadari Park Drive
+  - groupId: [] -> []
+- `2819` Block 112A Bidadari Park Drive
+  - groupId: [] -> []
+- `282` 310 Woodlands Street 31
+  - groupId: [] -> []
+- `2820` Block 101 Bidadari Park Drive
+  - groupId: [] -> []
+- `2821` ASPRI-D Wall Papan Dormitory
+  - groupId: [] -> []
+- `2822` Singapore Zoo
+  - groupId: [] -> []
+- `2823` Bird Paradise
+  - groupId: [] -> []
+- `2824` Penjuru Recreation Centre
+  - groupId: [] -> []
+- `2825` Chong Pang Food Centre
+  - groupId: [] -> []
+- `2827` 138 Yishun Ring Road, Singapore 760138
+  - groupId: [] -> []
+- `2828` West 1800 Dormitory
+  - groupId: [] -> []
+- `2829` 204 Clementi Ave 6, Singapore 120204
+  - groupId: [] -> []
+- `284` 103 Clementi Street 14
+  - groupId: [] -> []
+- `2866` SCARLETT@PASIR RIS MALL
+  - groupId: [] -> []
+- `2870` 117 Aljunied Ave 2 Market & Food Centre
+  - groupId: [] -> []
+- `2871` FairPrice Finest Sceneca Square
+  - groupId: [] -> []
+- `2872` FORTUNE SUPERMARKET 780
+  - groupId: [] -> []
+- `2873` Westlite Jalan Tukang Dormitory
+  - groupId: [] -> []
+- `2875` 16 Bedok South Rd Hawker Centre
+  - groupId: [] -> []
+- `2879` Sims Vista Market & Food Centre
+  - groupId: [] -> []
+- `2883` Blk 514, Bedok North Ave 2
+  - groupId: [] -> []
+- `2884` SHENG SIONG BLK 845 YISHUN ST 81
+  - groupId: [] -> []
+- `2885` 510 Jurong West Street 51
+  - groupId: [] -> []
+- `2886` Blk 17 Upper Boon Keng Market and Food Centre
+  - groupId: [] -> []
+- `2887` Little India Rowell Rd
+  - groupId: [] -> []
+- `2888` Whampoa Market
+  - groupId: [] -> []
+- `2889` Kukoh 21 Food Centre
+  - groupId: [] -> []
+- `2890` Blk 501, Bedok North Street 3
+  - groupId: [] -> []
+- `2891` Gardens by the Bay
+  - groupId: [] -> []
+- `2892` Bendemeer Market and Food Centre
+  - groupId: [] -> []
+- `2893` Cheng Yan Court - 269 Queen Street
+  - groupId: [] -> []
+- `2894` Blk 5036 Ang Mo Kio Ind Park 2
+  - groupId: [] -> []
+- `2895` Hong Lim Food Centre and Market
+  - groupId: [] -> []
+- `2896` Ngee Ann Polytechnic (NP)
+  - groupId: [] -> []
+- `2897` Blk 10 AMK Autopoint
+  - groupId: [] -> []
+- `2898` Fair Price Hougang Mall
+  - groupId: [45] -> [45]
+- `2899` Nanyang Polytechnic (NYP)
+  - groupId: [] -> []
+- `2900` Block 75B Redhill Rd
+  - groupId: [] -> []
+- `2901` Block 118 Bukit Merah View
+  - groupId: [] -> []
+- `2902` Block 19 Jalan Membina
+  - groupId: [] -> []
+- `2903` Block 118B Jalan Membina
+  - groupId: [] -> []
+- `2904` Block 102 Bukit Purmei Road
+  - groupId: [] -> []
+- `2905` Block 150 Mei Ling St
+  - groupId: [] -> []
+- `2906` Block 49 Lengkok Bahru
+  - groupId: [] -> []
+- `2907` Block 52 Lengkok Bahru
+  - groupId: [] -> []
+- `2908` Block 1 Dover Rd
+  - groupId: [] -> []
+- `2909` Block 22 Dover Crescent
+  - groupId: [] -> []
+- `2910` Block 94 Dawson Road
+  - groupId: [] -> []
+- `2911` Block 69 Telok Blangah Heights
+  - groupId: [] -> []
+- `2912` FairPrice 289A Toh Guan
+  - groupId: [] -> []
+- `2945` Blk 409 Ang Mo Kio Ave 10 Market & Hawker Centre
+  - groupId: [] -> []
+- `2946` Blk 518, Bedok North Ave 2
+  - groupId: [] -> []
+- `2947` Block 52A Commonwealth Dr
+  - groupId: [] -> []
+- `2948` Block 81 Redhill Ln
+  - groupId: [] -> []
+- `2949` Block 69 Redhill Cl
+  - groupId: [] -> []
+- `2950` Singapore Management University (SMU)
+  - groupId: [] -> []
+- `2951` Blk 36 Sin Ming Industrial Estate
+  - groupId: [] -> []
+- `2952` Singapore University of Social Sciences (SUSS)
+  - groupId: [] -> []
+- `2953` Punggol Way Dorm, Sharbesuwary Pte Ltd
+  - groupId: [] -> []
+- `2954` Blk 1 AMK Tech I
+  - groupId: [] -> []
+- `2955` Blk 5058 Ang Mo Kio Ind Park 2
+  - groupId: [] -> []
+- `2956` Block 8 Tanjong Pagar Plaza
+  - groupId: [] -> []
+- `2957` Block 8 Cantonment Cl
+  - groupId: [] -> []
+- `2958` Block 3 Jalan Bukit Merah
+  - groupId: [] -> []
+- `2959` Block 166 Stirling Road
+  - groupId: [] -> []
+- `2960` Block 181 Stirling Rd
+  - groupId: [] -> []
+- `2962` SHENG SIONG BLK 440 BUKIT BATOK WEST AVE 8
+  - groupId: [35] -> [35]
+- `2963` SHENG SIONG BLK 61 TEBAN GARDENS ROAD
+  - groupId: [] -> []
+- `2966` 507 West Coast Drive
+  - groupId: [] -> []
+- `2968` Block 294 Punggol Central
+  - groupId: [] -> []
+- `2969` Block 668B Edgefield Plains
+  - groupId: [] -> []
+- `2970` Block 165A Punggol Central
+  - groupId: [] -> []
+- `2971` Block 655A Punggol East
+  - groupId: [] -> []
+- `2972` Block 677A Punggol Drive
+  - groupId: [] -> []
+- `2973` Block 684A Edgedale Plains
+  - groupId: [] -> []
+- `2974` Block 624B Punggol Central
+  - groupId: [] -> []
+- `2975` Block 632A Punggol Drive
+  - groupId: [] -> []
+- `2976` Block 168A Punggol East
+  - groupId: [] -> []
+- `2977` Block 647 Punggol Central
+  - groupId: [] -> []
+- `2979` 801 West Coast Crescent
+  - groupId: [] -> []
+- `2981` 444 Jurong West Ave 1, Singapore 640444
+  - groupId: [] -> []
+- `2982` 555 Jurong West Street 42
+  - groupId: [] -> []
+- `2983` 518 Jurong West Street 52
+  - groupId: [] -> []
+- `2985` 689 Jurong West Central 1
+  - groupId: [] -> []
+- `2986` 640 Jurong West Street 61
+  - groupId: [] -> []
+- `2987` 601 Jurong West Street 62
+  - groupId: [] -> []
+- `2988` 988A Jurong West Street 93
+  - groupId: [] -> []
+- `2990` 238B Boon Lay Drive
+  - groupId: [] -> []
+- `2991` 991B Upper Jurong Rd
+  - groupId: [] -> []
+- `2992` 183C Boon Lay Avenue
+  - groupId: [] -> []
+- `2999` 48 Teban Gardens Road
+  - groupId: [] -> []
+- `3001` 414 Pandan Gardens Road
+  - groupId: [] -> []
+- `3002` 60 Jurong West Central 3
+  - groupId: [] -> []
+- `3003` 706 Jurong West Street 71
+  - groupId: [] -> []
+- `3005` Block 308A Punggol Walk
+  - groupId: [] -> []
+- `3006` Block 134 Edgedale Plains
+  - groupId: [] -> []
+- `3007` Block 224C Sumang Lane
+  - groupId: [] -> []
+- `3008` Block 217C Sumang Walk
+  - groupId: [] -> []
+- `3009` Block 228A Punggol Field
+  - groupId: [] -> []
+- `3010` Block 326B Sumang Walk
+  - groupId: [] -> []
+- `3011` Block 423A Northshore Crescent
+  - groupId: [] -> []
+- `3012` Block 232C Sumang Lane
+  - groupId: [] -> []
+- `3013` 708 Clementi West Street 2
+  - groupId: [] -> []
+- `3016` 509 Serangoon North Ave 4
+  - groupId: [] -> []
+- `3022` Block 400C Fernvale Ln
+  - groupId: [] -> []
+- `3023` Block 410A Fernvale Rd
+  - groupId: [] -> []
+- `3024` Block 538 Hougang Ave 8
+  - groupId: [] -> []
+- `3025` Blk 648 Hougang Ave 8
+  - groupId: [] -> []
+- `3026` Block 413B Fernvale Link
+  - groupId: [] -> []
+- `3028` Haig Road Market & Cooked Food Centre
+  - groupId: [] -> []
+- `3030` 467C Yishun Ave 6
+  - groupId: [] -> []
+- `3031` 504 Yishun St 51, Singapore 760504
+  - groupId: [] -> []
+- `3034` 406 Yishun Ave 6, Singapore 760406
+  - groupId: [] -> []
+- `3035` 431A Yishun Ave 1, Singapore 761431
+  - groupId: [] -> []
+- `3036` 439 Yishun Ave 11, Singapore 760439
+  - groupId: [] -> []
+- `3037` 212 Ang Mo Kio Ave 3
+  - groupId: [] -> []
+- `3038` Block 203 Ang Mo Kio Ave 3
+  - groupId: [] -> []
+- `3039` Block 536 Ang Mo Kio Ave 10
+  - groupId: [] -> []
+- `3040` Block 953 Hougang Ave 9
+  - groupId: [] -> []
+- `3041` Block 920 Hougang Ave 9
+  - groupId: [] -> []
+- `3042` 442 Ang Mo Kio Avenue 10
+  - groupId: [] -> []
+- `3043` 996C Buangkok Crescent
+  - groupId: [] -> []
+- `3044` 531 Serangoon North Ave 4
+  - groupId: [] -> []
+- `3045` 526 Serangoon North Ave 4
+  - groupId: [] -> []
+- `3056` 868 Yishun Street 81, Singapore 760868
+  - groupId: [] -> []
+- `3057` 627 Yishun Street 61, Singapore 760627
+  - groupId: [] -> []
+- `3058` 259 Yishun Street 22, Singapore 760259
+  - groupId: [] -> []
+- `3059` 383A Yishun Ave 6, Singapore 761383
+  - groupId: [] -> []
+- `3060` Blk 145, Bedok Reservoir Road
+  - groupId: [] -> []
+- `3061` FairPrice Punggol Waterway Point
+  - groupId: [] -> []
+- `3067` Nanyang Academy of Fine Arts
+  - groupId: [] -> []
+- `3068` Resorts World Sentosa
+  - groupId: [] -> []
+- `3069` Lasalle College of the Arts
+  - groupId: [] -> []
+- `3070` Block 104B Ang Mo Kio St 11
+  - groupId: [] -> []
+- `3071` Block 511 Ang Mo Kio Ave 8
+  - groupId: [] -> []
+- `3072` ST Food Court, #01-09 Sungei Tengah Lodge
+  - groupId: [] -> []
+- `3073` ST Beer Garden, #01-10 Sungei Tengah Lodge
+  - groupId: [] -> []
+- `3074` 783 Yishun Ring Road, Singapore 760783
+  - groupId: [] -> []
+- `3075` 858 Yishun Ave 4, Singapore 760858
+  - groupId: [] -> []
+- `3076` 821 Yishun Street 81, Singapore 760821
+  - groupId: [] -> []
+- `3077` 799 Yishun Ring Rd, Singapore 760799
+  - groupId: [] -> []
+- `3078` 512B Yishun St 51, Singapore 762512
+  - groupId: [] -> []
+- `363` Block 114 Edgefield Plains
+  - groupId: [] -> []
+- `367` Block 126A Edgedale Plains
+  - groupId: [] -> []
+- `368` Block 185 Edgefield Plains
+  - groupId: [] -> []
+- `369` Block 204A Punggol Field
+  - groupId: [] -> []
+- `371` 168 Woodlands Street 11
+  - groupId: [] -> []
+- `372` 297C Choa Chu Kang Ave 2
+  - groupId: [] -> []
+- `373` 219 Choa Chu Kang Central
+  - groupId: [] -> []
+- `374` 454 Fajar Rd
+  - groupId: [] -> []
+- `375` 418 Fajar Rd
+  - groupId: [] -> []
+- `376` 319 Clementi Ave 4
+  - groupId: [] -> []
+- `377` 233 Pending Rd, #08-11
+  - groupId: [] -> []
+- `379` 213 Petir Rd
+  - groupId: [] -> []
+- `380` 708 Choa Chu Kang Street 53
+  - groupId: [] -> []
+- `381` 685C Choa Chu Kang Cres
+  - groupId: [] -> []
+- `382` 461 Segar Rd
+  - groupId: [] -> []
+- `383` 406 Fajar Rd
+  - groupId: [] -> []
+- `384` 175 Lompang Rd
+  - groupId: [] -> []
+- `385` 188 Bukit Batok West Ave 6
+  - groupId: [] -> []
+- `386` 234 Choa Chu Kang Central
+  - groupId: [] -> []
+- `387` 372 Jurong East Street 32
+  - groupId: [] -> []
+- `389` 671 Yishun Avenue 4
+  - groupId: [] -> []
+- `390` 272 Bangkit Rd
+  - groupId: [] -> []
+- `391` 808B Choa Chu Kang Ave 1
+  - groupId: [] -> []
+- `392` 536 Choa Chu Kang Street 51
+  - groupId: [] -> []
+- `393` 677 Choa Chu Kang Cres
+  - groupId: [] -> []
+- `394` 527 Choa Chu Kang Street 51
+  - groupId: [] -> []
+- `395` 625 Choa Chu Kang Street 62
+  - groupId: [] -> []
+- `397` 167 Petir Rd
+  - groupId: [] -> []
+- `398` 601 Choa Chu Kang Street 62
+  - groupId: [] -> []
+- `399` 486 Choa Chu Kang Ave 5
+  - groupId: [] -> []
+- `400` 760 Choa Chu Kang North 5
+  - groupId: [] -> []
+- `401` 162 Bukit Batok Street 11
+  - groupId: [] -> []
+- `403` 210 Bukit Batok Street 21
+  - groupId: [] -> []
+- `406` 505 Choa Chu Kang Street 51
+  - groupId: [] -> []
+- `407` 437 Fajar Rd, Block 437
+  - groupId: [] -> []
+- `408` 493 Jurong West Street 41
+  - groupId: [] -> []
+- `409` 432 Choa Chu Kang Ave 4
+  - groupId: [] -> []
+- `410` 290 Choa Chu Kang Ave 3
+  - groupId: [] -> []
+- `411` 238 Bukit Batok East Ave 5
+  - groupId: [] -> []
+- `412` 296B Bukit Batok Street 22
+  - groupId: [] -> []
+- `413` 137 Teck Whye Ln
+  - groupId: [] -> []
+- `414` 473 Choa Chu Kang Ave 3
+  - groupId: [] -> []
+- `416` 164 Jln Teck Whye
+  - groupId: [] -> []
+- `417` 230 Choa Chu Kang Central
+  - groupId: [] -> []
+- `418` 290B Bukit Batok Street 24
+  - groupId: [] -> []
+- `420` 498 Jurong West Street 41
+  - groupId: [] -> []
+- `421` 639 Choa Chu Kang Street 64
+  - groupId: [] -> []
+- `422` 488B Choa Chu Kang Ave 5
+  - groupId: [] -> []
+- `423` 125 Bukit Batok Central
+  - groupId: [] -> []
+- `425` 334D Yishun Street 31
+  - groupId: [] -> []
+- `426` 454 Choa Chu Kang Ave 4
+  - groupId: [] -> []
+- `427` 818B Choa Chu Kang Ave 1
+  - groupId: [] -> []
+- `428` 426 Choa Chu Kang Ave 4
+  - groupId: [] -> []
+- `429` 562 Choa Chu Kang Street 52
+  - groupId: [] -> []
+- `430` 434 Bukit Panjang Ring Rd
+  - groupId: [] -> []
+- `431` 228 Bukit Batok Central,
+  - groupId: [] -> []
+- `432` 442 Choa Chu Kang Ave 4
+  - groupId: [] -> []
+- `433` 103 Bukit Batok Central
+  - groupId: [] -> []
+- `434` 517 Choa Chu Kang Street 51
+  - groupId: [] -> []
+- `436` 340 Choa Chu Kang Loop
+  - groupId: [] -> []
+- `437` 464 Jurong West Street 41
+  - groupId: [] -> []
+- `438` 413 Saujana Rd
+  - groupId: [] -> []
+- `439` 169 Bukit Batok West Ave 8
+  - groupId: [] -> []
+- `440` 764 Jurong West Street 74
+  - groupId: [] -> []
+- `441` 550 Choa Chu Kang Street 52
+  - groupId: [] -> []
+- `442` 251 Bangkit Rd,
+  - groupId: [] -> []
+- `443` 308 Jurong East Street 32
+  - groupId: [] -> []
+- `444` 308 Bukit Batok Street 31
+  - groupId: [] -> []
+- `445` 242 Bukit Panjang Ring Rd
+  - groupId: [] -> []
+- `447` Block 447A Punggol Way
+  - groupId: [] -> []
+- `448` Block 310C Punggol Walk
+  - groupId: [] -> []
+- `449` Block 435 Northshore Drive
+  - groupId: [] -> []
+- `450` Block 411A Northshore Drive
+  - groupId: [] -> []
+- `451` 316 Jurong East Street 32
+  - groupId: [] -> []
+- `452` 320 Jurong East Street 31
+  - groupId: [] -> []
+- `453` 340 Jurong East Ave 1
+  - groupId: [] -> []
+- `455` 475 Jurong West Street 41
+  - groupId: [] -> []
+- `456` 458 Jurong West Street 41
+  - groupId: [] -> []
+- `457` 461A Bukit Batok West Ave 8
+  - groupId: [] -> []
+- `458` 330 Clementi Ave 2
+  - groupId: [] -> []
+- `459` 435C Bukit Batok West Ave. 5
+  - groupId: [] -> []
+- `460` 317 Jurong East Street 31
+  - groupId: [] -> []
+- `461` 248 Bukit Batok East Avenue 5
+  - groupId: [] -> []
+- `462` 369 Bukit Batok Street 31
+  - groupId: [] -> []
+- `463` 325 Jurong East Street 31
+  - groupId: [] -> []
+- `464` 288D Bukit Batok Street 25
+  - groupId: [] -> []
+- `465` 350 Bukit Batok Street 34
+  - groupId: [] -> []
+- `466` 480 Jurong West Street 41
+  - groupId: [] -> []
+- `467` 15 Teck Whye Ln
+  - groupId: [] -> []
+- `468` 138 Bukit Batok West Ave 6
+  - groupId: [] -> []
+- `469` 181 Jelebu Rd
+  - groupId: [] -> []
+- `470` 164 Bukit Batok Street 11
+  - groupId: [] -> []
+- `477` 757 Yishun Street 72 
+  - groupId: [] -> []
+- `479` 636 Yishun Street 61
+  - groupId: [] -> []
+- `483` 274 Choa Chu Kang Ave 2
+  - groupId: [] -> []
+- `487` 654 Yishun Avenue 4
+  - groupId: [] -> []
+- `492` 112 Teck Whye Ln
+  - groupId: [] -> []
+- `506` 213 Yishun Street 21
+  - groupId: [] -> []
+- `511` 676C Yishun Ring Rd
+  - groupId: [] -> []
+- `512` 365 Yishun Ring Rd
+  - groupId: [] -> []
+- `514` 771 Yishun Ave 3
+  - groupId: [] -> []
+- `524` 379 Clementi Ave 5
+  - groupId: [] -> []
+- `532` 935 Yishun Central 1
+  - groupId: [] -> []
+- `545` 701 Yishun Ave 5
+  - groupId: [] -> []
+- `546` 726 Yishun Street 71
+  - groupId: [] -> []
+- `547` 641 Yishun Street 61
+  - groupId: [] -> []
+- `565` 721 Yishun Street 71
+  - groupId: [] -> []
+- `569` 207 Boon Lay Place
+  - groupId: [] -> []
+- `580` Blk 886,Tampines Street 83
+  - groupId: [] -> []
+- `581` Blk 637, Bedok Reservoir Road
+  - groupId: [] -> []
+- `582` Blk 406,Tampines Street 41
+  - groupId: [] -> []
+- `583` Blk 426 Tampines Street 41
+  - groupId: [] -> []
+- `584` Blk 485A, Tampines Avenue 9
+  - groupId: [] -> []
+- `585` Blk 911,Tampines Street 91
+  - groupId: [] -> []
+- `586` Blk 954C,Tampines Street 96
+  - groupId: [] -> []
+- `587` Blk 874,Tampines Street 84
+  - groupId: [] -> []
+- `588` Blk 872,Tampines Street 84
+  - groupId: [] -> []
+- `595` ANG MO SUPERMARKET-622B TAMPINES AVE 12
+  - groupId: [92] -> [92]
+- `731` Blk 106, Bedok North Avenue 4
+  - groupId: [] -> []
+- `732` Blk 113, Bedok North Street 2
+  - groupId: [] -> []
+- `764` Blk 42, Cassia Crescent
+  - groupId: [] -> []
+- `768` Blk 356D, Ubi Road 3
+  - groupId: [] -> []
+- `769` Blk 108, Lengkong Tiga
+  - groupId: [] -> []
+- `770` Blk 74, Marine Drive
+  - groupId: [] -> []
+- `771` Blk 47, Marine Crescent
+  - groupId: [] -> []
+- `772` Blk 47, Jln Tiga
+  - groupId: [] -> []
+- `774` Blk 64, Marine Drive
+  - groupId: [] -> []
+- `775` Blk 55, Chai Chee Drive
+  - groupId: [] -> []
+- `776` Blk 55, New Upper Changi Road
+  - groupId: [] -> []
+- `777` Blk 319, Ubi Avenue 1
+  - groupId: [] -> []
+- `778` Blk 115, Lengkong Tiga
+  - groupId: [] -> []
+- `779` Blk 61, Chai Chee Road
+  - groupId: [] -> []
+- `780` Blk 61, New Upper Changi Road
+  - groupId: [] -> []
+- `781` Blk 330, Ubi Avenue 1
+  - groupId: [] -> []
+- `782` Blk 104, Lengkong Tiga
+  - groupId: [] -> []
+- `783` Blk 9, Eunos Crescent
+  - groupId: [] -> []
+- `784` Blk 10, Pine Close
+  - groupId: [] -> []
+- `785` Blk 846, Sims Avenue
+  - groupId: [] -> []
+- `786` Blk 1, Bedok South Avenue 1
+  - groupId: [] -> []
+- `787` Blk 417, Eunos Road 5
+  - groupId: [] -> []
+- `788` Blk 22, Eunos Crescent
+  - groupId: [] -> []
+- `789` Blk 2, Haig Road
+  - groupId: [] -> []
+- `790` Blk 16, Eunos Crescent
+  - groupId: [] -> []
+- `791` Blk 358D, Ubi Road 3
+  - groupId: [] -> []
+- `792` Blk 358B, Ubi Road 3
+  - groupId: [] -> []
+- `793` Blk 3, Pine Close
+  - groupId: [] -> []
+- `794` Blk 351, Ubi Avenue 1
+  - groupId: [] -> []
+- `795` Blk 348, Ubi Avenue 1
+  - groupId: [] -> []
+- `796` Blk 105, Aljunied Crescent
+  - groupId: [] -> []
+- `797` Blk 60, Dakota Crescent
+  - groupId: [] -> []
+- `798` Blk 28, Cassia Crescent
+  - groupId: [] -> []
+- `799` Blk 126, Geylang East Avenue 1
+  - groupId: [] -> []
+- `800` Blk 156, Bedok South Avenue 3
+  - groupId: [] -> []
+- `801` Blk 1, Pine Close
+  - groupId: [] -> []
+- `802` Blk 1, Kampong Kayu Rd
+  - groupId: [] -> []
+- `803` Blk 4, Marine Ter
+  - groupId: [] -> []
+- `804` Blk 36, Cassia Crescent
+  - groupId: [] -> []
+- `805` Blk 55, Marine Ter
+  - groupId: [] -> []
+- `806` Blk 14, Bedok South Ave 2
+  - groupId: [] -> []
+- `807` Blk 30, Marine Crescent
+  - groupId: [] -> []
+- `808` Blk 11, Haig Road
+  - groupId: [] -> []
+- `809` Blk 8, Haig Road
+  - groupId: [] -> []
+- `810` Blk 164, Bedok South Road
+  - groupId: [] -> []
+- `811` Blk 29 New Upper Changi Road
+  - groupId: [] -> []
+- `812` Blk 12, Pine Close
+  - groupId: [] -> []
+- `813` Blk 22, Bedok South Avenue 1
+  - groupId: [] -> []
+- `814` Blk 63, Chai Chee Road
+  - groupId: [] -> []
+- `815` Blk 169, Bedok South Avenue 3
+  - groupId: [] -> []
+- `816` Blk 35, Chai Chee Avenue
+  - groupId: [] -> []
+- `817` Blk 72, Bedok South Avenue 3
+  - groupId: [] -> []
+- `818` Blk 99, Old Airport Road
+  - groupId: [] -> []
+- `819` Blk 58, Dakota Crescent
+  - groupId: [] -> []
+- `820` Blk 708, Pasir Ris Drive 10
+  - groupId: [] -> []
+- `821` Blk 626, Pasir Ris Drive 3
+  - groupId: [] -> []
+- `822` Blk 473, Pasir Ris Drive 6
+  - groupId: [] -> []
+- `823` Blk 643, Pasir Ris Drive 10
+  - groupId: [] -> []
+- `824` Blk 701, Pasir Ris Drive 10
+  - groupId: [] -> []
+- `825` Blk 717, Pasir Ris Street 72
+  - groupId: [] -> []
+- `826` Blk 638, Pasir Ris Drive 1
+  - groupId: [] -> []
+- `827` Blk 641, Pasir Ris Drive 1
+  - groupId: [] -> []
+- `828` Blk 516, Pasir Ris Street 52
+  - groupId: [] -> []
+- `829` Blk 520, Pasir Ris Street 52
+  - groupId: [] -> []
+- `830` Blk 602, Elias Road
+  - groupId: [] -> []
+- `831` Blk 159,Tampines Street 12
+  - groupId: [] -> []
+- `832` Blk 585, Pasir Ris Street 53
+  - groupId: [] -> []
+- `833` Blk 534, Pasir Ris Drive 1
+  - groupId: [] -> []
+- `834` Blk 408, Pasir Ris Drive 6
+  - groupId: [] -> []
+- `835` Blk 423, Pasir Ris Drive 6
+  - groupId: [] -> []
+- `836` Blk 725, Pasir Ris Street 72
+  - groupId: [] -> []
+- `837` Blk 429, Pasir Ris Drive 6
+  - groupId: [] -> []
+- `838` Blk 458, Pasir Ris Drive 4
+  - groupId: [] -> []
+- `839` Blk 257, Pasir Ris Street 21
+  - groupId: [] -> []
+- `840` Blk 232, Pasir Ris Drive 4
+  - groupId: [] -> []
+- `841` Blk 479, Pasir Ris Drive 4
+  - groupId: [] -> []
+- `842` Blk 225, Pasir Ris Street 21
+  - groupId: [] -> []
+- `843` Blk 756, Pasir Ris Street 71
+  - groupId: [] -> []
+- `844` Blk 275, Pasir Ris Street 21
+  - groupId: [] -> []
+- `845` Blk 209, Pasir Ris Street 21
+  - groupId: [] -> []
+- `846` Blk 160, Pasir Ris Street 13
+  - groupId: [] -> []
+- `847` Blk 496D,Tampines Avenue 9
+  - groupId: [] -> []
+- `848` Blk 148, Pasir Ris Street 13
+  - groupId: [] -> []
+- `849` Blk 298, Tampines Street 22
+  - groupId: [] -> []
+- `850` Blk 187, Pasir Ris Street 11
+  - groupId: [] -> []
+- `851` Blk 555, Pasir Ris Street 51
+  - groupId: [] -> []
+- `852` Blk 120, Pasir Ris Street 11
+  - groupId: [] -> []
+- `853` Blk 132, Pasir Ris Street 11
+  - groupId: [] -> []
+- `854` Blk 283, Tampines Street 22
+  - groupId: [] -> []
+- `855` Blk 564, Pasir Ris Street 51
+  - groupId: [] -> []
+- `856` Blk 560, Pasir Ris Street 51
+  - groupId: [] -> []
+- `857` Blk 105, Pasir Ris Street 12
+  - groupId: [] -> []
+- `858` Blk 345, Tampines Street 33
+  - groupId: [] -> []
+- `859` Blk 526A, Pasir Ris Street 51
+  - groupId: [] -> []
+- `860` Blk 191, Pasir Ris Street 12
+  - groupId: [] -> []
+- `861` Blk 108, Tampines Street 11
+  - groupId: [] -> []
+- `862` Blk 289, Tampines Street 22
+  - groupId: [] -> []
+- `864` Blk 323, Tampines Street 33
+  - groupId: [] -> []
+- `865` Blk 165,Tampines Street 12
+  - groupId: [] -> []
+- `866` Blk 761, Pasir Ris Street 71
+  - groupId: [] -> []
+- `867` Blk 141, Pasir Ris Street 11
+  - groupId: [] -> []
+- `868` Blk 524A, Pasir Ris Street 51
+  - groupId: [] -> []
+- `869` Blk 103, Tampines Street 11
+  - groupId: [] -> []
+- `870` Blk 303, Tampines Street 32
+  - groupId: [] -> []
+- `871` Blk 782, Pasir Ris Street 71
+  - groupId: [] -> []
+- `872` Blk 207, Tampines Street 21
+  - groupId: [] -> []
+- `873` Blk 765, Bedok Reservoir View
+  - groupId: [] -> []
+- `874` Blk 490B, Tampines Street 45
+  - groupId: [] -> []
+- `875` Blk 449,Tampines Street 42
+  - groupId: [] -> []
+- `876` Blk 770, Bedok Reservoir View
+  - groupId: [] -> []
+- `877` Blk 78, Bedok North Road
+  - groupId: [] -> []
+- `878` Blk 124, Simei Street 1
+  - groupId: [] -> []
+- `879` Blk 498A, Tampines Street 45
+  - groupId: [] -> []
+- `880` Blk 130, Bedok North Street 2
+  - groupId: [] -> []
+- `881` Blk 135, Simei Street 1
+  - groupId: [] -> []
+- `882` Blk 229, Tampines Street 23
+  - groupId: [] -> []
+- `883` Blk 240, Tampines Street 21
+  - groupId: [] -> []
+- `884` Blk 421, Bedok North Road
+  - groupId: [] -> []
+- `885` Blk 216, Tampines Street 23
+  - groupId: [] -> []
+- `886` Blk 201, Bedok North Street 1
+  - groupId: [] -> []
+- `887` Blk 807A, Chai Chee Road
+  - groupId: [] -> []
+- `888` Blk 409, Bedok North Avenue 2
+  - groupId: [] -> []
+- `889` Blk 94B, Bedok North Avenue 4
+  - groupId: [] -> []
+- `890` Blk 633,Tampines North Drive 2
+  - groupId: [] -> []
+- `891` Blk 747, Pasir Ris Street 71
+  - groupId: [] -> []
+- `892` Blk 230D, Tampines Street 24
+  - groupId: [] -> []
+- `893` Blk 610C,Tampines North Drive 1
+  - groupId: [] -> []
+- `894` Blk 501, Pasir Ris Street 52
+  - groupId: [] -> []
+- `895` Blk 862,Tampines Street 83
+  - groupId: [] -> []
+- `896` Blk 641B,Tampines Street 62
+  - groupId: [] -> []
+- `897` Blk 662C,Tampines Street 64
+  - groupId: [] -> []
+- `898` Blk 497A, Tampines Street 45
+  - groupId: [] -> []
+- `899` Blk 721,Tampines Street 71
+  - groupId: [] -> []
+- `900` Blk 419, Pasir Ris Drive 6
+  - groupId: [] -> []
+- `901` Blk 742 Pasir Ris Street 71
+  - groupId: [] -> []
+- `902` Blk 771, Pasir Ris Street 71
+  - groupId: [] -> []
+- `903` Blk 876C,Tampines Avenue 8
+  - groupId: [] -> []
+- `904` Blk 481, Pasir Ris Drive 4
+  - groupId: [] -> []
+- `905` Blk 660,Tampines Street 64
+  - groupId: [] -> []
+- `906` Blk 871C,Tampines Street 86
+  - groupId: [] -> []
+- `907` Blk 631B,Tampines North Drive 2
+  - groupId: [] -> []
+- `908` Blk 117, Bedok North Road
+  - groupId: [] -> []
+- `909` Blk 603A,Tampines Avenue 9
+  - groupId: [] -> []
+- `910` Blk 635B,Tampines North Drive 2
+  - groupId: [] -> []
+- `911` Blk 406, Bedok North Avenue 3
+  - groupId: [] -> []
+- `912` Blk 814,Tampines Street 81
+  - groupId: [] -> []
+- `913` Blk 648A,Tampines Street 62
+  - groupId: [] -> []
+- `914` Blk 899A,Tampines Street 81
+  - groupId: [] -> []
+- `915` Blk 706,Tampines Street 71
+  - groupId: [] -> []
+- `916` Blk 806,Tampines Avenue 4
+  - groupId: [] -> []
+- `917` Blk 926,Tampines Street 91
+  - groupId: [] -> []
+- `918` Blk 461,Tampines Street 44
+  - groupId: [] -> []
+- `919` Blk 145,Tampines Street 12
+  - groupId: [] -> []
+- `920` Blk 734,Tampines Street 71
+  - groupId: [] -> []
+- `921` Blk 638A,Tampines Street 62
+  - groupId: [] -> []
+- `922` Blk 740 Tampines Street 72
+  - groupId: [] -> []
+- `923` Blk 762, Bedok Reservoir View
+  - groupId: [] -> []
+- `924` Blk 491D,Tampines Street 45
+  - groupId: [] -> []
+- `925` Blk 249, Tampines Street 21
+  - groupId: [] -> []
+- `926` Blk 53, Chai Chee Street
+  - groupId: [] -> []
+- `927` Blk 854,Tampines Street 82
+  - groupId: [] -> []
+- `928` Blk 808C, Chai Chee Road
+  - groupId: [] -> []
+- `929` Blk 2, Chai Chee Road
+  - groupId: [] -> []
+- `930` Blk 495D,Tampines Street 43
+  - groupId: [] -> []
+- `931` Blk 80, Bedok North Road
+  - groupId: [] -> []
+- `932` Blk 183, Bedok North Road
+  - groupId: [] -> []
+- `933` Blk 264, Tampines Street 21
+  - groupId: [] -> []
+- `934` Blk 451, Tampines Street 42
+  - groupId: [] -> []
+- `935` Blk 233, Tampines Street 21
+  - groupId: [] -> []
+- `936` Blk 137, Bedok North Avenue 3
+  - groupId: [] -> []
+- `937` Blk 384, Tampines Street 32
+  - groupId: [] -> []
+- `938` Blk 125, Tampines Street 11
+  - groupId: [] -> []
+- `939` Blk 403, Bedok North Avenue 3
+  - groupId: [] -> []
+- `940` Blk 44, Chai Chee Street
+  - groupId: [] -> []
+- `941` Blk 43, Chai Chee Street
+  - groupId: [] -> []
+- `942` Blk 932,Tampines Street 91
+  - groupId: [] -> []
+- `943` Blk 50, Chai Chee Street
+  - groupId: [] -> []
+- `944` Blk 352, Tampines Street 33
+  - groupId: [] -> []
+- `945` Blk 366, Tampines Street 34
+  - groupId: [] -> []
+- `946` Blk 259, Tampines Street 21
+  - groupId: [] -> []
+- `947` Blk 391, Tampines Avenue 7
+  - groupId: [] -> []
+- `948` Blk 492G,Tampines Street 45
+  - groupId: [] -> []
+- `954` Blk 99, Bedok North Avenue 4
+  - groupId: [] -> []
+- `955` Blk 42, Bedok South Road
+  - groupId: [] -> []
+- `958` Blk 108, Simei Street 1
+  - groupId: [] -> []
+- `959` Blk 107, Bedok North Road
+  - groupId: [] -> []
+- `960` Blk 226, Simei Street 4
+  - groupId: [] -> []
+- `961` Blk 125, Bedok North Road
+  - groupId: [] -> []
+- `962` Blk 233, Simei Street 4
+  - groupId: [] -> []
+- `963` Blk 626A,Tampines Street 61
+  - groupId: [] -> []
+- `964` Blk 134, Simei Street 1
+  - groupId: [] -> []
+- `965` Blk 167, Simei Lane
+  - groupId: [] -> []
+- `966` Blk 142, Simei Street 2
+  - groupId: [] -> []
+- `967` Blk 419, Bedok North Street 1
+  - groupId: [] -> []
+- `968` Blk 150, Simei Street 1
+  - groupId: [] -> []
+- `969` Blk 622B,Tampines Avenue 12
+  - groupId: [] -> []
+- `970` Blk 188A, Bedok North Street 4
+  - groupId: [] -> []
+- `971` Blk 842D,Tampines Street 82
+  - groupId: [] -> []
+- `972` Blk 272, Tampines Street 22
+  - groupId: [] -> []
+- `975` Blk 37, Bedok South Avenue 2
+  - groupId: [] -> []
+- `978` Blk 96, Bedok North Avenue 4
+  - groupId: [] -> []
+- `979` Blk 155, Simei Road
+  - groupId: [] -> []
+- `980` Blk 425, Bedok North Road
+  - groupId: [] -> []
+- `981` Blk 52, New Upper Changi Road
+  - groupId: [] -> []
+- `985` Blk 82, Bedok North Road
+  - groupId: [] -> []
+- `986` Blk 894A,Tampines Street 81
+  - groupId: [] -> []
+- `987` Blk 832,Tampines Street 82
+  - groupId: [] -> []
+- `988` Blk 52, Cassia Crescent
+  - groupId: [] -> []
+- `989` Blk 56, Cassia Crescent
+  - groupId: [] -> []
+- `990` Blk 38C, Eunos Road 2
+  - groupId: [] -> []
+- `991` Blk 109, Aljunied Crescent
+  - groupId: [] -> []
+- `992` Blk 60, Marine Drive
+  - groupId: [] -> []
+- `993` Blk 133, Geylang East Avenue 1
+  - groupId: [] -> []
+- `994` Blk 113, Simei Street 1
+  - groupId: [] -> []
+- `995` Blk 106, Simei Street 1
+  - groupId: [] -> []
+</details>
+
+<details>
 <summary><b>2026-09-09</b> · 1,307 locations · +1 · ±1306</summary>
 
 - Snapshot size: **1307** locations
