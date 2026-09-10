@@ -43,14 +43,63 @@ function isUsableLocation(item) {
   return hasName || (hasFiniteCoord(item?.latitude) && hasFiniteCoord(item?.longitude));
 }
 
+function stableKey(item) {
+  const serial = item?.serialNumber;
+  if (serial !== null && serial !== undefined && String(serial).trim() !== "") {
+    return `serial:${String(serial)}`;
+  }
+  return `id:${String(item.id)}`;
+}
+
+function displayId(item) {
+  if (item?.serialNumber !== null && item?.serialNumber !== undefined && String(item.serialNumber).trim() !== "") {
+    return String(item.serialNumber);
+  }
+  return String(item?.id ?? "unknown");
+}
+
 function buildLocationsById(raw) {
   const data = Array.isArray(raw?.data) ? raw.data : [];
   return Object.fromEntries(
     data
       .filter((item) => item && typeof item === "object" && "id" in item)
       .filter(isUsableLocation)
-      .map((item) => [String(item.id), { ...item }]),
+      .map((item) => [stableKey(item), { ...item }]),
   );
+}
+
+function stableStringify(value) {
+  if (value === null || typeof value !== "object") {
+    return JSON.stringify(value);
+  }
+  if (Array.isArray(value)) {
+    return `[${value.map(stableStringify).join(",")}]`;
+  }
+  const keys = Object.keys(value).sort();
+  return `{${keys.map((key) => `${JSON.stringify(key)}:${stableStringify(value[key])}`).join(",")}}`;
+}
+
+function isEmptyish(value) {
+  return (
+    value === undefined ||
+    value === null ||
+    value === "" ||
+    (Array.isArray(value) && value.length === 0) ||
+    (typeof value === "object" &&
+      value !== null &&
+      !Array.isArray(value) &&
+      Object.keys(value).length === 0)
+  );
+}
+
+function valuesEqual(a, b) {
+  if (Object.is(a, b)) {
+    return true;
+  }
+  if (isEmptyish(a) && isEmptyish(b)) {
+    return true;
+  }
+  return stableStringify(a) === stableStringify(b);
 }
 
 function dailyCommits() {
@@ -110,10 +159,17 @@ function diffSnapshots(previous, current) {
         if (IGNORED_CHANGE_FIELDS.has(key)) {
           continue;
         }
+        if (key === "id" || key === "serialNumber") {
+          continue;
+        }
 
-        if (oldItem[key] !== newItem[key]) {
+        if (!valuesEqual(oldItem[key], newItem[key])) {
           changes[key] = { from: oldItem[key], to: newItem[key] };
         }
+      }
+
+      if (oldItem.id !== newItem.id) {
+        changes.id = { from: oldItem.id, to: newItem.id };
       }
 
       if (Object.keys(changes).length === 0) {
@@ -121,7 +177,7 @@ function diffSnapshots(previous, current) {
       }
 
       return {
-        id,
+        id: displayId(newItem),
         locationName: newItem.locationName || oldItem.locationName || id,
         changes,
       };
@@ -132,7 +188,7 @@ function diffSnapshots(previous, current) {
 }
 
 function describeLocation(item) {
-  const locationId = item.id ?? "unknown";
+  const locationId = displayId(item);
   const name = item.locationName || "Unnamed location";
   const postal = item.postalCode || item.zipcode || "n/a";
   const status = item.status || "n/a";
