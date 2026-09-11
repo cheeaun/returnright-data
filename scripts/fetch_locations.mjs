@@ -4,12 +4,10 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-const BASE_URL = "https://bts.bcrs.sg";
-const API_BASE = `${BASE_URL}/forapi/v2`;
-const TOKEN_URL = `${API_BASE}/locations/access-token`;
-const FULL_URL = `${API_BASE}/locations`;
-const NEARBY_URL = (lat, lng, radius) =>
-  `${API_BASE}/locations/nearby?lat=${lat}&lng=${lng}&radius=${radius}`;
+const BASE_URL = "https://returnright.sg";
+const API_BASE = `${BASE_URL}/px-api`;
+const MAP_TOKEN_URL = `${API_BASE}/map-token`;
+const locationsUrl = (uuid, suffix = "") => `${API_BASE}/${uuid}/locations${suffix}`;
 
 // The server clamps nearby radius to 2500m max, so the full dataset is
 // collected by sweeping a grid of nearby queries (see nearby_grid.json)
@@ -28,8 +26,25 @@ function baseHeaders(extra = {}) {
   };
 }
 
+const tokenState = { uuid: null, current: null };
+
+async function fetchMapUuid() {
+  const response = await fetch(MAP_TOKEN_URL, { headers: baseHeaders() });
+  if (!response.ok) {
+    throw new Error(`Map UUID HTTP ${response.status} ${response.statusText}`);
+  }
+  const body = await response.json();
+  const uuid = body?.data?.uuid;
+  if (!uuid) {
+    throw new Error(`Map token response missing data.uuid: ${JSON.stringify(body).slice(0, 200)}`);
+  }
+  return uuid;
+}
+
 async function fetchMapToken() {
-  const response = await fetch(TOKEN_URL, { headers: baseHeaders() });
+  const response = await fetch(locationsUrl(tokenState.uuid, "/access-token"), {
+    headers: baseHeaders(),
+  });
   if (!response.ok) {
     throw new Error(`Token HTTP ${response.status} ${response.statusText}`);
   }
@@ -62,9 +77,8 @@ function isUsableLocation(item) {
   return hasName || (hasFiniteCoord(item?.latitude) && hasFiniteCoord(item?.longitude));
 }
 
-const tokenState = { current: null };
-
-async function fetchDataArray(url) {
+async function fetchDataArray(path) {
+  const url = locationsUrl(tokenState.uuid, path);
   const response = await fetch(url, {
     headers: baseHeaders({ "x-bcrs-map-token": tokenState.current }),
   });
@@ -78,13 +92,14 @@ async function fetchDataArray(url) {
   return body.data;
 }
 
-// Fetch with one token refresh + retry, for expired/single-use tokens.
-async function fetchDataArrayResilient(url) {
+// Fetch with one uuid + token refresh + retry, for expired/single-use tokens.
+async function fetchDataArrayResilient(path) {
   try {
-    return await fetchDataArray(url);
+    return await fetchDataArray(path);
   } catch (error) {
+    tokenState.uuid = await fetchMapUuid();
     tokenState.current = await fetchMapToken();
-    return await fetchDataArray(url);
+    return await fetchDataArray(path);
   }
 }
 
@@ -97,10 +112,11 @@ async function main() {
     throw new Error(`Invalid grid config in ${path.relative(ROOT, GRID_PATH)}`);
   }
 
+  tokenState.uuid = await fetchMapUuid();
   tokenState.current = await fetchMapToken();
 
   // Base list: complete, including records without coordinates.
-  const full = await fetchDataArrayResilient(FULL_URL);
+  const full = await fetchDataArrayResilient("");
   const byId = new Map(full.map((item) => [item.id, item]));
 
   // Nearby sweep: richer per-location detail; dedupe by id.
@@ -112,7 +128,7 @@ async function main() {
     async () => {
       while (queue.length > 0) {
         const [lat, lng] = queue.pop();
-        const items = await fetchDataArrayResilient(NEARBY_URL(lat, lng, radius));
+        const items = await fetchDataArrayResilient(`/nearby?lat=${lat}&lng=${lng}&radius=${radius}`);
         for (const item of items) {
           if (!seenNearby.has(item.id)) {
             seenNearby.add(item.id);
