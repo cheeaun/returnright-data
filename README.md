@@ -26,6 +26,18 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-12</b> · 1,308 locations · +1</summary>
+
+- Snapshot size: **1308** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `20261515326` Changi Lodge 2 (postal: 498736, status: RUNNING)
+</details>
+
+<details>
 <summary><b>2026-09-11</b> · No changes</summary>
 
 No changes.

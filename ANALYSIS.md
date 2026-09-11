@@ -1,14 +1,14 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-10** · 1,307 locations · `data/latest.json` · as of 11 Sept 2026, 01:20 UTC_
+_Snapshot: **2026-09-11** · 1,308 locations · `data/latest.json` · as of 11 Sept 2026, 16:25 UTC_
 
 ## Current snapshot
 
 | Metric | Value |
 | --- | --- |
-| Total locations | 1,307 |
-| Unique serials | 1,307 |
-| Unique postal codes | 1,263 |
+| Total locations | 1,308 |
+| Unique serials | 1,308 |
+| Unique postal codes | 1,264 |
 | Shared postal codes | 38 postcodes host 44 extra machines |
 
 ### Status
@@ -28,24 +28,22 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1269
-    "FULL": 18
-    "ERROR": 9
+    "RUNNING": 1204
+    "FULL": 65
+    "OFFLINE": 19
+    "ERROR": 14
     "MAINTENANCE": 4
-    "OFFLINE": 4
     "offline": 2
-    "CLEANING": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,269 | 97.1% |
-| FULL | 18 | 1.4% |
-| ERROR | 9 | 0.7% |
+| RUNNING | 1,204 | 92.0% |
+| FULL | 65 | 5.0% |
+| OFFLINE | 19 | 1.5% |
+| ERROR | 14 | 1.1% |
 | MAINTENANCE | 4 | 0.3% |
-| OFFLINE | 4 | 0.3% |
 | offline | 2 | 0.2% |
-| CLEANING | 1 | 0.1% |
 
 ### Supplier
 
@@ -60,23 +58,24 @@ xychart-beta
     title "Machines by supplier"
     x-axis ["TOMRA001", "SGRECYCLE001", "RVMS001", "(none)"]
     y-axis "machines" 0 --> 565
-    bar [491, 441, 373, 2]
+    bar [491, 441, 374, 2]
 ```
 
 | Supplier | Count | % |
 | --- | --- | --- |
-| TOMRA001 | 491 | 37.6% |
+| TOMRA001 | 491 | 37.5% |
 | SGRECYCLE001 | 441 | 33.7% |
-| RVMS001 | 373 | 28.5% |
+| RVMS001 | 374 | 28.6% |
 | (none) | 2 | 0.2% |
 
 ### Last connected
 
 | Age | Count | % |
 | --- | --- | --- |
-| < 1 day | 1,303 | 99.7% |
+| < 1 day | 1,303 | 99.6% |
 | unknown | 3 | 0.2% |
 | < 30 days | 1 | 0.1% |
+| < 7 days | 1 | 0.1% |
 
 ## Operation timing (opening hours)
 
@@ -84,7 +83,7 @@ xychart-beta
 | --- | --- | --- |
 | 24 hours | 799 | 61.1% |
 | Limited hours | 237 | 18.1% |
-| Unknown | 271 | 20.7% |
+| Unknown | 272 | 20.8% |
 
 ### Hourly availability
 
@@ -112,12 +111,12 @@ xychart-beta
 
 ### Status by supplier
 
-| Supplier | CLEANING | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| (none) | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 2 |
-| RVMS001 | 0 | 2 | 3 | 3 | 1 | 364 | 0 | 373 |
-| SGRECYCLE001 | 1 | 5 | 6 | 0 | 3 | 426 | 0 | 441 |
-| TOMRA001 | 0 | 2 | 9 | 1 | 0 | 479 | 0 | 491 |
+| Supplier | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| (none) | 0 | 0 | 0 | 0 | 0 | 2 | 2 |
+| RVMS001 | 3 | 9 | 1 | 2 | 359 | 0 | 374 |
+| SGRECYCLE001 | 1 | 24 | 1 | 9 | 406 | 0 | 441 |
+| TOMRA001 | 10 | 32 | 2 | 8 | 439 | 0 | 491 |
 
 ## Postal sectors & districts
 
@@ -135,7 +134,7 @@ xychart-beta
     title "Machines by postal district"
     x-axis ["D18", "D19", "D23", "D22", "D16", "D27", "D25", "D14", "D20", "D03", "D05", "D12", "D15", "D13", "D10", "D09", "D01", "D04", "D28", "D08", "D07", "D17", "D24", "D02", "D21", "D11", "D06", "D26"]
     y-axis "machines" 0 --> 198
-    bar [172, 154, 126, 110, 103, 95, 70, 68, 60, 50, 44, 40, 29, 27, 25, 19, 18, 16, 16, 12, 10, 9, 8, 7, 7, 6, 5, 1]
+    bar [172, 154, 126, 110, 103, 95, 70, 68, 60, 50, 44, 40, 29, 27, 25, 19, 18, 16, 16, 12, 10, 10, 8, 7, 7, 6, 5, 1]
 ```
 
 All postal sectors, with the Singapore postal district each belongs to:
@@ -214,6 +213,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S45 | D15 | East Coast, Marine Parade, Katong, Joo Chiat, Amber Road | 2 | 0.2% |
 | S62 | D22 | Boon Lay, Jurong, Tuas | 2 | 0.2% |
 | S28 | D11 | Newton, Novena, Watten Estate, Thomson | 1 | 0.1% |
+| S49 | D17 | Changi Airport, Changi Village, Loyang | 1 | 0.1% |
 | S66 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 1 | 0.1% |
 | S78 | D26 | Mandai, Upper Thomson, Springleaf | 1 | 0.1% |
 | S80 | D28 | Seletar, Yio Chu Kang | 1 | 0.1% |
@@ -233,7 +233,7 @@ xychart-beta
     title "Machines created per month"
     x-axis ["2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
     y-axis "machines" 0 --> 984
-    bar [198, 855, 3, 30, 55, 58, 97, 10]
+    bar [198, 855, 3, 30, 55, 58, 98, 10]
 ```
 
 | Month | Machines | % |
@@ -244,7 +244,7 @@ xychart-beta
 | 2026-05 | 30 | 2.3% |
 | 2026-06 | 55 | 4.2% |
 | 2026-07 | 58 | 4.4% |
-| 2026-08 | 97 | 7.4% |
+| 2026-08 | 98 | 7.5% |
 | 2026-09 | 10 | 0.8% |
 
 ## Newest machines
@@ -255,7 +255,7 @@ xychart-beta
 | 2 | FairPrice SingPost Centre | 408600 | offline | 9 Sept 2026 |
 | 3 | 512B Yishun St 51, Singapore 762512 | 762512 | RUNNING | 4 Sept 2026 |
 | 4 | 799 Yishun Ring Rd, Singapore 760799 | 760799 | RUNNING | 4 Sept 2026 |
-| 5 | 821 Yishun Street 81, Singapore 760821 | 760821 | OFFLINE | 4 Sept 2026 |
+| 5 | 821 Yishun Street 81, Singapore 760821 | 760821 | RUNNING | 4 Sept 2026 |
 
 ## Longest standing
 
@@ -267,7 +267,7 @@ xychart-beta
 | 4 | 746 Jurong West Street 73 | 640746 | RUNNING | 21 Feb 2026 |
 | 5 | 153 Yung Ho Rd | 610153 | RUNNING | 21 Feb 2026 |
 
-## History (156 snapshots · 2026-04-08 → 2026-09-10)
+## History (157 snapshots · 2026-04-08 → 2026-09-11)
 
 | Metric | Value |
 | --- | --- |
@@ -276,7 +276,7 @@ xychart-beta
 | Net change | +238 |
 | Minimum | 1,069 (2026-04-08) |
 | Maximum | 1,341 (2026-09-09) |
-| Average | 1,151 |
+| Average | 1,152 |
 
 ### Totals across all days
 
@@ -284,7 +284,7 @@ xychart-beta
 | --- | --- |
 | Added | 413 |
 | Removed | 180 |
-| Changed | 4,240 |
+| Changed | 5,547 |
 | No-change days | 41 |
 
 ### Machines over time
