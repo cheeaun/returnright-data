@@ -1,12 +1,19 @@
 name: Daily snapshot
 
 on:
+  push:
+    paths:
+      - "scripts/fetch_locations.mjs"
   schedule:
     - cron: "15 16 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily-snapshot
+  cancel-in-progress: false
 
 jobs:
   fetch:
