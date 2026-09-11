@@ -1,6 +1,6 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-09** · 1,307 locations · `data/latest.json` · as of 9 Sept 2026, 16:25 UTC_
+_Snapshot: **2026-09-10** · 1,307 locations · `data/latest.json` · as of 11 Sept 2026, 01:20 UTC_
 
 ## Current snapshot
 
@@ -28,22 +28,24 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1179
-    "FULL": 95
-    "OFFLINE": 15
-    "ERROR": 13
-    "MAINTENANCE": 3
+    "RUNNING": 1269
+    "FULL": 18
+    "ERROR": 9
+    "MAINTENANCE": 4
+    "OFFLINE": 4
     "offline": 2
+    "CLEANING": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,179 | 90.2% |
-| FULL | 95 | 7.3% |
-| OFFLINE | 15 | 1.1% |
-| ERROR | 13 | 1.0% |
-| MAINTENANCE | 3 | 0.2% |
+| RUNNING | 1,269 | 97.1% |
+| FULL | 18 | 1.4% |
+| ERROR | 9 | 0.7% |
+| MAINTENANCE | 4 | 0.3% |
+| OFFLINE | 4 | 0.3% |
 | offline | 2 | 0.2% |
+| CLEANING | 1 | 0.1% |
 
 ### Supplier
 
@@ -72,9 +74,8 @@ xychart-beta
 
 | Age | Count | % |
 | --- | --- | --- |
-| < 1 day | 1,301 | 99.5% |
+| < 1 day | 1,303 | 99.7% |
 | unknown | 3 | 0.2% |
-| < 7 days | 2 | 0.2% |
 | < 30 days | 1 | 0.1% |
 
 ## Operation timing (opening hours)
@@ -111,12 +112,12 @@ xychart-beta
 
 ### Status by supplier
 
-| Supplier | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| (none) | 0 | 0 | 0 | 0 | 0 | 2 | 2 |
-| RVMS001 | 4 | 12 | 2 | 1 | 354 | 0 | 373 |
-| SGRECYCLE001 | 5 | 37 | 0 | 8 | 391 | 0 | 441 |
-| TOMRA001 | 4 | 46 | 1 | 6 | 434 | 0 | 491 |
+| Supplier | CLEANING | ERROR | FULL | MAINTENANCE | OFFLINE | RUNNING | offline | Total |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| (none) | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 2 |
+| RVMS001 | 0 | 2 | 3 | 3 | 1 | 364 | 0 | 373 |
+| SGRECYCLE001 | 1 | 5 | 6 | 0 | 3 | 426 | 0 | 441 |
+| TOMRA001 | 0 | 2 | 9 | 1 | 0 | 479 | 0 | 491 |
 
 ## Postal sectors & districts
 
@@ -254,7 +255,7 @@ xychart-beta
 | 2 | FairPrice SingPost Centre | 408600 | offline | 9 Sept 2026 |
 | 3 | 512B Yishun St 51, Singapore 762512 | 762512 | RUNNING | 4 Sept 2026 |
 | 4 | 799 Yishun Ring Rd, Singapore 760799 | 760799 | RUNNING | 4 Sept 2026 |
-| 5 | 821 Yishun Street 81, Singapore 760821 | 760821 | RUNNING | 4 Sept 2026 |
+| 5 | 821 Yishun Street 81, Singapore 760821 | 760821 | OFFLINE | 4 Sept 2026 |
 
 ## Longest standing
 
@@ -262,28 +263,28 @@ xychart-beta
 | --- | --- | --- | --- | --- |
 | 1 | Block 54 Geylang Bahru | 330054 | RUNNING | 9 Feb 2026 |
 | 2 | 715 Jurong West Street 71 | 640715 | RUNNING | 21 Feb 2026 |
-| 3 | 745 Yishun Street 72 | 760745 | ERROR | 21 Feb 2026 |
-| 4 | 746 Jurong West Street 73 | 640746 | FULL | 21 Feb 2026 |
+| 3 | 745 Yishun Street 72 | 760745 | RUNNING | 21 Feb 2026 |
+| 4 | 746 Jurong West Street 73 | 640746 | RUNNING | 21 Feb 2026 |
 | 5 | 153 Yung Ho Rd | 610153 | RUNNING | 21 Feb 2026 |
 
-## History (155 snapshots · 2026-04-08 → 2026-09-09)
+## History (156 snapshots · 2026-04-08 → 2026-09-10)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,341 |
-| Net change | +272 |
+| Current snapshot | 1,307 |
+| Net change | +238 |
 | Minimum | 1,069 (2026-04-08) |
 | Maximum | 1,341 (2026-09-09) |
-| Average | 1,150 |
+| Average | 1,151 |
 
 ### Totals across all days
 
 | Metric | Total |
 | --- | --- |
-| Added | 411 |
-| Removed | 144 |
-| Changed | 2,935 |
+| Added | 413 |
+| Removed | 180 |
+| Changed | 4,240 |
 | No-change days | 41 |
 
 ### Machines over time
@@ -298,8 +299,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
-    y-axis "machines" 0 --> 1543
-    line [1069, 1090, 1152, 1206, 1283, 1341]
+    y-axis "machines" 0 --> 1504
+    line [1069, 1090, 1152, 1206, 1283, 1307]
 ```
 
 ### Monthly change
@@ -315,7 +316,7 @@ xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
     y-axis "machines" 0 --> 87
-    bar [0, 20, 62, 43, 75, 58]
+    bar [0, 20, 62, 43, 75, 24]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -325,19 +326,19 @@ xychart-beta
 | 2026-06 | 1,090 → 1,152 | 63 | 1 | +62 |
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
 | 2026-08 | 1,208 → 1,283 | 168 | 91 | +75 |
-| 2026-09 | 1,283 → 1,341 | 60 | 2 | +58 |
+| 2026-09 | 1,283 → 1,307 | 62 | 38 | +24 |
 
 ### Most active days
 
 | Date | Added | Removed | Changed | Locations |
 | --- | --- | --- | --- | --- |
+| 2026-09-10 | 2 | 36 | 1,305 | 1,307 |
 | 2026-09-09 | 35 | 0 | 1,306 | 1,341 |
 | 2026-08-14 | 32 | 0 | 4 | 1,246 |
 | 2026-08-16 | 21 | 5 | 1 | 1,237 |
 | 2026-08-15 | 0 | 25 | 8 | 1,221 |
-| 2026-08-06 | 7 | 17 | 1 | 1,195 |
 
-**Retention:** 98.9% of the first snapshot's machines are still present (1057/1,069).
+**Retention:** 98.5% of the first snapshot's machines are still present (1053/1,069).
 
 ---
 
