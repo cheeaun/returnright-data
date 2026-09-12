@@ -26,6 +26,40 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-13</b> · 1,322 locations · +15 · −1 · ±1</summary>
+
+- Snapshot size: **1322** locations
+- Added: **15**
+- Removed: **1**
+- Changed: **1**
+
+Added
+- `20254809794` Blk 150, Bedok Reservoir Road (postal: 470150, status: RUNNING)
+- `20261515323` FairPrice 623 Elias Mall (postal: 510623, status: FULL)
+- `20261515328` Loyang Way Food Village (postal: 508754, status: RUNNING)
+- `B5D61008` Block 503 Ang Mio Ave 5 (postal: 560503, status: RUNNING)
+- `B5D61012` Block 625 Ang Mo Kio Ave 9 (postal: 560625, status: RUNNING)
+- `B5D61015` 584 Ang Mo Kio Ave 3 (postal: 560584, status: RUNNING)
+- `B5D61026` Blk 5023 Ang Mo Kio Ind Park 2 Canteen (postal: 569526, status: RUNNING)
+- `B5D61033` Block 698B Hougang St 61 (postal: 532698, status: RUNNING)
+- `B5D61066` SHENG SIONG RIVERVALE MALL (postal: 545082, status: RUNNING)
+- `B5D61068` SHENG SIONG ALKAFF CRESCENT (postal: 341115, status: RUNNING)
+- `B5DNANANA` ShengSiong Alkaff Lakeview (postal: 341115, status: offline)
+- `B5DNANANANA` ShengSiong Rivervale Mall (postal: 545082, status: offline)
+- `B9481044` Block 422A Northshore Drive (postal: 821422, status: RUNNING)
+- `SGRVM0408` 513A Yishun St 51, Singapore 761513 (postal: 761513, status: RUNNING)
+- `SGRVM0416` 805 Yishun Ring Rd, Singapore 760805 (postal: 760805, status: ERROR)
+
+Removed
+- `SGRVM0125` FairPrice 498 Jurong West St 41 (postal: 640498, status: OFFLINE)
+
+Changed
+- `20254609113` Blk 899,Tampines Street 81
+  - address: Blk 899A,Tampines Street 81, 521899 -> Blk 899,Tampines Street 81, 521899
+  - locationName: Blk 899A,Tampines Street 81 -> Blk 899,Tampines Street 81
+</details>
+
+<details>
 <summary><b>2026-09-12</b> · 1,308 locations · +1</summary>
 
 - Snapshot size: **1308** locations
