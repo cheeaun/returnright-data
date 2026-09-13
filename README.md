@@ -26,6 +26,35 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-14</b> · 1,340 locations · +18</summary>
+
+- Snapshot size: **1340** locations
+- Added: **18**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `SGRVM0125` FairPrice 498 Jurong West St 41 (postal: 640498, status: OFFLINE)
+- `SGRVM0438` 336 Woodlands Ave 1, Singapore 730336 (postal: 730336, status: RUNNING)
+- `SGRVM0449` 513 Woodlands Drive 14, Singapore 730513 (postal: 730513, status: FULL)
+- `SGRVM0450` 318 Woodlands Street 31, Singapore 730318 (postal: 730318, status: RUNNING)
+- `SGRVM0453` 370 Woodlands Ave 1, Singapore 730370 (postal: 730370, status: RUNNING)
+- `SGRVM0455` 424 Woodlands Street 41, Singapore 730424 (postal: 730424, status: RUNNING)
+- `SGRVM0460` 892A Woodlands Drive 50, Singapore 731892 (postal: 731892, status: RUNNING)
+- `SGRVM0461` 897A Woodlands Drive 50, Singapore 730897 (postal: 730897, status: RUNNING)
+- `SGRVM0464` 533 Jelapang Road, Singapore 670533 (postal: 670533, status: RUNNING)
+- `SGRVM0466` 347 Woodlands Ave 3, Singapore 730347 (postal: 730347, status: FULL)
+- `SGRVM0470` 411 Woodlands Street 41, Singapore 730411 (postal: 730411, status: FULL)
+- `SGRVM0473` 655 Senja Rd, Singapore 670655 (postal: 670655, status: RUNNING)
+- `SGRVM0476` 354 Woodlands Ave 1, Singapore 730354 (postal: 730354, status: RUNNING)
+- `SGRVM0479` 443B Fajar Rd, Singapore 672443 (postal: 672443, status: RUNNING)
+- `SGRVM0481` 502 Jelapang Rd, Singapore 670502 (postal: 670502, status: RUNNING)
+- `SGRVM0483` 476 Segar Rd, Singapore 670476 (postal: 670476, status: RUNNING)
+- `SGRVM0485` 636A Senja Rd, Singapore 671636 (postal: 671636, status: FULL)
+- `SGRVM0489` 521 Woodlands Drive 14, Singapore 730521 (postal: 730521, status: RUNNING)
+</details>
+
+<details>
 <summary><b>2026-09-13</b> · 1,322 locations · +15 · −1 · ±1</summary>
 
 - Snapshot size: **1322** locations
