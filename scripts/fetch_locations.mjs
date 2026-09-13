@@ -18,9 +18,8 @@ const CONCURRENCY = 8;
 
 function baseHeaders(extra = {}) {
   return {
-    "user-agent": "returnright-data/1.0 (+https://github.com/)",
+    "user-agent": "r3turnright-data/1.0",
     accept: "application/json",
-    referer: `${BASE_URL}/`,
     "x-bcrs-client": "web",
     ...extra,
   };
