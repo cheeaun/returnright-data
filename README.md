@@ -26,6 +26,33 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-15</b> · 1,334 locations · +2 · −8 · ±1</summary>
+
+- Snapshot size: **1334** locations
+- Added: **2**
+- Removed: **8**
+- Changed: **1**
+
+Added
+- `B5D61079` Tekka Centre / Zhu Jiao Market (postal: 210665, status: RUNNING)
+- `SGRVM0480` 188B Marsiling Rd, Singapore 732188 (postal: 732188, status: RUNNING)
+
+Removed
+- `20254508916` FairPrice SingPost Centre (postal: 408600, status: offline)
+- `20254709350` SHENG SIONG BLK 602A TAMPINES AVENUE 9 (postal: 521602, status: RUNNING)
+- `20254709486` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
+- `B5481062` 509 Serangoon North Ave 4 (postal: 550509, status: RUNNING)
+- `SGRVM0125` FairPrice 498 Jurong West St 41 (postal: 640498, status: OFFLINE)
+- `SGRVM0146` 406 Yishun Ave 6, Singapore 760406 (postal: 760406, status: RUNNING)
+- `SGRVM0360` 431A Yishun Ave 1, Singapore 761431 (postal: 761431, status: RUNNING)
+- `SGRVM0379` 467C Yishun Ave 6 (postal: 763467, status: FULL)
+
+Changed
+- `SGRVM0150` SHENG SIONG BLK 4 WOODLANDS ST 12
+  - locationName: SHENG SIONG BLK 4 WOODLANDS ST 12  -> SHENG SIONG BLK 4 WOODLANDS ST 12
+</details>
+
+<details>
 <summary><b>2026-09-14</b> · 1,340 locations · +18</summary>
 
 - Snapshot size: **1340** locations
