@@ -336,11 +336,15 @@ function signed(n) {
   return n > 0 ? `+${n}` : `${n}`;
 }
 
+function hasAny(items, key) {
+  return items.some((item) => item[key] !== undefined && item[key] !== null && item[key] !== "");
+}
+
 function describeMachine(item) {
   return {
     id: item.id,
     name: item.locationName || "Unnamed location",
-    postal: item.postalCode || item.zipcode || "n/a",
+    postal: item.postalCode || "n/a",
     status: item.status || "n/a",
     createdAt: item.createdAt,
   };
@@ -349,16 +353,21 @@ function describeMachine(item) {
 function currentAnalysis(current, asOfMs) {
   const items = current.items;
   const nowMs = Number(asOfMs);
+  const hasSupplier = hasAny(items, "supplierId");
+  const hasLastConn = hasAny(items, "rvm_last_conn");
+  const hasCreatedAt = hasAny(items, "createdAt");
 
-  const lastConnected = countBy(items, (item) => {
-    const t = Date.parse(item.rvm_last_conn);
-    if (!t) return "missing";
-    const age = nowMs - t;
-    if (age < DAY_MS) return "lt1d";
-    if (age < 7 * DAY_MS) return "lt7d";
-    if (age < 30 * DAY_MS) return "lt30d";
-    return "ge30d";
-  }).sort((a, b) => b[1] - a[1]);
+  const lastConnected = hasLastConn
+    ? countBy(items, (item) => {
+        const t = Date.parse(item.rvm_last_conn);
+        if (!t) return "missing";
+        const age = nowMs - t;
+        if (age < DAY_MS) return "lt1d";
+        if (age < 7 * DAY_MS) return "lt7d";
+        if (age < 30 * DAY_MS) return "lt30d";
+        return "ge30d";
+      }).sort((a, b) => b[1] - a[1])
+    : [];
 
   const openingHours = countBy(items, (item) => {
     const hours = item.rvmOpeningHours?.trim();
@@ -367,12 +376,12 @@ function currentAnalysis(current, asOfMs) {
     return "limited";
   }).sort((a, b) => b[1] - a[1]);
 
-  const byPostal = countBy(items, (item) => item.postalCode || item.zipcode || "(none)");
+  const byPostal = countBy(items, (item) => item.postalCode || "(none)");
   const shared = byPostal.filter(([, n]) => n > 1);
   const extraMachines = shared.reduce((sum, [, n]) => sum + n - 1, 0);
 
   const districts = countBy(items, (item) => {
-    const code = (item.postalCode || item.zipcode || "").replace(/\D/g, "").slice(0, 2);
+    const code = (item.postalCode || "").replace(/\D/g, "").slice(0, 2);
     return code ? `S${code}` : "(none)";
   })
     .map(([sector, count]) => {
@@ -387,34 +396,49 @@ function currentAnalysis(current, asOfMs) {
     .sort((a, b) => b.count - a.count);
 
   const districtAggregate = countBy(items, (item) => {
-    const code = (item.postalCode || item.zipcode || "").replace(/\D/g, "").slice(0, 2);
+    const code = (item.postalCode || "").replace(/\D/g, "").slice(0, 2);
     return SECTOR_INFO.get(code)?.district || "?";
   }).sort((a, b) => b[1] - a[1]);
 
-  const rollout = countBy(items, (item) => (item.createdAt || "").slice(0, 7)).filter(([key]) =>
-    /^\d{4}-\d{2}$/.test(key),
-  );
+  const rollout = hasCreatedAt
+    ? countBy(items, (item) => (item.createdAt || "").slice(0, 7)).filter(([key]) =>
+        /^\d{4}-\d{2}$/.test(key),
+      )
+    : [];
 
-  const statuses = [...new Set(items.map((item) => item.status || "(unknown)"))].sort();
-  const supplierKeys = [...new Set(items.map((item) => item.supplierId || "(none)"))].sort();
-  const statusBySupplier = supplierKeys.map((supplier) => {
-    const group = items.filter((item) => (item.supplierId || "(none)") === supplier);
-    const row = { supplier };
-    for (const status of statuses) {
-      row[status] = group.filter((item) => (item.status || "(unknown)") === status).length;
-    }
-    row.total = group.length;
-    return row;
-  });
+  const status = countBy(items, (item) => item.status || "(unknown)").sort((a, b) => b[1] - a[1]);
+  const statuses = status.map(([label]) => label);
 
-  const newest = [...items]
-    .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt))
-    .slice(0, MACHINE_LIST_LIMIT)
-    .map(describeMachine);
-  const oldest = [...items]
-    .sort((a, b) => Date.parse(a.createdAt) - Date.parse(b.createdAt))
-    .slice(0, MACHINE_LIST_LIMIT)
-    .map(describeMachine);
+  const suppliers = hasSupplier
+    ? countBy(items, (item) => item.supplierId || "(none)").sort((a, b) => b[1] - a[1])
+    : [];
+
+  const statusBySupplier = hasSupplier
+    ? suppliers.map(([supplier]) => {
+        const group = items.filter((item) => (item.supplierId || "(none)") === supplier);
+        const row = { supplier };
+        for (const s of statuses) {
+          row[s] = group.filter((item) => (item.status || "(unknown)") === s).length;
+        }
+        row.total = group.length;
+        return row;
+      })
+    : [];
+
+  const newest = hasCreatedAt
+    ? [...items]
+        .filter((item) => item.createdAt)
+        .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt))
+        .slice(0, MACHINE_LIST_LIMIT)
+        .map(describeMachine)
+    : [];
+  const oldest = hasCreatedAt
+    ? [...items]
+        .filter((item) => item.createdAt)
+        .sort((a, b) => Date.parse(a.createdAt) - Date.parse(b.createdAt))
+        .slice(0, MACHINE_LIST_LIMIT)
+        .map(describeMachine)
+    : [];
 
   return {
     total: items.length,
@@ -422,9 +446,9 @@ function currentAnalysis(current, asOfMs) {
     postalCodes: byPostal.filter(([key]) => key !== "(none)").length,
     sharedPostalCodes: shared.length,
     extraMachines,
-    status: countBy(items, (item) => item.status || "(unknown)").sort((a, b) => b[1] - a[1]),
+    status,
     colours: countBy(items, (item) => item.coords_color || "(none)").sort((a, b) => b[1] - a[1]),
-    suppliers: countBy(items, (item) => item.supplierId || "(none)").sort((a, b) => b[1] - a[1]),
+    suppliers,
     lastConnected,
     openingHours,
     hoursDetail: hoursAnalysis(items),
@@ -434,6 +458,7 @@ function currentAnalysis(current, asOfMs) {
     statusBySupplier,
     newest,
     oldest,
+    fields: { hasSupplier, hasLastConn, hasCreatedAt },
   };
 }
 
@@ -559,28 +584,32 @@ function render({ snapshot, current, history }) {
   underline("Colour");
   lines.push(table(current.colours.map(([label, n]) => [label, fmt(n)])).replace(/^/gm, "  "));
 
-  lines.push("");
-  lines.push("Supplier");
-  underline("Supplier");
-  lines.push(table(current.suppliers.map(([label, n]) => [label, fmt(n)])).replace(/^/gm, "  "));
+  if (current.suppliers.length) {
+    lines.push("");
+    lines.push("Supplier");
+    underline("Supplier");
+    lines.push(table(current.suppliers.map(([label, n]) => [label, fmt(n)])).replace(/^/gm, "  "));
+  }
 
-  lines.push("");
-  lines.push("Last connected");
-  underline("Last connected");
-  const connectedLabels = {
-    lt1d: "< 1 day",
-    lt7d: "< 7 days",
-    lt30d: "< 30 days",
-    ge30d: "≥ 30 days",
-    missing: "unknown",
-  };
-  lines.push(
-    table(
-      current.lastConnected.map(
-        ([label, n]) => [connectedLabels[label] ?? label, `${fmt(n)} (${pct(n, current.total)})`],
-      ),
-    ).replace(/^/gm, "  "),
-  );
+  if (current.lastConnected.length) {
+    lines.push("");
+    lines.push("Last connected");
+    underline("Last connected");
+    const connectedLabels = {
+      lt1d: "< 1 day",
+      lt7d: "< 7 days",
+      lt30d: "< 30 days",
+      ge30d: "≥ 30 days",
+      missing: "unknown",
+    };
+    lines.push(
+      table(
+        current.lastConnected.map(
+          ([label, n]) => [connectedLabels[label] ?? label, `${fmt(n)} (${pct(n, current.total)})`],
+        ),
+      ).replace(/^/gm, "  "),
+    );
+  }
 
   lines.push("");
   lines.push("Operation timing (opening hours)");
@@ -607,19 +636,21 @@ function render({ snapshot, current, history }) {
   }
   lines.push(`  Peak: ${fmtClock(hoursDetail.peak.hour * 60)} (${fmt(hoursDetail.peak.average)} machines)`);
 
-  lines.push("");
-  lines.push("Status by supplier");
-  underline("Status by supplier");
-  const matrixRows = current.statusBySupplier;
-  const matrixStatuses = Object.keys(matrixRows[0]).filter((key) => key !== "supplier" && key !== "total");
-  const matrixCols = ["supplier", ...matrixStatuses, "total"];
-  const matrixWidths = {};
-  for (const col of matrixCols) {
-    matrixWidths[col] = Math.max(col.length, ...matrixRows.map((row) => String(row[col] ?? "").length));
-  }
-  lines.push("  " + matrixCols.map((col) => col.padStart(matrixWidths[col])).join("  "));
-  for (const row of matrixRows) {
-    lines.push("  " + matrixCols.map((col) => String(row[col] ?? "").padStart(matrixWidths[col])).join("  "));
+  if (current.statusBySupplier.length) {
+    lines.push("");
+    lines.push("Status by supplier");
+    underline("Status by supplier");
+    const matrixRows = current.statusBySupplier;
+    const matrixStatuses = Object.keys(matrixRows[0]).filter((key) => key !== "supplier" && key !== "total");
+    const matrixCols = ["supplier", ...matrixStatuses, "total"];
+    const matrixWidths = {};
+    for (const col of matrixCols) {
+      matrixWidths[col] = Math.max(col.length, ...matrixRows.map((row) => String(row[col] ?? "").length));
+    }
+    lines.push("  " + matrixCols.map((col) => col.padStart(matrixWidths[col])).join("  "));
+    for (const row of matrixRows) {
+      lines.push("  " + matrixCols.map((col) => String(row[col] ?? "").padStart(matrixWidths[col])).join("  "));
+    }
   }
 
   lines.push("");
@@ -633,25 +664,29 @@ function render({ snapshot, current, history }) {
     lines.push(`  … ${current.districts.length - districtLimit} more sectors (${current.districts.length} total)`);
   }
 
-  lines.push("");
-  lines.push("Rollout (machines by createdAt month)");
-  underline("Rollout (machines by createdAt month)");
-  for (const [label, n] of current.rollout) {
-    lines.push(`  ${label.padEnd(7)} ${String(fmt(n)).padStart(5)}  ${pct(n, current.total)}`);
+  if (current.rollout.length) {
+    lines.push("");
+    lines.push("Rollout (machines by createdAt month)");
+    underline("Rollout (machines by createdAt month)");
+    for (const [label, n] of current.rollout) {
+      lines.push(`  ${label.padEnd(7)} ${String(fmt(n)).padStart(5)}  ${pct(n, current.total)}`);
+    }
   }
 
-  lines.push("");
-  lines.push("Newest machines");
-  underline("Newest machines");
-  for (const [i, m] of current.newest.entries()) {
-    lines.push(`  ${i + 1}. ${m.name} (${m.postal}, ${m.status}) · created ${fmtDate(m.createdAt)}`);
-  }
+  if (current.newest.length) {
+    lines.push("");
+    lines.push("Newest machines");
+    underline("Newest machines");
+    for (const [i, m] of current.newest.entries()) {
+      lines.push(`  ${i + 1}. ${m.name} (${m.postal}, ${m.status}) · created ${fmtDate(m.createdAt)}`);
+    }
 
-  lines.push("");
-  lines.push("Longest standing");
-  underline("Longest standing");
-  for (const [i, m] of current.oldest.entries()) {
-    lines.push(`  ${i + 1}. ${m.name} (${m.postal}, ${m.status}) · created ${fmtDate(m.createdAt)}`);
+    lines.push("");
+    lines.push("Longest standing");
+    underline("Longest standing");
+    for (const [i, m] of current.oldest.entries()) {
+      lines.push(`  ${i + 1}. ${m.name} (${m.postal}, ${m.status}) · created ${fmtDate(m.createdAt)}`);
+    }
   }
 
   lines.push("");
@@ -811,39 +846,43 @@ function renderMarkdown({ snapshot, current, history }) {
     mdTable(["Status", "Count", "%"], current.status.map(([label, n]) => [label, fmt(n), pct(n, current.total)])),
   );
 
-  parts.push("");
-  parts.push("### Supplier");
-  parts.push("");
-  parts.push(
-    mermaidXY(
-      "Machines by supplier",
-      current.suppliers.map(([label]) => label),
-      [{ type: "bar", data: current.suppliers.map(([, n]) => n) }],
-      "machines",
-      seriesTheme("#0072B2"),
-    ),
-  );
-  parts.push("");
-  parts.push(
-    mdTable(["Supplier", "Count", "%"], current.suppliers.map(([label, n]) => [label, fmt(n), pct(n, current.total)])),
-  );
+  if (current.suppliers.length) {
+    parts.push("");
+    parts.push("### Supplier");
+    parts.push("");
+    parts.push(
+      mermaidXY(
+        "Machines by supplier",
+        current.suppliers.map(([label]) => label),
+        [{ type: "bar", data: current.suppliers.map(([, n]) => n) }],
+        "machines",
+        seriesTheme("#0072B2"),
+      ),
+    );
+    parts.push("");
+    parts.push(
+      mdTable(["Supplier", "Count", "%"], current.suppliers.map(([label, n]) => [label, fmt(n), pct(n, current.total)])),
+    );
+  }
 
-  parts.push("");
-  parts.push("### Last connected");
-  parts.push("");
-  const connectedLabels = {
-    lt1d: "< 1 day",
-    lt7d: "< 7 days",
-    lt30d: "< 30 days",
-    ge30d: "≥ 30 days",
-    missing: "unknown",
-  };
-  parts.push(
-    mdTable(
-      ["Age", "Count", "%"],
-      current.lastConnected.map(([label, n]) => [connectedLabels[label] ?? label, fmt(n), pct(n, current.total)]),
-    ),
-  );
+  if (current.lastConnected.length) {
+    parts.push("");
+    parts.push("### Last connected");
+    parts.push("");
+    const connectedLabels = {
+      lt1d: "< 1 day",
+      lt7d: "< 7 days",
+      lt30d: "< 30 days",
+      ge30d: "≥ 30 days",
+      missing: "unknown",
+    };
+    parts.push(
+      mdTable(
+        ["Age", "Count", "%"],
+        current.lastConnected.map(([label, n]) => [connectedLabels[label] ?? label, fmt(n), pct(n, current.total)]),
+      ),
+    );
+  }
 
   const { hoursDetail } = current;
   parts.push("");
@@ -893,17 +932,19 @@ function renderMarkdown({ snapshot, current, history }) {
       .join("\n"),
   );
 
-  parts.push("");
-  parts.push("### Status by supplier");
-  parts.push("");
-  const matrixRows = current.statusBySupplier;
-  const matrixStatuses = Object.keys(matrixRows[0]).filter((key) => key !== "supplier" && key !== "total");
-  parts.push(
-    mdTable(
-      ["Supplier", ...matrixStatuses, "Total"],
-      matrixRows.map((row) => ["supplier", ...matrixStatuses, "total"].map((col) => row[col] ?? 0)),
-    ),
-  );
+  if (current.statusBySupplier.length) {
+    parts.push("");
+    parts.push("### Status by supplier");
+    parts.push("");
+    const matrixRows = current.statusBySupplier;
+    const matrixStatuses = Object.keys(matrixRows[0]).filter((key) => key !== "supplier" && key !== "total");
+    parts.push(
+      mdTable(
+        ["Supplier", ...matrixStatuses, "Total"],
+        matrixRows.map((row) => ["supplier", ...matrixStatuses, "total"].map((col) => row[col] ?? 0)),
+      ),
+    );
+  }
 
   parts.push("");
   parts.push("## Postal sectors & districts");
@@ -936,43 +977,47 @@ function renderMarkdown({ snapshot, current, history }) {
     ),
   );
 
-  parts.push("");
-  parts.push("## Rollout");
-  parts.push("");
-  parts.push("Machines by `createdAt` month:");
-  parts.push("");
-  parts.push(
-    mermaidXY(
-      "Machines created per month",
-      current.rollout.map(([label]) => label),
-      [{ type: "bar", data: current.rollout.map(([, n]) => n) }],
-      "machines",
-      seriesTheme("#D55E00"),
-    ),
-  );
-  parts.push("");
-  parts.push(
-    mdTable(["Month", "Machines", "%"], current.rollout.map(([label, n]) => [label, fmt(n), pct(n, current.total)])),
-  );
+  if (current.rollout.length) {
+    parts.push("");
+    parts.push("## Rollout");
+    parts.push("");
+    parts.push("Machines by `createdAt` month:");
+    parts.push("");
+    parts.push(
+      mermaidXY(
+        "Machines created per month",
+        current.rollout.map(([label]) => label),
+        [{ type: "bar", data: current.rollout.map(([, n]) => n) }],
+        "machines",
+        seriesTheme("#D55E00"),
+      ),
+    );
+    parts.push("");
+    parts.push(
+      mdTable(["Month", "Machines", "%"], current.rollout.map(([label, n]) => [label, fmt(n), pct(n, current.total)])),
+    );
+  }
 
-  parts.push("");
-  parts.push("## Newest machines");
-  parts.push("");
-  parts.push(
-    mdTable(
-      ["#", "Name", "Postal", "Status", "Created"],
-      current.newest.map((m, i) => [i + 1, m.name, m.postal, m.status, fmtDate(m.createdAt)]),
-    ),
-  );
-  parts.push("");
-  parts.push("## Longest standing");
-  parts.push("");
-  parts.push(
-    mdTable(
-      ["#", "Name", "Postal", "Status", "Created"],
-      current.oldest.map((m, i) => [i + 1, m.name, m.postal, m.status, fmtDate(m.createdAt)]),
-    ),
-  );
+  if (current.newest.length) {
+    parts.push("");
+    parts.push("## Newest machines");
+    parts.push("");
+    parts.push(
+      mdTable(
+        ["#", "Name", "Postal", "Status", "Created"],
+        current.newest.map((m, i) => [i + 1, m.name, m.postal, m.status, fmtDate(m.createdAt)]),
+      ),
+    );
+    parts.push("");
+    parts.push("## Longest standing");
+    parts.push("");
+    parts.push(
+      mdTable(
+        ["#", "Name", "Postal", "Status", "Created"],
+        current.oldest.map((m, i) => [i + 1, m.name, m.postal, m.status, fmtDate(m.createdAt)]),
+      ),
+    );
+  }
 
   parts.push("");
   parts.push(`## History (${history.snapshots} snapshots · ${history.firstDate} → ${history.lastDate})`);
@@ -1088,10 +1133,11 @@ async function main() {
     entries.push({ date: current.date, count: current.count, diff: diffCounts(previous, current) });
   }
 
-  const asOfMs = working.items
-    .map((item) => Date.parse(item.rvm_last_conn))
-    .filter(Boolean)
-    .sort((a, b) => b - a)[0];
+  const asOfMs =
+    working.items
+      .map((item) => Date.parse(item.rvm_last_conn))
+      .filter(Boolean)
+      .sort((a, b) => b - a)[0] || Date.now();
 
   const result = {
     snapshot: {

@@ -6,8 +6,7 @@ import { fileURLToPath } from "node:url";
 
 const BASE_URL = "https://returnright.sg";
 const API_BASE = `${BASE_URL}/px-api`;
-const MAP_TOKEN_URL = `${API_BASE}/map-token`;
-const locationsUrl = (uuid, suffix = "") => `${API_BASE}/${uuid}/locations${suffix}`;
+const locationsUrl = (suffix = "") => `${API_BASE}/locations${suffix}`;
 
 // The server clamps nearby radius to 2500m max, so the full dataset is
 // collected by sweeping a grid of nearby queries (see nearby_grid.json)
@@ -18,30 +17,18 @@ const CONCURRENCY = 8;
 
 function baseHeaders(extra = {}) {
   return {
-    "user-agent": "r3turnright-data/1.0",
+    "user-agent": "Mozilla/5.0 (returnright)",
     accept: "application/json",
     "x-bcrs-client": "web",
+    referer: `${BASE_URL}/px/`,
     ...extra,
   };
 }
 
-const tokenState = { uuid: null, current: null };
-
-async function fetchMapUuid() {
-  const response = await fetch(MAP_TOKEN_URL, { headers: baseHeaders() });
-  if (!response.ok) {
-    throw new Error(`Map UUID HTTP ${response.status} ${response.statusText}`);
-  }
-  const body = await response.json();
-  const uuid = body?.data?.uuid;
-  if (!uuid) {
-    throw new Error(`Map token response missing data.uuid: ${JSON.stringify(body).slice(0, 200)}`);
-  }
-  return uuid;
-}
+const tokenState = { current: null };
 
 async function fetchMapToken() {
-  const response = await fetch(locationsUrl(tokenState.uuid, "/access-token"), {
+  const response = await fetch(locationsUrl("/access-token"), {
     headers: baseHeaders(),
   });
   if (!response.ok) {
@@ -77,7 +64,7 @@ function isUsableLocation(item) {
 }
 
 async function fetchDataArray(path) {
-  const url = locationsUrl(tokenState.uuid, path);
+  const url = locationsUrl(path);
   const response = await fetch(url, {
     headers: baseHeaders({ "x-bcrs-map-token": tokenState.current }),
   });
@@ -91,12 +78,11 @@ async function fetchDataArray(path) {
   return body.data;
 }
 
-// Fetch with one uuid + token refresh + retry, for expired/single-use tokens.
+// Fetch with one token refresh + retry, for expired/single-use tokens.
 async function fetchDataArrayResilient(path) {
   try {
     return await fetchDataArray(path);
   } catch (error) {
-    tokenState.uuid = await fetchMapUuid();
     tokenState.current = await fetchMapToken();
     return await fetchDataArray(path);
   }
@@ -111,7 +97,6 @@ async function main() {
     throw new Error(`Invalid grid config in ${path.relative(ROOT, GRID_PATH)}`);
   }
 
-  tokenState.uuid = await fetchMapUuid();
   tokenState.current = await fetchMapToken();
 
   // Base list: complete, including records without coordinates.
@@ -142,6 +127,7 @@ async function main() {
 
   const data = [...byId.values()]
     .filter(isUsableLocation)
+    .map(({ distance, ...item }) => item)
     .sort((a, b) => a.id - b.id);
   await writeFile(SNAPSHOT_PATH, `${JSON.stringify({ status: "ok", data }, null, 2)}\n`);
 
