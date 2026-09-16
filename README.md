@@ -26,6 +26,5782 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-16</b> · 1,335 locations · +1 · ±1334</summary>
+
+- Snapshot size: **1335** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **1334**
+
+Added
+- `B5D61061` FairPrice 12 Greenwood Ave (postal: 289204, status: RUNNING)
+
+Changed
+- `20254408746` Blk 626, Pasir Ris Drive 3
+  - createdAt: 2026-03-05T08:12:16.181Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510626 -> undefined
+- `20254408763` Blk 708, Pasir Ris Drive 10
+  - createdAt: 2026-03-05T08:12:16.135Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510708 -> undefined
+- `20254408774` Blk 473, Pasir Ris Drive 6
+  - createdAt: 2026-03-05T08:12:16.235Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510473 -> undefined
+- `20254408775` Blk 717, Pasir Ris Street 72
+  - createdAt: 2026-03-05T08:12:16.396Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510717 -> undefined
+- `20254408776` Blk 701, Pasir Ris Drive 10
+  - createdAt: 2026-03-05T08:12:16.350Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510701 -> undefined
+- `20254408777` Blk 643, Pasir Ris Drive 10
+  - createdAt: 2026-03-05T08:12:16.296Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510643 -> undefined
+- `20254408778` Blk 638, Pasir Ris Drive 1
+  - createdAt: 2026-03-05T08:12:16.440Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510638 -> undefined
+- `20254408779` Blk 641, Pasir Ris Drive 1
+  - createdAt: 2026-03-05T08:12:16.490Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510641 -> undefined
+- `20254408780` Blk 602, Elias Road
+  - createdAt: 2026-03-05T08:12:16.625Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510602 -> undefined
+- `20254408781` Blk 585, Pasir Ris Street 53
+  - createdAt: 2026-03-05T08:12:16.696Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510585 -> undefined
+- `20254408782` Blk 159,Tampines Street 12
+  - createdAt: 2026-03-05T08:12:16.662Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521159 -> undefined
+- `20254408783` Blk 356D, Ubi Road 3
+  - createdAt: 2026-03-05T08:12:13.782Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 404356 -> undefined
+- `20254408784` Blk 534, Pasir Ris Drive 1
+  - createdAt: 2026-03-05T08:12:16.738Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510534 -> undefined
+- `20254408785` Blk 520, Pasir Ris Street 52
+  - createdAt: 2026-03-05T08:12:16.587Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510520 -> undefined
+- `20254408786` Blk 516, Pasir Ris Street 52
+  - createdAt: 2026-03-05T08:12:16.528Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510516 -> undefined
+- `20254508877` Blk 423, Pasir Ris Drive 6
+  - createdAt: 2026-03-05T08:12:16.810Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510423 -> undefined
+- `20254508878` Blk 408, Pasir Ris Drive 6
+  - createdAt: 2026-03-05T08:12:16.785Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510408 -> undefined
+- `20254508879` Blk 108, Lengkong Tiga
+  - createdAt: 2026-03-05T08:12:13.818Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 410108 -> undefined
+- `20254508880` Blk 429, Pasir Ris Drive 6
+  - createdAt: 2026-03-05T08:12:16.892Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510429 -> undefined
+- `20254508881` Blk 725, Pasir Ris Street 72
+  - createdAt: 2026-03-05T08:12:16.868Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510725 -> undefined
+- `20254508882` Blk 72, Marine Drive
+  - createdAt: 2026-05-07T15:38:52.823Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 440072 -> undefined
+- `20254508883` Blk 458, Pasir Ris Drive 4
+  - createdAt: 2026-03-05T08:12:16.934Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510458 -> undefined
+- `20254508884` Blk 257, Pasir Ris Street 21
+  - createdAt: 2026-03-05T08:12:16.958Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510257 -> undefined
+- `20254508885` Blk 479, Pasir Ris Drive 4
+  - createdAt: 2026-03-05T08:12:17.033Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510479 -> undefined
+- `20254508886` Blk 232, Pasir Ris Drive 4
+  - createdAt: 2026-03-05T08:12:17.004Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510232 -> undefined
+- `20254508887` Blk 225, Pasir Ris Street 21
+  - createdAt: 2026-03-05T08:12:17.088Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510225 -> undefined
+- `20254508888` Blk 756, Pasir Ris Street 71
+  - createdAt: 2026-03-05T08:12:17.139Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510756 -> undefined
+- `20254508889` Blk 209, Pasir Ris Street 21
+  - createdAt: 2026-03-05T08:12:17.240Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510209 -> undefined
+- `20254508890` Blk 275, Pasir Ris Street 21
+  - createdAt: 2026-03-05T08:12:17.178Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510275 -> undefined
+- `20254508891` Blk 160, Pasir Ris Street 13
+  - createdAt: 2026-03-05T08:12:17.276Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510160 -> undefined
+- `20254508892` Blk 747, Pasir Ris Street 71
+  - createdAt: 2026-03-05T08:12:19.422Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510747 -> undefined
+- `20254508893` Blk 501, Pasir Ris Street 52
+  - createdAt: 2026-03-05T08:12:19.570Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510501 -> undefined
+- `20254508894` Blk 497A, Tampines Street 45
+  - createdAt: 2026-03-05T08:12:19.746Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520497 -> undefined
+- `20254508895` Blk 485A, Tampines Avenue 9
+  - createdAt: 2026-03-05T07:42:29.191Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520485 -> undefined
+- `20254508896` Blk 419, Pasir Ris Drive 6
+  - createdAt: 2026-03-05T08:12:19.850Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510419 -> undefined
+- `20254508897` Blk 771, Pasir Ris Street 71
+  - createdAt: 2026-03-05T08:12:20.008Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510771 -> undefined
+- `20254508898` Blk 742 Pasir Ris Street 71
+  - createdAt: 2026-03-05T08:12:19.938Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510742 -> undefined
+- `20254508899` Blk 481, Pasir Ris Drive 4
+  - createdAt: 2026-03-05T08:12:20.127Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510481 -> undefined
+- `20254508900` Blk 461,Tampines Street 44
+  - createdAt: 2026-03-05T08:12:20.801Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520461 -> undefined
+- `20254508901` Blk 706,Tampines Street 71
+  - createdAt: 2026-03-05T08:12:20.676Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520706 -> undefined
+- `20254508902` Blk 740 Tampines Street 72
+  - createdAt: 2026-03-05T08:12:20.974Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520740 -> undefined
+- `20254508903` Blk 734,Tampines Street 71
+  - createdAt: 2026-03-05T08:12:20.883Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520734 -> undefined
+- `20254508904` Blk 626A,Tampines Street 61
+  - createdAt: 2026-03-05T08:12:23.007Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521626 -> undefined
+- `20254508905` Blk 37, Bedok South Avenue 2
+  - createdAt: 2026-03-05T08:12:23.540Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460037 -> undefined
+- `20254508906` Blk 622B,Tampines Avenue 12
+  - createdAt: 2026-03-05T08:12:23.287Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 522622 -> undefined
+- `20254508907` Blk 496D,Tampines Avenue 9
+  - createdAt: 2026-03-05T08:12:17.316Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520496 -> undefined
+- `20254508908` Blk 842D,Tampines Street 82
+  - createdAt: 2026-03-05T08:12:23.360Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 524842 -> undefined
+- `20254508909` Blk 413, Bedok North Avenue 2
+  - createdAt: 2026-03-25T03:30:03.131Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460413 -> undefined
+- `20254508910` Blk 123, Geylang East Avenue 1
+  - createdAt: 2026-03-22T05:10:13.093Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 380123 -> undefined
+- `20254508911` FairPrice Old Airport Hawker Centre
+  - createdAt: 2026-03-25T21:45:06.703Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390051 -> undefined
+- `20254508912` Blk 82, Bedok North Road
+  - createdAt: 2026-03-05T08:12:24.018Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460082 -> undefined
+- `20254508913` Blk 894A,Tampines Street 81
+  - createdAt: 2026-03-05T08:12:24.068Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521894 -> undefined
+- `20254508914` Blk 832,Tampines Street 82
+  - createdAt: 2026-03-05T08:12:24.120Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520832 -> undefined
+- `20254508915` Blk 60, Marine Drive
+  - createdAt: 2026-03-05T08:12:24.319Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 440060 -> undefined
+- `20254508917` FairPrice New Upper Changi Road
+  - createdAt: 2026-03-25T21:45:06.446Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461057 -> undefined
+- `20254508994` Blk 148, Pasir Ris Street 13
+  - createdAt: 2026-03-05T08:12:17.354Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510148 -> undefined
+- `20254508995` Blk 298, Tampines Street 22
+  - createdAt: 2026-03-05T08:12:17.387Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520298 -> undefined
+- `20254508996` Blk 187, Pasir Ris Street 11
+  - createdAt: 2026-03-05T08:12:17.412Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510187 -> undefined
+- `20254508997` Blk 555, Pasir Ris Street 51
+  - createdAt: 2026-03-05T08:12:17.448Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510555 -> undefined
+- `20254508998` Blk 105, Pasir Ris Street 12
+  - createdAt: 2026-03-05T08:12:17.758Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510105 -> undefined
+- `20254508999` Blk 132, Pasir Ris Street 11
+  - createdAt: 2026-03-05T08:12:17.547Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510132 -> undefined
+- `20254509000` Blk 120, Pasir Ris Street 11
+  - createdAt: 2026-03-05T08:12:17.501Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510120 -> undefined
+- `20254509001` Blk 283, Tampines Street 22
+  - createdAt: 2026-03-05T08:12:17.590Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520283 -> undefined
+- `20254509002` Blk 560, Pasir Ris Street 51
+  - createdAt: 2026-03-05T08:12:17.697Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510560 -> undefined
+- `20254509003` Blk 564, Pasir Ris Street 51
+  - createdAt: 2026-03-05T08:12:17.638Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510564 -> undefined
+- `20254509004` Blk 345, Tampines Street 33
+  - createdAt: 2026-03-05T08:12:17.789Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520345 -> undefined
+- `20254509005` Blk 526A, Pasir Ris Street 51
+  - createdAt: 2026-03-05T08:12:17.853Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 511526 -> undefined
+- `20254509006` Blk 191, Pasir Ris Street 12
+  - createdAt: 2026-03-05T08:12:17.910Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510191 -> undefined
+- `20254509007` Blk 108, Tampines Street 11
+  - createdAt: 2026-03-05T08:12:17.952Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521108 -> undefined
+- `20254509008` Blk 637, Bedok Reservoir Road
+  - createdAt: 2026-03-05T07:42:28.767Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 410637 -> undefined
+- `20254509013` Blk 768, Pasir Ris Street 71
+  - createdAt: 2026-03-29T05:15:02.032Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510768 -> undefined
+- `20254509016` Blk 323, Tampines Street 33
+  - createdAt: 2026-03-05T08:12:18.113Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520323 -> undefined
+- `20254609012` Blk 289, Tampines Street 22
+  - createdAt: 2026-03-05T08:12:18.004Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520289 -> undefined
+- `20254609014` Blk 249, Pasir Ris Street 21
+  - createdAt: 2026-03-25T03:30:01.914Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510249 -> undefined
+- `20254609015` Blk 165,Tampines Street 12
+  - createdAt: 2026-03-05T08:12:18.160Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521165 -> undefined
+- `20254609017` Blk 103, Tampines Street 11
+  - createdAt: 2026-03-05T08:12:18.401Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520103 -> undefined
+- `20254609018` Blk 761, Pasir Ris Street 71
+  - createdAt: 2026-03-05T08:12:18.226Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510761 -> undefined
+- `20254609019` Blk 303, Tampines Street 32
+  - createdAt: 2026-03-05T08:12:18.450Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520303 -> undefined
+- `20254609020` Blk 141, Pasir Ris Street 11
+  - createdAt: 2026-03-05T08:12:18.313Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510141 -> undefined
+- `20254609021` Blk 782, Pasir Ris Street 71
+  - createdAt: 2026-03-05T08:12:18.498Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510782 -> undefined
+- `20254609022` Blk 524A, Pasir Ris Street 51
+  - createdAt: 2026-03-05T08:12:18.354Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 511524 -> undefined
+- `20254609023` Blk 207, Tampines Street 21
+  - createdAt: 2026-03-05T08:12:18.536Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520207 -> undefined
+- `20254609024` Blk 765, Bedok Reservoir View
+  - createdAt: 2026-03-05T08:12:18.572Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470765 -> undefined
+- `20254609025` Blk 74, Marine Drive
+  - createdAt: 2026-03-05T08:12:13.868Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 440074 -> undefined
+- `20254609026` Blk 47, Marine Crescent
+  - createdAt: 2026-03-05T08:12:13.936Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 440047 -> undefined
+- `20254609065` Blk 406,Tampines Street 41
+  - createdAt: 2026-03-05T07:42:29.024Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520406 -> undefined
+- `20254609066` Blk 770, Bedok Reservoir View
+  - createdAt: 2026-03-05T08:12:18.720Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470770 -> undefined
+- `20254609067` Blk 490B, Tampines Street 45
+  - createdAt: 2026-03-05T08:12:18.616Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521490 -> undefined
+- `20254609068` Blk 449,Tampines Street 42
+  - createdAt: 2026-03-05T08:12:18.686Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520449 -> undefined
+- `20254609069` Blk 78, Bedok North Road
+  - createdAt: 2026-03-05T08:12:18.743Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460078 -> undefined
+- `20254609070` Blk 409, Bedok North Avenue 2
+  - createdAt: 2026-03-05T08:12:19.238Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460409 -> undefined
+- `20254609071` Blk 124, Simei Street 1
+  - createdAt: 2026-03-05T08:12:18.773Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520124 -> undefined
+- `20254609072` Blk 498A, Tampines Street 45
+  - createdAt: 2026-03-05T08:12:18.798Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520498 -> undefined
+- `20254609073` Blk 130, Bedok North Street 2
+  - createdAt: 2026-03-05T08:12:18.840Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460130 -> undefined
+- `20254609074` Blk 135, Simei Street 1
+  - createdAt: 2026-03-05T08:12:18.873Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520135 -> undefined
+- `20254609075` Blk 229, Tampines Street 23
+  - createdAt: 2026-03-05T08:12:18.943Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521229 -> undefined
+- `20254609077` Blk 886,Tampines Street 83
+  - createdAt: 2026-03-05T07:42:28.714Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520886 -> undefined
+- `20254609078` Blk 240, Tampines Street 21
+  - createdAt: 2026-03-05T08:12:18.982Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520240 -> undefined
+- `20254609079` Blk 216, Tampines Street 23
+  - createdAt: 2026-03-05T08:12:19.083Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520216 -> undefined
+- `20254609086` Blk 421, Bedok North Road
+  - createdAt: 2026-03-05T08:12:19.035Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460421 -> undefined
+- `20254609087` Blk 64, Marine Drive
+  - createdAt: 2026-03-05T08:12:14.054Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 440064 -> undefined
+- `20254609088` Blk 201, Bedok North Street 1
+  - createdAt: 2026-03-05T08:12:19.138Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460201 -> undefined
+- `20254609089` Blk 807A, Chai Chee Road
+  - createdAt: 2026-03-05T08:12:19.196Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461807 -> undefined
+- `20254609090` Blk 113, Simei Street 1
+  - createdAt: 2026-03-05T08:12:24.412Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520113 -> undefined
+- `20254609091` Blk 55, Chai Chee Drive
+  - createdAt: 2026-03-05T08:12:14.112Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460055 -> undefined
+- `20254609092` Blk 426 Tampines Street 41
+  - createdAt: 2026-03-05T07:42:29.086Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520426 -> undefined
+- `20254609093` Blk 230D, Tampines Street 24
+  - createdAt: 2026-03-05T08:12:19.467Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 527230 -> undefined
+- `20254609094` Blk 633,Tampines North Drive 2
+  - createdAt: 2026-03-05T08:12:19.349Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520633 -> undefined
+- `20254609095` Blk 94B, Bedok North Avenue 4
+  - createdAt: 2026-03-05T08:12:19.314Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461094 -> undefined
+- `20254609096` Blk 610C,Tampines North Drive 1
+  - createdAt: 2026-03-05T08:12:19.515Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 523610 -> undefined
+- `20254609097` Blk 862,Tampines Street 83
+  - createdAt: 2026-03-05T08:12:19.617Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520862 -> undefined
+- `20254609098` Blk 641B,Tampines Street 62
+  - createdAt: 2026-03-05T08:12:19.650Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 522641 -> undefined
+- `20254609099` Blk 662C,Tampines Street 64
+  - createdAt: 2026-03-05T08:12:19.687Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 523662 -> undefined
+- `20254609100` Blk 721,Tampines Street 71
+  - createdAt: 2026-03-05T08:12:19.788Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520721 -> undefined
+- `20254609101` Blk 876C,Tampines Avenue 8
+  - createdAt: 2026-03-05T08:12:20.066Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 523876 -> undefined
+- `20254609102` Blk 660,Tampines Street 64
+  - createdAt: 2026-03-05T08:12:20.194Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520660 -> undefined
+- `20254609103` Blk 631B,Tampines North Drive 2
+  - createdAt: 2026-03-05T08:12:20.285Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 522631 -> undefined
+- `20254609104` Blk 871C,Tampines Street 86
+  - createdAt: 2026-03-05T08:12:20.239Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 523871 -> undefined
+- `20254609105` Blk 648A,Tampines Street 62
+  - createdAt: 2026-03-05T08:12:20.584Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521648 -> undefined
+- `20254609106` Blk 603A,Tampines Avenue 9
+  - createdAt: 2026-03-05T08:12:20.382Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521603 -> undefined
+- `20254609107` Blk 117, Bedok North Road
+  - createdAt: 2026-03-05T08:12:20.336Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460117 -> undefined
+- `20254609108` Blk 635B,Tampines North Drive 2
+  - createdAt: 2026-03-05T08:12:20.426Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 522635 -> undefined
+- `20254609109` Blk 406, Bedok North Avenue 3
+  - createdAt: 2026-03-05T08:12:20.478Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460406 -> undefined
+- `20254609110` Blk 319, Ubi Avenue 1
+  - createdAt: 2026-03-05T08:12:14.189Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400319 -> undefined
+- `20254609111` Blk 814,Tampines Street 81
+  - createdAt: 2026-03-05T08:12:20.522Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520814 -> undefined
+- `20254609112` Blk 911,Tampines Street 91
+  - createdAt: 2026-03-05T07:42:29.222Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520911 -> undefined
+- `20254609113` Blk 899,Tampines Street 81
+  - createdAt: 2026-03-05T08:12:20.640Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521899 -> undefined
+- `20254609114` Blk 61, Chai Chee Road
+  - createdAt: 2026-03-05T08:12:14.285Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460061 -> undefined
+- `20254609115` Blk 115, Lengkong Tiga
+  - createdAt: 2026-03-05T08:12:14.240Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 410115 -> undefined
+- `20254609231` Blk 330, Ubi Avenue 1
+  - createdAt: 2026-03-05T08:12:14.391Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400330 -> undefined
+- `20254609232` Blk 104, Lengkong Tiga
+  - createdAt: 2026-03-05T08:12:14.428Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 410104 -> undefined
+- `20254609233` Blk 806,Tampines Avenue 4
+  - createdAt: 2026-03-05T08:12:20.703Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520806 -> undefined
+- `20254609234` Blk 926,Tampines Street 91
+  - createdAt: 2026-03-05T08:12:20.743Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520926 -> undefined
+- `20254609235` Blk 145,Tampines Street 12
+  - createdAt: 2026-03-05T08:12:20.831Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521145 -> undefined
+- `20254609236` Blk 954C,Tampines Street 96
+  - createdAt: 2026-03-05T07:42:29.295Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 523954 -> undefined
+- `20254609237` Blk 638A,Tampines Street 62
+  - createdAt: 2026-03-05T08:12:20.924Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521638 -> undefined
+- `20254609238` Blk 249, Tampines Street 21
+  - createdAt: 2026-03-05T08:12:21.125Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520249 -> undefined
+- `20254609239` Blk 762, Bedok Reservoir View
+  - createdAt: 2026-03-05T08:12:21.010Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470762 -> undefined
+- `20254609240` Blk 53, Chai Chee Street
+  - createdAt: 2026-03-05T08:12:21.194Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460053 -> undefined
+- `20254609241` Blk 491D,Tampines Street 45
+  - createdAt: 2026-03-05T08:12:21.062Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 523491 -> undefined
+- `20254609242` Blk 854,Tampines Street 82
+  - createdAt: 2026-03-05T08:12:21.222Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520854 -> undefined
+- `20254609243` Blk 808C, Chai Chee Road
+  - createdAt: 2026-03-05T08:12:21.266Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 463808 -> undefined
+- `20254609244` Blk 2, Chai Chee Road
+  - createdAt: 2026-03-05T08:12:21.339Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461002 -> undefined
+- `20254609245` Blk 874,Tampines Street 84
+  - createdAt: 2026-03-05T07:42:29.371Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520874 -> undefined
+- `20254709293` Blk 495D,Tampines Street 43
+  - createdAt: 2026-03-05T08:12:21.372Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 523495 -> undefined
+- `20254709294` Blk 80, Bedok North Road
+  - createdAt: 2026-03-05T08:12:21.420Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460080 -> undefined
+- `20254709295` Blk 183, Bedok North Road
+  - createdAt: 2026-03-05T08:12:21.454Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460183 -> undefined
+- `20254709296` Blk 264, Tampines Street 21
+  - createdAt: 2026-03-05T08:12:21.504Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520264 -> undefined
+- `20254709297` Blk 451, Tampines Street 42
+  - createdAt: 2026-03-05T08:12:21.550Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520451 -> undefined
+- `20254709298` Blk 137, Bedok North Avenue 3
+  - createdAt: 2026-03-05T08:12:21.649Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460137 -> undefined
+- `20254709299` Blk 233, Tampines Street 21
+  - createdAt: 2026-03-05T08:12:21.607Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521233 -> undefined
+- `20254709300` Blk 384, Tampines Street 32
+  - createdAt: 2026-03-05T08:12:21.707Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520384 -> undefined
+- `20254709301` Blk 125, Tampines Street 11
+  - createdAt: 2026-03-05T08:12:21.748Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521125 -> undefined
+- `20254709302` Blk 44, Chai Chee Street
+  - createdAt: 2026-03-05T08:12:21.855Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461044 -> undefined
+- `20254709303` Blk 403, Bedok North Avenue 3
+  - createdAt: 2026-03-05T08:12:21.799Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460403 -> undefined
+- `20254709304` Blk 872,Tampines Street 84
+  - createdAt: 2026-03-05T07:42:29.491Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520872 -> undefined
+- `20254709305` Blk 43, Chai Chee Street
+  - createdAt: 2026-03-05T08:12:21.910Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461043 -> undefined
+- `20254709306` Blk 50, Chai Chee Street
+  - createdAt: 2026-03-05T08:12:22.046Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461050 -> undefined
+- `20254709307` Blk 932,Tampines Street 91
+  - createdAt: 2026-03-05T08:12:21.992Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520932 -> undefined
+- `20254709338` Blk 352, Tampines Street 33
+  - createdAt: 2026-03-05T08:12:22.072Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520352 -> undefined
+- `20254709339` Blk 366, Tampines Street 34
+  - createdAt: 2026-03-05T08:12:22.116Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520366 -> undefined
+- `20254709340` Blk 259, Tampines Street 21
+  - createdAt: 2026-03-05T08:12:22.174Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520259 -> undefined
+- `20254709341` Blk 492G,Tampines Street 45
+  - createdAt: 2026-03-05T08:12:22.275Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 527492 -> undefined
+- `20254709342` Blk 391, Tampines Avenue 7
+  - createdAt: 2026-03-05T08:12:22.229Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520391 -> undefined
+- `20254709343` SHENG SIONG 11 TANJONG KATONG ROAD, KINEX
+  - createdAt: 2026-03-25T21:45:07.676Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 437157 -> undefined
+- `20254709344` SHENG SIONG BLK 739A BEDOK RESERVOIR ROAD 
+  - createdAt: 2026-03-25T21:45:07.394Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 471739 -> undefined
+- `20254709345` FairPrice Bedok North 212
+  - createdAt: 2026-03-25T21:45:07.482Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460212 -> undefined
+- `20254709346` Blk 701, Bedok Reservoir Road
+  - createdAt: 2026-07-16T09:03:01.761Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470701 -> undefined
+- `20254709347` Blk 123, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:04.044Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470123 -> undefined
+- `20254709348` SHENG SIONG BLK 539A BEDOK NORTH STREET 3 
+  - createdAt: 2026-03-25T21:45:06.371Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461539 -> undefined
+- `20254709349` Blk 648, Jln Tenaga
+  - createdAt: 2026-03-25T03:30:04.058Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 410648 -> undefined
+- `20254709351` Blk 9, Eunos Crescent
+  - createdAt: 2026-03-05T08:12:14.471Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400009 -> undefined
+- `20254709352` Blk 99, Bedok North Avenue 4
+  - createdAt: 2026-03-05T08:12:22.570Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460099 -> undefined
+- `20254709481` Blk 704, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:05.578Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470704 -> undefined
+- `20254709482` Blk 61, New Upper Changi Road
+  - createdAt: 2026-03-05T08:12:14.327Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461061 -> undefined
+- `20254709483` Blk 42, Bedok South Road
+  - createdAt: 2026-03-05T08:12:22.608Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460042 -> undefined
+- `20254709484` Blk 846, Sims Avenue
+  - createdAt: 2026-03-05T08:12:14.558Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400846 -> undefined
+- `20254709485` Blk 501, Bedok North Street 3
+  - createdAt: 2026-07-29T08:20:33.005Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460503 -> undefined
+- `20254709487` Blk 134, Simei Street 1
+  - createdAt: 2026-03-05T08:12:23.040Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520134 -> undefined
+- `20254709488` Blk 130, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:04.028Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470130 -> undefined
+- `20254709489` Blk 1, Bedok South Avenue 1
+  - createdAt: 2026-03-05T08:12:14.595Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460001 -> undefined
+- `20254709490` Blk 620, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:05.536Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470620 -> undefined
+- `20254709491` SHENG SIONG BLK 209 NEW UPPER CHANGI ROAD 
+  - createdAt: 2026-03-25T21:45:07.456Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460209 -> undefined
+- `20254709493` Blk 417, Eunos Road 5
+  - createdAt: 2026-03-05T08:12:14.643Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400417 -> undefined
+- `20254709494` Blk 722, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:01.508Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470722 -> undefined
+- `20254709495` Blk 542, Bedok North Street 3
+  - createdAt: 2026-03-25T03:30:05.049Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460542 -> undefined
+- `20254709514` Blk 716, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:05.551Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470716 -> undefined
+- `20254709515` Blk 65, New Upper Changi Road
+  - createdAt: 2026-03-29T06:00:01.484Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460065 -> undefined
+- `20254709516` Blk 518, Bedok North Ave 2
+  - createdAt: 2026-08-07T12:15:03.408Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460518 -> undefined
+- `20254709517` Blk 145, Bedok Reservoir Road
+  - createdAt: 2026-08-28T04:50:01.774Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470145 -> undefined
+- `20254709518` Blk 106, Bedok North Avenue 4
+  - createdAt: 2026-03-05T08:12:11.887Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460106 -> undefined
+- `20254709519` Blk 108, Simei Street 1
+  - createdAt: 2026-03-05T08:12:22.754Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520108 -> undefined
+- `20254709520` Blk 107, Bedok North Road
+  - createdAt: 2026-03-05T08:12:22.809Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460107 -> undefined
+- `20254709521` Blk 721, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:01.489Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470721 -> undefined
+- `20254709522` Blk 2, Haig Road
+  - createdAt: 2026-03-05T08:12:14.723Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 430002 -> undefined
+- `20254709523` Blk 226, Simei Street 4
+  - createdAt: 2026-03-05T08:12:22.858Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520226 -> undefined
+- `20254709524` Blk 22, Eunos Crescent
+  - createdAt: 2026-03-05T08:12:14.684Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400022 -> undefined
+- `20254709525` Blk 711, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:05.516Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470711 -> undefined
+- `20254709526` Blk 233, Simei Street 4
+  - createdAt: 2026-03-05T08:12:22.948Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520233 -> undefined
+- `20254709527` Blk 125, Bedok North Road
+  - createdAt: 2026-03-05T08:12:22.919Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460125 -> undefined
+- `20254709528` Blk 16, Eunos Crescent
+  - createdAt: 2026-03-05T08:12:14.790Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400016 -> undefined
+- `20254709529` Blk 113, Bedok North Street 2
+  - createdAt: 2026-03-05T08:12:11.951Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460113 -> undefined
+- `20254709530` Blk 358D, Ubi Road 3
+  - createdAt: 2026-03-05T08:12:14.825Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 404358 -> undefined
+- `20254709532` Blk 358B, Ubi Road 3
+  - createdAt: 2026-03-05T08:12:14.871Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 402358 -> undefined
+- `20254709533` Blk 167, Simei Lane
+  - createdAt: 2026-03-05T08:12:23.098Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520167 -> undefined
+- `20254709534` Blk 3, Pine Close
+  - createdAt: 2026-03-05T08:12:14.918Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 392003 -> undefined
+- `20254709535` Blk 351, Ubi Avenue 1
+  - createdAt: 2026-03-05T08:12:14.979Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400351 -> undefined
+- `20254709536` Blk 142, Simei Street 2
+  - createdAt: 2026-03-05T08:12:23.130Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520142 -> undefined
+- `20254709537` Blk 419, Bedok North Street 1
+  - createdAt: 2026-03-05T08:12:23.184Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460419 -> undefined
+- `20254709538` Blk 150, Simei Street 1
+  - createdAt: 2026-03-05T08:12:23.228Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520150 -> undefined
+- `20254709539` Blk 348, Ubi Avenue 1
+  - createdAt: 2026-03-05T08:12:15.007Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400348 -> undefined
+- `20254709540` Blk 548, Bedok North Ave 1
+  - createdAt: 2026-03-25T03:30:01.342Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460548 -> undefined
+- `20254709541` Blk 514, Bedok North Ave 2
+  - createdAt: 2026-07-29T06:45:22.370Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460513 -> undefined
+- `20254709542` Blk 105, Aljunied Crescent
+  - createdAt: 2026-03-05T08:12:15.035Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 380105 -> undefined
+- `20254709543` Blk 188A, Bedok North Street 4
+  - createdAt: 2026-03-05T08:12:23.319Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461188 -> undefined
+- `20254809581` Blk 272, Tampines Street 22
+  - createdAt: 2026-03-05T08:12:23.403Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520272 -> undefined
+- `20254809582` Blk 60, Dakota Crescent
+  - createdAt: 2026-03-05T08:12:15.086Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390060 -> undefined
+- `20254809583` SHENG SIONG 151 BEDOK SOUTH ROAD, SIGLAP CC
+  - createdAt: 2026-03-25T21:45:06.483Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460151 -> undefined
+- `20254809584` Blk 28, Cassia Crescent
+  - createdAt: 2026-03-05T08:12:15.136Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 391028 -> undefined
+- `20254809585` Blk 126, Geylang East Avenue 1
+  - createdAt: 2026-03-05T08:12:15.166Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 381126 -> undefined
+- `20254809586` Blk 156, Bedok South Avenue 3
+  - createdAt: 2026-03-05T08:12:15.217Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460156 -> undefined
+- `20254809587` SHENG SIONG 301 GEYLANG ROAD BCH BUILDING
+  - createdAt: 2026-03-25T21:45:07.646Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 389344 -> undefined
+- `20254809588` Blk 1, Pine Close
+  - createdAt: 2026-03-05T08:12:15.252Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390001 -> undefined
+- `20254809589` Blk 4, Marine Ter
+  - createdAt: 2026-03-05T08:12:15.342Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 440004 -> undefined
+- `20254809590` Blk 36, Cassia Crescent
+  - createdAt: 2026-03-05T08:12:15.383Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390036 -> undefined
+- `20254809591` Blk 30, Marine Crescent
+  - createdAt: 2026-03-05T08:12:15.515Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 440030 -> undefined
+- `20254809592` Blk 11, Haig Road
+  - createdAt: 2026-03-05T08:12:15.556Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 430011 -> undefined
+- `20254809593` Blk 617, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:03.442Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470617 -> undefined
+- `20254809594` Blk 55, Marine Ter
+  - createdAt: 2026-03-05T08:12:15.428Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 440055 -> undefined
+- `20254809679` Blk 453, Pasir Ris Drive 6
+  - createdAt: 2026-03-25T03:30:04.774Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510453 -> undefined
+- `20254809775` Blk 14, Bedok South Ave 2
+  - createdAt: 2026-03-05T08:12:15.462Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460014 -> undefined
+- `20254809776` Blk 47, Jln Tiga
+  - createdAt: 2026-03-05T08:12:13.963Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390047 -> undefined
+- `20254809777` Blk 106, Simei Street 1
+  - createdAt: 2026-03-05T08:12:24.449Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520106 -> undefined
+- `20254809778` SHENG SIONG BLK 118 ALJUNIED  AVE 2 
+  - createdAt: 2026-03-25T21:45:06.599Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 380118 -> undefined
+- `20254809779` Blk 29 New Upper Changi Road
+  - createdAt: 2026-03-05T08:12:15.728Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 464029 -> undefined
+- `20254809780` Blk 8, Haig Road
+  - createdAt: 2026-03-05T08:12:15.608Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 430008 -> undefined
+- `20254809781` Blk 707, Bedok North Road
+  - createdAt: 2026-03-25T03:30:03.979Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470707 -> undefined
+- `20254809782` Blk 164, Bedok South Road
+  - createdAt: 2026-03-05T08:12:15.651Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460164 -> undefined
+- `20254809783` Blk 659, Jln Tenaga
+  - createdAt: 2026-03-25T03:30:01.255Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 410659 -> undefined
+- `20254809784` Blk 12, Pine Close
+  - createdAt: 2026-03-05T08:12:15.773Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 391012 -> undefined
+- `20254809785` Blk 12 Kampong Arang Rd
+  - createdAt: 2026-03-29T05:15:07.485Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 431012 -> undefined
+- `20254809786` Blk 96, Bedok North Avenue 4
+  - createdAt: 2026-03-05T08:12:23.674Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460096 -> undefined
+- `20254809787` Blk 155, Simei Road
+  - createdAt: 2026-03-05T08:12:23.725Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520155 -> undefined
+- `20254809788` Blk 425, Bedok North Road
+  - createdAt: 2026-03-05T08:12:23.792Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460425 -> undefined
+- `20254809789` Blk 42, Cassia Crescent
+  - createdAt: 2026-03-05T08:12:13.580Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390042 -> undefined
+- `20254809790` Blk 22, Bedok South Avenue 1
+  - createdAt: 2026-03-05T08:12:15.802Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460022 -> undefined
+- `20254809791` Blk 63, Chai Chee Road
+  - createdAt: 2026-03-05T08:12:15.831Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460063 -> undefined
+- `20254809792` Blk 608, Bedok Reservoir Road
+  - createdAt: 2026-07-15T05:45:04.375Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470608 -> undefined
+- `20254809793` Blk 52, New Upper Changi Road
+  - createdAt: 2026-03-05T08:12:23.833Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461052 -> undefined
+- `20254809794` Blk 150, Bedok Reservoir Road
+  - createdAt: 2026-08-25T07:20:02.629Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470150 -> undefined
+- `20254809795` Blk 169, Bedok South Avenue 3
+  - createdAt: 2026-03-05T08:12:15.882Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460169 -> undefined
+- `20254809796` Blk 670, Jln Damai
+  - createdAt: 2026-03-25T03:30:01.277Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 410670 -> undefined
+- `20254809797` Blk 720, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:05.565Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470720 -> undefined
+- `20254809798` SHENG SIONG BLK 506 TAMPINES CENTRAL 1
+  - createdAt: 2026-03-29T09:07:41.061Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520506 -> undefined
+- `20254809799` Blk 55, New Upper Changi Road
+  - createdAt: 2026-03-05T08:12:14.153Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461055 -> undefined
+- `20254809800` Blk 72, Bedok South Avenue 3
+  - createdAt: 2026-03-05T08:12:15.987Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460072 -> undefined
+- `20254809801` Fairprice Joo Chiat Complex
+  - createdAt: 2026-06-11T08:24:08.897Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 420002 -> undefined
+- `20254809802` FairPrice Katong V
+  - createdAt: 2026-03-25T21:45:07.735Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 428751 -> undefined
+- `20254809803` Blk 529, Bedok North Street 3
+  - createdAt: 2026-03-25T03:30:01.292Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460529 -> undefined
+- `20254809804` Blk 601, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:03.550Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470601 -> undefined
+- `20254909819` Blk 35, Chai Chee Avenue
+  - createdAt: 2026-03-05T08:12:15.931Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461035 -> undefined
+- `20254909820` Blk 628, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:03.425Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470628 -> undefined
+- `20254909821` SHENG SIONG BLK 258 PASIR RIS ST 21 
+  - createdAt: 2026-03-25T21:45:07.022Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510258 -> undefined
+- `20254909822` Blk 1, Kampong Kayu Rd
+  - createdAt: 2026-03-05T08:12:15.301Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 431001 -> undefined
+- `20254909823` Blk 99, Old Airport Road
+  - createdAt: 2026-03-05T08:12:16.022Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390099 -> undefined
+- `20254909824` Blk 58, Dakota Crescent
+  - createdAt: 2026-03-05T08:12:16.066Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390058 -> undefined
+- `20254909825` Blk 52, Cassia Crescent
+  - createdAt: 2026-03-05T08:12:24.150Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390052 -> undefined
+- `20254909826` Blk 640, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:04.076Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 410640 -> undefined
+- `20254909827` Blk 109, Aljunied Crescent
+  - createdAt: 2026-03-05T08:12:24.278Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 380109 -> undefined
+- `20254909828` Blk 38C, Eunos Road 2
+  - createdAt: 2026-03-05T08:12:24.234Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 403038 -> undefined
+- `20254909829` Blk 133, Geylang East Avenue 1
+  - createdAt: 2026-03-05T08:12:24.367Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 380133 -> undefined
+- `20254909830` Blk 56, Cassia Crescent
+  - createdAt: 2026-03-05T08:12:24.194Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 391056 -> undefined
+- `20254909831` Blk 10, Pine Close
+  - createdAt: 2026-03-05T08:12:14.516Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 391010 -> undefined
+- `20254909864` SCARLETT@PAYA LEBAR SQUARE
+  - createdAt: 2026-03-25T21:45:07.618Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 409051 -> undefined
+- `20254909865` ITE College East
+  - createdAt: 2026-06-11T01:28:07.456Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 486047 -> undefined
+- `20254909866` FairPrice Whitesands
+  - createdAt: 2026-03-25T21:45:06.924Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 518457 -> undefined
+- `20254909867` SHENG SIONG BLK 872C TAMPINES STREET 86
+  - createdAt: 2026-03-25T21:45:06.075Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 523872 -> undefined
+- `20254909868` Tampines Round Market and Food Centre
+  - createdAt: 2026-06-14T12:10:02.638Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521137 -> undefined
+- `20254909869` Dunman Food Centre
+  - createdAt: 2026-06-04T05:13:05.790Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 424768 -> undefined
+- `20254909870` FairPrice Tampines Blk 138 Tampines Street 11
+  - createdAt: 2026-03-29T05:15:06.244Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521138 -> undefined
+- `20254909871` U STARS @Elias Mall
+  - createdAt: 2026-03-25T21:45:05.702Z -> undefined
+  - groupId: [84] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510625 -> undefined
+- `20254909872` Giant Express 509 Bedok North St 3
+  - createdAt: 2026-03-25T21:45:06.397Z -> undefined
+  - groupId: [52] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460509 -> undefined
+- `20254909873` FairPrice Blk 633 Tampines North Drive 2
+  - createdAt: 2026-03-25T21:45:07.048Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520633 -> undefined
+- `20254909874` FairPrice Bedok Reservoir 
+  - createdAt: 2026-05-13T10:00:12.143Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470745 -> undefined
+- `20254909875` Cold Storage Joo Chiat JK Centre
+  - createdAt: 2026-03-25T21:45:01.464Z -> undefined
+  - groupId: [65] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 427543 -> undefined
+- `20254909876` Fairprice Jewel
+  - createdAt: 2026-06-09T09:50:06.086Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 819666 -> undefined
+- `20254909877` FairPrice Pasir Ris West Plaza
+  - createdAt: 2026-03-25T21:45:06.891Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510734 -> undefined
+- `20254909878` FairPrice Changi Business Park
+  - createdAt: 2026-03-25T21:45:07.364Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 486018 -> undefined
+- `20254909879` FairPrice Paya Lebar Quarter
+  - createdAt: 2026-03-25T21:45:07.568Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 409057 -> undefined
+- `20254909880` Kallang Estate Fresh Market and Food Centre
+  - createdAt: 2026-06-05T06:47:07.501Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 397972 -> undefined
+- `20254909881` Giant Simei MRT
+  - createdAt: 2026-03-25T21:45:07.334Z -> undefined
+  - groupId: [56] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 529888 -> undefined
+- `20254909882` FairPrice Parkway Parade
+  - createdAt: 2026-03-25T21:45:02.502Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 449269 -> undefined
+- `20254909883` Prime Supermarket Tampines Street 96
+  - createdAt: 2026-03-25T21:45:06.345Z -> undefined
+  - groupId: [80] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 523954 -> undefined
+- `20254909884` Giant Loyang Point
+  - createdAt: 2026-03-25T21:45:06.996Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510259 -> undefined
+- `20254909885` SCARLETT@DOWNTOWN E!HUB
+  - createdAt: 2026-03-25T21:45:08.483Z -> undefined
+  - groupId: [88] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 519599 -> undefined
+- `20254909886` Pasir Ris Central Hawker Centre
+  - createdAt: 2026-05-28T06:36:05.110Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 519641 -> undefined
+- `20254909887` Blk 612, Bedok Reservoir Road
+  - createdAt: 2026-03-25T03:30:03.995Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470612 -> undefined
+- `20254909888` Cold Storage Parkway Parade
+  - createdAt: 2026-03-25T21:45:07.761Z -> undefined
+  - groupId: [58] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 449269 -> undefined
+- `20254909889` Lion City Supermarket Geylang Road
+  - createdAt: 2026-05-27T03:55:03.552Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 389370 -> undefined
+- `20255010195` ANG MO SUPERMARKET-622B TAMPINES AVE 12
+  - createdAt: 2026-03-05T07:42:30.380Z -> undefined
+  - groupId: [92] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 522622 -> undefined
+- `20255010196` SHENG SIONG BLK 115 BEDOK NORTH ROAD 
+  - createdAt: 2026-03-25T21:45:08.536Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460115 -> undefined
+- `20255010197` Changi Village Hawker Centre
+  - createdAt: 2026-03-26T09:45:11.678Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 500002 -> undefined
+- `20255010198` Don Don Donki (Jewel Changi)
+  - createdAt: 2026-03-25T03:30:04.628Z -> undefined
+  - groupId: [76] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 819666 -> undefined
+- `20255010199` SHENG SIONG BLK 91 JLN. SATU
+  - createdAt: 2026-03-25T21:45:02.911Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390091 -> undefined
+- `20255010200` Cold Storage i12 Katong
+  - createdAt: 2026-03-25T21:45:01.523Z -> undefined
+  - groupId: [62] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 428802 -> undefined
+- `20255010201` SCARLETT@GEYLANG ROAD
+  - createdAt: 2026-03-25T21:45:06.647Z -> undefined
+  - groupId: [86] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 389356 -> undefined
+- `20255010202` SHENG SIONG BLK 527D PASIR RIS STREET 51 
+  - createdAt: 2026-03-25T21:45:05.752Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 514527 -> undefined
+- `20255010203` FairPrice Marine Parade
+  - createdAt: 2026-03-25T21:45:02.601Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 449411 -> undefined
+- `20255010204` Changi Airport Terminal 2
+  - createdAt: 2026-03-27T14:30:04.125Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 819643 -> undefined
+- `20255010205` Little Farms Market, Katong Point
+  - createdAt: 2026-03-25T21:45:01.495Z -> undefined
+  - groupId: [94] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 427664 -> undefined
+- `20255010206` FairPrice 41 Jalan Tiga
+  - createdAt: 2026-03-25T21:45:06.673Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 390041 -> undefined
+- `20255010207` Changi Airport Terminal 4
+  - createdAt: 2026-03-27T14:30:03.247Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 819662 -> undefined
+- `20255010208` Eunos Crescent Blk 4A Hawker Centre
+  - createdAt: 2026-06-18T07:07:01.434Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 402004 -> undefined
+- `20255010209` Prime Supermarket Tampines North Drive 1
+  - createdAt: 2026-03-25T21:45:05.940Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520610 -> undefined
+- `20255010210` FairPrice 612 Geylang Lorong 38
+  - createdAt: 2026-03-25T21:45:01.260Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 389551 -> undefined
+- `20255010211` Prime Supermarket Eunos Road 2
+  - createdAt: 2026-03-25T21:45:06.574Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400037 -> undefined
+- `20255010212` Blk 141, Bedok Reservoir Road
+  - createdAt: 2026-03-25T21:45:06.774Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470141 -> undefined
+- `20255010213` Giant Pasir Ris Drive 4
+  - createdAt: 2026-03-25T21:45:05.857Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510440 -> undefined
+- `20255010214` East Coast Lagoon Food Village
+  - createdAt: 2026-03-26T09:45:11.678Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 468960 -> undefined
+- `20255010215` Giant Bedok Market Place
+  - createdAt: 2026-03-25T21:45:06.421Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 469560 -> undefined
+- `20255010216` Geylang Serai Market and Food Centre
+  - createdAt: 2026-03-25T17:07:16.248Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 402001 -> undefined
+- `20255010217` Bedok Food Centre
+  - createdAt: 2026-03-26T09:45:11.678Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 469572 -> undefined
+- `20255010218` Sparrows 206 Bedok North Street 1
+  - createdAt: 2026-03-25T21:45:07.424Z -> undefined
+  - groupId: [118] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460206 -> undefined
+- `20255010219` Changi Airport Terminal 1
+  - createdAt: 2026-03-27T14:30:03.222Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 819642 -> undefined
+- `20255010220` FairPrice Changi Airport T3
+  - createdAt: 2026-03-25T21:45:07.810Z -> undefined
+  - groupId: [40] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 819663 -> undefined
+- `20255010444` FairPrice Blk 29B Chai Chee Avenue
+  - createdAt: 2026-03-25T21:45:06.508Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 462029 -> undefined
+- `20255010445` FairPrice Bedok Mall
+  - createdAt: 2026-03-25T21:45:07.509Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 467360 -> undefined
+- `20255010446` FairPrice Downtown East
+  - createdAt: 2026-03-25T21:45:06.971Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 519599 -> undefined
+- `20255010447` BITES BY SCARLETT@TAMPINES ONE
+  - createdAt: 2026-03-25T21:45:07.179Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 529536 -> undefined
+- `20255010448` U STARS @Tampines Grove
+  - createdAt: 2026-03-25T21:45:07.075Z -> undefined
+  - groupId: [84] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520829 -> undefined
+- `20255010449` Blk 665, Jln Damai
+  - createdAt: 2026-03-25T03:30:05.021Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 410665 -> undefined
+- `20255010450` FairPrice Siglap
+  - createdAt: 2026-03-25T21:45:01.790Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 459125 -> undefined
+- `20255010451` FairPrice Blk 114 Aljunied Ave 2
+  - createdAt: 2026-03-25T21:45:06.623Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 380114 -> undefined
+- `20255010452` Prime Supermarket Chai Chee Road
+  - createdAt: 2026-03-25T21:45:01.549Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 461025 -> undefined
+- `20255010454` Giant Kampung Ubi Avenue 1
+  - createdAt: 2026-03-25T21:45:06.548Z -> undefined
+  - groupId: [55] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 400306 -> undefined
+- `20255010455` Prime Supermarket Tampines Street 81
+  - createdAt: 2026-03-25T21:45:06.130Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520823 -> undefined
+- `20255010456` Cold Storage Siglap V
+  - createdAt: 2026-03-25T21:45:01.715Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 458278 -> undefined
+- `20255010457` FairPrice Lengkong Tiga
+  - createdAt: 2026-03-25T21:45:01.609Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 410110 -> undefined
+- `20255010458` FairPrice Century Square Shopping Mall
+  - createdAt: 2026-03-25T21:45:07.101Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 529509 -> undefined
+- `20255010459` Cold Storage Tampines One
+  - createdAt: 2026-03-25T21:45:07.126Z -> undefined
+  - groupId: [59] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 529536 -> undefined
+- `20255010460` FairPrice Tampines Mall
+  - createdAt: 2026-07-13T10:27:07.065Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 529510 -> undefined
+- `20255010462` FairPrice East Point
+  - createdAt: 2026-03-25T21:45:06.318Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 528833 -> undefined
+- `20255010464` FairPrice Blk 89 Bedok North Street 4
+  - createdAt: 2026-03-25T21:45:08.512Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460089 -> undefined
+- `20255010465` FairPrice Blk 475 Tampines Street 44
+  - createdAt: 2026-03-25T21:45:06.263Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 520475 -> undefined
+- `20255010466` Giant Tampines Mart
+  - createdAt: 2026-03-25T21:45:06.290Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 529286 -> undefined
+- `20255110621` FairPrice Our Tampines Hub
+  - createdAt: 2026-03-25T21:45:06.157Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 528523 -> undefined
+- `20255110622` Don Don Donki (Paya Lebar Quarter)
+  - createdAt: 2026-03-25T03:30:04.513Z -> undefined
+  - groupId: [77] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 409057 -> undefined
+- `20255110623` ONE Supermarket Pte. Ltd.
+  - createdAt: 2026-03-25T21:45:06.234Z -> undefined
+  - groupId: [112] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 522201 -> undefined
+- `20255110624` TRIPLE N SUPERMART PTE LTD
+  - createdAt: 2026-05-18T10:49:06.988Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 415814 -> undefined
+- `20255110625` FairPrice Finest Komo Shoppes
+  - createdAt: 2026-03-25T21:45:07.302Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 506790 -> undefined
+- `20255110626` FairPrice Blk 107 Tampines Street 11
+  - createdAt: 2026-03-25T21:45:07.236Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521107 -> undefined
+- `20255110627` ACE SIGNATURE @ LIV CHANGI
+  - createdAt: 2026-03-29T05:15:07.057Z -> undefined
+  - groupId: [99] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 506785 -> undefined
+- `20255110628` U STARS @878C Tampines Ave 8
+  - createdAt: 2026-03-25T21:45:06.102Z -> undefined
+  - groupId: [85] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 523878 -> undefined
+- `20255110629` FairPrice Tampines CC
+  - createdAt: 2026-03-25T21:45:06.036Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 521866 -> undefined
+- `20255110630` Don Don Donki (Tampines One)
+  - createdAt: 2026-03-25T03:30:04.255Z -> undefined
+  - groupId: [74] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 529536 -> undefined
+- `20261515320` 208B New Upper Changi Road Hawker Centre
+  - createdAt: 2026-07-14T05:42:04.845Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 462208 -> undefined
+- `20261515321` Bedok Reservoir Food Centre
+  - createdAt: 2026-06-29T07:51:01.923Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 470630 -> undefined
+- `20261515322` 16 Bedok South Rd Hawker Centre
+  - createdAt: 2026-07-23T03:47:10.652Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460016 -> undefined
+- `20261515323` FairPrice 623 Elias Mall
+  - createdAt: 2026-07-24T03:25:06.832Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 510623 -> undefined
+- `20261515324` Haig Road Market & Cooked Food Centre
+  - createdAt: 2026-08-20T04:16:07.412Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 430014 -> undefined
+- `20261515325` Bedok North Street 3 Blk 538 Hawker Centre
+  - createdAt: 2026-06-22T06:33:02.037Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460538 -> undefined
+- `20261515326` Changi Lodge 2
+  - createdAt: 2026-08-20T08:34:09.111Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 498736 -> undefined
+- `20261515327` 50A Marine Terrace Hawker Centre
+  - createdAt: 2026-06-22T05:07:01.851Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 441050 -> undefined
+- `20261515328` Loyang Way Food Village
+  - createdAt: 2026-08-20T02:00:07.287Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 508754 -> undefined
+- `20261515329` 85 Fengshan Centre
+  - createdAt: 2026-07-04T08:29:02.734Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460085 -> undefined
+- `20261515331` 117 Aljunied Ave 2 Market & Food Centre
+  - createdAt: 2026-07-21T01:07:02.539Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 380117 -> undefined
+- `20261515332` SCARLETT@PASIR RIS MALL
+  - createdAt: 2026-07-20T08:11:09.106Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 519612 -> undefined
+- `20261515333` FairPrice Finest Sceneca Square
+  - createdAt: 2026-07-21T01:25:02.350Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 468456 -> undefined
+- `20261515334` Cold Storage Pasir Ris Mall
+  - createdAt: 2026-07-02T14:13:06.789Z -> undefined
+  - groupId: [58] -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 519612 -> undefined
+- `20261515335` Blk 216 Bedok North Street 1 Market & Hawker Centre
+  - createdAt: 2026-07-14T05:18:03.803Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460216 -> undefined
+- `20261515336` 84 Marine Parade Central Market and Food Centre
+  - createdAt: 2026-06-22T05:47:01.955Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 440084 -> undefined
+- `20261515338` Singapore University of Technology and Design (SUTD)
+  - createdAt: 2026-07-15T07:36:11.085Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 485995 -> undefined
+- `20261515339` Kaki Bukit 511 Market and Food Centre
+  - createdAt: 2026-06-22T05:50:02.058Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 460511 -> undefined
+- `20261515341` Temasek Polytechnic
+  - createdAt: 2026-07-04T10:14:02.502Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 529757 -> undefined
+- `20261515346` Blk 4A Jalan Batu Hawker Centre
+  - createdAt: 2026-06-22T04:37:01.882Z -> undefined
+  - supplierId: RVMS001 -> undefined
+  - zipcode: 432004 -> undefined
+- `B5052350` SCARLETT@BUGIS+
+  - createdAt: 2026-03-16T06:15:05.257Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 188067 -> undefined
+- `B5052351` Block 156 Rivervale Crescent
+  - createdAt: 2026-03-12T09:52:07.451Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540156 -> undefined
+- `B5052352` SHENG SIONG BLK 658 PUNGGOL EAST 
+  - createdAt: 2026-03-12T09:52:10.934Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820658 -> undefined
+- `B5052353` FairPrice Blk 712 Ang Mo Kio Avenue 6
+  - createdAt: 2026-03-12T09:52:09.876Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560712 -> undefined
+- `B5052354` Block 113 Whampoa Road
+  - createdAt: 2026-03-16T06:30:04.978Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 320113 -> undefined
+- `B5052355` Prime Supermarket 322 Sumang Walk
+  - createdAt: 2026-03-25T21:45:03.568Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820322 -> undefined
+- `B5052356` Prime Supermarket Bidadari Park Drive
+  - createdAt: 2026-03-25T21:45:04.090Z -> undefined
+  - groupId: [80] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 340106 -> undefined
+- `B5052357` Block 23B Queen's Close
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 141023 -> undefined
+- `B5052358` FairPrice Havelock Road
+  - createdAt: 2026-03-16T07:00:05.277Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 160050 -> undefined
+- `B5052359` Block 143 Potong Pasir Avenue 2
+  - createdAt: 2026-03-12T09:52:08.810Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 350143 -> undefined
+- `B5052360` FairPrice Shaw Plaza
+  - createdAt: 2026-03-16T07:00:05.298Z -> undefined
+  - groupId: [45] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 329783 -> undefined
+- `B5052361` Giant Ang Mo Kio Avenue 10
+  - createdAt: 2026-03-17T12:00:06.094Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560525 -> undefined
+- `B5052362` SHENG SIONG BLK 660A EDGEDALE PLAINS 
+  - createdAt: 2026-03-12T09:52:10.972Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821660 -> undefined
+- `B5052363` Giant Northshore 2
+  - createdAt: 2026-03-17T19:00:06.159Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820407 -> undefined
+- `B5052364` Cold Storage Plaza Singapura
+  - createdAt: 2026-03-16T06:30:05.003Z -> undefined
+  - groupId: [62] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238839 -> undefined
+- `B5052365` SHENG SIONG BLK 410A SIN MING AVENUE
+  - createdAt: 2026-03-12T09:52:08.846Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 571410 -> undefined
+- `B5052366` Block 261 Waterloo Street
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 180261 -> undefined
+- `B5052367` FairPrice Serangoon Garden myVillage
+  - createdAt: 2026-03-12T09:52:09.901Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 556679 -> undefined
+- `B5052368` Don Don Donki (Orchard Central)
+  - createdAt: 2026-03-16T06:45:05.511Z -> undefined
+  - groupId: [72] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238896 -> undefined
+- `B5052369` Block 12 Holland Avenue
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 272012 -> undefined
+- `B5052370` FairPrice Blk 476 Upper Serangoon View
+  - createdAt: 2026-03-17T11:45:06.135Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530476 -> undefined
+- `B5052371` Block 319A Anchorvale Drive
+  - createdAt: 2026-03-12T09:52:06.439Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 541319 -> undefined
+- `B5052372` Cold Storage Raffles City
+  - createdAt: 2026-03-16T06:30:05.026Z -> undefined
+  - groupId: [60] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 179103 -> undefined
+- `B5052373` FairPrice 612 Punggol Drive
+  - createdAt: 2026-03-12T09:52:09.936Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820612 -> undefined
+- `B5052470` Cold Storage Suntec City
+  - createdAt: 2026-03-16T06:30:05.057Z -> undefined
+  - groupId: [62] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 038983 -> undefined
+- `B5052471` Cold Storage Marina Bay Sands
+  - createdAt: 2026-03-22T10:30:06.752Z -> undefined
+  - groupId: [69] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 018972 -> undefined
+- `B5052472` FairPrice Tanjong Pagar
+  - createdAt: 2026-03-17T11:45:06.211Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 082001 -> undefined
+- `B5052473` FairPrice Xtra VivoCity
+  - createdAt: 2026-03-13T08:00:06.158Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 098585 -> undefined
+- `B5052474` National University of Singapore 36 College Avenue East UTown Level 1, Main Walkway
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 138600 -> undefined
+- `B5052475` Block 131 Ang Mo Kio Avenue 3
+  - createdAt: 2026-03-12T09:52:07.194Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560131 -> undefined
+- `B5052476` Block 411A Northshore Drive
+  - createdAt: 2026-02-27T07:03:06.805Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821411 -> undefined
+- `B5052477` Prime Supermarket Upper Aljunied Lane
+  - createdAt: 2026-03-25T21:45:04.119Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 360001 -> undefined
+- `B5052478` Block 3 Queen's Road
+  - createdAt: 2026-03-12T09:52:07.161Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 260003 -> undefined
+- `B5052479` Singapore Polytechnic (SP) T11A Building
+  - createdAt: 2026-03-16T07:00:05.208Z -> undefined
+  - groupId: [73] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 139651 -> undefined
+- `B5052480` Block 132 Rivervale Street
+  - createdAt: 2026-03-12T09:52:07.598Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540132 -> undefined
+- `B5052481` SHENG SIONG BLK 473 FERNVALE STREET
+  - createdAt: 2026-03-12T09:52:09.354Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 790473 -> undefined
+- `B5052482` Block 563 Ang Mo Kio Avenue 3
+  - createdAt: 2026-03-12T09:52:08.018Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560563 -> undefined
+- `B5052483` Cold Storage Serangoon Nex
+  - createdAt: 2026-03-17T18:45:06.193Z -> undefined
+  - groupId: [64] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 556083 -> undefined
+- `B5052484` Block 456 Hougang Avenue 10
+  - createdAt: 2026-03-12T09:52:08.046Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530456 -> undefined
+- `B5052485` Cold Storage Bugis Junction
+  - createdAt: 2026-03-22T13:30:06.660Z -> undefined
+  - groupId: [62] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 188021 -> undefined
+- `B5052486` FairPrice Serangoon North Ave 1
+  - createdAt: 2026-03-12T09:52:10.315Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 552152 -> undefined
+- `B5052487` FairPrice Finest Clarke Quay
+  - createdAt: 2026-03-17T11:45:06.234Z -> undefined
+  - groupId: [121] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 179019 -> undefined
+- `B5052488` FairPrice Finest Coronation Plaza
+  - createdAt: 2026-03-17T12:00:05.887Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 269707 -> undefined
+- `B5052489` Block 832 Hougang Central
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530832 -> undefined
+- `B5052490` Giant Ghim Moh Road
+  - createdAt: 2026-03-22T13:30:06.717Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 270021 -> undefined
+- `B5052491` Block 99C Lorong 2 Toa Payoh
+  - createdAt: 2026-03-17T19:15:06.377Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 312099 -> undefined
+- `B5052492` Cold Storage Anchorpoint
+  - createdAt: 2026-03-17T18:45:06.217Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 159953 -> undefined
+- `B5052493` Block 121 Potong Pasir Avenue 1
+  - createdAt: 2026-03-12T09:52:08.788Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 350121 -> undefined
+- `B5052494` FairPrice Dover Crescent
+  - createdAt: 2026-03-17T12:00:05.915Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 130028 -> undefined
+- `B5052495` Block 128 Lorong 1 Toa Payoh
+  - createdAt: 2026-03-17T19:15:06.399Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310128 -> undefined
+- `B5052496` Cold Storage Novena Square
+  - createdAt: 2026-03-17T18:45:06.240Z -> undefined
+  - groupId: [62] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 307683 -> undefined
+- `B5052497` Block 337 Ang Mo Kio Avenue 1
+  - createdAt: 2026-03-12T09:52:08.082Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560337 -> undefined
+- `B5052498` FairPrice Dawson Place
+  - createdAt: 2026-03-17T12:00:05.941Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 142057 -> undefined
+- `B5052499` SHENG SIONG BLK 85 DAWSON ROAD 
+  - createdAt: 2026-03-17T12:15:06.186Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 141085 -> undefined
+- `B5052500` Don Don Donki (City Square Mall)
+  - createdAt: 2026-03-13T08:00:06.124Z -> undefined
+  - groupId: [75] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 208539 -> undefined
+- `B5052501` Block 444 Hougang Avenue 8
+  - createdAt: 2026-03-12T09:52:08.314Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530444 -> undefined
+- `B5052502` Block 988A Buangkok Green
+  - createdAt: 2026-03-12T09:52:06.834Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 531988 -> undefined
+- `B5052503` FairPrice Hougang One
+  - createdAt: 2026-03-17T12:00:05.966Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 538692 -> undefined
+- `B5052504` FairPrice Lorong Limau
+  - createdAt: 2026-03-12T09:52:10.345Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 320080 -> undefined
+- `B5052505` Block 984A Buangkok Link
+  - createdAt: 2026-03-12T09:52:08.348Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 531984 -> undefined
+- `B5052506` Cold Storage Holland Village
+  - createdAt: 2026-03-16T06:45:05.535Z -> undefined
+  - groupId: [68] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 278967 -> undefined
+- `B5052507` Cold Storage New Bahru
+  - createdAt: 2026-03-16T06:45:05.440Z -> undefined
+  - groupId: [60] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 239351 -> undefined
+- `B5052508` Block 106 Henderson Crescent
+  - createdAt: 2026-03-12T09:52:07.041Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150106 -> undefined
+- `B5052509` FairPrice 29A Ghim Moh Link
+  - createdAt: 2026-03-17T19:00:06.043Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 271029 -> undefined
+- `B5052510` Food-Joy Buona Vista
+  - createdAt: 2026-03-25T21:45:06.927Z -> undefined
+  - groupId: [104] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 118157 -> undefined
+- `B5052511` Block 225C Compassvale Walk
+  - createdAt: 2026-03-12T09:52:06.594Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 543225 -> undefined
+- `B5052512` Prime Supermarket Compassvale Street
+  - createdAt: 2026-03-25T21:45:05.116Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540263 -> undefined
+- `B5052513` Don Don Donki (Clarke Quay Central)
+  - createdAt: 2026-03-16T07:00:05.237Z -> undefined
+  - groupId: [75] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 059817 -> undefined
+- `B5052514` Block 122E RIVERVALE DRIVE
+  - createdAt: 2026-03-12T09:52:07.638Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 545122 -> undefined
+- `B5052515` Meidi-Ya Millenia Walk
+  - createdAt: 2026-03-17T18:30:06.031Z -> undefined
+  - groupId: [109] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 039596 -> undefined
+- `B5052516` FairPrice Blk 78A Telok Blangah Street 32
+  - createdAt: 2026-03-17T12:00:05.987Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 101078 -> undefined
+- `B5052517` Giant Ang Mo Kio Street 31
+  - createdAt: 2026-03-17T12:15:06.131Z -> undefined
+  - groupId: [54] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 563316 -> undefined
+- `B5052542` FairPrice Bukit Merah
+  - createdAt: 2026-03-25T21:45:06.949Z -> undefined
+  - groupId: [40] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150166 -> undefined
+- `B5052543` Phan99 Supermarket PPT Lodge 1B
+  - createdAt: 2026-03-25T03:30:04.592Z -> undefined
+  - groupId: [113] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 797601 -> undefined
+- `B5052544` Don Don Donki (Suntec City Mall)
+  - createdAt: 2026-03-16T07:00:05.258Z -> undefined
+  - groupId: [74] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 038983 -> undefined
+- `B5052545` Ci Yuan Hawker Centre
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 538776 -> undefined
+- `B5052546` SHENG SIONG BLK 231 SUMANG LANE
+  - createdAt: 2026-03-12T09:52:09.126Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820231 -> undefined
+- `B5052547` Block 402 Northshore Drive
+  - createdAt: 2026-03-12T09:52:06.219Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820402 -> undefined
+- `B5052548` Block 20 Telok Blangah Crescent
+  - createdAt: 2026-03-12T09:52:06.940Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 090020 -> undefined
+- `B5052549` Market Street Hawker Centre
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 048947 -> undefined
+- `B5052550` SHENG SIONG BLK 671 EDGEFIELD PLAINS
+  - createdAt: 2026-03-12T09:52:11.019Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820671 -> undefined
+- `B5052551` Block 228 Bishan Street 23
+  - createdAt: 2026-03-17T19:15:06.423Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570228 -> undefined
+- `B5052552` Block 102 Jalan Rajah
+  - createdAt: 2026-03-12T09:52:07.371Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 321102 -> undefined
+- `B5052553` Block 138 Bishan Street 12
+  - createdAt: 2026-03-17T19:15:06.445Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570138 -> undefined
+- `B5052554` Block 12 Cantonment Close
+  - createdAt: 2026-03-12T09:52:06.898Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 080012 -> undefined
+- `B5052555` Block 435 Northshore Drive
+  - createdAt: 2026-02-27T07:03:06.771Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820435 -> undefined
+- `B5052556` Punggol Coast Hawker Centre
+  - createdAt: 2026-03-22T05:10:14.335Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 829911 -> undefined
+- `B5052557` Block 126A Edgedale Plains
+  - createdAt: 2026-02-25T13:05:03.628Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821126 -> undefined
+- `B5052558` Jasons Deli by Cold Storage ION Orchard
+  - createdAt: 2026-03-16T06:45:05.463Z -> undefined
+  - groupId: [64] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238801 -> undefined
+- `B5052559` Huber's Butchery @ Dempsey
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - groupId: [107] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 249679 -> undefined
+- `B5052560` Block 406C Fernvale Road
+  - createdAt: 2026-03-12T09:52:08.116Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 793406 -> undefined
+- `B5052561` Block 120 McNair Road
+  - createdAt: 2026-03-12T09:52:07.335Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 320120 -> undefined
+- `B5052562` Block 9 Selegie Road
+  - createdAt: 2026-03-17T19:15:06.469Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 180009 -> undefined
+- `B5052563` FairPrice Blk 227 Compassvale Link
+  - createdAt: 2026-03-17T19:00:06.079Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 543277 -> undefined
+- `B5052564` FairPrice Punggol Oasis
+  - createdAt: 2026-03-12T09:52:10.395Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820681 -> undefined
+- `B5052565` Cold Storage Great World City
+  - createdAt: 2026-03-22T14:00:06.839Z -> undefined
+  - groupId: [62] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 237994 -> undefined
+- `B5052626` Cold Storage Heartland Mall
+  - createdAt: 2026-03-17T18:45:06.262Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530205 -> undefined
+- `B5052627` Cold Storage Marina One
+  - createdAt: 2026-03-22T14:00:06.867Z -> undefined
+  - groupId: [61] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 018935 -> undefined
+- `B5052628` Block 125 Aljunied Road
+  - createdAt: 2026-03-17T19:15:06.492Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 380125 -> undefined
+- `B5052629` Block 46 Circuit Road
+  - createdAt: 2026-03-17T19:15:06.517Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 370046 -> undefined
+- `B5052630` FairPrice MacPherson Blossom
+  - createdAt: 2026-03-12T09:52:10.429Z -> undefined
+  - groupId: [45] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 370076 -> undefined
+- `B5052631` Block 8 Jalan Bukit Ho Swee
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 161008 -> undefined
+- `B5052632` FairPrice Punggol Plaza
+  - createdAt: 2026-03-12T09:52:10.474Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820168 -> undefined
+- `B5052633` SHENG SIONG BLK 122 ANG MO KIO AVE 3 
+  - createdAt: 2026-03-12T09:52:08.951Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560122 -> undefined
+- `B5052634` FairPrice Kang Kar Mall
+  - createdAt: 2026-03-17T19:00:06.107Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 538767 -> undefined
+- `B5052635` FairPrice Seletar Mall
+  - createdAt: 2026-03-17T19:00:06.131Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 797653 -> undefined
+- `B5052636` Culina at COMO Dempsey
+  - createdAt: 2026-03-25T21:45:09.305Z -> undefined
+  - groupId: [102] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 249675 -> undefined
+- `B5052637` FairPrice Punggol Coast Mall
+  - createdAt: 2026-03-12T09:52:10.509Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 829857 -> undefined
+- `B5052911` Kukoh 21 Food Centre
+  - createdAt: 2026-07-29T08:08:27.766Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 161001 -> undefined
+- `B5052912` Whampoa Market
+  - createdAt: 2026-07-29T08:08:27.740Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 320090 -> undefined
+- `B5052913` Hong Lim Food Centre and Market
+  - createdAt: 2026-07-31T08:00:14.985Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 051531 -> undefined
+- `B5052914` Nanyang Polytechnic (NYP)
+  - createdAt: 2026-07-31T10:40:10.440Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 569830 -> undefined
+- `B5052915` Cheng Yan Court - 269 Queen Street
+  - createdAt: 2026-07-31T07:55:10.917Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 180269 -> undefined
+- `B5052916` Block 19 Jalan Membina
+  - createdAt: 2026-08-03T10:35:13.234Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 164019 -> undefined
+- `B5052917` Block 81 Redhill Ln
+  - createdAt: 2026-08-08T10:20:12.342Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150081 -> undefined
+- `B5052918` Fair Price Hougang Mall
+  - createdAt: 2026-07-31T10:25:12.951Z -> undefined
+  - groupId: [45] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 538766 -> undefined
+- `B5052919` Blk 5036 Ang Mo Kio Ind Park 2
+  - createdAt: 2026-07-31T08:00:14.875Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 569539 -> undefined
+- `B5052920` Bendemeer Market and Food Centre
+  - createdAt: 2026-07-31T07:55:10.873Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 330029 -> undefined
+- `B5052921` Block 118 Bukit Merah View
+  - createdAt: 2026-08-03T10:30:12.502Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150118 -> undefined
+- `B5052922` Blk 17 Upper Boon Keng Market and Food Centre
+  - createdAt: 2026-07-29T08:07:44.588Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 380017 -> undefined
+- `B5052923` Zion Riverside Food Centre
+  - createdAt: 2026-05-29T01:50:11.878Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 247792 -> undefined
+- `B5052924` Pasir Panjang Food Centre
+  - createdAt: 2026-05-29T02:30:11.732Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 118543 -> undefined
+- `B5052925` Beo Crescent Market
+  - createdAt: 2026-05-29T02:20:10.894Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 169982 -> undefined
+- `B5052926` Chong Boon Market & Food Centre
+  - createdAt: 2026-06-04T10:25:11.527Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 561453 -> undefined
+- `B5052927` 628 Ang Mo Kio Food Centre
+  - createdAt: 2026-06-04T10:25:11.460Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560628 -> undefined
+- `B5052928` Fernvale Hawker Centre & Market
+  - createdAt: 2026-05-28T02:15:12.417Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 797650 -> undefined
+- `B5052929` Serangoon Garden Market
+  - createdAt: 2026-05-28T02:15:12.385Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 555945 -> undefined
+- `B5052930` Chomp Chomp Food Centre
+  - createdAt: 2026-05-28T02:15:12.400Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 557269 -> undefined
+- `B5052931` Phan 66 PPT Lodge 1A Dormitory
+  - createdAt: 2026-05-28T02:15:12.430Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 797455 -> undefined
+- `B5052932` 11 Telok Blangah Crescent Market and Food Centre
+  - createdAt: 2026-06-23T07:55:10.985Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 090011 -> undefined
+- `B5052933` Toa Payoh Vista Market
+  - createdAt: 2026-06-12T06:35:12.085Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310074 -> undefined
+- `B5052934` Holland Village Market and Food Centre
+  - createdAt: 2026-05-29T04:15:12.242Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 277700 -> undefined
+- `B5052935` Tiong Bahru Market
+  - createdAt: 2026-05-29T02:25:12.105Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 168898 -> undefined
+- `B5052936` Kovan Hougang Market and Food Centre
+  - createdAt: 2026-06-04T10:20:10.944Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530209 -> undefined
+- `B5052937` SHENG SIONG THOMSON IMPERIAL COURT
+  - supplierId: TOMRA001 -> undefined
+- `B5052938` Margaret Drive Hawker Centre
+  - createdAt: 2026-05-29T04:00:14.038Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 142038 -> undefined
+- `B5052939` SCARLETT@AMK 710A
+  - createdAt: 2026-05-28T02:15:12.457Z -> undefined
+  - groupId: [86] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 561710 -> undefined
+- `B5052940` Ang Mo Kio Market & Food Centre Blk 724
+  - createdAt: 2026-06-04T10:20:11.525Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560724 -> undefined
+- `B5052941` Hougang 105 Hainanese Village Centre
+  - createdAt: 2026-06-04T10:20:10.995Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530105 -> undefined
+- `B5052942` Tanglin Halt Market
+  - createdAt: 2026-05-29T04:05:12.496Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 148813 -> undefined
+- `B5052943` Kebun Baru Food Centre Block 226H
+  - createdAt: 2026-06-04T10:25:11.392Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 568226 -> undefined
+- `B5052944` Teck Ghee Court Market & Food Centre
+  - createdAt: 2026-06-04T10:25:11.335Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560341 -> undefined
+- `B5052945` Commonwealth Crescent Market
+  - createdAt: 2026-05-29T04:15:12.575Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 149644 -> undefined
+- `B5052946` Adam Road Food Centre
+  - createdAt: 2026-05-29T04:55:12.326Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 289876 -> undefined
+- `B5481004` SHENG SIONG BLK 212 BIDADARI PARK DRIVE
+  - createdAt: 2026-03-12T09:52:09.443Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 360212 -> undefined
+- `B5481005` Isetan Scotts Supermarket
+  - createdAt: 2026-03-25T21:45:06.693Z -> undefined
+  - groupId: [108] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238868 -> undefined
+- `B5481006` FairPrice ZhongShan Park
+  - createdAt: 2026-03-12T09:52:09.980Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 329984 -> undefined
+- `B5481007` FairPrice Holland Drive
+  - createdAt: 2026-03-17T18:45:06.306Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 270036 -> undefined
+- `B5481008` Block 311D Anchorvale Lane
+  - createdAt: 2026-03-12T09:52:06.491Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 544311 -> undefined
+- `B5481009` FairPrice Finest Scotts Square
+  - createdAt: 2026-03-17T19:00:05.975Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 228209 -> undefined
+- `B5481010` Block 171 Lorong 1 Toa Payoh
+  - createdAt: 2026-03-17T19:15:06.297Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310171 -> undefined
+- `B5481011` Block 109 Ang Mo Kio Avenue 4
+  - createdAt: 2026-03-12T09:52:06.298Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560109 -> undefined
+- `B5481012` Block 246 Compassvale Road
+  - createdAt: 2026-03-12T09:52:07.490Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540246 -> undefined
+- `B5481013` SCARLETT@DJITSUN AMK
+  - createdAt: 2026-03-17T19:30:06.241Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 569663 -> undefined
+- `B5481014` Block 205 Toa Payoh North
+  - createdAt: 2026-03-17T19:15:06.325Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310205 -> undefined
+- `B5481015` FairPrice Rivervale Plaza
+  - createdAt: 2026-03-17T19:00:05.999Z -> undefined
+  - groupId: [45] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540118 -> undefined
+- `B5481016` Amoy Street Food Centre
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 069111 -> undefined
+- `B5481017` FairPrice Kallang Bahru
+  - createdAt: 2026-03-17T11:45:06.164Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 330071 -> undefined
+- `B5481018` FairPrice Toa Payoh Hub
+  - createdAt: 2026-03-17T19:00:06.022Z -> undefined
+  - groupId: [43] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310500 -> undefined
+- `B5481019` Block 974 Hougang Street 91
+  - createdAt: 2026-03-12T09:52:06.753Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530974 -> undefined
+- `B5481020` Don Don Donki (100AM)
+  - createdAt: 2026-03-16T06:45:05.560Z -> undefined
+  - groupId: [74] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 079027 -> undefined
+- `B5481021` SCARLETT@HEARTLAND MALL
+  - createdAt: 2026-03-17T19:30:06.261Z -> undefined
+  - groupId: [88] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530205 -> undefined
+- `B5481022` Block 143 Lorong 2 Toa Payoh
+  - createdAt: 2026-03-17T19:15:06.352Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310143 -> undefined
+- `B5481023` FairPrice Thomson Plaza
+  - createdAt: 2026-03-12T09:52:10.031Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 574408 -> undefined
+- `B5481024` Don Don Donki (Square2)
+  - createdAt: 2026-03-17T18:45:06.284Z -> undefined
+  - groupId: [74] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 307506 -> undefined
+- `B5481025` Cold Storage UE Square
+  - createdAt: 2026-03-17T18:45:06.172Z -> undefined
+  - groupId: [60] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 239917 -> undefined
+- `B5481026` Cold Storage United Square
+  - createdAt: 2026-03-22T05:10:13.093Z -> undefined
+  - groupId: [62] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 307591 -> undefined
+- `B5481027` U STARS @330Anchorvale Street
+  - createdAt: 2026-03-25T21:45:04.228Z -> undefined
+  - groupId: [84] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540330 -> undefined
+- `B5481028` FairPrice Bukit Timah Plaza
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 588996 -> undefined
+- `B5481029` Block 134 Jalan Bukit Merah
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 160134 -> undefined
+- `B5481030` Marks & Spencer Wheelock Place
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [97] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238880 -> undefined
+- `B5481031` Giant Beauty World
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 588177 -> undefined
+- `B5481032` Maxwell Food Centre
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 069184 -> undefined
+- `B5481033` Block 11 York Hill
+  - createdAt: 2026-03-22T14:15:07.149Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 162011 -> undefined
+- `B5481034` SHENG SIONG BLK 25 GHIM MOH LINK 
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 270025 -> undefined
+- `B5481035` Block 911 Hougang Street 91
+  - createdAt: 2026-03-12T09:52:08.251Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530911 -> undefined
+- `B5481036` SHENG SIONG BLK 18B CIRCUIT ROAD 
+  - createdAt: 2026-03-12T09:52:09.090Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 372018 -> undefined
+- `B5481037` FairPrice Anchorvale Village
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [45] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540339 -> undefined
+- `B5481038` Cold Storage Tanglin Mall
+  - createdAt: 2026-03-22T05:10:13.093Z -> undefined
+  - groupId: [62] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 247933 -> undefined
+- `B5481039` Block 124C Rivervale Drive
+  - createdAt: 2026-03-12T09:52:06.538Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 543124 -> undefined
+- `B5481040` Block 108 Potong Pasir Avenue 1
+  - createdAt: 2026-03-12T09:52:08.748Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 350108 -> undefined
+- `B5481041` Block 105 Rivervale Walk
+  - createdAt: 2026-03-12T09:52:07.530Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540105 -> undefined
+- `B5481042` FairPrice 1 Jalan Bukit Merah
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150001 -> undefined
+- `B5481043` Block 658 Hougang Avenue 8
+  - createdAt: 2026-03-12T09:52:06.791Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530658 -> undefined
+- `B5481044` ANG MO SUPERMARKET-260 ANG MO KIO ST21
+  - createdAt: 2026-03-12T09:52:09.826Z -> undefined
+  - groupId: [92] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560260 -> undefined
+- `B5481045` FairPrice 682 Hougang Avenue 4
+  - createdAt: 2026-03-12T09:52:10.069Z -> undefined
+  - groupId: [45] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530682 -> undefined
+- `B5481046` FairPrice Orchard Grand Court
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 239571 -> undefined
+- `B5481047` SHENG SIONG BLK 6 POTONG PASIR AVE 2,  POTONG PASIR CC 
+  - createdAt: 2026-03-12T09:52:09.396Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 358361 -> undefined
+- `B5481048` FairPrice Finest Tiong Bahru Plaza
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 168732 -> undefined
+- `B5481049` One Punggol Hawker Centre
+  - createdAt: 2026-03-05T10:41:10.146Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 828629 -> undefined
+- `B5481050` Block 624 Hougang Avenue 8
+  - createdAt: 2026-03-12T09:52:07.969Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530624 -> undefined
+- `B5481051` FairPrice Finest Artra
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 158736 -> undefined
+- `B5481052` FairPrice SengKang East
+  - createdAt: 2026-03-12T09:52:10.112Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540279 -> undefined
+- `B5481053` FairPrice Blk 635B Punggol Drive
+  - createdAt: 2026-03-12T09:52:10.150Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 822653 -> undefined
+- `B5481054` Block 203A Compassvale Road
+  - createdAt: 2026-03-12T09:52:07.568Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 541203 -> undefined
+- `B5481055` FairPrice Nex Mall
+  - createdAt: 2026-03-12T09:52:10.193Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 556083 -> undefined
+- `B5481056` FairPrice Chinatown Point
+  - createdAt: 2026-03-17T11:45:06.188Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 059413 -> undefined
+- `B5481057` Block 610 Ang Mo Kio Avenue 4
+  - createdAt: 2026-03-12T09:52:06.334Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560610 -> undefined
+- `B5481058` U STARS @215C Compassvale Drive
+  - createdAt: 2026-03-29T05:15:07.771Z -> undefined
+  - groupId: [84] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 543215 -> undefined
+- `B5481059` Newton Food Centre
+  - createdAt: 2026-03-22T14:30:07.065Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 229495 -> undefined
+- `B5481060` Block 206A Woodleigh Link
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 361206 -> undefined
+- `B5481061` Cold Storage Alocassia
+  - createdAt: 2026-03-23T09:34:00.918Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 259727 -> undefined
+- `B5481063` Prime Supermarket Toa Payoh Lorong 7
+  - createdAt: 2026-03-25T21:45:05.085Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310018 -> undefined
+- `B5481064` SCARLETT@NEX
+  - createdAt: 2026-03-22T05:10:14.335Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 556083 -> undefined
+- `B5481065` Block 204 Bishan Street 23
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570204 -> undefined
+- `B5481066` Cold Storage Cluny Court
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 259760 -> undefined
+- `B5481067` Cold Storage Marina Bay Link Mall
+  - createdAt: 2026-03-23T09:34:01.524Z -> undefined
+  - groupId: [67] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 018984 -> undefined
+- `B5481068` FairPrice Finest Funan Mall
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [50] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 179105 -> undefined
+- `B5481069` Meidi-Ya Great World City
+  - createdAt: 2026-03-25T21:45:07.489Z -> undefined
+  - groupId: [110] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 237994 -> undefined
+- `B5481070` Cold Storage Takashimaya
+  - createdAt: 2026-03-22T14:30:07.235Z -> undefined
+  - groupId: [63] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238873 -> undefined
+- `B5481071` Giant Buangkok Crescent
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530982 -> undefined
+- `B5481072` Block 568 Hougang Street 51
+  - createdAt: 2026-03-12T09:52:08.275Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530568 -> undefined
+- `B5481073` ANG MO SUPERMARKET-639 PUNGGOL DRIVE
+  - createdAt: 2026-03-12T09:52:11.577Z -> undefined
+  - groupId: [92] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820639 -> undefined
+- `B5481074` Cold Storage Chancery Court
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 309433 -> undefined
+- `B5481075` FairPrice Blk 279 Bishan Street 24
+  - createdAt: 2026-03-12T09:52:10.278Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570279 -> undefined
+- `B5481076` Cold Storage Sentosa Cove
+  - createdAt: 2026-03-13T08:00:06.088Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 098537 -> undefined
+- `B5481077` Block 289D Punggol Place
+  - createdAt: 2026-03-22T14:30:07.303Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 824289 -> undefined
+- `B5481078` MUSTAFA
+  - createdAt: 2026-03-25T21:45:06.156Z -> undefined
+  - groupId: [111] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 207704 -> undefined
+- `B5481079` FairPrice Square 2
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [48] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 307506 -> undefined
+- `B5481080` Prime Supermarket Jalan Tenteram
+  - createdAt: 2026-03-25T21:45:05.140Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 320116 -> undefined
+- `B5481081` ACE SIGNATURE @ NTP
+  - createdAt: 2026-03-12T09:52:11.654Z -> undefined
+  - groupId: [99] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 556741 -> undefined
+- `B5481082` SHENG SIONG 2 HANDY ROAD,  THE CATHAY
+  - createdAt: 2026-03-22T14:30:07.352Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 229233 -> undefined
+- `B5481083` SCARLETT@SHAW PLAZA
+  - createdAt: 2026-03-25T03:30:05.021Z -> undefined
+  - groupId: [89] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 329783 -> undefined
+- `B5481084` FairPrice 150 Towner Road
+  - createdAt: 2026-03-13T08:00:06.198Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 320150 -> undefined
+- `B5481085` Block 38B Bendemeer Road
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 332038 -> undefined
+- `B5481086` FairPrice Depot Heights Shopping Centre
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 100108 -> undefined
+- `B5481087` Marks & Spencer Vivo City
+  - createdAt: 2026-03-13T08:00:06.314Z -> undefined
+  - groupId: [97] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 098585 -> undefined
+- `B5481088` Block 651B Ang Mo Kio Avenue 9
+  - createdAt: 2026-03-12T09:52:06.379Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 562651 -> undefined
+- `B5481089` Don Don Donki (Waterway Point)
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [75] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 828761 -> undefined
+- `B5481090` Supernature
+  - createdAt: 2026-03-25T21:45:09.332Z -> undefined
+  - groupId: [103] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 249686 -> undefined
+- `B5481091` Block 93 Whampoa Drive
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 320093 -> undefined
+- `B5481092` Block 943 Hougang Street 92
+  - createdAt: 2026-03-12T09:52:06.872Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530943 -> undefined
+- `B5481093` FairPrice Finest 111 Somerset
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238164 -> undefined
+- `B5481094` U STARS @261 Punggol Way
+  - createdAt: 2026-03-25T21:45:04.202Z -> undefined
+  - groupId: [84] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820261 -> undefined
+- `B5481095` Block 313 Shunfu Road
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570313 -> undefined
+- `B5481096` Block 607 Hougang Avenue 4
+  - createdAt: 2026-03-12T09:52:08.390Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530607 -> undefined
+- `B5481097` SCARLETT@PLAZA SINGAPURA
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238839 -> undefined
+- `B5481098` Cold Storage One North
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [66] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 138632 -> undefined
+- `B5481099` FairPrice 5 Upper Boon Keng Road
+  - createdAt: 2026-03-17T12:00:06.017Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 380005 -> undefined
+- `B5481100` Block 113B Alkaff Crescent
+  - createdAt: 2026-03-12T09:52:11.611Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 342113 -> undefined
+- `B5481101` SHENG SIONG BLK 338 ANCHORVALE CRESCENT 
+  - createdAt: 2026-03-12T09:52:09.281Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540338 -> undefined
+- `B5481102` FairPrice AMK Hub
+  - createdAt: 2026-03-12T09:52:10.533Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 569933 -> undefined
+- `B5481103` Giant Serangoon Central Drive
+  - createdAt: 2026-03-22T14:45:08.073Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 550266 -> undefined
+- `B5481104` Cold Storage Paragon
+  - createdAt: 2026-03-22T14:45:08.105Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238859 -> undefined
+- `B5481105` Block 170 Ang Mo Kio Avenue 4
+  - createdAt: 2026-03-12T09:52:06.412Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560170 -> undefined
+- `B5481106` Golden Mile Food Centre
+  - createdAt: 2026-03-22T14:45:08.132Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 199583 -> undefined
+- `B5481107` Cold Storage Aperia
+  - createdAt: 2026-03-16T06:45:05.490Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 339511 -> undefined
+- `B5481108` Little Farms Market, Serangoon Garden (Grocery store)
+  - createdAt: 2026-03-25T21:45:05.166Z -> undefined
+  - groupId: [95] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 556679 -> undefined
+- `B5481109` Prime Supermarket Punggol Field
+  - createdAt: 2026-03-25T21:45:03.543Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820108 -> undefined
+- `B5481110` FairPrice City Square Mall
+  - createdAt: 2026-03-13T08:00:06.223Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 208539 -> undefined
+- `B5481111` Block 243 Bishan Street 22
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570243 -> undefined
+- `B5481112` Woodleigh Village Hawker Centre
+  - createdAt: 2026-03-22T15:00:07.797Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 363202 -> undefined
+- `B5481113` Block 524 Hougang Avenue 6
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530524 -> undefined
+- `B5481114` SHENG SIONG BLK 622D PUNGGOL CENTRAL
+  - createdAt: 2026-03-12T09:52:09.173Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 824622 -> undefined
+- `B5481115` SHENG SIONG BLK 465 FERNVALE ROAD 
+  - createdAt: 2026-03-12T09:52:09.323Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 790465 -> undefined
+- `B5481116` SCARLETT@PEOPLE'S PARK COMPLEX
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [86] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 059108 -> undefined
+- `B5481117` FairPrice Finest Valley Point
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [44] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 248371 -> undefined
+- `B5481118` FairPrice Serangoon Central
+  - createdAt: 2026-03-12T09:52:10.567Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 550253 -> undefined
+- `B5481119` Block 207D Compassvale Lane
+  - createdAt: 2026-03-12T09:52:07.678Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 547207 -> undefined
+- `B5481120` FairPrice Hougang 202
+  - createdAt: 2026-03-12T09:52:10.604Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530202 -> undefined
+- `B5481121` Little Farms Market, Tanglin Mall
+  - createdAt: 2026-03-25T21:45:07.992Z -> undefined
+  - groupId: [96] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 247933 -> undefined
+- `B5481122` Cold Storage Compass One
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 545078 -> undefined
+- `B5481123` ACE MARKETPLACE (86RC)
+  - createdAt: 2026-03-25T21:45:08.034Z -> undefined
+  - groupId: [117] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150086 -> undefined
+- `B5481124` Block 201 Toa Payoh North
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310201 -> undefined
+- `B5481125` Block 95B Henderson Road
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 152095 -> undefined
+- `B5481126` Little Farms Market, Sentosa
+  - createdAt: 2026-03-25T21:45:05.388Z -> undefined
+  - groupId: [94] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 098537 -> undefined
+- `B5481127` Prime Supermarket Buangkok Square
+  - createdAt: 2026-03-25T21:45:08.098Z -> undefined
+  - groupId: [81] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530991 -> undefined
+- `B5481128` FairPrice Finest 100AM
+  - createdAt: 2026-03-17T12:00:06.043Z -> undefined
+  - groupId: [46] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 079027 -> undefined
+- `B5481129` Cold Storage Star Vista
+  - createdAt: 2026-03-22T15:00:08.053Z -> undefined
+  - groupId: [59] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 138617 -> undefined
+- `B5481130` FairPrice Rivervale Shores
+  - createdAt: 2026-03-12T09:52:10.642Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 542170 -> undefined
+- `B5481131` SHENG SIONG BLK 266 COMPASSVALE BOW 
+  - createdAt: 2026-03-22T05:10:12.475Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540266 -> undefined
+- `B5481132` FairPrice Finest Sengkang Grand
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 544692 -> undefined
+- `B5481133` Giant Kim Keat Avenue
+  - createdAt: 2026-03-22T15:15:08.051Z -> undefined
+  - groupId: [55] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310260 -> undefined
+- `B5481134` Block 316B Punggol Way
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 822316 -> undefined
+- `B5481135` Block 114 Lorong 1 Toa Payoh
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310114 -> undefined
+- `B5481136` Giant Telok Blangah Crescent
+  - createdAt: 2026-03-17T12:15:06.163Z -> undefined
+  - groupId: [53] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 090008 -> undefined
+- `B5481137` FairPrice NUH Medical Centre
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [48] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 119082 -> undefined
+- `B5481138` SHENG SIONG BLK 221 MOUNT VERNON RD 
+  - createdAt: 2026-03-12T09:52:09.491Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 360221 -> undefined
+- `B5481139` Block 291B Compassvale Street
+  - createdAt: 2026-03-12T09:52:07.720Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 542291 -> undefined
+- `B5481140` FairPrice Poiz Centre
+  - createdAt: 2026-03-12T09:52:10.687Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 347697 -> undefined
+- `B5481141` FairPrice Stirling
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 140170 -> undefined
+- `B5481142` FairPrice Alexandra Retail Centre ARC (PSA Branch)
+  - createdAt: 2026-03-22T05:10:14.335Z -> undefined
+  - groupId: [48] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 119963 -> undefined
+- `B5481143` FairPrice Holland V
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 278997 -> undefined
+- `B5481144` FairPrice Dunearn Village
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 589472 -> undefined
+- `B5481145` Block 25 Sin Ming Road
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570025 -> undefined
+- `B5481146` Prime Supermarket Hougang Avenue 1
+  - createdAt: 2026-03-25T21:45:04.150Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530106 -> undefined
+- `B5481147` FairPrice Blk 510 Bishan Street 13
+  - createdAt: 2026-03-12T09:52:10.716Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570510 -> undefined
+- `B5481148` Block 112 Bukit Purmei
+  - createdAt: 2026-03-12T09:52:06.984Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 090112 -> undefined
+- `B5481149` Block 473B Upper Serangoon Crescent
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 532473 -> undefined
+- `B5481150` Block 37 Jalan Rumah Tinggi
+  - createdAt: 2026-03-12T09:52:07.014Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150037 -> undefined
+- `B5481151` Block 9 Toh Yi Drive
+  - createdAt: 2026-03-12T09:52:07.267Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 590009 -> undefined
+- `B5481152` Thai Supermarket Pte Ltd
+  - createdAt: 2026-03-25T03:30:04.324Z -> undefined
+  - groupId: [119] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 339511 -> undefined
+- `B5481153` Block 466 Hougang Avenue 8
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530466 -> undefined
+- `B5481154` FairPrice 43 Cambridge Road
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 210043 -> undefined
+- `B5481155` Block 318 Serangoon Avenue 2
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 550318 -> undefined
+- `B5481156` Cold Storage Guthrie House
+  - createdAt: 2026-03-22T15:09:13.014Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 268802 -> undefined
+- `B5481157` Block 310C Punggol Walk
+  - createdAt: 2026-02-27T07:03:06.738Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 823310 -> undefined
+- `B5481158` Cold Storage Greenwich
+  - createdAt: 2026-03-22T15:15:08.330Z -> undefined
+  - groupId: [62] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 807011 -> undefined
+- `B5481159` SCARLETT@GRANTRAL MACPHERSON
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 368242 -> undefined
+- `B5481160` FairPrice French Road
+  - createdAt: 2026-03-17T12:00:06.067Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 200808 -> undefined
+- `B5481161` Block 129 Lorong Ah Soo
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530129 -> undefined
+- `B5481162` Block 272 Punggol Walk
+  - createdAt: 2026-03-12T09:52:06.270Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820272 -> undefined
+- `B5481163` Buangkok Hawker Centre
+  - createdAt: 2026-03-22T15:15:08.403Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 544692 -> undefined
+- `B5481164` Block 461A Sengkang West Way
+  - createdAt: 2026-03-12T09:52:06.633Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 791461 -> undefined
+- `B5481165` Block 144 Jalan Bukit Merah
+  - createdAt: 2026-03-12T09:52:07.115Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 160144 -> undefined
+- `B5481166` Block 236 Hougang Avenue 1
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530236 -> undefined
+- `B5481167` Cold Storage Jelita
+  - createdAt: 2026-03-22T15:15:08.450Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 278628 -> undefined
+- `B5481168` Sembawang Hills Food Centre
+  - createdAt: 2026-03-23T01:15:10.434Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 574419 -> undefined
+- `B5481169` Block 13 Dover Close East
+  - createdAt: 2026-03-12T09:52:07.413Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 130013 -> undefined
+- `B5481170` Block 12 Farrer Park Road
+  - createdAt: 2026-03-12T09:52:07.296Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 210012 -> undefined
+- `B5481171` Block 114 Potong Pasir
+  - createdAt: 2026-03-12T09:52:08.475Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 350114 -> undefined
+- `B5481172` SHENG SIONG BLK 2 ANG MO KIO DRIVE, ITE COLLEGE CENTRAL
+  - createdAt: 2026-03-12T09:52:09.040Z -> undefined
+  - groupId: [36] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 567720 -> undefined
+- `B5481173` Cold Storage One Holland Village
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [62] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 275748 -> undefined
+- `B5481174` Block 204A Punggol Field
+  - createdAt: 2026-02-25T13:05:03.709Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821204 -> undefined
+- `B5481175` Block 212 Serangoon Avenue 4
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 550212 -> undefined
+- `B5481176` Block 54 Geylang Bahru
+  - createdAt: 2026-02-09T06:46:49.188Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 330054 -> undefined
+- `B5481177` FairPrice Finest The Centrepoint
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - groupId: [45] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238843 -> undefined
+- `B5481178` Giant Hougang Green
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 538719 -> undefined
+- `B5481179` Block 336 Hougang Avenue 7
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530336 -> undefined
+- `B5481180` Block 195D Punggol Road
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 824195 -> undefined
+- `B5481181` Don Don Donki (Tiong Bahru Plaza)
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [76] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 168732 -> undefined
+- `B5481182` FairPrice Finest Junction 8
+  - createdAt: 2026-03-12T09:52:10.773Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 579837 -> undefined
+- `B5481183` Block 470B Upper Serangoon Crescent
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 532470 -> undefined
+- `B5481184` Block 232 Lorong 8 Toa Payoh
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310232 -> undefined
+- `B5481185` Block 15 Joo Seng Road
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 360015 -> undefined
+- `B5481186` Prime Supermarket 159A Hougang Street 11
+  - createdAt: 2026-03-25T21:45:04.177Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 531159 -> undefined
+- `B5481187` Block 433B Sengkang West Way
+  - createdAt: 2026-03-12T09:52:06.678Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 792433 -> undefined
+- `B5481188` SCARLETT@SUNTEC CITY
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 038983 -> undefined
+- `B5481189` FairPrice Blk 192 Toa Payoh Lorong 4
+  - createdAt: 2026-03-12T09:52:10.801Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310192 -> undefined
+- `B5481190` Block 325C Sengkang East Way
+  - createdAt: 2026-03-12T09:52:07.778Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 543325 -> undefined
+- `B5481191` SHENG SIONG BLK 11 UPPER BOON KENG ROAD 
+  - createdAt: 2026-03-17T18:25:56.040Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 380011 -> undefined
+- `B5481192` FairPrice North Shore
+  - createdAt: 2026-03-12T09:52:09.527Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821431 -> undefined
+- `B5481193` Block 48 Strathmore Avenue
+  - createdAt: 2026-03-12T09:52:08.419Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 140048 -> undefined
+- `B5481194` North Bridge Road Market & Food Centre
+  - createdAt: 2026-03-22T15:45:08.720Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 198783 -> undefined
+- `B5481195` Block 112 Bishan Street 12
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570112 -> undefined
+- `B5481196` Pek Kio Market & Food Centre
+  - createdAt: 2026-06-16T08:55:12.536Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 211041 -> undefined
+- `B5481197` Telok Blangah Rise Market
+  - createdAt: 2026-06-25T09:00:36.390Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 090036 -> undefined
+- `B5481198` Blk 112 Jalan Bukit Merah Market and Food Centre
+  - createdAt: 2026-06-19T08:35:15.130Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 160112 -> undefined
+- `B5481199` Marks & Spencer Raffles City
+  - createdAt: 2026-06-29T09:00:37.567Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 179103 -> undefined
+- `B5481200` Tekka Centre / Zhu Jiao Market
+  - createdAt: 2026-06-19T08:30:13.200Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 210665 -> undefined
+- `B5481201` National University of Singapore (NUS) Frontier Canteen
+  - createdAt: 2026-06-12T06:31:17.382Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 117543 -> undefined
+- `B5481202` Cold Storage Orchard Hotel
+  - createdAt: 2026-06-12T05:30:11.794Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 238879 -> undefined
+- `B5481203` SHENG SIONG NEW BRIDGE CENTRE
+  - createdAt: 2026-06-12T06:00:12.059Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 050336 -> undefined
+- `B5481204` Redhill Food Centre
+  - createdAt: 2026-06-12T06:00:28.306Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150085 -> undefined
+- `B5481205` 20 Ghim Moh Road Market & Food Centre
+  - createdAt: 2026-06-19T09:00:36.745Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 270020 -> undefined
+- `B5481206` Bukit Merah Central Food Centre
+  - createdAt: 2026-06-16T09:00:13.699Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150163 -> undefined
+- `B5481207` Alexandra Village Food Centre
+  - createdAt: 2026-06-12T06:05:16.454Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150120 -> undefined
+- `B5481208` Toa Payoh West Market and Food Court
+  - createdAt: 2026-06-25T09:00:36.390Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310127 -> undefined
+- `B5481209` Mayflower Market
+  - createdAt: 2026-06-12T06:40:11.352Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560162 -> undefined
+- `B5481210` All India Supermart Pte Ltd
+  - createdAt: 2026-04-29T23:47:04.418Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 208282 -> undefined
+- `B5481211` Toa Payoh Lorong 8 Blk 210 Hawker Centre
+  - createdAt: 2026-06-19T08:35:15.162Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310210 -> undefined
+- `B5481212` Holland Drive Market and Food Centre
+  - createdAt: 2026-06-19T08:35:15.193Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 270044 -> undefined
+- `B5481213` Li Li Cheng Punggol
+  - createdAt: 2026-06-25T09:00:42.634Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 823273 -> undefined
+- `B5481214` Blk 6 Tanjong Pagar Plaza Market and Food Centre
+  - createdAt: 2026-06-19T08:35:15.098Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 081006 -> undefined
+- `B5481215` Toa Payoh Lorong 4 Blk 94
+  - createdAt: 2026-06-19T08:35:15.224Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310094 -> undefined
+- `B5481216` Mei Chin Road Market
+  - createdAt: 2026-06-12T06:20:11.404Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 140159 -> undefined
+- `B5481217` Shunfu-Mart
+  - createdAt: 2026-06-23T00:50:12.182Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570320 -> undefined
+- `B5481218` Blk 115 Bukit Merah View Market and Food Centre
+  - createdAt: 2026-06-16T09:00:13.731Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 151115 -> undefined
+- `B5481219` Empress Road Market and Food Centre
+  - createdAt: 2026-07-03T05:55:45.907Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 260007 -> undefined
+- `B5481220` Block 150 Mei Ling St
+  - createdAt: 2026-08-04T10:40:11.198Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 141150 -> undefined
+- `B5481221` Block 49 Lengkok Bahru
+  - createdAt: 2026-08-04T10:40:11.250Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150049 -> undefined
+- `B5481222` Block 102 Bukit Purmei Road
+  - createdAt: 2026-08-03T10:35:13.505Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 090102 -> undefined
+- `B5481223` Block 8 Tanjong Pagar Plaza
+  - createdAt: 2026-08-12T09:00:47.540Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 080008 -> undefined
+- `B5481224` Telok Blangah Food Centre
+  - createdAt: 2026-07-06T05:44:38.013Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 100079 -> undefined
+- `B5481225` Block 1 Dover Rd
+  - createdAt: 2026-08-04T10:40:11.365Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 130001 -> undefined
+- `B5481226` Block 108B Bidadari Park Drive
+  - createdAt: 2026-07-17T06:45:15.577Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 342108 -> undefined
+- `B5481227` Block 52 Lengkok Bahru
+  - createdAt: 2026-08-04T10:40:11.274Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150052 -> undefined
+- `B5481228` 80 Circuit Road Market and Food Centre
+  - createdAt: 2026-07-06T08:07:37.240Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 370080 -> undefined
+- `B5481229` Block 118B Jalan Membina
+  - createdAt: 2026-08-03T10:35:13.435Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 161118 -> undefined
+- `B5481230` Ngee Ann Polytechnic (NP)
+  - createdAt: 2026-07-31T08:00:15.022Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 599489 -> undefined
+- `B5481231` Gardens by the Bay
+  - createdAt: 2026-07-29T09:00:55.338Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 018953 -> undefined
+- `B5481232` Block 118A Bidadari Park Drive
+  - createdAt: 2026-07-17T06:45:15.621Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 341118 -> undefined
+- `B5481233` Lau Pa Sat Hawker Centre
+  - createdAt: 2026-07-06T05:35:12.101Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 048582 -> undefined
+- `B5481234` Block 22 Dover Crescent
+  - createdAt: 2026-08-04T10:45:13.489Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 133022 -> undefined
+- `B5481235` Block 8 Cantonment Cl
+  - createdAt: 2026-08-12T09:00:47.540Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 081008 -> undefined
+- `B5481236` Block 69 Redhill Cl
+  - createdAt: 2026-08-08T10:20:12.610Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 160069 -> undefined
+- `B5481237` Blk 10 AMK Autopoint
+  - createdAt: 2026-07-31T08:35:10.598Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 568047 -> undefined
+- `B5481238` Blk 69 Geylang Bahru Market and Food Centre
+  - createdAt: 2026-07-17T06:40:12.720Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 330069 -> undefined
+- `B5481239` People's Park Food Centre
+  - createdAt: 2026-07-09T06:10:14.328Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 050032 -> undefined
+- `B5481240` Block 44 Telok Blangah Drive
+  - createdAt: 2026-07-06T06:05:12.731Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 100044 -> undefined
+- `B5481241` Block 52A Commonwealth Dr
+  - createdAt: 2026-08-08T10:20:12.119Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 143052 -> undefined
+- `B5481242` Block 75B Redhill Rd
+  - createdAt: 2026-08-03T04:05:12.377Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 152075 -> undefined
+- `B5481243` MacPherson Market & Food Centre
+  - createdAt: 2026-07-06T06:10:13.204Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 370089 -> undefined
+- `B5D61001` 526 Serangoon North Ave 4
+  - createdAt: 2026-08-24T09:00:49.698Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 550526 -> undefined
+- `B5D61002` Block 668B Edgefield Plains
+  - createdAt: 2026-08-14T09:45:12.923Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 822668 -> undefined
+- `B5D61003` Block 165A Punggol Central
+  - createdAt: 2026-08-14T09:45:12.949Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821165 -> undefined
+- `B5D61004` Block 655A Punggol East
+  - createdAt: 2026-08-14T09:45:12.975Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821655 -> undefined
+- `B5D61005` Blk 1 AMK Tech I
+  - createdAt: 2026-08-11T10:45:12.683Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 568049 -> undefined
+- `B5D61006` Block 677A Punggol Drive
+  - createdAt: 2026-08-14T09:45:13.017Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821677 -> undefined
+- `B5D61007` Block 511 Ang Mo Kio Ave 8
+  - createdAt: 2026-09-02T09:25:36.798Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560511 -> undefined
+- `B5D61008` Block 503 Ang Mio Ave 5
+  - createdAt: 2026-08-28T08:25:11.997Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560503 -> undefined
+- `B5D61009` Block 684A Edgedale Plains
+  - createdAt: 2026-08-14T09:45:13.044Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820684 -> undefined
+- `B5D61010` Blk 36 Sin Ming Industrial Estate
+  - createdAt: 2026-08-11T10:41:38.378Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 575710 -> undefined
+- `B5D61011` Blk 5058 Ang Mo Kio Ind Park 2
+  - createdAt: 2026-08-11T10:45:12.735Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 569561 -> undefined
+- `B5D61012` Block 625 Ang Mo Kio Ave 9
+  - createdAt: 2026-08-28T08:25:12.070Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560625 -> undefined
+- `B5D61013` FairPrice Punggol Waterway Point
+  - createdAt: 2026-08-28T06:30:20.783Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 828761 -> undefined
+- `B5D61014` Singapore Management University (SMU)
+  - createdAt: 2026-08-11T10:35:11.432Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 178902 -> undefined
+- `B5D61015` 584 Ang Mo Kio Ave 3
+  - createdAt: 2026-08-28T08:25:12.108Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560584 -> undefined
+- `B5D61016` Block 624B Punggol Central
+  - createdAt: 2026-08-14T09:45:13.123Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 822624 -> undefined
+- `B5D61017` Block 400C Fernvale Ln
+  - createdAt: 2026-08-19T13:10:09.855Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 793400 -> undefined
+- `B5D61018` Block 632A Punggol Drive
+  - createdAt: 2026-08-14T09:45:13.153Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821632 -> undefined
+- `B5D61020` Blk 409 Ang Mo Kio Ave 10 Market & Hawker Centre
+  - createdAt: 2026-08-07T07:30:14.280Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560409 -> undefined
+- `B5D61021` Block 168A Punggol East
+  - createdAt: 2026-08-14T09:45:13.178Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821168 -> undefined
+- `B5D61022` Block 647 Punggol Central
+  - createdAt: 2026-08-14T09:45:13.203Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820647 -> undefined
+- `B5D61023` Singapore University of Social Sciences (SUSS)
+  - createdAt: 2026-08-11T10:41:38.409Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 599494 -> undefined
+- `B5D61024` Block 294 Punggol Central
+  - createdAt: 2026-08-14T09:40:11.461Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820294 -> undefined
+- `B5D61025` Block 538 Hougang Ave 8
+  - createdAt: 2026-08-19T13:15:14.092Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530538 -> undefined
+- `B5D61026` Blk 5023 Ang Mo Kio Ind Park 2 Canteen
+  - createdAt: 2026-08-28T08:20:14.393Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 569526 -> undefined
+- `B5D61027` Blk 648 Hougang Ave 8
+  - createdAt: 2026-08-19T13:15:14.122Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530648 -> undefined
+- `B5D61028` 996C Buangkok Crescent
+  - createdAt: 2026-08-24T09:00:49.157Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 536996 -> undefined
+- `B5D61029` Block 224C Sumang Lane
+  - createdAt: 2026-08-18T11:00:12.052Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 823224 -> undefined
+- `B5D61030` Nanyang Academy of Fine Arts
+  - createdAt: 2026-08-31T09:55:11.256Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 189655 -> undefined
+- `B5D61031` Block 953 Hougang Ave 9
+  - createdAt: 2026-08-21T10:05:14.911Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530953 -> undefined
+- `B5D61032` Block 410A Fernvale Rd
+  - createdAt: 2026-08-19T13:10:09.956Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 791410 -> undefined
+- `B5D61033` Block 698B Hougang St 61
+  - createdAt: 2026-08-27T10:05:08.745Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 532698 -> undefined
+- `B5D61034` Block 217C Sumang Walk
+  - createdAt: 2026-08-18T11:00:12.077Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 823217 -> undefined
+- `B5D61035` Block 413B Fernvale Link
+  - createdAt: 2026-08-19T13:15:14.206Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 792413 -> undefined
+- `B5D61036` 531 Serangoon North Ave 4
+  - createdAt: 2026-08-24T09:00:49.698Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 550531 -> undefined
+- `B5D61037` Block 920 Hougang Ave 9
+  - createdAt: 2026-08-21T10:05:14.981Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530920 -> undefined
+- `B5D61038` Lasalle College of the Arts
+  - createdAt: 2026-08-31T10:00:13.738Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 187940 -> undefined
+- `B5D61039` Block 228A Punggol Field
+  - createdAt: 2026-08-18T11:00:12.096Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821228 -> undefined
+- `B5D61041` Block 104B Ang Mo Kio St 11
+  - createdAt: 2026-08-31T10:15:18.828Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560104 -> undefined
+- `B5D61042` 212 Ang Mo Kio Ave 3
+  - createdAt: 2026-08-21T10:00:11.315Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560212 -> undefined
+- `B5D61043` Block 203 Ang Mo Kio Ave 3
+  - createdAt: 2026-08-21T10:00:11.334Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560203 -> undefined
+- `B5D61044` Block 326B Sumang Walk
+  - createdAt: 2026-08-18T11:00:12.117Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 822326 -> undefined
+- `B5D61045` 442 Ang Mo Kio Avenue 10
+  - createdAt: 2026-08-21T10:05:15.064Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560442 -> undefined
+- `B5D61046` Block 423A Northshore Crescent
+  - createdAt: 2026-08-18T11:00:12.137Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 823423 -> undefined
+- `B5D61047` Block 536 Ang Mo Kio Ave 10
+  - createdAt: 2026-08-21T10:00:11.385Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560536 -> undefined
+- `B5D61048` Block 232C Sumang Lane
+  - createdAt: 2026-08-18T11:00:12.153Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 823232 -> undefined
+- `B5D61066` SHENG SIONG RIVERVALE MALL
+  - createdAt: 2026-09-11T13:45:12.659Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 545082 -> undefined
+- `B5D61068` SHENG SIONG ALKAFF CRESCENT
+  - createdAt: 2026-09-11T13:45:12.639Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 341115 -> undefined
+- `B5D61079` Tekka Centre / Zhu Jiao Market
+  - createdAt: 2026-09-11T13:10:15.869Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 210665 -> undefined
+- `B5DNANANA` ShengSiong Alkaff Lakeview
+  - createdAt: 2026-09-11T09:01:01.459Z -> undefined
+  - zipcode: 341115 -> undefined
+- `B5DNANANANA` ShengSiong Rivervale Mall
+  - createdAt: 2026-09-11T09:01:01.459Z -> undefined
+  - zipcode: 545082 -> undefined
+- `B9051002` Block 463 Ang Mo Kio Avenue 10
+  - createdAt: 2026-03-12T09:52:08.169Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560463 -> undefined
+- `B9051003` SHENG SIONG NO.1 JALAN BERSEH, NEW WORLD CENTRE
+  - createdAt: 2026-03-25T21:45:08.812Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 209037 -> undefined
+- `B9051004` FairPrice Woodleigh Mall
+  - createdAt: 2026-03-12T09:52:10.892Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 367803 -> undefined
+- `B9051005` Block 185 Edgefield Plains
+  - createdAt: 2026-02-25T13:05:03.669Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820185 -> undefined
+- `B9051006` Block 211C Punggol Walk
+  - createdAt: 2026-03-12T09:52:08.513Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 823211 -> undefined
+- `B9051007` SHENG SIONG BLK 512 BISHAN STREET 13 
+  - createdAt: 2026-03-12T09:52:11.041Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570512 -> undefined
+- `B9051008` Block 445 Sin Ming Avenue
+  - createdAt: 2026-03-22T05:10:13.711Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570445 -> undefined
+- `B9051009` Block 303B Anchorvale Link
+  - createdAt: 2026-03-12T09:52:07.828Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 542303 -> undefined
+- `B9051010` SHENG SIONG BLK 52 CHIN SWEE ROAD
+  - createdAt: 2026-03-12T09:52:08.576Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 160052 -> undefined
+- `B9051011` SHENG SIONG BLK 161 ANG MO KIO AVE  4
+  - createdAt: 2026-03-12T09:52:11.064Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560161 -> undefined
+- `B9051012` Block 447A Punggol Way
+  - createdAt: 2026-02-27T07:03:06.701Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821447 -> undefined
+- `B9051013` Block 1 Lorong Lew Lian
+  - createdAt: 2026-03-12T09:52:11.691Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 531001 -> undefined
+- `B9051014` SHENG SIONG BLK 181 TOA PAYOH LORONG 4
+  - createdAt: 2026-03-12T09:52:11.100Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310181 -> undefined
+- `B9051015` Block 3 Jalan Bukit Merah
+  - createdAt: 2026-08-12T09:00:47.540Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 150003 -> undefined
+- `B9051016` Block 166 Stirling Road
+  - createdAt: 2026-08-12T09:00:47.540Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 140166 -> undefined
+- `B9051017` Block 181 Stirling Rd
+  - createdAt: 2026-08-12T09:00:47.540Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 141182 -> undefined
+- `B9051018` Block 94 Dawson Road
+  - createdAt: 2026-08-05T07:45:11.564Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 142094 -> undefined
+- `B9051019` Little India Rowell Rd
+  - createdAt: 2026-07-29T08:08:27.714Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 200641 -> undefined
+- `B9051020` Block 69 Telok Blangah Heights
+  - createdAt: 2026-08-05T07:45:11.592Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 100069 -> undefined
+- `B9481001` SHENG SIONG BLK 312A SUMANG LINK 
+  - createdAt: 2026-03-12T09:52:11.134Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821312 -> undefined
+- `B9481002` Block 22 Hougang Avenue 3
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530022 -> undefined
+- `B9481003` Block 217 Ang Mo Kio Avenue 1
+  - createdAt: 2026-03-12T09:52:08.656Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560217 -> undefined
+- `B9481004` Block 288B Compassvale Crescent
+  - createdAt: 2026-03-12T09:52:07.872Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 542288 -> undefined
+- `B9481005` Block 177 Bishan Street 13
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 570177 -> undefined
+- `B9481006` Block 297B Compassvale Street
+  - createdAt: 2026-03-12T09:52:07.910Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 542297 -> undefined
+- `B9481007` SHENG SIONG BLK 88 TANGLIN HALT ROAD  
+  - createdAt: 2026-03-06T06:58:18.689Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 141088 -> undefined
+- `B9481008` Block 103B Edgefield Plains
+  - createdAt: 2026-03-22T15:45:08.859Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 822103 -> undefined
+- `B9481009` Block 634 Hougang Avenue 8
+  - createdAt: 2026-03-12T09:52:08.212Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530634 -> undefined
+- `B9481010` Block 302 Hougang Avenue 5
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530302 -> undefined
+- `B9481011` Block 222 Lorong 8 Toa Payoh
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310222 -> undefined
+- `B9481012` SHENG SIONG BLK 417 FERNVALE LINK
+  - createdAt: 2026-03-12T09:52:11.166Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 790417 -> undefined
+- `B9481013` Block 534 Hougang Street 52
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530534 -> undefined
+- `B9481014` SHENG SIONG BLK 301 PUNGGOL CENTRAL 
+  - createdAt: 2026-03-09T09:40:37.815Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820301 -> undefined
+- `B9481015` SHENG SIONG 19 SERANGOON NORTH AVE 5
+  - createdAt: 2026-03-12T09:52:11.249Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 554913 -> undefined
+- `B9481016` SHENG SIONG BLK 351 ANCHORVALE ROAD 
+  - createdAt: 2026-03-09T09:45:52.306Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 540351 -> undefined
+- `B9481017` SHENG SIONG 377 HOUGANG STREET 32,  HOUGANG RIVERCOURT
+  - createdAt: 2026-03-09T09:44:47.069Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530377 -> undefined
+- `B9481018` SHENG SIONG BLK 4 TOA PAYOH LORONG 7 
+  - createdAt: 2026-03-12T09:52:11.348Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310004 -> undefined
+- `B9481019` Block 707 Hougang Avenue 2
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 530707 -> undefined
+- `B9481020` SHENG SIONG 5 STADIUM WALK,  LEISURE PARK KALLANG 
+  - createdAt: 2026-03-22T05:10:12.475Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 397693 -> undefined
+- `B9481021` SHENG SIONG BLK 31A MARGARET DRIVE 
+  - createdAt: 2026-03-06T06:58:09.474Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 142031 -> undefined
+- `B9481022` Block 22 Saint George's Road
+  - createdAt: 2026-03-22T15:49:32.134Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 321022 -> undefined
+- `B9481023` Block 432 Ang Mo Kio Avenue 10
+  - createdAt: 2026-03-12T09:52:08.704Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560432 -> undefined
+- `B9481024` Block 174B Hougang Avenue 1
+  - createdAt: 2026-03-22T05:10:11.174Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 532174 -> undefined
+- `B9481025` Block 452B Sengkang West Way
+  - createdAt: 2026-03-12T09:52:06.719Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 792452 -> undefined
+- `B9481026` Block 649 Ang Mo Kio Avenue 5
+  - createdAt: 2026-03-12T09:52:07.222Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560649 -> undefined
+- `B9481027` Block 93 Paya Lebar Way
+  - createdAt: 2026-03-22T16:00:14.883Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 370093 -> undefined
+- `B9481028` SHENG SIONG BLK 455 SENGKANG WEST AVE 5 
+  - createdAt: 2026-03-12T09:52:11.374Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 790455 -> undefined
+- `B9481029` Block 188D Rivervale Drive
+  - createdAt: 2026-03-12T09:52:07.944Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 544188 -> undefined
+- `B9481030` Block 3D Upper Boon Keng Road
+  - createdAt: 2026-03-22T15:49:00.928Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 384003 -> undefined
+- `B9481031` Block 160 Lorong 1 Toa Payoh
+  - createdAt: 2026-03-22T05:10:11.839Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 310160 -> undefined
+- `B9481032` SHENG SIONG BLK 233 ANG MO KIO AVE 3
+  - createdAt: 2026-03-12T09:52:09.000Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560233 -> undefined
+- `B9481033` SHENG SIONG BLK 218 SUMANG WALK 
+  - createdAt: 2026-03-09T09:50:38.799Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820218 -> undefined
+- `B9481034` Block 114 Edgefield Plains
+  - createdAt: 2026-02-24T02:54:48.130Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820114 -> undefined
+- `B9481035` Block 128 Kim Tian Road
+  - createdAt: 2026-03-12T09:52:07.086Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 160128 -> undefined
+- `B9481036` SHENG SIONG BLK 108 MCNAIR ROAD 
+  - createdAt: 2026-03-12T09:52:08.538Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 321108 -> undefined
+- `B9481037` Block 308A Punggol Walk
+  - createdAt: 2026-08-18T11:00:11.084Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821308 -> undefined
+- `B9481038` 672A Klang Lane - Little India
+  - createdAt: 2026-06-16T08:50:12.130Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 211672 -> undefined
+- `B9481039` Block 112A Bidadari Park Drive
+  - createdAt: 2026-07-17T06:50:11.804Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 341112 -> undefined
+- `B9481040` Resorts World Sentosa
+  - createdAt: 2026-08-31T09:55:11.503Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 098269 -> undefined
+- `B9481041` 225 Ang Mo Kio Ave 1
+  - createdAt: 2026-07-06T08:15:13.096Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 560225 -> undefined
+- `B9481042` 79/79A Circuit Road Hawker Centre
+  - createdAt: 2026-07-06T07:45:42.252Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 370079 -> undefined
+- `B9481043` Block 134 Edgedale Plains
+  - createdAt: 2026-08-18T11:00:11.330Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 820134 -> undefined
+- `B9481044` Block 422A Northshore Drive
+  - createdAt: 2026-08-27T10:05:08.910Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 821422 -> undefined
+- `B9481045` Punggol Way Dorm, Sharbesuwary Pte Ltd
+  - createdAt: 2026-08-11T10:45:12.278Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 828646 -> undefined
+- `B9481046` Sims Vista Market & Food Centre
+  - createdAt: 2026-07-24T12:05:15.210Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 380049 -> undefined
+- `B9481047` Masjid Sultan Mosque
+  - createdAt: 2026-07-13T10:10:12.849Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 198833 -> undefined
+- `B9481048` Block 101 Bidadari Park Drive
+  - createdAt: 2026-07-17T06:50:12.448Z -> undefined
+  - supplierId: TOMRA001 -> undefined
+  - zipcode: 340101 -> undefined
+- `SGRVM0001` 168 Woodlands Street 11
+  - createdAt: 2026-02-26T11:00:08.040Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730168 -> undefined
+- `SGRVM0002` 297C Choa Chu Kang Ave 2
+  - createdAt: 2026-02-26T11:00:08.082Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 683297 -> undefined
+- `SGRVM0003` 219 Choa Chu Kang Central
+  - createdAt: 2026-02-26T11:00:08.116Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680219 -> undefined
+- `SGRVM0004` 454 Fajar Rd
+  - createdAt: 2026-02-26T11:00:08.154Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670454 -> undefined
+- `SGRVM0005` 418 Fajar Rd
+  - createdAt: 2026-02-26T11:00:08.187Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670418 -> undefined
+- `SGRVM0006` 319 Clementi Ave 4
+  - createdAt: 2026-02-26T11:00:08.219Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120319 -> undefined
+- `SGRVM0007` 233 Pending Rd, #08-11
+  - createdAt: 2026-02-26T11:00:08.252Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670233 -> undefined
+- `SGRVM0008` 145 Yishun Street 11
+  - createdAt: 2026-03-30T07:27:19.076Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760145 -> undefined
+- `SGRVM0009` 213 Petir Rd
+  - createdAt: 2026-02-26T11:00:08.322Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670213 -> undefined
+- `SGRVM0010` 708 Choa Chu Kang Street 53
+  - createdAt: 2026-02-26T11:00:08.357Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680708 -> undefined
+- `SGRVM0011` 685C Choa Chu Kang Cres
+  - createdAt: 2026-02-26T11:00:08.391Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 683685 -> undefined
+- `SGRVM0012` 461 Segar Rd
+  - createdAt: 2026-02-26T11:00:08.426Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670461 -> undefined
+- `SGRVM0013` 406 Fajar Rd
+  - createdAt: 2026-02-26T11:00:08.455Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670406 -> undefined
+- `SGRVM0014` 175 Lompang Rd
+  - createdAt: 2026-02-26T11:00:08.485Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670175 -> undefined
+- `SGRVM0015` 188 Bukit Batok West Ave 6
+  - createdAt: 2026-02-26T11:00:08.515Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650188 -> undefined
+- `SGRVM0016` 234 Choa Chu Kang Central
+  - createdAt: 2026-02-26T11:00:08.546Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680234 -> undefined
+- `SGRVM0017` 372 Jurong East Street 32
+  - createdAt: 2026-02-26T11:00:08.580Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600372 -> undefined
+- `SGRVM0018` Kampung Admiralty Hawker Centre
+  - createdAt: 2026-03-25T21:45:08.436Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730676 -> undefined
+- `SGRVM0019` 671 Yishun Avenue 4
+  - createdAt: 2026-02-26T11:00:08.636Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760671 -> undefined
+- `SGRVM0020` 272 Bangkit Rd
+  - createdAt: 2026-02-26T11:00:08.667Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670272 -> undefined
+- `SGRVM0021` 808B Choa Chu Kang Ave 1
+  - createdAt: 2026-02-26T11:00:08.694Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 682808 -> undefined
+- `SGRVM0022` 536 Choa Chu Kang Street 51
+  - createdAt: 2026-02-26T11:00:08.722Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680536 -> undefined
+- `SGRVM0023` 677 Choa Chu Kang Cres
+  - createdAt: 2026-02-26T11:00:08.756Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680677 -> undefined
+- `SGRVM0024` 527 Choa Chu Kang Street 51
+  - createdAt: 2026-02-26T11:00:08.789Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680527 -> undefined
+- `SGRVM0025` 625 Choa Chu Kang Street 62
+  - createdAt: 2026-02-26T11:00:08.821Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680625 -> undefined
+- `SGRVM0026` SHENG SIONG Woodlands Recreation Centre
+  - createdAt: 2026-03-25T21:45:08.581Z -> undefined
+  - groupId: [38] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 757177 -> undefined
+- `SGRVM0027` 167 Petir Rd
+  - createdAt: 2026-02-26T11:00:08.879Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670167 -> undefined
+- `SGRVM0028` 601 Choa Chu Kang Street 62
+  - createdAt: 2026-02-26T11:00:08.909Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680601 -> undefined
+- `SGRVM0029` 486 Choa Chu Kang Ave 5
+  - createdAt: 2026-02-26T11:00:08.941Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680486 -> undefined
+- `SGRVM0030` 760 Choa Chu Kang North 5
+  - createdAt: 2026-02-26T11:00:08.971Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680760 -> undefined
+- `SGRVM0031` 162 Bukit Batok Street 11
+  - createdAt: 2026-02-26T11:00:09.001Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650162 -> undefined
+- `SGRVM0032` Chennai Trading & Supermart - 1 Jalan Papan
+  - createdAt: 2026-03-29T05:08:07.481Z -> undefined
+  - groupId: [101] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 619392 -> undefined
+- `SGRVM0033` 210 Bukit Batok Street 21
+  - createdAt: 2026-02-26T11:00:09.055Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650210 -> undefined
+- `SGRVM0034` 214 Jurong East Street 21
+  - createdAt: 2026-03-25T21:45:08.731Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600214 -> undefined
+- `SGRVM0035` 129 Pending Rd
+  - createdAt: 2026-03-25T21:45:08.755Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670129 -> undefined
+- `SGRVM0036` 505 Choa Chu Kang Street 51
+  - createdAt: 2026-02-26T11:00:09.153Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680505 -> undefined
+- `SGRVM0037` 437 Fajar Rd, Block 437
+  - createdAt: 2026-02-26T11:00:09.187Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670437 -> undefined
+- `SGRVM0038` 493 Jurong West Street 41
+  - createdAt: 2026-02-26T11:00:09.219Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640493 -> undefined
+- `SGRVM0039` 432 Choa Chu Kang Ave 4
+  - createdAt: 2026-02-26T11:00:09.249Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680432 -> undefined
+- `SGRVM0040` 290 Choa Chu Kang Ave 3
+  - createdAt: 2026-02-26T11:00:09.279Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680290 -> undefined
+- `SGRVM0041` 238 Bukit Batok East Ave 5
+  - createdAt: 2026-02-26T11:00:09.310Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650238 -> undefined
+- `SGRVM0042` 296B Bukit Batok Street 22
+  - createdAt: 2026-02-26T11:00:09.340Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 652296 -> undefined
+- `SGRVM0043` 137 Teck Whye Ln
+  - createdAt: 2026-02-26T11:00:09.375Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680137 -> undefined
+- `SGRVM0044` 473 Choa Chu Kang Ave 3
+  - createdAt: 2026-02-26T11:00:09.404Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680473 -> undefined
+- `SGRVM0046` 164 Jln Teck Whye
+  - createdAt: 2026-02-26T11:00:09.464Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680164 -> undefined
+- `SGRVM0047` 230 Choa Chu Kang Central
+  - createdAt: 2026-02-26T11:00:09.498Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680230 -> undefined
+- `SGRVM0048` 290B Bukit Batok Street 24
+  - createdAt: 2026-02-26T11:00:09.526Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 653290 -> undefined
+- `SGRVM0049` 423 Choa Chu Kang Ave 4
+  - createdAt: 2026-03-25T21:45:09.039Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680423 -> undefined
+- `SGRVM0050` 498 Jurong West Street 41
+  - createdAt: 2026-02-26T11:00:09.582Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640498 -> undefined
+- `SGRVM0051` 639 Choa Chu Kang Street 64
+  - createdAt: 2026-02-26T11:00:09.609Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680639 -> undefined
+- `SGRVM0052` 488B Choa Chu Kang Ave 5
+  - createdAt: 2026-02-26T11:00:09.635Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 682488 -> undefined
+- `SGRVM0053` 125 Bukit Batok Central
+  - createdAt: 2026-02-26T11:00:09.663Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650125 -> undefined
+- `SGRVM0054` Giant Yishun Avenue 11
+  - createdAt: 2026-03-25T21:45:09.139Z -> undefined
+  - groupId: [55] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760418 -> undefined
+- `SGRVM0055` 334D Yishun Street 31
+  - createdAt: 2026-02-26T11:00:09.716Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 764334 -> undefined
+- `SGRVM0056` 454 Choa Chu Kang Ave 4
+  - createdAt: 2026-02-26T11:00:09.747Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680454 -> undefined
+- `SGRVM0057` 818B Choa Chu Kang Ave 1
+  - createdAt: 2026-02-26T11:00:09.776Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 682818 -> undefined
+- `SGRVM0058` 426 Choa Chu Kang Ave 4
+  - createdAt: 2026-02-26T11:00:09.810Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680426 -> undefined
+- `SGRVM0059` 562 Choa Chu Kang Street 52
+  - createdAt: 2026-02-26T11:00:09.843Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680562 -> undefined
+- `SGRVM0060` 434 Bukit Panjang Ring Rd
+  - createdAt: 2026-02-26T11:00:09.872Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670434 -> undefined
+- `SGRVM0061` 228 Bukit Batok Central,
+  - createdAt: 2026-02-26T11:00:09.901Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650228 -> undefined
+- `SGRVM0062` 442 Choa Chu Kang Ave 4
+  - createdAt: 2026-02-26T11:00:09.931Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680442 -> undefined
+- `SGRVM0063` 103 Bukit Batok Central
+  - createdAt: 2026-02-26T11:00:09.960Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650103 -> undefined
+- `SGRVM0064` 517 Choa Chu Kang Street 51
+  - createdAt: 2026-02-26T11:00:09.988Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680517 -> undefined
+- `SGRVM0065` 439 Yishun Ave 11, Singapore 760439
+  - createdAt: 2026-08-20T09:00:51.982Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760439 -> undefined
+- `SGRVM0066` 340 Choa Chu Kang Loop
+  - createdAt: 2026-02-26T11:00:10.047Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680340 -> undefined
+- `SGRVM0067` 464 Jurong West Street 41
+  - createdAt: 2026-02-26T11:00:10.076Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640464 -> undefined
+- `SGRVM0068` 413 Saujana Rd
+  - createdAt: 2026-02-26T11:00:10.105Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670413 -> undefined
+- `SGRVM0069` 169 Bukit Batok West Ave 8
+  - createdAt: 2026-02-26T11:00:10.136Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650169 -> undefined
+- `SGRVM0070` 764 Jurong West Street 74
+  - createdAt: 2026-02-26T11:00:10.167Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640764 -> undefined
+- `SGRVM0071` 550 Choa Chu Kang Street 52
+  - createdAt: 2026-02-26T11:00:10.196Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680550 -> undefined
+- `SGRVM0072` 251 Bangkit Rd,
+  - createdAt: 2026-02-26T11:00:10.226Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670251 -> undefined
+- `SGRVM0073` 308 Jurong East Street 32
+  - createdAt: 2026-02-26T11:00:10.252Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600308 -> undefined
+- `SGRVM0074` 308 Bukit Batok Street 31
+  - createdAt: 2026-02-26T11:00:10.280Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650308 -> undefined
+- `SGRVM0075` 242 Bukit Panjang Ring Rd
+  - createdAt: 2026-02-26T11:00:10.306Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670242 -> undefined
+- `SGRVM0076` SHENG SIONG 18 YISHUN AVE 9,  JUNCTION NINE
+  - createdAt: 2026-03-29T05:08:08.340Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 768897 -> undefined
+- `SGRVM0077` Prime Supermarket 678A Woodlands Avenue 6
+  - createdAt: 2026-03-25T21:45:01.215Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 731678 -> undefined
+- `SGRVM0078` 320 Jurong East Street 31
+  - createdAt: 2026-02-28T08:45:00.319Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600320 -> undefined
+- `SGRVM0079` 316 Jurong East Street 32
+  - createdAt: 2026-02-28T08:45:00.281Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600316 -> undefined
+- `SGRVM0080` 340 Jurong East Ave 1
+  - createdAt: 2026-02-28T08:45:00.349Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600340 -> undefined
+- `SGRVM0081` Prime Supermarket Blk 761 Yishun
+  - createdAt: 2026-04-29T01:33:00.410Z -> undefined
+  - groupId: [122] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760761 -> undefined
+- `SGRVM0082` 475 Jurong West Street 41
+  - createdAt: 2026-02-28T08:45:00.415Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640475 -> undefined
+- `SGRVM0083` 458 Jurong West Street 41
+  - createdAt: 2026-02-28T08:45:00.447Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640458 -> undefined
+- `SGRVM0084` 461A Bukit Batok West Ave 8
+  - createdAt: 2026-02-28T08:45:00.477Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 651461 -> undefined
+- `SGRVM0085` 330 Clementi Ave 2
+  - createdAt: 2026-02-28T08:45:00.509Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120330 -> undefined
+- `SGRVM0086` 435C Bukit Batok West Ave. 5
+  - createdAt: 2026-02-28T08:45:00.542Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 653435 -> undefined
+- `SGRVM0087` 317 Jurong East Street 31
+  - createdAt: 2026-02-28T08:45:00.572Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600317 -> undefined
+- `SGRVM0088` 248 Bukit Batok East Avenue 5
+  - createdAt: 2026-02-28T08:45:00.605Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650248 -> undefined
+- `SGRVM0089` 369 Bukit Batok Street 31
+  - createdAt: 2026-02-28T08:45:00.634Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650369 -> undefined
+- `SGRVM0090` 325 Jurong East Street 31
+  - createdAt: 2026-02-28T08:45:00.663Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600325 -> undefined
+- `SGRVM0091` 288D Bukit Batok Street 25
+  - createdAt: 2026-02-28T08:45:00.703Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 653288 -> undefined
+- `SGRVM0092` 350 Bukit Batok Street 34
+  - createdAt: 2026-02-28T08:45:00.733Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650350 -> undefined
+- `SGRVM0093` 480 Jurong West Street 41
+  - createdAt: 2026-02-28T08:45:00.767Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640480 -> undefined
+- `SGRVM0094` 15 Teck Whye Ln
+  - createdAt: 2026-02-28T08:45:00.803Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680015 -> undefined
+- `SGRVM0095` 138 Bukit Batok West Ave 6
+  - createdAt: 2026-02-28T08:45:00.831Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650138 -> undefined
+- `SGRVM0096` 181 Jelebu Rd
+  - createdAt: 2026-02-28T08:45:00.862Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670181 -> undefined
+- `SGRVM0097` 164 Bukit Batok Street 11
+  - createdAt: 2026-02-28T08:45:00.891Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650164 -> undefined
+- `SGRVM0098` Giant Khatib MRT
+  - createdAt: 2026-03-25T21:45:00.677Z -> undefined
+  - groupId: [56] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 769092 -> undefined
+- `SGRVM0099` FairPrice Wisteria Mall
+  - createdAt: 2026-03-25T21:45:00.701Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 768698 -> undefined
+- `SGRVM0100` Cold Storage West Mall
+  - createdAt: 2026-03-25T21:45:00.723Z -> undefined
+  - groupId: [58] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 658713 -> undefined
+- `SGRVM0101` SCARLETT@WESTGATE
+  - createdAt: 2026-03-25T21:45:00.745Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 608532 -> undefined
+- `SGRVM0102` SCARLETT@SUN PLAZA
+  - createdAt: 2026-03-29T05:08:00.871Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 757713 -> undefined
+- `SGRVM0103` FairPrice Blk 166 Bukit Batok West Avenue 8
+  - createdAt: 2026-03-25T21:45:00.790Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650166 -> undefined
+- `SGRVM0104` 274 Choa Chu Kang Ave 2
+  - createdAt: 2026-02-28T08:45:01.317Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680274 -> undefined
+- `SGRVM0105` 757 Yishun Street 72 
+  - createdAt: 2026-02-28T08:45:01.122Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760757 -> undefined
+- `SGRVM0106` Cold Storage Rail Mall
+  - createdAt: 2026-03-25T21:45:00.832Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 678081 -> undefined
+- `SGRVM0107` 636 Yishun Street 61
+  - createdAt: 2026-02-28T08:45:01.177Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760636 -> undefined
+- `SGRVM0108` SHENG SIONG BLK 292 BUKIT BATOK EAST AVE 6 
+  - createdAt: 2026-03-25T21:45:00.875Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650292 -> undefined
+- `SGRVM0109` U STARS @507 Yishun Ave 4
+  - createdAt: 2026-03-25T21:45:00.898Z -> undefined
+  - groupId: [85] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760507 -> undefined
+- `SGRVM0110` FairPrice Sembawang Shopping Centre
+  - createdAt: 2026-03-25T21:45:00.919Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 758459 -> undefined
+- `SGRVM0111` FairPrice Blk 849 Yishun Ring Road
+  - createdAt: 2026-03-25T21:45:00.958Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760849 -> undefined
+- `SGRVM0112` SHENG SIONG BLK 643 SENJA CLOSE
+  - createdAt: 2026-03-25T21:45:00.982Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670643 -> undefined
+- `SGRVM0113` 120A Canberra Crescent
+  - createdAt: 2026-03-25T21:45:01.003Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 751120 -> undefined
+- `SGRVM0114` 654 Yishun Avenue 4
+  - createdAt: 2026-02-28T08:45:01.444Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760654 -> undefined
+- `SGRVM0115` Giant Woodlands North
+  - createdAt: 2026-03-25T21:45:01.084Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730883 -> undefined
+- `SGRVM0116` Giant Woodlands Mart
+  - createdAt: 2026-03-29T05:08:01.164Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730768 -> undefined
+- `SGRVM0117` Bazaar Terusan Recreation Centre
+  - createdAt: 2026-03-29T05:08:01.190Z -> undefined
+  - groupId: [120] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 619392 -> undefined
+- `SGRVM0118` FairPrice Causeway Point
+  - createdAt: 2026-03-25T21:45:01.106Z -> undefined
+  - groupId: [49] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 738099 -> undefined
+- `SGRVM0119` 112 Teck Whye Ln
+  - createdAt: 2026-02-28T08:45:01.596Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680112 -> undefined
+- `SGRVM0120` Cold Storage Hill View
+  - createdAt: 2026-03-25T21:45:01.147Z -> undefined
+  - groupId: [71] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 667979 -> undefined
+- `SGRVM0121` ANG MO SUPERMARKET-693 WOODLANDS AVE 6
+  - createdAt: 2026-03-29T05:08:01.301Z -> undefined
+  - groupId: [93] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730693 -> undefined
+- `SGRVM0122` 950 Jurong West Street 91
+  - createdAt: 2026-03-25T21:45:01.191Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640950 -> undefined
+- `SGRVM0123` FairPrice Northpoint City
+  - createdAt: 2026-03-25T21:45:01.238Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 768019 -> undefined
+- `SGRVM0124` BISMILLAH MINIMART 32 MANDAI
+  - createdAt: 2026-05-20T09:11:21.569Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 729939 -> undefined
+- `SGRVM0126` FairPrice Lot 1
+  - createdAt: 2026-03-25T21:45:01.303Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 689812 -> undefined
+- `SGRVM0127` Ajmal Trade Mart -  Kranji Lodge One
+  - createdAt: 2026-03-29T05:08:01.431Z -> undefined
+  - groupId: [90] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 739522 -> undefined
+- `SGRVM0128` FairPrice Woodlands Ave 1
+  - createdAt: 2026-03-25T21:45:01.348Z -> undefined
+  - groupId: [45] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 732570 -> undefined
+- `SGRVM0130` SHENG SIONG BLK 420A CLEMENTI AVE 1 
+  - createdAt: 2026-03-25T21:45:01.392Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 121420 -> undefined
+- `SGRVM0131` Giant 256 Bangkit Road
+  - createdAt: 2026-03-25T21:45:01.480Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670256 -> undefined
+- `SGRVM0132` SHENG SIONG BLK 182 WOODLANDS ST 13 
+  - createdAt: 2026-03-25T21:45:01.613Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730182 -> undefined
+- `SGRVM0133` 771 Yishun Ave 3
+  - createdAt: 2026-02-28T08:45:02.330Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760771 -> undefined
+- `SGRVM0134` FairPrice Jurong Point
+  - createdAt: 2026-03-25T21:45:01.420Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 648331 -> undefined
+- `SGRVM0135` FairPrice Hillion Mall
+  - createdAt: 2026-03-25T21:45:01.441Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 678278 -> undefined
+- `SGRVM0136` 213 Yishun Street 21
+  - createdAt: 2026-02-28T08:45:02.079Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760213 -> undefined
+- `SGRVM0137` Giant Admiralty MRT
+  - createdAt: 2026-03-25T21:45:01.504Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 738344 -> undefined
+- `SGRVM0138` FairPrice Kampung Admiralty
+  - createdAt: 2026-03-25T21:45:01.651Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730676 -> undefined
+- `SGRVM0139` Don Don Donki (Jurong Point)
+  - createdAt: 2026-03-25T21:45:01.528Z -> undefined
+  - groupId: [74] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 648886 -> undefined
+- `SGRVM0140` FairPrice Bukit Batok MRT
+  - createdAt: 2026-03-25T21:45:01.549Z -> undefined
+  - groupId: [42] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 659958 -> undefined
+- `SGRVM0141` 676C Yishun Ring Rd
+  - createdAt: 2026-02-28T08:45:02.232Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 763676 -> undefined
+- `SGRVM0142` 365 Yishun Ring Rd
+  - createdAt: 2026-02-28T08:45:02.265Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760365 -> undefined
+- `SGRVM0143` Giant Bukit Batok Street 31
+  - createdAt: 2026-03-25T21:45:01.673Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650376 -> undefined
+- `SGRVM0144` Giant Kranji MRT
+  - createdAt: 2026-03-25T21:45:01.697Z -> undefined
+  - groupId: [55] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 738702 -> undefined
+- `SGRVM0145` SHENG SIONG BLK 471B YISHUN STREET 42
+  - createdAt: 2026-03-25T21:45:01.719Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 762471 -> undefined
+- `SGRVM0147` FairPrice Le Quest
+  - createdAt: 2026-03-25T21:45:01.765Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 657991 -> undefined
+- `SGRVM0148` SHENG SIONG BLK 202 MARSILING DRIVE 
+  - createdAt: 2026-03-25T21:45:01.785Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730202 -> undefined
+- `SGRVM0149` SHENG SIONG BLK 785E WOODLANDS RISE 
+  - createdAt: 2026-03-25T21:45:01.809Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 735785 -> undefined
+- `SGRVM0150` SHENG SIONG BLK 4 WOODLANDS ST 12
+  - createdAt: 2026-03-25T21:45:01.830Z -> undefined
+  - groupId: [38] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 738623 -> undefined
+- `SGRVM0151` 379 Clementi Ave 5
+  - createdAt: 2026-02-28T08:45:02.629Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120379 -> undefined
+- `SGRVM0152` FairPrice Bukit Batok Home TeamNS
+  - createdAt: 2026-03-25T21:45:01.876Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 659003 -> undefined
+- `SGRVM0153` FairPrice Blk 345 Jurong East Street 31
+  - createdAt: 2026-03-25T21:45:01.904Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600345 -> undefined
+- `SGRVM0154` SHENG SIONG 3 YUAN CHING ROAD 
+  - createdAt: 2026-03-25T21:45:02.000Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 618642 -> undefined
+- `SGRVM0155` FairPrice Hub
+  - createdAt: 2026-03-25T21:45:02.068Z -> undefined
+  - groupId: [48] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 629117 -> undefined
+- `SGRVM0156` FairPrice Woodgrove
+  - createdAt: 2026-03-25T21:45:02.118Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 739065 -> undefined
+- `SGRVM0157` Prime Supermarket Sembawang Crescent
+  - createdAt: 2026-03-25T21:45:02.142Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750365 -> undefined
+- `SGRVM0158` 477 Sembawang Drive
+  - createdAt: 2026-03-25T21:45:02.164Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750477 -> undefined
+- `SGRVM0159` Don Don Donki (Northpoint City)
+  - createdAt: 2026-03-29T05:08:02.250Z -> undefined
+  - groupId: [74] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 769098 -> undefined
+- `SGRVM0160` SHENG SIONG BLK 547 SEGAR RD
+  - createdAt: 2026-03-25T21:45:01.926Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670547 -> undefined
+- `SGRVM0161` Chap He Diam Migrant Worker's Recreation Centre
+  - createdAt: 2026-03-29T05:08:02.031Z -> undefined
+  - groupId: [100] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 628088 -> undefined
+- `SGRVM0162` SHENG SIONG 7 JURONG WEST AVE 5 
+  - createdAt: 2026-03-25T21:45:01.972Z -> undefined
+  - groupId: [38] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 649486 -> undefined
+- `SGRVM0163` FairPrice Marsiling MRT
+  - createdAt: 2026-03-25T21:45:02.021Z -> undefined
+  - groupId: [42] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 739044 -> undefined
+- `SGRVM0164` 935 Yishun Central 1
+  - createdAt: 2026-02-28T08:45:02.873Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760935 -> undefined
+- `SGRVM0165` FairPrice Blk 414 Yishun Ring Road
+  - createdAt: 2026-03-25T21:45:02.090Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760414 -> undefined
+- `SGRVM0166` Prime Supermarket NTU Students Walk
+  - createdAt: 2026-03-25T21:45:02.210Z -> undefined
+  - groupId: [83] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 639548 -> undefined
+- `SGRVM0167` Nawas Global - Tuas South Dormitory
+  - createdAt: 2026-03-29T05:08:02.314Z -> undefined
+  - groupId: [90] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 636947 -> undefined
+- `SGRVM0168` Ajmal Super Market - Tuas View Dormitory
+  - createdAt: 2026-03-29T05:08:02.340Z -> undefined
+  - groupId: [90] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 637285 -> undefined
+- `SGRVM0169` SHENG SIONG BLK 675 YISHUN AVENUE 4
+  - createdAt: 2026-03-25T21:45:02.294Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760675 -> undefined
+- `SGRVM0170` FairPrice Clementi Ave 2 Shopping Centre
+  - createdAt: 2026-03-25T21:45:02.317Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120352 -> undefined
+- `SGRVM0171` FairPrice Woodlands Civic Centre
+  - createdAt: 2026-03-25T21:45:02.342Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730900 -> undefined
+- `SGRVM0172` 701 Yishun Ave 5
+  - createdAt: 2026-02-28T08:45:03.285Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760701 -> undefined
+- `SGRVM0173` FairPrice Senja Grand
+  - createdAt: 2026-03-25T21:45:02.429Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670628 -> undefined
+- `SGRVM0174` 726 Yishun Street 71
+  - createdAt: 2026-02-28T08:45:03.313Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760726 -> undefined
+- `SGRVM0175` 641 Yishun Street 61
+  - createdAt: 2026-02-28T08:45:03.352Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760641 -> undefined
+- `SGRVM0176` SHENG SIONG BLK 154A BUKIT BATOK WEST AVE 8 
+  - createdAt: 2026-03-25T21:45:02.464Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 651154 -> undefined
+- `SGRVM0177` U STARS @691 Woodlands Drive
+  - createdAt: 2026-03-25T21:45:02.486Z -> undefined
+  - groupId: [84] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730691 -> undefined
+- `SGRVM0178` FairPrice Finest Clementi Mall
+  - createdAt: 2026-03-25T21:45:02.510Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 129588 -> undefined
+- `SGRVM0179` SHENG SIONG BLK 451 BUKIT BATOK WEST AVENUE 6 
+  - createdAt: 2026-03-25T21:45:02.538Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650451 -> undefined
+- `SGRVM0180` SHENG SIONG BLK 159 BUKIT BATOK STREET 11 
+  - createdAt: 2026-03-25T21:45:02.564Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650159 -> undefined
+- `SGRVM0181` SHENG SIONG BLK 573 WOODLANDS DRIVE 16 
+  - createdAt: 2026-03-25T21:45:02.588Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730573 -> undefined
+- `SGRVM0182` 423 Canberra Rd
+  - createdAt: 2026-03-25T21:45:02.617Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750423 -> undefined
+- `SGRVM0183` Giant Admiralty Drive
+  - createdAt: 2026-03-25T21:45:02.644Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 752468 -> undefined
+- `SGRVM0184` FairPrice Dairy Farm Residences
+  - createdAt: 2026-03-25T21:45:02.668Z -> undefined
+  - groupId: [45] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 677622 -> undefined
+- `SGRVM0185` FORTUNE SUPERMARKET 463
+  - createdAt: 2026-03-25T21:45:02.693Z -> undefined
+  - groupId: [105] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750463 -> undefined
+- `SGRVM0186` Giant Vista Point
+  - createdAt: 2026-03-25T21:45:02.716Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730548 -> undefined
+- `SGRVM0187` SHENG SIONG BLK 240 TENGAH GARDEN WALK 
+  - createdAt: 2026-03-25T21:45:02.741Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 690240 -> undefined
+- `SGRVM0188` FairPrice Senja Heights
+  - createdAt: 2026-03-25T21:45:02.768Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670642 -> undefined
+- `SGRVM0189` FairPrice Greenridge
+  - createdAt: 2026-03-25T21:45:02.792Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 671524 -> undefined
+- `SGRVM0190` Prime Supermarket NTU Spine Hub
+  - createdAt: 2026-03-25T21:45:02.974Z -> undefined
+  - groupId: [82] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 639798 -> undefined
+- `SGRVM0191` SHENG SIONG BLK 105 CANBERRA STREET 
+  - createdAt: 2026-03-25T21:45:02.816Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750105 -> undefined
+- `SGRVM0192` FairPrice Blk 355 Sembawang Way
+  - createdAt: 2026-03-25T21:45:02.843Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750355 -> undefined
+- `SGRVM0193` 721 Yishun Street 71
+  - createdAt: 2026-02-28T08:45:03.901Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760721 -> undefined
+- `SGRVM0194` Giant Pioneer Mall
+  - createdAt: 2026-03-25T21:45:02.883Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640638 -> undefined
+- `SGRVM0195` SHENG SIONG BLK 209A CLEMENTI AVE 6 
+  - createdAt: 2026-03-25T21:45:02.909Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 121209 -> undefined
+- `SGRVM0196` Prime Supermarket Yishun Avenue 6
+  - createdAt: 2026-03-25T21:45:02.932Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760461 -> undefined
+- `SGRVM0197` 207 Boon Lay Place
+  - createdAt: 2026-02-28T08:45:04.016Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640207 -> undefined
+- `SGRVM0198` Bazaar Westlite Toh Guan Dormitory
+  - createdAt: 2026-04-11T01:10:00.674Z -> undefined
+  - latitude: 1.328669 -> 1.318093
+  - longitude: 103.749862 -> 103.751808
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 608596 -> undefined
+- `SGRVM0199` 462 Sembawang Drive 
+  - createdAt: 2026-03-25T21:45:03.022Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750462 -> undefined
+- `SGRVM0200` FairPrice Sun Plaza
+  - createdAt: 2026-03-25T21:45:03.047Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 757713 -> undefined
+- `SGRVM0201` 715 Jurong West Street 71
+  - createdAt: 2026-02-20T16:58:47.748Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640715 -> undefined
+- `SGRVM0202` 745 Yishun Street 72
+  - createdAt: 2026-02-20T16:58:47.775Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760745 -> undefined
+- `SGRVM0203` TUAS SOUTH MINIMART
+  - createdAt: 2026-03-25T21:45:03.115Z -> undefined
+  - groupId: [120] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 636906 -> undefined
+- `SGRVM0204` 483 Admiralty Link
+  - createdAt: 2026-03-25T21:45:03.149Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750483 -> undefined
+- `SGRVM0205` 106A Canberra Street
+  - createdAt: 2026-03-25T21:45:03.178Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 751106 -> undefined
+- `SGRVM0206` 589 Woodlands Drive 16
+  - createdAt: 2026-03-25T21:45:03.206Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730589 -> undefined
+- `SGRVM0207` 718 Woodlands Ave 6
+  - createdAt: 2026-03-25T21:45:03.230Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730718 -> undefined
+- `SGRVM0208` 746 Jurong West Street 73
+  - createdAt: 2026-02-20T16:58:47.952Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640746 -> undefined
+- `SGRVM0209` 153 Yung Ho Rd
+  - createdAt: 2026-02-20T16:58:47.981Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 610153 -> undefined
+- `SGRVM0210` 678D Jurong West Street 64
+  - createdAt: 2026-02-20T16:58:48.010Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 644678 -> undefined
+- `SGRVM0211` 7 Seven Trichy Supermarket North Coast Lodge
+  - createdAt: 2026-03-29T05:08:03.202Z -> undefined
+  - groupId: [98] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 756992 -> undefined
+- `SGRVM0212` 931 Jurong West Street 92
+  - createdAt: 2026-02-20T16:58:48.073Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640931 -> undefined
+- `SGRVM0213` 678A Jurong West Street 64 
+  - createdAt: 2026-02-20T16:58:48.101Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 641678 -> undefined
+- `SGRVM0214` Taman Jurong Market & Food Centre
+  - createdAt: 2026-05-29T02:13:03.241Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 618499 -> undefined
+- `SGRVM0215` 255 Yishun Ring Rd
+  - createdAt: 2026-02-20T16:58:48.158Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760255 -> undefined
+- `SGRVM0216` 277 Yishun Street 22
+  - createdAt: 2026-02-20T16:58:48.189Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760277 -> undefined
+- `SGRVM0217` SHENG SIONG BLK 503 JURONG WEST AVE 1
+  - createdAt: 2026-03-25T21:45:03.441Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640503 -> undefined
+- `SGRVM0218` 831 Jurong West Street 81
+  - createdAt: 2026-03-25T21:45:03.466Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640831 -> undefined
+- `SGRVM0219` 573B Woodlands Drive 16
+  - createdAt: 2026-06-30T00:56:03.748Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 732573 -> undefined
+- `SGRVM0221` 907 Jurong West Street 91
+  - createdAt: 2026-02-20T16:58:48.360Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640907 -> undefined
+- `SGRVM0222` FORTUNE SUPERMARKET 780
+  - createdAt: 2026-07-21T09:56:03.747Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730780 -> undefined
+- `SGRVM0223` 353 Kang Ching Rd
+  - createdAt: 2026-02-20T16:58:48.420Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 610353 -> undefined
+- `SGRVM0224` 735 Jurong West Street 75
+  - createdAt: 2026-02-20T16:58:48.449Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640735 -> undefined
+- `SGRVM0225` Prime Supermarket Jurong West Street 91
+  - createdAt: 2026-03-25T21:45:03.620Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640962 -> undefined
+- `SGRVM0226` FairPrice 888 Plaza
+  - createdAt: 2026-03-25T21:45:03.645Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730888 -> undefined
+- `SGRVM0227` 359 Yung An Rd
+  - createdAt: 2026-02-20T16:58:48.546Z -> undefined
+  - latitude: 1.338220 -> 1.336032
+  - longitude: 103.719610 -> 103.721418
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 610359 -> undefined
+- `SGRVM0228` 736 Yishun Street 72
+  - createdAt: 2026-02-20T16:58:48.590Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760736 -> undefined
+- `SGRVM0229` 140 Corporation Drive
+  - createdAt: 2026-02-20T16:58:48.622Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 610140 -> undefined
+- `SGRVM0230` 236 Yishun Ring Rd
+  - createdAt: 2026-02-20T16:58:48.650Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760236 -> undefined
+- `SGRVM0231` Ajmal Trading Group - Kranji Recreation Centre
+  - createdAt: 2026-03-29T05:08:03.524Z -> undefined
+  - groupId: [91] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 737673 -> undefined
+- `SGRVM0232` 417 Canberra Rd
+  - createdAt: 2026-03-25T21:45:03.773Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750418 -> undefined
+- `SGRVM0233` 291 Yishun Street 22
+  - createdAt: 2026-02-20T16:58:48.740Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760291 -> undefined
+- `SGRVM0234` 610 Yishun Street 61
+  - createdAt: 2026-02-20T16:58:48.767Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760610 -> undefined
+- `SGRVM0235` SCARLETT @ CLEMENTI
+  - createdAt: 2026-03-25T21:45:03.838Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 129581 -> undefined
+- `SGRVM0236` 101 Yishun Ave 5
+  - createdAt: 2026-02-20T16:58:48.827Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760101 -> undefined
+- `SGRVM0237` 108 Yishun Ring Rd 
+  - createdAt: 2026-03-25T21:45:03.882Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760108 -> undefined
+- `SGRVM0238` 668A Jurong West Street 64
+  - createdAt: 2026-02-20T16:58:48.907Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 641668 -> undefined
+- `SGRVM0239` FairPrice Taman Jurong Shopping Centre
+  - createdAt: 2026-03-25T21:45:03.925Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 610399 -> undefined
+- `SGRVM0240` 309 Yishun Ring Rd
+  - createdAt: 2026-02-20T16:58:48.972Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760309 -> undefined
+- `SGRVM0241` 762 Yishun Street 72
+  - createdAt: 2026-02-20T16:58:49.000Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760762 -> undefined
+- `SGRVM0242` 876 Woodlands Ave 9
+  - createdAt: 2026-03-25T21:45:03.996Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730876 -> undefined
+- `SGRVM0243` 120 Yishun Ring Rd
+  - createdAt: 2026-02-20T16:58:49.066Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760120 -> undefined
+- `SGRVM0244` 708 Woodlands Drive 70
+  - createdAt: 2026-03-25T21:45:04.046Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730708 -> undefined
+- `SGRVM0245` 604 Yishun Street 61
+  - createdAt: 2026-02-20T16:58:49.135Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760604 -> undefined
+- `SGRVM0246` 334 Sembawang Close
+  - createdAt: 2026-03-25T21:45:04.098Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750334 -> undefined
+- `SGRVM0247` Ajmal Trading Group - Woodlands Westlite Dormitory
+  - createdAt: 2026-03-29T05:08:03.843Z -> undefined
+  - groupId: [90] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 737723 -> undefined
+- `SGRVM0248` 260 Boon Lay Dr
+  - createdAt: 2026-02-20T16:58:49.251Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640260 -> undefined
+- `SGRVM0249` 104 Bukit Batok Central, Block 104
+  - createdAt: 2026-02-20T16:58:49.284Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650104 -> undefined
+- `SGRVM0250` 150 Yishun Street 11
+  - createdAt: 2026-02-20T16:58:49.313Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760150 -> undefined
+- `SGRVM0251` 682C Woodlands Drive 73
+  - createdAt: 2026-03-25T21:45:04.207Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 733682 -> undefined
+- `SGRVM0252` 784C Woodlands Rise 
+  - createdAt: 2026-03-25T21:45:04.231Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 733784 -> undefined
+- `SGRVM0253` 115A Ho Ching Rd
+  - createdAt: 2026-02-20T16:58:49.412Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 611115 -> undefined
+- `SGRVM0254` 690F Woodlands Drive 75
+  - createdAt: 2026-03-25T21:45:04.271Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 736690 -> undefined
+- `SGRVM0255` 653A Jurong West Street 61
+  - createdAt: 2026-02-20T16:58:49.477Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 641653 -> undefined
+- `SGRVM0256` 771 Choa Chu Kang Street 54
+  - createdAt: 2026-02-20T16:58:49.511Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680771 -> undefined
+- `SGRVM0257` 862 Woodlands Street 83
+  - createdAt: 2026-03-25T21:45:04.338Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730862 -> undefined
+- `SGRVM0258` 656 Woodlands Ring Rd
+  - createdAt: 2026-03-25T21:45:04.359Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730656 -> undefined
+- `SGRVM0259` 228 Yishun Street 21
+  - createdAt: 2026-02-20T16:58:49.603Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760228 -> undefined
+- `SGRVM0260` 356A Admiralty Drive
+  - createdAt: 2026-03-25T21:45:04.400Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 751356 -> undefined
+- `SGRVM0261` 165 Yishun Ring Rd
+  - createdAt: 2026-02-20T16:58:49.667Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760165 -> undefined
+- `SGRVM0262` 528 Jurong West Street 52
+  - createdAt: 2026-02-20T16:58:49.697Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640528 -> undefined
+- `SGRVM0263` 552 Woodlands Drive 44
+  - createdAt: 2026-03-25T21:45:04.459Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730552 -> undefined
+- `SGRVM0264` 657 Choa Chu Kang Cres
+  - createdAt: 2026-02-20T16:58:49.757Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680657 -> undefined
+- `SGRVM0265` 115 Yishun Ring Rd
+  - createdAt: 2026-02-20T16:58:49.788Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760115 -> undefined
+- `SGRVM0266` 351B Canberra Road
+  - createdAt: 2026-03-25T21:45:04.520Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 752351 -> undefined
+- `SGRVM0267` 216 Boon Lay Ave
+  - createdAt: 2026-02-20T16:58:49.851Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640216 -> undefined
+- `SGRVM0268` 551 Jurong West Street 42
+  - createdAt: 2026-02-20T16:58:49.884Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640551 -> undefined
+- `SGRVM0269` 792 Woodlands Ave 6 
+  - createdAt: 2026-03-25T21:45:04.578Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730792 -> undefined
+- `SGRVM0270` 611 Woodlands Ring Rd
+  - createdAt: 2026-03-25T21:45:04.602Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730611 -> undefined
+- `SGRVM0271` 126 Yishun Street 11
+  - createdAt: 2026-02-20T16:58:49.983Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760126 -> undefined
+- `SGRVM0272` 625 Jurong West Street 61
+  - createdAt: 2026-02-20T16:58:50.014Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640625 -> undefined
+- `SGRVM0273` 190 Boon Lay Dr
+  - createdAt: 2026-02-20T16:58:50.050Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640190 -> undefined
+- `SGRVM0274` 690A Choa Chu Kang Cres
+  - createdAt: 2026-02-20T16:58:50.082Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 681690 -> undefined
+- `SGRVM0275` 2 Marsiling Dr
+  - createdAt: 2026-02-20T16:58:50.111Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730002 -> undefined
+- `SGRVM0276` 272B Jurong West Street 24
+  - createdAt: 2026-02-20T16:58:50.140Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 642272 -> undefined
+- `SGRVM0277` 836 Woodlands Street 83
+  - createdAt: 2026-03-25T21:45:04.732Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730836 -> undefined
+- `SGRVM0278` 756 Woodlands Ave 4 
+  - createdAt: 2026-03-25T21:45:05.001Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730756 -> undefined
+- `SGRVM0279` 8 Marsiling Drive
+  - createdAt: 2026-02-20T16:58:50.202Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730008 -> undefined
+- `SGRVM0280` Prime Supermarket Bukit Batok Street 31
+  - createdAt: 2026-03-25T21:45:04.775Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650373 -> undefined
+- `SGRVM0281` 671A Choa Chu Kang Cres
+  - createdAt: 2026-02-20T16:58:50.262Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 681671 -> undefined
+- `SGRVM0282` FairPrice Blk 135 Jurong Gateway Road
+  - createdAt: 2026-03-25T21:45:04.819Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600135 -> undefined
+- `SGRVM0283` Prime Supermarket Blk 142 Teck Whye Lane
+  - createdAt: 2026-03-29T05:08:04.566Z -> undefined
+  - groupId: [79] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680142 -> undefined
+- `SGRVM0284` 311 Canberra Rd
+  - createdAt: 2026-03-25T21:45:04.867Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750311 -> undefined
+- `SGRVM0285` 782B Woodlands Cres
+  - createdAt: 2026-03-25T21:45:04.899Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 732782 -> undefined
+- `SGRVM0286` 286 Yishun Ave 6
+  - createdAt: 2026-02-20T16:58:50.416Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760286 -> undefined
+- `SGRVM0287` 846 Woodlands Ave 4
+  - createdAt: 2026-03-25T21:45:04.943Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730846 -> undefined
+- `SGRVM0288` 201 Marsiling Dr
+  - createdAt: 2026-02-20T16:58:50.476Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730201 -> undefined
+- `SGRVM0289` 610 Choa Chu Kang Street 62
+  - createdAt: 2026-02-20T16:58:50.507Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680610 -> undefined
+- `SGRVM0290` 674A Jurong West Street 65
+  - createdAt: 2026-02-20T16:58:50.577Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 641674 -> undefined
+- `SGRVM0291` 682A Jurong West Central 1
+  - createdAt: 2026-02-20T16:58:50.609Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 641682 -> undefined
+- `SGRVM0292` 134 Marsiling Rd
+  - createdAt: 2026-02-20T16:58:50.644Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730134 -> undefined
+- `SGRVM0293` 184 Yung Sheng Rd
+  - createdAt: 2026-02-20T16:58:50.679Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 610184 -> undefined
+- `SGRVM0294` 770 Woodlands Drive 60
+  - createdAt: 2026-03-25T21:45:05.091Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730770 -> undefined
+- `SGRVM0295` 205 Marsiling Dr
+  - createdAt: 2026-02-20T16:58:50.747Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730205 -> undefined
+- `SGRVM0296` 274B Jurong West Street 25
+  - createdAt: 2026-02-20T16:58:50.776Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 642274 -> undefined
+- `SGRVM0297` 337B Tah Ching Rd
+  - createdAt: 2026-02-20T16:58:50.810Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 612337 -> undefined
+- `SGRVM0298` 638 Woodlands Ring Rd
+  - createdAt: 2026-03-25T21:45:05.167Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730638 -> undefined
+- `SGRVM0299` 668 Choa Chu Kang Cres
+  - createdAt: 2026-02-20T16:58:50.884Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680668 -> undefined
+- `SGRVM0300` 504 Yishun St 51, Singapore 760504
+  - createdAt: 2026-08-20T09:00:47.908Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760504 -> undefined
+- `SGRVM0301` 698C Jurong West Central 3
+  - createdAt: 2026-02-20T16:58:50.953Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 643698 -> undefined
+- `SGRVM0302` 32 Marsiling Dr
+  - createdAt: 2026-02-20T16:58:50.985Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730032 -> undefined
+- `SGRVM0303` 667C Jurong West Street 65
+  - createdAt: 2026-02-20T16:58:51.017Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 643667 -> undefined
+- `SGRVM0304` SHENG SIONG BLK 301 WOODLANDS ST 31 
+  - createdAt: 2026-03-25T21:45:05.327Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730301 -> undefined
+- `SGRVM0305` 622 Woodlands Drive 52
+  - createdAt: 2026-03-25T21:45:05.305Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730622 -> undefined
+- `SGRVM0306` 854 Jurong West Street 81
+  - createdAt: 2026-02-20T16:58:51.109Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640854 -> undefined
+- `SGRVM0307` 196B Boon Lay Drive
+  - createdAt: 2026-02-20T16:58:51.137Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 642196 -> undefined
+- `SGRVM0308` 276D Jurong West Street 25
+  - createdAt: 2026-02-20T16:58:51.166Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 644276 -> undefined
+- `SGRVM0309` 212 Marsiling Cres
+  - createdAt: 2026-02-20T16:58:51.197Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730212 -> undefined
+- `SGRVM0310` 920 Jurong West Street 92
+  - createdAt: 2026-02-20T16:58:51.233Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640920 -> undefined
+- `SGRVM0311` 123 Marsiling Rise
+  - createdAt: 2026-02-20T16:58:51.263Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730123 -> undefined
+- `SGRVM0312` 664D Jurong West Street 64
+  - createdAt: 2026-02-20T16:58:51.293Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 644664 -> undefined
+- `SGRVM0313` 744 Jurong West Street 73
+  - createdAt: 2026-02-20T16:58:51.327Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640744 -> undefined
+- `SGRVM0314` 515 Jurong West Street 52
+  - createdAt: 2026-02-20T16:58:51.357Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640515 -> undefined
+- `SGRVM0315` 728 Woodlands Cir
+  - createdAt: 2026-03-25T21:45:05.512Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730728 -> undefined
+- `SGRVM0316` 618 Choa Chu Kang North 7
+  - createdAt: 2026-02-20T16:58:51.426Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680618 -> undefined
+- `SGRVM0317` 17 Marsiling Ln
+  - createdAt: 2026-02-20T16:58:51.461Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730017 -> undefined
+- `SGRVM0318` Giant IMM
+  - createdAt: 2026-03-25T21:45:05.576Z -> undefined
+  - groupId: [70] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 609601 -> undefined
+- `SGRVM0319` Cold Storage Clementi Arcade
+  - createdAt: 2026-03-25T21:45:05.602Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 597071 -> undefined
+- `SGRVM0320` U STARS 345 Clementi Ave 5
+  - createdAt: 2026-03-25T21:45:05.625Z -> undefined
+  - groupId: [84] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120345 -> undefined
+- `SGRVM0321` Cold Storage West Coast Plaza
+  - createdAt: 2026-03-25T21:45:05.645Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 127371 -> undefined
+- `SGRVM0322` SHENG SIONG BLK 720 CLEMENTI WEST STREET 2 
+  - createdAt: 2026-03-25T21:45:05.667Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120720 -> undefined
+- `SGRVM0323` 149 Woodlands Street 13
+  - createdAt: 2026-02-20T16:58:51.650Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730149 -> undefined
+- `SGRVM0324` 153 Gangsa Rd
+  - createdAt: 2026-02-20T16:58:51.682Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670153 -> undefined
+- `SGRVM0325` SHENG SIONG BLK 446 FAJAR ROAD
+  - createdAt: 2026-03-25T21:45:05.751Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670446 -> undefined
+- `SGRVM0326` 359 Clementi Ave 2
+  - createdAt: 2026-02-20T16:58:51.749Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120359 -> undefined
+- `SGRVM0327` 178 Woodlands Street 13
+  - createdAt: 2026-02-20T16:58:51.777Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730178 -> undefined
+- `SGRVM0328` 108 Gangsa Rd
+  - createdAt: 2026-02-20T16:58:51.806Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670108 -> undefined
+- `SGRVM0329` 306 Clementi Ave 4
+  - createdAt: 2026-03-25T21:45:05.829Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120306 -> undefined
+- `SGRVM0330` 454 Clementi Ave 3
+  - createdAt: 2026-02-20T16:58:51.870Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120454 -> undefined
+- `SGRVM0331` 113 Woodlands Street 13
+  - createdAt: 2026-02-20T16:58:51.900Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730113 -> undefined
+- `SGRVM0332` 113 Clementi Street 13
+  - createdAt: 2026-02-20T16:58:51.931Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120113 -> undefined
+- `SGRVM0333` 140 Petir Rd
+  - createdAt: 2026-02-20T16:58:51.961Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670140 -> undefined
+- `SGRVM0334` 101 Gangsa Rd
+  - createdAt: 2026-02-20T16:58:51.994Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670101 -> undefined
+- `SGRVM0335` 326 Clementi Ave 5 
+  - createdAt: 2026-02-20T16:58:52.022Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120326 -> undefined
+- `SGRVM0336` 311B Clementi Ave 4
+  - createdAt: 2026-02-20T16:58:52.052Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 122311 -> undefined
+- `SGRVM0337` Phan Nee #01-21 SUNGEI TENGAH LODGE
+  - createdAt: 2026-03-29T05:08:05.741Z -> undefined
+  - groupId: [114] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 698924 -> undefined
+- `SGRVM0338` 343 Clementi Ave 5
+  - createdAt: 2026-02-20T16:58:52.112Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120343 -> undefined
+- `SGRVM0340` 131 Cashew Rd
+  - createdAt: 2026-02-20T16:58:52.174Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670131 -> undefined
+- `SGRVM0341` FairPrice Yishun MRT
+  - createdAt: 2026-03-25T21:45:06.050Z -> undefined
+  - groupId: [42] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 769093 -> undefined
+- `SGRVM0342` 288C Jurong East Street 21
+  - createdAt: 2026-02-20T16:58:52.250Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 603288 -> undefined
+- `SGRVM0343` 102 Woodlands Street 13
+  - createdAt: 2026-02-20T16:58:52.279Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730102 -> undefined
+- `SGRVM0344` 160 Woodlands Street 13
+  - createdAt: 2026-02-20T16:58:52.310Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730160 -> undefined
+- `SGRVM0345` 310 Woodlands Street 31
+  - createdAt: 2026-02-20T16:58:52.346Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730310 -> undefined
+- `SGRVM0346` 429 Clementi Ave 3
+  - createdAt: 2026-03-25T21:45:06.156Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120429 -> undefined
+- `SGRVM0347` 103 Clementi Street 14
+  - createdAt: 2026-02-20T16:58:52.411Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120103 -> undefined
+- `SGRVM0348` Prime Supermarket Blk 768 Woodlands Ave 6
+  - createdAt: 2026-03-29T05:08:06.039Z -> undefined
+  - groupId: [80] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730768 -> undefined
+- `SGRVM0349` SHENG SIONG BLK 18 TECK WHYE LANE 
+  - createdAt: 2026-03-25T21:45:06.239Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680018 -> undefined
+- `SGRVM0350` Cold Storage Lentor Modern
+  - createdAt: 2026-03-25T21:45:06.263Z -> undefined
+  - groupId: [64] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 788887 -> undefined
+- `SGRVM0351` SHENG SIONG NO.1 WOODLANDS ROADS 
+  - createdAt: 2026-03-25T21:45:06.285Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 677899 -> undefined
+- `SGRVM0352` FairPrice Blk 511 Canberra Road
+  - createdAt: 2026-03-25T21:45:06.308Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750511 -> undefined
+- `SGRVM0353` SHENG SIONG BLK 467 BUKIT BATOK WEST AVENUE 9 
+  - createdAt: 2026-03-25T21:45:06.332Z -> undefined
+  - groupId: [37] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650467 -> undefined
+- `SGRVM0354` SCARLETT@YISHUN 10 CINEMA COMPLEX
+  - createdAt: 2026-03-29T05:08:06.173Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 768794 -> undefined
+- `SGRVM0355` Raj Agro Kranji
+  - createdAt: 2026-03-25T21:45:06.377Z -> undefined
+  - groupId: [116] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 737673 -> undefined
+- `SGRVM0356` U STARS @817 Keat Hong Link
+  - createdAt: 2026-03-25T21:45:06.399Z -> undefined
+  - groupId: [85] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680817 -> undefined
+- `SGRVM0357` FairPrice Yew Tee Mrt
+  - createdAt: 2026-03-25T21:45:06.421Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 689715 -> undefined
+- `SGRVM0358` FairPrice Canberra Plaza
+  - createdAt: 2026-03-25T21:45:06.441Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750133 -> undefined
+- `SGRVM0359` FairPrice Teck Whye
+  - createdAt: 2026-03-25T21:45:06.466Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680140 -> undefined
+- `SGRVM0361` FairPrice Yew Tee Point
+  - createdAt: 2026-03-25T21:45:06.510Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 689578 -> undefined
+- `SGRVM0362` FairPrice Limbang Shopping Centre
+  - createdAt: 2026-03-25T21:45:06.533Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680533 -> undefined
+- `SGRVM0363` FairPrice JEM
+  - createdAt: 2026-03-25T21:45:06.559Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 608549 -> undefined
+- `SGRVM0364` Don Don Donki (Jurong East Mall)
+  - createdAt: 2026-03-25T21:45:06.579Z -> undefined
+  - groupId: [77] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 608549 -> undefined
+- `SGRVM0365` Phan Nee #01-02 SUNGEI TENGAH LODGE
+  - createdAt: 2026-03-29T05:08:06.421Z -> undefined
+  - groupId: [114] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 698924 -> undefined
+- `SGRVM0366` Giant Yishun Street 22
+  - createdAt: 2026-03-25T21:45:06.784Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760293 -> undefined
+- `SGRVM0367` Grindelwald Supermarket
+  - createdAt: 2026-03-25T21:45:06.622Z -> undefined
+  - groupId: [106] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120108 -> undefined
+- `SGRVM0368` Ajmal Trading Group - Jalan Papan Aspri Westlite
+  - createdAt: 2026-03-29T05:08:06.474Z -> undefined
+  - groupId: [90] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 619421 -> undefined
+- `SGRVM0369` Don Don Donki (Bukit Panjang Plaza)
+  - createdAt: 2026-03-29T05:08:06.500Z -> undefined
+  - groupId: [76] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 677743 -> undefined
+- `SGRVM0370` Giant Choa Chu Kang Avenue 3
+  - createdAt: 2026-03-25T21:45:06.692Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680475 -> undefined
+- `SGRVM0371` SHENG SIONG BLK 352 CLEMENTI AVE 2 
+  - createdAt: 2026-03-25T21:45:06.715Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120352 -> undefined
+- `SGRVM0372` Redman by Phoon Huat
+  - createdAt: 2026-03-29T05:08:06.577Z -> undefined
+  - groupId: [115] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 677743 -> undefined
+- `SGRVM0373` FairPrice Boon Lay Shopping Complex
+  - createdAt: 2026-03-25T21:45:06.763Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640221 -> undefined
+- `SGRVM0374` FairPrice 451 Clementi Avenue 3
+  - createdAt: 2026-03-25T21:45:06.817Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120451 -> undefined
+- `SGRVM0375` SHENG SIONG BLK 544 JURONG WEST ST 42 
+  - createdAt: 2026-03-25T21:45:06.840Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640544 -> undefined
+- `SGRVM0376` Prime Supermarket Blk 253 Choa Chu Kang
+  - createdAt: 2026-03-25T21:45:06.864Z -> undefined
+  - groupId: [78] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680253 -> undefined
+- `SGRVM0377` FairPrice Bukit Panjang Plaza
+  - createdAt: 2026-03-25T21:45:06.886Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 677743 -> undefined
+- `SGRVM0378` Giant Bukit Batok East Avenue 3
+  - createdAt: 2026-03-25T21:45:06.913Z -> undefined
+  - groupId: [51] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650284 -> undefined
+- `SGRVM0380` U STARS @810 Cha Chu Kang Ave 7
+  - createdAt: 2026-03-25T21:45:06.956Z -> undefined
+  - groupId: [84] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 680810 -> undefined
+- `SGRVM0381` SCARLETT@PLANTATION PLAZA
+  - createdAt: 2026-03-25T21:45:06.978Z -> undefined
+  - groupId: [87] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 690127 -> undefined
+- `SGRVM0382` FairPrice Tengah Parc Point
+  - createdAt: 2026-03-25T21:45:07.000Z -> undefined
+  - groupId: [47] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 690302 -> undefined
+- `SGRVM0383` Giant Tengah Plantation Plaza
+  - createdAt: 2026-03-25T21:45:07.023Z -> undefined
+  - groupId: [57] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 690127 -> undefined
+- `SGRVM0384` FairPrice 280 Bukit Batok East Avenue 3
+  - createdAt: 2026-03-25T21:45:07.045Z -> undefined
+  - groupId: [39] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650280 -> undefined
+- `SGRVM0385` 361 Sembawang Crescent
+  - createdAt: 2026-05-28T01:10:14.874Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750361 -> undefined
+- `SGRVM0386` ASPRI-D Wall Papan Dormitory
+  - createdAt: 2026-07-17T07:36:08.074Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 619834 -> undefined
+- `SGRVM0387` 510 Jurong West Street 51
+  - createdAt: 2026-07-29T07:26:11.793Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640510 -> undefined
+- `SGRVM0388` 868 Yishun Street 81, Singapore 760868
+  - createdAt: 2026-08-27T11:55:04.195Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760868 -> undefined
+- `SGRVM0389` Yishun Park Hawker
+  - createdAt: 2026-05-28T01:10:15.230Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 768867 -> undefined
+- `SGRVM0390` Senja Hawker Centre
+  - createdAt: 2026-05-29T02:13:06.890Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 677632 -> undefined
+- `SGRVM0391` 383A Yishun Ave 6, Singapore 761383
+  - createdAt: 2026-08-27T11:55:07.897Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 761383 -> undefined
+- `SGRVM0393` SACHI MINIMART PTE LTD
+  - createdAt: 2026-05-29T02:14:05.882Z -> undefined
+  - latitude: 1.317980 -> 1.318093
+  - longitude: 103.729137 -> 103.731730
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 608537 -> undefined
+- `SGRVM0395` 627 Yishun Street 61, Singapore 760627
+  - createdAt: 2026-08-27T11:55:07.646Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760627 -> undefined
+- `SGRVM0396` 259 Yishun Street 22, Singapore 760259
+  - createdAt: 2026-08-27T11:55:07.710Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760259 -> undefined
+- `SGRVM0397` Republic Polytechnic
+  - createdAt: 2026-06-30T00:56:07.910Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 738964 -> undefined
+- `SGRVM0398` 252 Jurong East Street 24
+  - createdAt: 2026-06-29T05:21:08.593Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600252 -> undefined
+- `SGRVM0399` Bukit Batok West Hawker Centre
+  - createdAt: 2026-05-29T02:14:05.909Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650469 -> undefined
+- `SGRVM0400` Westlite Jalan Tukang Dormitory
+  - createdAt: 2026-07-21T09:00:41.151Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 619267 -> undefined
+- `SGRVM0401` Bukit Panjang Hawker Centre
+  - createdAt: 2026-05-29T02:14:05.931Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 679947 -> undefined
+- `SGRVM0402` 353 Clementi Food Center
+  - createdAt: 2026-06-29T05:20:01.541Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120353 -> undefined
+- `SGRVM0403` 204 Clementi Ave 6, Singapore 120204
+  - createdAt: 2026-07-17T09:37:08.384Z -> undefined
+  - latitude: 1.321146 -> 1.321002
+  - longitude: 103.763441 -> 103.763243
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120204 -> undefined
+- `SGRVM0404` West Coast Market Square
+  - createdAt: 2026-06-29T05:20:12.615Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120726 -> undefined
+- `SGRVM0405` Singapore Zoo
+  - createdAt: 2026-07-17T07:36:08.320Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 729826 -> undefined
+- `SGRVM0406` Teban Market Place
+  - createdAt: 2026-06-29T05:21:08.754Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 601037 -> undefined
+- `SGRVM0407` 505 Jurong West Market & Food Centre
+  - createdAt: 2026-06-29T05:21:08.786Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640505 -> undefined
+- `SGRVM0408` 513A Yishun St 51, Singapore 761513
+  - createdAt: 2026-08-27T11:55:01.566Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 761513 -> undefined
+- `SGRVM0409` 445 Clementi Avenue 3
+  - createdAt: 2026-06-29T05:20:12.586Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 121445 -> undefined
+- `SGRVM0410` 138 Yishun Ring Road, Singapore 760138
+  - createdAt: 2026-07-17T08:26:08.821Z -> undefined
+  - latitude: 1.431860 -> 1.431630
+  - longitude: 103.830624 -> 103.830640
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760138 -> undefined
+- `SGRVM0411` Bird Paradise
+  - createdAt: 2026-07-17T07:36:08.434Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 729825 -> undefined
+- `SGRVM0412` Penjuru Recreation Centre
+  - createdAt: 2026-07-17T07:36:08.470Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 608538 -> undefined
+- `SGRVM0413` 221A Boon Lay Market
+  - createdAt: 2026-06-29T05:21:08.843Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 641221 -> undefined
+- `SGRVM0414` FairPrice 289A Toh Guan
+  - createdAt: 2026-08-05T08:30:01.382Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 601289 -> undefined
+- `SGRVM0415` Chong Pang Food Centre
+  - createdAt: 2026-07-17T07:37:08.998Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760105 -> undefined
+- `SGRVM0416` 805 Yishun Ring Rd, Singapore 760805
+  - createdAt: 2026-08-27T11:55:01.386Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760805 -> undefined
+- `SGRVM0417` SHENG SIONG BLK 845 YISHUN ST 81
+  - createdAt: 2026-07-29T07:23:12.788Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760845 -> undefined
+- `SGRVM0418` NESST Tukang Dormitory
+  - createdAt: 2026-07-17T06:45:01.795Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 619599 -> undefined
+- `SGRVM0420` SHENG SIONG BLK 120 CANBERRA CRESCENT
+  - createdAt: 2026-05-28T01:11:06.494Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 750120 -> undefined
+- `SGRVM0421` Bukit Canberra Hawker Centre
+  - createdAt: 2026-05-28T01:11:06.520Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 756973 -> undefined
+- `SGRVM0422` Sembawang Recreation Centre
+  - createdAt: 2026-05-28T01:11:06.545Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 759774 -> undefined
+- `SGRVM0423` West 1800 Dormitory
+  - createdAt: 2026-07-17T09:25:01.190Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 609853 -> undefined
+- `SGRVM0424` 20 Marsiling Lane Food Centre
+  - createdAt: 2026-06-29T05:20:01.404Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730020 -> undefined
+- `SGRVM0425` FairPrice West Coast Wet Market
+  - createdAt: 2026-03-25T21:45:06.199Z -> undefined
+  - groupId: [41] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120502 -> undefined
+- `SGRVM0426` 601 Jurong West Street 62
+  - createdAt: 2026-08-14T15:56:21.037Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640601 -> undefined
+- `SGRVM0427` 991B Upper Jurong Rd
+  - createdAt: 2026-08-14T23:04:08.364Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 632991 -> undefined
+- `SGRVM0428` 183C Boon Lay Avenue
+  - createdAt: 2026-08-14T23:04:08.387Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 643183 -> undefined
+- `SGRVM0429` 640 Jurong West Street 61
+  - createdAt: 2026-08-14T15:34:07.918Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640640 -> undefined
+- `SGRVM0430` SHENG SIONG BLK 440 BUKIT BATOK WEST AVE 8
+  - createdAt: 2026-08-14T06:42:08.229Z -> undefined
+  - groupId: [35] -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 650440 -> undefined
+- `SGRVM0431` 708 Clementi West Street 2
+  - createdAt: 2026-08-18T09:00:45.471Z -> undefined
+  - zipcode: 120708 -> undefined
+- `SGRVM0433` 414 Pandan Gardens Road
+  - createdAt: 2026-08-16T03:00:03.579Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600414 -> undefined
+- `SGRVM0434` 507 West Coast Drive
+  - createdAt: 2026-08-14T08:34:08.788Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120507 -> undefined
+- `SGRVM0435` 801 West Coast Crescent
+  - createdAt: 2026-08-14T10:40:03.527Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 120801 -> undefined
+- `SGRVM0436` 48 Teban Gardens Road
+  - createdAt: 2026-08-16T02:59:07.937Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600048 -> undefined
+- `SGRVM0438` 336 Woodlands Ave 1, Singapore 730336
+  - createdAt: 2026-09-11T02:35:00.929Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730336 -> undefined
+- `SGRVM0439` 555 Jurong West Street 42
+  - createdAt: 2026-08-14T12:30:14.236Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640555 -> undefined
+- `SGRVM0440` SHENG SIONG BLK 61 TEBAN GARDENS ROAD
+  - createdAt: 2026-08-14T07:27:07.716Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 600061 -> undefined
+- `SGRVM0441` 706 Jurong West Street 71
+  - createdAt: 2026-08-18T06:07:19.620Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640706 -> undefined
+- `SGRVM0442` 238B Boon Lay Drive
+  - createdAt: 2026-08-14T22:56:13.487Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 642238 -> undefined
+- `SGRVM0443` 518 Jurong West Street 52
+  - createdAt: 2026-08-14T12:53:09.488Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640518 -> undefined
+- `SGRVM0444` 60 Jurong West Central 3
+  - createdAt: 2026-08-16T22:27:07.286Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 648346 -> undefined
+- `SGRVM0445` 444 Jurong West Ave 1, Singapore 640444
+  - createdAt: 2026-08-14T11:21:17.953Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640444 -> undefined
+- `SGRVM0446` 988A Jurong West Street 93
+  - createdAt: 2026-08-14T09:00:40.628Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 641988 -> undefined
+- `SGRVM0447` 689 Jurong West Central 1
+  - createdAt: 2026-08-14T15:03:10.220Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 640689 -> undefined
+- `SGRVM0448` 512B Yishun St 51, Singapore 762512
+  - createdAt: 2026-09-04T01:35:03.096Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 762512 -> undefined
+- `SGRVM0449` 513 Woodlands Drive 14, Singapore 730513
+  - createdAt: 2026-09-11T06:10:00.915Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730513 -> undefined
+- `SGRVM0450` 318 Woodlands Street 31, Singapore 730318
+  - createdAt: 2026-09-11T06:00:00.893Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730318 -> undefined
+- `SGRVM0453` 370 Woodlands Ave 1, Singapore 730370
+  - createdAt: 2026-09-11T02:55:01.674Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730370 -> undefined
+- `SGRVM0454` 783 Yishun Ring Road, Singapore 760783
+  - createdAt: 2026-09-04T00:55:02.242Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760783 -> undefined
+- `SGRVM0455` 424 Woodlands Street 41, Singapore 730424
+  - createdAt: 2026-09-11T05:20:00.909Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730424 -> undefined
+- `SGRVM0457` 799 Yishun Ring Rd, Singapore 760799
+  - createdAt: 2026-09-04T01:35:02.634Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760799 -> undefined
+- `SGRVM0458` ST Food Court, #01-09 Sungei Tengah Lodge
+  - createdAt: 2026-09-03T04:25:00.783Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 698924 -> undefined
+- `SGRVM0460` 892A Woodlands Drive 50, Singapore 731892
+  - createdAt: 2026-09-11T07:05:00.824Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 731892 -> undefined
+- `SGRVM0461` 897A Woodlands Drive 50, Singapore 730897
+  - createdAt: 2026-09-11T07:15:01.012Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730897 -> undefined
+- `SGRVM0462` 858 Yishun Ave 4, Singapore 760858
+  - createdAt: 2026-09-04T01:35:01.695Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760858 -> undefined
+- `SGRVM0464` 533 Jelapang Road, Singapore 670533
+  - createdAt: 2026-09-12T04:50:00.763Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670533 -> undefined
+- `SGRVM0466` 347 Woodlands Ave 3, Singapore 730347
+  - createdAt: 2026-09-11T03:40:00.810Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730347 -> undefined
+- `SGRVM0469` 821 Yishun Street 81, Singapore 760821
+  - createdAt: 2026-09-04T01:35:01.828Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 760821 -> undefined
+- `SGRVM0470` 411 Woodlands Street 41, Singapore 730411
+  - createdAt: 2026-09-11T06:40:06.663Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730411 -> undefined
+- `SGRVM0471` ST Beer Garden, #01-10 Sungei Tengah Lodge
+  - createdAt: 2026-09-03T04:55:02.479Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 698924 -> undefined
+- `SGRVM0473` 655 Senja Rd, Singapore 670655
+  - createdAt: 2026-09-12T03:30:01.912Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670655 -> undefined
+- `SGRVM0476` 354 Woodlands Ave 1, Singapore 730354
+  - createdAt: 2026-09-11T03:15:00.902Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730354 -> undefined
+- `SGRVM0479` 443B Fajar Rd, Singapore 672443
+  - createdAt: 2026-09-12T04:15:00.856Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 672443 -> undefined
+- `SGRVM0480` 188B Marsiling Rd, Singapore 732188
+  - createdAt: 2026-09-10T04:40:01.067Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 732188 -> undefined
+- `SGRVM0481` 502 Jelapang Rd, Singapore 670502
+  - createdAt: 2026-09-12T04:35:01.048Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670502 -> undefined
+- `SGRVM0483` 476 Segar Rd, Singapore 670476
+  - createdAt: 2026-09-12T03:55:00.729Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 670476 -> undefined
+- `SGRVM0485` 636A Senja Rd, Singapore 671636
+  - createdAt: 2026-09-12T03:15:00.907Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 671636 -> undefined
+- `SGRVM0489` 521 Woodlands Drive 14, Singapore 730521
+  - createdAt: 2026-09-11T06:30:00.892Z -> undefined
+  - supplierId: SGRECYCLE001 -> undefined
+  - zipcode: 730521 -> undefined
+</details>
+
+<details>
 <summary><b>2026-09-15</b> · 1,334 locations · +2 · −8 · ±1</summary>
 
 - Snapshot size: **1334** locations
