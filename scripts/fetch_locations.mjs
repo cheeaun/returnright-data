@@ -17,7 +17,7 @@ const CONCURRENCY = 8;
 
 function baseHeaders(extra = {}) {
   return {
-    "user-agent": "Mozilla/5.0 (returnright)",
+    "user-agent": "Mozilla/5.0 (compatible; rr/1.0)",
     accept: "application/json",
     "x-bcrs-client": "web",
     referer: `${BASE_URL}/px/`,
