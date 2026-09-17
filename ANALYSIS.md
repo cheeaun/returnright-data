@@ -1,6 +1,6 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-15** · 1,335 locations · `data/latest.json` · as of 16 Sept 2026, 01:34 UTC_
+_Snapshot: **2026-09-16** · 1,335 locations · `data/latest.json` · as of 17 Sept 2026, 00:21 UTC_
 
 ## Current snapshot
 
@@ -28,22 +28,22 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1284
-    "FULL": 24
-    "ERROR": 14
-    "OFFLINE": 6
-    "MAINTENANCE": 3
+    "RUNNING": 1246
+    "FULL": 59
+    "ERROR": 15
+    "OFFLINE": 7
+    "MAINTENANCE": 4
     "offline": 3
     "CLEANING": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,284 | 96.2% |
-| FULL | 24 | 1.8% |
-| ERROR | 14 | 1.0% |
-| OFFLINE | 6 | 0.4% |
-| MAINTENANCE | 3 | 0.2% |
+| RUNNING | 1,246 | 93.3% |
+| FULL | 59 | 4.4% |
+| ERROR | 15 | 1.1% |
+| OFFLINE | 7 | 0.5% |
+| MAINTENANCE | 4 | 0.3% |
 | offline | 3 | 0.2% |
 | CLEANING | 1 | 0.1% |
 
@@ -179,24 +179,24 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S78 | D26 | Mandai, Upper Thomson, Springleaf | 1 | 0.1% |
 | S80 | D28 | Seletar, Yio Chu Kang | 1 | 0.1% |
 
-## History (161 snapshots · 2026-04-08 → 2026-09-15)
+## History (162 snapshots · 2026-04-08 → 2026-09-16)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,334 |
-| Net change | +265 |
+| Current snapshot | 1,335 |
+| Net change | +266 |
 | Minimum | 1,069 (2026-04-08) |
 | Maximum | 1,341 (2026-09-09) |
-| Average | 1,156 |
+| Average | 1,157 |
 
 ### Totals across all days
 
 | Metric | Total |
 | --- | --- |
-| Added | 449 |
+| Added | 450 |
 | Removed | 189 |
-| Changed | 10,815 |
+| Changed | 12,149 |
 | No-change days | 41 |
 
 ### Machines over time
@@ -211,8 +211,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
-    y-axis "machines" 0 --> 1535
-    line [1069, 1090, 1152, 1206, 1283, 1334]
+    y-axis "machines" 0 --> 1536
+    line [1069, 1090, 1152, 1206, 1283, 1335]
 ```
 
 ### Monthly change
@@ -228,7 +228,7 @@ xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
     y-axis "machines" 0 --> 87
-    bar [0, 20, 62, 43, 75, 51]
+    bar [0, 20, 62, 43, 75, 52]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -238,7 +238,7 @@ xychart-beta
 | 2026-06 | 1,090 → 1,152 | 63 | 1 | +62 |
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
 | 2026-08 | 1,208 → 1,283 | 168 | 91 | +75 |
-| 2026-09 | 1,283 → 1,334 | 98 | 47 | +51 |
+| 2026-09 | 1,283 → 1,335 | 99 | 47 | +52 |
 
 ### Most active days
 
