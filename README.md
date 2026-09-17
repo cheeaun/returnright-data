@@ -4,7 +4,7 @@ Daily snapshots of the BCRS locations API in Singapore.
 
 ## What this repo does
 
-- Fetches `https://bts.bcrs.sg/api/v1/locations/nearby` once per day.
+- Fetches `https://returnright.sg/px-api/locations` once per day (token + one list request).
 - Saves the raw JSON response to [`data/latest.json`](./data/latest.json), overwriting the previous day's file — the full history lives in the git history of that file.
 - Generates [`data/latest.geojson`](./data/latest.geojson) from the newest snapshot.
 - Generates [`ANALYSIS.md`](./ANALYSIS.md) — a snapshot analysis report with mermaid charts covering status, suppliers, opening hours, postal districts, rollout, and history.

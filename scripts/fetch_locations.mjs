@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -8,24 +8,15 @@ const BASE_URL = "https://returnright.sg";
 const API_BASE = `${BASE_URL}/px-api`;
 const locationsUrl = (suffix = "") => `${API_BASE}/locations${suffix}`;
 
-// The server clamps nearby radius to 2500m max, so the full dataset is
-// collected by sweeping a grid of nearby queries (see nearby_grid.json)
-// and merging them over the full /locations list (which also covers
-// records without coordinates that no radius query can return).
-
-const CONCURRENCY = 8;
-
 function baseHeaders(extra = {}) {
   return {
-    "user-agent": "Mozilla/5.0 (compatible; rr/1.0)",
+    "user-agent": "Mozilla/5.0 (rr/1.0)",
     accept: "application/json",
     "x-bcrs-client": "web",
     referer: `${BASE_URL}/px/`,
     ...extra,
   };
 }
-
-const tokenState = { current: null };
 
 async function fetchMapToken() {
   const response = await fetch(locationsUrl("/access-token"), {
@@ -47,7 +38,6 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
 const SNAPSHOT_PATH = path.join(DATA_DIR, "latest.json");
-const GRID_PATH = path.join(__dirname, "nearby_grid.json");
 
 function hasFiniteCoord(value) {
   if (value === null || value === undefined) return false;
@@ -63,10 +53,10 @@ function isUsableLocation(item) {
   return hasName || (hasFiniteCoord(item?.latitude) && hasFiniteCoord(item?.longitude));
 }
 
-async function fetchDataArray(path) {
-  const url = locationsUrl(path);
+async function fetchLocations(token) {
+  const url = locationsUrl();
   const response = await fetch(url, {
-    headers: baseHeaders({ "x-bcrs-map-token": tokenState.current }),
+    headers: baseHeaders({ "x-bcrs-map-token": token }),
   });
   if (!response.ok) {
     throw new Error(`HTTP ${response.status} ${response.statusText} for ${url}`);
@@ -78,66 +68,28 @@ async function fetchDataArray(path) {
   return body.data;
 }
 
-// Fetch with one token refresh + retry, for expired/single-use tokens.
-async function fetchDataArrayResilient(path) {
+// One token refresh + retry, for expired/single-use tokens.
+async function fetchLocationsResilient() {
+  let token = await fetchMapToken();
   try {
-    return await fetchDataArray(path);
-  } catch (error) {
-    tokenState.current = await fetchMapToken();
-    return await fetchDataArray(path);
+    return await fetchLocations(token);
+  } catch {
+    token = await fetchMapToken();
+    return await fetchLocations(token);
   }
 }
 
 async function main() {
   await mkdir(DATA_DIR, { recursive: true });
-  const grid = JSON.parse(await readFile(GRID_PATH, "utf8"));
-  const radius = grid.radius;
-  const coords = grid.coords;
-  if (!Number.isFinite(radius) || !Array.isArray(coords) || coords.length === 0) {
-    throw new Error(`Invalid grid config in ${path.relative(ROOT, GRID_PATH)}`);
-  }
-
-  tokenState.current = await fetchMapToken();
-
-  // Base list: complete, including records without coordinates.
-  const full = await fetchDataArrayResilient("");
-  const byId = new Map(full.map((item) => [item.id, item]));
-
-  // Nearby sweep: richer per-location detail; dedupe by id.
-  let nearbyUnique = 0;
-  const seenNearby = new Set();
-  const queue = [...coords];
-  const workers = Array.from(
-    { length: Math.min(CONCURRENCY, queue.length) },
-    async () => {
-      while (queue.length > 0) {
-        const [lat, lng] = queue.pop();
-        const items = await fetchDataArrayResilient(`/nearby?lat=${lat}&lng=${lng}&radius=${radius}`);
-        for (const item of items) {
-          if (!seenNearby.has(item.id)) {
-            seenNearby.add(item.id);
-            nearbyUnique += 1;
-          }
-          byId.set(item.id, { ...byId.get(item.id), ...item });
-        }
-      }
-    },
-  );
-  await Promise.all(workers);
-
-  const data = [...byId.values()]
-    .filter(isUsableLocation)
-    .map(({ distance, ...item }) => item)
-    .sort((a, b) => a.id - b.id);
+  const full = await fetchLocationsResilient();
+  const data = full.filter(isUsableLocation).sort((a, b) => a.id - b.id);
   await writeFile(SNAPSHOT_PATH, `${JSON.stringify({ status: "ok", data }, null, 2)}\n`);
 
   console.log(
     JSON.stringify({
       snapshot: path.relative(ROOT, SNAPSHOT_PATH),
       full_total: full.length,
-      nearby_queries: coords.length,
-      nearby_unique: nearbyUnique,
-      filtered_out: byId.size - data.length,
+      filtered_out: full.length - data.length,
       total_locations: data.length,
     }),
   );
