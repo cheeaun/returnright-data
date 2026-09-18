@@ -26,6 +26,31 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-19</b> · 1,339 locations · +6 · −2 · ±1</summary>
+
+- Snapshot size: **1339** locations
+- Added: **6**
+- Removed: **2**
+- Changed: **1**
+
+Added
+- `20254709350` SHENG SIONG BLK 602A TAMPINES AVENUE 9 (postal: 521602, status: RUNNING)
+- `20254709486` Giant Hypermarket Tampines (postal: 528765, status: RUNNING)
+- `B5481062` 509 Serangoon North Ave 4 (postal: 550509, status: RUNNING)
+- `SGRVM0146` 406 Yishun Ave 6, Singapore 760406 (postal: 760406, status: RUNNING)
+- `SGRVM0360` 431A Yishun Ave 1, Singapore 761431 (postal: 761431, status: RUNNING)
+- `SGRVM0379` 467C Yishun Ave 6 (postal: 763467, status: RUNNING)
+
+Removed
+- `B9481047` Masjid Sultan Mosque (postal: 198833, status: RUNNING)
+- `SGRVM0404` West Coast Market Square (postal: 120726, status: OFFLINE)
+
+Changed
+- `SGRVM0321` Cold Storage West Coast Plaza
+  - rvm_remarks: "" -> Located next to check-out counters
+</details>
+
+<details>
 <summary><b>2026-09-18</b> · No changes</summary>
 
 No changes.
