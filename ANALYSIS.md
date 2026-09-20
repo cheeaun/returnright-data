@@ -1,6 +1,6 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-19** · 1,339 locations · `data/latest.json` · as of 19 Sept 2026, 16:22 UTC_
+_Snapshot: **2026-09-20** · 1,339 locations · `data/latest.json` · as of 20 Sept 2026, 16:23 UTC_
 
 ## Current snapshot
 
@@ -28,21 +28,21 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1158
-    "FULL": 144
-    "OFFLINE": 19
-    "ERROR": 12
-    "MAINTENANCE": 3
+    "RUNNING": 1094
+    "FULL": 198
+    "ERROR": 23
+    "OFFLINE": 17
+    "MAINTENANCE": 4
     "offline": 3
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,158 | 86.5% |
-| FULL | 144 | 10.8% |
-| OFFLINE | 19 | 1.4% |
-| ERROR | 12 | 0.9% |
-| MAINTENANCE | 3 | 0.2% |
+| RUNNING | 1,094 | 81.7% |
+| FULL | 198 | 14.8% |
+| ERROR | 23 | 1.7% |
+| OFFLINE | 17 | 1.3% |
+| MAINTENANCE | 4 | 0.3% |
 | offline | 3 | 0.2% |
 
 ## Operation timing (opening hours)
@@ -177,7 +177,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S78 | D26 | Mandai, Upper Thomson, Springleaf | 1 | 0.1% |
 | S80 | D28 | Seletar, Yio Chu Kang | 1 | 0.1% |
 
-## History (165 snapshots · 2026-04-08 → 2026-09-19)
+## History (166 snapshots · 2026-04-08 → 2026-09-20)
 
 | Metric | Value |
 | --- | --- |
@@ -186,7 +186,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Net change | +270 |
 | Minimum | 1,069 (2026-04-08) |
 | Maximum | 1,341 (2026-09-09) |
-| Average | 1,160 |
+| Average | 1,161 |
 
 ### Totals across all days
 
@@ -195,7 +195,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Added | 456 |
 | Removed | 191 |
 | Changed | 12,151 |
-| No-change days | 43 |
+| No-change days | 44 |
 
 ### Machines over time
 
