@@ -1,15 +1,15 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-20** · 1,339 locations · `data/latest.json` · as of 20 Sept 2026, 16:23 UTC_
+_Snapshot: **2026-09-21** · 1,368 locations · `data/latest.json` · as of 21 Sept 2026, 16:27 UTC_
 
 ## Current snapshot
 
 | Metric | Value |
 | --- | --- |
-| Total locations | 1,339 |
-| Unique serials | 1,339 |
-| Unique postal codes | 1,293 |
-| Shared postal codes | 40 postcodes host 46 extra machines |
+| Total locations | 1,368 |
+| Unique serials | 1,368 |
+| Unique postal codes | 1,321 |
+| Shared postal codes | 41 postcodes host 47 extra machines |
 
 ### Status
 
@@ -28,30 +28,30 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1094
-    "FULL": 198
-    "ERROR": 23
-    "OFFLINE": 17
-    "MAINTENANCE": 4
-    "offline": 3
+    "RUNNING": 1174
+    "FULL": 143
+    "OFFLINE": 24
+    "ERROR": 19
+    "MAINTENANCE": 6
+    "offline": 2
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,094 | 81.7% |
-| FULL | 198 | 14.8% |
-| ERROR | 23 | 1.7% |
-| OFFLINE | 17 | 1.3% |
-| MAINTENANCE | 4 | 0.3% |
-| offline | 3 | 0.2% |
+| RUNNING | 1,174 | 85.8% |
+| FULL | 143 | 10.5% |
+| OFFLINE | 24 | 1.8% |
+| ERROR | 19 | 1.4% |
+| MAINTENANCE | 6 | 0.4% |
+| offline | 2 | 0.1% |
 
 ## Operation timing (opening hours)
 
 | Coverage | Machines | % |
 | --- | --- | --- |
-| 24 hours | 799 | 59.7% |
-| Limited hours | 237 | 17.7% |
-| Unknown | 303 | 22.6% |
+| 24 hours | 799 | 58.4% |
+| Limited hours | 237 | 17.3% |
+| Unknown | 332 | 24.3% |
 
 ### Hourly availability
 
@@ -93,37 +93,37 @@ xychart-beta
     title "Machines by postal district"
     x-axis ["D18", "D19", "D23", "D22", "D16", "D27", "D25", "D14", "D20", "D03", "D05", "D12", "D13", "D15", "D10", "D09", "D01", "D04", "D28", "D08", "D17", "D07", "D24", "D02", "D11", "D21", "D06", "D26"]
     y-axis "machines" 0 --> 199
-    bar [173, 158, 132, 109, 104, 97, 82, 67, 64, 50, 43, 40, 29, 29, 25, 19, 18, 16, 16, 13, 11, 9, 8, 7, 7, 7, 5, 1]
+    bar [173, 158, 134, 122, 104, 104, 88, 67, 64, 50, 44, 40, 29, 29, 25, 19, 18, 16, 16, 13, 11, 9, 8, 7, 7, 7, 5, 1]
 ```
 
 All postal sectors, with the Singapore postal district each belongs to:
 
 | Sector | Postal district | Area | Machines | % |
 | --- | --- | --- | --- | --- |
-| S52 | D18 | Pasir Ris, Tampines | 111 | 8.3% |
-| S73 | D25 | Admiralty, Woodlands, Kranji, Woodgrove | 79 | 5.9% |
-| S46 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 76 | 5.7% |
-| S76 | D27 | Yishun, Sembawang | 70 | 5.2% |
-| S51 | D18 | Pasir Ris, Tampines | 62 | 4.6% |
-| S64 | D22 | Boon Lay, Jurong, Tuas | 60 | 4.5% |
-| S82 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 59 | 4.4% |
-| S68 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 52 | 3.9% |
-| S53 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 49 | 3.7% |
-| S56 | D20 | Ang Mo Kio, Bishan, Thomson | 45 | 3.4% |
-| S67 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 43 | 3.2% |
-| S65 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 36 | 2.7% |
-| S54 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 33 | 2.5% |
-| S12 | D05 | Buona Vista, West Coast, Pasir Panjang, Clementi New Town | 30 | 2.2% |
-| S75 | D27 | Yishun, Sembawang | 27 | 2.0% |
-| S47 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 25 | 1.9% |
-| S60 | D22 | Boon Lay, Jurong, Tuas | 25 | 1.9% |
+| S52 | D18 | Pasir Ris, Tampines | 111 | 8.1% |
+| S73 | D25 | Admiralty, Woodlands, Kranji, Woodgrove | 85 | 6.2% |
+| S46 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 76 | 5.6% |
+| S76 | D27 | Yishun, Sembawang | 71 | 5.2% |
+| S64 | D22 | Boon Lay, Jurong, Tuas | 63 | 4.6% |
+| S51 | D18 | Pasir Ris, Tampines | 62 | 4.5% |
+| S82 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 59 | 4.3% |
+| S68 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 52 | 3.8% |
+| S53 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 49 | 3.6% |
+| S56 | D20 | Ang Mo Kio, Bishan, Thomson | 45 | 3.3% |
+| S67 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 43 | 3.1% |
+| S65 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 38 | 2.8% |
+| S60 | D22 | Boon Lay, Jurong, Tuas | 35 | 2.6% |
+| S54 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 33 | 2.4% |
+| S75 | D27 | Yishun, Sembawang | 33 | 2.4% |
+| S12 | D05 | Buona Vista, West Coast, Pasir Panjang, Clementi New Town | 31 | 2.3% |
+| S47 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 25 | 1.8% |
 | S31 | D12 | Balestier, Toa Payoh, Serangoon | 20 | 1.5% |
 | S40 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 20 | 1.5% |
 | S57 | D20 | Ang Mo Kio, Bishan, Thomson | 19 | 1.4% |
 | S15 | D03 | Alexandra, Commonwealth, Queenstown, Tiong Bahru | 18 | 1.3% |
 | S38 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 18 | 1.3% |
 | S39 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 18 | 1.3% |
-| S55 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 17 | 1.3% |
+| S55 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 17 | 1.2% |
 | S14 | D03 | Alexandra, Commonwealth, Queenstown, Tiong Bahru | 16 | 1.2% |
 | S16 | D03 | Alexandra, Commonwealth, Queenstown, Tiong Bahru | 16 | 1.2% |
 | S23 | D09 | Orchard, Cairnhill, River Valley | 16 | 1.2% |
@@ -177,7 +177,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S78 | D26 | Mandai, Upper Thomson, Springleaf | 1 | 0.1% |
 | S80 | D28 | Seletar, Yio Chu Kang | 1 | 0.1% |
 
-## History (166 snapshots · 2026-04-08 → 2026-09-20)
+## History (167 snapshots · 2026-04-08 → 2026-09-21)
 
 | Metric | Value |
 | --- | --- |
@@ -186,7 +186,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Net change | +270 |
 | Minimum | 1,069 (2026-04-08) |
 | Maximum | 1,341 (2026-09-09) |
-| Average | 1,161 |
+| Average | 1,162 |
 
 ### Totals across all days
 
@@ -195,7 +195,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Added | 456 |
 | Removed | 191 |
 | Changed | 12,151 |
-| No-change days | 44 |
+| No-change days | 45 |
 
 ### Machines over time
 

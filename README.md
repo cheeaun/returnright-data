@@ -26,6 +26,53 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-22</b> · 1,368 locations · +29 · ±1</summary>
+
+- Snapshot size: **1368** locations
+- Added: **29**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `SGRVM0129` 656B Jurong West Street 61, Singapore 642656 (postal: 642656, status: RUNNING)
+- `SGRVM0339` 341 Sembawang Close, Singapore 750341 (postal: 750341, status: FULL)
+- `SGRVM0392` 411 Sembawang Drive, Singapore 750411 (postal: 750411, status: RUNNING)
+- `SGRVM0419` 313 Sembawang Drive, Singapore 750313 (postal: 750313, status: RUNNING)
+- `SGRVM0432` 267A Toh Guan Rd, Singapore 601267 (postal: 601267, status: ERROR)
+- `SGRVM0437` 708 Clementi West Street 2, Singapore 120708 (postal: 120708, status: RUNNING)
+- `SGRVM0451` 808 Woodlands Street 81, Singapore 730808 (postal: 730808, status: RUNNING)
+- `SGRVM0452` 234 Jurong East Street 21, Singapore 600234 (postal: 600234, status: RUNNING)
+- `SGRVM0456` 625 Bukit Batok Central, Singapore 650625 (postal: 650625, status: RUNNING)
+- `SGRVM0459` 221A Jurong East Street 21, Singapore 601221 (postal: 601221, status: RUNNING)
+- `SGRVM0463` 521 Jurong West Street 52, Singapore 640521 (postal: 640521, status: RUNNING)
+- `SGRVM0465` 282A Toh Guan Rd, Singapore 601282 (postal: 601282, status: RUNNING)
+- `SGRVM0467` 260 Jurong East St 24, Singapore 600260 (postal: 600260, status: FULL)
+- `SGRVM0468` 378C Canberra Drive, Singapore 763378 (postal: 763378, status: RUNNING)
+- `SGRVM0472` 112 Jurong East Street 13, Singapore 600112 (postal: 600112, status: RUNNING)
+- `SGRVM0474` 204 Jurong East Street 21, Singapore 600204 (postal: 600204, status: RUNNING)
+- `SGRVM0475` 475 Sembawang Drive, Singapore 750475 (postal: 750475, status: RUNNING)
+- `SGRVM0477` 217 Bukit Batok Street 21, Singapore 650217 (postal: 650217, status: RUNNING)
+- `SGRVM0478` 102 Jurong East St 13, Singapore 600102 (postal: 600102, status: RUNNING)
+- `SGRVM0482` 286D Toh Guan Rd, Singapore 604286 (postal: 604286, status: RUNNING)
+- `SGRVM0484` 241 Jurong East Street 21, Singapore 600241 (postal: 600241, status: RUNNING)
+- `SGRVM0486` 661D Jurong West St 64, Singapore 644661 (postal: 644661, status: RUNNING)
+- `SGRVM0487` 129A Canberra Street, Singapore 751129 (postal: 751129, status: RUNNING)
+- `SGRVM0488` 818 Woodlands Street 82, Singapore 730818 (postal: 730818, status: RUNNING)
+- `SGRVM0490` 562C Champions Way, Singapore 733562 (postal: 733562, status: RUNNING)
+- `SGRVM0491` 326 Sembawang Crescent, Singapore 750326 (postal: 750326, status: RUNNING)
+- `SGRVM0504` 546 Woodlands Drive 16, Singapore 730546 (postal: 730546, status: RUNNING)
+- `SGRVM0544` 666 Woodlands Ring Road, 730666 (postal: 730666, status: RUNNING)
+- `SGRVM0546` 580 Woodlands Drive 16, Singapore 730580 (postal: 730580, status: RUNNING)
+
+Changed
+- `20254609113` Blk 899,Tampines Street 81
+  - address: Blk 899,Tampines Street 81, 521899 -> Blk 899,Tampines Street 81, 520899
+  - latitude: 1.346232 -> 1.346544
+  - longitude: 103.935209 -> 103.935476
+  - postalCode: 521899 -> 520899
+</details>
+
+<details>
 <summary><b>2026-09-21</b> · No changes</summary>
 
 No changes.
