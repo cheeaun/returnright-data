@@ -26,6 +26,12 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-23</b> · No changes</summary>
+
+No changes.
+</details>
+
+<details>
 <summary><b>2026-09-22</b> · 1,368 locations · +29 · ±1</summary>
 
 - Snapshot size: **1368** locations

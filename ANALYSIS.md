@@ -1,6 +1,6 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-21** · 1,368 locations · `data/latest.json` · as of 21 Sept 2026, 16:27 UTC_
+_Snapshot: **2026-09-22** · 1,368 locations · `data/latest.json` · as of 22 Sept 2026, 16:26 UTC_
 
 ## Current snapshot
 
@@ -28,21 +28,21 @@ config:
 ---
 pie showData
     title "Machines by status"
-    "RUNNING": 1174
-    "FULL": 143
+    "RUNNING": 1233
+    "FULL": 90
     "OFFLINE": 24
-    "ERROR": 19
-    "MAINTENANCE": 6
+    "ERROR": 15
+    "MAINTENANCE": 4
     "offline": 2
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,174 | 85.8% |
-| FULL | 143 | 10.5% |
+| RUNNING | 1,233 | 90.1% |
+| FULL | 90 | 6.6% |
 | OFFLINE | 24 | 1.8% |
-| ERROR | 19 | 1.4% |
-| MAINTENANCE | 6 | 0.4% |
+| ERROR | 15 | 1.1% |
+| MAINTENANCE | 4 | 0.3% |
 | offline | 2 | 0.1% |
 
 ## Operation timing (opening hours)
@@ -177,24 +177,24 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S78 | D26 | Mandai, Upper Thomson, Springleaf | 1 | 0.1% |
 | S80 | D28 | Seletar, Yio Chu Kang | 1 | 0.1% |
 
-## History (167 snapshots · 2026-04-08 → 2026-09-21)
+## History (168 snapshots · 2026-04-08 → 2026-09-22)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,339 |
-| Net change | +270 |
+| Current snapshot | 1,368 |
+| Net change | +299 |
 | Minimum | 1,069 (2026-04-08) |
-| Maximum | 1,341 (2026-09-09) |
-| Average | 1,162 |
+| Maximum | 1,368 (2026-09-22) |
+| Average | 1,164 |
 
 ### Totals across all days
 
 | Metric | Total |
 | --- | --- |
-| Added | 456 |
+| Added | 485 |
 | Removed | 191 |
-| Changed | 12,151 |
+| Changed | 12,152 |
 | No-change days | 45 |
 
 ### Machines over time
@@ -209,8 +209,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
-    y-axis "machines" 0 --> 1540
-    line [1069, 1090, 1152, 1206, 1283, 1339]
+    y-axis "machines" 0 --> 1574
+    line [1069, 1090, 1152, 1206, 1283, 1368]
 ```
 
 ### Monthly change
@@ -225,8 +225,8 @@ config:
 xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"]
-    y-axis "machines" 0 --> 87
-    bar [0, 20, 62, 43, 75, 56]
+    y-axis "machines" 0 --> 98
+    bar [0, 20, 62, 43, 75, 85]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -236,7 +236,7 @@ xychart-beta
 | 2026-06 | 1,090 → 1,152 | 63 | 1 | +62 |
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
 | 2026-08 | 1,208 → 1,283 | 168 | 91 | +75 |
-| 2026-09 | 1,283 → 1,339 | 105 | 49 | +56 |
+| 2026-09 | 1,283 → 1,368 | 134 | 49 | +85 |
 
 ### Most active days
 
@@ -245,8 +245,8 @@ xychart-beta
 | 2026-09-10 | 2 | 36 | 1,305 | 1,307 |
 | 2026-09-09 | 35 | 0 | 1,306 | 1,341 |
 | 2026-08-14 | 32 | 0 | 4 | 1,246 |
+| 2026-09-22 | 29 | 0 | 1 | 1,368 |
 | 2026-08-16 | 21 | 5 | 1 | 1,237 |
-| 2026-08-15 | 0 | 25 | 8 | 1,221 |
 
 **Retention:** 98.5% of the first snapshot's machines are still present (1053/1,069).
 
