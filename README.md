@@ -26,6 +26,23 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-24</b> · 1,368 locations · ±2</summary>
+
+- Snapshot size: **1368** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **2**
+
+Changed
+- `20254909884` Giant Loyang Point
+  - latitude: 1.372891 -> 1.366580
+  - longitude: 103.962990 -> 103.964452
+- `SGRVM0025` 625 Choa Chu Kang Street 62
+  - latitude: 1.398201 -> 1.398620
+  - longitude: 103.747114 -> 103.746039
+</details>
+
+<details>
 <summary><b>2026-09-23</b> · No changes</summary>
 
 No changes.
