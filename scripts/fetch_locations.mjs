@@ -18,14 +18,36 @@ function baseHeaders(extra = {}) {
   };
 }
 
+async function throwHttp(url, context, response) {
+  const server = response.headers.get("server") ?? "?";
+  const contentType = response.headers.get("content-type") ?? "?";
+  const body = (await response.text()).slice(0, 500);
+  throw new Error(
+    `${context} failed: ${url} -> HTTP ${response.status} ${response.statusText} (server=${server}, content-type=${contentType}) body=${body}`,
+  );
+}
+
+async function readJson(url, context, response) {
+  const text = await response.text();
+  try {
+    return JSON.parse(text);
+  } catch {
+    const server = response.headers.get("server") ?? "?";
+    throw new Error(
+      `${context} returned non-JSON: ${url} -> HTTP ${response.status} (server=${server}) body=${text.slice(0, 500)}`,
+    );
+  }
+}
+
 async function fetchMapToken() {
-  const response = await fetch(locationsUrl("/access-token"), {
+  const url = locationsUrl("/access-token");
+  const response = await fetch(url, {
     headers: baseHeaders(),
   });
   if (!response.ok) {
-    throw new Error(`Token HTTP ${response.status} ${response.statusText}`);
+    await throwHttp(url, "token request", response);
   }
-  const body = await response.json();
+  const body = await readJson(url, "token request", response);
   const token = body?.data?.token;
   if (!token) {
     throw new Error(`Token response missing data.token: ${JSON.stringify(body).slice(0, 200)}`);
@@ -59,9 +81,9 @@ async function fetchLocations(token) {
     headers: baseHeaders({ "x-bcrs-map-token": token }),
   });
   if (!response.ok) {
-    throw new Error(`HTTP ${response.status} ${response.statusText} for ${url}`);
+    await throwHttp(url, "locations request", response);
   }
-  const body = await response.json();
+  const body = await readJson(url, "locations request", response);
   if (!Array.isArray(body?.data)) {
     throw new Error(`Unexpected body for ${url}: ${JSON.stringify(body).slice(0, 200)}`);
   }
@@ -73,7 +95,8 @@ async function fetchLocationsResilient() {
   let token = await fetchMapToken();
   try {
     return await fetchLocations(token);
-  } catch {
+  } catch (error) {
+    console.error(`Locations attempt 1 failed (${error.message}), refreshing token and retrying...`);
     token = await fetchMapToken();
     return await fetchLocations(token);
   }
@@ -96,6 +119,6 @@ async function main() {
 }
 
 main().catch((error) => {
-  console.error(`Failed to fetch API: ${error.message}`);
+  console.error(`[${new Date().toISOString()}] Failed to fetch API: ${error.stack ?? error.message}`);
   process.exit(1);
 });
