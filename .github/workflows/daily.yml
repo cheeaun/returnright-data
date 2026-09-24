@@ -32,8 +32,8 @@ jobs:
       - name: Check if today's snapshot is already done
         id: already_done
         run: |
-          if [ "${{ github.event_name }}" != "schedule" ]; then
-            echo "Not a scheduled run, never skip."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run, never skip."
             echo "skip=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
