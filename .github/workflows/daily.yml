@@ -5,7 +5,10 @@ on:
     paths:
       - "scripts/fetch_locations.mjs"
   schedule:
-    - cron: "15 16 * * *"
+    # GitHub cron is UTC. SGT = UTC+8.
+    - cron: "15 16 * * *" # 00:15 SGT — attempt 1
+    - cron: "15 17 * * *" # 01:15 SGT — retry 1
+    - cron: "15 18 * * *" # 02:15 SGT — retry 2
   workflow_dispatch:
 
 permissions:
@@ -16,7 +19,39 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  precheck:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.already_done.outputs.skip }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Check if today's snapshot is already done
+        id: already_done
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "Not a scheduled run, never skip."
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          TODAY=$(date +%F)
+          LAST=$(git log -1 --format=%cs -- data/latest.json || true)
+          echo "today=$TODAY last_snapshot=$LAST"
+          if [ "$LAST" = "$TODAY" ]; then
+            echo "Today's snapshot already committed, skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          TZ: Asia/Singapore
+
   fetch:
+    needs: precheck
+    if: needs.precheck.outputs.skip != 'true'
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Singapore
