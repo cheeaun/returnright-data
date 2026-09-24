@@ -7,6 +7,7 @@ Daily snapshots of the BCRS locations API in Singapore.
 - Fetches `https://returnright.sg/px-api/locations` once per day (token + one list request).
 - Saves the raw JSON response to [`data/latest.json`](./data/latest.json), overwriting the previous day's file — the full history lives in the git history of that file.
 - Generates [`data/latest.geojson`](./data/latest.geojson) from the newest snapshot.
+- Generates [`data/latest.csv`](./data/latest.csv) from the newest snapshot (import into Excel/Sheets or Google My Maps).
 - Generates [`ANALYSIS.md`](./ANALYSIS.md) — a snapshot analysis report with mermaid charts covering status, suppliers, opening hours, postal districts, rollout, and history.
 - Compares each snapshot with the previous one to track added, removed, and changed locations.
 - Rebuilds the changelog in this README from the snapshot history in git.
@@ -17,6 +18,7 @@ Daily snapshots of the BCRS locations API in Singapore.
 node scripts/fetch_locations.mjs
 node scripts/regenerate_changelog.mjs --today
 node scripts/generate_geojson.mjs
+node scripts/generate_csv.mjs
 node scripts/analyze_data.mjs --md
 ```
 

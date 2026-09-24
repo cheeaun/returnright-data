@@ -76,6 +76,9 @@ jobs:
       - name: Generate latest GeoJSON
         run: node scripts/generate_geojson.mjs
 
+      - name: Generate latest CSV
+        run: node scripts/generate_csv.mjs
+
       - name: Generate analysis report
         run: node scripts/analyze_data.mjs --md
 
