@@ -28,6 +28,148 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-26</b> · 1,374 locations · +6 · ±61</summary>
+
+- Snapshot size: **1374** locations
+- Added: **6**
+- Removed: **0**
+- Changed: **61**
+
+Added
+- `B5D61040` Block 231 Compassvale Walk (postal: 540231, status: RUNNING)
+- `B5D61059` Block 116B Rivervale Drive (postal: 542116, status: RUNNING)
+- `B5D61064` Block 308C Anchorvale Road (postal: 543308, status: RUNNING)
+- `B5D61069` Block 313C Anchorvale Road (postal: 543313, status: ERROR)
+- `B5D61071` Block 117B Rivervale Drive (postal: 542117, status: RUNNING)
+- `B5D61089` Block 201B Compassvale Drive (postal: 542201, status: RUNNING)
+
+Changed
+- `20254909881` Giant Simei MRT
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 106 Simei Street 1; FairPrice East Point, #05-01; Blk 108 Simei Street 1. Check their status before heading over.
+- `20254909889` Lion City Supermarket Geylang Road
+  - rvm_remarks: null -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Sheng Siong, 301 Geylang Road (BCH Building) and SCARLETT, 317/319 Geylang Road. Check their status before heading over.
+- `20255010220` FairPrice Changi Airport T3
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Changi Airport Terminal 2. Check its status before heading over.
+- `20255010445` FairPrice Bedok Mall
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Prime Supermarket Blk 25A Chai Chee Rd, #01-459; FairPrice Blk 29B Chai Chee Ave, #01-62; Blk 61 Chai Chee Road; Blk 63 Chai Chee Road. Check their status before heading over.
+- `20255010454` Giant Kampung Ubi Avenue 1
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 319 Ubi Avenue 1; Blk 358B Ubi Road 3; Blk 637 Bedok Reservoir Road. Check their status before heading over.
+- `B5052358` FairPrice Havelock Road
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Beo Crescent Market, 38A Beo Crescent. Check its status before heading over.
+- `B5052361` Giant Ang Mo Kio Avenue 10
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Block 536 Ang Mo Kio Ave 10. Check its status before heading over.
+- `B5052366` Block 261 Waterloo Street
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Cheng Yan Court - 269 Queen Street; Nanyang Academy of Fine Arts; SCARLETT@BUGIS+. Check their status before heading over.
+- `B5052368` Don Don Donki (Orchard Central)
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Finest The Centrepoint, #B1-09/10 and FairPrice Finest 111 Somerset, #01-01/02, #01-21/30. Check their status before heading over.
+- `B5052472` FairPrice Tanjong Pagar
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Don Don Donki, 100AM. Check its status before heading over.
+- `B5052473` FairPrice Xtra VivoCity
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Marks & Spencer VivoCity, #01-46. Check its status before heading over.
+- `B5052486` FairPrice Serangoon North Ave 1
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is 526 Serangoon North Ave 4. Check its status before heading over.
+- `B5052563` FairPrice Blk 227 Compassvale Link
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are SHENG SIONG Blk 266, #01-02 and FairPrice Finest Sengkang Grand, #B1-14. Check their status before heading over.
+- `B5052565` Cold Storage Great World City
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Meidi-Ya, Great World City, #B2-111 to 121. Check its status before heading over.
+- `B5052634` FairPrice Kang Kar Mall
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Hougang Mall, #B1-07 and Blk 466 Hougang Avenue 8. Check their status before heading over.
+- `B5052635` FairPrice Seletar Mall
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Block 406C Fernvale Road; Block 410A Fernvale Rd; Block 433B Sengkang West Way. Check their status before heading over.
+- `B5052932` 11 Telok Blangah Crescent Market and Food Centre
+  - rvm_remarks: null -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are GIANT Telok Blangah Crescent, Blk 8 Telok Blangah Crescent, #01-171 and Blk 20 Telok Blangah Crescent. Check their status before heading over.
+- `B5052935` Tiong Bahru Market
+  - rvm_remarks: null -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Block 8 Jalan Bukit Ho Swee. Check its status before heading over.
+- `B5052937` SHENG SIONG THOMSON IMPERIAL COURT
+  - latitude: null -> 1.351676
+  - longitude: null -> 103.836111
+- `B5481015` FairPrice Rivervale Plaza
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Block 117B Rivervale Drive and Block 116B Rivervale Drive. Check their status before heading over.
+- `B5481045` FairPrice 682 Hougang Avenue 4
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 698B Hougang St 61 and Blk 658 Hougang Avenue 8. Check their status before heading over.
+- `B5481046` FairPrice Orchard Grand Court
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is FairPrice Finest 111 Somerset. Check its status before heading over.
+- `B5481048` FairPrice Finest Tiong Bahru Plaza
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Don Don Donki, Tiong Bahru Plaza, #03-115 and Blk 19 Jalan Membina. Check their status before heading over.
+- `B5481055` FairPrice Nex Mall
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Cold Storage, NEX, #B2-44/45; SCARLETT, NEX, #04-12; Giant, Blk 266 Serangoon Central Drive. Check their status before heading over.
+- `B5481063` Prime Supermarket Toa Payoh Lorong 7
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Block 232 Lorong 8 Toa Payoh and SHENG SIONG BLK 4 TOA PAYOH LORONG 7. Check their status before heading over.
+- `B5481102` FairPrice AMK Hub
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Blk 712 Ang Mo Kio Avenue 6 and SCARLETT@Blk 710A, Ang Mo Kio Ave 8, #01-2625. Check their status before heading over.
+- `B5481110` FairPrice City Square Mall
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Don Don Donki, City Square Mall, #B2-05/18 and MUSTAFA, 145 Syed Alwi Road. Check their status before heading over.
+- `B5481160` FairPrice French Road
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Cold Storage Aperia, #01-47/51 and Thai Supermarket Aperia, #01-20. Check their status before heading over.
+- `B5481200` Tekka Centre / Zhu Jiao Market
+  - rvm_remarks: null -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Lasalle College of the Arts and Block 9 Selegie Road. Check their status before heading over.
+- `B5481214` Blk 6 Tanjong Pagar Plaza Market and Food Centre
+  - rvm_remarks: null -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Don Don Donki, 100AM and Blk 8 Tanjong Pagar Plaza. Check their status before heading over.
+- `B5481233` Lau Pa Sat Hawker Centre
+  - rvm_remarks: null -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Cold Storage Marina Bay Link Mall. Check its status before heading over.
+- `B9051004` FairPrice Woodleigh Mall
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Block 206A Woodleigh Link and SHENG SIONG ALKAFF CRESCENT. Check their status before heading over.
+- `B9051013` Block 1 Lorong Lew Lian
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Cold Storage Serangoon Nex and SCARLETT@NEX. Check their status before heading over.
+- `B9481022` Block 22 Saint George's Road
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Prime Supermarket Jalan Tenteram. Check its status before heading over.
+- `B9481028` SHENG SIONG BLK 455 SENGKANG WEST AVE 5 
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Block 400C Fernvale Ln and Block 461A Sengkang West Way. Check their status before heading over.
+- `B9481038` 672A Klang Lane - Little India
+  - rvm_remarks: null -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Little India Rowell, Blk 641 Rowell Road; All India Supermart, 41 Norris Road; MUSTAFA, 145 Syed Alwi Road. Check their status before heading over.
+- `SGRVM0002` 297C Choa Chu Kang Ave 2
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 274 Choa Chu Kang Ave 2 and Blk 290 Choa Chu Kang Ave 3. Check their status before heading over.
+- `SGRVM0034` 214 Jurong East Street 21
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are 234 Jurong East Street 21; 221A Jurong East Street 21; 112 Jurong East Street 13. Check their status before heading over.
+- `SGRVM0057` 818B Choa Chu Kang Ave 1
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Blk 808B Choa Chu Kang Ave 1. Check its status before heading over.
+- `SGRVM0077` Prime Supermarket 678A Woodlands Avenue 6
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Kampung Admiralty, Blk 676 Woodlands Drive 71 and GIANT Admiralty MRT, Blk 70 Woodlands Ave 7. Check their status before heading over.
+- `SGRVM0111` FairPrice Blk 849 Yishun Ring Road
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are GIANT Khatib MRT and Blk 627 Yishun Street 61. Check their status before heading over.
+- `SGRVM0123` FairPrice Northpoint City
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Yishun MRT, #01-02 and Don Don Donki, Northpoint City, #B1-06/07. Check their status before heading over.
+- `SGRVM0126` FairPrice Lot 1
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 219 Choa Chu Kang Central; Blk 340 Choa Chu Kang Loop; Blk 432 Choa Chu Kang Ave 4. Check their status before heading over.
+- `SGRVM0134` FairPrice Jurong Point
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Don Don Donki (Jurong Point), #B1-09 and Blk 689 Jurong West Central 1. Check their status before heading over.
+- `SGRVM0135` FairPrice Hillion Mall
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Redman by Phoon Huat; 167 Petir Rd; Don Don Donki (Bukit Panjang Plaza). Check their status before heading over.
+- `SGRVM0156` FairPrice Woodgrove
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is 336 Woodlands Ave 1. Check its status before heading over.
+- `SGRVM0161` Chap He Diam Migrant Worker's Recreation Centre
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is 656B Jurong West Street 61. Check its status before heading over.
+- `SGRVM0171` FairPrice Woodlands Civic Centre
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are 370 Woodlands Ave 1; 513 Woodlands Drive 14; 354 Woodlands Ave 1. Check their status before heading over.
+- `SGRVM0173` FairPrice Senja Grand
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Senja Hawker Centre, 2 Senja Close. Check its status before heading over.
+- `SGRVM0200` FairPrice Sun Plaza
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Blk 355 Sembawang Way and Blk 341 Sembawang Close. Check their status before heading over.
+- `SGRVM0226` FairPrice 888 Plaza
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 708 Woodlands Drive 70; Blk 666 Woodlands Ring Road; Blk 897A Woodlands Drive 50. Check their status before heading over.
+- `SGRVM0227` 359 Yung An Rd
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 184 Yung Sheng Rd and Blk 337B Tah Ching Rd. Check their status before heading over.
+- `SGRVM0239` FairPrice Taman Jurong Shopping Centre
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Blk 184 Yung Sheng Rd. Check its status before heading over.
+- `SGRVM0282` FairPrice Blk 135 Jurong Gateway Road
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are SCARLETT@WESTGATE, #B2-01; Blk 102 Jurong East St 13; Don Don Donki JEM, #02-24/26 & #03-27/29. Check their status before heading over.
+- `SGRVM0356` U STARS @817 Keat Hong Link
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 112 Teck Whye Lane and Blk 234 Choa Chu Kang Central. Check their status before heading over.
+- `SGRVM0363` FairPrice JEM
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are SCARLETT@WESTGATE, #B2-01 and Don Don Donki JEM, #02-24/26 & #03-27/29. Check their status before heading over.
+- `SGRVM0374` FairPrice 451 Clementi Avenue 3
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 454 Clementi Ave 3; Blk 445 Clementi Ave 3; SCARLETT, Grantral Mall, #02-11/12. Check their status before heading over.
+- `SGRVM0376` Prime Supermarket Blk 253 Choa Chu Kang
+  - rvm_remarks: "" -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 274 Choa Chu Kang Ave 2 and Blk 808B Choa Chu Kang Ave 1. Check their status before heading over.
+- `SGRVM0414` FairPrice 289A Toh Guan
+  - rvm_remarks: null -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 288C Jurong East Street 21; Blk 286D Toh Guan Rd; Blk 282A Toh Guan Rd; Blk 267A Toh Guan Rd. Check their status before heading over.
+- `SGRVM0417` SHENG SIONG BLK 845 YISHUN ST 81
+  - rvm_remarks: null -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are GIANT Khatib MRT, 201 Yishun Ave 2, #01-03 and Blk 821 Yishun Street 81. Check their status before heading over.
+- `SGRVM0426` 601 Jurong West Street 62
+  - rvm_remarks: null -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 667C Jurong West Street 65; Blk 625 Jurong West Street 61; Blk 664D Jurong West Street 64. Check their status before heading over.
+</details>
+
+<details>
 <summary><b>2026-09-25</b> · No changes</summary>
 
 No changes.
