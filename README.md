@@ -28,6 +28,20 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-27</b> · 1,374 locations · ±1</summary>
+
+- Snapshot size: **1374** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **1**
+
+Changed
+- `B5481102` FairPrice AMK Hub
+  - latitude: 1.369000 -> 1.369570
+  - longitude: 103.848100 -> 103.848585
+</details>
+
+<details>
 <summary><b>2026-09-26</b> · 1,374 locations · +6 · ±61</summary>
 
 - Snapshot size: **1374** locations
