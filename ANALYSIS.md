@@ -1,6 +1,10 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-26** · 1,374 locations · `data/latest.json` · as of 26 Sept 2026, 16:25 UTC_
+_Snapshot: **2026-09-27** · 1,374 locations · `data/latest.json` · as of 27 Sept 2026, 02:20 UTC_
+
+## Summary
+
+The network contains 1,374 locations across 1,327 postal codes. 81.1% are RUNNING. The network has grown by 305 locations (28.5%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (85), S46 (76).
 
 ## Current snapshot
 
@@ -8,10 +12,12 @@ _Snapshot: **2026-09-26** · 1,374 locations · `data/latest.json` · as of 26 S
 | --- | --- |
 | Total locations | 1,374 |
 | Unique serials | 1,374 |
+| Serial records | 1,374 |
+| Duplicate serial records | 0 |
 | Unique postal codes | 1,327 |
 | Shared postal codes | 41 postcodes host 47 extra machines |
 
-### Status
+### Status distribution
 
 ```mermaid
 ---
@@ -27,13 +33,12 @@ config:
     pie8: "#999999"
 ---
 pie showData
-    title "Machines by status"
+    title "Machines by status — current snapshot (1,374)"
     "RUNNING": 1114
     "FULL": 196
     "ERROR": 40
-    "OFFLINE": 15
+    "OFFLINE": 17
     "MAINTENANCE": 6
-    "offline": 2
     "CLEANING": 1
 ```
 
@@ -42,16 +47,17 @@ pie showData
 | RUNNING | 1,114 | 81.1% |
 | FULL | 196 | 14.3% |
 | ERROR | 40 | 2.9% |
-| OFFLINE | 15 | 1.1% |
+| OFFLINE | 17 | 1.2% |
 | MAINTENANCE | 6 | 0.4% |
-| offline | 2 | 0.1% |
 | CLEANING | 1 | 0.1% |
+
+_Status values are normalized to uppercase for reporting._
 
 ## Operation timing (opening hours)
 
 | Coverage | Machines | % |
 | --- | --- | --- |
-| 24 hours | 799 | 58.2% |
+| 24-hour | 799 | 58.2% |
 | Limited hours | 237 | 17.2% |
 | Unknown | 338 | 24.6% |
 
@@ -67,7 +73,7 @@ config:
     width: 900
 ---
 xychart-beta
-    title "Average machines operating (2-hour buckets)"
+    title "Average machines operating (2-hour buckets) — current snapshot (1,374)"
     x-axis ["00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00"]
     y-axis "machines" 0 --> 1192
     line [799, 799, 802, 850, 991, 1033, 1036, 1036, 1036, 1036, 1034, 988]
@@ -92,11 +98,21 @@ config:
     plotReservedSpacePercent: 40
 ---
 xychart-beta
-    title "Machines by postal district"
+    title "Machines by postal district — current snapshot (1,374)"
     x-axis ["D18", "D19", "D23", "D22", "D16", "D27", "D25", "D14", "D20", "D03", "D05", "D12", "D13", "D15", "D10", "D09", "D01", "D04", "D28", "D08", "D17", "D07", "D24", "D02", "D11", "D21", "D06", "D26"]
     y-axis "machines" 0 --> 199
     bar [173, 164, 134, 122, 104, 104, 88, 67, 64, 50, 44, 40, 29, 29, 25, 19, 18, 16, 16, 13, 11, 9, 8, 7, 7, 7, 5, 1]
 ```
+
+### Top sectors
+
+| Sector | Postal district | Area | Machines | % |
+| --- | --- | --- | --- | --- |
+| S52 | D18 | Pasir Ris, Tampines | 111 | 8.1% |
+| S73 | D25 | Admiralty, Woodlands, Kranji, Woodgrove | 85 | 6.2% |
+| S46 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 76 | 5.5% |
+| S76 | D27 | Yishun, Sembawang | 71 | 5.2% |
+| S64 | D22 | Boon Lay, Jurong, Tuas | 63 | 4.6% |
 
 All postal sectors, with the Singapore postal district each belongs to:
 
@@ -179,16 +195,45 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S78 | D26 | Mandai, Upper Thomson, Springleaf | 1 | 0.1% |
 | S80 | D28 | Seletar, Yio Chu Kang | 1 | 0.1% |
 
-## History (172 snapshots · 2026-04-08 → 2026-09-26)
+### Concentration
+
+| Metric | Value |
+| --- | --- |
+| Top 5 postal sectors | 406 (29.5%) |
+| Top 10 postal sectors | 673 (49.0%) |
+| Largest postal district | **D18** — 173 (12.6%) |
+| Largest postcode | **698924** — 4 |
+| Average machines per postal code | 1.04 |
+
+## Data quality
+
+| Metric | Count |
+| --- | --- |
+| Missing IDs | 0 |
+| Duplicate IDs | 0 |
+| Missing serial numbers | 0 |
+| Duplicate serial records | 0 |
+| Missing postal codes | 0 |
+| Unknown statuses | 0 |
+| Unknown opening hours | 338 |
+| Unmapped postal sectors | 0 |
+
+## History (173 snapshots · 2026-04-08 → 2026-09-27)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
 | Current snapshot | 1,374 |
 | Net change | +305 |
+| Growth since first snapshot | 28.5% |
+| Average net change | 1.76 locations per snapshot |
+| Average locations per snapshot | 1,170 |
+| Gross churn | 63.8% |
 | Minimum | 1,069 (2026-04-08) |
 | Maximum | 1,374 (2026-09-26) |
-| Average | 1,168 |
+
+- Best month: **2026-09 (+91)**
+- Largest removal month: **2026-08 (−91 removed)**
 
 ### Totals across all days
 
@@ -196,7 +241,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | --- | --- |
 | Added | 491 |
 | Removed | 191 |
-| Changed | 12,522 |
+| Changed | 12,523 |
 | No-change days | 47 |
 
 ### Machines over time
@@ -245,12 +290,20 @@ xychart-beta
 | Date | Added | Removed | Changed | Locations |
 | --- | --- | --- | --- | --- |
 | 2026-09-10 | 2 | 36 | 1,305 | 1,307 |
+| 2026-09-15 | 2 | 8 | 1,332 | 1,334 |
 | 2026-09-09 | 35 | 0 | 1,306 | 1,341 |
-| 2026-08-14 | 32 | 0 | 4 | 1,246 |
-| 2026-09-22 | 29 | 0 | 1 | 1,368 |
-| 2026-08-16 | 21 | 5 | 1 | 1,237 |
+| 2026-09-14 | 18 | 0 | 1,322 | 1,340 |
+| 2026-09-16 | 1 | 0 | 1,334 | 1,335 |
 
 **Retention:** 98.5% of the first snapshot's machines are still present (1053/1,069).
+
+## Methodology
+
+- Current metrics are calculated from `data/latest.json`.
+- Historical metrics use commits matching `Update snapshot for YYYY-MM-DD`.
+- A location is counted as one record with an `id`.
+- Postal sectors are derived from the first two digits of the postal code.
+- Status values are normalized to uppercase.
 
 ---
 

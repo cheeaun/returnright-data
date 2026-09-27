@@ -75,9 +75,15 @@ function toMinutes(hour, minute, ampm) {
 }
 
 function fmtClock(minutes) {
+  if (minutes == null || !Number.isFinite(minutes)) return "—";
   const h = Math.floor(minutes / 60);
   const m = minutes % 60;
   return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
+}
+
+function normalizedStatus(value) {
+  const status = String(value || "").trim().toUpperCase();
+  return status || "(unknown)";
 }
 
 function expandDays(part) {
@@ -213,10 +219,10 @@ function hoursAnalysis(items) {
 
   const opens = allIntervals.map(([start]) => start);
   const closes = allIntervals.map(([, end]) => end);
-  const typicalStart = modeOf(opens);
-  const typicalEnd = modeOf(closes);
-  const earliestOpen = Math.min(...opens);
-  const latestClose = Math.max(...closes);
+  const typicalStart = opens.length ? modeOf(opens) : null;
+  const typicalEnd = closes.length ? modeOf(closes) : null;
+  const earliestOpen = opens.length ? Math.min(...opens) : null;
+  const latestClose = closes.length ? Math.max(...closes) : null;
 
   return {
     open24,
@@ -336,6 +342,39 @@ function signed(n) {
   return n > 0 ? `+${n}` : `${n}`;
 }
 
+function pctOfRatio(ratio) {
+  return `${(Number(ratio) * 100).toFixed(1)}%`;
+}
+
+function summary(current, history) {
+  const topSectors = current.districts
+    .filter(({ sector }) => sector !== "(none)")
+    .slice(0, 3)
+    .map(({ sector, count }) => `${sector} (${fmt(count)})`)
+    .join(", ");
+
+  return [
+    `The network contains ${fmt(current.total)} locations across ${fmt(current.postalCodes)} postal codes.`,
+    `${pct(current.status.find(([label]) => label === "RUNNING")?.[1] ?? 0, current.total)} are RUNNING.`,
+    `The network has grown by ${fmt(history.netChange)} locations (${pctOfRatio(history.growthPct)}) since ${history.firstDate}.`,
+    `The largest postal sectors are ${topSectors}.`,
+  ].join(" ");
+}
+
+function dataQualityRows(current) {
+  const q = current.dataQuality;
+  return [
+    ["Missing IDs", fmt(q.missingIds)],
+    ["Duplicate IDs", fmt(q.duplicateIds)],
+    ["Missing serial numbers", fmt(q.missingSerials)],
+    ["Duplicate serial records", fmt(q.duplicateSerials)],
+    ["Missing postal codes", fmt(q.missingPostalCodes)],
+    ["Unknown statuses", fmt(q.unknownStatuses)],
+    ["Unknown opening hours", fmt(q.unknownHours)],
+    ["Unmapped postal sectors", fmt(q.unmappedSectors)],
+  ];
+}
+
 function hasAny(items, key) {
   return items.some((item) => item[key] !== undefined && item[key] !== null && item[key] !== "");
 }
@@ -344,8 +383,8 @@ function describeMachine(item) {
   return {
     id: item.id,
     name: item.locationName || "Unnamed location",
-    postal: item.postalCode || "n/a",
-    status: item.status || "n/a",
+    postal: item.postalCode || "—",
+    status: normalizedStatus(item.status),
     createdAt: item.createdAt,
   };
 }
@@ -406,7 +445,7 @@ function currentAnalysis(current, asOfMs) {
       )
     : [];
 
-  const status = countBy(items, (item) => item.status || "(unknown)").sort((a, b) => b[1] - a[1]);
+  const status = countBy(items, (item) => normalizedStatus(item.status)).sort((a, b) => b[1] - a[1]);
   const statuses = status.map(([label]) => label);
 
   const suppliers = hasSupplier
@@ -418,7 +457,7 @@ function currentAnalysis(current, asOfMs) {
         const group = items.filter((item) => (item.supplierId || "(none)") === supplier);
         const row = { supplier };
         for (const s of statuses) {
-          row[s] = group.filter((item) => (item.status || "(unknown)") === s).length;
+          row[s] = group.filter((item) => normalizedStatus(item.status) === s).length;
         }
         row.total = group.length;
         return row;
@@ -440,10 +479,38 @@ function currentAnalysis(current, asOfMs) {
         .map(describeMachine)
     : [];
 
+  const serialValues = items.map((item) => item.serialNumber).filter(Boolean);
+  const uniqueSerials = new Set(serialValues);
+  const duplicateSerials = serialValues.length - uniqueSerials.size;
+
+  const idValues = items.map((item) => item.id).filter((id) => id != null && id !== "");
+  const uniqueIds = new Set(idValues);
+  const duplicateIds = idValues.length - uniqueIds.size;
+  const missingIds = items.length - idValues.length;
+  const missingSerials = items.length - serialValues.length;
+  const missingPostalCodes = items.filter((item) => !item.postalCode).length;
+  const unknownStatuses = items.filter((item) => !String(item.status || "").trim()).length;
+  const unknownHours = items.filter((item) => !(item.rvmOpeningHours || "").trim()).length;
+  const unmappedSectors = districts.filter(({ district }) => district === "—").length;
+
+  const mappedPostal = byPostal.filter(([key]) => key !== "(none)");
+  const largestPostcode = mappedPostal.slice().sort((a, b) => b[1] - a[1])[0] || null;
+  const topFiveCount = districts
+    .filter(({ sector }) => sector !== "(none)")
+    .slice(0, 5)
+    .reduce((sum, { count }) => sum + count, 0);
+  const topTenCount = districts
+    .filter(({ sector }) => sector !== "(none)")
+    .slice(0, 10)
+    .reduce((sum, { count }) => sum + count, 0);
+  const largestDistrict = districtAggregate[0] || null;
+
   return {
     total: items.length,
-    serials: items.filter((item) => item.serialNumber).length,
-    postalCodes: byPostal.filter(([key]) => key !== "(none)").length,
+    serials: uniqueSerials.size,
+    serialRecords: serialValues.length,
+    duplicateSerials,
+    postalCodes: mappedPostal.length,
     sharedPostalCodes: shared.length,
     extraMachines,
     status,
@@ -454,6 +521,30 @@ function currentAnalysis(current, asOfMs) {
     hoursDetail: hoursAnalysis(items),
     districts,
     districtAggregate,
+    concentration: {
+      topFiveCount,
+      topFivePct: items.length ? topFiveCount / items.length : 0,
+      topTenCount,
+      topTenPct: items.length ? topTenCount / items.length : 0,
+      largestDistrict: largestDistrict
+        ? { district: largestDistrict[0], count: largestDistrict[1] }
+        : null,
+      largestDistrictPct: largestDistrict && items.length ? largestDistrict[1] / items.length : 0,
+      largestPostcode: largestPostcode
+        ? { postalCode: largestPostcode[0], count: largestPostcode[1] }
+        : null,
+      avgPerPostalCode: mappedPostal.length ? items.length / mappedPostal.length : 0,
+    },
+    dataQuality: {
+      missingIds,
+      duplicateIds,
+      missingSerials,
+      duplicateSerials,
+      missingPostalCodes,
+      unknownStatuses,
+      unknownHours,
+      unmappedSectors,
+    },
     rollout,
     statusBySupplier,
     newest,
@@ -510,13 +601,40 @@ function historyAnalysis(snapshots, entries) {
 
   const mostActive = entries
     .slice()
-    .sort((a, b) => b.diff.added + b.diff.removed - (a.diff.added + a.diff.removed))
+    .sort(
+      (a, b) =>
+        b.diff.added +
+        b.diff.removed +
+        b.diff.changed -
+        (a.diff.added + a.diff.removed + a.diff.changed),
+    )
     .slice(0, MOST_ACTIVE_LIMIT)
     .map(({ date, count, diff }) => ({ date, count, ...diff }));
 
   const firstIds = new Set(Object.keys(first.byId));
   const lastIds = new Set(Object.keys(last.byId));
   const retained = [...firstIds].filter((id) => lastIds.has(id)).length;
+
+  const growthPct = first.count ? (last.count - first.count) / first.count : 0;
+  const avgDailyNetChange = entries.length ? (last.count - first.count) / entries.length : 0;
+  const avgPerSnapshot = average;
+  const grossChurn = first.count ? (totals.added + totals.removed) / first.count : 0;
+  const monthlyValues = [...monthly.values()];
+  const bestMonth = monthlyValues.reduce(
+    (best, m) => {
+      const net = m.end - m.start;
+      return !best || net > best.net ? { month: m.month, net, added: m.added, removed: m.removed } : best;
+    },
+    null,
+  );
+  const worstMonth = monthlyValues.reduce(
+    (worst, m) => {
+      return !worst || m.removed > worst.removed
+        ? { month: m.month, net: m.end - m.start, added: m.added, removed: m.removed }
+        : worst;
+    },
+    null,
+  );
 
   return {
     snapshots: snapshots.length,
@@ -526,13 +644,19 @@ function historyAnalysis(snapshots, entries) {
     startCount: first.count,
     currentCount: last.count,
     netChange: last.count - first.count,
+    growthPct,
+    avgDailyNetChange,
+    avgPerSnapshot,
+    grossChurn,
+    bestMonth,
+    worstMonth,
     minCount: min,
     minDate: snapshots.find((s) => s.count === min).date,
     maxCount: max,
     maxDate: snapshots.find((s) => s.count === max).date,
     average,
     totals,
-    monthly: [...monthly.values()],
+    monthly: monthlyValues,
     mostActive,
     retention: retained,
     retentionPct: retained / first.count,
@@ -569,19 +693,26 @@ function render({ snapshot, current, history }) {
     table([
       ["Total locations", fmt(current.total)],
       ["Unique serials", fmt(current.serials)],
+      ["Serial records", fmt(current.serialRecords)],
+      ["Duplicate serial records", fmt(current.duplicateSerials)],
       ["Unique postal codes", fmt(current.postalCodes)],
       ["Shared postal codes", `${current.sharedPostalCodes} postcodes host ${current.extraMachines} extra machines`],
     ]),
   );
 
   lines.push("");
-  lines.push("Status");
-  underline("Status");
+  lines.push("Summary");
+  underline("Summary");
+  lines.push(summary(current, history));
+
+  lines.push("");
+  lines.push("Status distribution");
+  underline("Status distribution");
   lines.push(table(current.status.map(([label, n]) => [label, `${fmt(n)} (${pct(n, current.total)})`])).replace(/^/gm, "  "));
 
   lines.push("");
-  lines.push("Colour");
-  underline("Colour");
+  lines.push("Map marker colour");
+  underline("Map marker colour");
   lines.push(table(current.colours.map(([label, n]) => [label, fmt(n)])).replace(/^/gm, "  "));
 
   if (current.suppliers.length) {
@@ -617,9 +748,9 @@ function render({ snapshot, current, history }) {
   const { hoursDetail } = current;
   lines.push(
     table([
-      ["24 hours", `${fmt(hoursDetail.open24)} (${pct(hoursDetail.open24, current.total)})`],
-      ["limited hours", `${fmt(hoursDetail.limited)} (${pct(hoursDetail.limited, current.total)})`],
-      ["unknown", `${fmt(hoursDetail.unknown)} (${pct(hoursDetail.unknown, current.total)})`],
+      ["24-hour", `${fmt(hoursDetail.open24)} (${pct(hoursDetail.open24, current.total)})`],
+      ["Limited hours", `${fmt(hoursDetail.limited)} (${pct(hoursDetail.limited, current.total)})`],
+      ["Unknown", `${fmt(hoursDetail.unknown)} (${pct(hoursDetail.unknown, current.total)})`],
     ]).replace(/^/gm, "  "),
   );
   if (hoursDetail.limited > 0) {
@@ -656,13 +787,52 @@ function render({ snapshot, current, history }) {
   lines.push("");
   lines.push("Postal sector (2-digit prefix)");
   underline("Postal sector (2-digit prefix)");
+  const topSectorLimit = Math.min(5, current.districts.filter(({ sector }) => sector !== "(none)").length);
+  if (topSectorLimit > 0) {
+    lines.push("  Top sectors");
+    for (const { sector, count, district, area } of current.districts
+      .filter(({ sector }) => sector !== "(none)")
+      .slice(0, topSectorLimit)) {
+      lines.push(`  ${sector.padEnd(6)} ${String(fmt(count)).padStart(5)}  ${pct(count, current.total)}  ${district} · ${area}`);
+    }
+  }
   const districtLimit = 8;
+  lines.push("  All sectors (top 8)");
   for (const { sector, count, district, area } of current.districts.slice(0, districtLimit)) {
     lines.push(`  ${sector.padEnd(6)} ${String(fmt(count)).padStart(5)}  ${pct(count, current.total)}  ${district} · ${area}`);
   }
   if (current.districts.length > districtLimit) {
     lines.push(`  … ${current.districts.length - districtLimit} more sectors (${current.districts.length} total)`);
   }
+
+  if (current.concentration) {
+    const c = current.concentration;
+    lines.push("");
+    lines.push("Concentration");
+    underline("Concentration");
+    lines.push(
+      table([
+        ["Top 5 postal sectors", `${fmt(c.topFiveCount)} (${pctOfRatio(c.topFivePct)})`],
+        ["Top 10 postal sectors", `${fmt(c.topTenCount)} (${pctOfRatio(c.topTenPct)})`],
+        [
+          "Largest postal district",
+          c.largestDistrict
+            ? `${c.largestDistrict.district} — ${fmt(c.largestDistrict.count)} (${pctOfRatio(c.largestDistrictPct)})`
+            : "—",
+        ],
+        [
+          "Largest postcode",
+          c.largestPostcode ? `${c.largestPostcode.postalCode} — ${fmt(c.largestPostcode.count)}` : "—",
+        ],
+        ["Average per postal code", c.avgPerPostalCode ? c.avgPerPostalCode.toFixed(2) : "—"],
+      ]),
+    );
+  }
+
+  lines.push("");
+  lines.push("Data quality");
+  underline("Data quality");
+  lines.push(table(dataQualityRows(current)));
 
   if (current.rollout.length) {
     lines.push("");
@@ -698,11 +868,23 @@ function render({ snapshot, current, history }) {
       ["First snapshot", fmt(history.startCount)],
       ["Current snapshot", fmt(history.currentCount)],
       ["Net change", signed(history.netChange)],
+      ["Growth since first snapshot", pctOfRatio(history.growthPct)],
+      ["Average net change", `${history.avgDailyNetChange.toFixed(2)} locations per snapshot`],
+      ["Average locations per snapshot", fmt(Math.round(history.avgPerSnapshot))],
+      ["Gross churn", pctOfRatio(history.grossChurn)],
       ["Minimum", `${fmt(history.minCount)} (${history.minDate})`],
       ["Maximum", `${fmt(history.maxCount)} (${history.maxDate})`],
-      ["Average", fmt(Math.round(history.average))],
     ]),
   );
+  if (history.bestMonth) {
+    lines.push(
+      `  Best month: ${history.bestMonth.month} (${signed(history.bestMonth.net)}) · Largest removal month: ${
+        history.worstMonth
+          ? `${history.worstMonth.month} (−${history.worstMonth.removed} removed)`
+          : "—"
+      }`,
+    );
+  }
 
   lines.push("");
   lines.push("Totals across all days");
@@ -740,6 +922,15 @@ function render({ snapshot, current, history }) {
       history.startCount,
     )}).`,
   );
+
+  lines.push("");
+  lines.push("Methodology");
+  underline("Methodology");
+  lines.push("  - Current metrics are calculated from data/latest.json.");
+  lines.push("  - Historical metrics use commits matching `Update snapshot for YYYY-MM-DD`.");
+  lines.push("  - A location is counted as one record with an `id`.");
+  lines.push("  - Postal sectors are derived from the first two digits of the postal code.");
+  lines.push("  - Status values are normalized to uppercase.");
 
   return lines.join("\n");
 }
@@ -823,6 +1014,11 @@ function renderMarkdown({ snapshot, current, history }) {
   );
 
   parts.push("");
+  parts.push("## Summary");
+  parts.push("");
+  parts.push(summary(current, history));
+
+  parts.push("");
   parts.push("## Current snapshot");
   parts.push("");
   parts.push(
@@ -831,6 +1027,8 @@ function renderMarkdown({ snapshot, current, history }) {
       [
         ["Total locations", fmt(current.total)],
         ["Unique serials", fmt(current.serials)],
+        ["Serial records", fmt(current.serialRecords)],
+        ["Duplicate serial records", fmt(current.duplicateSerials)],
         ["Unique postal codes", fmt(current.postalCodes)],
         ["Shared postal codes", `${current.sharedPostalCodes} postcodes host ${current.extraMachines} extra machines`],
       ],
@@ -838,13 +1036,15 @@ function renderMarkdown({ snapshot, current, history }) {
   );
 
   parts.push("");
-  parts.push("### Status");
+  parts.push("### Status distribution");
   parts.push("");
-  parts.push(mermaidPie("Machines by status", current.status, pieTheme()));
+  parts.push(mermaidPie(`Machines by status — current snapshot (${fmt(current.total)})`, current.status, pieTheme()));
   parts.push("");
   parts.push(
     mdTable(["Status", "Count", "%"], current.status.map(([label, n]) => [label, fmt(n), pct(n, current.total)])),
   );
+  parts.push("");
+  parts.push("_Status values are normalized to uppercase for reporting._");
 
   if (current.suppliers.length) {
     parts.push("");
@@ -852,7 +1052,7 @@ function renderMarkdown({ snapshot, current, history }) {
     parts.push("");
     parts.push(
       mermaidXY(
-        "Machines by supplier",
+        `Machines by supplier — current snapshot (${fmt(current.total)})`,
         current.suppliers.map(([label]) => label),
         [{ type: "bar", data: current.suppliers.map(([, n]) => n) }],
         "machines",
@@ -892,7 +1092,7 @@ function renderMarkdown({ snapshot, current, history }) {
     mdTable(
       ["Coverage", "Machines", "%"],
       [
-        ["24 hours", fmt(hoursDetail.open24), pct(hoursDetail.open24, current.total)],
+        ["24-hour", fmt(hoursDetail.open24), pct(hoursDetail.open24, current.total)],
         ["Limited hours", fmt(hoursDetail.limited), pct(hoursDetail.limited, current.total)],
         ["Unknown", fmt(hoursDetail.unknown), pct(hoursDetail.unknown, current.total)],
       ],
@@ -912,7 +1112,7 @@ function renderMarkdown({ snapshot, current, history }) {
   }
   parts.push(
     mermaidXY(
-      "Average machines operating (2-hour buckets)",
+      `Average machines operating (2-hour buckets) — current snapshot (${fmt(current.total)})`,
       hourlyBuckets.map(({ label }) => label),
       [{ type: "line", data: hourlyBuckets.map(({ average }) => average) }],
       "machines",
@@ -941,7 +1141,7 @@ function renderMarkdown({ snapshot, current, history }) {
     parts.push(
       mdTable(
         ["Supplier", ...matrixStatuses, "Total"],
-        matrixRows.map((row) => ["supplier", ...matrixStatuses, "total"].map((col) => row[col] ?? 0)),
+        matrixRows.map((row) => [row.supplier, ...matrixStatuses.map((status) => row[status] ?? 0), row.total]),
       ),
     );
   }
@@ -951,7 +1151,7 @@ function renderMarkdown({ snapshot, current, history }) {
   parts.push("");
   parts.push(
     mermaidXY(
-      "Machines by postal district",
+      `Machines by postal district — current snapshot (${fmt(current.total)})`,
       current.districtAggregate.map(([label]) => label),
       [{ type: "bar", data: current.districtAggregate.map(([, n]) => n) }],
       "machines",
@@ -961,6 +1161,26 @@ function renderMarkdown({ snapshot, current, history }) {
       },
     ),
   );
+
+  const mappedSectors = current.districts.filter(({ sector }) => sector !== "(none)");
+  if (mappedSectors.length) {
+    parts.push("");
+    parts.push("### Top sectors");
+    parts.push("");
+    parts.push(
+      mdTable(
+        ["Sector", "Postal district", "Area", "Machines", "%"],
+        mappedSectors.slice(0, 5).map(({ sector, district, area, count }) => [
+          sector,
+          district,
+          area,
+          fmt(count),
+          pct(count, current.total),
+        ]),
+      ),
+    );
+  }
+
   parts.push("");
   parts.push("All postal sectors, with the Singapore postal district each belongs to:");
   parts.push("");
@@ -974,6 +1194,41 @@ function renderMarkdown({ snapshot, current, history }) {
         fmt(count),
         pct(count, current.total),
       ]),
+    ),
+  );
+
+  const c = current.concentration;
+  parts.push("");
+  parts.push("### Concentration");
+  parts.push("");
+  parts.push(
+    mdTable(
+      ["Metric", "Value"],
+      [
+        ["Top 5 postal sectors", `${fmt(c.topFiveCount)} (${pctOfRatio(c.topFivePct)})`],
+        ["Top 10 postal sectors", `${fmt(c.topTenCount)} (${pctOfRatio(c.topTenPct)})`],
+        [
+          "Largest postal district",
+          c.largestDistrict
+            ? `**${c.largestDistrict.district}** — ${fmt(c.largestDistrict.count)} (${pctOfRatio(c.largestDistrictPct)})`
+            : "—",
+        ],
+        [
+          "Largest postcode",
+          c.largestPostcode ? `**${c.largestPostcode.postalCode}** — ${fmt(c.largestPostcode.count)}` : "—",
+        ],
+        ["Average machines per postal code", c.avgPerPostalCode ? c.avgPerPostalCode.toFixed(2) : "—"],
+      ],
+    ),
+  );
+
+  parts.push("");
+  parts.push("## Data quality");
+  parts.push("");
+  parts.push(
+    mdTable(
+      ["Metric", "Count"],
+      dataQualityRows(current).map(([label, value]) => [label, value]),
     ),
   );
 
@@ -1029,12 +1284,31 @@ function renderMarkdown({ snapshot, current, history }) {
         ["First snapshot", fmt(history.startCount)],
         ["Current snapshot", fmt(history.currentCount)],
         ["Net change", signed(history.netChange)],
+        ["Growth since first snapshot", pctOfRatio(history.growthPct)],
+        ["Average net change", `${history.avgDailyNetChange.toFixed(2)} locations per snapshot`],
+        ["Average locations per snapshot", fmt(Math.round(history.avgPerSnapshot))],
+        ["Gross churn", pctOfRatio(history.grossChurn)],
         ["Minimum", `${fmt(history.minCount)} (${history.minDate})`],
         ["Maximum", `${fmt(history.maxCount)} (${history.maxDate})`],
-        ["Average", fmt(Math.round(history.average))],
       ],
     ),
   );
+  if (history.bestMonth || history.worstMonth) {
+    parts.push("");
+    parts.push(
+      [
+        history.bestMonth
+          ? `Best month: **${history.bestMonth.month} (${signed(history.bestMonth.net)})**`
+          : null,
+        history.worstMonth
+          ? `Largest removal month: **${history.worstMonth.month} (−${history.worstMonth.removed} removed)**`
+          : null,
+      ]
+        .filter(Boolean)
+        .map((fact) => `- ${fact}`)
+        .join("\n"),
+    );
+  }
   parts.push("");
   parts.push("### Totals across all days");
   parts.push("");
@@ -1094,6 +1368,21 @@ function renderMarkdown({ snapshot, current, history }) {
     `**Retention:** ${(history.retentionPct * 100).toFixed(1)}% of the first snapshot's machines are still present (${history.retention}/${fmt(
       history.startCount,
     )}).`,
+  );
+
+  parts.push("");
+  parts.push("## Methodology");
+  parts.push("");
+  parts.push(
+    [
+      "Current metrics are calculated from `data/latest.json`.",
+      "Historical metrics use commits matching `Update snapshot for YYYY-MM-DD`.",
+      "A location is counted as one record with an `id`.",
+      "Postal sectors are derived from the first two digits of the postal code.",
+      "Status values are normalized to uppercase.",
+    ]
+      .map((line) => `- ${line}`)
+      .join("\n"),
   );
 
   parts.push("");
