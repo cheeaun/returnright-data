@@ -28,6 +28,19 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-09-28</b> · 1,374 locations · ±1</summary>
+
+- Snapshot size: **1374** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **1**
+
+Changed
+- `B9051019` 641 Rowell Road, Little India
+  - locationName: Little India Rowell Rd -> 641 Rowell Road, Little India
+</details>
+
+<details>
 <summary><b>2026-09-27</b> · 1,374 locations · ±1</summary>
 
 - Snapshot size: **1374** locations

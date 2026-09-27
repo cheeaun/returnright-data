@@ -1,10 +1,10 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-09-27** · 1,374 locations · `data/latest.json` · as of 27 Sept 2026, 02:20 UTC_
+_Snapshot: **2026-09-27** · 1,374 locations · `data/latest.json` · as of 27 Sept 2026, 16:25 UTC_
 
 ## Summary
 
-The network contains 1,374 locations across 1,327 postal codes. 81.1% are RUNNING. The network has grown by 305 locations (28.5%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (85), S46 (76).
+The network contains 1,374 locations across 1,327 postal codes. 79.2% are RUNNING. The network has grown by 305 locations (28.5%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (85), S46 (76).
 
 ## Current snapshot
 
@@ -34,22 +34,20 @@ config:
 ---
 pie showData
     title "Machines by status — current snapshot (1,374)"
-    "RUNNING": 1114
-    "FULL": 196
-    "ERROR": 40
-    "OFFLINE": 17
-    "MAINTENANCE": 6
-    "CLEANING": 1
+    "RUNNING": 1088
+    "FULL": 228
+    "ERROR": 31
+    "OFFLINE": 19
+    "MAINTENANCE": 8
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,114 | 81.1% |
-| FULL | 196 | 14.3% |
-| ERROR | 40 | 2.9% |
-| OFFLINE | 17 | 1.2% |
-| MAINTENANCE | 6 | 0.4% |
-| CLEANING | 1 | 0.1% |
+| RUNNING | 1,088 | 79.2% |
+| FULL | 228 | 16.6% |
+| ERROR | 31 | 2.3% |
+| OFFLINE | 19 | 1.4% |
+| MAINTENANCE | 8 | 0.6% |
 
 _Status values are normalized to uppercase for reporting._
 
