@@ -28,6 +28,42 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-01</b> · 1,396 locations · +21 · ±1</summary>
+
+- Snapshot size: **1396** locations
+- Added: **21**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `B5D61019` Block 123 Rivervale Drive (postal: 540123, status: RUNNING)
+- `SGRVM0492` 404 Jurong West Street 42, Singapore 640404 (postal: 640404, status: MAINTENANCE)
+- `SGRVM0494` 433C Bukit Batok West Ave. 8, Singapore 653433 (postal: 653433, status: MAINTENANCE)
+- `SGRVM0497` 505 Canberra Link, Singapore 750505 (postal: 750505, status: OFFLINE)
+- `SGRVM0500` ITE College West, 1 Choa Chu Kang Grove, Singapore 688236 (postal: 688236, status: MAINTENANCE)
+- `SGRVM0501` 419 Bukit Batok West Ave 2, Singapore 650419 (postal: 650419, status: MAINTENANCE)
+- `SGRVM0505` 413 Jurong West Street 42, Singapore 640413 (postal: 640413, status: MAINTENANCE)
+- `SGRVM0507` Sadia Supermarket (postal: 636937, status: OFFLINE)
+- `SGRVM0510` 463B Bukit Batok Street 41, Singapore 652463 (postal: 652463, status: MAINTENANCE)
+- `SGRVM0512` 131A Tengah Garden Ave, Singapore 691131 (postal: 691131, status: MAINTENANCE)
+- `SGRVM0513` SHENG SIONG BLK 905 WOODLANDS AVE 5 (postal: 730905, status: MAINTENANCE)
+- `SGRVM0517` Westlite Juniper, 23 Mandai Estate, Singapore 729937 (postal: 729937, status: offline)
+- `SGRVM0519` 119C Plantation Cres, Singapore 693119 (postal: 693119, status: MAINTENANCE)
+- `SGRVM0521` 331 Bukit Batok Street 33, Singapore 650331 (postal: 650331, status: MAINTENANCE)
+- `SGRVM0522` 409 Bukit Batok West Ave 4, Singapore 650409 (postal: 650409, status: MAINTENANCE)
+- `SGRVM0524` 315 Bukit Batok Street 32, Singapore 650315 (postal: 650315, status: MAINTENANCE)
+- `SGRVM0529` 224B Tengah Garden Ave, Singapore 692224 (postal: 692224, status: MAINTENANCE)
+- `SGRVM0531` 377B Canberra Drive, Singapore 762377 (postal: 762377, status: OFFLINE)
+- `SGRVM0533` SHENG SIONG BLK 361 SEMBAWANG CRESCENT (postal: 750361, status: MAINTENANCE)
+- `SGRVM0549` 588C Montreal Drive, Singapore 753588 (postal: 753588, status: OFFLINE)
+- `SGRVM0551` 104C Canberra Street, Singapore 753104 (postal: 753104, status: OFFLINE)
+
+Changed
+- `SGRVM0161` Chap He Diam Migrant Worker's Recreation Centre
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is 656B Jurong West Street 61. Check its status before heading over. -> ""
+</details>
+
+<details>
 <summary><b>2026-09-30</b> · 1,375 locations · +1</summary>
 
 - Snapshot size: **1375** locations
