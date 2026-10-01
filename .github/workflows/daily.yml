@@ -6,9 +6,9 @@ on:
       - "scripts/fetch_locations.mjs"
   schedule:
     # GitHub cron is UTC. SGT = UTC+8.
-    - cron: "15 16 * * *" # 00:15 SGT — attempt 1
-    - cron: "15 17 * * *" # 01:15 SGT — retry 1
-    - cron: "15 18 * * *" # 02:15 SGT — retry 2
+    - cron: "30 17 * * *" # 01:30 SGT — attempt 1
+    - cron: "30 18 * * *" # 02:30 SGT — retry 1
+    - cron: "30 19 * * *" # 03:30 SGT — retry 2
   workflow_dispatch:
 
 permissions:
