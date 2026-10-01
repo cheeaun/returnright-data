@@ -28,6 +28,26 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-02</b> · 1,405 locations · +9</summary>
+
+- Snapshot size: **1405** locations
+- Added: **9**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `B5D61062` Block 434 Hougang Avenue 8 (postal: 530434, status: UNKNOWN)
+- `B5D61063` Block 422 Hougang Avenue 6 (postal: 530422, status: MAINTENANCE)
+- `B5D61065` Block 414 Hougang Avenue 10 (postal: 530414, status: MAINTENANCE)
+- `B5D61067` Block 507 Hougang Avenue 8 (postal: 530507, status: MAINTENANCE)
+- `B5D61072` Block 464 Upper Serangoon Road (postal: 530464, status: UNKNOWN)
+- `B5D61076` Block 521 Hougang Avenue 6 (postal: 530521, status: MAINTENANCE)
+- `B5D61082` Block 533 Hougang Avenue 6 (postal: 530533, status: MAINTENANCE)
+- `B5D61092` Block 408 Hougang Avenue 10 (postal: 530408, status: UNKNOWN)
+- `B5D61096` Block 503 Hougang Avenue 8 (postal: 530503, status: MAINTENANCE)
+</details>
+
+<details>
 <summary><b>2026-10-01</b> · 1,396 locations · +21 · ±1</summary>
 
 - Snapshot size: **1396** locations
