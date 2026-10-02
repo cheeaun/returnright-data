@@ -1,10 +1,10 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-10-01** · 1,405 locations · `data/latest.json` · as of 1 Oct 2026, 17:36 UTC_
+_Snapshot: **2026-10-02** · 1,405 locations · `data/latest.json` · as of 2 Oct 2026, 17:35 UTC_
 
 ## Summary
 
-The network contains 1,405 locations across 1,357 postal codes. 83.8% are RUNNING. The network has grown by 327 locations (30.6%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (86), S46 (76).
+The network contains 1,405 locations across 1,357 postal codes. 80.6% are RUNNING. The network has grown by 336 locations (31.4%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (86), S46 (76).
 
 ## Current snapshot
 
@@ -34,22 +34,22 @@ config:
 ---
 pie showData
     title "Machines by status — current snapshot (1,405)"
-    "RUNNING": 1177
-    "FULL": 163
-    "OFFLINE": 25
-    "ERROR": 24
-    "MAINTENANCE": 13
-    "UNKNOWN": 3
+    "RUNNING": 1132
+    "FULL": 215
+    "OFFLINE": 28
+    "ERROR": 21
+    "MAINTENANCE": 8
+    "CLEANING": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,177 | 83.8% |
-| FULL | 163 | 11.6% |
-| OFFLINE | 25 | 1.8% |
-| ERROR | 24 | 1.7% |
-| MAINTENANCE | 13 | 0.9% |
-| UNKNOWN | 3 | 0.2% |
+| RUNNING | 1,132 | 80.6% |
+| FULL | 215 | 15.3% |
+| OFFLINE | 28 | 2.0% |
+| ERROR | 21 | 1.5% |
+| MAINTENANCE | 8 | 0.6% |
+| CLEANING | 1 | 0.1% |
 
 _Status values are normalized to uppercase for reporting._
 
@@ -218,19 +218,19 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Unknown opening hours | 369 |
 | Unmapped postal sectors | 0 |
 
-## History (177 snapshots · 2026-04-08 → 2026-10-01)
+## History (178 snapshots · 2026-04-08 → 2026-10-02)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,396 |
-| Net change | +327 |
-| Growth since first snapshot | 30.6% |
-| Average net change | 1.85 locations per snapshot |
-| Average locations per snapshot | 1,174 |
-| Gross churn | 65.9% |
+| Current snapshot | 1,405 |
+| Net change | +336 |
+| Growth since first snapshot | 31.4% |
+| Average net change | 1.89 locations per snapshot |
+| Average locations per snapshot | 1,176 |
+| Gross churn | 66.7% |
 | Minimum | 1,069 (2026-04-08) |
-| Maximum | 1,396 (2026-10-01) |
+| Maximum | 1,405 (2026-10-02) |
 
 - Best month: **2026-09 (+92)**
 - Largest removal month: **2026-08 (−91 removed)**
@@ -239,7 +239,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 
 | Metric | Total |
 | --- | --- |
-| Added | 513 |
+| Added | 522 |
 | Removed | 191 |
 | Changed | 12,525 |
 | No-change days | 48 |
@@ -256,8 +256,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09", "2026-10"]
-    y-axis "machines" 0 --> 1606
-    line [1069, 1090, 1152, 1206, 1283, 1375, 1396]
+    y-axis "machines" 0 --> 1616
+    line [1069, 1090, 1152, 1206, 1283, 1375, 1405]
 ```
 
 ### Monthly change
@@ -273,7 +273,7 @@ xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09", "2026-10"]
     y-axis "machines" 0 --> 106
-    bar [0, 20, 62, 43, 75, 92, 0]
+    bar [0, 20, 62, 43, 75, 92, 9]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -284,7 +284,7 @@ xychart-beta
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
 | 2026-08 | 1,208 → 1,283 | 168 | 91 | +75 |
 | 2026-09 | 1,283 → 1,375 | 141 | 49 | +92 |
-| 2026-10 | 1,396 → 1,396 | 21 | 0 | 0 |
+| 2026-10 | 1,396 → 1,405 | 30 | 0 | +9 |
 
 ### Most active days
 
