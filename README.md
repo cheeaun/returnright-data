@@ -28,6 +28,18 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-06</b> · 1,406 locations · +1</summary>
+
+- Snapshot size: **1406** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `20261515342` The Leo (postal: 415815, status: FULL)
+</details>
+
+<details>
 <summary><b>2026-10-05</b> · No changes</summary>
 
 No changes.
