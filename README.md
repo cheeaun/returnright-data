@@ -28,6 +28,21 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-07</b> · 1,406 locations · ±2</summary>
+
+- Snapshot size: **1406** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **2**
+
+Changed
+- `SGRVM0405` Singapore Zoo
+  - rvmOpeningHours: "" -> Mon - Sun:  08:30 AM - 11:59 PM
+- `SGRVM0412` Penjuru Recreation Centre
+  - rvmOpeningHours: "" -> Mon - Sun:  08:00 AM - 11:59 PM
+</details>
+
+<details>
 <summary><b>2026-10-06</b> · 1,406 locations · +1</summary>
 
 - Snapshot size: **1406** locations

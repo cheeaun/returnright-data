@@ -1,10 +1,10 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-10-05** · 1,406 locations · `data/latest.json` · as of 5 Oct 2026, 17:36 UTC_
+_Snapshot: **2026-10-06** · 1,406 locations · `data/latest.json` · as of 6 Oct 2026, 17:35 UTC_
 
 ## Summary
 
-The network contains 1,406 locations across 1,358 postal codes. 69.2% are RUNNING. The network has grown by 336 locations (31.4%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (86), S46 (76).
+The network contains 1,406 locations across 1,358 postal codes. 74.3% are RUNNING. The network has grown by 337 locations (31.5%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (86), S46 (76).
 
 ## Current snapshot
 
@@ -34,20 +34,20 @@ config:
 ---
 pie showData
     title "Machines by status — current snapshot (1,406)"
-    "RUNNING": 973
-    "FULL": 372
-    "ERROR": 28
-    "OFFLINE": 26
-    "MAINTENANCE": 7
+    "RUNNING": 1045
+    "FULL": 308
+    "OFFLINE": 25
+    "ERROR": 24
+    "MAINTENANCE": 4
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 973 | 69.2% |
-| FULL | 372 | 26.5% |
-| ERROR | 28 | 2.0% |
-| OFFLINE | 26 | 1.8% |
-| MAINTENANCE | 7 | 0.5% |
+| RUNNING | 1,045 | 74.3% |
+| FULL | 308 | 21.9% |
+| OFFLINE | 25 | 1.8% |
+| ERROR | 24 | 1.7% |
+| MAINTENANCE | 4 | 0.3% |
 
 _Status values are normalized to uppercase for reporting._
 
@@ -56,8 +56,8 @@ _Status values are normalized to uppercase for reporting._
 | Coverage | Machines | % |
 | --- | --- | --- |
 | 24-hour | 799 | 56.8% |
-| Limited hours | 237 | 16.9% |
-| Unknown | 370 | 26.3% |
+| Limited hours | 239 | 17.0% |
+| Unknown | 368 | 26.2% |
 
 ### Hourly availability
 
@@ -73,15 +73,15 @@ config:
 xychart-beta
     title "Average machines operating (2-hour buckets) — current snapshot (1,406)"
     x-axis ["00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00"]
-    y-axis "machines" 0 --> 1192
-    line [799, 799, 802, 850, 991, 1033, 1036, 1036, 1036, 1036, 1034, 988]
+    y-axis "machines" 0 --> 1194
+    line [799, 799, 802, 850, 993, 1035, 1038, 1038, 1038, 1038, 1036, 990]
 ```
 
 - Typical window: **07:00 → 23:00**
 - Earliest open: **05:30**
 - Latest close: **24:00**
-- Peak: **1,036 machines** at **13:00**
-- **237** machines with limited hours open all 7 days
+- Peak: **1,038 machines** at **13:00**
+- **239** machines with limited hours open all 7 days
 
 ## Postal sectors & districts
 
@@ -213,22 +213,22 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Duplicate serial records | 0 |
 | Missing postal codes | 0 |
 | Unknown statuses | 0 |
-| Unknown opening hours | 370 |
+| Unknown opening hours | 368 |
 | Unmapped postal sectors | 0 |
 
-## History (181 snapshots · 2026-04-08 → 2026-10-05)
+## History (182 snapshots · 2026-04-08 → 2026-10-06)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,405 |
-| Net change | +336 |
-| Growth since first snapshot | 31.4% |
-| Average net change | 1.86 locations per snapshot |
-| Average locations per snapshot | 1,179 |
-| Gross churn | 66.7% |
+| Current snapshot | 1,406 |
+| Net change | +337 |
+| Growth since first snapshot | 31.5% |
+| Average net change | 1.85 locations per snapshot |
+| Average locations per snapshot | 1,181 |
+| Gross churn | 66.8% |
 | Minimum | 1,069 (2026-04-08) |
-| Maximum | 1,405 (2026-10-02) |
+| Maximum | 1,406 (2026-10-06) |
 
 - Best month: **2026-09 (+92)**
 - Largest removal month: **2026-08 (−91 removed)**
@@ -237,7 +237,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 
 | Metric | Total |
 | --- | --- |
-| Added | 522 |
+| Added | 523 |
 | Removed | 191 |
 | Changed | 12,525 |
 | No-change days | 51 |
@@ -254,8 +254,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09", "2026-10"]
-    y-axis "machines" 0 --> 1616
-    line [1069, 1090, 1152, 1206, 1283, 1375, 1405]
+    y-axis "machines" 0 --> 1617
+    line [1069, 1090, 1152, 1206, 1283, 1375, 1406]
 ```
 
 ### Monthly change
@@ -271,7 +271,7 @@ xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09", "2026-10"]
     y-axis "machines" 0 --> 106
-    bar [0, 20, 62, 43, 75, 92, 9]
+    bar [0, 20, 62, 43, 75, 92, 10]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -282,7 +282,7 @@ xychart-beta
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
 | 2026-08 | 1,208 → 1,283 | 168 | 91 | +75 |
 | 2026-09 | 1,283 → 1,375 | 141 | 49 | +92 |
-| 2026-10 | 1,396 → 1,405 | 30 | 0 | +9 |
+| 2026-10 | 1,396 → 1,406 | 31 | 0 | +10 |
 
 ### Most active days
 
