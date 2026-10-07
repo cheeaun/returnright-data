@@ -1,10 +1,10 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-10-06** · 1,406 locations · `data/latest.json` · as of 6 Oct 2026, 17:35 UTC_
+_Snapshot: **2026-10-07** · 1,406 locations · `data/latest.json` · as of 7 Oct 2026, 17:37 UTC_
 
 ## Summary
 
-The network contains 1,406 locations across 1,358 postal codes. 74.3% are RUNNING. The network has grown by 337 locations (31.5%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (86), S46 (76).
+The network contains 1,406 locations across 1,358 postal codes. 76.1% are RUNNING. The network has grown by 337 locations (31.5%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (86), S46 (76).
 
 ## Current snapshot
 
@@ -34,20 +34,22 @@ config:
 ---
 pie showData
     title "Machines by status — current snapshot (1,406)"
-    "RUNNING": 1045
-    "FULL": 308
-    "OFFLINE": 25
-    "ERROR": 24
-    "MAINTENANCE": 4
+    "RUNNING": 1070
+    "FULL": 276
+    "ERROR": 27
+    "OFFLINE": 26
+    "MAINTENANCE": 6
+    "CLEANING": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,045 | 74.3% |
-| FULL | 308 | 21.9% |
-| OFFLINE | 25 | 1.8% |
-| ERROR | 24 | 1.7% |
-| MAINTENANCE | 4 | 0.3% |
+| RUNNING | 1,070 | 76.1% |
+| FULL | 276 | 19.6% |
+| ERROR | 27 | 1.9% |
+| OFFLINE | 26 | 1.8% |
+| MAINTENANCE | 6 | 0.4% |
+| CLEANING | 1 | 0.1% |
 
 _Status values are normalized to uppercase for reporting._
 
@@ -216,7 +218,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Unknown opening hours | 368 |
 | Unmapped postal sectors | 0 |
 
-## History (182 snapshots · 2026-04-08 → 2026-10-06)
+## History (183 snapshots · 2026-04-08 → 2026-10-07)
 
 | Metric | Value |
 | --- | --- |
@@ -224,8 +226,8 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Current snapshot | 1,406 |
 | Net change | +337 |
 | Growth since first snapshot | 31.5% |
-| Average net change | 1.85 locations per snapshot |
-| Average locations per snapshot | 1,181 |
+| Average net change | 1.84 locations per snapshot |
+| Average locations per snapshot | 1,182 |
 | Gross churn | 66.8% |
 | Minimum | 1,069 (2026-04-08) |
 | Maximum | 1,406 (2026-10-06) |
@@ -239,7 +241,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | --- | --- |
 | Added | 523 |
 | Removed | 191 |
-| Changed | 12,525 |
+| Changed | 12,527 |
 | No-change days | 51 |
 
 ### Machines over time
