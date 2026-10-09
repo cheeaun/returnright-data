@@ -1,20 +1,20 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-10-08** · 1,406 locations · `data/latest.json` · as of 8 Oct 2026, 17:36 UTC_
+_Snapshot: **2026-10-09** · 1,412 locations · `data/latest.json` · as of 9 Oct 2026, 17:35 UTC_
 
 ## Summary
 
-The network contains 1,406 locations across 1,358 postal codes. 76.2% are RUNNING. The network has grown by 337 locations (31.5%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (86), S46 (76).
+The network contains 1,412 locations across 1,364 postal codes. 74.4% are RUNNING. The network has grown by 337 locations (31.5%) since 2026-04-08. The largest postal sectors are S52 (111), S73 (86), S46 (76).
 
 ## Current snapshot
 
 | Metric | Value |
 | --- | --- |
-| Total locations | 1,406 |
-| Unique serials | 1,406 |
-| Serial records | 1,406 |
+| Total locations | 1,412 |
+| Unique serials | 1,412 |
+| Serial records | 1,412 |
 | Duplicate serial records | 0 |
-| Unique postal codes | 1,358 |
+| Unique postal codes | 1,364 |
 | Shared postal codes | 42 postcodes host 48 extra machines |
 
 ### Status distribution
@@ -33,20 +33,20 @@ config:
     pie8: "#999999"
 ---
 pie showData
-    title "Machines by status — current snapshot (1,406)"
-    "RUNNING": 1071
-    "FULL": 285
-    "ERROR": 24
-    "OFFLINE": 23
+    title "Machines by status — current snapshot (1,412)"
+    "RUNNING": 1051
+    "FULL": 289
+    "ERROR": 42
+    "OFFLINE": 27
     "MAINTENANCE": 3
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,071 | 76.2% |
-| FULL | 285 | 20.3% |
-| ERROR | 24 | 1.7% |
-| OFFLINE | 23 | 1.6% |
+| RUNNING | 1,051 | 74.4% |
+| FULL | 289 | 20.5% |
+| ERROR | 42 | 3.0% |
+| OFFLINE | 27 | 1.9% |
 | MAINTENANCE | 3 | 0.2% |
 
 _Status values are normalized to uppercase for reporting._
@@ -55,9 +55,9 @@ _Status values are normalized to uppercase for reporting._
 
 | Coverage | Machines | % |
 | --- | --- | --- |
-| 24-hour | 799 | 56.8% |
-| Limited hours | 239 | 17.0% |
-| Unknown | 368 | 26.2% |
+| 24-hour | 799 | 56.6% |
+| Limited hours | 239 | 16.9% |
+| Unknown | 374 | 26.5% |
 
 ### Hourly availability
 
@@ -71,7 +71,7 @@ config:
     width: 900
 ---
 xychart-beta
-    title "Average machines operating (2-hour buckets) — current snapshot (1,406)"
+    title "Average machines operating (2-hour buckets) — current snapshot (1,412)"
     x-axis ["00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00"]
     y-axis "machines" 0 --> 1194
     line [799, 799, 802, 850, 993, 1035, 1038, 1038, 1038, 1038, 1036, 990]
@@ -96,10 +96,10 @@ config:
     plotReservedSpacePercent: 40
 ---
 xychart-beta
-    title "Machines by postal district — current snapshot (1,406)"
+    title "Machines by postal district — current snapshot (1,412)"
     x-axis ["D19", "D18", "D23", "D22", "D27", "D16", "D25", "D14", "D20", "D03", "D05", "D12", "D13", "D15", "D10", "D09", "D01", "D04", "D28", "D08", "D17", "D24", "D07", "D02", "D11", "D21", "D06", "D26"]
-    y-axis "machines" 0 --> 201
-    bar [174, 173, 141, 125, 109, 104, 90, 69, 64, 50, 44, 40, 29, 29, 25, 19, 18, 16, 16, 13, 11, 11, 9, 7, 7, 7, 5, 1]
+    y-axis "machines" 0 --> 207
+    bar [180, 173, 141, 125, 109, 104, 90, 69, 64, 50, 44, 40, 29, 29, 25, 19, 18, 16, 16, 13, 11, 11, 9, 7, 7, 7, 5, 1]
 ```
 
 ### Top sectors
@@ -122,20 +122,20 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S76 | D27 | Yishun, Sembawang | 72 | 5.1% |
 | S64 | D22 | Boon Lay, Jurong, Tuas | 65 | 4.6% |
 | S51 | D18 | Pasir Ris, Tampines | 62 | 4.4% |
+| S53 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 61 | 4.3% |
 | S82 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 59 | 4.2% |
-| S53 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 58 | 4.1% |
 | S68 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 53 | 3.8% |
 | S56 | D20 | Ang Mo Kio, Bishan, Thomson | 45 | 3.2% |
 | S65 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 44 | 3.1% |
-| S67 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 43 | 3.1% |
-| S54 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 40 | 2.8% |
+| S54 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 43 | 3.0% |
+| S67 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 43 | 3.0% |
 | S75 | D27 | Yishun, Sembawang | 37 | 2.6% |
 | S60 | D22 | Boon Lay, Jurong, Tuas | 35 | 2.5% |
 | S12 | D05 | Buona Vista, West Coast, Pasir Panjang, Clementi New Town | 31 | 2.2% |
 | S47 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 25 | 1.8% |
 | S31 | D12 | Balestier, Toa Payoh, Serangoon | 20 | 1.4% |
 | S40 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 20 | 1.4% |
-| S57 | D20 | Ang Mo Kio, Bishan, Thomson | 19 | 1.4% |
+| S57 | D20 | Ang Mo Kio, Bishan, Thomson | 19 | 1.3% |
 | S15 | D03 | Alexandra, Commonwealth, Queenstown, Tiong Bahru | 18 | 1.3% |
 | S38 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 18 | 1.3% |
 | S39 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 18 | 1.3% |
@@ -148,7 +148,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S32 | D12 | Balestier, Toa Payoh, Serangoon | 13 | 0.9% |
 | S41 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 13 | 0.9% |
 | S44 | D15 | East Coast, Marine Parade, Katong, Joo Chiat, Amber Road | 13 | 0.9% |
-| S27 | D10 | Tanglin, Ardmore, Holland, Bukit Timah | 12 | 0.9% |
+| S27 | D10 | Tanglin, Ardmore, Holland, Bukit Timah | 12 | 0.8% |
 | S09 | D04 | Harbourfront, Telok Blangah, Sentosa | 11 | 0.8% |
 | S69 | D24 | Lim Chu Kang, Tengah | 11 | 0.8% |
 | S34 | D13 | Macpherson, Potong Pasir, Braddell | 9 | 0.6% |
@@ -197,9 +197,9 @@ All postal sectors, with the Singapore postal district each belongs to:
 
 | Metric | Value |
 | --- | --- |
-| Top 5 postal sectors | 410 (29.2%) |
-| Top 10 postal sectors | 687 (48.9%) |
-| Largest postal district | **D19** — 174 (12.4%) |
+| Top 5 postal sectors | 410 (29.0%) |
+| Top 10 postal sectors | 690 (48.9%) |
+| Largest postal district | **D19** — 180 (12.7%) |
 | Largest postcode | **698924** — 4 |
 | Average machines per postal code | 1.04 |
 
@@ -213,10 +213,10 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Duplicate serial records | 0 |
 | Missing postal codes | 0 |
 | Unknown statuses | 0 |
-| Unknown opening hours | 368 |
+| Unknown opening hours | 374 |
 | Unmapped postal sectors | 0 |
 
-## History (184 snapshots · 2026-04-08 → 2026-10-08)
+## History (185 snapshots · 2026-04-08 → 2026-10-09)
 
 | Metric | Value |
 | --- | --- |
@@ -224,8 +224,8 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Current snapshot | 1,406 |
 | Net change | +337 |
 | Growth since first snapshot | 31.5% |
-| Average net change | 1.83 locations per snapshot |
-| Average locations per snapshot | 1,183 |
+| Average net change | 1.82 locations per snapshot |
+| Average locations per snapshot | 1,184 |
 | Gross churn | 66.8% |
 | Minimum | 1,069 (2026-04-08) |
 | Maximum | 1,406 (2026-10-06) |
@@ -240,7 +240,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Added | 523 |
 | Removed | 191 |
 | Changed | 12,527 |
-| No-change days | 52 |
+| No-change days | 53 |
 
 ### Machines over time
 

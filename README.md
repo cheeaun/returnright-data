@@ -28,6 +28,28 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-10</b> · 1,412 locations · +6 · ±1</summary>
+
+- Snapshot size: **1412** locations
+- Added: **6**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `B5D61052` Block 32 Defu Lane 10 (postal: 539213, status: RUNNING)
+- `B5D61053` Defu Industrial City (postal: 533755, status: RUNNING)
+- `B5D61073` Block 2 Defu Lane 10 (postal: 539183, status: RUNNING)
+- `B5D61075` Block 120B Rivervale Drive (postal: 542120, status: RUNNING)
+- `B5D61080` Block 122 Sengkang East Way (postal: 540122, status: RUNNING)
+- `B5D61087` Block 121C Sengkang East Way (postal: 543121, status: RUNNING)
+
+Changed
+- `20254909889` LIONCITY BAIHUI SUPERMARKET PTE. LTD.
+  - address: 349 Geylang Road, Singapore, 389370 -> 347, geylang road, 389370
+  - locationName: Lion City Supermarket Geylang Road -> LIONCITY BAIHUI SUPERMARKET PTE. LTD.
+</details>
+
+<details>
 <summary><b>2026-10-09</b> · No changes</summary>
 
 No changes.
