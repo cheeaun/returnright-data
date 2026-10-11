@@ -28,6 +28,25 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-12</b> · 1,420 locations · +8</summary>
+
+- Snapshot size: **1420** locations
+- Added: **8**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `SGRVM0495` 482 Yishun Ave 6, Singapore 762482 (postal: 762482, status: MAINTENANCE)
+- `SGRVM0525` Food Centre @ 18 Tuas Avenue 7 (postal: 639272, status: MAINTENANCE)
+- `SGRVM0526` PUB Tuas South Lodge (postal: 638909, status: MAINTENANCE)
+- `SGRVM0527` Jurong Penjuru Dormitory 2, 32A Penjuru Place, Singapore 608560 (postal: 608560, status: MAINTENANCE)
+- `SGRVM0530` 263 Jurong East St 24, Singapore 600263 (postal: 600263, status: MAINTENANCE)
+- `SGRVM0535` 187C Marsiling Rd, Singapore 733187 (postal: 733187, status: MAINTENANCE)
+- `SGRVM0553` 324 Yishun Central, Singapore 760324 (postal: 760324, status: MAINTENANCE)
+- `SGRVM0555` 131 Yishun Street 11, Singapore 760131 (postal: 760131, status: MAINTENANCE)
+</details>
+
+<details>
 <summary><b>2026-10-11</b> · 1,412 locations · ±1</summary>
 
 - Snapshot size: **1412** locations
