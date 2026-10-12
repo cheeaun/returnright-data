@@ -28,6 +28,19 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-13</b> · 1,420 locations · ±1</summary>
+
+- Snapshot size: **1420** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **1**
+
+Changed
+- `B5481053` FairPrice Blk 653B Punggol Drive
+  - locationName: FairPrice Blk 635B Punggol Drive -> FairPrice Blk 653B Punggol Drive
+</details>
+
+<details>
 <summary><b>2026-10-12</b> · 1,420 locations · +8</summary>
 
 - Snapshot size: **1420** locations
