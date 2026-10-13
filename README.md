@@ -28,6 +28,593 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-14</b> · 1,420 locations · ±288</summary>
+
+- Snapshot size: **1420** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **288**
+
+Changed
+- `20254508911` FairPrice Old Airport Hawker Centre
+  - rvm_remarks: "" -> Located at the checkout area of the supermarket.
+- `20254508917` FairPrice New Upper Changi Road
+  - rvm_remarks: "" -> Located just outside the supermarket exit, along the walkway.
+- `20254709343` SHENG SIONG 11 TANJONG KATONG ROAD, KINEX
+  - rvm_remarks: "" -> Located at the supermarket entrance.
+- `20254709344` SHENG SIONG BLK 739A BEDOK RESERVOIR ROAD 
+  - rvm_remarks: "" -> Located beside the supermarket main entrance, next to the lucky draw box.
+- `20254709345` FairPrice Bedok North 212
+  - rvm_remarks: "" -> Located outside the supermarket, a short distance from the main entrance.
+- `20254709348` SHENG SIONG BLK 539A BEDOK NORTH STREET 3 
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area, by the fridges.
+- `20254709350` SHENG SIONG BLK 602A TAMPINES AVENUE 9
+  - rvm_remarks: "" -> Located next to the self-checkout, beside the fruit section and trolleys.
+- `20254709491` SHENG SIONG BLK 209 NEW UPPER CHANGI ROAD 
+  - rvm_remarks: "" -> Located near the supermarket entrance.
+- `20254809583` SHENG SIONG 151 BEDOK SOUTH ROAD, SIGLAP CC
+  - rvm_remarks: "" -> Located at the back of the supermarket. Follow the signs from the main area.
+- `20254809778` SHENG SIONG BLK 118 ALJUNIED  AVE 2 
+  - rvm_remarks: "" -> Located outside the supermarket entrance, beside the ATM.
+- `20254809798` SHENG SIONG BLK 506 TAMPINES CENTRAL 1
+  - rvm_remarks: "" -> Located at the back of the supermarket, facing the main road.
+- `20254809801` Fairprice Joo Chiat Complex
+  - rvm_remarks: "" -> Located just outside the supermarket entrance, beside the drinks vending machine.
+- `20254909864` SCARLETT@PAYA LEBAR SQUARE
+  - rvm_remarks: "" -> Located near the cashiers.
+- `20254909866` FairPrice Whitesands
+  - rvm_remarks: "" -> Located near the supermarket entrance, beside the ATMs and flower display.
+- `20254909867` SHENG SIONG BLK 872C TAMPINES STREET 86
+  - rvm_remarks: "" -> Located in front of the supermarket entrance on Level 2, facing the lifts and next to the escalators.
+- `20254909872` Giant Express 509 Bedok North St 3
+  - rvm_remarks: "" -> Located outside the supermarket along the corridor.
+- `20254909873` FairPrice Blk 633 Tampines North Drive 2
+  - rvm_remarks: "" -> Located at the supermarket, in a corner. Ask staff if you cannot find it.
+- `20254909877` FairPrice Pasir Ris West Plaza
+  - rvm_remarks: "" -> Located near the supermarket exit.
+- `20254909878` FairPrice Changi Business Park
+  - rvm_remarks: "" -> Located inside the supermarket near the entrance, beside the cashier area.
+- `20254909881` Giant Simei MRT
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 106 Simei Street 1; FairPrice East Point, #05-01; Blk 108 Simei Street 1. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 106 Simei Street 1; FairPrice East Point, #05-01; Blk 108 Simei Street 1. Check their status before heading over. Located at the supermarket entrance, beside the cashiers.
+- `20254909882` FairPrice Parkway Parade
+  - rvm_remarks: "" -> Located next to the dining area.
+- `20254909884` Giant Loyang Point
+  - rvm_remarks: "" -> Located inside the supermarket at the back of the store. Ask staff if you cannot find it.
+- `20254909886` Pasir Ris Central Hawker Centre
+  - rvm_remarks: "" -> Located on Level 2 of the hawker centre.
+- `20254909888` Cold Storage Parkway Parade
+  - rvm_remarks: "" -> Located near the exit and self-checkout counters on B1, close to the drinks section.
+- `20255010196` SHENG SIONG BLK 115 BEDOK NORTH ROAD 
+  - rvm_remarks: "" -> Located outside the supermarket along the corridor.
+- `20255010198` Don Don Donki (Jewel Changi)
+  - rvm_remarks: "" -> Located at the store, by the entrance of the restaurant.
+- `20255010199` SHENG SIONG BLK 91 JLN. SATU
+  - rvm_remarks: "" -> Located outside the supermarket, along the corridor of the block.
+- `20255010200` Cold Storage i12 Katong
+  - rvm_remarks: "" -> Located inside the supermarket.
+- `20255010201` SCARLETT@GEYLANG ROAD
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `20255010202` SHENG SIONG BLK 527D PASIR RIS STREET 51 
+  - rvm_remarks: "" -> Located in the L-shaped corner of the supermarket.
+- `20255010203` FairPrice Marine Parade
+  - rvm_remarks: "" -> Located outside the supermarket, in the outdoor display area.
+- `20255010206` FairPrice 41 Jalan Tiga
+  - rvm_remarks: "" -> Located outside the supermarket, along the walkway to Old Airport Road Food Centre and the bus stop.
+- `20255010209` Prime Supermarket Tampines North Drive 1
+  - rvm_remarks: "" -> Located along the walkway near the self-checkout exit, the bakery and the ATM.
+- `20255010210` FairPrice 612 Geylang Lorong 38
+  - rvm_remarks: "" -> Located outside the supermarket, near the trolley rack.
+- `20255010211` Prime Supermarket Eunos Road 2
+  - rvm_remarks: "" -> Located along the walkway near the supermarket entrance/exit, together with three other machines.
+- `20255010213` Giant Pasir Ris Drive 4
+  - rvm_remarks: "" -> Located inside the supermarket, next to the pet food and drinks section.
+- `20255010215` Giant Bedok Market Place
+  - rvm_remarks: "" -> Located near the supermarket main entrance.
+- `20255010216` Geylang Serai Market and Food Centre
+  - rvm_remarks: "" -> Located in the middle of the hawker centre, beside the tray return.
+- `20255010218` Sparrows 206 Bedok North Street 1
+  - rvm_remarks: "" -> Located at the back of the store. Ask staff if you cannot find it.
+- `20255010220` FairPrice Changi Airport T3
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Changi Airport Terminal 2. Check its status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Changi Airport Terminal 2. Check its status before heading over. Located at the side entrance of the supermarket, next to the food court, not at the main entrance.
+- `20255010444` FairPrice Blk 29B Chai Chee Avenue
+  - rvm_remarks: "" -> Located outside the supermarket along the corridor, beside the bulb and battery recycling bins.
+- `20255010445` FairPrice Bedok Mall
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Prime Supermarket Blk 25A Chai Chee Rd, #01-459; FairPrice Blk 29B Chai Chee Ave, #01-62; Blk 61 Chai Chee Road; Blk 63 Chai Chee Road. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Prime Supermarket Blk 25A Chai Chee Rd, #01-459; FairPrice Blk 29B Chai Chee Ave, #01-62; Blk 61 Chai Chee Road; Blk 63 Chai Chee Road. Check their status before heading over. Located at the main entrance of the supermarket on the left side, next to the trolley parking area.
+- `20255010446` FairPrice Downtown East
+  - rvm_remarks: "" -> Located near the entrance and self-checkout counters, next to the trolleys.
+- `20255010447` BITES BY SCARLETT@TAMPINES ONE
+  - rvm_remarks: "" -> Located on Level 3, beside the self-checkout kiosk towards the exit, along the mall walkway.
+- `20255010448` U STARS @Tampines Grove
+  - rvm_remarks: "" -> Located near the supermarket entrance.
+- `20255010450` FairPrice Siglap
+  - rvm_remarks: "" -> Located at the supermarket entrance.
+- `20255010451` FairPrice Blk 114 Aljunied Ave 2
+  - rvm_remarks: "" -> Located just past the self-checkout counters, beside the plants section.
+- `20255010452` Prime Supermarket Chai Chee Road
+  - rvm_remarks: "" -> Located beside the supermarket main entrance, near Singapore Pools.
+- `20255010455` Prime Supermarket Tampines Street 81
+  - rvm_remarks: "" -> Located near the supermarket entrance, on the opposite side.
+- `20255010457` FairPrice Lengkong Tiga
+  - rvm_remarks: "" -> Located outside the supermarket near the entrance/exit, along the pathway to the minimart and coffeeshop.
+- `20255010458` FairPrice Century Square Shopping Mall
+  - rvm_remarks: "" -> Located in the self-checkout area of the supermarket.
+- `20255010459` Cold Storage Tampines One
+  - rvm_remarks: "" -> Located inside the supermarket, near the entrance and self-checkout area.
+- `20255010460` FairPrice Tampines Mall
+  - rvm_remarks: "" -> Located inside the supermarket. Look for the machine signage, or ask staff if you cannot find it.
+- `20255010462` FairPrice East Point
+  - rvm_remarks: "" -> Located at the supermarket, between the ATMs.
+- `20255010464` FairPrice Blk 89 Bedok North Street 4
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `20255010465` FairPrice Blk 475 Tampines Street 44
+  - rvm_remarks: "" -> Located outside the supermarket by the main door, next to the drinks section and near the ATM.
+- `20255010466` Giant Tampines Mart
+  - rvm_remarks: "" -> Located in the corner by the supermarket entrance, next to the bakery section and opposite the eggs section.
+- `20255110621` FairPrice Our Tampines Hub
+  - rvm_remarks: "" -> Located behind the cashier counters, beside the supermarket exit.
+- `20255110623` ONE Supermarket Pte. Ltd.
+  - rvm_remarks: "" -> Located outside the supermarket entrance in the outdoor display area, beside the snacks and drinks section, next to the ATM.
+- `20255110625` FairPrice Finest Komo Shoppes
+  - rvm_remarks: "" -> Located near the supermarket exit and the customer service area.
+- `20255110627` ACE SIGNATURE @ LIV CHANGI
+  - rvm_remarks: "" -> Located beside the supermarket entrance/exit.
+- `20255110628` U STARS @878C Tampines Ave 8
+  - rvm_remarks: "" -> Located just outside the supermarket entrance, beside the walkway.
+- `20255110630` Don Don Donki (Tampines One)
+  - rvm_remarks: "" -> Located towards the back of the store, on the way to the payment area.
+- `20261515323` FairPrice 623 Elias Mall
+  - rvm_remarks: "" -> Located just outside the supermarket.
+- `20261515327` 50A Marine Terrace Hawker Centre
+  - rvm_remarks: "" -> Located in the market, next to a black cupboard.
+- `20261515332` SCARLETT@PASIR RIS MALL
+  - rvm_remarks: "" -> Located near the supermarket entrance.
+- `20261515333` FairPrice Finest Sceneca Square
+  - rvm_remarks: "" -> Located in the self-checkout area, near the supermarket entrance.
+- `20261515334` Cold Storage Pasir Ris Mall
+  - rvm_remarks: "" -> Located near the checkout counters.
+- `B5052352` SHENG SIONG BLK 658 PUNGGOL EAST 
+  - rvm_remarks: "" -> Located outside the supermarket by the self-checkout counters, next to the lucky draw box.
+- `B5052356` Prime Supermarket Bidadari Park Drive
+  - rvm_remarks: "" -> Located at the void deck beside the supermarket, close to the coffee shop.
+- `B5052358` FairPrice Havelock Road
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Beo Crescent Market, 38A Beo Crescent. Check its status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Beo Crescent Market, 38A Beo Crescent. Check its status before heading over. Located outside the supermarket along the corridor.
+- `B5052361` Giant Ang Mo Kio Avenue 10
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Block 536 Ang Mo Kio Ave 10. Check its status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Block 536 Ang Mo Kio Ave 10. Check its status before heading over. Located outside the supermarket in the outdoor display area, beside the drinks and plants section.
+- `B5052362` SHENG SIONG BLK 660A EDGEDALE PLAINS 
+  - rvm_remarks: "" -> Located inside the supermarket, next to the pasta section.
+- `B5052364` Cold Storage Plaza Singapura
+  - rvm_remarks: "" -> Located just after the cashiers, near the supermarket exit.
+- `B5052365` SHENG SIONG BLK 410A SIN MING AVENUE
+  - rvm_remarks: "" -> Located outside the supermarket, near the entrance.
+- `B5052367` FairPrice Serangoon Garden myVillage
+  - rvm_remarks: "" -> Located outside the supermarket beside the escalator, next to the snacks section.
+- `B5052368` Don Don Donki (Orchard Central)
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Finest The Centrepoint, #B1-09/10 and FairPrice Finest 111 Somerset, #01-01/02, #01-21/30. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Finest The Centrepoint, #B1-09/10 and FairPrice Finest 111 Somerset, #01-01/02, #01-21/30. Check their status before heading over. Located along the main walkway inside the store.
+- `B5052370` FairPrice Blk 476 Upper Serangoon View
+  - rvm_remarks: "" -> Located outside the supermarket, next to the HDB lift.
+- `B5052372` Cold Storage Raffles City
+  - rvm_remarks: "" -> Located inside the supermarket. Ask staff if you cannot find it.
+- `B5052471` Cold Storage Marina Bay Sands
+  - rvm_remarks: "" -> Located at the back of the supermarket.
+- `B5052472` FairPrice Tanjong Pagar
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Don Don Donki, 100AM. Check its status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Don Don Donki, 100AM. Check its status before heading over. Located outside the supermarket at the trolley area.
+- `B5052473` FairPrice Xtra VivoCity
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Marks & Spencer VivoCity, #01-46. Check its status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Marks & Spencer VivoCity, #01-46. Check its status before heading over. Located near the ATMs and the checkout, by the drop-off area.
+- `B5052477` Prime Supermarket Upper Aljunied Lane
+  - rvm_remarks: "" -> Located just outside the supermarket exit, along the walkway.
+- `B5052483` Cold Storage Serangoon Nex
+  - rvm_remarks: "" -> Located inside the supermarket at the far end of the store, next to the chillers.
+- `B5052485` Cold Storage Bugis Junction
+  - rvm_remarks: "" -> Located inside the supermarket at the far end of the store, next to the chiller.
+- `B5052486` FairPrice Serangoon North Ave 1
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is 526 Serangoon North Ave 4. Check its status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is 526 Serangoon North Ave 4. Check its status before heading over. Located outside the supermarket at the checkout.
+- `B5052487` FairPrice Finest Clarke Quay
+  - rvm_remarks: "" -> Located inside the supermarket near the self-checkout machines.
+- `B5052488` FairPrice Finest Coronation Plaza
+  - rvm_remarks: "" -> Located at the supermarket entrance.
+- `B5052492` Cold Storage Anchorpoint
+  - rvm_remarks: "" -> Located inside the supermarket near the checkout, next to the chilled drinks aisle.
+- `B5052494` FairPrice Dover Crescent
+  - rvm_remarks: "" -> Located inside the supermarket at the back of the store, near the snacks and drinks shelves.
+- `B5052496` Cold Storage Novena Square
+  - rvm_remarks: "" -> Located inside the supermarket near the checkout counters, between the basket stand and a drinks fridge.
+- `B5052498` FairPrice Dawson Place
+  - rvm_remarks: "" -> Located inside the supermarket next to Singapore Pools.
+- `B5052500` Don Don Donki (City Square Mall)
+  - rvm_remarks: "" -> Located inside the store towards the exit, near the eating corner.
+- `B5052503` FairPrice Hougang One
+  - rvm_remarks: "" -> Located just after the self-checkout machines.
+- `B5052506` Cold Storage Holland Village
+  - rvm_remarks: "" -> Located inside the supermarket near the entrance and checkout, beside the drinks section.
+- `B5052509` FairPrice 29A Ghim Moh Link
+  - rvm_remarks: "" -> Located inside the supermarket, along the aisle by the entrance.
+- `B5052510` Food-Joy Buona Vista
+  - rvm_remarks: "" -> Located at the front of the supermarket.
+- `B5052515` Meidi-Ya Millenia Walk
+  - rvm_remarks: "" -> Located inside the supermarket beside the cashier counter, near the entrance.
+- `B5052516` FairPrice Blk 78A Telok Blangah Street 32
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area, beside the store's stock area.
+- `B5052542` FairPrice Bukit Merah
+  - rvm_remarks: "" -> Located at the checkout area, by the cashiers.
+- `B5052544` Don Don Donki (Suntec City Mall)
+  - rvm_remarks: "" -> Located inside the store in the dining area after the checkout, near the store entrance.
+- `B5052550` SHENG SIONG BLK 671 EDGEFIELD PLAINS
+  - rvm_remarks: "" -> Located outside the supermarket on Level 2, in front of the lift and public toilets.
+- `B5052558` Jasons Deli by Cold Storage ION Orchard
+  - rvm_remarks: "" -> Located near the supermarket entrance/exit.
+- `B5052563` FairPrice Blk 227 Compassvale Link
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are SHENG SIONG Blk 266, #01-02 and FairPrice Finest Sengkang Grand, #B1-14. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are SHENG SIONG Blk 266, #01-02 and FairPrice Finest Sengkang Grand, #B1-14. Check their status before heading over. Located outside the supermarket in the outdoor display area, just after the checkout counters.
+- `B5052565` Cold Storage Great World City
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Meidi-Ya, Great World City, #B2-111 to 121. Check its status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Meidi-Ya, Great World City, #B2-111 to 121. Check its status before heading over. Located at the checkout counters.
+- `B5052627` Cold Storage Marina One
+  - rvm_remarks: "" -> Located inside the supermarket near the dairy section.
+- `B5052630` FairPrice MacPherson Blossom
+  - rvm_remarks: "" -> Located after the self-checkout counters, by the entrance, near the lift.
+- `B5052633` SHENG SIONG BLK 122 ANG MO KIO AVE 3 
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area, beside the drinks section, after the checkout counters.
+- `B5052918` Fair Price Hougang Mall
+  - rvm_remarks: "" -> Located inside the supermarket, just before the checkout machines.
+- `B5481005` Isetan Scotts Supermarket
+  - rvm_remarks: "" -> Located at the B1 entrance/exit of the supermarket.
+- `B5481007` FairPrice Holland Drive
+  - rvm_remarks: "" -> Located a short distance from the supermarket, towards the fast-food restaurant.
+- `B5481009` FairPrice Finest Scotts Square
+  - rvm_remarks: "" -> Located at the supermarket entrance, facing the fruit section and next to the cafe.
+- `B5481013` SCARLETT@DJITSUN AMK
+  - rvm_remarks: "" -> Located inside the supermarket near the entrance. Available during store opening hours only.
+- `B5481018` FairPrice Toa Payoh Hub
+  - rvm_remarks: "" -> Located just outside the supermarket entrance.
+- `B5481020` Don Don Donki (100AM)
+  - rvm_remarks: "" -> Located on Level 3 by the store entrance, in front of the escalators.
+- `B5481024` Don Don Donki (Square2)
+  - rvm_remarks: "" -> Located inside the store, near the self-checkout exit.
+- `B5481026` Cold Storage United Square
+  - rvm_remarks: "" -> Located inside the supermarket near the checkout counters, next to the pillar at the main entrance.
+- `B5481027` U STARS @330Anchorvale Street
+  - rvm_remarks: "" -> Located in a corner of the supermarket.
+- `B5481028` FairPrice Bukit Timah Plaza
+  - rvm_remarks: "" -> Located at the supermarket entrance, near the cashier.
+- `B5481030` Marks & Spencer Wheelock Place
+  - rvm_remarks: "" -> Located in the food section of the store, next to the canned drinks.
+- `B5481031` Giant Beauty World
+  - rvm_remarks: "" -> Located just after the cashiers, near the supermarket entrance.
+- `B5481034` SHENG SIONG BLK 25 GHIM MOH LINK 
+  - rvm_remarks: "" -> Located at the supermarket front by the exit, along the walkway.
+- `B5481036` SHENG SIONG BLK 18B CIRCUIT ROAD 
+  - rvm_remarks: "" -> Located at the void deck near the supermarket.
+- `B5481038` Cold Storage Tanglin Mall
+  - rvm_remarks: "" -> Located inside the supermarket. Ask staff if you cannot find it.
+- `B5481042` FairPrice 1 Jalan Bukit Merah
+  - rvm_remarks: "" -> Located outside the supermarket at the end of the store, next to the ATM.
+- `B5481044` ANG MO SUPERMARKET-260 ANG MO KIO ST21
+  - rvm_remarks: "" -> Located outside the supermarket along the corridor.
+- `B5481045` FairPrice 682 Hougang Avenue 4
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 698B Hougang St 61 and Blk 658 Hougang Avenue 8. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 698B Hougang St 61 and Blk 658 Hougang Avenue 8. Check their status before heading over. Located outside the supermarket in the outdoor display area, by the laundry and detergent section.
+- `B5481046` FairPrice Orchard Grand Court
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is FairPrice Finest 111 Somerset. Check its status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is FairPrice Finest 111 Somerset. Check its status before heading over. Located inside the supermarket beside the drinks fridge, next to the Singapore Pools counter.
+- `B5481052` FairPrice SengKang East
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `B5481055` FairPrice Nex Mall
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Cold Storage, NEX, #B2-44/45; SCARLETT, NEX, #04-12; Giant, Blk 266 Serangoon Central Drive. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Cold Storage, NEX, #B2-44/45; SCARLETT, NEX, #04-12; Giant, Blk 266 Serangoon Central Drive. Check their status before heading over. Located just after the self-checkout counters, beside Singapore Pools.
+- `B5481056` FairPrice Chinatown Point
+  - rvm_remarks: "" -> Located outside the supermarket, close to the cashier and self-checkout.
+- `B5481058` U STARS @215C Compassvale Drive
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area, beside the orange juice machine and the bread section.
+- `B5481061` Cold Storage Alocassia
+  - rvm_remarks: "" -> Located outside the supermarket at the back exit.
+- `B5481067` Cold Storage Marina Bay Link Mall
+  - rvm_remarks: "" -> Located inside the supermarket at the back of the store.
+- `B5481068` FairPrice Finest Funan Mall
+  - rvm_remarks: "" -> Located inside the supermarket between the food shelves, near the drinks cartons.
+- `B5481069` Meidi-Ya Great World City
+  - rvm_remarks: "" -> Located outside the supermarket next to the checkout counters, on the way to the travelators to Basement 1 and the carpark.
+- `B5481070` Cold Storage Takashimaya
+  - rvm_remarks: "" -> Located at the exit after the cashiers.
+- `B5481073` ANG MO SUPERMARKET-639 PUNGGOL DRIVE
+  - rvm_remarks: "" -> Located a short distance from the supermarket, in a corner along the passageway.
+- `B5481074` Cold Storage Chancery Court
+  - rvm_remarks: "" -> Located next to the supermarket exit.
+- `B5481078` MUSTAFA
+  - rvm_remarks: "" -> Located just outside Exit 5 of the store, on the back-street side.
+- `B5481081` ACE SIGNATURE @ NTP
+  - rvm_remarks: "" -> Located near the supermarket entrance and cashier.
+- `B5481083` SCARLETT@SHAW PLAZA
+  - rvm_remarks: "" -> Located just inside the supermarket entrance, near the self-checkout counter.
+- `B5481084` FairPrice 150 Towner Road
+  - rvm_remarks: "" -> Located at the supermarket entrance, beside the food court and facing the bus stop.
+- `B5481086` FairPrice Depot Heights Shopping Centre
+  - rvm_remarks: "" -> Located just outside the supermarket exit, next to the cashiers and checkout.
+- `B5481087` Marks & Spencer Vivo City
+  - rvm_remarks: "" -> Located inside the store near the checkout, at the back of the store.
+- `B5481093` FairPrice Finest 111 Somerset
+  - rvm_remarks: "" -> Located inside the supermarket near the bottled water. Ask staff if you cannot find it.
+- `B5481097` SCARLETT@PLAZA SINGAPURA
+  - rvm_remarks: "" -> Located just outside the supermarket, near the cashier counter.
+- `B5481099` FairPrice 5 Upper Boon Keng Road
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area, next to the drinks.
+- `B5481102` FairPrice AMK Hub
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Blk 712 Ang Mo Kio Avenue 6 and SCARLETT@Blk 710A, Ang Mo Kio Ave 8, #01-2625. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Blk 712 Ang Mo Kio Avenue 6 and SCARLETT@Blk 710A, Ang Mo Kio Ave 8, #01-2625. Check their status before heading over. Located inside the supermarket, just after the checkout counters.
+- `B5481103` Giant Serangoon Central Drive
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `B5481104` Cold Storage Paragon
+  - rvm_remarks: "" -> Located towards the back of the supermarket, next to the confectionery section and the ice-cream fridges.
+- `B5481107` Cold Storage Aperia
+  - rvm_remarks: "" -> Located near the supermarket entrance, next to the bakery and flower section.
+- `B5481108` Little Farms Market, Serangoon Garden (Grocery store)
+  - rvm_remarks: "" -> Located outside the supermarket along the walkway.
+- `B5481109` Prime Supermarket Punggol Field
+  - rvm_remarks: "" -> Located inside the supermarket by the drinks section.
+- `B5481110` FairPrice City Square Mall
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Don Don Donki, City Square Mall, #B2-05/18 and MUSTAFA, 145 Syed Alwi Road. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Don Don Donki, City Square Mall, #B2-05/18 and MUSTAFA, 145 Syed Alwi Road. Check their status before heading over. Located inside the supermarket, in the middle of the store.
+- `B5481116` SCARLETT@PEOPLE'S PARK COMPLEX
+  - rvm_remarks: "" -> Located in front of the main supermarket entrance.
+- `B5481117` FairPrice Finest Valley Point
+  - rvm_remarks: "" -> Located at the supermarket front. Available during store opening hours only.
+- `B5481118` FairPrice Serangoon Central
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area, near the cashiers.
+- `B5481120` FairPrice Hougang 202
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `B5481121` Little Farms Market, Tanglin Mall
+  - rvm_remarks: "" -> Located inside the supermarket at the back of the store.
+- `B5481123` ACE MARKETPLACE (86RC)
+  - rvm_remarks: "" -> Located just outside the supermarket along the block's walkway.
+- `B5481126` Little Farms Market, Sentosa
+  - rvm_remarks: "" -> Located along the checkout area of the supermarket.
+- `B5481127` Prime Supermarket Buangkok Square
+  - rvm_remarks: "" -> Located before the cashier counters, among the chilled fridges.
+- `B5481128` FairPrice Finest 100AM
+  - rvm_remarks: "" -> Located inside the supermarket under the escalator/travelator, near the flower display and next to the ATM.
+- `B5481129` Cold Storage Star Vista
+  - rvm_remarks: "" -> Located at the checkout area, next to the staffed cashier counter and exit.
+- `B5481131` SHENG SIONG BLK 266 COMPASSVALE BOW 
+  - rvm_remarks: "" -> Located at the back of the supermarket, near the loading/unloading bay.
+- `B5481132` FairPrice Finest Sengkang Grand
+  - rvm_remarks: "" -> Located inside the supermarket, just after the checkout counters.
+- `B5481133` Giant Kim Keat Avenue
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area, near the bottle cooler.
+- `B5481136` Giant Telok Blangah Crescent
+  - rvm_remarks: "" -> Located inside the supermarket along the aisle with the drinks fridges.
+- `B5481137` FairPrice NUH Medical Centre
+  - rvm_remarks: "" -> Located inside the supermarket at the back of the store, next to the ATM.
+- `B5481140` FairPrice Poiz Centre
+  - rvm_remarks: "" -> Located outside the back of the supermarket, after the self-checkout, facing the shophouses.
+- `B5481142` FairPrice Alexandra Retail Centre ARC (PSA Branch)
+  - rvm_remarks: "" -> Located inside the supermarket at the back of the store, towards the checkout area.
+- `B5481143` FairPrice Holland V
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor dining area.
+- `B5481144` FairPrice Dunearn Village
+  - rvm_remarks: "" -> Located inside the supermarket, by the meat section.
+- `B5481146` Prime Supermarket Hougang Avenue 1
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area, in the snacks section.
+- `B5481147` FairPrice Blk 510 Bishan Street 13
+  - rvm_remarks: "" -> Located inside the supermarket at the back of the store. Ask staff if you cannot find it.
+- `B5481152` Thai Supermarket Pte Ltd
+  - rvm_remarks: "" -> Located outside the supermarket, just after the checkout exit, beside the escalator.
+- `B5481154` FairPrice 43 Cambridge Road
+  - rvm_remarks: "" -> Located outside the supermarket along the footpath, a short distance from the entrance.
+- `B5481158` Cold Storage Greenwich
+  - rvm_remarks: "" -> Located near the checkout area, beside the fridge and freezer sections.
+- `B5481159` SCARLETT@GRANTRAL MACPHERSON
+  - rvm_remarks: "" -> Located beside the supermarket entrance.
+- `B5481160` FairPrice French Road
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Cold Storage Aperia, #01-47/51 and Thai Supermarket Aperia, #01-20. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Cold Storage Aperia, #01-47/51 and Thai Supermarket Aperia, #01-20. Check their status before heading over. Located at the supermarket entrance.
+- `B5481167` Cold Storage Jelita
+  - rvm_remarks: "" -> Located inside the supermarket just before the checkout area, near the cashier.
+- `B5481173` Cold Storage One Holland Village
+  - rvm_remarks: "" -> Located at the checkout area, near the cashier.
+- `B5481177` FairPrice Finest The Centrepoint
+  - rvm_remarks: "" -> Located inside the supermarket behind the self-checkout counters, between the chillers and the self-checkouts.
+- `B5481181` Don Don Donki (Tiong Bahru Plaza)
+  - rvm_remarks: "" -> Located at the checkout area, by the store exit walkway.
+- `B5481186` Prime Supermarket 159A Hougang Street 11
+  - rvm_remarks: "" -> Located outside the back of the supermarket, next to the loading area.
+- `B5481188` SCARLETT@SUNTEC CITY
+  - rvm_remarks: "" -> Located inside the store, in the dining area next to the walkway.
+- `B5481191` SHENG SIONG BLK 11 UPPER BOON KENG ROAD 
+  - rvm_remarks: "" -> Located beside the supermarket, at the corner by the staircase.
+- `B5481203` SHENG SIONG NEW BRIDGE CENTRE
+  - rvm_remarks: "" -> Located at the checkout counters.
+- `B5D61061` FairPrice 12 Greenwood Ave
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area, near the drinks section.
+- `B9051003` SHENG SIONG NO.1 JALAN BERSEH, NEW WORLD CENTRE
+  - rvm_remarks: "" -> Located inside the supermarket at the back of the store. Ask staff if you cannot find it.
+- `B9051004` FairPrice Woodleigh Mall
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Block 206A Woodleigh Link and SHENG SIONG ALKAFF CRESCENT. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Block 206A Woodleigh Link and SHENG SIONG ALKAFF CRESCENT. Check their status before heading over. Located at the supermarket, facing Singapore Pools.
+- `B9051007` SHENG SIONG BLK 512 BISHAN STREET 13 
+  - rvm_remarks: "" -> Located outside the supermarket along the public corridor.
+- `B9481007` SHENG SIONG BLK 88 TANGLIN HALT ROAD  
+  - rvm_remarks: "" -> Located just outside the supermarket front.
+- `B9481014` SHENG SIONG BLK 301 PUNGGOL CENTRAL 
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `B9481015` SHENG SIONG 19 SERANGOON NORTH AVE 5
+  - rvm_remarks: "" -> Located inside the supermarket, in a corner beside Singapore Pools.
+- `B9481017` SHENG SIONG 377 HOUGANG STREET 32,  HOUGANG RIVERCOURT
+  - rvm_remarks: "" -> Located near the supermarket entrance, between the plants section and the vegetable fridges.
+- `B9481018` SHENG SIONG BLK 4 TOA PAYOH LORONG 7 
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `B9481020` SHENG SIONG 5 STADIUM WALK,  LEISURE PARK KALLANG 
+  - rvm_remarks: "" -> Located inside the supermarket at the back of the store, near the produce section.
+- `B9481033` SHENG SIONG BLK 218 SUMANG WALK 
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `SGRVM0026` SHENG SIONG Woodlands Recreation Centre
+  - rvm_remarks: "" -> Located at the front of the supermarket, near the entrance.
+- `SGRVM0076` SHENG SIONG 18 YISHUN AVE 9,  JUNCTION NINE
+  - rvm_remarks: "" -> Located at the far end of the supermarket, near the food court.
+- `SGRVM0081` Prime Supermarket Blk 761 Yishun
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `SGRVM0098` Giant Khatib MRT
+  - rvm_remarks: "" -> Located at the back of the supermarket.
+- `SGRVM0099` FairPrice Wisteria Mall
+  - rvm_remarks: "" -> Located at the supermarket entrance, in front of the fruit section.
+- `SGRVM0100` Cold Storage West Mall
+  - rvm_remarks: "" -> Located inside the supermarket, beside the walkway near the exit.
+- `SGRVM0101` SCARLETT@WESTGATE
+  - rvm_remarks: "" -> Located at the supermarket entrance, in front of the basket and trolley return point.
+- `SGRVM0102` SCARLETT@SUN PLAZA
+  - rvm_remarks: "" -> Located at the supermarket on Level 3, in front of the food court.
+- `SGRVM0103` FairPrice Blk 166 Bukit Batok West Avenue 8
+  - rvm_remarks: "" -> Located near the supermarket entrance.
+- `SGRVM0109` U STARS @507 Yishun Ave 4
+  - rvm_remarks: "" -> Located outside the supermarket, to the side of the entrance.
+- `SGRVM0111` FairPrice Blk 849 Yishun Ring Road
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are GIANT Khatib MRT and Blk 627 Yishun Street 61. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are GIANT Khatib MRT and Blk 627 Yishun Street 61. Check their status before heading over. Located near the supermarket entrance and exit.
+- `SGRVM0115` Giant Woodlands North
+  - rvm_remarks: "" -> Located just inside the supermarket, to the right of the cashiers, next to the chilled drinks fridges.
+- `SGRVM0116` Giant Woodlands Mart
+  - rvm_remarks: "" -> Located inside the supermarket in the back aisle, opposite the entrance and cashiers, next to the drinks and ice fridges.
+- `SGRVM0118` FairPrice Causeway Point
+  - rvm_remarks: "" -> Located at the supermarket entrance.
+- `SGRVM0121` ANG MO SUPERMARKET-693 WOODLANDS AVE 6
+  - rvm_remarks: "" -> Located just outside the supermarket, on the left side of the entrance, near the exit.
+- `SGRVM0126` FairPrice Lot 1
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 219 Choa Chu Kang Central; Blk 340 Choa Chu Kang Loop; Blk 432 Choa Chu Kang Ave 4. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 219 Choa Chu Kang Central; Blk 340 Choa Chu Kang Loop; Blk 432 Choa Chu Kang Ave 4. Check their status before heading over. Located at the supermarket exit, beside the ATM.
+- `SGRVM0130` SHENG SIONG BLK 420A CLEMENTI AVE 1 
+  - rvm_remarks: "" -> Located outside the supermarket, at the end of the walkway.
+- `SGRVM0131` Giant 256 Bangkit Road
+  - rvm_remarks: "" -> Located next to the supermarket entrance.
+- `SGRVM0132` SHENG SIONG BLK 182 WOODLANDS ST 13 
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area, away from the entrance and cashiers.
+- `SGRVM0134` FairPrice Jurong Point
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Don Don Donki (Jurong Point), #B1-09 and Blk 689 Jurong West Central 1. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Don Don Donki (Jurong Point), #B1-09 and Blk 689 Jurong West Central 1. Check their status before heading over. Located at the back of the supermarket, near the checkout counters.
+- `SGRVM0135` FairPrice Hillion Mall
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Redman by Phoon Huat; 167 Petir Rd; Don Don Donki (Bukit Panjang Plaza). Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Redman by Phoon Huat; 167 Petir Rd; Don Don Donki (Bukit Panjang Plaza). Check their status before heading over. Located near the supermarket entrance, beside the ATM and the trolley return point.
+- `SGRVM0137` Giant Admiralty MRT
+  - rvm_remarks: "" -> Located at the far end of the supermarket.
+- `SGRVM0138` FairPrice Kampung Admiralty
+  - rvm_remarks: "" -> Located inside the supermarket's Annex, separate from the main store, between the meat sections. Ask staff if you cannot find it.
+- `SGRVM0140` FairPrice Bukit Batok MRT
+  - rvm_remarks: "" -> Located inside the supermarket at the far end of the store, near Singapore Pools.
+- `SGRVM0144` Giant Kranji MRT
+  - rvm_remarks: "" -> Located at the back of the supermarket.
+- `SGRVM0147` FairPrice Le Quest
+  - rvm_remarks: "" -> Located near the supermarket exit, next to the ATMs.
+- `SGRVM0149` SHENG SIONG BLK 785E WOODLANDS RISE 
+  - rvm_remarks: "" -> Located just outside the supermarket main entrance, to the right, beside the drinks fridges.
+- `SGRVM0150` SHENG SIONG BLK 4 WOODLANDS ST 12
+  - rvm_remarks: "" -> Located outside the supermarket, along the row of shops at the side of the store. Ask staff if you cannot find it.
+- `SGRVM0153` FairPrice Blk 345 Jurong East Street 31
+  - rvm_remarks: "" -> Located beside the walkway outside the supermarket.
+- `SGRVM0154` SHENG SIONG 3 YUAN CHING ROAD 
+  - rvm_remarks: "" -> Located just outside the supermarket entrance.
+- `SGRVM0155` FairPrice Hub
+  - rvm_remarks: "" -> Located inside the supermarket between the product aisles, near the checkout area.
+- `SGRVM0162` SHENG SIONG 7 JURONG WEST AVE 5 
+  - rvm_remarks: "" -> Located just outside the supermarket main entrance/exit, along the pedestrian walkway.
+- `SGRVM0163` FairPrice Marsiling MRT
+  - rvm_remarks: "" -> Located in a corner beside the supermarket entrance.
+- `SGRVM0165` FairPrice Blk 414 Yishun Ring Road
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `SGRVM0170` FairPrice Clementi Ave 2 Shopping Centre
+  - rvm_remarks: "" -> Located outside the supermarket, facing the Singapore Pools corner of the store.
+- `SGRVM0171` FairPrice Woodlands Civic Centre
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are 370 Woodlands Ave 1; 513 Woodlands Drive 14; 354 Woodlands Ave 1. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are 370 Woodlands Ave 1; 513 Woodlands Drive 14; 354 Woodlands Ave 1. Check their status before heading over. Located just outside the supermarket entrance, beside the escalator and next to the shopping baskets.
+- `SGRVM0176` SHENG SIONG BLK 154A BUKIT BATOK WEST AVE 8 
+  - rvm_remarks: "" -> Located just outside the supermarket entrance.
+- `SGRVM0177` U STARS @691 Woodlands Drive
+  - rvm_remarks: "" -> Located at the end of the supermarket.
+- `SGRVM0178` FairPrice Finest Clementi Mall
+  - rvm_remarks: "" -> Located inside the supermarket along a product aisle, near the freezer products. Ask staff if you cannot find it.
+- `SGRVM0180` SHENG SIONG BLK 159 BUKIT BATOK STREET 11 
+  - rvm_remarks: "" -> Located at the supermarket exit.
+- `SGRVM0181` SHENG SIONG BLK 573 WOODLANDS DRIVE 16 
+  - rvm_remarks: "" -> Located outside the supermarket on Level 2, along the walkway to the multi-storey carpark. From the main entrance, walk straight and turn right.
+- `SGRVM0183` Giant Admiralty Drive
+  - rvm_remarks: "" -> Located outside the supermarket, near the back exit.
+- `SGRVM0184` FairPrice Dairy Farm Residences
+  - rvm_remarks: "" -> Located at the supermarket entrance, next to the trolley return area.
+- `SGRVM0185` FORTUNE SUPERMARKET 463
+  - rvm_remarks: "" -> Located just outside the supermarket, to the left of the main entrance, near the side entrance and the coffeeshop.
+- `SGRVM0189` FairPrice Greenridge
+  - rvm_remarks: "" -> Located at the supermarket exit, by the cashiers.
+- `SGRVM0190` Prime Supermarket NTU Spine Hub
+  - rvm_remarks: "" -> Located at the back of the supermarket.
+- `SGRVM0191` SHENG SIONG BLK 105 CANBERRA STREET 
+  - rvm_remarks: "" -> Located outside the supermarket, near the exit.
+- `SGRVM0195` SHENG SIONG BLK 209A CLEMENTI AVE 6 
+  - rvm_remarks: "" -> Located at a corner of the supermarket front.
+- `SGRVM0200` FairPrice Sun Plaza
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Blk 355 Sembawang Way and Blk 341 Sembawang Close. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are FairPrice Blk 355 Sembawang Way and Blk 341 Sembawang Close. Check their status before heading over. Located at the supermarket exit, beside the self-checkout counters, near the entrance and service counter.
+- `SGRVM0222` FORTUNE SUPERMARKET 780
+  - rvm_remarks: "" -> Located outside the supermarket near the entrance, along the corridor facing the HDB walkway.
+- `SGRVM0225` Prime Supermarket Jurong West Street 91
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `SGRVM0235` SCARLETT @ CLEMENTI
+  - rvm_remarks: "" -> Located at the front of the supermarket on Level 2, next to the checkout and near the entrance.
+- `SGRVM0239` FairPrice Taman Jurong Shopping Centre
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Blk 184 Yung Sheng Rd. Check its status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best option nearby is Blk 184 Yung Sheng Rd. Check its status before heading over. Located just outside the supermarket front.
+- `SGRVM0280` Prime Supermarket Bukit Batok Street 31
+  - rvm_remarks: "" -> Located just outside the supermarket entrance, along the walkway.
+- `SGRVM0282` FairPrice Blk 135 Jurong Gateway Road
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are SCARLETT@WESTGATE, #B2-01; Blk 102 Jurong East St 13; Don Don Donki JEM, #02-24/26 & #03-27/29. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are SCARLETT@WESTGATE, #B2-01; Blk 102 Jurong East St 13; Don Don Donki JEM, #02-24/26 & #03-27/29. Check their status before heading over. Located at the front of the supermarket near the entrance, along the common walkway next to the ATM.
+- `SGRVM0283` Prime Supermarket Blk 142 Teck Whye Lane
+  - rvm_remarks: "" -> Located a short distance from the supermarket. Ask staff if you cannot find it.
+- `SGRVM0318` Giant IMM
+  - rvm_remarks: "" -> Located inside the supermarket near the checkout area, beside the walkway and behind the chilled drinks fridges.
+- `SGRVM0319` Cold Storage Clementi Arcade
+  - rvm_remarks: "" -> Located just outside the supermarket entrance.
+- `SGRVM0322` SHENG SIONG BLK 720 CLEMENTI WEST STREET 2 
+  - rvm_remarks: "" -> Located along the corridor beside the supermarket, facing the route to the coffeeshop at Blk 722.
+- `SGRVM0325` SHENG SIONG BLK 446 FAJAR ROAD
+  - rvm_remarks: "" -> Located outside the supermarket entrance.
+- `SGRVM0341` FairPrice Yishun MRT
+  - rvm_remarks: "" -> Located inside the supermarket on Level 1, near the fruit section. Ask staff if you cannot find it.
+- `SGRVM0348` Prime Supermarket Blk 768 Woodlands Ave 6
+  - rvm_remarks: "" -> Located just outside the supermarket entrance/exit, beside the fruit display.
+- `SGRVM0349` SHENG SIONG BLK 18 TECK WHYE LANE 
+  - rvm_remarks: "" -> Located just outside the cashiers, beside the walkway.
+- `SGRVM0350` Cold Storage Lentor Modern
+  - rvm_remarks: "" -> Located at the supermarket entrance.
+- `SGRVM0351` SHENG SIONG NO.1 WOODLANDS ROADS 
+  - rvm_remarks: "" -> Located at the supermarket entrance/exit, near the cashier counters and the toilet.
+- `SGRVM0352` FairPrice Blk 511 Canberra Road
+  - rvm_remarks: "" -> Located just inside the supermarket, to the right of the exit, next to the self-checkout machines.
+- `SGRVM0354` SCARLETT@YISHUN 10 CINEMA COMPLEX
+  - rvm_remarks: "" -> Located in the seating area, between the tables and chairs.
+- `SGRVM0358` FairPrice Canberra Plaza
+  - rvm_remarks: "" -> Located at the supermarket entrance, beside the walkway.
+- `SGRVM0359` FairPrice Teck Whye
+  - rvm_remarks: "" -> Located at the supermarket entrance, beside the walkway.
+- `SGRVM0361` FairPrice Yew Tee Point
+  - rvm_remarks: "" -> Located at the supermarket exit.
+- `SGRVM0363` FairPrice JEM
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are SCARLETT@WESTGATE, #B2-01 and Don Don Donki JEM, #02-24/26 & #03-27/29. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are SCARLETT@WESTGATE, #B2-01 and Don Don Donki JEM, #02-24/26 & #03-27/29. Check their status before heading over. Located at the supermarket exit, just after the self-checkout area, beside the florist.
+- `SGRVM0364` Don Don Donki (Jurong East Mall)
+  - rvm_remarks: "" -> Located inside the store at the checkout exit, next to the payment counters. Ask staff if you cannot find it.
+- `SGRVM0366` Giant Yishun Street 22
+  - rvm_remarks: "" -> Located outside the supermarket in the outdoor display area.
+- `SGRVM0369` Don Don Donki (Bukit Panjang Plaza)
+  - rvm_remarks: "" -> Located outside the store on Level 3, opposite the store exit.
+- `SGRVM0370` Giant Choa Chu Kang Avenue 3
+  - rvm_remarks: "" -> Located inside the supermarket at the back of the store.
+- `SGRVM0371` SHENG SIONG BLK 352 CLEMENTI AVE 2 
+  - rvm_remarks: "" -> Located behind the supermarket, facing the carpark. Approach from the coffeeshop or the market and food centre side.
+- `SGRVM0372` Redman by Phoon Huat
+  - rvm_remarks: "" -> Located beside the store entrance.
+- `SGRVM0373` FairPrice Boon Lay Shopping Complex
+  - rvm_remarks: "" -> Located beside the supermarket entrance, along the shopping centre corridor.
+- `SGRVM0374` FairPrice 451 Clementi Avenue 3
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 454 Clementi Ave 3; Blk 445 Clementi Ave 3; SCARLETT, Grantral Mall, #02-11/12. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 454 Clementi Ave 3; Blk 445 Clementi Ave 3; SCARLETT, Grantral Mall, #02-11/12. Check their status before heading over. Located outside the supermarket, to the side of the entrance.
+- `SGRVM0380` U STARS @810 Cha Chu Kang Ave 7
+  - rvm_remarks: "" -> Located outside the supermarket, at one of the main exits.
+- `SGRVM0382` FairPrice Tengah Parc Point
+  - rvm_remarks: "" -> Located near the checkout counters.
+- `SGRVM0383` Giant Tengah Plantation Plaza
+  - rvm_remarks: "" -> Located near the checkout counters, close to the supermarket exit.
+- `SGRVM0384` FairPrice 280 Bukit Batok East Avenue 3
+  - rvm_remarks: "" -> Located just outside the supermarket entrance.
+- `SGRVM0414` FairPrice 289A Toh Guan
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 288C Jurong East Street 21; Blk 286D Toh Guan Rd; Blk 282A Toh Guan Rd; Blk 267A Toh Guan Rd. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are Blk 288C Jurong East Street 21; Blk 286D Toh Guan Rd; Blk 282A Toh Guan Rd; Blk 267A Toh Guan Rd. Check their status before heading over. Located outside the supermarket in the outdoor display area.
+- `SGRVM0415` Chong Pang Food Centre
+  - rvm_remarks: "" -> Located in the multi-purpose hall near the hawker centre.
+- `SGRVM0417` SHENG SIONG BLK 845 YISHUN ST 81
+  - rvm_remarks: This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are GIANT Khatib MRT, 201 Yishun Ave 2, #01-03 and Blk 821 Yishun Street 81. Check their status before heading over. -> This machine is popular and can get busy. If there's a queue or the bin is full, your next best options nearby are GIANT Khatib MRT, 201 Yishun Ave 2, #01-03 and Blk 821 Yishun Street 81. Check their status before heading over. Located outside the supermarket in the outdoor display area.
+- `SGRVM0425` FairPrice West Coast Wet Market
+  - rvm_remarks: "" -> Located at the supermarket front.
+- `SGRVM0430` SHENG SIONG BLK 440 BUKIT BATOK WEST AVE 8
+  - rvm_remarks: "" -> Located in the open area below Blk 440, near the HDB lift landing.
+</details>
+
+<details>
 <summary><b>2026-10-13</b> · 1,420 locations · ±1</summary>
 
 - Snapshot size: **1420** locations
