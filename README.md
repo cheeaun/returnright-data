@@ -28,6 +28,24 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-15</b> · 1,427 locations · +7</summary>
+
+- Snapshot size: **1427** locations
+- Added: **7**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `B5D61049` Block 178D Rivervale Crescent (postal: 544178, status: RUNNING)
+- `B5D61055` Block 203E Compassvale Road (postal: 545203, status: RUNNING)
+- `B5D61057` Block 228C Compassvale Walk (postal: 543228, status: RUNNING)
+- `B5D61060` Block 152 Rivervale Crescent (postal: 540152, status: RUNNING)
+- `B5D61070` Block 194 Rivervale Drive (postal: 540194, status: OFFLINE)
+- `B5D61094` Block 163A Rivervale Crescent (postal: 541163, status: RUNNING)
+- `SGRVM0404` 731 Clementi West Street 2, Singapore 120731 (postal: 120731, status: RUNNING)
+</details>
+
+<details>
 <summary><b>2026-10-14</b> · 1,420 locations · ±288</summary>
 
 - Snapshot size: **1420** locations
