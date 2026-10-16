@@ -28,6 +28,21 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-17</b> · 1,431 locations · +4</summary>
+
+- Snapshot size: **1431** locations
+- Added: **4**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `SGRVM0496` 51 Soon Lee Road, MPH Event (postal: 628088, status: offline)
+- `SGRVM0508` 500 Old Choa Chu Kang Rd, Asam Tree, Singapore 698924 (postal: 698924, status: MAINTENANCE)
+- `SGRVM0511` 51 Soon Lee Road, Beer Garden (postal: 628088, status: offline)
+- `SGRVM0528` JTC Woodlands North Coast, Singapore 737663 (postal: 737663, status: MAINTENANCE)
+</details>
+
+<details>
 <summary><b>2026-10-16</b> · No changes</summary>
 
 No changes.
