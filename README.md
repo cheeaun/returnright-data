@@ -28,6 +28,26 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-18</b> · 1,440 locations · +9</summary>
+
+- Snapshot size: **1440** locations
+- Added: **9**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `20261515347` Tampines Dormitory (postal: 528821, status: ERROR)
+- `B5D61050` Block 316 Hougang Avenue 7 (postal: 530316, status: FULL)
+- `B5D61051` Block 139 Serangoon North Avenue 2 (postal: 550139, status: RUNNING)
+- `B5D61054` Block 251 Hougang Avenue 3 (postal: 530251, status: RUNNING)
+- `B5D61058` Biopolis (postal: 138668, status: RUNNING)
+- `B5D61078` Block 123 Serangoon North Avenue 1 (postal: 550123, status: RUNNING)
+- `B5D61091` Block 240 Hougang Street 22 (postal: 530240, status: RUNNING)
+- `B5D61093` Block 24 Hougang Avenue 3 (postal: 530024, status: RUNNING)
+- `B5D61095` Space @ AMK (postal: 569063, status: RUNNING)
+</details>
+
+<details>
 <summary><b>2026-10-17</b> · 1,431 locations · +4</summary>
 
 - Snapshot size: **1431** locations
