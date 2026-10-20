@@ -28,6 +28,23 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-21</b> · 1,446 locations · +6</summary>
+
+- Snapshot size: **1446** locations
+- Added: **6**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `B5D61056` Block 154 Lor 2 Toa Payoh (postal: 310154, status: MAINTENANCE)
+- `B5D61077` Block 194 Rivervale Drive (postal: 540194, status: RUNNING)
+- `B5D61084` Blk 160 Sin Ming AutoCity (postal: 575722, status: MAINTENANCE)
+- `B5D61085` 262 Bishan St 22 (postal: 570262, status: MAINTENANCE)
+- `B5D61088` Block 81B Lorong 4 Toa Payoh (postal: 311081, status: UNKNOWN)
+- `B5D61090` Block 84B Lorong 2 Toa Payoh (postal: 312084, status: MAINTENANCE)
+</details>
+
+<details>
 <summary><b>2026-10-20</b> · No changes</summary>
 
 No changes.
