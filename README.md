@@ -28,6 +28,26 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-22</b> · 1,447 locations · +1 · ±1</summary>
+
+- Snapshot size: **1447** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `20262515859` Marina Bay Sands B2B Bulk Machine Collection Point (postal: 018956, status: RUNNING)
+
+Changed
+- `B5D61070` Block 3 Lor 7 Toa Payoh
+  - address: 194 Rivervale Drive, 540194 -> 3 Lor 7 Toa Payoh, 310003
+  - latitude: 1.392919 -> 1.339257
+  - locationName: Block 194 Rivervale Drive -> Block 3 Lor 7 Toa Payoh
+  - longitude: 103.901624 -> 103.854573
+  - postalCode: 540194 -> 310003
+</details>
+
+<details>
 <summary><b>2026-10-21</b> · 1,446 locations · +6</summary>
 
 - Snapshot size: **1446** locations
