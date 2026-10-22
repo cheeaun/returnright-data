@@ -1,20 +1,20 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-10-21** · 1,447 locations · `data/latest.json` · as of 21 Oct 2026, 17:35 UTC_
+_Snapshot: **2026-10-22** · 1,450 locations · `data/latest.json` · as of 22 Oct 2026, 17:35 UTC_
 
 ## Summary
 
-The network contains 1,447 locations across 1,396 postal codes. 81.8% are RUNNING. The network has grown by 377 locations (35.3%) since 2026-04-08. The largest postal sectors are S52 (112), S73 (88), S46 (76).
+The network contains 1,450 locations across 1,399 postal codes. 79.8% are RUNNING. The network has grown by 378 locations (35.4%) since 2026-04-08. The largest postal sectors are S52 (112), S73 (88), S46 (76).
 
 ## Current snapshot
 
 | Metric | Value |
 | --- | --- |
-| Total locations | 1,447 |
-| Unique serials | 1,447 |
-| Serial records | 1,447 |
+| Total locations | 1,450 |
+| Unique serials | 1,450 |
+| Serial records | 1,450 |
 | Duplicate serial records | 0 |
-| Unique postal codes | 1,396 |
+| Unique postal codes | 1,399 |
 | Shared postal codes | 43 postcodes host 51 extra machines |
 
 ### Status distribution
@@ -33,21 +33,25 @@ config:
     pie8: "#999999"
 ---
 pie showData
-    title "Machines by status — current snapshot (1,447)"
-    "RUNNING": 1184
-    "FULL": 169
-    "ERROR": 50
-    "OFFLINE": 36
+    title "Machines by status — current snapshot (1,450)"
+    "RUNNING": 1157
+    "FULL": 174
+    "OFFLINE": 71
+    "ERROR": 38
     "MAINTENANCE": 8
+    "CLEANING": 1
+    "UNKNOWN": 1
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,184 | 81.8% |
-| FULL | 169 | 11.7% |
-| ERROR | 50 | 3.5% |
-| OFFLINE | 36 | 2.5% |
+| RUNNING | 1,157 | 79.8% |
+| FULL | 174 | 12.0% |
+| OFFLINE | 71 | 4.9% |
+| ERROR | 38 | 2.6% |
 | MAINTENANCE | 8 | 0.6% |
+| CLEANING | 1 | 0.1% |
+| UNKNOWN | 1 | 0.1% |
 
 _Status values are normalized to uppercase for reporting._
 
@@ -55,9 +59,9 @@ _Status values are normalized to uppercase for reporting._
 
 | Coverage | Machines | % |
 | --- | --- | --- |
-| 24-hour | 799 | 55.2% |
+| 24-hour | 799 | 55.1% |
 | Limited hours | 239 | 16.5% |
-| Unknown | 409 | 28.3% |
+| Unknown | 412 | 28.4% |
 
 ### Hourly availability
 
@@ -71,7 +75,7 @@ config:
     width: 900
 ---
 xychart-beta
-    title "Average machines operating (2-hour buckets) — current snapshot (1,447)"
+    title "Average machines operating (2-hour buckets) — current snapshot (1,450)"
     x-axis ["00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00"]
     y-axis "machines" 0 --> 1194
     line [799, 799, 802, 850, 993, 1035, 1038, 1038, 1038, 1038, 1036, 990]
@@ -96,10 +100,10 @@ config:
     plotReservedSpacePercent: 40
 ---
 xychart-beta
-    title "Machines by postal district — current snapshot (1,447)"
+    title "Machines by postal district — current snapshot (1,450)"
     x-axis ["D19", "D18", "D23", "D22", "D27", "D16", "D25", "D14", "D20", "D03", "D05", "D12", "D13", "D15", "D10", "D01", "D09", "D04", "D28", "D08", "D24", "D17", "D07", "D02", "D11", "D21", "D06", "D26"]
-    y-axis "machines" 0 --> 221
-    bar [192, 174, 141, 131, 112, 104, 92, 69, 67, 50, 46, 44, 29, 29, 25, 19, 19, 16, 16, 13, 12, 11, 9, 7, 7, 7, 5, 1]
+    y-axis "machines" 0 --> 222
+    bar [193, 174, 141, 131, 112, 104, 92, 69, 67, 50, 46, 46, 29, 29, 25, 19, 19, 16, 16, 13, 12, 11, 9, 7, 7, 7, 5, 1]
 ```
 
 ### Top sectors
@@ -108,7 +112,7 @@ xychart-beta
 | --- | --- | --- | --- | --- |
 | S52 | D18 | Pasir Ris, Tampines | 112 | 7.7% |
 | S73 | D25 | Admiralty, Woodlands, Kranji, Woodgrove | 88 | 6.1% |
-| S46 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 76 | 5.3% |
+| S46 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 76 | 5.2% |
 | S76 | D27 | Yishun, Sembawang | 75 | 5.2% |
 | S53 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 65 | 4.5% |
 
@@ -118,12 +122,12 @@ All postal sectors, with the Singapore postal district each belongs to:
 | --- | --- | --- | --- | --- |
 | S52 | D18 | Pasir Ris, Tampines | 112 | 7.7% |
 | S73 | D25 | Admiralty, Woodlands, Kranji, Woodgrove | 88 | 6.1% |
-| S46 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 76 | 5.3% |
+| S46 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 76 | 5.2% |
 | S76 | D27 | Yishun, Sembawang | 75 | 5.2% |
 | S53 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 65 | 4.5% |
 | S64 | D22 | Boon Lay, Jurong, Tuas | 65 | 4.5% |
 | S51 | D18 | Pasir Ris, Tampines | 62 | 4.3% |
-| S82 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 59 | 4.1% |
+| S82 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 60 | 4.1% |
 | S68 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 53 | 3.7% |
 | S54 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 49 | 3.4% |
 | S56 | D20 | Ang Mo Kio, Bishan, Thomson | 46 | 3.2% |
@@ -132,9 +136,9 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S60 | D22 | Boon Lay, Jurong, Tuas | 37 | 2.6% |
 | S75 | D27 | Yishun, Sembawang | 37 | 2.6% |
 | S12 | D05 | Buona Vista, West Coast, Pasir Panjang, Clementi New Town | 32 | 2.2% |
+| S31 | D12 | Balestier, Toa Payoh, Serangoon | 26 | 1.8% |
 | S47 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 25 | 1.7% |
-| S31 | D12 | Balestier, Toa Payoh, Serangoon | 24 | 1.7% |
-| S57 | D20 | Ang Mo Kio, Bishan, Thomson | 21 | 1.5% |
+| S57 | D20 | Ang Mo Kio, Bishan, Thomson | 21 | 1.4% |
 | S40 | D14 | Kembangan, Eunos, Paya Lebar, Geylang | 20 | 1.4% |
 | S55 | D19 | Serangoon Gardens, Hougang, Punggol, Sengkang | 19 | 1.3% |
 | S15 | D03 | Alexandra, Commonwealth, Queenstown, Tiong Bahru | 18 | 1.2% |
@@ -198,8 +202,8 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Metric | Value |
 | --- | --- |
 | Top 5 postal sectors | 416 (28.7%) |
-| Top 10 postal sectors | 704 (48.7%) |
-| Largest postal district | **D19** — 192 (13.3%) |
+| Top 10 postal sectors | 705 (48.6%) |
+| Largest postal district | **D19** — 193 (13.3%) |
 | Largest postcode | **698924** — 5 |
 | Average machines per postal code | 1.04 |
 
@@ -213,22 +217,22 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Duplicate serial records | 0 |
 | Missing postal codes | 0 |
 | Unknown statuses | 0 |
-| Unknown opening hours | 409 |
+| Unknown opening hours | 412 |
 | Unmapped postal sectors | 0 |
 
-## History (197 snapshots · 2026-04-08 → 2026-10-21)
+## History (198 snapshots · 2026-04-08 → 2026-10-22)
 
 | Metric | Value |
 | --- | --- |
 | First snapshot | 1,069 |
-| Current snapshot | 1,446 |
-| Net change | +377 |
-| Growth since first snapshot | 35.3% |
+| Current snapshot | 1,447 |
+| Net change | +378 |
+| Growth since first snapshot | 35.4% |
 | Average net change | 1.91 locations per snapshot |
-| Average locations per snapshot | 1,199 |
-| Gross churn | 70.5% |
+| Average locations per snapshot | 1,200 |
+| Gross churn | 70.6% |
 | Minimum | 1,069 (2026-04-08) |
-| Maximum | 1,446 (2026-10-21) |
+| Maximum | 1,447 (2026-10-22) |
 
 - Best month: **2026-09 (+92)**
 - Largest removal month: **2026-08 (−91 removed)**
@@ -237,9 +241,9 @@ All postal sectors, with the Singapore postal district each belongs to:
 
 | Metric | Total |
 | --- | --- |
-| Added | 563 |
+| Added | 564 |
 | Removed | 191 |
-| Changed | 12,818 |
+| Changed | 12,819 |
 | No-change days | 56 |
 
 ### Machines over time
@@ -254,8 +258,8 @@ config:
 xychart-beta
     title "Snapshot count by month (end of month)"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09", "2026-10"]
-    y-axis "machines" 0 --> 1663
-    line [1069, 1090, 1152, 1206, 1283, 1375, 1446]
+    y-axis "machines" 0 --> 1665
+    line [1069, 1090, 1152, 1206, 1283, 1375, 1447]
 ```
 
 ### Monthly change
@@ -271,7 +275,7 @@ xychart-beta
     title "Net change per month"
     x-axis ["2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09", "2026-10"]
     y-axis "machines" 0 --> 106
-    bar [0, 20, 62, 43, 75, 92, 50]
+    bar [0, 20, 62, 43, 75, 92, 51]
 ```
 
 | Month | Start → End | Added | Removed | Net |
@@ -282,7 +286,7 @@ xychart-beta
 | 2026-07 | 1,163 → 1,206 | 99 | 45 | +43 |
 | 2026-08 | 1,208 → 1,283 | 168 | 91 | +75 |
 | 2026-09 | 1,283 → 1,375 | 141 | 49 | +92 |
-| 2026-10 | 1,396 → 1,446 | 71 | 0 | +50 |
+| 2026-10 | 1,396 → 1,447 | 72 | 0 | +51 |
 
 ### Most active days
 

@@ -28,6 +28,20 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-23</b> · 1,450 locations · +3</summary>
+
+- Snapshot size: **1450** locations
+- Added: **3**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `B5D61074` Block 35 Lor 5 Toa Payoh (postal: 310035, status: MAINTENANCE)
+- `B5D61081` Block 191 Lor 4 Toa Payoh (postal: 310191, status: OFFLINE)
+- `B5D61083` Singapore Institute of Technology (SIT) (postal: 828608, status: MAINTENANCE)
+</details>
+
+<details>
 <summary><b>2026-10-22</b> · 1,447 locations · +1 · ±1</summary>
 
 - Snapshot size: **1447** locations
