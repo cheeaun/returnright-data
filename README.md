@@ -28,6 +28,30 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-25</b> · 1,458 locations · +8 · ±1</summary>
+
+- Snapshot size: **1458** locations
+- Added: **8**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `20261515343` Parkland Green (postal: 449875, status: ERROR)
+- `SGRVM0493` 803A Keat Hong Close, Singapore 681803 (postal: 681803, status: MAINTENANCE)
+- `SGRVM0499` Penjuru Recreation Centre, 25th October Event (postal: 608538, status: offline)
+- `SGRVM0506` 3A Tengah Road Dormitory (postal: 698814, status: MAINTENANCE)
+- `SGRVM0545` 1A Tengah Road Dormitory (postal: 698813, status: MAINTENANCE)
+- `SGRVM0548` 319B Tengah Park Avenue, Singapore 692319 (postal: 692319, status: MAINTENANCE)
+- `SGRVM0550` 10A Lorong Bistari Dormitory,  Singapore 688186 (postal: 688186, status: MAINTENANCE)
+- `SGRVM0552` 322B Tengah Drive, Singapore 692322 (postal: 692322, status: MAINTENANCE)
+
+Changed
+- `SGRVM0460` 892A Woodlands Drive 50, Singapore 731892
+  - address: 892A Woodlands Drive 50, 731892 -> 892A Woodlands Drive 50, 730892
+  - postalCode: 731892 -> 730892
+</details>
+
+<details>
 <summary><b>2026-10-24</b> · No changes</summary>
 
 No changes.
