@@ -28,6 +28,26 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-27</b> · 1,458 locations · ±2</summary>
+
+- Snapshot size: **1458** locations
+- Added: **0**
+- Removed: **0**
+- Changed: **2**
+
+Changed
+- `B5D61046` Block 423A Northshore Crescent
+  - address: Block 423A Northshore Crescent, 823423 -> Block 423A Northshore Crescent, 821423
+  - postalCode: 823423 -> 821423
+- `SGRVM0496` Penjuru Recreation Centre, 25th October Event Machine 2
+  - address: 51 Soon Lee Road, Singapore 628088, 628088 -> 27 Penjuru Walk, Singapore 608538, 608538
+  - latitude: 1.332814 -> 1.318531
+  - locationName: 51 Soon Lee Road, MPH Event -> Penjuru Recreation Centre, 25th October Event Machine 2
+  - longitude: 103.699565 -> 103.732748
+  - postalCode: 628088 -> 608538
+</details>
+
+<details>
 <summary><b>2026-10-26</b> · No changes</summary>
 
 No changes.

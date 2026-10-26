@@ -1,10 +1,10 @@
 # ReturnRight data analysis
 
-_Snapshot: **2026-10-25** · 1,458 locations · `data/latest.json` · as of 25 Oct 2026, 17:32 UTC_
+_Snapshot: **2026-10-26** · 1,458 locations · `data/latest.json` · as of 26 Oct 2026, 17:36 UTC_
 
 ## Summary
 
-The network contains 1,458 locations across 1,406 postal codes. 81.6% are RUNNING. The network has grown by 389 locations (36.4%) since 2026-04-08. The largest postal sectors are S52 (112), S73 (88), S46 (76).
+The network contains 1,458 locations across 1,406 postal codes. 77.0% are RUNNING. The network has grown by 389 locations (36.4%) since 2026-04-08. The largest postal sectors are S52 (112), S73 (88), S46 (76).
 
 ## Current snapshot
 
@@ -34,19 +34,19 @@ config:
 ---
 pie showData
     title "Machines by status — current snapshot (1,458)"
-    "RUNNING": 1190
-    "FULL": 203
-    "OFFLINE": 34
-    "ERROR": 23
+    "RUNNING": 1123
+    "FULL": 246
+    "ERROR": 46
+    "OFFLINE": 35
     "MAINTENANCE": 8
 ```
 
 | Status | Count | % |
 | --- | --- | --- |
-| RUNNING | 1,190 | 81.6% |
-| FULL | 203 | 13.9% |
-| OFFLINE | 34 | 2.3% |
-| ERROR | 23 | 1.6% |
+| RUNNING | 1,123 | 77.0% |
+| FULL | 246 | 16.9% |
+| ERROR | 46 | 3.2% |
+| OFFLINE | 35 | 2.4% |
 | MAINTENANCE | 8 | 0.5% |
 
 _Status values are normalized to uppercase for reporting._
@@ -129,7 +129,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S56 | D20 | Ang Mo Kio, Bishan, Thomson | 46 | 3.2% |
 | S65 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 44 | 3.0% |
 | S67 | D23 | Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang | 43 | 2.9% |
-| S60 | D22 | Boon Lay, Jurong, Tuas | 38 | 2.6% |
+| S60 | D22 | Boon Lay, Jurong, Tuas | 39 | 2.7% |
 | S75 | D27 | Yishun, Sembawang | 37 | 2.5% |
 | S12 | D05 | Buona Vista, West Coast, Pasir Panjang, Clementi New Town | 32 | 2.2% |
 | S31 | D12 | Balestier, Toa Payoh, Serangoon | 26 | 1.8% |
@@ -176,11 +176,11 @@ All postal sectors, with the Singapore postal district each belongs to:
 | S26 | D10 | Tanglin, Ardmore, Holland, Bukit Timah | 4 | 0.3% |
 | S50 | D17 | Changi Airport, Changi Village, Loyang | 4 | 0.3% |
 | S59 | D21 | Clementi Park, Upper Bukit Timah, Ulu Pandan | 4 | 0.3% |
-| S62 | D22 | Boon Lay, Jurong, Tuas | 4 | 0.3% |
 | S72 | D25 | Admiralty, Woodlands, Kranji, Woodgrove | 4 | 0.3% |
 | S22 | D09 | Orchard, Cairnhill, River Valley | 3 | 0.2% |
 | S48 | D16 | Bedok, Upper East Coast, Eastwood, Kew Drive | 3 | 0.2% |
 | S58 | D21 | Clementi Park, Upper Bukit Timah, Ulu Pandan | 3 | 0.2% |
+| S62 | D22 | Boon Lay, Jurong, Tuas | 3 | 0.2% |
 | S04 | D01 | Boat Quay, Raffles Place, Marina, Cecil, People's Park | 2 | 0.1% |
 | S06 | D01 | Boat Quay, Raffles Place, Marina, Cecil, People's Park | 2 | 0.1% |
 | S07 | D02 | Chinatown, Tanjong Pagar, Anson | 2 | 0.1% |
@@ -216,7 +216,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Unknown opening hours | 420 |
 | Unmapped postal sectors | 0 |
 
-## History (201 snapshots · 2026-04-08 → 2026-10-25)
+## History (202 snapshots · 2026-04-08 → 2026-10-26)
 
 | Metric | Value |
 | --- | --- |
@@ -224,8 +224,8 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Current snapshot | 1,458 |
 | Net change | +389 |
 | Growth since first snapshot | 36.4% |
-| Average net change | 1.94 locations per snapshot |
-| Average locations per snapshot | 1,204 |
+| Average net change | 1.93 locations per snapshot |
+| Average locations per snapshot | 1,205 |
 | Gross churn | 71.7% |
 | Minimum | 1,069 (2026-04-08) |
 | Maximum | 1,458 (2026-10-25) |
@@ -240,7 +240,7 @@ All postal sectors, with the Singapore postal district each belongs to:
 | Added | 575 |
 | Removed | 191 |
 | Changed | 12,820 |
-| No-change days | 57 |
+| No-change days | 58 |
 
 ### Machines over time
 
