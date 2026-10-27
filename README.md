@@ -28,6 +28,87 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-28</b> · 1,459 locations · +1 · ±21</summary>
+
+- Snapshot size: **1459** locations
+- Added: **1**
+- Removed: **0**
+- Changed: **21**
+
+Added
+- `20261515340` 1 Kaki Bukit Ave 3 (postal: 416087, status: ERROR)
+
+Changed
+- `20254909866` FairPrice White Sands
+  - latitude: 1.372416 -> 1.372449
+  - locationName: FairPrice Whitesands -> FairPrice White Sands
+  - longitude: 103.946650 -> 103.949715
+- `20254909885` SCARLETT@DOWNTOWN E!HUB
+  - latitude: 1.376477 -> 1.376174
+  - longitude: 103.955240 -> 103.956121
+- `20255010195` ANG MO SUPERMARKET-622B TAMPINES AVE 12
+  - latitude: 1.360888 -> 1.361263
+  - longitude: 103.941200 -> 103.940200
+- `20255010445` FairPrice Bedok Mall
+  - latitude: 1.324801 -> 1.324736
+  - longitude: 103.923310 -> 103.929256
+- `B5052471` Cold Storage Marina Bay Sands
+  - latitude: 1.286226 -> 1.285972
+  - longitude: 103.859764 -> 103.859803
+- `B5481188` SCARLETT@SUNTEC CITY
+  - latitude: 1.294600 -> 1.294879
+  - longitude: 103.860300 -> 103.859789
+- `B5D61050` Block 316 Hougang Avenue 7
+  - latitude: 1.367251 -> 1.364975
+  - longitude: 103.896455 -> 103.896800
+- `B5D61054` Block 251 Hougang Avenue 3
+  - latitude: 1.361908 -> 1.359956
+  - longitude: 103.891007 -> 103.891629
+- `B5D61063` Block 422 Hougang Avenue 6
+  - latitude: 1.377119 -> 1.374772
+  - longitude: 103.894206 -> 103.894050
+- `B5D61091` Block 240 Hougang Street 22
+  - latitude: 1.358970 -> 1.356422
+  - longitude: 103.890587 -> 103.890651
+- `SGRVM0023` 677 Choa Chu Kang Crescent
+  - latitude: 1.436993 -> 1.401510
+  - locationName: 677 Choa Chu Kang Cres -> 677 Choa Chu Kang Crescent
+  - longitude: 103.777357 -> 103.745481
+- `SGRVM0031` 162 Bukit Batok Street 11
+  - latitude: 1.348282 -> 1.347680
+  - longitude: 103.748058 -> 103.741887
+- `SGRVM0063` 103 Bukit Batok Central
+  - latitude: 1.350119 -> 1.348223
+  - longitude: 103.745366 -> 103.748034
+- `SGRVM0082` 475 Jurong West Street 41
+  - latitude: 1.346831 -> 1.348098
+  - longitude: 103.724433 -> 103.725087
+- `SGRVM0198` Bazaar Westlite Toh Guan Dormitory
+  - latitude: 1.318093 -> 1.379920
+  - longitude: 103.751808 -> 103.764357
+- `SGRVM0203` TUAS SOUTH MINIMART
+  - latitude: 1.272318 -> 1.270677
+  - longitude: 103.634499 -> 103.636144
+- `SGRVM0212` 931 Jurong West Street 92
+  - latitude: 1.340302 -> 1.341676
+  - longitude: 103.689337 -> 103.689698
+- `SGRVM0377` FairPrice Bukit Panjang Plaza
+  - latitude: 1.381330 -> 1.379920
+  - longitude: 103.764300 -> 103.764350
+- `SGRVM0389` Yishun Park Hawker Centre
+  - latitude: 1.425023 -> 1.424987
+  - locationName: Yishun Park Hawker -> Yishun Park Hawker Centre
+  - longitude: 103.842145 -> 103.844747
+- `SGRVM0408` 513 Yishun St 51, Singapore 761513
+  - latitude: 1.416046 -> 1.416218
+  - locationName: 513A Yishun St 51, Singapore 761513 -> 513 Yishun St 51, Singapore 761513
+  - longitude: 103.843482 -> 103.843869
+- `SGRVM0420` SHENG SIONG BLK 120 CANBERRA CRESCENT
+  - latitude: 1.445803 -> 1.445669
+  - longitude: 103.829193 -> 103.830896
+</details>
+
+<details>
 <summary><b>2026-10-27</b> · 1,458 locations · ±2</summary>
 
 - Snapshot size: **1458** locations
