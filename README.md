@@ -28,6 +28,20 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-29</b> · 1,462 locations · +3</summary>
+
+- Snapshot size: **1462** locations
+- Added: **3**
+- Removed: **0**
+- Changed: **0**
+
+Added
+- `20254508916` FairPrice SingPost Centre (postal: 408600, status: offline)
+- `B9481047` Masjid Sultan Mosque (postal: 198833, status: OFFLINE)
+- `SGRVM0125` FairPrice 498 Jurong West St 41 (postal: 640498, status: RUNNING)
+</details>
+
+<details>
 <summary><b>2026-10-28</b> · 1,459 locations · +1 · ±21</summary>
 
 - Snapshot size: **1459** locations
