@@ -28,6 +28,32 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-30</b> · 1,470 locations · +8 · ±1</summary>
+
+- Snapshot size: **1470** locations
+- Added: **8**
+- Removed: **0**
+- Changed: **1**
+
+Added
+- `B5D61098` Block 272 Bishan St 24 (postal: 570272, status: MAINTENANCE)
+- `B5D61113` Block 73 Ayer Rajah Crescent (postal: 139957, status: MAINTENANCE)
+- `B5D61120` FP2 - Fusionopolis Two (postal: 138634, status: MAINTENANCE)
+- `B5D61122` Block 30 Jalan Bahagia (postal: 320030, status: MAINTENANCE)
+- `B5D61127` Block 18 Jalan Tenteram (postal: 321018, status: MAINTENANCE)
+- `B5D61129` FP1 - Fusionopolis One (postal: 138632, status: MAINTENANCE)
+- `B5D61130` Block 5 Boon Keng Road (postal: 330005, status: UNKNOWN)
+- `B5D61131` Block 60 Geylang Bahru (postal: 330060, status: MAINTENANCE)
+
+Changed
+- `20254709485` Blk 501, Bedok North Street 3
+  - address: Blk 501, Bedok North Street 3, 460503 -> Blk 501, Bedok North Street 3, 460501
+  - latitude: 1.331915 -> 1.331711
+  - longitude: 103.930900 -> 103.931040
+  - postalCode: 460503 -> 460501
+</details>
+
+<details>
 <summary><b>2026-10-29</b> · 1,462 locations · +3</summary>
 
 - Snapshot size: **1462** locations
