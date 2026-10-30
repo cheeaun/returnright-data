@@ -28,6 +28,38 @@ Each day's entry below is collapsed by default — click a date to expand it. Th
 
 <!-- CHANGELOG:START -->
 <details>
+<summary><b>2026-10-31</b> · 1,473 locations · +7 · −4 · ±1</summary>
+
+- Snapshot size: **1473** locations
+- Added: **7**
+- Removed: **4**
+- Changed: **1**
+
+Added
+- `B5D61101` JTC AVIATION TWO @ SELETAR AEROSPACE PARK (postal: 797523, status: UNKNOWN)
+- `B5D61103` Block 269B Compassvale Link (postal: 542269, status: MAINTENANCE)
+- `B5D61107` Block 332C Anchorvale Link (postal: 543332, status: MAINTENANCE)
+- `B5D61112` Block 167 Bishan St 13 (postal: 570167, status: MAINTENANCE)
+- `B5D61116` Block 301A Anchorvale Drive (postal: 541301, status: UNKNOWN)
+- `B5D61118` Block 271C Sengkang Central (postal: 543271, status: UNKNOWN)
+- `B5D61128` Punggol Digital District, Punggol Coast Mall (postal: 829913, status: MAINTENANCE)
+
+Removed
+- `20254508916` FairPrice SingPost Centre (postal: 408600, status: offline)
+- `20254609065` Blk 406,Tampines Street 41 (postal: 520406, status: OFFLINE)
+- `B5DNANANA` ShengSiong Alkaff Lakeview (postal: 341115, status: offline)
+- `B5DNANANANA` ShengSiong Rivervale Mall (postal: 545082, status: offline)
+
+Changed
+- `SGRVM0496` 51 Soon Lee Road, MPH Event
+  - address: 27 Penjuru Walk, Singapore 608538, 608538 -> 51 Soon Lee Road, Singapore 628088, 628088
+  - latitude: 1.318531 -> 1.332814
+  - locationName: Penjuru Recreation Centre, 25th October Event Machine 2 -> 51 Soon Lee Road, MPH Event
+  - longitude: 103.732748 -> 103.699565
+  - postalCode: 608538 -> 628088
+</details>
+
+<details>
 <summary><b>2026-10-30</b> · 1,470 locations · +8 · ±1</summary>
 
 - Snapshot size: **1470** locations
